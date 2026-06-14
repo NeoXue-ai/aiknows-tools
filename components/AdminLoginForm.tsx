@@ -23,10 +23,11 @@ export function AdminLoginForm() {
       const supabase = createClient();
       const siteUrl =
         process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+      const next = "/admin";
       const { error } = await supabase.auth.signInWithOtp({
         email: email.trim(),
         options: {
-          emailRedirectTo: `${siteUrl}/admin`,
+          emailRedirectTo: `${siteUrl}/auth/callback?next=${encodeURIComponent(next)}`,
         },
       });
       if (error) {
