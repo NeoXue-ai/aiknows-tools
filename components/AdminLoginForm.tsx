@@ -8,6 +8,7 @@ import { Label } from "@/components/ui/label";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { createClient } from "@/lib/supabase/client";
+import { OAuthButton } from "./OAuthButton";
 
 export function AdminLoginForm() {
   const [email, setEmail] = useState("");
@@ -58,36 +59,52 @@ export function AdminLoginForm() {
   }
 
   return (
-    <form onSubmit={onSubmit} className="space-y-4">
-      <div className="space-y-2">
-        <Label htmlFor="email">Email</Label>
-        <Input
-          id="email"
-          name="email"
-          type="email"
-          required
-          autoComplete="email"
-          placeholder="you@company.com"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          disabled={sending}
-        />
-        <p className="text-xs text-muted-foreground">
-          We&apos;ll email you a one-time sign-in link.
-        </p>
+    <div className="space-y-6">
+      <div className="grid gap-3 sm:grid-cols-2">
+        <OAuthButton provider="google" />
+        <OAuthButton provider="github" />
       </div>
-      <button
-        type="submit"
-        disabled={sending}
-        className={cn(buttonVariants({ size: "lg" }), "w-full sm:w-auto")}
-      >
-        {sending ? (
-          <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-        ) : (
-          <Mail className="mr-2 h-4 w-4" />
-        )}
-        {sending ? "Sending…" : "Send login link"}
-      </button>
-    </form>
+
+      <div className="relative">
+        <div className="absolute inset-0 flex items-center">
+          <span className="w-full border-t" />
+        </div>
+        <div className="relative flex justify-center text-xs uppercase">
+          <span className="bg-background px-2 text-muted-foreground">or</span>
+        </div>
+      </div>
+
+      <form onSubmit={onSubmit} className="space-y-4">
+        <div className="space-y-2">
+          <Label htmlFor="email">Email</Label>
+          <Input
+            id="email"
+            name="email"
+            type="email"
+            required
+            autoComplete="email"
+            placeholder="you@company.com"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            disabled={sending}
+          />
+          <p className="text-xs text-muted-foreground">
+            We&apos;ll email you a one-time sign-in link.
+          </p>
+        </div>
+        <button
+          type="submit"
+          disabled={sending}
+          className={cn(buttonVariants({ size: "lg" }), "w-full sm:w-auto")}
+        >
+          {sending ? (
+            <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+          ) : (
+            <Mail className="mr-2 h-4 w-4" />
+          )}
+          {sending ? "Sending…" : "Send login link"}
+        </button>
+      </form>
+    </div>
   );
 }
