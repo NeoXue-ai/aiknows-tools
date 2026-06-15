@@ -9,8 +9,12 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { SignOutButton } from "@/components/SignOutButton";
 import { User } from "lucide-react";
+import { createClient } from "@/lib/supabase/client";
+import { useRouter } from "next/navigation";
+import { useState } from "react";
+import { LogOut } from "lucide-react";
+import { toast } from "sonner";
 
 interface UserMenuProps {
   email: string;
@@ -18,6 +22,29 @@ interface UserMenuProps {
 }
 
 export function UserMenu({ email, isAdmin }: UserMenuProps) {
+  const router = useRouter();
+  const [busy, setBusy] = useState(false);
+
+  async function onSignOut() {
+    setBusy(true);
+    try {
+      const supabase = createClient();
+      const { error } = await supabase.auth.signOut();
+      if (error) {
+        console.error("[signout]", error);
+        toast.error("Sign out failed. Please try again.");
+        return;
+      }
+      router.push("/");
+      router.refresh();
+    } catch (err) {
+      console.error("[signout] unexpected:", err);
+      toast.error("Sign out failed. Please try again.");
+    } finally {
+      setBusy(false);
+    }
+  }
+
   return (
     <DropdownMenu>
       <DropdownMenuTrigger className="hover:text-foreground/80 inline-flex items-center gap-1.5 text-sm">
@@ -32,17 +59,18 @@ export function UserMenu({ email, isAdmin }: UserMenuProps) {
           </div>
         </DropdownMenuLabel>
         <DropdownMenuSeparator />
-        <DropdownMenuItem asChild>
-          <Link href="/submit">Submit a tool</Link>
+        <DropdownMenuItem render={<Link href="/submit" />}>
+          Submit a tool
         </DropdownMenuItem>
         {isAdmin && (
-          <DropdownMenuItem asChild>
-            <Link href="/admin">Admin dashboard</Link>
+          <DropdownMenuItem render={<Link href="/admin" />}>
+            Admin dashboard
           </DropdownMenuItem>
         )}
         <DropdownMenuSeparator />
-        <DropdownMenuItem asChild>
-          <SignOutButton />
+        <DropdownMenuItem onClick={onSignOut} disabled={busy}>
+          <LogOut className="mr-2 h-4 w-4" />
+          {busy ? "Signing out…" : "Sign out"}
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
