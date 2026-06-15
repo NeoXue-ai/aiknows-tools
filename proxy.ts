@@ -6,6 +6,7 @@ import { createServerClient } from '@supabase/ssr'
 import { NextResponse, type NextRequest } from 'next/server'
 
 export async function proxy(request: NextRequest) {
+  // Build the request-mirroring response first; cookie adapter will mutate it.
   let response = NextResponse.next({ request })
 
   const supabase = createServerClient(
@@ -20,6 +21,8 @@ export async function proxy(request: NextRequest) {
           cookiesToSet.forEach(({ name, value }) =>
             request.cookies.set(name, value)
           )
+          // Rebuild the response so headers stay in sync with the (possibly updated) request,
+          // then copy the cookies onto it. This is the @supabase/ssr-recommended pattern.
           response = NextResponse.next({ request })
           cookiesToSet.forEach(({ name, value, options }) =>
             response.cookies.set(name, value, options)
@@ -29,13 +32,14 @@ export async function proxy(request: NextRequest) {
     }
   )
 
+  // getUser() validates the JWT and triggers a refresh if needed (which calls setAll).
   const { data: { user } } = await supabase.auth.getUser()
   const isAdmin =
     (user?.app_metadata?.admin as boolean | undefined) ?? false
 
   const { pathname } = request.nextUrl
 
-  // Protect /admin/* (but allow /admin/login if we add one)
+  // Protect /admin/* but allow the login page itself.
   if (pathname.startsWith('/admin') && pathname !== '/admin/login') {
     if (!user) {
       const loginUrl = new URL('/admin/login', request.url)
