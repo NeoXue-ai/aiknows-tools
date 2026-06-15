@@ -89,6 +89,14 @@ export async function POST(request: Request) {
   }
 
   const supabase = await createClient();
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) {
+    return NextResponse.json(
+      { error: "You must be signed in to submit a tool." },
+      { status: 401 }
+    );
+  }
+
   const { data, error } = await supabase
     .from("submissions")
     .insert({
@@ -100,6 +108,7 @@ export async function POST(request: Request) {
       submitter_email: submitterEmail,
       logo_url: logoUrl,
       screenshot_url: screenshotUrl,
+      user_id: user.id,
       status: "pending",
     })
     .select("id")

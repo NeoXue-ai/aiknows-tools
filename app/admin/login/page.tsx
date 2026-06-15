@@ -3,7 +3,14 @@ import { AdminLoginForm } from "@/components/AdminLoginForm";
 
 export const metadata = { title: "Admin login" };
 
-export default function AdminLoginPage() {
+export default async function AdminLoginPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ next?: string }>;
+}) {
+  const params = await searchParams;
+  const next = params.next && params.next.startsWith("/admin") ? params.next : "/admin";
+
   return (
     <div className="bg-muted/30 flex min-h-[calc(100vh-3.5rem)] items-center justify-center px-4 py-16">
       <div className="w-full max-w-md space-y-6">
@@ -13,12 +20,13 @@ export default function AdminLoginPage() {
           </div>
           <h1 className="text-2xl font-bold tracking-tight">Admin sign in</h1>
           <p className="mt-1 text-sm text-muted-foreground">
-            Use your admin email to receive a one-time login link.
+            Use your admin account to continue. Admin access is required to
+            publish, edit, or moderate content.
           </p>
         </div>
 
         <div className="rounded-lg border bg-card p-6 text-card-foreground shadow-sm">
-          <AdminLoginForm />
+          <AdminLoginForm next={next} />
         </div>
       </div>
     </div>

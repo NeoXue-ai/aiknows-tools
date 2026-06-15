@@ -10,7 +10,11 @@ import { cn } from "@/lib/utils";
 import { createClient } from "@/lib/supabase/client";
 import { OAuthButton } from "./OAuthButton";
 
-export function AdminLoginForm() {
+interface AdminLoginFormProps {
+  next?: string;
+}
+
+export function AdminLoginForm({ next = "/admin" }: AdminLoginFormProps) {
   const [email, setEmail] = useState("");
   const [sending, setSending] = useState(false);
   const [sent, setSent] = useState(false);
@@ -24,7 +28,6 @@ export function AdminLoginForm() {
       const supabase = createClient();
       const siteUrl =
         process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
-      const next = "/admin";
       const { error } = await supabase.auth.signInWithOtp({
         email: email.trim(),
         options: {
@@ -32,14 +35,14 @@ export function AdminLoginForm() {
         },
       });
       if (error) {
-        console.error("[admin/login] otp error:", error);
+        console.error("[login] otp error:", error);
         toast.error(error.message || "Could not send login link");
         return;
       }
       setSent(true);
       toast.success("Check your email for the login link");
     } catch (err) {
-      console.error("[admin/login] unexpected:", err);
+      console.error("[login] unexpected:", err);
       toast.error("Could not send login link");
     } finally {
       setSending(false);
@@ -52,7 +55,7 @@ export function AdminLoginForm() {
         <p className="font-medium">Check your email</p>
         <p className="mt-1 text-sm text-muted-foreground">
           We sent a magic link to <strong>{email}</strong>. Click it to sign in
-          to the admin dashboard. The link expires in 1 hour.
+          to aiknows.tools. The link expires in 1 hour.
         </p>
       </div>
     );
@@ -61,8 +64,8 @@ export function AdminLoginForm() {
   return (
     <div className="space-y-6">
       <div className="grid gap-3 sm:grid-cols-2">
-        <OAuthButton provider="google" />
-        <OAuthButton provider="github" />
+        <OAuthButton provider="google" next={next} />
+        <OAuthButton provider="github" next={next} />
       </div>
 
       <div className="relative">
@@ -83,7 +86,7 @@ export function AdminLoginForm() {
             type="email"
             required
             autoComplete="email"
-            placeholder="you@company.com"
+            placeholder="you@example.com"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             disabled={sending}
