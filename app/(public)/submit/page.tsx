@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { SubmitForm } from "@/components/SubmitForm";
 import type { Category } from "@/lib/supabase/types";
@@ -12,10 +13,16 @@ export const metadata: Metadata = {
 export const dynamic = "force-dynamic";
 
 export default async function SubmitPage() {
-  let categories: Category[] = [];
+  // Require sign-in. /api/submit also re-checks, but redirecting here gives
+  // a much better UX (the form is never shown to anonymous users).
+  const supabase = await createClient();
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) {
+    redirect("/login?next=/submit");
+  }
 
+  let categories: Category[] = [];
   try {
-    const supabase = await createClient();
     const { data, error } = await supabase
       .from("categories")
       .select("slug, name, description, display_order, created_at")

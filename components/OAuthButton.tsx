@@ -14,7 +14,12 @@ const labels: Record<Provider, string> = {
   github: "GitHub",
 };
 
-export function OAuthButton({ provider }: { provider: Provider }) {
+interface OAuthButtonProps {
+  provider: Provider;
+  next?: string;
+}
+
+export function OAuthButton({ provider, next = "/" }: OAuthButtonProps) {
   const [loading, setLoading] = useState(false);
 
   async function onClick() {
@@ -23,7 +28,6 @@ export function OAuthButton({ provider }: { provider: Provider }) {
       const supabase = createClient();
       const siteUrl =
         process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
-      const next = "/admin";
       const { error } = await supabase.auth.signInWithOAuth({
         provider,
         options: {
@@ -31,13 +35,13 @@ export function OAuthButton({ provider }: { provider: Provider }) {
         },
       });
       if (error) {
-        console.error(`[admin/login] ${provider} oauth error:`, error);
+        console.error(`[login] ${provider} oauth error:`, error);
         toast.error(error.message || `Could not start ${labels[provider]} sign-in`);
         setLoading(false);
       }
       // On success, Supabase navigates the window away — no need to reset state.
     } catch (err) {
-      console.error(`[admin/login] ${provider} unexpected:`, err);
+      console.error(`[login] ${provider} unexpected:`, err);
       toast.error(`Could not start ${labels[provider]} sign-in`);
       setLoading(false);
     }
@@ -64,7 +68,6 @@ export function OAuthButton({ provider }: { provider: Provider }) {
 }
 
 function ProviderIcon({ provider }: { provider: Provider }) {
-  // Inline SVGs to avoid adding an icon library dependency for two icons.
   if (provider === "google") {
     return (
       <svg
