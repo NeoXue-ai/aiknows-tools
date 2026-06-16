@@ -6,7 +6,7 @@ The path from "code on main" to "site serving DB-backed content". Do these in or
 
 - [x] Code pushed to `NeoXue-ai/aiknows-tools` (private) — `main` branch
 - [x] Vercel project created and linked to GitHub
-- [x] Initial production deploy succeeded at `https://aiknows-tools.vercel.app`
+- [x] Initial production deploy succeeded at `https://aiknows.tools`
 - [x] Supabase Cloud project created (`sbvsvrjbzjuxgcsulkvn`)
 - [x] Local `.env.local` populated with Supabase Cloud creds
 
@@ -61,8 +61,16 @@ In Vercel dashboard (or via CLI if you have a token):
 | --- | --- |
 | `NEXT_PUBLIC_SUPABASE_URL` | `https://sbvsvrjbzjuxgcsulkvn.supabase.co` |
 | `NEXT_PUBLIC_SUPABASE_ANON_KEY` | `sb_publishable_TzV387Rczx-I4lSrtkXQUg_YOFo3Hf4` |
-| `SUPABASE_SERVICE_ROLE_KEY` | `sb_secret_POO3dK0-4BzYJxaLwt4o-g_FnUumI3y` |
-| `NEXT_PUBLIC_SITE_URL` | `https://aiknows-tools.vercel.app` (or your custom domain later) |
+| `SUPABASE_SERVICE_ROLE_KEY` | `<rotate-and-set-in-vercel>` |
+| `AUTH_SECRET` | `<generate-strong-random-secret>` |
+| `AUTH_SESSION_DAYS` | `30` |
+| `GOOGLE_CLIENT_ID` | `<google-oauth-client-id>` |
+| `GOOGLE_CLIENT_SECRET` | `<google-oauth-client-secret>` |
+| `GITHUB_CLIENT_ID` | `<github-oauth-client-id>` |
+| `GITHUB_CLIENT_SECRET` | `<github-oauth-client-secret>` |
+| `NEXT_PUBLIC_SITE_URL` | `https://aiknows.tools` |
+
+Before deploying, rotate the Supabase service-role key if this runbook has ever been committed with a real value.
 
 **Optional but recommended:**
 
@@ -97,13 +105,13 @@ vercel deploy --prod --yes --token "$VERCEL_TOKEN" --scope "$VERCEL_SCOPE"
 
 ```bash
 # Should return 200 (homepage uses static data)
-curl -I https://aiknows-tools.vercel.app/
+curl -I https://aiknows.tools/
 
 # Should return 200 (now backed by Supabase)
-curl -I https://aiknows-tools.vercel.app/tools
-curl -I https://aiknows-tools.vercel.app/directories
-curl -I https://aiknows-tools.vercel.app/tools/jasper
-curl -I https://aiknows-tools.vercel.app/sitemap.xml
+curl -I https://aiknows.tools/tools
+curl -I https://aiknows.tools/directories
+curl -I https://aiknows.tools/tools/jasper
+curl -I https://aiknows.tools/sitemap.xml
 ```
 
 ## Step 6 — Custom domain (later)

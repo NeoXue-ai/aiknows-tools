@@ -1,5 +1,6 @@
 import { Sparkles } from "lucide-react";
 import { AdminLoginForm } from "@/components/AdminLoginForm";
+import { sanitizeNext } from "@/lib/auth/oauth";
 
 export const metadata = { title: "Admin login" };
 
@@ -9,7 +10,8 @@ export default async function AdminLoginPage({
   searchParams: Promise<{ next?: string }>;
 }) {
   const params = await searchParams;
-  const next = params.next && params.next.startsWith("/admin") ? params.next : "/admin";
+  const sanitizedNext = sanitizeNext(params.next);
+  const next = sanitizedNext.startsWith("/admin") ? sanitizedNext : "/admin";
 
   return (
     <div className="bg-muted/30 flex min-h-[calc(100vh-3.5rem)] items-center justify-center px-4 py-16">

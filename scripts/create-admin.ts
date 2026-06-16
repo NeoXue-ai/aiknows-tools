@@ -1,20 +1,14 @@
-/**
- * Create the first admin user.
- *
- * Usage: pnpm tsx --env-file=.env.local scripts/create-admin.ts <email>
- *
- * What it does:
- *   1. Creates a user in Supabase Auth (with email_confirm = true, no verification step)
- *   2. Sets app_metadata.admin = true so is_admin() returns true
- *
- * If the user already exists, it just updates app_metadata.
- */
-
 import { createClient } from "@supabase/supabase-js";
 
-const email = process.argv[2];
-if (!email) {
+const rawEmail = process.argv[2];
+if (!rawEmail) {
   console.error("Usage: pnpm tsx --env-file=.env.local scripts/create-admin.ts <email>");
+  process.exit(1);
+}
+
+const email = rawEmail.trim().toLowerCase();
+if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+  console.error("Please provide a valid email address.");
   process.exit(1);
 }
 
@@ -31,45 +25,27 @@ const supabase = createClient(url, serviceKey, {
 });
 
 async function main() {
-  // List existing users to check if this email is already there
-  const { data: list, error: listErr } = await supabase.auth.admin.listUsers();
-  if (listErr) {
-    console.error("listUsers error:", listErr);
+  const { data, error } = await supabase
+    .from("app_users")
+    .upsert(
+      {
+        email,
+        email_verified: true,
+        is_admin: true,
+      },
+      { onConflict: "email" }
+    )
+    .select("id, email, is_admin")
+    .single();
+
+  if (error || !data) {
+    console.error("upsert app_users error:", error);
     process.exit(1);
   }
-  const existing = list.users.find((u) => u.email?.toLowerCase() === email.toLowerCase());
 
-  if (existing) {
-    console.log(`[admin] user ${email} already exists (id: ${existing.id})`);
-    console.log("[admin] current app_metadata:", existing.app_metadata);
-    if (existing.app_metadata?.admin) {
-      console.log("[admin] already has admin flag. Done.");
-      return;
-    }
-    console.log("[admin] updating app_metadata.admin = true...");
-    const { error: updateErr } = await supabase.auth.admin.updateUserById(existing.id, {
-      app_metadata: { ...existing.app_metadata, admin: true },
-    });
-    if (updateErr) {
-      console.error("updateUserById error:", updateErr);
-      process.exit(1);
-    }
-    console.log("[admin] done. user is now an admin.");
-  } else {
-    console.log(`[admin] creating user ${email} with email_confirm=true, app_metadata.admin=true`);
-    const { data, error } = await supabase.auth.admin.createUser({
-      email,
-      email_confirm: true,
-      app_metadata: { admin: true },
-    });
-    if (error) {
-      console.error("createUser error:", error);
-      process.exit(1);
-    }
-    console.log(`[admin] created user id: ${data.user.id}`);
-    console.log(`[admin] ${email} is now an admin.`);
-    console.log(`[admin] next: visit /admin/login, enter ${email}, receive magic link.`);
-  }
+  console.log(`[admin] ${data.email} is now an admin.`);
+  console.log(`[admin] user id: ${data.id}`);
+  console.log("[admin] next: sign in with Google or GitHub using that verified email.");
 }
 
 main().catch((err) => {

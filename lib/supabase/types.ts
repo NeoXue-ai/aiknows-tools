@@ -60,6 +60,7 @@ export interface Directory {
 
 export interface Submission {
   id: string
+  user_id: string | null
   tool_name: string
   tool_url: string
   description: string | null
@@ -72,4 +73,44 @@ export interface Submission {
   rejection_reason: string | null
   reviewed_at: string | null
   created_at: string
+}
+
+export interface AppUser {
+  id: string
+  email: string
+  email_verified: boolean
+  name: string | null
+  avatar_url: string | null
+  is_admin: boolean
+  created_at: string
+  updated_at: string
+}
+
+export interface AppOAuthIdentity {
+  id: string
+  user_id: string
+  provider: 'google' | 'github'
+  provider_user_id: string
+  provider_email: string | null
+  provider_email_verified: boolean
+  created_at: string
+  updated_at: string
+}
+
+export interface AppSession {
+  id: string
+  user_id: string
+  token_hash: string
+  expires_at: string
+  created_at: string
+  last_seen_at: string | null
+  revoked_at: string | null
+}
+
+export interface SessionUser {
+  id: string
+  email: string
+  name: string | null
+  avatarUrl: string | null
+  isAdmin: boolean
 }

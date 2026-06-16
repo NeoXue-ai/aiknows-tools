@@ -1,5 +1,6 @@
 import { Sparkles } from "lucide-react";
 import { AdminLoginForm } from "@/components/AdminLoginForm";
+import { sanitizeNext } from "@/lib/auth/oauth";
 
 export const metadata = { title: "Sign in" };
 
@@ -9,9 +10,7 @@ export default async function LoginPage({
   searchParams: Promise<{ next?: string }>;
 }) {
   const params = await searchParams;
-  // Sanitize: only allow same-origin paths starting with /
-  const raw = params.next;
-  const next = raw && raw.startsWith("/") && !raw.startsWith("//") ? raw : "/";
+  const next = sanitizeNext(params.next);
 
   return (
     <div className="bg-muted/30 flex min-h-[calc(100vh-3.5rem)] items-center justify-center px-4 py-16">
