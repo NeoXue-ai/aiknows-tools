@@ -2,10 +2,8 @@
 
 import { useState } from "react";
 import { Loader2 } from "lucide-react";
-import { toast } from "sonner";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import { createClient } from "@/lib/supabase/client";
 
 type Provider = "google" | "github";
 
@@ -22,29 +20,11 @@ interface OAuthButtonProps {
 export function OAuthButton({ provider, next = "/" }: OAuthButtonProps) {
   const [loading, setLoading] = useState(false);
 
-  async function onClick() {
+  function onClick() {
     setLoading(true);
-    try {
-      const supabase = createClient();
-      const siteUrl =
-        process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
-      const { error } = await supabase.auth.signInWithOAuth({
-        provider,
-        options: {
-          redirectTo: `${siteUrl}/auth/callback?next=${encodeURIComponent(next)}`,
-        },
-      });
-      if (error) {
-        console.error(`[login] ${provider} oauth error:`, error);
-        toast.error(error.message || `Could not start ${labels[provider]} sign-in`);
-        setLoading(false);
-      }
-      // On success, Supabase navigates the window away — no need to reset state.
-    } catch (err) {
-      console.error(`[login] ${provider} unexpected:`, err);
-      toast.error(`Could not start ${labels[provider]} sign-in`);
-      setLoading(false);
-    }
+    window.location.assign(
+      `/auth/login/${provider}?next=${encodeURIComponent(next)}`
+    );
   }
 
   return (

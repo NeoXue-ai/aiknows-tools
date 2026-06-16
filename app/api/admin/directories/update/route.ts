@@ -1,39 +1,21 @@
-import { NextResponse } from "next/server";
+import { NextResponse, type NextRequest } from "next/server";
 import { revalidatePath, revalidateTag } from "next/cache";
-import { createClient as createSupabaseClient } from "@supabase/supabase-js";
-import { createClient } from "@/lib/supabase/server";
+import {
+  assertSameOriginRequest,
+  authErrorResponse,
+  requireAdmin,
+} from "@/lib/auth/session";
+import { createAdminClient } from "@/lib/supabase/admin";
 
 const ALLOWED_STATUS = ["active", "dead", "unknown"] as const;
 type DirectoryStatus = (typeof ALLOWED_STATUS)[number];
 
-async function requireAdmin(): Promise<
-  { ok: true } | { ok: false; status: number; message: string }
-> {
-  const supabase = await createClient();
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
-  if (!user) return { ok: false, status: 401, message: "Not authenticated" };
-  const isAdmin = (user.app_metadata?.admin as boolean | undefined) ?? false;
-  if (!isAdmin) return { ok: false, status: 401, message: "Not authorized" };
-  return { ok: true };
-}
-
-function getAdminClient() {
-  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
-  const serviceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
-  if (!url || !serviceKey) {
-    throw new Error("Supabase admin client is not configured");
-  }
-  return createSupabaseClient(url, serviceKey, {
-    auth: { persistSession: false },
-  });
-}
-
-export async function POST(request: Request) {
-  const auth = await requireAdmin();
-  if (!auth.ok) {
-    return NextResponse.json({ error: auth.message }, { status: auth.status });
+export async function POST(request: NextRequest) {
+  try {
+    assertSameOriginRequest(request);
+    await requireAdmin(request);
+  } catch (error) {
+    return authErrorResponse(error);
   }
 
   let body: Record<string, unknown>;
@@ -77,7 +59,7 @@ export async function POST(request: Request) {
 
   let admin;
   try {
-    admin = getAdminClient();
+    admin = createAdminClient();
   } catch (err) {
     console.error("[admin/directories/update] missing env:", err);
     return NextResponse.json(

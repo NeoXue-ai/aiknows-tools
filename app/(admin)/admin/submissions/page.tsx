@@ -1,4 +1,4 @@
-import { createClient } from "@/lib/supabase/server";
+import { createAdminClient } from "@/lib/supabase/admin";
 import { AdminReviewQueue } from "@/components/AdminReviewQueue";
 import type { Category, Submission } from "@/lib/supabase/types";
 
@@ -6,7 +6,7 @@ export const dynamic = "force-dynamic";
 export const metadata = { title: "Submissions | Admin" };
 
 export default async function AdminSubmissionsPage() {
-  const supabase = await createClient();
+  const supabase = createAdminClient();
 
   const [{ data: pendingData, error: pendingError }, { data: categoryData }] =
     await Promise.all([

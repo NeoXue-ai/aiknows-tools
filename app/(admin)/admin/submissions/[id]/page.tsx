@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
-import { createClient } from "@/lib/supabase/server";
+import { createAdminClient } from "@/lib/supabase/admin";
 import {
   Card,
   CardContent,
@@ -24,7 +24,7 @@ export default async function AdminSubmissionDetailPage({
 }) {
   const { id } = await params;
 
-  const supabase = await createClient();
+  const supabase = createAdminClient();
   const { data, error } = await supabase
     .from("submissions")
     .select("*")

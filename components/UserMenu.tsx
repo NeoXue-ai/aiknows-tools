@@ -10,7 +10,6 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { User } from "lucide-react";
-import { createClient } from "@/lib/supabase/client";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { LogOut } from "lucide-react";
@@ -28,10 +27,9 @@ export function UserMenu({ email, isAdmin }: UserMenuProps) {
   async function onSignOut() {
     setBusy(true);
     try {
-      const supabase = createClient();
-      const { error } = await supabase.auth.signOut();
-      if (error) {
-        console.error("[signout]", error);
+      const response = await fetch("/auth/logout", { method: "POST" });
+      if (!response.ok) {
+        console.error("[signout]", await response.text());
         toast.error("Sign out failed. Please try again.");
         return;
       }
