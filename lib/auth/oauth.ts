@@ -51,7 +51,7 @@ export function sanitizeNext(rawNext: string | null | undefined) {
 }
 
 function getAuthSecret() {
-  const secret = process.env.AUTH_SECRET;
+  const secret = process.env.AUTH_SECRET?.trim();
   if (!secret || secret.length < 32) {
     throw new Error("AUTH_SECRET must be at least 32 characters");
   }
@@ -59,13 +59,13 @@ function getAuthSecret() {
 }
 
 function getSiteUrl(origin: string) {
-  return (process.env.NEXT_PUBLIC_SITE_URL ?? origin).replace(/\/$/, "");
+  return (process.env.NEXT_PUBLIC_SITE_URL?.trim() ?? origin).replace(/\/$/, "");
 }
 
 function getProviderConfig(provider: OAuthProvider): ProviderConfig {
   if (provider === "google") {
-    const clientId = process.env.GOOGLE_CLIENT_ID;
-    const clientSecret = process.env.GOOGLE_CLIENT_SECRET;
+    const clientId = process.env.GOOGLE_CLIENT_ID?.trim();
+    const clientSecret = process.env.GOOGLE_CLIENT_SECRET?.trim();
     if (!clientId || !clientSecret) {
       throw new Error("Google OAuth is not configured");
     }
@@ -79,8 +79,8 @@ function getProviderConfig(provider: OAuthProvider): ProviderConfig {
     };
   }
 
-  const clientId = process.env.GITHUB_CLIENT_ID;
-  const clientSecret = process.env.GITHUB_CLIENT_SECRET;
+  const clientId = process.env.GITHUB_CLIENT_ID?.trim();
+  const clientSecret = process.env.GITHUB_CLIENT_SECRET?.trim();
   if (!clientId || !clientSecret) {
     throw new Error("GitHub OAuth is not configured");
   }
