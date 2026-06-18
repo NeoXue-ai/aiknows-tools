@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { createClient } from "@/lib/supabase/server";
+import { createAdminClient } from "@/lib/supabase/admin";
 import {
   Table,
   TableBody,
@@ -17,7 +17,7 @@ export const dynamic = "force-dynamic";
 export const metadata = { title: "Directories | Admin" };
 
 export default async function AdminDirectoriesPage() {
-  const supabase = await createClient();
+  const supabase = createAdminClient();
 
   const { data, error } = await supabase
     .from("directories")

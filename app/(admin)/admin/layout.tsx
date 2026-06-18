@@ -1,7 +1,7 @@
 import { redirect } from "next/navigation";
 import Link from "next/link";
 import { LayoutDashboard, Inbox, Wrench, FolderTree } from "lucide-react";
-import { createClient } from "@/lib/supabase/server";
+import { AuthError, requireAdmin } from "@/lib/auth/session";
 import { Separator } from "@/components/ui/separator";
 import { cn } from "@/lib/utils";
 import { SignOutButton } from "@/components/SignOutButton";
@@ -18,18 +18,13 @@ export default async function AdminLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const supabase = await createClient();
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
-
-  if (!user) {
-    redirect("/admin/login");
-  }
-
-  const isAdmin =
-    (user.app_metadata?.admin as boolean | undefined) ?? false;
-  if (!isAdmin) {
+  let user;
+  try {
+    user = await requireAdmin();
+  } catch (error) {
+    if (error instanceof AuthError && error.status === 401) {
+      redirect("/admin/login?next=/admin");
+    }
     redirect("/");
   }
 

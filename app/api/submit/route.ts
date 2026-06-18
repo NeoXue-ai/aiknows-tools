@@ -1,6 +1,11 @@
-import { NextResponse } from "next/server";
-import { createClient } from "@/lib/supabase/server";
+import { NextResponse, type NextRequest } from "next/server";
+import {
+  assertSameOriginRequest,
+  authErrorResponse,
+  requireUser,
+} from "@/lib/auth/session";
 import { notifyAdminOfSubmission } from "@/lib/email";
+import { createAdminClient } from "@/lib/supabase/admin";
 import type { PricingType, Submission } from "@/lib/supabase/types";
 
 const PRICING_VALUES: PricingType[] = ["free", "freemium", "paid", "enterprise"];
@@ -32,7 +37,15 @@ function isValidUrl(value: string): boolean {
   }
 }
 
-export async function POST(request: Request) {
+export async function POST(request: NextRequest) {
+  let user: Awaited<ReturnType<typeof requireUser>>;
+  try {
+    assertSameOriginRequest(request);
+    user = await requireUser(request);
+  } catch (error) {
+    return authErrorResponse(error);
+  }
+
   let body: SubmitPayload;
   try {
     body = (await request.json()) as SubmitPayload;
@@ -88,16 +101,8 @@ export async function POST(request: Request) {
     );
   }
 
-  const supabase = await createClient();
-  const { data: { user } } = await supabase.auth.getUser();
-  if (!user) {
-    return NextResponse.json(
-      { error: "You must be signed in to submit a tool." },
-      { status: 401 }
-    );
-  }
-
-  const { data, error } = await supabase
+  const admin = createAdminClient();
+  const { data, error } = await admin
     .from("submissions")
     .insert({
       tool_name: toolName,

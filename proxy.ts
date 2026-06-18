@@ -1,59 +1,22 @@
-// Next.js 16: middleware → proxy (renamed convention).
-// Protects /admin/* — requires authenticated Supabase user with app_metadata.admin = true.
-// Refreshes session cookies so downstream Server Components see a valid session.
+import { NextResponse, type NextRequest } from "next/server";
 
-import { createServerClient } from '@supabase/ssr'
-import { NextResponse, type NextRequest } from 'next/server'
+const SESSION_COOKIE_NAME = "__Host-aiknows_session";
 
-export async function proxy(request: NextRequest) {
-  // Build the request-mirroring response first; cookie adapter will mutate it.
-  let response = NextResponse.next({ request })
+export function proxy(request: NextRequest) {
+  const { pathname } = request.nextUrl;
 
-  const supabase = createServerClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
-    {
-      cookies: {
-        getAll() {
-          return request.cookies.getAll()
-        },
-        setAll(cookiesToSet) {
-          cookiesToSet.forEach(({ name, value }) =>
-            request.cookies.set(name, value)
-          )
-          // Rebuild the response so headers stay in sync with the (possibly updated) request,
-          // then copy the cookies onto it. This is the @supabase/ssr-recommended pattern.
-          response = NextResponse.next({ request })
-          cookiesToSet.forEach(({ name, value, options }) =>
-            response.cookies.set(name, value, options)
-          )
-        },
-      },
-    }
-  )
-
-  // getUser() validates the JWT and triggers a refresh if needed (which calls setAll).
-  const { data: { user } } = await supabase.auth.getUser()
-  const isAdmin =
-    (user?.app_metadata?.admin as boolean | undefined) ?? false
-
-  const { pathname } = request.nextUrl
-
-  // Protect /admin/* but allow the login page itself.
-  if (pathname.startsWith('/admin') && pathname !== '/admin/login') {
-    if (!user) {
-      const loginUrl = new URL('/admin/login', request.url)
-      loginUrl.searchParams.set('next', pathname)
-      return NextResponse.redirect(loginUrl)
-    }
-    if (!isAdmin) {
-      return NextResponse.redirect(new URL('/', request.url))
+  if (pathname.startsWith("/admin") && pathname !== "/admin/login") {
+    const hasSession = Boolean(request.cookies.get(SESSION_COOKIE_NAME)?.value);
+    if (!hasSession) {
+      const loginUrl = new URL("/admin/login", request.url);
+      loginUrl.searchParams.set("next", pathname);
+      return NextResponse.redirect(loginUrl);
     }
   }
 
-  return response
+  return NextResponse.next();
 }
 
 export const config = {
-  matcher: ['/admin/:path*'],
-}
+  matcher: ["/admin/:path*"],
+};
