@@ -1,19 +1,17 @@
 import Link from "next/link";
 import { Sparkles } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
-import { createClient } from "@/lib/supabase/server";
 import { UserMenu } from "@/components/UserMenu";
+import { getCurrentUser } from "@/lib/auth/session";
 
 export async function Header() {
   let userEmail: string | null = null;
   let isAdmin = false;
   try {
-    const supabase = await createClient();
-    const { data } = await supabase.auth.getUser();
-    userEmail = data.user?.email ?? null;
-    isAdmin = Boolean(data.user?.app_metadata?.admin);
+    const user = await getCurrentUser();
+    userEmail = user?.email ?? null;
+    isAdmin = user?.isAdmin ?? false;
   } catch {
-    // If session check fails, render logged-out state.
   }
 
   return (

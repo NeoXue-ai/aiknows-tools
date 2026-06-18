@@ -4,7 +4,6 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { LogOut } from "lucide-react";
 import { toast } from "sonner";
-import { createClient } from "@/lib/supabase/client";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -15,10 +14,9 @@ export function SignOutButton() {
   async function onClick() {
     setBusy(true);
     try {
-      const supabase = createClient();
-      const { error } = await supabase.auth.signOut();
-      if (error) {
-        console.error("[signout]", error);
+      const response = await fetch("/auth/logout", { method: "POST" });
+      if (!response.ok) {
+        console.error("[signout]", await response.text());
         toast.error("Sign out failed. Please try again.");
         return;
       }

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { createClient } from "@/lib/supabase/server";
+import { createAdminClient } from "@/lib/supabase/admin";
 import {
   Table,
   TableBody,
@@ -17,7 +17,7 @@ export const dynamic = "force-dynamic";
 export const metadata = { title: "Tools | Admin" };
 
 export default async function AdminToolsPage() {
-  const supabase = await createClient();
+  const supabase = createAdminClient();
 
   const [{ data: toolsData, error: toolsError }, { data: categoriesData }] =
     await Promise.all([
