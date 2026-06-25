@@ -57,6 +57,7 @@ export function ToolCard({ tool }: { tool: Tool }) {
         <CardContent className="flex items-center justify-between gap-2">
           <CategoryPill
             category={{ slug: tool.primary_category, name: categoryName(tool.primary_category) }}
+            asLink={false}
           />
           {tool.pricing_type ? (
             <Badge variant="outline" className="text-xs font-normal">
