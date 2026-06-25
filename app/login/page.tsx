@@ -1,4 +1,4 @@
-import { Sparkles } from "lucide-react";
+import Image from "next/image";
 import { AdminLoginForm } from "@/components/AdminLoginForm";
 import { sanitizeNext } from "@/lib/auth/oauth";
 
@@ -16,8 +16,8 @@ export default async function LoginPage({
     <div className="bg-muted/30 flex min-h-[calc(100vh-3.5rem)] items-center justify-center px-4 py-16">
       <div className="w-full max-w-md space-y-6">
         <div className="text-center">
-          <div className="mx-auto mb-3 inline-flex h-10 w-10 items-center justify-center rounded-full bg-primary/10 text-primary">
-            <Sparkles className="h-5 w-5" />
+          <div className="mx-auto mb-3">
+            <Image src="/logo.png" alt="aiknows.tools" width={40} height={40} className="dark:invert" />
           </div>
           <h1 className="text-2xl font-bold tracking-tight">Sign in to aiknows.tools</h1>
           <p className="mt-1 text-sm text-muted-foreground">
