@@ -18,7 +18,7 @@ export async function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex h-14 max-w-6xl items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-1 font-semibold">
-          <Image src="/logo.png" alt="aiknows.tools" width={40} height={40} className="dark:invert" />
+          <Image src="/logo.png" alt="aiknows.tools" width={40} height={40} />
           <span className="text-xl">aiknows.tools</span>
         </Link>
         <nav className="flex items-center gap-6 text-sm">
