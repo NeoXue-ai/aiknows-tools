@@ -5,6 +5,12 @@ const nextConfig: NextConfig = {
   turbopack: {
     root: __dirname,
   },
+  // Cloudflare Pages compatibility
+  experimental: {
+    serverActions: {
+      allowedOrigins: ["aiknows-tools.pages.dev", "aiknows.tools"],
+    },
+  },
 };
 
 export default nextConfig;
