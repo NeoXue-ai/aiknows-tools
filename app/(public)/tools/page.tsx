@@ -4,7 +4,7 @@ import { buttonVariants } from "@/components/ui/button";
 import { ToolGrid } from "@/components/ToolGrid";
 import { CATEGORIES, categoryName } from "@/lib/seo/tool-schema";
 import { cn } from "@/lib/utils";
-import toolsData from "@/data/tools.json";
+import { toolsData } from "@/lib/tools-data";
 import type { Tool } from "@/lib/supabase/types";
 
 const TOOLS = toolsData as unknown as Tool[];

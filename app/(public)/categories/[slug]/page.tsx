@@ -8,7 +8,7 @@ import {
   CATEGORIES,
   directoryItemListJsonLd,
 } from "@/lib/seo/tool-schema";
-import toolsData from "@/data/tools.json";
+import { toolsData } from "@/lib/tools-data";
 import type { Tool } from "@/lib/supabase/types";
 
 const TOOLS = toolsData as unknown as Tool[];
