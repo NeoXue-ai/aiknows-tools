@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { ExternalLink } from "lucide-react";
 import {
   Card,
@@ -19,8 +20,25 @@ const PRICING_LABEL: Record<NonNullable<Tool["pricing_type"]>, string> = {
   enterprise: "Enterprise",
 };
 
-function LogoPlaceholder({ name }: { name: string }) {
+function ToolLogo({ name, logoUrl }: { name: string; logoUrl?: string | null }) {
   const letter = name.trim().charAt(0).toUpperCase() || "?";
+
+  if (logoUrl) {
+    return (
+      <div className="relative h-10 w-10 shrink-0 overflow-hidden rounded-md border border-border">
+        <Image
+          src={logoUrl}
+          alt={`${name} logo`}
+          fill
+          className="object-contain p-1"
+          onError={(e) => {
+            e.currentTarget.style.display = "none";
+          }}
+        />
+      </div>
+    );
+  }
+
   return (
     <div
       aria-hidden
@@ -40,7 +58,7 @@ export function ToolCard({ tool }: { tool: Tool }) {
       <Card className="h-full transition-all group-hover:border-primary/50 group-hover:shadow-md">
         <CardHeader>
           <div className="flex items-start gap-3">
-            <LogoPlaceholder name={tool.name} />
+            <ToolLogo name={tool.name} logoUrl={tool.logo_url} />
             <div className="min-w-0 flex-1">
               <CardTitle className="flex items-center gap-1.5">
                 <span className="truncate">{tool.name}</span>
