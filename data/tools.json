@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "generatedAt": "2026-06-27T10:14:28.384Z",
-  "totalTools": 136,
+  "totalTools": 118,
   "sources": [
     "Turbo0",
     "ShowMeBest",
@@ -151,25 +151,6 @@
       "is_featured": false,
       "is_verified": false,
       "source": "Turbo0"
-    },
-    {
-      "slug": "seedance-20",
-      "name": "Seedance 2.0",
-      "tagline": "Seedance 2.0 is a free AI video generator for cinematic 1080p videos from text prompts and images, b",
-      "description": "Seedance 2.0 is a free AI video generator for cinematic 1080p videos from text prompts and images, built for creators and teams.",
-      "url": "https://x.com/toolfame",
-      "logo_url": "https://www.google.com/s2/favicons?domain=x.com&sz=64",
-      "primary_category": "writing-content",
-      "tags": [
-        "ai",
-        "enterprise",
-        "open-source"
-      ],
-      "pricing_type": "free",
-      "pricing_detail": "Free",
-      "is_featured": false,
-      "is_verified": false,
-      "source": "ToolFame"
     },
     {
       "slug": "free-barcode-generator-online",
@@ -623,60 +604,6 @@
       "source": "Wired Business"
     },
     {
-      "slug": "hey-noah",
-      "name": "Hey Noah",
-      "tagline": "Noah is a proactive AI executive assistant for founders. It runs your calendar, relationships, and f",
-      "description": "Noah is a proactive AI executive assistant for founders. It runs your calendar, relationships, and follow-ups over SMS, email, and WhatsApp, so nothing slips.",
-      "url": "https://x.com/toolfame",
-      "logo_url": "https://www.google.com/s2/favicons?domain=x.com&sz=64",
-      "primary_category": "writing-content",
-      "tags": [
-        "ai",
-        "startup",
-        "mobile"
-      ],
-      "pricing_type": "freemium",
-      "pricing_detail": "",
-      "is_featured": false,
-      "is_verified": false,
-      "source": "ToolFame"
-    },
-    {
-      "slug": "data-hit-tools",
-      "name": "DATA HIT Tools",
-      "tagline": "Free Google Analytics 4, Search Console, Google SERP, and AI-engine mention visualisations. Plus an ",
-      "description": "Free Google Analytics 4, Search Console, Google SERP, and AI-engine mention visualisations. Plus an optional Pro tier with weekly tracking.",
-      "url": "https://x.com/toolfame",
-      "logo_url": "https://www.google.com/s2/favicons?domain=x.com&sz=64",
-      "primary_category": "seo-marketing",
-      "tags": [
-        "ai",
-        "open-source"
-      ],
-      "pricing_type": "free",
-      "pricing_detail": "Free",
-      "is_featured": false,
-      "is_verified": false,
-      "source": "ToolFame"
-    },
-    {
-      "slug": "ustack",
-      "name": "UStack",
-      "tagline": "UStack curates and updates a multilingual directory daily to help you discover and compare the best ",
-      "description": "UStack curates and updates a multilingual directory daily to help you discover and compare the best tech products.",
-      "url": "https://x.com/toolfame",
-      "logo_url": "https://www.google.com/s2/favicons?domain=x.com&sz=64",
-      "primary_category": "ecommerce-sales",
-      "tags": [
-        "ai"
-      ],
-      "pricing_type": "freemium",
-      "pricing_detail": "",
-      "is_featured": false,
-      "is_verified": false,
-      "source": "ToolFame"
-    },
-    {
       "slug": "velprove",
       "name": "Velprove",
       "tagline": "Velprove offers advanced uptime monitoring that goes beyond simple pings, logging in like a real use",
@@ -684,41 +611,6 @@
       "url": "https://velprove.com/",
       "logo_url": "https://www.google.com/s2/favicons?domain=velprove.com&sz=64",
       "primary_category": "productivity",
-      "tags": [
-        "ai"
-      ],
-      "pricing_type": "freemium",
-      "pricing_detail": "",
-      "is_featured": false,
-      "is_verified": false,
-      "source": "ToolFame"
-    },
-    {
-      "slug": "animegenerator",
-      "name": "AnimeGenerator",
-      "tagline": "Generate AI anime images, videos, and comics instantly with powerful AI tools. Create anime-style ch",
-      "description": "Generate AI anime images, videos, and comics instantly with powerful AI tools. Create anime-style characters, scenes, animations, and storyboard conte...",
-      "url": "https://x.com/toolfame",
-      "logo_url": "https://www.google.com/s2/favicons?domain=x.com&sz=64",
-      "primary_category": "image-video",
-      "tags": [
-        "ai",
-        "real-time"
-      ],
-      "pricing_type": "freemium",
-      "pricing_detail": "",
-      "is_featured": false,
-      "is_verified": false,
-      "source": "ToolFame"
-    },
-    {
-      "slug": "veo-4",
-      "name": "Veo 4",
-      "tagline": "Create cinematic AI videos with Veo 4. Combine text, images, video, and audio to generate multi-shot",
-      "description": "Create cinematic AI videos with Veo 4. Combine text, images, video, and audio to generate multi-shot stories with native audio and consistent characters.",
-      "url": "https://x.com/toolfame",
-      "logo_url": "https://www.google.com/s2/favicons?domain=x.com&sz=64",
-      "primary_category": "writing-content",
       "tags": [
         "ai"
       ],
@@ -737,78 +629,6 @@
       "logo_url": "https://www.google.com/s2/favicons?domain=hyhor.com&sz=64",
       "primary_category": "image-video",
       "tags": [
-        "open-source",
-        "real-time"
-      ],
-      "pricing_type": "free",
-      "pricing_detail": "Free",
-      "is_featured": false,
-      "is_verified": false,
-      "source": "ToolFame"
-    },
-    {
-      "slug": "fokal",
-      "name": "Fokal",
-      "tagline": "Rank Higher on Google & AI. Get found. Faster. For less.\n\nTrusted by 200+ Founders and Small Busines",
-      "description": "Rank Higher on Google & AI. Get found. Faster. For less.\n\nTrusted by 200+ Founders and Small Businesses",
-      "url": "https://x.com/toolfame",
-      "logo_url": "https://www.google.com/s2/favicons?domain=x.com&sz=64",
-      "primary_category": "business-analytics",
-      "tags": [
-        "ai",
-        "enterprise",
-        "startup"
-      ],
-      "pricing_type": "freemium",
-      "pricing_detail": "",
-      "is_featured": false,
-      "is_verified": false,
-      "source": "ToolFame"
-    },
-    {
-      "slug": "mytearadar",
-      "name": "MyTeaRadar",
-      "tagline": "Search your name or phone number to see if you appear in the Tea app before your next date looks you",
-      "description": "Search your name or phone number to see if you appear in the Tea app before your next date looks you up first.",
-      "url": "https://x.com/toolfame",
-      "logo_url": "https://www.google.com/s2/favicons?domain=x.com&sz=64",
-      "primary_category": "research-data",
-      "tags": [
-        "mobile"
-      ],
-      "pricing_type": "freemium",
-      "pricing_detail": "",
-      "is_featured": false,
-      "is_verified": false,
-      "source": "ToolFame"
-    },
-    {
-      "slug": "resize-image-for-instagram",
-      "name": "Resize Image for Instagram",
-      "tagline": "Resize photos for Instagram posts, Stories, Reels, and profiles online. Free, browser-local no-crop ",
-      "description": "Resize photos for Instagram posts, Stories, Reels, and profiles online. Free, browser-local no-crop presets with fast PNG downloads.",
-      "url": "https://x.com/toolfame",
-      "logo_url": "https://www.google.com/s2/favicons?domain=x.com&sz=64",
-      "primary_category": "seo-marketing",
-      "tags": [
-        "open-source"
-      ],
-      "pricing_type": "free",
-      "pricing_detail": "Free",
-      "is_featured": false,
-      "is_verified": false,
-      "source": "ToolFame"
-    },
-    {
-      "slug": "youtube-thumbnail-downloader",
-      "name": "YouTube Thumbnail Downloader",
-      "tagline": "Download YouTube thumbnails in HD, Full HD, and high quality instantly with AI Ytgrabber’s free and ",
-      "description": "Download YouTube thumbnails in HD, Full HD, and high quality instantly with AI Ytgrabber’s free and easy online thumbnail downloader.",
-      "url": "https://x.com/toolfame",
-      "logo_url": "https://www.google.com/s2/favicons?domain=x.com&sz=64",
-      "primary_category": "productivity",
-      "tags": [
-        "ai",
         "open-source",
         "real-time"
       ],
@@ -839,125 +659,6 @@
       "source": "Findly Tools"
     },
     {
-      "slug": "rizetrade",
-      "name": "RizeTrade",
-      "tagline": "RizeTrade is a trading journal and analytics platform for active day traders. It tracks the cost of ",
-      "description": "RizeTrade is a trading journal and analytics platform for active day traders. It tracks the cost of emotional trading and lack of discipline for traders.",
-      "url": "https://x.com/toolfame",
-      "logo_url": "https://www.google.com/s2/favicons?domain=x.com&sz=64",
-      "primary_category": "seo-marketing",
-      "tags": [],
-      "pricing_type": "freemium",
-      "pricing_detail": "",
-      "is_featured": false,
-      "is_verified": false,
-      "source": "ToolFame"
-    },
-    {
-      "slug": "accbill",
-      "name": "AccBill",
-      "tagline": "AccBill is made for the moment when you need to send a proper invoice, but setting up full accountin",
-      "description": "AccBill is made for the moment when you need to send a proper invoice, but setting up full accounting software feels like too much.",
-      "url": "https://x.com/toolfame",
-      "logo_url": "https://www.google.com/s2/favicons?domain=x.com&sz=64",
-      "primary_category": "image-video",
-      "tags": [],
-      "pricing_type": "freemium",
-      "pricing_detail": "",
-      "is_featured": false,
-      "is_verified": false,
-      "source": "ToolFame"
-    },
-    {
-      "slug": "gemini-watermark-remover",
-      "name": "Gemini Watermark Remover",
-      "tagline": "Remove Gemini watermarks from AI images in your browser. Free to start, no image uploads, fast PNG/J",
-      "description": "Remove Gemini watermarks from AI images in your browser. Free to start, no image uploads, fast PNG/JPG/WEBP watermark removal.",
-      "url": "https://x.com/toolfame",
-      "logo_url": "https://www.google.com/s2/favicons?domain=x.com&sz=64",
-      "primary_category": "seo-marketing",
-      "tags": [
-        "ai",
-        "open-source"
-      ],
-      "pricing_type": "free",
-      "pricing_detail": "Free",
-      "is_featured": false,
-      "is_verified": false,
-      "source": "ToolFame"
-    },
-    {
-      "slug": "whereisthisplaceio",
-      "name": "WhereIsThisPlace.io",
-      "tagline": "Have you ever wondered where was this photo taken? Find any photo location instantly using advanced ",
-      "description": "Have you ever wondered where was this photo taken? Find any photo location instantly using advanced AI geographic analysis.",
-      "url": "https://x.com/toolfame",
-      "logo_url": "https://www.google.com/s2/favicons?domain=x.com&sz=64",
-      "primary_category": "image-video",
-      "tags": [
-        "ai",
-        "real-time"
-      ],
-      "pricing_type": "freemium",
-      "pricing_detail": "",
-      "is_featured": false,
-      "is_verified": false,
-      "source": "ToolFame"
-    },
-    {
-      "slug": "lyrics-to-song",
-      "name": "Lyrics to Song",
-      "tagline": "Lyrics to Song instantly transforms your words into professional music. Create custom songs with AI ",
-      "description": "Lyrics to Song instantly transforms your words into professional music. Create custom songs with AI in 30 seconds",
-      "url": "https://x.com/toolfame",
-      "logo_url": "https://www.google.com/s2/favicons?domain=x.com&sz=64",
-      "primary_category": "image-video",
-      "tags": [
-        "ai",
-        "real-time"
-      ],
-      "pricing_type": "freemium",
-      "pricing_detail": "",
-      "is_featured": false,
-      "is_verified": false,
-      "source": "ToolFame"
-    },
-    {
-      "slug": "whisper-ai",
-      "name": "Whisper AI",
-      "tagline": "Whisper AI is a speech to text and voice to text Chrome extension for fast AI voice typing. Convert ",
-      "description": "Whisper AI is a speech to text and voice to text Chrome extension for fast AI voice typing. Convert audio to text, capture transcripts and voice notes...",
-      "url": "https://x.com/toolfame",
-      "logo_url": "https://www.google.com/s2/favicons?domain=x.com&sz=64",
-      "primary_category": "writing-content",
-      "tags": [
-        "ai"
-      ],
-      "pricing_type": "freemium",
-      "pricing_detail": "",
-      "is_featured": false,
-      "is_verified": false,
-      "source": "ToolFame"
-    },
-    {
-      "slug": "clint",
-      "name": "Clint",
-      "tagline": "Clint - AI-powered expense manager and subscription tracker that simplifies your finances with autom",
-      "description": "Clint - AI-powered expense manager and subscription tracker that simplifies your finances with automatic invoice scanning. Start optimizing your spending today!",
-      "url": "https://x.com/toolfame",
-      "logo_url": "https://www.google.com/s2/favicons?domain=x.com&sz=64",
-      "primary_category": "image-video",
-      "tags": [
-        "ai",
-        "automation"
-      ],
-      "pricing_type": "paid",
-      "pricing_detail": "",
-      "is_featured": false,
-      "is_verified": false,
-      "source": "ToolFame"
-    },
-    {
       "slug": "ai-exporter",
       "name": "AI Exporter",
       "tagline": "AI Exporter is the ultimate AI chat saver—export Gemini, Claude, ChatGPT to PDF, Docs, MD, or sync c",
@@ -982,21 +683,6 @@
       "url": "https://holidaycalendar.org",
       "logo_url": "https://www.google.com/s2/favicons?domain=holidaycalendar.org&sz=64",
       "primary_category": "productivity",
-      "tags": [],
-      "pricing_type": "freemium",
-      "pricing_detail": "",
-      "is_featured": false,
-      "is_verified": false,
-      "source": "ToolFame"
-    },
-    {
-      "slug": "how-much-does-it-cost",
-      "name": "How Much Does It Cost?",
-      "tagline": "Chrome extension that auto-detects prices on any site and shows what they really mean — in your curr",
-      "description": "Chrome extension that auto-detects prices on any site and shows what they really mean — in your currency, local costs, and hours of work. No tracking.",
-      "url": "https://x.com/toolfame",
-      "logo_url": "https://www.google.com/s2/favicons?domain=x.com&sz=64",
-      "primary_category": "business-analytics",
       "tags": [],
       "pricing_type": "freemium",
       "pricing_detail": "",
