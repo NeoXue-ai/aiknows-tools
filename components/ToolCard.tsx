@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { ExternalLink } from "lucide-react";
 import {
   Card,
@@ -29,12 +28,11 @@ function ToolLogo({ name, logoUrl }: { name: string; logoUrl?: string | null }) 
 
   if (logoUrl && !imgError) {
     return (
-      <div className="relative h-10 w-10 shrink-0 overflow-hidden rounded-md border border-border">
-        <Image
+      <div className="relative h-10 w-10 shrink-0 overflow-hidden rounded-md border border-border bg-white">
+        <img
           src={logoUrl}
           alt={`${name} logo`}
-          fill
-          className="object-contain p-1"
+          className="h-full w-full object-contain p-1"
           onError={() => setImgError(true)}
         />
       </div>
