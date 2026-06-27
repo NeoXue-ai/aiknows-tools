@@ -13,11 +13,8 @@ import { ToolCard } from "@/components/ToolCard";
 import { cn } from "@/lib/utils";
 import { CATEGORIES } from "@/lib/seo/tool-schema";
 import type { Tool, Directory } from "@/lib/supabase/types";
-
+import { toolsData } from "@/lib/tools-data";
 import directoriesData from "@/data/directories.json";
-
-// Handle both old format (array) and new format (object with tools array)
-
 
 const TOOLS_SEED = toolsData as Array<Omit<Tool, "id" | "tags" | "is_featured" | "is_verified" | "status" | "submitted_at" | "published_at" | "created_at" | "updated_at"> & {
   tags: string[];
