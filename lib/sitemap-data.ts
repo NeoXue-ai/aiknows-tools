@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import tools from "@/data/tools.json";
+import { toolsData as tools } from "@/lib/tools-data";
 import { siteUrl } from "@/lib/site";
 
 const CATEGORY_SLUGS = [
