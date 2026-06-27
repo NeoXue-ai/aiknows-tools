@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
 import { ExternalLink } from "lucide-react";
@@ -12,6 +14,7 @@ import { Badge } from "@/components/ui/badge";
 import { CategoryPill } from "@/components/CategoryPill";
 import { categoryName } from "@/lib/seo/tool-schema";
 import type { Tool } from "@/lib/supabase/types";
+import { useState } from "react";
 
 const PRICING_LABEL: Record<NonNullable<Tool["pricing_type"]>, string> = {
   free: "Free",
@@ -22,8 +25,9 @@ const PRICING_LABEL: Record<NonNullable<Tool["pricing_type"]>, string> = {
 
 function ToolLogo({ name, logoUrl }: { name: string; logoUrl?: string | null }) {
   const letter = name.trim().charAt(0).toUpperCase() || "?";
+  const [imgError, setImgError] = useState(false);
 
-  if (logoUrl) {
+  if (logoUrl && !imgError) {
     return (
       <div className="relative h-10 w-10 shrink-0 overflow-hidden rounded-md border border-border">
         <Image
@@ -31,9 +35,7 @@ function ToolLogo({ name, logoUrl }: { name: string; logoUrl?: string | null }) 
           alt={`${name} logo`}
           fill
           className="object-contain p-1"
-          onError={(e) => {
-            e.currentTarget.style.display = "none";
-          }}
+          onError={() => setImgError(true)}
         />
       </div>
     );
