@@ -11,6 +11,7 @@ interface Props {
   onChange: (v: string) => void;
   placeholder?: string;
   autoFocus?: boolean;
+  showExamples?: boolean;
 }
 
 export function ToolSearchBar({
@@ -18,6 +19,7 @@ export function ToolSearchBar({
   onChange,
   placeholder = "Search AI tools...",
   autoFocus,
+  showExamples = true,
 }: Props) {
   const [focused, setFocused] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -84,23 +86,25 @@ export function ToolSearchBar({
         </button>
       </div>
 
-      <ul className="mt-3 flex flex-wrap items-center gap-2 text-xs">
-        <li className="font-mono text-[10px] uppercase tracking-[0.12em] text-muted-foreground">Examples</li>
-        {SEARCH_EXAMPLES.map((ex) => (
-          <li key={ex}>
-            <button
-              type="button"
-              onClick={() => {
-                onChange(ex);
-                inputRef.current?.focus();
-              }}
-              className="border border-border px-2 py-1 text-muted-foreground transition-colors hover:border-accent hover:text-accent"
-            >
-              {ex}
-            </button>
-          </li>
-        ))}
-      </ul>
+      {showExamples && (
+        <ul className="mt-3 flex flex-wrap items-center gap-2 text-xs">
+          <li className="font-mono text-[10px] uppercase tracking-[0.12em] text-muted-foreground">Examples</li>
+          {SEARCH_EXAMPLES.map((ex) => (
+            <li key={ex}>
+              <button
+                type="button"
+                onClick={() => {
+                  onChange(ex);
+                  inputRef.current?.focus();
+                }}
+                className="border border-border px-2 py-1 text-muted-foreground transition-colors hover:border-accent hover:text-accent"
+              >
+                {ex}
+              </button>
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
   );
 }
