@@ -83,8 +83,10 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col bg-background text-foreground">
         <ThemeProvider
           attribute="class"
+          // Site identity: dark is the default. enableSystem is off so the
+          // site doesn't track the OS preference — the header toggle exposes
+          // light/dark only.
           defaultTheme="dark"
-          enableSystem
           disableTransitionOnChange
         >
           <Header />
