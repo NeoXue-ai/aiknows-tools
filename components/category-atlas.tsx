@@ -8,6 +8,7 @@ export type CategorySection = {
   category: Category;
   coverage: CategoryCoverage;
   previewTools: Tool[];
+  subs: { slug: string; name: string; count: number }[];
 };
 
 function fmtPct(part: number, total: number): string {
@@ -50,7 +51,7 @@ export function CategoryAtlas({ sections }: { sections: CategorySection[] }) {
 
   return (
     <div className="space-y-0">
-      {sections.map(({ category, coverage, previewTools }, idx) => (
+      {sections.map(({ category, coverage, previewTools, subs }, idx) => (
         <section
           key={category.slug}
           id={`cat-${category.slug}`}
@@ -65,6 +66,30 @@ export function CategoryAtlas({ sections }: { sections: CategorySection[] }) {
           <p className="mt-3 max-w-2xl text-pretty text-sm leading-6 text-muted-foreground">
             {category.description ?? "Description not recorded."}
           </p>
+
+          {subs.length > 0 && (
+            <div className="mt-6">
+              <p className="font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground">
+                Sub-categories
+              </p>
+              <div className="mt-3 flex flex-wrap gap-2">
+                {subs.map((sub) => (
+                  <Link
+                    key={sub.slug}
+                    href={`/categories/${sub.slug}`}
+                    className="group inline-flex items-baseline gap-2 rounded-md border border-border px-3 py-1.5 transition-colors hover:border-accent/40"
+                  >
+                    <span className="font-mono text-[11px] text-foreground/90 transition-colors group-hover:text-accent">
+                      {sub.name}
+                    </span>
+                    <span className="font-mono text-[10px] tabular-nums text-muted-foreground">
+                      {String(sub.count).padStart(2, "0")}
+                    </span>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
 
           <dl className="mt-6 flex flex-wrap gap-x-8 gap-y-3 border-y border-border py-4">
             <div>

@@ -3,9 +3,11 @@ import { CategoryAtlasNav, type CategoryNavItem } from "@/components/category-at
 import { CategoryAtlas, type CategorySection } from "@/components/category-atlas";
 import {
   computeCategoryCoverage,
+  countSubs,
   getPublicCategories,
   getPublicTools,
 } from "@/lib/public-catalog";
+import { subsForLegacy } from "@/lib/subcategories";
 import { siteUrl } from "@/lib/site";
 import type { Tool } from "@/lib/supabase/types";
 
@@ -30,12 +32,18 @@ export default async function CategoriesIndexPage() {
     getPublicTools(),
   ]);
 
+  const subCounts = countSubs(tools);
+
   const sections: CategorySection[] = categories.map((category) => {
     const inCategory = tools.filter((tool) => tool.primary_category === category.slug);
+    const subs = subsForLegacy(category.slug)
+      .map((s) => ({ slug: s.slug, name: s.name, count: subCounts.get(s.name) ?? 0 }))
+      .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
     return {
       category,
       coverage: computeCategoryCoverage(inCategory),
       previewTools: previewFor(inCategory),
+      subs,
     };
   });
 
@@ -60,11 +68,18 @@ export default async function CategoriesIndexPage() {
     description:
       "Top-level categories of recorded AI tools, with coverage facts derived from the public catalog.",
     url: `${siteUrl}/categories`,
-    hasPart: ordered.map((s) => ({
-      "@type": "WebPage",
-      name: s.category.name,
-      url: `${siteUrl}/categories/${s.category.slug}`,
-    })),
+    hasPart: ordered.flatMap((s) => [
+      {
+        "@type": "WebPage",
+        name: s.category.name,
+        url: `${siteUrl}/categories/${s.category.slug}`,
+      },
+      ...s.subs.map((sub) => ({
+        "@type": "WebPage",
+        name: sub.name,
+        url: `${siteUrl}/categories/${sub.slug}`,
+      })),
+    ]),
   };
 
   return (

@@ -6,6 +6,7 @@ import directoriesData from "@/data/directories.json";
 import { toolsData, toolsSnapshot } from "@/lib/tools-data";
 import type { Category, Directory, Tool } from "@/lib/supabase/types";
 import { CATEGORIES } from "@/lib/seo/tool-schema";
+import { SUBCATEGORIES } from "@/lib/subcategories";
 
 const STATIC_CATEGORY_DESCRIPTIONS: Record<string, string> = {
   "writing-content":
@@ -45,6 +46,14 @@ type StaticDirectory = Omit<
 };
 
 const STATIC_TIMESTAMP = toolsSnapshot.generatedAt ?? "1970-01-01T00:00:00.000Z";
+
+// slug → sub value from the static catalog. Supabase rows do not yet carry a
+// `sub` column, so we attach the recorded sub at read time when it is missing.
+const SUB_BY_SLUG: ReadonlyMap<string, string> = new Map(
+  (toolsData as Array<{ slug?: string; sub?: string | null }>).flatMap((t) =>
+    t.slug && t.sub ? [[t.slug, t.sub]] : [],
+  ),
+);
 
 const NOT_FOUND_SENTINEL = "sorry, the page you're looking for doesn't exist";
 const NON_PRODUCT_HOSTS = new Set([
@@ -247,15 +256,56 @@ export function computeCategoryCoverage(tools: Tool[]): CategoryCoverage {
   };
 }
 
+function withSubAttached(tools: Tool[]): Tool[] {
+  let changed = false;
+  const out = tools.map((tool) => {
+    if (tool.sub) return tool;
+    const recorded = SUB_BY_SLUG.get(tool.slug);
+    if (recorded === undefined) return tool;
+    changed = true;
+    return { ...tool, sub: recorded };
+  });
+  return changed ? out : tools;
+}
+
 export async function getPublicTools(): Promise<Tool[]> {
   const fallback = staticTools();
 
   try {
     const tools = await getCachedSupabaseTools();
-    return tools.length >= fallback.length ? tools : fallback;
+    return tools.length >= fallback.length ? withSubAttached(tools) : fallback;
   } catch {
     return fallback;
   }
+}
+
+export interface PublicSubcategory {
+  slug: string;
+  name: string;
+  legacySlug: string;
+  description: string;
+  count: number;
+}
+
+export function countSubs(tools: Tool[]): Map<string, number> {
+  const counts = new Map<string, number>();
+  for (const tool of tools) {
+    if (!tool.sub) continue;
+    counts.set(tool.sub, (counts.get(tool.sub) ?? 0) + 1);
+  }
+  return counts;
+}
+
+export async function getPublicSubcategories(): Promise<PublicSubcategory[]> {
+  const tools = await getPublicTools();
+  const counts = countSubs(tools);
+  return SUBCATEGORIES.map((s) => ({
+    slug: s.slug,
+    name: s.name,
+    legacySlug: s.legacySlug,
+    description: s.description,
+    count: counts.get(s.name) ?? 0,
+  }));
 }
 
 export async function getPublicToolBySlug(slug: string): Promise<Tool | null> {

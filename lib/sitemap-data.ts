@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { getPublicTools } from "@/lib/public-catalog";
+import { getPublicSubcategories, getPublicTools } from "@/lib/public-catalog";
 import { siteUrl } from "@/lib/site";
 
 const CATEGORY_SLUGS = [
@@ -34,5 +34,11 @@ export async function getSitemapEntries(): Promise<MetadataRoute.Sitemap> {
     priority: 0.7,
   }));
 
-  return [...staticRoutes, ...toolRoutes, ...categoryRoutes];
+  const subs = await getPublicSubcategories();
+  const subRoutes: MetadataRoute.Sitemap = subs.map((sub) => ({
+    url: `${siteUrl}/categories/${sub.slug}`,
+    priority: 0.6,
+  }));
+
+  return [...staticRoutes, ...toolRoutes, ...categoryRoutes, ...subRoutes];
 }

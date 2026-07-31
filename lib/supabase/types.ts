@@ -26,6 +26,7 @@ export interface Tool {
   logo_url: string | null
   screenshot_url: string | null
   primary_category: string
+  sub?: string | null
   tags: string[]
   pricing_type: PricingType | null
   pricing_detail: string | null
