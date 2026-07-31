@@ -41,7 +41,7 @@ export function CategoryAtlas({ sections }: { sections: CategorySection[] }) {
 
           {subs.length > 0 && (
             <div className="mt-6">
-              <p className="font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground">
+              <p className="font-mono text-[11px] uppercase tracking-[0.14em] text-muted-foreground">
                 Sub-categories
               </p>
               <div className="mt-3 flex flex-wrap gap-2">
@@ -49,10 +49,10 @@ export function CategoryAtlas({ sections }: { sections: CategorySection[] }) {
                   <Link
                     key={sub.slug}
                     href={`/categories/${sub.slug}`}
-                    className="inline-flex items-baseline gap-1.5 rounded-md px-2 py-0.5 font-mono text-[11px] text-muted-foreground transition-colors hover:text-accent"
+                    className="inline-flex items-baseline gap-2 rounded-md border border-border px-3.5 py-2 text-sm text-foreground transition-colors hover:border-accent/40 hover:text-accent"
                   >
                     <span>{sub.name}</span>
-                    <span className="text-[10px] tabular-nums text-muted-foreground/60">
+                    <span className="text-xs tabular-nums text-muted-foreground">
                       {String(sub.count).padStart(2, "0")}
                     </span>
                   </Link>
