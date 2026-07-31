@@ -43,4 +43,4 @@ next-env.d.ts
 
 # design scratch + session data backups
 /.screenshots/
-/data/tools*.bak.json
+/data/tools*.bak*.json
