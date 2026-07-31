@@ -1,23 +1,12 @@
 import type { Metadata } from "next";
 import { ToolDiscovery } from "@/components/tool-discovery";
 import { CATEGORIES, categoryName } from "@/lib/seo/tool-schema";
-import {
-  TASKS,
-  PRICING_OPTIONS,
-  USER_TYPES,
-  type Task,
-  type PricingOption,
-  type UserTypeFilter,
-} from "@/lib/tool-score";
 import { getPublicTools } from "@/lib/public-catalog";
 
 type Props = {
   searchParams: Promise<{
     category?: string;
     q?: string;
-    task?: string;
-    pricing?: string;
-    userType?: string;
   }>;
 };
 
@@ -43,24 +32,8 @@ export async function generateMetadata({ searchParams }: Props): Promise<Metadat
   };
 }
 
-function pickTask(v: string | undefined): Task | null {
-  return (TASKS as readonly string[]).includes(v ?? "")
-    ? (v as Task)
-    : null;
-}
-function pickPricing(v: string | undefined): PricingOption | null {
-  return (PRICING_OPTIONS as readonly string[]).includes(v ?? "")
-    ? (v as PricingOption)
-    : null;
-}
-function pickUserType(v: string | undefined): UserTypeFilter | null {
-  return (USER_TYPES as readonly string[]).includes(v ?? "")
-    ? (v as UserTypeFilter)
-    : null;
-}
-
 export default async function ToolsIndexPage({ searchParams }: Props) {
-  const { category, q, task, pricing, userType } = await searchParams;
+  const { category, q } = await searchParams;
 
   const allTools = await getPublicTools();
   const tools = category
@@ -87,13 +60,7 @@ export default async function ToolsIndexPage({ searchParams }: Props) {
         <p className="mt-3 text-pretty leading-7 text-muted-foreground">{sub}</p>
       </header>
 
-      <ToolDiscovery
-        tools={tools}
-        initialQ={q ?? ""}
-        initialTask={pickTask(task)}
-        initialPricing={pickPricing(pricing)}
-        initialUserType={pickUserType(userType)}
-      />
+      <ToolDiscovery tools={tools} initialQ={q ?? ""} />
     </div>
   );
 }
