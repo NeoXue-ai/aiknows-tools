@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight } from "lucide-react";
@@ -186,7 +187,9 @@ async function CategoryHub({
 
       <div className="grid gap-10 py-10">
         <div className="min-w-0">
-          <ToolDiscovery tools={tools} variant="scoped" />
+          <Suspense fallback={<ToolDiscoveryFallback count={tools.length} />}>
+            <ToolDiscovery tools={tools} variant="scoped" />
+          </Suspense>
         </div>
 
         <nav className="flex flex-wrap items-center justify-between gap-3 border-t border-border pt-6 text-sm">
@@ -268,7 +271,9 @@ async function SubCategoryPage({
 
       <div className="grid gap-10 py-10">
         <div className="min-w-0">
-          <ToolDiscovery tools={tools} variant="scoped" />
+          <Suspense fallback={<ToolDiscoveryFallback count={tools.length} />}>
+            <ToolDiscovery tools={tools} variant="scoped" />
+          </Suspense>
         </div>
 
         <nav className="flex flex-wrap items-center justify-between gap-3 border-t border-border pt-6 text-sm">
@@ -287,6 +292,24 @@ async function SubCategoryPage({
             <ArrowRight className="h-3.5 w-3.5" />
           </Link>
         </nav>
+      </div>
+    </div>
+  );
+}
+
+function ToolDiscoveryFallback({ count }: { count: number }) {
+  return (
+    <div className="space-y-6" aria-hidden>
+      <div className="rounded-2xl border border-border bg-card p-1.5">
+        <div className="h-12 animate-pulse rounded-xl bg-secondary" />
+      </div>
+      <div className="font-mono text-xs tabular-nums text-muted-foreground">
+        {count} results
+      </div>
+      <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        {Array.from({ length: 6 }).map((_, i) => (
+          <div key={i} className="h-44 animate-pulse rounded-xl border border-border bg-card" />
+        ))}
       </div>
     </div>
   );

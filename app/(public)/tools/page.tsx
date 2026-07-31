@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { ToolDiscovery } from "@/components/tool-discovery";
 import { CATEGORIES, categoryName } from "@/lib/seo/tool-schema";
 import { getPublicTools } from "@/lib/public-catalog";
@@ -60,7 +61,27 @@ export default async function ToolsIndexPage({ searchParams }: Props) {
         <p className="mt-3 text-pretty leading-7 text-muted-foreground">{sub}</p>
       </header>
 
-      <ToolDiscovery tools={tools} initialQ={q ?? ""} />
+      <Suspense fallback={<ToolDiscoveryFallback count={tools.length} />}>
+        <ToolDiscovery tools={tools} initialQ={q ?? ""} />
+      </Suspense>
+    </div>
+  );
+}
+
+function ToolDiscoveryFallback({ count }: { count: number }) {
+  return (
+    <div className="space-y-6" aria-hidden>
+      <div className="rounded-2xl border border-border bg-card p-1.5">
+        <div className="h-12 animate-pulse rounded-xl bg-secondary" />
+      </div>
+      <div className="font-mono text-xs tabular-nums text-muted-foreground">
+        {count} results
+      </div>
+      <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        {Array.from({ length: 6 }).map((_, i) => (
+          <div key={i} className="h-44 animate-pulse rounded-xl border border-border bg-card" />
+        ))}
+      </div>
     </div>
   );
 }
