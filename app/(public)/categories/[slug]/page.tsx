@@ -80,10 +80,10 @@ function SubChips({
 }) {
   return (
     <div className="mt-6">
-      <p className="font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground">
+      <p className="font-mono text-[11px] uppercase tracking-[0.14em] text-muted-foreground">
         Sub-categories
       </p>
-      <div className="mt-2.5 flex flex-wrap gap-1.5">
+      <div className="mt-3 flex flex-wrap gap-2">
         {subs.map((sub) => {
           const active = sub.slug === activeSlug;
           return (
@@ -92,15 +92,15 @@ function SubChips({
               href={`/categories/${sub.slug}`}
               aria-current={active ? "location" : undefined}
               className={cn(
-                "inline-flex items-baseline gap-1.5 rounded-md px-2 py-0.5 font-mono text-[11px] transition-colors",
+                "inline-flex items-baseline gap-2 rounded-md border px-3.5 py-2 text-sm transition-colors",
                 active
-                  ? "bg-accent/10 font-medium text-accent"
-                  : "text-muted-foreground hover:text-accent",
+                  ? "border-accent/40 bg-accent/10 font-medium text-accent"
+                  : "border-border text-foreground hover:border-accent/40 hover:text-accent",
               )}
             >
               <span>{sub.name}</span>
               {typeof sub.count === "number" && (
-                <span className="text-[10px] tabular-nums text-muted-foreground/70">
+                <span className="text-xs tabular-nums text-muted-foreground">
                   {String(sub.count).padStart(2, "0")}
                 </span>
               )}
