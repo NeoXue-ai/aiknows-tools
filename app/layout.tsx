@@ -36,7 +36,11 @@ export const metadata: Metadata = {
   description:
     "Curated AI tools and AI directories for SaaS builders. Discover products, find directories, grow your SaaS.",
   icons: {
-    icon: "/favicon.png",
+    // SVG first — modern browsers will pick the scalable vector. The .ico
+    // and apple-icon.png are auto-injected by Next.js (app/favicon.ico and
+    // app/apple-icon.png).
+    icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
+    apple: "/apple-icon.png",
   },
   openGraph: {
     type: "website",
