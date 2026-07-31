@@ -1,51 +1,24 @@
-import Link from "next/link";
-import Image from "next/image";
-import { ThemeToggle } from "@/components/theme-toggle";
-import { UserMenu } from "@/components/UserMenu";
 import { getCurrentUser } from "@/lib/auth/session";
+import { Logo } from "@/components/logo";
+import { HeaderNav } from "@/components/header-nav";
+import { getPublicCatalogSummary } from "@/lib/public-catalog";
 
 export async function Header() {
-  let userEmail: string | null = null;
-  let isAdmin = false;
+  let user: { email: string; isAdmin: boolean } | null = null;
   try {
-    const user = await getCurrentUser();
-    userEmail = user?.email ?? null;
-    isAdmin = user?.isAdmin ?? false;
+    const u = await getCurrentUser();
+    if (u) user = { email: u.email, isAdmin: u.isAdmin };
   } catch {
+    // auth lookup is optional in the header — fail silent
   }
 
+  const { toolCount } = await getPublicCatalogSummary();
+
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container mx-auto flex h-14 max-w-6xl items-center justify-between px-4">
-        <Link href="/" className="flex items-center gap-1 font-semibold">
-          <Image src="/logo.png" alt="aiknows.tools" width={40} height={40} />
-          <span className="text-xl">aiknows.tools</span>
-        </Link>
-        <nav className="flex items-center gap-6 text-sm">
-          <Link href="/tools" className="hover:text-foreground/80">
-            Tools
-          </Link>
-          <Link href="/directories" className="hover:text-foreground/80">
-            Directories
-          </Link>
-          <Link href="/latest" className="hover:text-foreground/80">
-            Latest
-          </Link>
-          <Link href="/submit" className="hover:text-foreground/80">
-            Submit
-          </Link>
-          <ThemeToggle />
-          {userEmail ? (
-            <UserMenu email={userEmail} isAdmin={isAdmin} />
-          ) : (
-            <Link
-              href="/login"
-              className="hover:text-foreground/80"
-            >
-              Log in
-            </Link>
-          )}
-        </nav>
+    <header className="sticky top-0 z-40 w-full border-b border-border bg-background/95">
+      <div className="container mx-auto flex h-16 max-w-7xl items-center px-4">
+        <Logo href="/" />
+        <HeaderNav isAuthenticated={!!user} user={user} toolCount={toolCount} />
       </div>
     </header>
   );

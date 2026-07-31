@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { toolsData as tools } from "@/lib/tools-data";
+import { getPublicTools } from "@/lib/public-catalog";
 import { siteUrl } from "@/lib/site";
 
 const CATEGORY_SLUGS = [
@@ -13,63 +13,24 @@ const CATEGORY_SLUGS = [
   "ecommerce-sales",
 ] as const;
 
-type ToolEntry = { slug: string };
-
 export async function getSitemapEntries(): Promise<MetadataRoute.Sitemap> {
-  const now = new Date();
+  const tools = await getPublicTools();
 
   const staticRoutes: MetadataRoute.Sitemap = [
-    {
-      url: `${siteUrl}/`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 1.0,
-    },
-    {
-      url: `${siteUrl}/tools`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.8,
-    },
-    {
-      url: `${siteUrl}/categories`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.8,
-    },
-    {
-      url: `${siteUrl}/directories`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.9,
-    },
-    {
-      url: `${siteUrl}/latest`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.8,
-    },
-    {
-      url: `${siteUrl}/submit`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.5,
-    },
+    { url: `${siteUrl}/`, priority: 1.0 },
+    { url: `${siteUrl}/tools`, priority: 0.8 },
+    { url: `${siteUrl}/categories`, priority: 0.8 },
+    { url: `${siteUrl}/directories`, priority: 0.9 },
+    { url: `${siteUrl}/submit`, priority: 0.5 },
   ];
 
-  const toolRoutes: MetadataRoute.Sitemap = (tools as ToolEntry[]).map(
-    (tool) => ({
-      url: `${siteUrl}/tools/${tool.slug}`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.7,
-    }),
-  );
+  const toolRoutes: MetadataRoute.Sitemap = tools.map((tool) => ({
+    url: `${siteUrl}/tools/${tool.slug}`,
+    priority: 0.7,
+  }));
 
   const categoryRoutes: MetadataRoute.Sitemap = CATEGORY_SLUGS.map((slug) => ({
     url: `${siteUrl}/categories/${slug}`,
-    lastModified: now,
-    changeFrequency: "weekly",
     priority: 0.7,
   }));
 

@@ -1,88 +1,74 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { buttonVariants } from "@/components/ui/button";
-import { ToolGrid } from "@/components/ToolGrid";
+import { ArrowLeft, Pause, Clock } from "lucide-react";
 import { siteUrl } from "@/lib/site";
-import { directoryItemListJsonLd } from "@/lib/seo/tool-schema";
-import { toolsData } from "@/lib/tools-data";
-import type { Tool } from "@/lib/supabase/types";
-
-const TOOLS = toolsData as unknown as Tool[];
-
-const PAGE_SIZE = 24;
-
-type Props = { searchParams: Promise<{ page?: string }> };
+import { buttonVariants } from "@/components/ui/button";
+import { getPublicTools } from "@/lib/public-catalog";
+import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Latest AI Tools",
+  title: "Latest — paused",
   description:
-    "Newest AI tools added to aiknows.tools. See what indie hackers and AI founders are launching.",
+    "This view is temporarily paused. We only publish a 'Latest' ordering once recorded publication dates reflect editorial review, not batch import.",
   alternates: { canonical: `${siteUrl}/latest` },
+  robots: { index: false, follow: false },
 };
 
-export default async function LatestPage({ searchParams }: Props) {
-  const { page: pageParam } = await searchParams;
-  const page = Math.max(1, Number(pageParam) || 1);
-
-  // Seed JSON doesn't include published_at/created_at; sort by array order (most recent last in seed)
-  const sorted = [...TOOLS].reverse();
-  const totalPages = Math.max(1, Math.ceil(sorted.length / PAGE_SIZE));
-  const currentPage = Math.min(page, totalPages);
-  const start = (currentPage - 1) * PAGE_SIZE;
-  const tools = sorted.slice(start, start + PAGE_SIZE);
-
-  const jsonLd = directoryItemListJsonLd({
-    tools,
-    siteUrl,
-    name: "Latest AI Tools",
-    description: "Newest AI tools curated on aiknows.tools.",
-  });
+export default async function LatestPage() {
+  const tools = await getPublicTools();
 
   return (
-    <div className="container mx-auto max-w-6xl px-4 py-12">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
-        }}
-      />
+    <div className="container mx-auto max-w-3xl px-4 py-16 md:py-24">
+      <p className="mb-3 font-mono text-[10px] uppercase tracking-[0.16em] text-accent">
+        Latest / Paused
+      </p>
 
-      <header className="mb-8">
-        <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
-          Latest AI Tools
+      <div className="border-y border-border py-10">
+        <h1 className="text-balance text-3xl font-semibold tracking-[-0.03em] sm:text-4xl">
+          The &ldquo;Latest&rdquo; view is temporarily paused.
         </h1>
-        <p className="mt-2 text-muted-foreground">
-          Newly added AI tools, freshest first.
+        <p className="mt-4 max-w-2xl text-pretty leading-7 text-muted-foreground">
+          A genuine &ldquo;Latest&rdquo; view needs recorded publication dates that reflect editorial review &mdash; not batch seed import time. Until those dates have a documented meaning, showing a fabricated ordering here would imply freshness we can&apos;t substantiate.
         </p>
-      </header>
 
-      <ToolGrid tools={tools} emptyMessage="No tools yet." />
+        <dl className="mt-8 grid gap-x-8 gap-y-4 text-sm">
+          <div>
+            <dt className="font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground">Status</dt>
+            <dd className="mt-1 inline-flex items-center gap-1.5 text-foreground">
+              <Pause className="h-3.5 w-3.5 text-accent" />
+              Unavailable &mdash; methodology not yet published
+            </dd>
+          </div>
+          <div>
+            <dt className="font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground">Indexed records</dt>
+            <dd className="mt-1 text-foreground">
+              <span className="font-mono tabular-nums">{String(tools.length).padStart(4, "0")}</span>{" "}
+              tools currently in the public catalog
+            </dd>
+          </div>
+          <div>
+            <dt className="font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground">Why no fallback list</dt>
+            <dd className="mt-1 text-foreground">
+              We won&apos;t substitute the full catalog and call it a fresh list. That would misread as editorial recency.
+            </dd>
+          </div>
+        </dl>
 
-      <nav className="mt-10 flex items-center justify-between">
-        {currentPage > 1 ? (
-          <Link
-            href={`/latest?page=${currentPage - 1}`}
-            className={buttonVariants({ variant: "outline", size: "sm" })}
-          >
-            Previous
+        <div className="mt-8 flex flex-wrap gap-3">
+          <Link href="/tools" className={cn(buttonVariants({ size: "sm" }), "gap-2")}>
+            <ArrowLeft className="h-3.5 w-3.5" />
+            Back to the tool index
           </Link>
-        ) : (
-          <span />
-        )}
-        <span className="text-sm text-muted-foreground">
-          Page {currentPage} of {totalPages}
-        </span>
-        {currentPage < totalPages ? (
-          <Link
-            href={`/latest?page=${currentPage + 1}`}
-            className={buttonVariants({ variant: "outline", size: "sm" })}
-          >
-            Next
+          <Link href="/submit" className={cn(buttonVariants({ variant: "outline", size: "sm" }), "gap-2")}>
+            <Clock className="h-3.5 w-3.5" />
+            Submit a tool for editorial review
           </Link>
-        ) : (
-          <span />
-        )}
-      </nav>
+        </div>
+      </div>
+
+      <p className="mt-6 text-xs leading-5 text-muted-foreground">
+        We&apos;ll restore this view as soon as publication dates and the supporting editorial workflow are documented in the public changelog.
+      </p>
     </div>
   );
 }

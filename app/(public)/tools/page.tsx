@@ -1,92 +1,98 @@
 import type { Metadata } from "next";
-import Link from "next/link";
-import { buttonVariants } from "@/components/ui/button";
-import { ToolGrid } from "@/components/ToolGrid";
+import { ToolDiscovery } from "@/components/tool-discovery";
 import { CATEGORIES, categoryName } from "@/lib/seo/tool-schema";
-import { cn } from "@/lib/utils";
-import { toolsData } from "@/lib/tools-data";
-import type { Tool } from "@/lib/supabase/types";
+import {
+  TASKS,
+  PRICING_OPTIONS,
+  USER_TYPES,
+  type Task,
+  type PricingOption,
+  type UserTypeFilter,
+} from "@/lib/tool-score";
+import { getPublicTools } from "@/lib/public-catalog";
 
-const TOOLS = toolsData as unknown as Tool[];
-
-type Props = { searchParams: Promise<{ category?: string }> };
+type Props = {
+  searchParams: Promise<{
+    category?: string;
+    q?: string;
+    task?: string;
+    pricing?: string;
+    userType?: string;
+  }>;
+};
 
 export async function generateMetadata({ searchParams }: Props): Promise<Metadata> {
-  const { category } = await searchParams;
+  const { category, q } = await searchParams;
   const selected = category ? CATEGORIES.find((c) => c.slug === category) : null;
+
+  if (q) {
+    return {
+      title: `Search "${q}" — AI tools`,
+      description: `Search results for "${q}" across the aiknows.tools directory.`,
+    };
+  }
   if (selected) {
     return {
       title: `AI Tools — ${selected.name}`,
-      description: `Curated AI tools in ${selected.name}.`,
+      description: `Recorded AI tool entries in ${selected.name}.`,
     };
   }
   return {
     title: "All AI Tools",
-    description:
-      "Browse the full aiknows.tools directory of curated AI tools for SaaS builders, marketers, and creators.",
+    description: "Search and compare recorded AI tool entries by category, price, and evidence fields.",
   };
 }
 
+function pickTask(v: string | undefined): Task | null {
+  return (TASKS as readonly string[]).includes(v ?? "")
+    ? (v as Task)
+    : null;
+}
+function pickPricing(v: string | undefined): PricingOption | null {
+  return (PRICING_OPTIONS as readonly string[]).includes(v ?? "")
+    ? (v as PricingOption)
+    : null;
+}
+function pickUserType(v: string | undefined): UserTypeFilter | null {
+  return (USER_TYPES as readonly string[]).includes(v ?? "")
+    ? (v as UserTypeFilter)
+    : null;
+}
+
 export default async function ToolsIndexPage({ searchParams }: Props) {
-  const { category } = await searchParams;
+  const { category, q, task, pricing, userType } = await searchParams;
+
+  const allTools = await getPublicTools();
+  const tools = category
+    ? allTools.filter((tool) => tool.primary_category === category)
+    : allTools;
+
   const selected = category ? CATEGORIES.find((c) => c.slug === category) : null;
-
-  const tools = selected
-    ? TOOLS.filter((t) => t.primary_category === selected.slug)
-    : TOOLS;
-
   const heading = selected
     ? `AI Tools — ${selected.name}`
     : "All AI Tools";
   const sub = selected
-    ? `${tools.length} curated tool${tools.length === 1 ? "" : "s"} in ${selected.name}.`
-    : `${tools.length} curated AI tools for SaaS builders, marketers, and creators.`;
+    ? `${tools.length} recorded tool entr${tools.length === 1 ? "y" : "ies"} in ${categoryName(selected.slug)}.`
+    : `${tools.length} recorded AI tool entries. Compare the fields available for each record.`;
 
   return (
-    <div className="container mx-auto max-w-6xl px-4 py-12">
-      <header className="mb-8">
-        <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">{heading}</h1>
-        <p className="mt-2 text-muted-foreground">{sub}</p>
+    <div className="container mx-auto max-w-7xl px-4 py-12 md:py-16">
+      <header className="mb-8 max-w-3xl border-b border-border pb-6">
+        <p className="font-mono text-[10px] uppercase tracking-[0.16em] text-accent">
+          Tool index / {String(tools.length).padStart(4, "0")} records
+        </p>
+        <h1 className="mt-3 text-balance text-3xl font-semibold tracking-[-0.03em] sm:text-4xl">
+          {q ? `Results for "${q}"` : heading}
+        </h1>
+        <p className="mt-3 text-pretty leading-7 text-muted-foreground">{sub}</p>
       </header>
 
-      <nav className="mb-8 flex flex-wrap gap-2">
-        <Link
-          href="/tools"
-          className={cn(
-            buttonVariants({
-              size: "sm",
-              variant: selected ? "ghost" : "secondary",
-            })
-          )}
-        >
-          All
-        </Link>
-        {CATEGORIES.map((c) => {
-          const isActive = selected?.slug === c.slug;
-          return (
-            <Link
-              key={c.slug}
-              href={`/tools?category=${c.slug}`}
-              className={cn(
-                buttonVariants({
-                  size: "sm",
-                  variant: isActive ? "secondary" : "ghost",
-                })
-              )}
-            >
-              {c.name}
-            </Link>
-          );
-        })}
-      </nav>
-
-      <ToolGrid
+      <ToolDiscovery
         tools={tools}
-        emptyMessage={
-          selected
-            ? `No tools in ${categoryName(selected.slug)} yet.`
-            : "No tools yet."
-        }
+        initialQ={q ?? ""}
+        initialTask={pickTask(task)}
+        initialPricing={pickPricing(pricing)}
+        initialUserType={pickUserType(userType)}
       />
     </div>
   );

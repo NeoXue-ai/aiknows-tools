@@ -138,9 +138,15 @@ export async function POST(request: NextRequest) {
 
   try {
     revalidateTag("tools", "max");
-    revalidatePath("/latest");
+    revalidateTag("public-tools", "max");
     revalidatePath("/");
     revalidatePath("/tools");
+    revalidatePath(`/tools/${toolData.slug}`);
+    revalidatePath("/categories");
+    revalidatePath(`/categories/${category}`);
+    revalidatePath("/latest");
+    revalidatePath("/trending");
+    revalidatePath("/sitemap.xml");
   } catch (err) {
     console.error("[admin/approve] revalidate failed:", err);
   }

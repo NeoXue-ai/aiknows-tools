@@ -1,0 +1,2 @@
+ALTER TABLE tools
+  ADD COLUMN IF NOT EXISTS source TEXT;

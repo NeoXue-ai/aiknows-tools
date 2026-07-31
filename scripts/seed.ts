@@ -34,9 +34,10 @@ interface SeedTool {
   tags: string[];
   pricing_type: PricingType | null;
   pricing_detail: string | null;
-  is_featured: boolean;
-  is_verified: boolean;
+  source: string | null;
 }
+
+type ToolsSnapshot = { tools?: SeedTool[] } | SeedTool[];
 
 interface SeedDirectory {
   slug: string;
@@ -81,7 +82,8 @@ async function main() {
   // --- tools ---
   if (!dirsOnly) {
     logStep("tools", "loading data/tools.json");
-    const tools = await loadJson<SeedTool[]>("data/tools.json");
+    const toolsRaw = await loadJson<ToolsSnapshot>("data/tools.json");
+    const tools = Array.isArray(toolsRaw) ? toolsRaw : toolsRaw.tools ?? [];
     logStep("tools", `seeding ${tools.length} tools…`);
 
     const rows = tools.map((t) => ({
@@ -95,21 +97,31 @@ async function main() {
       tags: t.tags,
       pricing_type: t.pricing_type,
       pricing_detail: t.pricing_detail,
-      is_featured: t.is_featured,
-      is_verified: t.is_verified,
-      status: "approved" satisfies ToolStatus,
-      published_at: new Date().toISOString(),
+      source: t.source,
     }));
 
-    // Upsert in chunks of 50 to keep payload small.
     const chunkSize = 50;
     for (let i = 0; i < rows.length; i += chunkSize) {
       const chunk = rows.slice(i, i + chunkSize);
-      const { error } = await supabase
+      const { error: insertError } = await supabase
+        .from("tools")
+        .upsert(
+          chunk.map((tool) => ({
+            ...tool,
+            status: "approved" satisfies ToolStatus,
+          })),
+          { onConflict: "slug", ignoreDuplicates: true },
+        );
+      if (insertError) {
+        console.error("tools insert error:", insertError);
+        process.exit(1);
+      }
+
+      const { error: upsertError } = await supabase
         .from("tools")
         .upsert(chunk, { onConflict: "slug" });
-      if (error) {
-        console.error("tools upsert error:", error);
+      if (upsertError) {
+        console.error("tools content upsert error:", upsertError);
         process.exit(1);
       }
       logStep("tools", `  ✓ ${i + chunk.length}/${rows.length}`);
@@ -134,15 +146,27 @@ async function main() {
       niche_focus: d.niche_focus,
       submit_url: d.submit_url,
       notes: d.notes,
-      status: "active" satisfies DirectoryStatus,
-      last_checked: new Date().toISOString(),
     }));
 
-    const { error } = await supabase
+    const { error: insertError } = await supabase
+      .from("directories")
+      .upsert(
+        rows.map((directory) => ({
+          ...directory,
+          status: "active" satisfies DirectoryStatus,
+        })),
+        { onConflict: "slug", ignoreDuplicates: true },
+      );
+    if (insertError) {
+      console.error("directories insert error:", insertError);
+      process.exit(1);
+    }
+
+    const { error: upsertError } = await supabase
       .from("directories")
       .upsert(rows, { onConflict: "slug" });
-    if (error) {
-      console.error("directories upsert error:", error);
+    if (upsertError) {
+      console.error("directories content upsert error:", upsertError);
       process.exit(1);
     }
     logStep("directories", `  ✓ ${rows.length}/${rows.length}`);

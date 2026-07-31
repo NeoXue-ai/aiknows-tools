@@ -1,178 +1,101 @@
-import Link from "next/link";
 import type { Metadata } from "next";
-import { readFile } from "node:fs/promises";
-import { resolve } from "node:path";
-import { ArrowRight, Filter, Sparkles } from "lucide-react";
-import { buttonVariants } from "@/components/ui/button";
-import { createClient } from "@/lib/supabase/server";
-import { cn } from "@/lib/utils";
+import Link from "next/link";
+import { ArrowRight } from "lucide-react";
+import { getPublicDirectories } from "@/lib/public-catalog";
 import { DirectoryTable } from "@/components/DirectoryTable";
+import { AnimatedNumber } from "@/components/animated-number";
 import {
   directoryItemListJsonLd,
   directoryPageMetadata,
 } from "@/lib/seo/directory-schema";
-import type { Directory } from "@/lib/supabase/types";
 
 export const dynamic = "force-static";
 
 export const metadata: Metadata = directoryPageMetadata();
 
-async function loadDirectories(): Promise<Directory[]> {
-  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
-  const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
-  if (url && key) {
-    try {
-      const supabase = await createClient();
-      const { data: rows } = await supabase
-        .from("directories")
-        .select("*")
-        .eq("status", "active")
-        .order("dr", { ascending: false, nullsFirst: false });
-      if (rows && rows.length > 0) return rows as Directory[];
-    } catch {
-      // fall through to JSON fallback (build-time without Supabase)
-    }
-  }
-  const raw = await readFile(
-    resolve(process.cwd(), "data/directories.json"),
-    "utf8",
-  );
-  return JSON.parse(raw) as Directory[];
-}
-
 export default async function DirectoriesPage() {
-  const directories = await loadDirectories();
+  const directories = await getPublicDirectories();
   const total = directories.length;
   const drValues = directories
     .map((d) => d.dr)
     .filter((v): v is number => typeof v === "number");
-  const avgDr = drValues.length
-    ? Math.round(drValues.reduce((sum, v) => sum + v, 0) / drValues.length)
-    : 0;
+  const drRecorded = drValues.length;
   const dofollowCount = directories.filter(
     (d) => d.link_type === "dofollow",
   ).length;
   const freeCount = directories.filter((d) => d.submission_type === "free")
     .length;
+  const withLastChecked = directories.filter(
+    (d) => Boolean(d.last_checked),
+  ).length;
 
   const siteUrl =
     process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
   const jsonLd = directoryItemListJsonLd(directories, siteUrl);
 
   return (
-    <div className="container mx-auto max-w-6xl px-4 py-12 md:py-16">
+    <div className="container mx-auto max-w-7xl px-4 py-12 md:py-16">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <section className="mb-10 text-center">
-        <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-1 text-xs font-medium text-muted-foreground">
-          <Sparkles className="h-3.5 w-3.5 text-primary" />
-          Updated weekly
-        </div>
-        <h1 className="mb-4 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
-          Best AI Directories to Submit Your SaaS
-        </h1>
-        <p className="mx-auto mb-8 max-w-2xl text-lg text-muted-foreground">
-          {total}+ curated directories for AI and SaaS builders. Filter by Domain
-          Rating, link type, submission type, and listing speed — all in one
-          sortable table.
+      <header className="mb-10 max-w-3xl border-b border-border pb-6">
+        <p className="font-mono text-[10px] uppercase tracking-[0.16em] text-accent">
+          Directories / <AnimatedNumber value={total} padStart={4} className="text-accent" /> records
         </p>
-        <div className="flex flex-wrap items-center justify-center gap-6 text-sm">
-          <Stat label="directories" value={`${total}+`} />
-          <Divider />
-          <Stat
-            label="avg DR"
-            value={avgDr > 0 ? String(avgDr) : "—"}
-          />
-          <Divider />
-          <Stat label="dofollow" value={String(dofollowCount)} />
-          <Divider />
-          <Stat label="free to submit" value={String(freeCount)} />
-        </div>
-      </section>
+        <h1 className="mt-3 text-balance text-3xl font-semibold tracking-[-0.03em] sm:text-4xl">
+          Submitted directory records
+        </h1>
+        <p className="mt-3 max-w-2xl text-pretty leading-7 text-muted-foreground">
+          Each row is the recorded submission fact set: domain rating, submission type and price, link type,
+          listing speed, niche, submit URL, and the recorded check date. Comparison is by column, not by
+          editorial ranking.
+        </p>
+      </header>
 
-      <section className="mb-10 grid gap-6 md:grid-cols-2">
-        <HowToCard />
-        <SuggestCard />
-      </section>
-
-      <section className="mb-6 flex items-center gap-2">
-        <Filter className="h-4 w-4 text-muted-foreground" />
-        <h2 className="text-sm font-medium uppercase tracking-wide text-muted-foreground">
-          All Directories
-        </h2>
-      </section>
+      <dl className="mb-10 grid w-full grid-cols-2 gap-x-8 gap-y-4 border-y border-border py-6 text-sm sm:grid-cols-4">
+        <CoverageStat label="Records" value={total} />
+        <CoverageStat label="DR recorded" value={`${drRecorded} / ${total}`} />
+        <CoverageStat
+          label="Submission = free"
+          value={`${freeCount} / ${total}`}
+        />
+        <CoverageStat
+          label="Last check recorded"
+          value={`${withLastChecked} / ${total}`}
+        />
+      </dl>
 
       <DirectoryTable directories={directories} />
-    </div>
-  );
-}
 
-function Stat({ label, value }: { label: string; value: string }) {
-  return (
-    <div className="flex items-baseline gap-1.5">
-      <span className="text-xl font-semibold tracking-tight text-foreground">
-        {value}
-      </span>
-      <span className="text-xs text-muted-foreground">{label}</span>
-    </div>
-  );
-}
-
-function Divider() {
-  return (
-    <span aria-hidden className="h-4 w-px bg-border" />
-  );
-}
-
-function HowToCard() {
-  return (
-    <div className="rounded-xl border border-border bg-card p-6">
-      <h3 className="mb-2 text-base font-semibold">How to use this table</h3>
-      <ul className="space-y-2 text-sm text-muted-foreground">
-        <li className="flex gap-2">
-          <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
-          <span>
-            <span className="font-medium text-foreground">Sort</span> by any
-            column header — DR or speed is usually the fastest win.
-          </span>
-        </li>
-        <li className="flex gap-2">
-          <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
-          <span>
-            <span className="font-medium text-foreground">Filter</span> by DR
-            tier, link type, or submission type to fit your launch budget.
-          </span>
-        </li>
-        <li className="flex gap-2">
-          <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
-          <span>
-            <span className="font-medium text-foreground">Search</span> by
-            directory name or niche to find verticals (e.g. &ldquo;AI image&rdquo;,
-            &ldquo;dev tools&rdquo;).
-          </span>
-        </li>
-      </ul>
-    </div>
-  );
-}
-
-function SuggestCard() {
-  return (
-    <div className="rounded-xl border border-border bg-card p-6">
-      <h3 className="mb-2 text-base font-semibold">Missing a directory?</h3>
-      <p className="mb-4 text-sm text-muted-foreground">
-        Know a high-DR directory that should be on this list? Suggest it and
-        we&apos;ll verify and add it within the week.
+      <p className="mt-6 text-xs leading-5 text-muted-foreground">
+        Link type and listing speed are recorded values; they are not promises about approval time or ranking on
+        the destination site. When a recorded check date is absent, the row renders
+        <span className="font-mono"> NOT RECORDED </span>
+        rather than a default timestamp.
       </p>
-      <Link
-        href="/submit"
-        className={cn(buttonVariants({ size: "sm" }))}
-      >
-        Suggest a directory <ArrowRight className="ml-1.5 h-3.5 w-3.5" />
-      </Link>
+
+      <p className="mt-4">
+        <Link
+          href="/submit"
+          className="inline-flex items-center gap-1.5 text-sm font-medium text-foreground transition-colors hover:text-accent"
+        >
+          Suggest a directory
+          <ArrowRight className="h-3.5 w-3.5" />
+        </Link>
+      </p>
+    </div>
+  );
+}
+
+function CoverageStat({ label, value }: { label: string; value: number | string }) {
+  return (
+    <div>
+      <dt className="font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground">{label}</dt>
+      <dd className="mt-1 font-mono tabular-nums text-foreground">
+        {typeof value === "number" ? <AnimatedNumber value={value} /> : value}
+      </dd>
     </div>
   );
 }

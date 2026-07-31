@@ -83,7 +83,10 @@ export async function POST(request: NextRequest) {
 
   try {
     revalidateTag("directories", "max");
+    revalidateTag("public-directories", "max");
+    revalidatePath("/");
     revalidatePath("/directories");
+    revalidatePath("/sitemap.xml");
   } catch (err) {
     console.error("[admin/directories/update] revalidate failed:", err);
   }

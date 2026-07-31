@@ -10,9 +10,9 @@ export function directoryItemListJsonLd(
   return {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: "Best AI Directories to Submit Your SaaS",
+    name: "Submitted directory records",
     description:
-      "A curated list of high-DR AI directories for submitting SaaS and AI tools.",
+      "Recorded submission facts for AI and SaaS directories: domain rating, submission type, link type, listing speed, and recorded check dates.",
     url: `${baseUrl}/directories`,
     numberOfItems: directories.length,
     itemListElement: directories.map((d, i) => ({
@@ -30,9 +30,9 @@ export function directoryPageMetadata(siteUrl?: string): Metadata {
     process.env.NEXT_PUBLIC_SITE_URL ??
     "http://localhost:3000").replace(/\/$/, "");
 
-  const title = `Best AI Directories to Submit Your SaaS (${new Date().getFullYear()})`;
+  const title = `Submitted directory records — aiknows.tools`;
   const description =
-    "50+ high-DR AI directories to submit your AI tool. Filter by DR, link type, submission type, and listing speed.";
+    "Recorded submission facts: domain rating, submission type, link type, listing speed, niche, submit URL, and recorded check dates.";
 
   return {
     title,
