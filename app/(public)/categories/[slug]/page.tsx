@@ -7,12 +7,10 @@ import { BreadcrumbNav } from "@/components/breadcrumb-nav";
 import { siteUrl } from "@/lib/site";
 import { directoryItemListJsonLd } from "@/lib/seo/tool-schema";
 import {
-  computeCategoryCoverage,
   countSubs,
   getPublicCategories,
   getPublicTools,
 } from "@/lib/public-catalog";
-import type { CategoryCoverage } from "@/lib/public-catalog";
 import {
   SUBCATEGORIES,
   subBySlug,
@@ -71,14 +69,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: resolved.sub.description,
     alternates: { canonical: `${siteUrl}/categories/${slug}` },
   };
-}
-
-function CoverageStrip({ coverage }: { coverage: CategoryCoverage }) {
-  return (
-    <p className="mt-6 font-mono text-[11px] tabular-nums text-muted-foreground">
-      {`${String(coverage.total).padStart(4, "0")} record${coverage.total === 1 ? "" : "s"} · pricing ${fmtPct(coverage.withPricingDetail, coverage.total)} · source ${fmtPct(coverage.withSource, coverage.total)} · verification ${fmtPct(coverage.withVerification, coverage.total)}`}
-    </p>
-  );
 }
 
 function SubChips({
@@ -145,7 +135,6 @@ async function CategoryHub({
   allTools: Tool[];
 }) {
   const tools = allTools.filter((tool) => tool.primary_category === category.slug);
-  const coverage = computeCategoryCoverage(tools);
   const subCounts = countSubs(allTools);
   const subs = subsForLegacy(category.slug)
     .map((s) => ({ slug: s.slug, name: s.name, count: subCounts.get(s.name) ?? 0 }))
@@ -185,8 +174,6 @@ async function CategoryHub({
         {description ? (
           <p className="mt-3 max-w-3xl text-pretty leading-7 text-muted-foreground">{description}</p>
         ) : null}
-
-        <CoverageStrip coverage={coverage} />
 
         <SubChips subs={subs} />
 
@@ -228,7 +215,6 @@ async function SubCategoryPage({
   allTools: Tool[];
 }) {
   const tools = allTools.filter((tool) => tool.sub === sub.name);
-  const coverage = computeCategoryCoverage(tools);
   const subCounts = countSubs(allTools);
   const siblings = subsForLegacy(sub.legacySlug)
     .map((s) => ({ slug: s.slug, name: s.name, count: subCounts.get(s.name) ?? 0 }))
@@ -271,8 +257,6 @@ async function SubCategoryPage({
           {sub.description}
         </p>
 
-        <CoverageStrip coverage={coverage} />
-
         <SubChips subs={siblings} activeSlug={sub.slug} />
 
       </header>
@@ -301,9 +285,4 @@ async function SubCategoryPage({
       </div>
     </div>
   );
-}
-
-function fmtPct(part: number, total: number): string {
-  if (total === 0) return "0%";
-  return `${Math.round((part / total) * 100)}%`;
 }
