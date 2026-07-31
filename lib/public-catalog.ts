@@ -47,8 +47,12 @@ type StaticDirectory = Omit<
 
 const STATIC_TIMESTAMP = toolsSnapshot.generatedAt ?? "1970-01-01T00:00:00.000Z";
 
-// slug → sub value from the static catalog. Supabase rows do not yet carry a
-// `sub` column, so we attach the recorded sub at read time when it is missing.
+// slug → sub value from the static catalog. Supabase is the source of truth
+// in production (the `sub` column is populated by scripts/backfill-tool-sub.ts);
+// this map is a safety net for rows that for whatever reason never got a sub
+// value written — orphan rows, edge-case renames, or a fresh reclassify that
+// hasn't been backfilled yet. Read path: prefer the row's own sub, fall back
+// here, only attach when we actually change something.
 const SUB_BY_SLUG: ReadonlyMap<string, string> = new Map(
   (toolsData as Array<{ slug?: string; sub?: string | null }>).flatMap((t) =>
     t.slug && t.sub ? [[t.slug, t.sub]] : [],
@@ -225,6 +229,9 @@ export async function getPublicCategories(): Promise<Category[]> {
 }
 
 function withSubAttached(tools: Tool[]): Tool[] {
+  // Fallback-only: Subabase-supplied sub is the truth. If a row is missing
+  // its sub (legacy row, recent reclassify not yet backfilled, etc.), borrow
+  // from the static JSON so the sub-category pages still surface the tool.
   let changed = false;
   const out = tools.map((tool) => {
     if (tool.sub) return tool;
