@@ -1,5 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <g fill="none" stroke="#2578F8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <style>
+    .mark { stroke: #101725; }
+    @media (prefers-color-scheme: dark) {
+      .mark { stroke: #edf2f7; }
+    }
+  </style>
+  <g class="mark" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
     <circle cx="9" cy="16" r="5.5"/>
     <line x1="14.5" y1="10.5" x2="14.5" y2="21.5"/>
     <line x1="19" y1="7" x2="19" y2="25"/>

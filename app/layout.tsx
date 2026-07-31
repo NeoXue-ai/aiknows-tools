@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono, Instrument_Serif } from "next/font/google";
 import { Toaster } from "@/components/ui/sonner";
 import { Plausible } from "@/components/plausible";
@@ -36,12 +36,14 @@ export const metadata: Metadata = {
   description:
     "Curated AI tools and AI directories for SaaS builders. Discover products, find directories, grow your SaaS.",
   icons: {
-    // SVG first — modern browsers will pick the scalable vector. The .ico
-    // and apple-icon.png are auto-injected by Next.js (app/favicon.ico and
-    // app/apple-icon.png).
+    // SVG first — modern browsers pick the scalable vector with embedded
+    // prefers-color-scheme (dark mark on light tab, light mark on dark tab).
+    // The .ico and apple-icon.png are auto-injected by Next.js
+    // (app/favicon.ico and app/apple-icon.png).
     icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
     apple: "/apple-icon.png",
   },
+  manifest: "/manifest.webmanifest",
   openGraph: {
     type: "website",
     siteName: "aiknows.tools",
@@ -53,6 +55,16 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+};
+
+// Browser chrome (iOS status bar, Android address bar, PWA tile background).
+// Pairs with the favicon's adaptive stroke so the brand feels consistent
+// across light/dark surfaces.
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#f6f7f9" },
+    { media: "(prefers-color-scheme: dark)", color: "#0b1018" },
+  ],
 };
 
 export default function RootLayout({
