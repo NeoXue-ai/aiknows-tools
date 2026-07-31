@@ -21,7 +21,6 @@ export function CategoryAtlas({ sections }: { sections: CategorySection[] }) {
     <div className="space-y-0">
       {sections.map(({ category, subs }, idx) => {
         const Icon = categoryIcon(category.slug);
-        const maxCount = Math.max(...subs.map((s) => s.count), 1);
         return (
           <section
             key={category.slug}
@@ -50,32 +49,22 @@ export function CategoryAtlas({ sections }: { sections: CategorySection[] }) {
                   Sub-categories
                 </p>
                 <div className="mt-4 grid grid-cols-1 gap-x-10 gap-y-5 sm:grid-cols-2">
-                  {subs.map((sub) => {
-                    const pct =
-                      sub.count === 0 ? 0 : Math.round((sub.count / maxCount) * 100);
-                    return (
-                      <Link
-                        key={sub.slug}
-                        href={`/categories/${sub.slug}`}
-                        className="group block min-w-0"
-                      >
-                        <span className="flex items-baseline justify-between gap-3">
-                          <span className="truncate text-sm text-foreground transition-colors group-hover:text-accent">
-                            {sub.name}
-                          </span>
-                          <span className="font-mono text-xs tabular-nums text-muted-foreground">
-                            {sub.count}
-                          </span>
+                  {subs.map((sub) => (
+                    <Link
+                      key={sub.slug}
+                      href={`/categories/${sub.slug}`}
+                      className="group block min-w-0"
+                    >
+                      <span className="flex items-baseline justify-between gap-3">
+                        <span className="truncate text-sm text-foreground transition-colors group-hover:text-accent">
+                          {sub.name}
                         </span>
-                        <span className="mt-2 block h-0.5 w-full overflow-hidden rounded-full bg-border/70">
-                          <span
-                            className="block h-full rounded-full bg-accent transition-[width] duration-300"
-                            style={{ width: `${pct}%` }}
-                          />
+                        <span className="font-mono text-xs tabular-nums text-muted-foreground">
+                          {sub.count}
                         </span>
-                      </Link>
-                    );
-                  })}
+                      </span>
+                    </Link>
+                  ))}
                 </div>
               </div>
             )}
