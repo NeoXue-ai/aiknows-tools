@@ -2,29 +2,18 @@ import type { Metadata } from "next";
 import { CategoryAtlasNav, type CategoryNavItem } from "@/components/category-atlas-nav";
 import { CategoryAtlas, type CategorySection } from "@/components/category-atlas";
 import {
-  computeCategoryCoverage,
   countSubs,
   getPublicCategories,
   getPublicTools,
 } from "@/lib/public-catalog";
 import { subsForLegacy } from "@/lib/subcategories";
 import { siteUrl } from "@/lib/site";
-import type { Tool } from "@/lib/supabase/types";
 
 export const metadata: Metadata = {
   title: "Categories",
   description:
-    "Browse the AIknows index by top-level category. Each section lists recorded tools, coverage of pricing detail and recorded source, and a representative preview.",
+    "Browse the AIknows index by top-level category. Each category lists its sub-categories with live tool counts.",
 };
-
-function previewFor(tools: Tool[]): Tool[] {
-  return [...tools]
-    .sort(
-      (a, b) =>
-        (b.dr ?? -1) - (a.dr ?? -1) || a.name.localeCompare(b.name),
-    )
-    .slice(0, 4);
-}
 
 export default async function CategoriesIndexPage() {
   const [categories, tools] = await Promise.all([
@@ -41,16 +30,15 @@ export default async function CategoriesIndexPage() {
       .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
     return {
       category,
-      coverage: computeCategoryCoverage(inCategory),
-      previewTools: previewFor(inCategory),
+      toolCount: inCategory.length,
       subs,
     };
   });
 
   // Populated sections lead; empty ones stay visible but trail.
   const ordered = [
-    ...sections.filter((s) => s.coverage.total > 0),
-    ...sections.filter((s) => s.coverage.total === 0),
+    ...sections.filter((s) => s.toolCount > 0),
+    ...sections.filter((s) => s.toolCount === 0),
   ];
 
   const navItems: CategoryNavItem[] = ordered.map((s) => ({
@@ -58,8 +46,8 @@ export default async function CategoriesIndexPage() {
     name: s.category.name,
   }));
 
-  const totalRecords = ordered.reduce((sum, s) => s.coverage.total, 0);
-  const populatedCount = ordered.filter((s) => s.coverage.total > 0).length;
+  const totalRecords = ordered.reduce((sum, s) => sum + s.toolCount, 0);
+  const populatedCount = ordered.filter((s) => s.toolCount > 0).length;
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -99,9 +87,8 @@ export default async function CategoriesIndexPage() {
           Browse the index by category
         </h1>
         <p className="mt-3 max-w-2xl text-pretty leading-7 text-muted-foreground">
-          {ordered.length} top-level categories recorded in the public catalog. Coverage
-          numbers and preview tools below are computed from the current records — no
-          estimates.
+          {ordered.length} top-level categories in the public catalog, each broken into
+          sub-categories. Counts below are live tool counts from the current records.
         </p>
       </header>
 

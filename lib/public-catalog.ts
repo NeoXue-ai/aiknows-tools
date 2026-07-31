@@ -224,38 +224,6 @@ export async function getPublicCategories(): Promise<Category[]> {
   }
 }
 
-export interface CategoryCoverage {
-  total: number;
-  withPricingDetail: number;
-  withSource: number;
-  withTags: number;
-  withDescription: number;
-  withVerification: number;
-}
-
-export function computeCategoryCoverage(tools: Tool[]): CategoryCoverage {
-  let withPricingDetail = 0;
-  let withSource = 0;
-  let withTags = 0;
-  let withDescription = 0;
-  let withVerification = 0;
-  for (const tool of tools) {
-    if (tool.pricing_detail?.trim()) withPricingDetail += 1;
-    if (tool.source?.trim()) withSource += 1;
-    if (Array.isArray(tool.tags) && tool.tags.length > 0) withTags += 1;
-    if (tool.description?.trim()) withDescription += 1;
-    if (tool.is_verified) withVerification += 1;
-  }
-  return {
-    total: tools.length,
-    withPricingDetail,
-    withSource,
-    withTags,
-    withDescription,
-    withVerification,
-  };
-}
-
 function withSubAttached(tools: Tool[]): Tool[] {
   let changed = false;
   const out = tools.map((tool) => {
