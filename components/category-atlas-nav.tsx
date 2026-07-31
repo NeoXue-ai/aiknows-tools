@@ -67,16 +67,16 @@ export function CategoryAtlasNav({ items }: { items: CategoryNavItem[] }) {
               const active = it.slug === activeSlug;
               const Icon = categoryIcon(it.slug);
               return (
-                <li key={it.slug}>
+                <li key={it.slug} className="border-b border-border/60 last:border-b-0">
                   <a
                     href={`#cat-${it.slug}`}
                     onClick={(e) => handleClick(e, it.slug)}
                     aria-current={active ? "location" : undefined}
                     className={cn(
-                      "flex items-center gap-3 border-l-2 -ml-px py-2.5 pl-4 pr-3 transition-colors",
+                      "flex items-center gap-3 border-l-2 -ml-px py-4 pl-4 pr-3 transition-colors",
                       active
-                        ? "border-accent text-accent"
-                        : "border-transparent text-muted-foreground hover:text-foreground",
+                        ? "border-l-accent text-accent"
+                        : "border-l-transparent text-muted-foreground hover:text-foreground",
                     )}
                   >
                     <span className="font-mono text-[10px] tabular-nums tracking-[0.14em]">
