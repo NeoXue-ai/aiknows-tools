@@ -17,9 +17,9 @@ export default async function LoginPage({
       <div className="w-full max-w-md space-y-6">
         <div className="text-center">
           <div className="mx-auto mb-3">
-            <Image src="/logo.png" alt="aiknows.tools" width={40} height={40} className="dark:invert" />
+            <Image src="/logo.png" alt="aiknows" width={40} height={40} className="dark:invert" />
           </div>
-          <h1 className="text-2xl font-bold tracking-tight">Sign in to aiknows.tools</h1>
+          <h1 className="text-2xl font-bold tracking-tight">Sign in to aiknows</h1>
           <p className="mt-1 text-sm text-muted-foreground">
             Save tools, track directories, and submit your own products to the
             catalog.

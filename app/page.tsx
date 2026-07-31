@@ -1,316 +1,320 @@
 import Link from "next/link";
 import {
   ArrowRight,
+  ArrowUpRight,
+  Code2,
+  Image as ImageIcon,
+  LineChart,
+  Megaphone,
+  Network,
+  ShoppingBag,
   Sparkles,
-  FolderTree,
-  Compass,
-  type LucideIcon,
+  Wand2,
 } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { ToolCard } from "@/components/ToolCard";
+import { ToolCardCompact } from "@/components/ToolCardCompact";
+import { ScrollReveal } from "@/components/scroll-reveal";
+import { getPublicCatalogSummary } from "@/lib/public-catalog";
+import { CATEGORIES, categoryName } from "@/lib/seo/tool-schema";
 import { cn } from "@/lib/utils";
-import { CATEGORIES } from "@/lib/seo/tool-schema";
-import type { Tool, Directory } from "@/lib/supabase/types";
-import { toolsData } from "@/lib/tools-data";
-import directoriesData from "@/data/directories.json";
+import type { Tool } from "@/lib/supabase/types";
 
-const TOOLS_SEED = toolsData as Array<Omit<Tool, "id" | "tags" | "is_featured" | "is_verified" | "status" | "submitted_at" | "published_at" | "created_at" | "updated_at"> & {
-  tags: string[];
-  is_featured: boolean;
-  is_verified: boolean;
-}>;
-const DIRECTORIES_SEED = directoriesData as Array<Omit<Directory, "id" | "status" | "last_checked" | "last_verified" | "created_at"> & {
-  status: "active" | "dead" | "unknown";
-}>;
+const CATEGORY_ICON: Record<string, React.ComponentType<{ className?: string }>> = {
+  "writing-content": Wand2,
+  "seo-marketing": Megaphone,
+  "image-video": ImageIcon,
+  "code-development": Code2,
+  "productivity": Sparkles,
+  "business-analytics": LineChart,
+  "ecommerce-sales": ShoppingBag,
+  "research-data": Network,
+};
 
-export default function Home() {
-  // Featured = is_featured = true. Fall back to top verified if nothing flagged.
-  const featured =
-    TOOLS_SEED.filter((t) => t.is_featured).slice(0, 8) ??
-    TOOLS_SEED.slice(0, 8);
+function pricingBadge(type: Tool["pricing_type"]): { label: string; dot: string } | null {
+  switch (type) {
+    case "free":
+      return { label: "Free", dot: "bg-emerald-500" };
+    case "freemium":
+      return { label: "Freemium", dot: "bg-amber-500" };
+    case "paid":
+      return { label: "Paid", dot: "bg-accent" };
+    case "enterprise":
+      return { label: "Enterprise", dot: "bg-violet-500" };
+    default:
+      return null;
+  }
+}
 
-  // Latest: just take the first N (JSON has no timestamps; in prod, query by published_at)
-  const latest = TOOLS_SEED.slice(0, 8);
+export default async function Home() {
+  const { tools, toolCount, directoryCount } = await getPublicCatalogSummary();
+  const featured = tools.slice(0, 6);
 
-  // Top directories: by DR
-  const topDirectories = [...DIRECTORIES_SEED]
-    .sort((a, b) => (b.dr ?? 0) - (a.dr ?? 0))
-    .slice(0, 8);
-
-  // Count tools per category
   const categoryCounts = CATEGORIES.map((c) => ({
     ...c,
-    count: TOOLS_SEED.filter((t) => t.primary_category === c.slug).length,
+    count: tools.filter((t) => t.primary_category === c.slug).length,
   }));
 
+  const samples = tools.slice(0, 4);
+
   return (
-    <div className="container mx-auto max-w-6xl px-4 py-16">
-      {/* Hero */}
-      <section className="mb-20 text-center">
-        <h1 className="mb-4 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
-          Discover AI Tools.
-          <br />
-          Find AI Directories.
-          <br />
-          <span className="text-primary">Grow Your SaaS.</span>
-        </h1>
-        <p className="mx-auto mb-8 max-w-2xl text-lg text-muted-foreground">
-          A curated directory of {TOOLS_SEED.length} AI tools and{" "}
-          {DIRECTORIES_SEED.length} high-DR submission directories, built for
-          indie hackers, AI founders, and solo SaaS builders.
-        </p>
-        <div className="flex flex-wrap items-center justify-center gap-3">
-          <Link href="/tools" className={cn(buttonVariants({ size: "lg" }))}>
-            Browse Tools <ArrowRight className="ml-2 h-4 w-4" />
-          </Link>
-          <Link
-            href="/directories"
-            className={cn(buttonVariants({ size: "lg", variant: "outline" }))}
-          >
-            Browse Directories
-          </Link>
-          <Link
-            href="/submit"
-            className={cn(buttonVariants({ size: "lg", variant: "ghost" }))}
-          >
-            Submit Your Tool
-          </Link>
-        </div>
-      </section>
-
-      {/* What we cover */}
-      <section className="mb-20 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        <FeatureCard
-          icon={Sparkles}
-          title="Curated AI Tools"
-          description={`${TOOLS_SEED.length} hand-picked AI products across writing, SEO, image, code, and more. Updated weekly.`}
-          href="/tools"
+    <div>
+      {/* Hero — asymmetric: left thesis, right index snapshot */}
+      <section className="relative overflow-hidden border-b border-border">
+        {/* Ambient spotlight */}
+        <div
+          aria-hidden
+          className="pointer-events-none absolute -inset-40 ml-spotlight"
+          style={{
+            background:
+              "radial-gradient(ellipse 60% 50% at center, color-mix(in srgb, var(--accent) 10%, transparent) 0%, transparent 70%)",
+            animation: "ml-spotlight 24s ease-in-out infinite",
+          }}
         />
-        <FeatureCard
-          icon={FolderTree}
-          title="AI Directories Database"
-          description={`${DIRECTORIES_SEED.length} high-DR directories with submission type, link type, and listing speed. The flagship page.`}
-          href="/directories"
-        />
-        <FeatureCard
-          icon={Compass}
-          title="Discover What's New"
-          description="See what other builders are launching. Spot gaps and opportunities before the crowd."
-          href="/latest"
-        />
-      </section>
-
-      {/* Featured Tools */}
-      <SectionHeader
-        eyebrow="Featured"
-        title="Hand-picked AI tools"
-        description="Editor's picks — the tools we'd recommend first."
-        cta={{ label: "See all tools", href: "/tools" }}
-      />
-      <section className="mb-20">
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {featured.map((t) => (
-            <ToolCard key={t.slug} tool={t as unknown as Tool} />
-          ))}
-        </div>
-      </section>
-
-      {/* Popular Categories */}
-      <SectionHeader
-        eyebrow="Browse"
-        title="Find tools by category"
-        description="Eight categories, from writing to research. Every tool tagged by what it actually does."
-        cta={{ label: "All categories", href: "/categories" }}
-      />
-      <section className="mb-20 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-        {categoryCounts.map((c) => (
-          <Link
-            key={c.slug}
-            href={`/categories/${c.slug}`}
-            className="group rounded-lg border border-border bg-card p-4 transition-colors hover:border-primary/50 hover:bg-card/80"
-          >
-            <div className="flex items-center justify-between">
-              <h3 className="text-sm font-semibold">{c.name}</h3>
-              <Badge variant="secondary" className="text-xs">
-                {c.count}
-              </Badge>
-            </div>
-            <p className="mt-1 text-xs text-muted-foreground group-hover:text-foreground/80">
-              Browse →
+        <div className="container mx-auto grid max-w-7xl gap-12 px-4 py-20 lg:grid-cols-[minmax(0,1fr)_minmax(0,0.85fr)] lg:gap-16 lg:py-28">
+          {/* Left: thesis */}
+          <div className="flex flex-col">
+            <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-muted-foreground">
+              AI tool discovery platform
             </p>
-          </Link>
-        ))}
-      </section>
-
-      {/* Featured Directories */}
-      <SectionHeader
-        eyebrow="Directories"
-        title="Top-DR submission targets"
-        description="The highest-authority directories for backlinks and visibility. Click any name to submit."
-        cta={{ label: "View all directories", href: "/directories" }}
-      />
-      <section className="mb-20 overflow-x-auto rounded-lg border border-border bg-card">
-        <table className="w-full text-sm">
-          <thead>
-            <tr className="border-b border-border bg-muted/40 text-left text-xs uppercase tracking-wide text-muted-foreground">
-              <th className="px-4 py-2.5 font-medium">Name</th>
-              <th className="hidden px-4 py-2.5 font-medium sm:table-cell">DR</th>
-              <th className="px-4 py-2.5 font-medium">Type</th>
-              <th className="hidden px-4 py-2.5 font-medium sm:table-cell">Link</th>
-              <th className="px-4 py-2.5"></th>
-            </tr>
-          </thead>
-          <tbody>
-            {topDirectories.map((d) => (
-              <tr
-                key={d.slug}
-                className="border-b border-border/40 last:border-0 transition-colors hover:bg-muted/30"
+            <h1 className="mt-5 text-balance font-serif text-5xl font-normal leading-[1.02] tracking-[-0.025em] text-foreground sm:text-6xl lg:text-[5rem] lg:tracking-[-0.035em]">
+              Discover the Future of AI
+            </h1>
+            <p className="mt-6 max-w-xl text-pretty text-base leading-7 text-muted-foreground sm:text-lg">
+              Explore the best AI tools, products, and startups shaping the future.
+            </p>
+            <div className="mt-8 flex flex-wrap items-center gap-3">
+              <Link
+                href="/tools"
+                className={cn(
+                  buttonVariants({ size: "lg" }),
+                  "h-12 px-6 text-sm font-medium",
+                )}
               >
-                <td className="px-4 py-3">
-                  <a
-                    href={d.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="font-medium hover:text-primary"
-                  >
-                    {d.name}
-                  </a>
-                  {d.niche_focus ? (
-                    <p className="text-xs text-muted-foreground">
-                      {d.niche_focus}
-                    </p>
-                  ) : null}
-                </td>
-                <td className="hidden px-4 py-3 font-mono text-xs sm:table-cell">
-                  {d.dr ?? "—"}
-                </td>
-                <td className="px-4 py-3">
-                  <Badge variant="outline" className="text-xs">
-                    {d.submission_type ?? "—"}
-                  </Badge>
-                </td>
-                <td className="hidden px-4 py-3 sm:table-cell">
-                  <Badge
-                    variant={d.link_type === "dofollow" ? "default" : "secondary"}
-                    className="text-xs"
-                  >
-                    {d.link_type ?? "—"}
-                  </Badge>
-                </td>
-                <td className="px-4 py-3 text-right">
-                  {d.submit_url ? (
-                    <a
-                      href={d.submit_url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-xs text-primary hover:underline"
-                    >
-                      Submit →
-                    </a>
-                  ) : (
-                    <span className="text-xs text-muted-foreground">—</span>
-                  )}
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </section>
+                Explore AI Tools
+              </Link>
+              <Link
+                href="/submit"
+                className="inline-flex h-12 items-center gap-1.5 px-2 text-sm font-medium text-foreground transition-colors hover:text-accent"
+              >
+                Submit Your Tool
+                <ArrowRight className="h-4 w-4" />
+              </Link>
+            </div>
+            <p className="mt-10 font-mono text-[11px] uppercase tracking-[0.18em] text-muted-foreground">
+              {toolCount}+ AI tools · {directoryCount}+ directories · Live records
+            </p>
+          </div>
 
-      {/* Latest */}
-      <SectionHeader
-        eyebrow="Latest"
-        title="Recently added"
-        description="The newest tools added to the directory."
-        cta={{ label: "See all new", href: "/latest" }}
-      />
-      <section className="mb-20">
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {latest.map((t) => (
-            <ToolCard key={t.slug} tool={t as unknown as Tool} />
-          ))}
+          {/* Right: index snapshot */}
+          <aside className="flex flex-col self-stretch">
+            <div className="flex items-baseline justify-between border-b border-border pb-3">
+              <span className="font-mono text-[10px] uppercase tracking-[0.18em] text-muted-foreground">
+                Index snapshot
+              </span>
+              <Link
+                href="/tools"
+                className="font-mono text-[10px] uppercase tracking-[0.18em] text-muted-foreground transition-colors hover:text-accent"
+              >
+                Browse →
+              </Link>
+            </div>
+            <ol className="flex flex-1 flex-col">
+              {samples.map((t, i) => {
+                const pricing = pricingBadge(t.pricing_type);
+                return (
+                  <li
+                    key={t.id || t.slug}
+                    className="group/row border-b border-border last:border-b-0"
+                  >
+                    <Link
+                      href={`/tools/${t.slug}`}
+                      className="-mx-2 flex items-center gap-4 rounded-md px-2 py-4 transition-colors hover:bg-secondary/30"
+                    >
+                      <span className="w-8 shrink-0 font-serif text-[18px] italic leading-none tabular-nums text-muted-foreground transition-colors group-hover/row:text-foreground">
+                        {String(i + 1).padStart(2, "0")}
+                      </span>
+                      <div className="min-w-0 flex-1">
+                        <span className="block truncate text-[15px] font-medium text-foreground transition-colors group-hover/row:text-accent">
+                          {t.name}
+                        </span>
+                        <span className="block font-mono text-[10px] uppercase tracking-[0.12em] text-muted-foreground">
+                          {categoryName(t.primary_category)}
+                          {pricing && (
+                            <>
+                              <span aria-hidden className="mx-2 text-border">·</span>
+                              <span className="inline-flex items-center gap-1">
+                                <span
+                                  aria-hidden
+                                  className={cn(
+                                    "h-1.5 w-1.5 rounded-full",
+                                    pricing.dot,
+                                  )}
+                                />
+                                {pricing.label}
+                              </span>
+                            </>
+                          )}
+                        </span>
+                      </div>
+                    </Link>
+                  </li>
+                );
+              })}
+            </ol>
+          </aside>
         </div>
       </section>
 
-      {/* Submit CTA */}
-      <section className="rounded-2xl border border-border bg-gradient-to-br from-primary/5 to-primary/10 p-8 text-center sm:p-12">
-        <h2 className="mb-3 text-2xl font-bold sm:text-3xl">
-          Built an AI tool?
-        </h2>
-        <p className="mx-auto mb-6 max-w-xl text-muted-foreground">
-          Get it in front of {TOOLS_SEED.length.toLocaleString()} monthly
-          visitors and a curated list of {DIRECTORIES_SEED.length} directories to
-          submit to. Submissions reviewed within 2 business days.
-        </p>
-        <Link
-          href="/submit"
-          className={cn(buttonVariants({ size: "lg" }))}
-        >
-          Submit Your Tool <ArrowRight className="ml-2 h-4 w-4" />
-        </Link>
+      {/* What this index records */}
+      <ScrollReveal>
+      <section className="border-b border-border">
+        <div className="container mx-auto max-w-7xl px-4 py-16 lg:py-20">
+          <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.4fr)] lg:gap-16">
+            <div>
+              <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-muted-foreground">
+                How to read the index
+              </p>
+              <h2 className="mt-3 text-balance text-2xl font-semibold tracking-[-0.03em] sm:text-3xl">
+                An evidence-led map, not a popularity ranking.
+              </h2>
+              <p className="mt-3 max-w-md text-sm leading-6 text-muted-foreground">
+                Each record states what is captured, what is missing, and what is not measured. No claims of review, ranking, or popularity unless the data carries them.
+              </p>
+            </div>
+            <dl className="divide-y divide-border border-y border-border">
+              {[
+                {
+                  label: "Identity",
+                  detail: "Name, primary category, tagline, and a working URL.",
+                },
+                {
+                  label: "Pricing state",
+                  detail: "Free · Freemium · Paid · Enterprise, with detail when recorded.",
+                },
+                {
+                  label: "Description & tags",
+                  detail: "Description depth and tag coverage drive the evidence score.",
+                },
+                {
+                  label: "Recorded source",
+                  detail: "Where the record originated, when present. Not a verification.",
+                },
+              ].map((row) => (
+                <div
+                  key={row.label}
+                  className="grid grid-cols-[8rem_minmax(0,1fr)] gap-4 py-4 sm:grid-cols-[10rem_minmax(0,1fr)] sm:gap-6"
+                >
+                  <dt className="font-mono text-[11px] uppercase tracking-[0.14em] text-muted-foreground">
+                    {row.label}
+                  </dt>
+                  <dd className="text-sm leading-6 text-foreground/85">
+                    {row.detail}
+                  </dd>
+                </div>
+              ))}
+            </dl>
+          </div>
+        </div>
       </section>
-    </div>
-  );
-}
+      </ScrollReveal>
 
-function FeatureCard({
-  icon: Icon,
-  title,
-  description,
-  href,
-}: {
-  icon: LucideIcon;
-  title: string;
-  description: string;
-  href: string;
-}) {
-  return (
-    <Link
-      href={href}
-      className="group rounded-lg border border-border bg-card p-6 transition-colors hover:border-primary/50 hover:bg-card/80"
-    >
-      <div className="mb-3 text-primary">
-        <Icon className="h-6 w-6" />
-      </div>
-      <h3 className="mb-2 font-semibold">{title}</h3>
-      <p className="text-sm text-muted-foreground">{description}</p>
-      <ArrowRight className="mt-4 h-4 w-4 text-muted-foreground transition-transform group-hover:translate-x-1 group-hover:text-foreground" />
-    </Link>
-  );
-}
+      {/* Trending AI Tools */}
+      <ScrollReveal>
+      <section className="border-b border-border">
+        <div className="container mx-auto max-w-7xl px-4 py-16 lg:py-20">
+          <div className="flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-end">
+            <div>
+              <h2 className="text-balance text-2xl font-semibold tracking-[-0.03em] sm:text-3xl">
+                Recent records
+              </h2>
+              <p className="mt-2 max-w-xl text-sm leading-6 text-muted-foreground">
+                A sample of recent entries. Click any record to open its dossier.
+              </p>
+            </div>
+            <Link
+              href="/tools"
+              className="inline-flex items-center gap-1.5 text-sm font-medium text-foreground transition-colors hover:text-accent"
+            >
+              View all tools <ArrowRight className="h-4 w-4" />
+            </Link>
+          </div>
+          <div className="ml-stagger mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {featured.map((tool) => (
+              <ToolCardCompact key={tool.id || tool.slug} tool={tool} />
+            ))}
+          </div>
+        </div>
+      </section>
+      </ScrollReveal>
 
-function SectionHeader({
-  eyebrow,
-  title,
-  description,
-  cta,
-}: {
-  eyebrow: string;
-  title: string;
-  description: string;
-  cta?: { label: string; href: string };
-}) {
-  return (
-    <div className="mb-6 flex flex-col items-start justify-between gap-2 sm:flex-row sm:items-end">
-      <div>
-        <p className="mb-1 text-xs font-medium uppercase tracking-wider text-primary">
-          {eyebrow}
-        </p>
-        <h2 className="mb-1 text-2xl font-bold tracking-tight sm:text-3xl">
-          {title}
-        </h2>
-        <p className="text-sm text-muted-foreground">{description}</p>
-      </div>
-      {cta ? (
-        <Link
-          href={cta.href}
-          className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:underline"
-        >
-          {cta.label} <ArrowRight className="h-3.5 w-3.5" />
-        </Link>
-      ) : null}
+      {/* AI Categories */}
+      <ScrollReveal>
+      <section className="border-b border-border">
+        <div className="container mx-auto max-w-7xl px-4 py-16 lg:py-20">
+          <h2 className="text-balance text-2xl font-semibold tracking-[-0.03em] sm:text-3xl">
+            AI Categories
+          </h2>
+          <p className="mt-2 max-w-xl text-sm leading-6 text-muted-foreground">
+            Browse the index by what a tool actually does.
+          </p>
+          <div className="ml-stagger mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+            {categoryCounts.map((c) => {
+              const Icon = CATEGORY_ICON[c.slug] ?? Sparkles;
+              return (
+                <Link
+                  key={c.slug}
+                  href={`/categories/${c.slug}`}
+                  className="group flex items-center gap-3 rounded-xl border border-border bg-card p-4 transition-all hover:-translate-y-0.5 hover:border-accent/40"
+                >
+                  <span className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-lg border border-border bg-secondary/40 text-foreground transition-colors group-hover:border-accent/40 group-hover:text-accent">
+                    <Icon className="h-4 w-4" />
+                  </span>
+                  <span className="min-w-0 flex-1">
+                    <span className="block truncate text-sm font-medium text-foreground group-hover:text-accent">
+                      {c.name}
+                    </span>
+                    <span className="block font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground">
+                      {c.count} {c.count === 1 ? "tool" : "tools"}
+                    </span>
+                  </span>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+      </ScrollReveal>
+
+      {/* Dark Submit CTA */}
+      <ScrollReveal>
+      <section className="bg-foreground text-background">
+        <div className="container mx-auto max-w-5xl px-4 py-20 text-center lg:py-24">
+          <h2 className="text-balance font-serif text-4xl font-normal leading-[1.05] tracking-[-0.025em] sm:text-5xl sm:tracking-[-0.035em]">
+            Built an AI product?
+            <br />
+            Get discovered.
+          </h2>
+          <p className="mx-auto mt-5 max-w-xl text-pretty text-base leading-7 text-background/70">
+            Submit your AI tool and join the growing AI ecosystem.
+          </p>
+          <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
+            <Link
+              href="/submit"
+              className="inline-flex h-12 items-center gap-2 bg-background px-6 text-sm font-medium text-foreground transition-colors hover:bg-background/90"
+            >
+              Submit Your Tool
+              <ArrowUpRight className="h-4 w-4" />
+            </Link>
+            <Link
+              href="/tools"
+              className="inline-flex h-12 items-center gap-1.5 px-2 text-sm font-medium text-background/80 transition-colors hover:text-background"
+            >
+              Browse the index <ArrowRight className="h-4 w-4" />
+            </Link>
+          </div>
+        </div>
+      </section>
+      </ScrollReveal>
     </div>
   );
 }

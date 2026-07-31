@@ -1,15 +1,17 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { ArrowLeft } from "lucide-react";
-import { createAdminClient } from "@/lib/supabase/admin";
 import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
+  ArrowLeft,
+  ArrowUpRight,
+  CircleCheck,
+  CircleX,
+  Clock,
+  FileText,
+  Image as ImageIcon,
+  Mail,
+  Send,
+} from "lucide-react";
+import { createAdminClient } from "@/lib/supabase/admin";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { AdminSubmissionActions } from "@/components/AdminSubmissionActions";
@@ -49,135 +51,185 @@ export default async function AdminSubmissionDetailPage({
   const isClosed = submission.status !== "pending";
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-8">
       <div className="flex items-center justify-between gap-3">
         <Link
           href="/admin/submissions"
-          className={cn(buttonVariants({ variant: "ghost", size: "sm" }))}
+          className={cn(
+            buttonVariants({ variant: "ghost", size: "sm" }),
+            "text-muted-foreground hover:text-foreground",
+          )}
         >
-          <ArrowLeft className="mr-2 h-4 w-4" />
+          <ArrowLeft className="mr-1.5 h-4 w-4" />
           Back to queue
         </Link>
-        <Badge
-          variant={
-            submission.status === "approved"
-              ? "default"
-              : submission.status === "rejected"
-                ? "destructive"
-                : "secondary"
-          }
-        >
-          {submission.status}
-        </Badge>
+        <SubmissionStatusBadge status={submission.status} />
       </div>
 
-      <header>
-        <h1 className="text-2xl font-bold tracking-tight">
+      <header className="space-y-3">
+        <p className="text-xs font-medium uppercase tracking-[0.18em] text-accent">
+          Submission review
+        </p>
+        <h1 className="text-balance text-2xl font-semibold tracking-tight sm:text-3xl">
           {submission.tool_name}
         </h1>
-        <p className="text-muted-foreground">
-          <a
-            href={submission.tool_url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:underline"
-          >
-            {submission.tool_url}
-          </a>
-        </p>
+        <a
+          href={submission.tool_url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-1 text-sm text-muted-foreground transition-colors hover:text-foreground"
+        >
+          {submission.tool_url}
+          <ArrowUpRight className="h-3.5 w-3.5" />
+        </a>
       </header>
 
       <div className="grid gap-6 lg:grid-cols-[1fr_320px]">
-        <Card>
-          <CardHeader>
-            <CardTitle>Submission details</CardTitle>
-            <CardDescription>
-              Submitted by {submission.submitter_email} on{" "}
-              {formatDate(submission.created_at)}
-            </CardDescription>
-          </CardHeader>
-          <CardContent className="space-y-4 text-sm">
-            <DetailRow label="Description">
-              <p className="whitespace-pre-wrap text-foreground">
-                {submission.description ?? "(no description)"}
-              </p>
-            </DetailRow>
-
-            <DetailRow label="Category">
-              {category ? (
-                <Badge variant="secondary">{category.name}</Badge>
-              ) : submission.category ? (
-                <Badge variant="outline">{submission.category}</Badge>
-              ) : (
-                <span className="text-muted-foreground">—</span>
-              )}
-            </DetailRow>
-
-            <DetailRow label="Pricing">
-              {submission.pricing_type ? (
-                <Badge variant="outline">{submission.pricing_type}</Badge>
-              ) : (
-                <span className="text-muted-foreground">—</span>
-              )}
-            </DetailRow>
-
-            <DetailRow label="Logo URL">
-              {submission.logo_url ? (
-                <a
-                  href={submission.logo_url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="break-all text-primary hover:underline"
-                >
-                  {submission.logo_url}
-                </a>
-              ) : (
-                <span className="text-muted-foreground">Not provided</span>
-              )}
-            </DetailRow>
-
-            <DetailRow label="Screenshot URL">
-              {submission.screenshot_url ? (
-                <a
-                  href={submission.screenshot_url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="break-all text-primary hover:underline"
-                >
-                  {submission.screenshot_url}
-                </a>
-              ) : (
-                <span className="text-muted-foreground">Not provided</span>
-              )}
-            </DetailRow>
-
-            {submission.rejection_reason ? (
-              <DetailRow label="Rejection reason">
-                <p className="whitespace-pre-wrap text-foreground">
-                  {submission.rejection_reason}
+        <div className="space-y-6">
+          <section className="overflow-hidden rounded-xl border border-border/60 bg-card/40 p-6">
+            <div className="mb-5 flex items-start justify-between gap-3">
+              <div>
+                <p className="text-xs font-medium uppercase tracking-[0.18em] text-muted-foreground">
+                  About this submission
                 </p>
-              </DetailRow>
-            ) : null}
+                <h2 className="mt-1 text-base font-semibold tracking-tight">
+                  Submission details
+                </h2>
+              </div>
+            </div>
 
-            {submission.reviewed_at ? (
-              <DetailRow label="Reviewed at">
-                {formatDate(submission.reviewed_at)}
+            <div className="space-y-5 text-sm">
+              <DetailRow label="Description">
+                {submission.description ? (
+                  <p className="whitespace-pre-wrap text-pretty leading-relaxed text-foreground">
+                    {submission.description}
+                  </p>
+                ) : (
+                  <span className="text-muted-foreground">
+                    (no description provided)
+                  </span>
+                )}
               </DetailRow>
-            ) : null}
-          </CardContent>
-        </Card>
 
-        <div>
-          <Card>
-            <CardHeader>
-              <CardTitle>Decision</CardTitle>
-              <CardDescription>
+              <DetailRow label="Category">
+                {category ? (
+                  <span className="inline-flex items-center rounded-full border border-border bg-secondary/40 px-2 py-0.5 text-[11px] font-medium text-foreground/90">
+                    {category.name}
+                  </span>
+                ) : submission.category ? (
+                  <span className="inline-flex items-center rounded-full border border-border bg-secondary/40 px-2 py-0.5 text-[11px] font-medium text-muted-foreground">
+                    {submission.category}
+                  </span>
+                ) : (
+                  <span className="text-muted-foreground">—</span>
+                )}
+              </DetailRow>
+
+              <DetailRow label="Pricing">
+                {submission.pricing_type ? (
+                  <span className="inline-flex items-center rounded-full border border-border bg-secondary/40 px-2 py-0.5 text-[11px] font-medium text-foreground/90">
+                    {submission.pricing_type}
+                  </span>
+                ) : (
+                  <span className="text-muted-foreground">—</span>
+                )}
+              </DetailRow>
+
+              <DetailRow
+                label="Logo URL"
+                icon={ImageIcon}
+              >
+                {submission.logo_url ? (
+                  <a
+                    href={submission.logo_url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="break-all text-foreground transition-colors hover:text-accent"
+                  >
+                    {submission.logo_url}
+                  </a>
+                ) : (
+                  <span className="text-muted-foreground">Not provided</span>
+                )}
+              </DetailRow>
+
+              <DetailRow
+                label="Screenshot URL"
+                icon={ImageIcon}
+              >
+                {submission.screenshot_url ? (
+                  <a
+                    href={submission.screenshot_url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="break-all text-foreground transition-colors hover:text-accent"
+                  >
+                    {submission.screenshot_url}
+                  </a>
+                ) : (
+                  <span className="text-muted-foreground">Not provided</span>
+                )}
+              </DetailRow>
+
+              {submission.rejection_reason ? (
+                <DetailRow label="Rejection reason" icon={FileText}>
+                  <p className="whitespace-pre-wrap text-pretty text-foreground">
+                    {submission.rejection_reason}
+                  </p>
+                </DetailRow>
+              ) : null}
+
+              {submission.reviewed_at ? (
+                <DetailRow label="Reviewed at" icon={Clock}>
+                  <span className="font-mono text-xs text-foreground/80">
+                    {formatDate(submission.reviewed_at)}
+                  </span>
+                </DetailRow>
+              ) : null}
+            </div>
+          </section>
+
+          <section className="rounded-xl border border-border/60 bg-card/40 p-6">
+            <p className="text-xs font-medium uppercase tracking-[0.18em] text-muted-foreground">
+              Submitter
+            </p>
+            <h2 className="mt-1 text-base font-semibold tracking-tight">
+              Contact
+            </h2>
+            <div className="mt-4 space-y-3 text-sm">
+              <ContactRow icon={Mail} label="Email">
+                <a
+                  href={`mailto:${submission.submitter_email}`}
+                  className="text-foreground transition-colors hover:text-accent"
+                >
+                  {submission.submitter_email}
+                </a>
+              </ContactRow>
+              <ContactRow icon={Send} label="Submitted">
+                <span className="font-mono text-xs text-foreground/80">
+                  {formatDate(submission.created_at)}
+                </span>
+              </ContactRow>
+            </div>
+          </section>
+        </div>
+
+        <aside className="md:sticky md:top-24 md:self-start">
+          <div className="overflow-hidden rounded-xl border border-border/60 bg-card/40">
+            <div className="border-b border-border/40 p-6">
+              <p className="text-xs font-medium uppercase tracking-[0.18em] text-muted-foreground">
+                Decision
+              </p>
+              <h2 className="mt-1 text-base font-semibold tracking-tight">
+                Review outcome
+              </h2>
+              <p className="mt-1.5 text-sm text-muted-foreground">
                 {isClosed
                   ? "This submission has already been actioned."
                   : "Approve to publish, or reject with a reason."}
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
+              </p>
+            </div>
+            <div className="p-6">
               {isClosed ? (
                 <p className="text-sm text-muted-foreground">
                   No further action available.
@@ -185,9 +237,9 @@ export default async function AdminSubmissionDetailPage({
               ) : (
                 <AdminSubmissionActions submissionId={submission.id} />
               )}
-            </CardContent>
-          </Card>
-        </div>
+            </div>
+          </div>
+        </aside>
       </div>
     </div>
   );
@@ -195,18 +247,64 @@ export default async function AdminSubmissionDetailPage({
 
 function DetailRow({
   label,
+  icon: Icon,
   children,
 }: {
+  label: string;
+  icon?: React.ComponentType<{ className?: string }>;
+  children: React.ReactNode;
+}) {
+  return (
+    <div className="grid gap-1.5 sm:grid-cols-[140px_1fr] sm:items-start">
+      <span className="flex items-center gap-1.5 text-[10px] font-medium uppercase tracking-[0.18em] text-muted-foreground">
+        {Icon ? <Icon className="h-3 w-3" /> : null}
+        {label}
+      </span>
+      <div className="min-w-0">{children}</div>
+    </div>
+  );
+}
+
+function ContactRow({
+  icon: Icon,
+  label,
+  children,
+}: {
+  icon: React.ComponentType<{ className?: string }>;
   label: string;
   children: React.ReactNode;
 }) {
   return (
-    <div className="grid gap-1 sm:grid-cols-[140px_1fr]">
-      <span className="text-xs uppercase tracking-wide text-muted-foreground">
+    <div className="grid gap-1.5 sm:grid-cols-[140px_1fr] sm:items-start">
+      <span className="flex items-center gap-1.5 text-[10px] font-medium uppercase tracking-[0.18em] text-muted-foreground">
+        <Icon className="h-3 w-3" />
         {label}
       </span>
-      <div>{children}</div>
+      <div className="min-w-0 text-sm">{children}</div>
     </div>
+  );
+}
+
+function SubmissionStatusBadge({ status }: { status: string }) {
+  if (status === "approved")
+    return (
+      <span className="inline-flex items-center gap-1.5 rounded-full border border-emerald-500/20 bg-emerald-500/10 px-2.5 py-1 text-xs font-medium text-emerald-600 dark:text-emerald-400">
+        <CircleCheck className="h-3.5 w-3.5" />
+        Approved
+      </span>
+    );
+  if (status === "rejected")
+    return (
+      <span className="inline-flex items-center gap-1.5 rounded-full border border-destructive/30 bg-destructive/10 px-2.5 py-1 text-xs font-medium text-destructive">
+        <CircleX className="h-3.5 w-3.5" />
+        Rejected
+      </span>
+    );
+  return (
+    <span className="inline-flex items-center gap-1.5 rounded-full border border-amber-500/20 bg-amber-500/10 px-2.5 py-1 text-xs font-medium text-amber-600 dark:text-amber-400">
+      <Clock className="h-3.5 w-3.5" />
+      Pending
+    </span>
   );
 }
 

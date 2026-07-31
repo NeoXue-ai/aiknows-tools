@@ -66,7 +66,12 @@ export async function POST(request: NextRequest) {
     );
   }
 
-  const { error } = await admin.from("tools").update(updates).eq("id", toolId);
+  const { data: tool, error } = await admin
+    .from("tools")
+    .update(updates)
+    .eq("id", toolId)
+    .select("slug, primary_category")
+    .single();
 
   if (error) {
     console.error("[admin/tools/update] update failed:", error);
@@ -78,9 +83,15 @@ export async function POST(request: NextRequest) {
 
   try {
     revalidateTag("tools", "max");
-    revalidatePath("/tools");
-    revalidatePath("/latest");
+    revalidateTag("public-tools", "max");
     revalidatePath("/");
+    revalidatePath("/tools");
+    revalidatePath(`/tools/${tool.slug}`);
+    revalidatePath("/categories");
+    revalidatePath(`/categories/${tool.primary_category}`);
+    revalidatePath("/latest");
+    revalidatePath("/trending");
+    revalidatePath("/sitemap.xml");
   } catch (err) {
     console.error("[admin/tools/update] revalidate failed:", err);
   }

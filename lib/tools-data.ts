@@ -1,4 +1,15 @@
 import toolsDataRaw from "@/data/tools.json";
 
-// Handle both old format (array) and new format (object with tools array)
-export const toolsData = Array.isArray(toolsDataRaw) ? toolsDataRaw : (toolsDataRaw as any).tools || [];
+type ToolsSnapshot = {
+  version?: string;
+  generatedAt?: string;
+  totalTools?: number;
+  sources?: string[];
+  tools: unknown[];
+};
+
+export const toolsSnapshot: ToolsSnapshot = Array.isArray(toolsDataRaw)
+  ? { tools: toolsDataRaw }
+  : (toolsDataRaw as ToolsSnapshot);
+
+export const toolsData = toolsSnapshot.tools;

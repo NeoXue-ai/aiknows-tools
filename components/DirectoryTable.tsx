@@ -7,12 +7,13 @@ import {
   ArrowUpDown,
   ExternalLink,
   Search,
+  Sparkles,
   X,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { useTick } from "@/lib/motion";
 import { buttonVariants } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Badge } from "@/components/ui/badge";
 import {
   Table,
   TableBody,
@@ -46,85 +47,50 @@ const MIN_DR_OPTIONS: Array<{ label: string; value: number }> = [
 ];
 
 function relativeTime(iso: string | null): string {
-  if (!iso) return "—";
+  if (!iso) return "Not recorded";
   const then = new Date(iso).getTime();
-  if (Number.isNaN(then)) return "—";
+  if (Number.isNaN(then)) return "Not recorded";
   const diffMs = Date.now() - then;
   const sec = Math.floor(diffMs / 1000);
   if (sec < 60) return "just now";
   const min = Math.floor(sec / 60);
-  if (min < 60) return `${min} min ago`;
+  if (min < 60) return `${min}m ago`;
   const hr = Math.floor(min / 60);
-  if (hr < 24) return `${hr} hour${hr === 1 ? "" : "s"} ago`;
+  if (hr < 24) return `${hr}h ago`;
   const day = Math.floor(hr / 24);
-  if (day < 30) return `${day} day${day === 1 ? "" : "s"} ago`;
+  if (day < 30) return `${day}d ago`;
   const month = Math.floor(day / 30);
-  if (month < 12) return `${month} month${month === 1 ? "" : "s"} ago`;
+  if (month < 12) return `${month}mo ago`;
   const year = Math.floor(day / 365);
-  return `${year} year${year === 1 ? "" : "s"} ago`;
+  return `${year}y ago`;
 }
 
-function drTone(dr: number | null): {
-  label: string;
-  className: string;
-  barClass: string;
-} {
+function drDisplay(dr: number | null): { label: string; className: string; barClass: string } {
   if (dr == null) {
     return {
-      label: "—",
+      label: "Not recorded",
       className: "text-muted-foreground",
-      barClass: "bg-muted",
-    };
-  }
-  if (dr >= 70) {
-    return {
-      label: String(dr),
-      className: "text-emerald-700 dark:text-emerald-400",
-      barClass: "bg-emerald-500",
-    };
-  }
-  if (dr >= 40) {
-    return {
-      label: String(dr),
-      className: "text-amber-700 dark:text-amber-400",
-      barClass: "bg-amber-500",
+      barClass: "bg-border",
     };
   }
   return {
     label: String(dr),
-    className: "text-muted-foreground",
-    barClass: "bg-muted-foreground/40",
+    className: "text-foreground",
+    barClass: "bg-foreground/60",
   };
 }
 
-function submissionVariant(
-  t: SubmissionType | null,
-): "default" | "secondary" | "outline" {
-  if (t === "free") return "outline";
-  if (t === "paid") return "secondary";
-  if (t === "both") return "default";
-  return "outline";
+function submissionBadge(t: SubmissionType | null): { label: string; className: string } {
+  if (t === "free") return { label: "Free", className: "border-border text-foreground" };
+  if (t === "paid") return { label: "Paid", className: "border-border text-foreground" };
+  if (t === "both") return { label: "Free + Paid", className: "border-border text-foreground" };
+  return { label: "Not recorded", className: "border-border text-muted-foreground" };
 }
 
-function linkTypeBadge(t: LinkType | null): {
-  label: string;
-  className: string;
-} {
-  if (t === "dofollow") {
-    return {
-      label: "dofollow",
-      className:
-        "bg-emerald-500/10 text-emerald-700 dark:text-emerald-400 border-emerald-500/20",
-    };
-  }
-  if (t === "nofollow") {
-    return {
-      label: "nofollow",
-      className:
-        "bg-muted text-muted-foreground border-border",
-    };
-  }
-  return { label: "—", className: "bg-muted text-muted-foreground border-border" };
+function linkTypeBadge(t: LinkType | null): { label: string; className: string } {
+  if (t === "dofollow") return { label: "dofollow", className: "border-border text-foreground" };
+  if (t === "nofollow") return { label: "nofollow", className: "border-border text-foreground" };
+  return { label: "Not recorded", className: "border-border text-muted-foreground" };
 }
 
 export function DirectoryTable({ directories }: { directories: Directory[] }) {
@@ -136,6 +102,8 @@ export function DirectoryTable({ directories }: { directories: Directory[] }) {
   const [minDr, setMinDr] = React.useState<number>(0);
   const [sortKey, setSortKey] = React.useState<SortKey>("dr");
   const [sortDir, setSortDir] = React.useState<SortDir>("desc");
+  // Force re-render every 60s so relative times stay current.
+  useTick(60_000);
 
   const filtered = React.useMemo(() => {
     const q = search.trim().toLowerCase();
@@ -212,16 +180,17 @@ export function DirectoryTable({ directories }: { directories: Directory[] }) {
 
   return (
     <div className="space-y-4">
-      <div className="rounded-xl border border-border bg-card p-4">
-        <div className="flex flex-col gap-4">
+      {/* Filters */}
+      <div className="border-y border-border py-4">
+        <div className="space-y-3">
           <div className="relative">
-            <Search className="pointer-events-none absolute left-2.5 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
+            <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
             <Input
               type="search"
               placeholder="Search by name or niche…"
               value={search}
               onChange={(e) => setSearch(e.target.value)}
-              className="pl-8"
+              className="h-10 border-border pl-9"
             />
           </div>
 
@@ -260,13 +229,18 @@ export function DirectoryTable({ directories }: { directories: Directory[] }) {
         </div>
       </div>
 
-      <div className="flex items-center justify-between px-1 text-sm text-muted-foreground">
-        <span>
-          Showing <span className="font-medium text-foreground">{sorted.length}</span>{" "}
-          of <span className="font-medium text-foreground">{directories.length}</span>{" "}
+      {/* Result count */}
+      <div className="flex items-center justify-between px-1 text-sm">
+        <p className="text-muted-foreground">
+          Showing{" "}
+          <span className="font-medium text-foreground">{sorted.length}</span>{" "}
+          of{" "}
+          <span className="font-medium text-foreground">
+            {directories.length}
+          </span>{" "}
           directories
-        </span>
-        {filtersActive && (
+        </p>
+        {filtersActive ? (
           <button
             type="button"
             onClick={resetFilters}
@@ -275,13 +249,14 @@ export function DirectoryTable({ directories }: { directories: Directory[] }) {
             <X className="h-3.5 w-3.5" />
             Clear filters
           </button>
-        )}
+        ) : null}
       </div>
 
-      <div className="rounded-xl border border-border bg-card">
+      {/* Table */}
+      <div className="overflow-hidden border border-border">
         <Table>
           <TableHeader>
-            <TableRow>
+            <TableRow className="border-b border-border hover:bg-transparent">
               <SortableHead
                 label="Name"
                 sortKey="name"
@@ -295,7 +270,7 @@ export function DirectoryTable({ directories }: { directories: Directory[] }) {
                 current={sortKey}
                 dir={sortDir}
                 onSort={toggleSort}
-                className="w-20"
+                className="w-28"
               />
               <SortableHead
                 label="Type"
@@ -303,7 +278,7 @@ export function DirectoryTable({ directories }: { directories: Directory[] }) {
                 current={sortKey}
                 dir={sortDir}
                 onSort={toggleSort}
-                className="w-24"
+                className="w-32"
               />
               <SortableHead
                 label="Price"
@@ -336,23 +311,32 @@ export function DirectoryTable({ directories }: { directories: Directory[] }) {
                 current={sortKey}
                 dir={sortDir}
                 onSort={toggleSort}
-                className="hidden w-36 md:table-cell"
+                className="hidden w-32 md:table-cell"
               />
             </TableRow>
           </TableHeader>
           <TableBody>
             {sorted.length === 0 ? (
-              <TableRow>
-                <TableCell
-                  colSpan={8}
-                  className="py-12 text-center text-muted-foreground"
-                >
-                  <div className="flex flex-col items-center gap-3">
-                    <span>No directories match your filters.</span>
+              <TableRow className="hover:bg-transparent">
+                <TableCell colSpan={8} className="py-16 text-center">
+                  <div className="flex flex-col items-center gap-4">
+                    <span className="flex h-12 w-12 items-center justify-center rounded-full border border-border/60 bg-secondary/40 text-muted-foreground">
+                      <Sparkles className="h-5 w-5" />
+                    </span>
+                    <div>
+                      <p className="text-sm font-medium text-foreground">
+                        No directories match your filters.
+                      </p>
+                      <p className="mt-1 text-xs text-muted-foreground">
+                        Try widening the DR tier or clearing search.
+                      </p>
+                    </div>
                     <button
                       type="button"
                       onClick={resetFilters}
-                      className={cn(buttonVariants({ size: "sm", variant: "outline" }))}
+                      className={cn(
+                        buttonVariants({ size: "sm", variant: "outline" }),
+                      )}
                     >
                       Clear filters
                     </button>
@@ -360,9 +344,7 @@ export function DirectoryTable({ directories }: { directories: Directory[] }) {
                 </TableCell>
               </TableRow>
             ) : (
-              sorted.map((d) => (
-                <DirectoryRow key={d.id} directory={d} />
-              ))
+              sorted.map((d) => <DirectoryRow key={d.id} directory={d} />)
             )}
           </TableBody>
         </Table>
@@ -384,7 +366,7 @@ function FilterRow({
 }) {
   return (
     <div className="flex flex-wrap items-center gap-2">
-      <span className="text-xs font-medium uppercase tracking-wide text-muted-foreground">
+      <span className="text-[10px] font-medium uppercase tracking-[0.18em] text-muted-foreground">
         {label}
       </span>
       <div className="flex flex-wrap gap-1.5">
@@ -396,10 +378,10 @@ function FilterRow({
               type="button"
               onClick={() => onChange(opt.value)}
               className={cn(
-                "rounded-full border px-3 py-1 text-xs font-medium transition-colors",
+                "rounded-full border px-3 py-1 text-xs font-medium transition-all",
                 active
-                  ? "border-primary bg-primary text-primary-foreground"
-                  : "border-border bg-background text-muted-foreground hover:border-primary/40 hover:text-foreground",
+                  ? "border-accent bg-accent/10 text-accent shadow-[0_0_0_1px_var(--accent)]"
+                  : "border-border bg-background/60 text-muted-foreground hover:border-accent/40 hover:text-foreground",
               )}
             >
               {opt.label}
@@ -434,20 +416,21 @@ function SortableHead({
         type="button"
         onClick={() => onSort(sortKey)}
         className={cn(
-          "inline-flex items-center gap-1 transition-colors hover:text-foreground",
+          "inline-flex items-center gap-1 text-[10px] font-medium uppercase tracking-[0.18em] transition-colors hover:text-foreground",
           active ? "text-foreground" : "text-muted-foreground",
         )}
       >
         {label}
-        <Icon className="h-3.5 w-3.5" />
+        <Icon className="h-3 w-3" />
       </button>
     </TableHead>
   );
 }
 
 function DirectoryRow({ directory }: { directory: Directory }) {
-  const dr = drTone(directory.dr);
+  const dr = drDisplay(directory.dr);
   const lt = linkTypeBadge(directory.link_type);
+  const st = submissionBadge(directory.submission_type);
   const submitLabel =
     directory.submission_type === "paid"
       ? directory.paid_price
@@ -458,17 +441,17 @@ function DirectoryRow({ directory }: { directory: Directory }) {
         : "Submit";
 
   return (
-    <TableRow>
+    <TableRow className="border-b border-border/40 transition-colors hover:bg-secondary/30">
       <TableCell>
-        <div className="flex flex-col">
+        <div className="flex flex-col gap-0.5">
           <a
             href={directory.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="font-medium text-foreground hover:text-primary hover:underline"
+            className="group inline-flex items-center gap-1 font-medium text-foreground transition-colors hover:text-accent"
           >
             {directory.name}
-            <ExternalLink className="ml-1 inline-block h-3 w-3 align-baseline text-muted-foreground" />
+            <ExternalLink className="h-3 w-3 text-muted-foreground opacity-0 transition-opacity group-hover:opacity-100" />
           </a>
           {directory.niche_focus ? (
             <span className="text-xs text-muted-foreground">
@@ -480,12 +463,17 @@ function DirectoryRow({ directory }: { directory: Directory }) {
 
       <TableCell>
         <div className="flex items-center gap-2">
-          <span className={cn("text-sm font-semibold tabular-nums", dr.className)}>
+          <span
+            className={cn(
+              "text-sm font-semibold tabular-nums",
+              dr.className,
+            )}
+          >
             {dr.label}
           </span>
-          <div className="h-1.5 w-12 overflow-hidden rounded-full bg-muted">
+          <div className="h-1.5 w-14 overflow-hidden rounded-full bg-muted">
             <div
-              className={cn("h-full", dr.barClass)}
+              className={cn("ml-bar h-full", dr.barClass)}
               style={{
                 width: `${Math.max(0, Math.min(100, directory.dr ?? 0))}%`,
               }}
@@ -495,16 +483,18 @@ function DirectoryRow({ directory }: { directory: Directory }) {
       </TableCell>
 
       <TableCell>
-        <Badge variant={submissionVariant(directory.submission_type)}>
-          {directory.submission_type
-            ? directory.submission_type[0]!.toUpperCase() +
-              directory.submission_type.slice(1)
-            : "—"}
-        </Badge>
+        <span
+          className={cn(
+            "inline-flex items-center rounded-full border px-2 py-0.5 text-[11px] font-medium",
+            st.className,
+          )}
+        >
+          {st.label}
+        </span>
       </TableCell>
 
       <TableCell className="hidden md:table-cell">
-        <span className="text-sm text-muted-foreground">
+        <span className="font-mono text-xs text-muted-foreground">
           {directory.paid_price ?? "—"}
         </span>
       </TableCell>
@@ -512,7 +502,7 @@ function DirectoryRow({ directory }: { directory: Directory }) {
       <TableCell>
         <span
           className={cn(
-            "inline-flex items-center rounded-full border px-2 py-0.5 text-xs font-medium",
+            "inline-flex items-center rounded-full border px-2 py-0.5 text-[11px] font-medium",
             lt.className,
           )}
         >
@@ -521,7 +511,7 @@ function DirectoryRow({ directory }: { directory: Directory }) {
       </TableCell>
 
       <TableCell className="hidden md:table-cell">
-        <span className="text-sm text-muted-foreground">
+        <span className="text-xs text-muted-foreground">
           {directory.listing_speed ?? "—"}
         </span>
       </TableCell>
@@ -537,18 +527,21 @@ function DirectoryRow({ directory }: { directory: Directory }) {
                 ? `Paid: ${directory.paid_price}`
                 : undefined
             }
-            className={cn(buttonVariants({ size: "xs", variant: "outline" }))}
+            className={cn(
+              buttonVariants({ size: "xs", variant: "outline" }),
+              "transition-colors hover:border-accent/40 hover:text-accent",
+            )}
           >
             {submitLabel}
           </a>
         ) : (
-          <span className="text-sm text-muted-foreground">—</span>
+          <span className="text-xs text-muted-foreground">—</span>
         )}
       </TableCell>
 
       <TableCell className="hidden md:table-cell">
         <span
-          className="text-sm text-muted-foreground"
+          className="font-mono text-xs text-muted-foreground"
           title={directory.last_checked ?? undefined}
         >
           {relativeTime(directory.last_checked)}

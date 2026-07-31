@@ -29,6 +29,8 @@ export interface Tool {
   tags: string[]
   pricing_type: PricingType | null
   pricing_detail: string | null
+  source: string | null
+  dr: number | null
   is_featured: boolean
   is_verified: boolean
   status: ToolStatus

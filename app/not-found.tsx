@@ -23,14 +23,14 @@ export default function NotFound() {
           <Link href="/tools" className="hover:text-foreground/80">
             Tools
           </Link>
+          <Link href="/collections" className="hover:text-foreground/80">
+            Routes
+          </Link>
           <Link href="/directories" className="hover:text-foreground/80">
             Directories
           </Link>
           <Link href="/categories" className="hover:text-foreground/80">
             Categories
-          </Link>
-          <Link href="/latest" className="hover:text-foreground/80">
-            Latest
           </Link>
           <Link href="/submit" className="hover:text-foreground/80">
             Submit
