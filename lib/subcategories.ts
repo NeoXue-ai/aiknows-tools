@@ -133,7 +133,7 @@ for (const s of SUBCATEGORIES) {
 }
 
 export function subsForLegacy(legacySlug: string): Subcategory[] {
-  return SUBS_BY_LEGACY.get(legacySlug) ?? [];
+  return SUBS_BY_LEGACY.get(legacySlug)?.slice() ?? [];
 }
 
 export function subBySlug(slug: string): Subcategory | undefined {

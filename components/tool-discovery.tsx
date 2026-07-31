@@ -2,39 +2,17 @@
 
 import * as React from "react";
 import { useRouter, useSearchParams } from "next/navigation";
-import { ToolSearchBar } from "@/components/tool-search-bar";
-import { ToolFilters } from "@/components/tool-filters";
-import { ToolViewSwitcher, type ViewMode } from "@/components/tool-view-switcher";
+import { ToolToolbar, type ViewMode } from "@/components/tool-toolbar";
 import { ToolListView } from "@/components/tool-list-view";
 import { ToolEmptyState } from "@/components/tool-empty-state";
 import { ToolGrid } from "@/components/ToolGrid";
 import { ToolPagination } from "@/components/tool-pagination";
-import {
-  filterTools,
-  TASKS,
-  PRICING_OPTIONS,
-  USER_TYPES,
-  type Task,
-  type PricingOption,
-  type UserTypeFilter,
-  type SortKey,
-  type SortDir,
-} from "@/lib/tool-score";
-import { cn } from "@/lib/utils";
+import { filterTools, type SortKey, type SortDir } from "@/lib/tool-score";
 import type { Tool } from "@/lib/supabase/types";
 
 const VIEW_KEY = "aiknows:tool-view";
 const PAGE_SIZE = 24;
 
-function isTask(v: string | null): v is Task {
-  return !!v && (TASKS as readonly string[]).includes(v);
-}
-function isPricing(v: string | null): v is PricingOption {
-  return !!v && (PRICING_OPTIONS as readonly string[]).includes(v);
-}
-function isUserType(v: string | null): v is UserTypeFilter {
-  return !!v && (USER_TYPES as readonly string[]).includes(v);
-}
 function isSortKey(v: string | null): v is SortKey {
   return v === "time" || v === "name" || v === "dr";
 }
@@ -48,16 +26,10 @@ function parsePage(v: string | null): number {
 export function ToolDiscovery({
   tools,
   initialQ = "",
-  initialTask = null,
-  initialPricing = null,
-  initialUserType = null,
   variant = "full",
 }: {
   tools: Tool[];
   initialQ?: string;
-  initialTask?: Task | null;
-  initialPricing?: PricingOption | null;
-  initialUserType?: UserTypeFilter | null;
   variant?: "full" | "scoped";
 }) {
   const router = useRouter();
@@ -87,16 +59,11 @@ export function ToolDiscovery({
       }
     }
     setViewHydrated(true);
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // ---- Search query (URL ↔ state) ----
   const [q, setQ] = React.useState(initialQ);
-
-  // ---- Filters (URL ↔ state) ----
-  const [task, setTask] = React.useState<Task | null>(initialTask);
-  const [pricing, setPricing] = React.useState<PricingOption | null>(initialPricing);
-  const [userType, setUserType] = React.useState<UserTypeFilter | null>(initialUserType);
 
   // ---- Sort (URL ↔ state) ----
   const initialSort = searchParams.get("sort");
@@ -111,10 +78,15 @@ export function ToolDiscovery({
   // ---- Page (URL ↔ state) ----
   const [page, setPage] = React.useState<number>(parsePage(searchParams.get("page")));
 
-  // Reset page when filters/sort/search change.
+  // Reset page when search/sort changes — skip first mount so deep links to ?page=N survive.
+  const skipFirstPageResetRef = React.useRef(true);
   React.useEffect(() => {
+    if (skipFirstPageResetRef.current) {
+      skipFirstPageResetRef.current = false;
+      return;
+    }
     setPage(1);
-  }, [q, task, pricing, userType, sortKey, sortDir]);
+  }, [q, sortKey, sortDir]);
 
   // ---- URL sync (no scroll, no history bloat) ----
   React.useEffect(() => {
@@ -122,20 +94,15 @@ export function ToolDiscovery({
     for (const [key, value] of searchParams.entries()) {
       if (
         key === "q" ||
-        key === "task" ||
-        key === "pricing" ||
-        key === "userType" ||
         key === "sort" ||
         key === "dir" ||
         key === "view" ||
         key === "page"
-      ) continue;
+      )
+        continue;
       params.set(key, value);
     }
     if (q) params.set("q", q);
-    if (task) params.set("task", task);
-    if (pricing) params.set("pricing", pricing);
-    if (userType) params.set("userType", userType);
     if (sortKey !== "time") params.set("sort", sortKey);
     if (sortKey === "time" && sortDir !== "desc") params.set("dir", sortDir);
     if (sortKey === "name" && sortDir !== "asc") params.set("dir", sortDir);
@@ -146,8 +113,8 @@ export function ToolDiscovery({
     const current = searchParams.toString();
     if (next === current) return;
     router.replace(`?${next}`, { scroll: false });
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [q, task, pricing, userType, sortKey, sortDir, view, page]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [q, sortKey, sortDir, view, page]);
 
   // ---- Persist view to localStorage ----
   React.useEffect(() => {
@@ -161,8 +128,8 @@ export function ToolDiscovery({
 
   // ---- Derived: filtered + sorted tools ----
   const filtered = React.useMemo(
-    () => filterTools(tools, { q, task, pricing, userType, sort: sortKey, dir: sortDir }),
-    [tools, q, task, pricing, userType, sortKey, sortDir],
+    () => filterTools(tools, { q, sort: sortKey, dir: sortDir }),
+    [tools, q, sortKey, sortDir],
   );
 
   // ---- Pagination ----
@@ -171,13 +138,6 @@ export function ToolDiscovery({
   const pageStart = (safePage - 1) * PAGE_SIZE;
   const pageEnd = pageStart + PAGE_SIZE;
   const paged = filtered.slice(pageStart, pageEnd);
-
-  function clearAll() {
-    setQ("");
-    setTask(null);
-    setPricing(null);
-    setUserType(null);
-  }
 
   function setSort(key: SortKey) {
     if (key === sortKey) {
@@ -192,49 +152,26 @@ export function ToolDiscovery({
     setSortDir((d) => (d === "asc" ? "desc" : "asc"));
   }
 
-  const anyFilter = !!(q || task || pricing || userType);
+  const hasSearch = !!q;
 
   return (
     <div className="space-y-6">
-      <ToolSearchBar value={q} onChange={setQ} showExamples={!scoped} />
-
-      {!scoped && (
-        <ToolFilters
-          task={task}
-          pricing={pricing}
-          userType={userType}
-          onTaskChange={setTask}
-          onPricingChange={setPricing}
-          onUserTypeChange={setUserType}
-          onClear={clearAll}
-        />
-      )}
-
-      {/* Toolbar */}
-      <div className="flex flex-wrap items-center justify-between gap-3 px-1">
-        {!scoped && (
-          <p className="text-sm text-muted-foreground">
-            Showing{" "}
-            <span className="font-medium text-foreground">
-              {filtered.length === 0 ? 0 : pageStart + 1}–{Math.min(pageEnd, filtered.length)}
-            </span>{" "}
-            of <span className="font-medium text-foreground">{filtered.length}</span>{" "}
-            tools
-          </p>
-        )}
-        <div className="flex items-center gap-2">
-          <SortMenu
-            sortKey={sortKey}
-            sortDir={sortDir}
-            onChange={setSort}
-            onToggleDir={toggleDir}
-          />
-          <ToolViewSwitcher value={view} onChange={setView} />
-        </div>
-      </div>
+      <ToolToolbar
+        q={q}
+        onQChange={setQ}
+        sortKey={sortKey}
+        sortDir={sortDir}
+        onSortChange={setSort}
+        onToggleDir={toggleDir}
+        view={view}
+        onViewChange={setView}
+        count={filtered.length}
+        showExamples={!scoped}
+        showCategory={!scoped}
+      />
 
       {filtered.length === 0 ? (
-        <ToolEmptyState onClear={anyFilter ? clearAll : undefined} hasFilters={anyFilter} />
+        <ToolEmptyState onClear={hasSearch ? () => setQ("") : undefined} />
       ) : view === "cards" ? (
         <ToolGrid tools={paged} />
       ) : (
@@ -252,84 +189,6 @@ export function ToolDiscovery({
             }
           }}
         />
-      )}
-    </div>
-  );
-}
-
-function SortMenu({
-  sortKey,
-  sortDir,
-  onChange,
-  onToggleDir,
-}: {
-  sortKey: SortKey;
-  sortDir: SortDir;
-  onChange: (k: SortKey) => void;
-  onToggleDir: () => void;
-}) {
-  const [open, setOpen] = React.useState(false);
-  const ref = React.useRef<HTMLDivElement>(null);
-  React.useEffect(() => {
-    const onDoc = (e: MouseEvent) => {
-      if (!ref.current?.contains(e.target as Node)) setOpen(false);
-    };
-    document.addEventListener("mousedown", onDoc);
-    return () => document.removeEventListener("mousedown", onDoc);
-  }, []);
-
-  const label =
-    sortKey === "time"
-      ? "Time (newest)"
-      : sortKey === "name"
-        ? "Name (A–Z)"
-        : "DR (high → low)";
-
-  return (
-    <div ref={ref} className="relative">
-      <div className="inline-flex items-center rounded-lg border border-border bg-card/60">
-        <button
-          type="button"
-          onClick={() => setOpen((v) => !v)}
-          className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-muted-foreground transition-colors hover:text-foreground"
-        >
-          Sort: <span className="text-foreground">{label}</span>
-        </button>
-        <button
-          type="button"
-          onClick={onToggleDir}
-          aria-label={sortDir === "asc" ? "Sort descending" : "Sort ascending"}
-          title={sortDir === "asc" ? "Sort descending" : "Sort ascending"}
-          className="inline-flex items-center border-l border-border px-2 py-1.5 text-xs text-muted-foreground transition-colors hover:text-foreground"
-        >
-          {sortDir === "asc" ? "↑" : "↓"}
-        </button>
-      </div>
-      {open && (
-        <div className="absolute right-0 z-30 mt-1 w-44 overflow-hidden rounded-lg border border-border bg-popover text-popover-foreground shadow-lg">
-          {(
-            [
-              { key: "time" as const, label: "Time (newest)" },
-              { key: "name" as const, label: "Name (A–Z)" },
-              { key: "dr" as const, label: "DR (high → low)" },
-            ]
-          ).map((opt) => (
-            <button
-              key={opt.key}
-              type="button"
-              onClick={() => {
-                onChange(opt.key);
-                setOpen(false);
-              }}
-              className={cn(
-                "block w-full px-3 py-2 text-left text-xs transition-colors hover:bg-secondary",
-                sortKey === opt.key ? "text-foreground" : "text-muted-foreground",
-              )}
-            >
-              {opt.label}
-            </button>
-          ))}
-        </div>
       )}
     </div>
   );
