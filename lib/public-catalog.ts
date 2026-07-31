@@ -4,7 +4,23 @@ import { createClient } from "@supabase/supabase-js";
 import { unstable_cache } from "next/cache";
 import directoriesData from "@/data/directories.json";
 import { toolsData, toolsSnapshot } from "@/lib/tools-data";
-import type { Directory, Tool } from "@/lib/supabase/types";
+import type { Category, Directory, Tool } from "@/lib/supabase/types";
+import { CATEGORIES } from "@/lib/seo/tool-schema";
+
+const STATIC_CATEGORY_DESCRIPTIONS: Record<string, string> = {
+  "writing-content":
+    "AI writing assistants, copy generators, and content editors for marketers and creators.",
+  "seo-marketing":
+    "SEO tools, growth marketing, analytics, and ad optimization.",
+  "image-video": "AI image generation, video editing, and creative tools.",
+  "code-development": "AI code assistants, dev tools, and code review.",
+  productivity: "Workflow automation, task managers, and AI agents.",
+  "business-analytics": "Business intelligence, dashboards, and AI for ops.",
+  "ecommerce-sales":
+    "AI sales tools, e-commerce platforms, and conversion optimization.",
+  "research-data":
+    "AI research assistants, data analysis, and knowledge management.",
+};
 
 type StaticTool = Omit<
   Tool,
@@ -155,6 +171,81 @@ const getCachedSupabaseDirectories = unstable_cache(
   ["public-catalog-directories"],
   { tags: ["directories", "public-directories"], revalidate: 300 },
 );
+
+function staticCategories(): Category[] {
+  return CATEGORIES.map((c, idx) => ({
+    slug: c.slug,
+    name: c.name,
+    description: STATIC_CATEGORY_DESCRIPTIONS[c.slug] ?? null,
+    display_order: idx,
+    created_at: STATIC_TIMESTAMP,
+  }));
+}
+
+async function loadSupabaseCategories(): Promise<Category[]> {
+  if (!hasPublicSupabaseConfig()) return [];
+
+  const supabase = createClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL!,
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+    { auth: { persistSession: false, autoRefreshToken: false } },
+  );
+  const { data, error } = await supabase
+    .from("categories")
+    .select("*")
+    .order("display_order", { ascending: true, nullsFirst: false });
+
+  if (error) throw error;
+  return (data ?? []) as Category[];
+}
+
+const getCachedSupabaseCategories = unstable_cache(
+  loadSupabaseCategories,
+  ["public-catalog-categories"],
+  { tags: ["categories", "public-categories"], revalidate: 300 },
+);
+
+export async function getPublicCategories(): Promise<Category[]> {
+  const fallback = staticCategories();
+  try {
+    const rows = await getCachedSupabaseCategories();
+    return rows.length > 0 ? rows : fallback;
+  } catch {
+    return fallback;
+  }
+}
+
+export interface CategoryCoverage {
+  total: number;
+  withPricingDetail: number;
+  withSource: number;
+  withTags: number;
+  withDescription: number;
+  withVerification: number;
+}
+
+export function computeCategoryCoverage(tools: Tool[]): CategoryCoverage {
+  let withPricingDetail = 0;
+  let withSource = 0;
+  let withTags = 0;
+  let withDescription = 0;
+  let withVerification = 0;
+  for (const tool of tools) {
+    if (tool.pricing_detail?.trim()) withPricingDetail += 1;
+    if (tool.source?.trim()) withSource += 1;
+    if (Array.isArray(tool.tags) && tool.tags.length > 0) withTags += 1;
+    if (tool.description?.trim()) withDescription += 1;
+    if (tool.is_verified) withVerification += 1;
+  }
+  return {
+    total: tools.length,
+    withPricingDetail,
+    withSource,
+    withTags,
+    withDescription,
+    withVerification,
+  };
+}
 
 export async function getPublicTools(): Promise<Tool[]> {
   const fallback = staticTools();

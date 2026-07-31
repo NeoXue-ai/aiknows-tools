@@ -5,79 +5,31 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 import { ToolDiscovery } from "@/components/tool-discovery";
 import { BreadcrumbNav } from "@/components/breadcrumb-nav";
 import { siteUrl } from "@/lib/site";
+import { directoryItemListJsonLd } from "@/lib/seo/tool-schema";
 import {
-  CATEGORIES,
-  directoryItemListJsonLd,
-} from "@/lib/seo/tool-schema";
-import { getPublicTools } from "@/lib/public-catalog";
+  computeCategoryCoverage,
+  getPublicCategories,
+  getPublicTools,
+} from "@/lib/public-catalog";
 
-const CATEGORY_BY_SLUG = new Map(CATEGORIES.map((c) => [c.slug, c]));
-
-export function generateStaticParams() {
-  return CATEGORIES.map((c) => ({ slug: c.slug }));
+export async function generateStaticParams() {
+  const categories = await getPublicCategories();
+  return categories.map((c) => ({ slug: c.slug }));
 }
 
 export const dynamicParams = false;
-
-const CATEGORY_DESCRIPTIONS: Record<string, string> = {
-  "writing-content":
-    "AI writing assistants, copy generators, and content editors for marketers and creators.",
-  "seo-marketing":
-    "SEO tools, growth marketing, analytics, and ad optimization.",
-  "image-video":
-    "AI image generation, video editing, and creative tools.",
-  "code-development":
-    "AI code assistants, dev tools, and code review.",
-  productivity:
-    "Workflow automation, task managers, and AI agents.",
-  "business-analytics":
-    "Business intelligence, dashboards, and AI for ops.",
-  "ecommerce-sales":
-    "AI sales tools, e-commerce platforms, and conversion optimization.",
-  "research-data":
-    "AI research assistants, data analysis, and knowledge management.",
-};
-
-type Coverage = {
-  total: number;
-  withPricingDetail: number;
-  withSource: number;
-  withTags: number;
-  withDescription: number;
-  withVerification: number;
-};
-
-function computeCoverage<T extends { pricing_detail?: string | null; source?: string | null; tags?: unknown; description?: string | null; is_verified?: boolean }>(tools: T[]): Coverage {
-  let withPricingDetail = 0;
-  let withSource = 0;
-  let withTags = 0;
-  let withDescription = 0;
-  let withVerification = 0;
-  for (const tool of tools) {
-    if (tool.pricing_detail?.trim()) withPricingDetail += 1;
-    if (tool.source?.trim()) withSource += 1;
-    if (Array.isArray(tool.tags) && tool.tags.length > 0) withTags += 1;
-    if (tool.description?.trim()) withDescription += 1;
-    if (tool.is_verified) withVerification += 1;
-  }
-  return { total: tools.length, withPricingDetail, withSource, withTags, withDescription, withVerification };
-}
-
-function fmtPct(part: number, total: number): string {
-  if (total === 0) return "0%";
-  return `${Math.round((part / total) * 100)}%`;
-}
 
 type Props = { params: Promise<{ slug: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const category = CATEGORY_BY_SLUG.get(slug);
+  const categories = await getPublicCategories();
+  const category = categories.find((c) => c.slug === slug);
   if (!category) {
     return { title: "Category not found" };
   }
   const description =
-    CATEGORY_DESCRIPTIONS[slug] ?? `Recorded AI tool entries in ${category.name}.`;
+    category.description ?? `Recorded AI tool entries in ${category.name}.`;
   return {
     title: `${category.name} — aiknows.tools`,
     description,
@@ -87,14 +39,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function CategoryDetailPage({ params }: Props) {
   const { slug } = await params;
-  const category = CATEGORY_BY_SLUG.get(slug);
+  const categories = await getPublicCategories();
+  const category = categories.find((c) => c.slug === slug);
   if (!category) {
     notFound();
   }
   const allTools = await getPublicTools();
   const tools = allTools.filter((tool) => tool.primary_category === slug);
-  const description = CATEGORY_DESCRIPTIONS[slug];
-  const coverage = computeCoverage(tools);
+  const description = category.description ?? null;
+  const coverage = computeCategoryCoverage(tools);
 
   const jsonLd = directoryItemListJsonLd({
     tools,
@@ -188,4 +141,9 @@ export default async function CategoryDetailPage({ params }: Props) {
       </div>
     </div>
   );
+}
+
+function fmtPct(part: number, total: number): string {
+  if (total === 0) return "0%";
+  return `${Math.round((part / total) * 100)}%`;
 }
