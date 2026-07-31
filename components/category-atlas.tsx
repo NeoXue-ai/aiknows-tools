@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { ArrowRight } from "lucide-react";
+import { ScrollReveal } from "@/components/scroll-reveal";
 import { categoryIcon } from "@/lib/category-icons";
 import type { Category } from "@/lib/supabase/types";
 
@@ -49,21 +51,23 @@ export function CategoryAtlas({ sections }: { sections: CategorySection[] }) {
                   Sub-categories
                 </p>
                 <div className="mt-4 grid grid-cols-1 gap-x-10 gap-y-5 sm:grid-cols-2">
-                  {subs.map((sub) => (
-                    <Link
-                      key={sub.slug}
-                      href={`/categories/${sub.slug}`}
-                      className="group block min-w-0"
-                    >
-                      <span className="flex items-baseline justify-between gap-3">
+                  {subs.map((sub, i) => (
+                    <ScrollReveal key={sub.slug} delay={Math.min(i * 40, 360)} className="min-w-0">
+                      <Link
+                        href={`/categories/${sub.slug}`}
+                        className="group flex items-baseline justify-between gap-3 transition-transform duration-200 hover:-translate-y-0.5 focus-visible:-translate-y-0.5"
+                      >
                         <span className="truncate text-sm text-foreground transition-colors group-hover:text-accent">
                           {sub.name}
                         </span>
-                        <span className="font-mono text-xs tabular-nums text-muted-foreground">
-                          {sub.count}
+                        <span className="inline-flex shrink-0 items-center gap-1.5">
+                          <span className="font-mono text-xs tabular-nums text-muted-foreground">
+                            {sub.count}
+                          </span>
+                          <ArrowRight className="h-3.5 w-3.5 translate-x-1 text-accent opacity-0 transition-[opacity,transform] duration-200 group-hover:translate-x-0 group-hover:opacity-100" />
                         </span>
-                      </span>
-                    </Link>
+                      </Link>
+                    </ScrollReveal>
                   ))}
                 </div>
               </div>
