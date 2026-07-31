@@ -75,32 +75,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 function CoverageStrip({ coverage }: { coverage: CategoryCoverage }) {
   return (
-    <dl className="mt-6 flex flex-wrap gap-x-8 gap-y-4 text-sm">
-      <div>
-        <dt className="font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground">Records</dt>
-        <dd className="mt-1 font-mono tabular-nums text-foreground">
-          {String(coverage.total).padStart(4, "0")}
-        </dd>
-      </div>
-      <div>
-        <dt className="font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground">Pricing detail</dt>
-        <dd className="mt-1 text-foreground">
-          {coverage.withPricingDetail} of {coverage.total} recorded ({fmtPct(coverage.withPricingDetail, coverage.total)})
-        </dd>
-      </div>
-      <div>
-        <dt className="font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground">Source</dt>
-        <dd className="mt-1 text-foreground">
-          {coverage.withSource} of {coverage.total} recorded ({fmtPct(coverage.withSource, coverage.total)})
-        </dd>
-      </div>
-      <div>
-        <dt className="font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground">Verification</dt>
-        <dd className="mt-1 text-foreground">
-          {coverage.withVerification} of {coverage.total} recorded ({fmtPct(coverage.withVerification, coverage.total)})
-        </dd>
-      </div>
-    </dl>
+    <p className="mt-6 font-mono text-[11px] tabular-nums text-muted-foreground">
+      {`${String(coverage.total).padStart(4, "0")} record${coverage.total === 1 ? "" : "s"} · pricing ${fmtPct(coverage.withPricingDetail, coverage.total)} · source ${fmtPct(coverage.withSource, coverage.total)} · verification ${fmtPct(coverage.withVerification, coverage.total)}`}
+    </p>
   );
 }
 
@@ -116,7 +93,7 @@ function SubChips({
       <p className="font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground">
         Sub-categories
       </p>
-      <div className="mt-3 flex flex-wrap gap-2">
+      <div className="mt-2.5 flex flex-wrap gap-1.5">
         {subs.map((sub) => {
           const active = sub.slug === activeSlug;
           return (
@@ -125,17 +102,15 @@ function SubChips({
               href={`/categories/${sub.slug}`}
               aria-current={active ? "location" : undefined}
               className={cn(
-                "group inline-flex items-baseline gap-2 rounded-md px-3 py-1.5 transition-colors",
+                "inline-flex items-baseline gap-1.5 rounded-md px-2 py-0.5 font-mono text-[11px] transition-colors",
                 active
-                  ? "bg-accent/10 text-accent ring-1 ring-accent/40"
-                  : "border border-border hover:border-accent/40",
+                  ? "bg-accent/10 font-medium text-accent"
+                  : "text-muted-foreground hover:text-accent",
               )}
             >
-              <span className="font-mono text-[11px] text-foreground/90 transition-colors group-hover:text-accent">
-                {sub.name}
-              </span>
+              <span>{sub.name}</span>
               {typeof sub.count === "number" && (
-                <span className="font-mono text-[10px] tabular-nums text-muted-foreground">
+                <span className="text-[10px] tabular-nums text-muted-foreground/70">
                   {String(sub.count).padStart(2, "0")}
                 </span>
               )}
@@ -200,9 +175,9 @@ async function CategoryHub({
         ]}
       />
 
-      <header className="border-y border-border py-8 md:py-10">
+      <header className="border-b border-border py-10 md:py-12">
         <p className="font-mono text-[10px] uppercase tracking-[0.16em] text-accent">
-          Category / {category.name}
+          Category
         </p>
         <h1 className="mt-4 text-balance text-3xl font-semibold tracking-[-0.03em] sm:text-4xl md:text-5xl">
           {category.name}
@@ -215,15 +190,11 @@ async function CategoryHub({
 
         <SubChips subs={subs} />
 
-        <p className="mt-6 max-w-3xl text-xs leading-5 text-muted-foreground">
-          These numbers are derived from the records on this page only. They exist to flag coverage gaps, not to
-          estimate quality or popularity.
-        </p>
       </header>
 
       <div className="grid gap-10 py-10">
         <div className="min-w-0">
-          <ToolDiscovery tools={tools} />
+          <ToolDiscovery tools={tools} variant="scoped" />
         </div>
 
         <nav className="flex flex-wrap items-center justify-between gap-3 border-t border-border pt-6 text-sm">
@@ -289,10 +260,9 @@ async function SubCategoryPage({
         ]}
       />
 
-      <header className="border-y border-border py-8 md:py-10">
+      <header className="border-b border-border py-10 md:py-12">
         <p className="font-mono text-[10px] uppercase tracking-[0.16em] text-accent">
-          {parent ? `${parent.name} / ` : ""}
-          {sub.name}
+          Sub-category
         </p>
         <h1 className="mt-4 text-balance font-heading text-3xl font-semibold tracking-[-0.02em] sm:text-4xl md:text-5xl">
           {sub.name}
@@ -305,15 +275,11 @@ async function SubCategoryPage({
 
         <SubChips subs={siblings} activeSlug={sub.slug} />
 
-        <p className="mt-6 max-w-3xl text-xs leading-5 text-muted-foreground">
-          These numbers are derived from the records on this page only. They exist to flag coverage gaps, not to
-          estimate quality or popularity.
-        </p>
       </header>
 
       <div className="grid gap-10 py-10">
         <div className="min-w-0">
-          <ToolDiscovery tools={tools} />
+          <ToolDiscovery tools={tools} variant="scoped" />
         </div>
 
         <nav className="flex flex-wrap items-center justify-between gap-3 border-t border-border pt-6 text-sm">

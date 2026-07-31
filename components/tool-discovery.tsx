@@ -51,14 +51,17 @@ export function ToolDiscovery({
   initialTask = null,
   initialPricing = null,
   initialUserType = null,
+  variant = "full",
 }: {
   tools: Tool[];
   initialQ?: string;
   initialTask?: Task | null;
   initialPricing?: PricingOption | null;
   initialUserType?: UserTypeFilter | null;
+  variant?: "full" | "scoped";
 }) {
   const router = useRouter();
+  const scoped = variant === "scoped";
   const searchParams = useSearchParams();
 
   // ---- View (URL > localStorage > responsive default) ----
@@ -193,28 +196,32 @@ export function ToolDiscovery({
 
   return (
     <div className="space-y-6">
-      <ToolSearchBar value={q} onChange={setQ} />
+      <ToolSearchBar value={q} onChange={setQ} showExamples={!scoped} />
 
-      <ToolFilters
-        task={task}
-        pricing={pricing}
-        userType={userType}
-        onTaskChange={setTask}
-        onPricingChange={setPricing}
-        onUserTypeChange={setUserType}
-        onClear={clearAll}
-      />
+      {!scoped && (
+        <ToolFilters
+          task={task}
+          pricing={pricing}
+          userType={userType}
+          onTaskChange={setTask}
+          onPricingChange={setPricing}
+          onUserTypeChange={setUserType}
+          onClear={clearAll}
+        />
+      )}
 
       {/* Toolbar */}
       <div className="flex flex-wrap items-center justify-between gap-3 px-1">
-        <p className="text-sm text-muted-foreground">
-          Showing{" "}
-          <span className="font-medium text-foreground">
-            {filtered.length === 0 ? 0 : pageStart + 1}–{Math.min(pageEnd, filtered.length)}
-          </span>{" "}
-          of <span className="font-medium text-foreground">{filtered.length}</span>{" "}
-          tools
-        </p>
+        {!scoped && (
+          <p className="text-sm text-muted-foreground">
+            Showing{" "}
+            <span className="font-medium text-foreground">
+              {filtered.length === 0 ? 0 : pageStart + 1}–{Math.min(pageEnd, filtered.length)}
+            </span>{" "}
+            of <span className="font-medium text-foreground">{filtered.length}</span>{" "}
+            tools
+          </p>
+        )}
         <div className="flex items-center gap-2">
           <SortMenu
             sortKey={sortKey}
