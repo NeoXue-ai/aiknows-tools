@@ -1,6 +1,7 @@
 "use client";
 
 import * as React from "react";
+import { categoryIcon } from "@/lib/category-icons";
 import { cn } from "@/lib/utils";
 
 export type CategoryNavItem = { slug: string; name: string };
@@ -64,6 +65,7 @@ export function CategoryAtlasNav({ items }: { items: CategoryNavItem[] }) {
           <ul className="border-l border-border/70">
             {items.map((it, i) => {
               const active = it.slug === activeSlug;
+              const Icon = categoryIcon(it.slug);
               return (
                 <li key={it.slug}>
                   <a
@@ -71,7 +73,7 @@ export function CategoryAtlasNav({ items }: { items: CategoryNavItem[] }) {
                     onClick={(e) => handleClick(e, it.slug)}
                     aria-current={active ? "location" : undefined}
                     className={cn(
-                      "flex items-baseline gap-3 border-l-2 -ml-px py-2.5 pl-4 pr-3 transition-colors",
+                      "flex items-center gap-3 border-l-2 -ml-px py-2.5 pl-4 pr-3 transition-colors",
                       active
                         ? "border-accent text-accent"
                         : "border-transparent text-muted-foreground hover:text-foreground",
@@ -80,6 +82,12 @@ export function CategoryAtlasNav({ items }: { items: CategoryNavItem[] }) {
                     <span className="font-mono text-[10px] tabular-nums tracking-[0.14em]">
                       {String(i).padStart(2, "0")}
                     </span>
+                    <Icon
+                      className={cn(
+                        "h-4 w-4 shrink-0",
+                        active ? "text-accent" : "text-muted-foreground",
+                      )}
+                    />
                     <span className={cn("text-sm", active && "font-medium")}>
                       {it.name}
                     </span>
@@ -99,6 +107,7 @@ export function CategoryAtlasNav({ items }: { items: CategoryNavItem[] }) {
         >
           {items.map((it, i) => {
             const active = it.slug === activeSlug;
+            const Icon = categoryIcon(it.slug);
             return (
               <a
                 key={it.slug}
@@ -107,12 +116,18 @@ export function CategoryAtlasNav({ items }: { items: CategoryNavItem[] }) {
                 data-slug={it.slug}
                 aria-current={active ? "location" : undefined}
                 className={cn(
-                  "flex shrink-0 snap-center items-baseline gap-2 rounded-md px-3 py-1.5 text-sm transition-colors",
+                  "flex shrink-0 snap-center items-center gap-2 rounded-md px-3 py-1.5 text-sm transition-colors",
                   active
                     ? "bg-accent/10 text-accent ring-1 ring-accent/40"
                     : "text-muted-foreground hover:text-foreground",
                 )}
               >
+                <Icon
+                  className={cn(
+                    "h-4 w-4 shrink-0",
+                    active ? "text-accent" : "text-muted-foreground",
+                  )}
+                />
                 <span className="font-mono text-[10px] tabular-nums tracking-[0.14em]">
                   {String(i).padStart(2, "0")}
                 </span>
