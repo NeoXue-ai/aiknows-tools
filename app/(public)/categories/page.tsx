@@ -23,7 +23,7 @@ function previewFor(tools: Tool[]): Tool[] {
       (a, b) =>
         (b.dr ?? -1) - (a.dr ?? -1) || a.name.localeCompare(b.name),
     )
-    .slice(0, 6);
+    .slice(0, 4);
 }
 
 export default async function CategoriesIndexPage() {
@@ -105,17 +105,10 @@ export default async function CategoriesIndexPage() {
         </p>
       </header>
 
-      <div className="grid grid-cols-1 gap-10 lg:grid-cols-[16rem_1fr]">
+      <div className="grid grid-cols-1 gap-12 lg:grid-cols-[16rem_1fr]">
         <CategoryAtlasNav items={navItems} />
         <CategoryAtlas sections={ordered} />
       </div>
-
-      <p className="mt-10 max-w-3xl text-xs leading-5 text-muted-foreground">
-        Coverage notes above are computed from the same records the matching page
-        renders, so they stay consistent if entries are added or amended. Categories
-        with no recorded tools still appear, marked with 0, so gaps in the index are
-        visible.
-      </p>
     </div>
   );
 }
