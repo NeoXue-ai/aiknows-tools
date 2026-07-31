@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { ScrollReveal } from "@/components/scroll-reveal";
+import { SubGridReveal } from "@/components/sub-grid-reveal";
 import { categoryIcon } from "@/lib/category-icons";
 import type { Category } from "@/lib/supabase/types";
 
@@ -50,26 +50,25 @@ export function CategoryAtlas({ sections }: { sections: CategorySection[] }) {
                 <p className="font-mono text-[11px] uppercase tracking-[0.14em] text-muted-foreground">
                   Sub-categories
                 </p>
-                <div className="mt-5 grid grid-cols-1 gap-x-10 gap-y-6 sm:grid-cols-2">
-                  {subs.map((sub, i) => (
-                    <ScrollReveal key={sub.slug} delay={Math.min(i * 40, 360)} className="min-w-0">
-                      <Link
-                        href={`/categories/${sub.slug}`}
-                        className="group flex items-baseline justify-between gap-3 transition-transform duration-200 hover:-translate-y-0.5 focus-visible:-translate-y-0.5"
-                      >
-                        <span className="truncate text-base text-foreground transition-colors group-hover:text-accent">
-                          {sub.name}
+                <SubGridReveal className="mt-5 grid grid-cols-1 gap-x-10 gap-y-6 sm:grid-cols-2">
+                  {subs.map((sub) => (
+                    <Link
+                      key={sub.slug}
+                      href={`/categories/${sub.slug}`}
+                      className="group flex min-w-0 items-baseline justify-between gap-3 transition-transform duration-200 hover:-translate-y-0.5 focus-visible:-translate-y-0.5"
+                    >
+                      <span className="truncate text-base text-foreground transition-colors group-hover:text-accent">
+                        {sub.name}
+                      </span>
+                      <span className="inline-flex shrink-0 items-center gap-1.5">
+                        <span className="font-mono text-sm tabular-nums text-muted-foreground">
+                          {sub.count}
                         </span>
-                        <span className="inline-flex shrink-0 items-center gap-1.5">
-                          <span className="font-mono text-sm tabular-nums text-muted-foreground">
-                            {sub.count}
-                          </span>
-                          <ArrowRight className="h-4 w-4 translate-x-1 text-accent opacity-0 transition-[opacity,transform] duration-200 group-hover:translate-x-0 group-hover:opacity-100" />
-                        </span>
-                      </Link>
-                    </ScrollReveal>
+                        <ArrowRight className="h-4 w-4 translate-x-1 text-accent opacity-0 transition-[opacity,transform] duration-200 group-hover:translate-x-0 group-hover:opacity-100" />
+                      </span>
+                    </Link>
                   ))}
-                </div>
+                </SubGridReveal>
               </div>
             )}
           </section>
