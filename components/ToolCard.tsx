@@ -37,7 +37,7 @@ export function ToolCard({ tool }: { tool: Tool }) {
         {/* DR — top-right overlay */}
         {typeof tool.dr === "number" && (
           <span
-            className="absolute right-2 top-2 rounded border border-border/80 bg-background/90 px-1.5 py-0.5 font-mono text-[11px] font-medium tabular-nums text-foreground backdrop-blur"
+            className="absolute right-2 top-2 rounded bg-background/85 px-1.5 py-0.5 font-mono text-[11px] font-medium tabular-nums text-foreground backdrop-blur"
             title={`Domain Rating ${tool.dr}`}
           >
             DR {tool.dr}
