@@ -16,6 +16,8 @@ import { resolve } from "node:path";
 import { createAdminClient } from "@/lib/supabase/admin";
 
 const TOOLS_PATH = resolve(process.cwd(), "data/tools.json");
+const PAGE_SIZE = 1000;
+const BATCH_SIZE = 200;
 
 const DRY_RUN = process.argv.includes("--dry-run");
 
@@ -37,6 +39,27 @@ async function loadPairs(): Promise<{ slug: string; sub: string }[]> {
   return out;
 }
 
+async function fetchAllExisting(
+  supabase: ReturnType<typeof createAdminClient>,
+): Promise<Map<string, string | null>> {
+  const map = new Map<string, string | null>();
+  let from = 0;
+  // Hard cap so we don't loop forever if the server keeps returning rows.
+  for (let safety = 0; safety < 50; safety += 1) {
+    const to = from + PAGE_SIZE - 1;
+    const { data, error } = await supabase
+      .from("tools")
+      .select("slug, sub")
+      .range(from, to);
+    if (error) throw error;
+    const rows = (data ?? []) as Array<{ slug: string; sub: string | null }>;
+    for (const r of rows) map.set(r.slug, r.sub ?? null);
+    if (rows.length < PAGE_SIZE) break;
+    from += PAGE_SIZE;
+  }
+  return map;
+}
+
 async function main() {
   const pairs = await loadPairs();
   if (pairs.length === 0) {
@@ -56,19 +79,9 @@ async function main() {
 
   const supabase = createAdminClient();
 
-  // Pull existing rows so we skip rows whose sub already matches.
-  const { data: rows, error } = await supabase
-    .from("tools")
-    .select("slug, sub")
-    .in(
-      "slug",
-      pairs.map((p) => p.slug),
-    );
-  if (error) throw error;
-
-  const existing = new Map<string, string | null>(
-    (rows ?? []).map((r) => [r.slug as string, (r.sub as string | null) ?? null]),
-  );
+  console.log("Fetching existing (slug, sub) from Supabase…");
+  const existing = await fetchAllExisting(supabase);
+  console.log(`  Found ${existing.size} rows in tools.`);
 
   const toUpdate: { slug: string; sub: string }[] = [];
   let unchanged = 0;
@@ -91,9 +104,8 @@ async function main() {
     return;
   }
 
-  const BATCH = 200;
-  for (let i = 0; i < toUpdate.length; i += BATCH) {
-    const batch = toUpdate.slice(i, i + BATCH);
+  for (let i = 0; i < toUpdate.length; i += BATCH_SIZE) {
+    const batch = toUpdate.slice(i, i + BATCH_SIZE);
     const updates = await Promise.all(
       batch.map((p) =>
         supabase
@@ -105,7 +117,7 @@ async function main() {
     );
     const failed = updates.filter((u) => u.res.error);
     if (failed.length > 0) {
-      console.error(`Batch ${i}-${i + BATCH}: ${failed.length} failed:`);
+      console.error(`Batch ${i}-${i + BATCH_SIZE}: ${failed.length} failed:`);
       for (const f of failed) console.error(`  ${f.slug}: ${f.res.error?.message}`);
       throw new Error("Backfill failed; aborting.");
     }
