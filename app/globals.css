@@ -263,7 +263,8 @@
   .ml-stagger > *,
   .ml-bar,
   .ml-bracket,
-  .ml-ping {
+  .ml-ping,
+  .animate-page-enter {
     animation: none !important;
     opacity: 1 !important;
     transform: none !important;
