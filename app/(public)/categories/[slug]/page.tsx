@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { ToolDiscovery } from "@/components/tool-discovery";
 import { BreadcrumbNav } from "@/components/breadcrumb-nav";
+import { categoryIcon } from "@/lib/category-icons";
 import { siteUrl } from "@/lib/site";
 import { directoryItemListJsonLd } from "@/lib/seo/tool-schema";
 import {
@@ -136,6 +137,7 @@ async function CategoryHub({
 }) {
   const tools = allTools.filter((tool) => tool.primary_category === category.slug);
   const subCounts = countSubs(allTools);
+  const Icon = categoryIcon(category.slug);
   const subs = subsForLegacy(category.slug)
     .map((s) => ({ slug: s.slug, name: s.name, count: subCounts.get(s.name) ?? 0 }))
     .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
@@ -168,9 +170,12 @@ async function CategoryHub({
         <p className="font-mono text-[10px] uppercase tracking-[0.16em] text-accent">
           Category
         </p>
-        <h1 className="mt-4 text-balance text-3xl font-semibold tracking-[-0.03em] sm:text-4xl md:text-5xl">
-          {category.name}
-        </h1>
+        <div className="mt-4 flex items-center gap-3">
+          <Icon className="h-7 w-7 shrink-0 text-accent" />
+          <h1 className="text-balance text-3xl font-semibold tracking-[-0.03em] sm:text-4xl md:text-5xl">
+            {category.name}
+          </h1>
+        </div>
         {description ? (
           <p className="mt-3 max-w-3xl text-pretty leading-7 text-muted-foreground">{description}</p>
         ) : null}
