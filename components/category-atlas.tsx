@@ -21,7 +21,7 @@ function PreviewRow({ tool, index }: { tool: Tool; index: number }) {
   return (
     <Link
       href={`/tools/${tool.slug}`}
-      className="group flex items-baseline gap-3 py-2 transition-colors hover:text-foreground"
+      className="group flex items-baseline gap-3 py-2.5 transition-colors hover:text-foreground"
     >
       <span className="w-6 shrink-0 font-mono text-[11px] tabular-nums text-muted-foreground">
         {String(index + 1).padStart(2, "0")}
@@ -55,13 +55,18 @@ export function CategoryAtlas({ sections }: { sections: CategorySection[] }) {
         <section
           key={category.slug}
           id={`cat-${category.slug}`}
-          className="scroll-mt-24 border-t border-border py-10 first:border-t-0 first:pt-0"
+          className="scroll-mt-24 border-t border-border py-12 first:border-t-0 first:pt-0"
         >
           <p className="font-mono text-[10px] uppercase tracking-[0.16em] text-accent">
-            {String(idx).padStart(2, "0")} / {category.name}
+            {String(idx).padStart(2, "0")}
           </p>
-          <h2 className="mt-3 text-balance font-heading text-2xl font-semibold tracking-[-0.02em] text-foreground sm:text-3xl">
-            {category.name}
+          <h2 className="mt-3">
+            <Link
+              href={`/categories/${category.slug}`}
+              className="text-balance font-heading text-2xl font-semibold tracking-[-0.02em] text-foreground transition-colors hover:text-accent sm:text-3xl"
+            >
+              {category.name}
+            </Link>
           </h2>
           <p className="mt-3 max-w-2xl text-pretty text-sm leading-6 text-muted-foreground">
             {category.description ?? "Description not recorded."}
@@ -77,12 +82,10 @@ export function CategoryAtlas({ sections }: { sections: CategorySection[] }) {
                   <Link
                     key={sub.slug}
                     href={`/categories/${sub.slug}`}
-                    className="group inline-flex items-baseline gap-2 rounded-md border border-border px-3 py-1.5 transition-colors hover:border-accent/40"
+                    className="inline-flex items-baseline gap-1.5 rounded-md px-2 py-0.5 font-mono text-[11px] text-muted-foreground transition-colors hover:text-accent"
                   >
-                    <span className="font-mono text-[11px] text-foreground/90 transition-colors group-hover:text-accent">
-                      {sub.name}
-                    </span>
-                    <span className="font-mono text-[10px] tabular-nums text-muted-foreground">
+                    <span>{sub.name}</span>
+                    <span className="text-[10px] tabular-nums text-muted-foreground/60">
                       {String(sub.count).padStart(2, "0")}
                     </span>
                   </Link>
@@ -91,49 +94,9 @@ export function CategoryAtlas({ sections }: { sections: CategorySection[] }) {
             </div>
           )}
 
-          <dl className="mt-6 flex flex-wrap gap-x-8 gap-y-3 border-y border-border py-4">
-            <div>
-              <dt className="font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground">
-                Records
-              </dt>
-              <dd className="mt-1 font-mono tabular-nums text-foreground">
-                {String(coverage.total).padStart(4, "0")}
-              </dd>
-            </div>
-            <div>
-              <dt className="font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground">
-                Pricing detail
-              </dt>
-              <dd className="mt-1 text-sm text-foreground">
-                {coverage.withPricingDetail} of {coverage.total} recorded
-                <span className="ml-1 text-muted-foreground">
-                  ({fmtPct(coverage.withPricingDetail, coverage.total)})
-                </span>
-              </dd>
-            </div>
-            <div>
-              <dt className="font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground">
-                Source
-              </dt>
-              <dd className="mt-1 text-sm text-foreground">
-                {coverage.withSource} of {coverage.total} recorded
-                <span className="ml-1 text-muted-foreground">
-                  ({fmtPct(coverage.withSource, coverage.total)})
-                </span>
-              </dd>
-            </div>
-            <div>
-              <dt className="font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground">
-                Verification
-              </dt>
-              <dd className="mt-1 text-sm text-foreground">
-                {coverage.withVerification} of {coverage.total} recorded
-                <span className="ml-1 text-muted-foreground">
-                  ({fmtPct(coverage.withVerification, coverage.total)})
-                </span>
-              </dd>
-            </div>
-          </dl>
+          <p className="mt-5 font-mono text-[11px] tabular-nums text-muted-foreground">
+            {`${String(coverage.total).padStart(4, "0")} record${coverage.total === 1 ? "" : "s"} · pricing ${fmtPct(coverage.withPricingDetail, coverage.total)} · source ${fmtPct(coverage.withSource, coverage.total)} · verification ${fmtPct(coverage.withVerification, coverage.total)}`}
+          </p>
 
           {previewTools.length > 0 ? (
             <div className="mt-4 divide-y divide-border border-b border-border">
@@ -147,15 +110,6 @@ export function CategoryAtlas({ sections }: { sections: CategorySection[] }) {
             </p>
           )}
 
-          <div className="mt-6 flex justify-end">
-            <Link
-              href={`/categories/${category.slug}`}
-              className="inline-flex items-center gap-1.5 text-sm font-medium text-muted-foreground transition-colors hover:text-accent"
-            >
-              View all {coverage.total} record{coverage.total === 1 ? "" : "s"} in {category.name}
-              <ArrowRight className="h-3.5 w-3.5" />
-            </Link>
-          </div>
         </section>
       ))}
     </div>
