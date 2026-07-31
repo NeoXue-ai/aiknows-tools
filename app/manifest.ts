@@ -1,0 +1,47 @@
+import type { MetadataRoute } from "next";
+
+/**
+ * PWA web app manifest. Next.js will serve this at /manifest.webmanifest
+ * when linked from metadata.icons or metadata.manifest. The icons here are
+ * the brand-blue tiled PNGs — home-screen tiles can't adapt to color scheme,
+ * so a solid background is the only way to stay readable on every wallpaper.
+ */
+export default function manifest(): MetadataRoute.Manifest {
+  return {
+    name: "aiknows.tools — AI Tools & Directories for SaaS Builders",
+    short_name: "aiknows",
+    description:
+      "Curated AI tools and AI directories for SaaS builders. Discover products, find directories, grow your SaaS.",
+    start_url: "/",
+    display: "standalone",
+    orientation: "portrait",
+    background_color: "#0b1018",
+    theme_color: "#0b1018",
+    icons: [
+      {
+        src: "/icon-192.png",
+        sizes: "192x192",
+        type: "image/png",
+        purpose: "any",
+      },
+      {
+        src: "/icon-512.png",
+        sizes: "512x512",
+        type: "image/png",
+        purpose: "any",
+      },
+      {
+        src: "/icon-512.png",
+        sizes: "512x512",
+        type: "image/png",
+        purpose: "maskable",
+      },
+      {
+        src: "/icon.svg",
+        sizes: "any",
+        type: "image/svg+xml",
+        purpose: "any",
+      },
+    ],
+  };
+}
