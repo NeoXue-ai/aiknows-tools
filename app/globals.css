@@ -239,9 +239,11 @@
 
 /* Scroll-triggered stagger for the category sub grids: one observer on the
    grid adds this class, and each child row animates in on a small delay.
-   `backwards` fill releases the transform after the run so hover lifts work. */
+   `backwards` fill hides rows during their delay, then releases afterwards so
+   the natural state (opacity 1, no transform) returns and hover lifts work.
+   There is deliberately no base `opacity: 0` here -- with backwards fill that
+   would snap rows back to invisible once the animation ends. */
 .atlas-reveal > * {
-  opacity: 0;
   animation: ml-fade-up 480ms cubic-bezier(0.22, 1, 0.36, 1) backwards;
 }
 .atlas-reveal > *:nth-child(1)  { animation-delay:  40ms; }
