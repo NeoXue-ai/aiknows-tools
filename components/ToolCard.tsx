@@ -4,15 +4,7 @@ import { Card } from "@/components/ui/card";
 import { ToolLogo } from "@/components/tool-logo";
 import { pricingLabel } from "@/lib/tool-score";
 import { categoryName } from "@/lib/seo/tool-schema";
-import { cn } from "@/lib/utils";
 import type { Tool } from "@/lib/supabase/types";
-
-const PRICING_DOT: Record<string, string> = {
-  Free: "bg-emerald-500",
-  Freemium: "bg-amber-500",
-  Paid: "bg-accent",
-  Enterprise: "bg-violet-500",
-};
 
 export function ToolCard({ tool }: { tool: Tool }) {
   const pricing = pricingLabel(tool.pricing_type);
@@ -25,7 +17,7 @@ export function ToolCard({ tool }: { tool: Tool }) {
   })();
 
   return (
-    <Card className="group/card relative h-full overflow-hidden p-0 transition-all duration-200 hover:-translate-y-0.5 hover:border-accent/40">
+    <Card className="group/card relative h-full gap-0 overflow-hidden p-0 transition-[transform,box-shadow] duration-200 hover:-translate-y-0.5 hover:shadow-[0_2px_12px_rgb(0_0_0/0.08)] hover:ring-accent/50">
       {/* Screenshot — top of card */}
       <div className="relative aspect-[16/10] w-full overflow-hidden bg-muted">
         {tool.screenshot_url ? (
@@ -42,10 +34,10 @@ export function ToolCard({ tool }: { tool: Tool }) {
           </div>
         )}
 
-        {/* DR badge — top-right overlay */}
+        {/* DR — top-right overlay */}
         {typeof tool.dr === "number" && (
           <span
-            className="absolute right-2 top-2 rounded-md border border-border/80 bg-background/90 px-1.5 py-0.5 font-mono text-[10px] font-medium tabular-nums text-foreground shadow-sm backdrop-blur"
+            className="absolute right-2 top-2 rounded border border-border/80 bg-background/90 px-1.5 py-0.5 font-mono text-[11px] font-medium tabular-nums text-foreground backdrop-blur"
             title={`Domain Rating ${tool.dr}`}
           >
             DR {tool.dr}
@@ -54,7 +46,7 @@ export function ToolCard({ tool }: { tool: Tool }) {
       </div>
 
       {/* Identity + body */}
-      <div className="relative space-y-3 p-4">
+      <div className="relative space-y-3 border-t border-border p-4">
         <div className="flex items-start gap-3">
           <ToolLogo name={tool.name} logoUrl={tool.logo_url} size="md" />
           <div className="min-w-0 flex-1">
@@ -62,7 +54,7 @@ export function ToolCard({ tool }: { tool: Tool }) {
               {tool.name}
             </h3>
             {domain && (
-              <p className="mt-0.5 truncate font-mono text-[10px] uppercase tracking-[0.1em] text-muted-foreground/70">
+              <p className="mt-0.5 truncate font-mono text-[11px] uppercase tracking-[0.1em] text-muted-foreground">
                 {domain}
               </p>
             )}
@@ -79,21 +71,8 @@ export function ToolCard({ tool }: { tool: Tool }) {
             <span className="font-medium text-foreground/80">
               {categoryName(tool.primary_category)}
             </span>
-            {pricing !== "—" && (
-              <>
-                <span aria-hidden>·</span>
-                <span className="inline-flex items-center gap-1">
-                  <span
-                    aria-hidden
-                    className={cn(
-                      "h-1.5 w-1.5 rounded-full",
-                      PRICING_DOT[pricing] ?? "bg-muted-foreground",
-                    )}
-                  />
-                  {pricing}
-                </span>
-              </>
-            )}
+            <span aria-hidden>·</span>
+            <span>{pricing === "—" ? "Pricing not recorded" : pricing}</span>
           </div>
           <a
             href={tool.url}
