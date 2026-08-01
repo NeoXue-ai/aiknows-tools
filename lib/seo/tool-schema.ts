@@ -1,4 +1,4 @@
-import type { Category, Directory, Tool } from "@/lib/supabase/types";
+import type { Category, Tool } from "@/lib/supabase/types";
 
 export const CATEGORIES: Pick<Category, "slug" | "name">[] = [
   { slug: "writing-content", name: "Writing & Content" },
@@ -103,22 +103,3 @@ export function breadcrumbJsonLd(
   };
 }
 
-export function directoryRecordsJsonLd(directories: Directory[], siteUrl: string) {
-  const baseUrl = siteUrl.replace(/\/$/, "");
-  return {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    name: "Submitted directory records",
-    description:
-      "Recorded submission facts for AI and SaaS directories: domain rating, submission type, link type, listing speed, and recorded check dates.",
-    url: `${baseUrl}/directories`,
-    numberOfItems: directories.length,
-    itemListElement: directories.map((directory, index) => ({
-      "@type": "ListItem",
-      position: index + 1,
-      name: directory.name,
-      url: directory.url,
-      description: directory.niche_focus ?? directory.notes ?? null,
-    })),
-  };
-}
