@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo/metadata";
 import { CategoryAtlasNav, type CategoryNavItem } from "@/components/category-atlas-nav";
 import { CategoryAtlas, type CategorySection } from "@/components/category-atlas";
 import {
@@ -8,12 +8,15 @@ import {
 } from "@/lib/public-catalog";
 import { subsForLegacy } from "@/lib/subcategories";
 import { siteUrl } from "@/lib/site";
+import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 
-export const metadata: Metadata = {
-  title: "Categories",
+export const metadata = pageMetadata({
+  title: "AI tool categories",
   description:
-    "Browse the AIknows index by top-level category. Each category lists its sub-categories with live tool counts.",
-};
+    "Browse the AIknows index by top-level category and inspect the recorded sub-categories and tool counts.",
+  path: "/categories",
+});
 
 export default async function CategoriesIndexPage() {
   const [categories, tools] = await Promise.all([
@@ -96,6 +99,23 @@ export default async function CategoriesIndexPage() {
         <CategoryAtlasNav items={navItems} />
         <CategoryAtlas sections={ordered} />
       </div>
+
+      <nav className="mt-12 flex flex-wrap items-center justify-between gap-3 border-t border-border pt-6 text-sm">
+        <Link
+          href="/tools"
+          className="inline-flex items-center gap-1.5 text-muted-foreground transition-colors hover:text-accent"
+        >
+          Open the full tool index
+          <ArrowRight className="h-3.5 w-3.5" />
+        </Link>
+        <Link
+          href="/collections"
+          className="inline-flex items-center gap-1.5 text-muted-foreground transition-colors hover:text-accent"
+        >
+          Numbered taxonomy routes
+          <ArrowRight className="h-3.5 w-3.5" />
+        </Link>
+      </nav>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo/metadata";
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import {
@@ -14,11 +14,12 @@ import { getCurrentUser } from "@/lib/auth/session";
 import { SubmitForm } from "@/components/SubmitForm";
 import type { Category } from "@/lib/supabase/types";
 
-export const metadata: Metadata = {
-  title: "Submit Your AI Tool",
+export const metadata = pageMetadata({
+  title: "Submit your AI tool",
   description:
-    "Submit your AI tool to aiknows.tools. Get featured in our curated directory of AI products and SaaS tools.",
-};
+    "Submit your AI tool to aiknows.tools for an evidence-led public directory record.",
+  path: "/submit",
+});
 
 export const dynamic = "force-dynamic";
 
@@ -45,8 +46,20 @@ export default async function SubmitPage() {
     console.error("[submit] categories fetch threw:", err);
   }
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: "Submit your AI tool",
+    description:
+      "Submit your AI tool to aiknows.tools for an evidence-led public directory record.",
+    url: `${process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"}/submit`,
+  };
   return (
     <div className="container mx-auto max-w-6xl px-4 py-12 md:py-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
+      />
       {/* HERO ======================================================== */}
       <section className="relative isolate overflow-hidden rounded-2xl border border-border/60 bg-gradient-to-b from-card/60 to-card/20 px-6 py-12 md:px-10 md:py-14">
         <span

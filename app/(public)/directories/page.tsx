@@ -4,14 +4,17 @@ import { ArrowRight } from "lucide-react";
 import { getPublicDirectories } from "@/lib/public-catalog";
 import { DirectoryTable } from "@/components/DirectoryTable";
 import { AnimatedNumber } from "@/components/animated-number";
-import {
-  directoryItemListJsonLd,
-  directoryPageMetadata,
-} from "@/lib/seo/directory-schema";
+import { pageMetadata } from "@/lib/seo/metadata";
+import { directoryRecordsJsonLd } from "@/lib/seo/tool-schema";
 
 export const dynamic = "force-static";
 
-export const metadata: Metadata = directoryPageMetadata();
+export const metadata = pageMetadata({
+  title: "Submitted directory records",
+  description:
+    "Recorded AI directory submission facts, including pricing, link type, domain rating, and last checked fields.",
+  path: "/directories",
+});
 
 export default async function DirectoriesPage() {
   const directories = await getPublicDirectories();
@@ -31,13 +34,13 @@ export default async function DirectoriesPage() {
 
   const siteUrl =
     process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
-  const jsonLd = directoryItemListJsonLd(directories, siteUrl);
+  const jsonLd = directoryRecordsJsonLd(directories, siteUrl);
 
   return (
     <div className="container mx-auto max-w-7xl px-4 py-12 md:py-16">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
       />
 
       <header className="mb-10 max-w-3xl border-b border-border pb-6">

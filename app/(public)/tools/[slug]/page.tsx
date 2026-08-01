@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { pageMetadata } from "@/lib/seo/metadata";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ArrowUpRight, ExternalLink, Check, Minus } from "lucide-react";
@@ -6,7 +7,7 @@ import { ToolListView } from "@/components/tool-list-view";
 import { ToolLogo } from "@/components/tool-logo";
 import { BreadcrumbNav } from "@/components/breadcrumb-nav";
 import { buttonVariants } from "@/components/ui/button";
-import { categoryName, toolJsonLd } from "@/lib/seo/tool-schema";
+import { categoryName, toolJsonLd, breadcrumbJsonLd } from "@/lib/seo/tool-schema";
 import { getPublicToolBySlug, getPublicTools } from "@/lib/public-catalog";
 import { pricingLabel } from "@/lib/tool-score";
 import { siteUrl } from "@/lib/site";
@@ -26,17 +27,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!tool) return { title: "Tool not found" };
 
   const description = tool.tagline ?? tool.description ?? undefined;
-  return {
-    title: `${tool.name} — aiknows.tools`,
+  return pageMetadata({
+    title: tool.name,
     description,
-    alternates: { canonical: `${siteUrl}/tools/${slug}` },
-    openGraph: {
-      title: `${tool.name} — aiknows.tools`,
-      description,
-      url: `${siteUrl}/tools/${slug}`,
-      type: "website",
-    },
-  };
+    path: `/tools/${slug}`,
+  });
 }
 
 function relatedTools(tools: Tool[], tool: Tool, limit = 6) {
@@ -53,7 +48,15 @@ export default async function ToolDetailPage({ params }: Props) {
   const related = relatedTools(await getPublicTools(), tool);
   const pricing = pricingLabel(tool.pricing_type);
   const category = categoryName(tool.primary_category);
-  const jsonLd = toolJsonLd({ tool, categoryName: category, siteUrl });
+  const toolJsonLdBlock = toolJsonLd({ tool, categoryName: category, siteUrl });
+  const breadcrumbJsonLdBlock = breadcrumbJsonLd(
+    [
+      { label: "All tools", href: "/tools" },
+      { label: category, href: `/categories/${tool.primary_category}` },
+      { label: tool.name },
+    ],
+    siteUrl,
+  );
   const domain = (() => {
     try {
       return new URL(tool.url).hostname.replace(/^www\./, "");
@@ -66,7 +69,15 @@ export default async function ToolDetailPage({ params }: Props) {
     <div className="container mx-auto max-w-7xl px-4 py-10 md:py-14">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(toolJsonLdBlock).replace(/</g, "\\u003c"),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(breadcrumbJsonLdBlock).replace(/</g, "\\u003c"),
+        }}
       />
 
       <BreadcrumbNav
@@ -84,6 +95,7 @@ export default async function ToolDetailPage({ params }: Props) {
           <img
             src={tool.screenshot_url}
             alt={`${tool.name} screenshot`}
+            fetchPriority="high"
             className="h-full w-full object-cover object-top"
           />
         ) : (

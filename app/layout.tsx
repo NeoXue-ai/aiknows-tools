@@ -30,16 +30,14 @@ export const metadata: Metadata = {
     process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"
   ),
   title: {
-    default: "aiknows.tools — AI Tools & Directories for SaaS Builders",
+    default: "aiknows.tools — recorded AI tool index",
     template: "%s | aiknows.tools",
   },
   description:
-    "Curated AI tools and AI directories for SaaS builders. Discover products, find directories, grow your SaaS.",
+    "An evidence-led index of recorded AI tools and directory submission facts. Inspect what is recorded — no popularity ranking, no star ratings.",
   icons: {
     // SVG first — modern browsers pick the scalable vector with embedded
     // prefers-color-scheme (dark mark on light tab, light mark on dark tab).
-    // The .ico and apple-icon.png are auto-injected by Next.js
-    // (app/favicon.ico and app/apple-icon.png).
     icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
     apple: "/apple-icon.png",
   },
@@ -47,6 +45,11 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     siteName: "aiknows.tools",
+    locale: "en_US",
+    url: "/",
+    title: "aiknows.tools — recorded AI tool index",
+    description:
+      "An evidence-led index of recorded AI tools and directory submission facts. Inspect what is recorded — no popularity ranking, no star ratings.",
   },
   twitter: {
     card: "summary_large_image",

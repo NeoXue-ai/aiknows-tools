@@ -1,14 +1,15 @@
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo/metadata";
 import Link from "next/link";
 import { ArrowRight, Check } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
-export const metadata: Metadata = {
+export const metadata = pageMetadata({
   title: "Pricing",
   description:
     "Submission and visibility plans for tools indexed in the aiknows catalog. Free listings remain supported.",
-};
+  path: "/pricing",
+});
 
 const PLANS = [
   {
@@ -44,8 +45,20 @@ const PLANS = [
 ] as const;
 
 export default function PricingPage() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: "Pricing",
+    description:
+      "Submission and visibility plans for tools indexed in the aiknows catalog. Free listings remain supported.",
+    url: `${process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"}/pricing`,
+  };
   return (
     <div className="container mx-auto max-w-7xl px-4 py-12 md:py-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
+      />
       <header className="mb-10 max-w-3xl border-b border-border pb-6">
         <p className="font-mono text-[10px] uppercase tracking-[0.16em] text-muted-foreground">
           Pricing / 02 plans
