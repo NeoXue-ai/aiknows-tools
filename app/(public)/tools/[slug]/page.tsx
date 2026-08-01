@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { pageMetadata } from "@/lib/seo/metadata";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
@@ -13,6 +14,8 @@ import { pricingLabel } from "@/lib/tool-score";
 import { siteUrl } from "@/lib/site";
 import { cn } from "@/lib/utils";
 import type { Tool } from "@/lib/supabase/types";
+
+const R2_HOST = "pub-459c6f6553344cc393826444731f5707.r2.dev";
 
 export async function generateStaticParams() {
   const tools = await getPublicTools();
@@ -91,13 +94,25 @@ export default async function ToolDetailPage({ params }: Props) {
       {/* Screenshot hero */}
       <div className="relative aspect-[16/8] w-full overflow-hidden border border-border bg-muted">
         {tool.screenshot_url ? (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img
-            src={tool.screenshot_url}
-            alt={`${tool.name} screenshot`}
-            fetchPriority="high"
-            className="h-full w-full object-cover object-top"
-          />
+          tool.screenshot_url.includes(R2_HOST) ? (
+            <Image
+              src={tool.screenshot_url}
+              alt={`${tool.name} screenshot`}
+              fill
+              priority
+              fetchPriority="high"
+              sizes="(max-width: 768px) 100vw, 1280px"
+              className="object-cover object-top"
+            />
+          ) : (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={tool.screenshot_url}
+              alt={`${tool.name} screenshot`}
+              fetchPriority="high"
+              className="h-full w-full object-cover object-top"
+            />
+          )
         ) : (
           <div className="flex h-full w-full items-center justify-center text-xs uppercase tracking-wider text-muted-foreground/60">
             Screenshot not recorded

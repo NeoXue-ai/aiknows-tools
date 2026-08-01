@@ -1,10 +1,13 @@
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { ToolLogo } from "@/components/tool-logo";
 import { pricingLabel } from "@/lib/tool-score";
 import { categoryName } from "@/lib/seo/tool-schema";
 import type { Tool } from "@/lib/supabase/types";
+
+const R2_HOST = "pub-459c6f6553344cc393826444731f5707.r2.dev";
 
 export function ToolCard({ tool }: { tool: Tool }) {
   const pricing = pricingLabel(tool.pricing_type);
@@ -16,18 +19,30 @@ export function ToolCard({ tool }: { tool: Tool }) {
     }
   })();
 
+  const isR2Screenshot = tool.screenshot_url?.includes(R2_HOST) ?? false;
+
   return (
     <Card className="group/card relative h-full gap-0 overflow-hidden p-0 transition-[transform,box-shadow] duration-200 hover:-translate-y-0.5 hover:shadow-[0_2px_12px_rgb(0_0_0/0.08)] hover:ring-accent/50">
       {/* Screenshot — top of card */}
       <div className="relative aspect-[16/10] w-full overflow-hidden bg-muted">
         {tool.screenshot_url ? (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img
-            src={tool.screenshot_url}
-            alt={`${tool.name} screenshot`}
-            loading="lazy"
-            className="h-full w-full object-cover object-top transition-transform duration-300 group-hover/card:scale-[1.02]"
-          />
+          isR2Screenshot ? (
+            <Image
+              src={tool.screenshot_url}
+              alt={`${tool.name} screenshot`}
+              fill
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
+              className="object-cover object-top transition-transform duration-300 group-hover/card:scale-[1.02]"
+            />
+          ) : (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={tool.screenshot_url}
+              alt={`${tool.name} screenshot`}
+              loading="lazy"
+              className="h-full w-full object-cover object-top transition-transform duration-300 group-hover/card:scale-[1.02]"
+            />
+          )
         ) : (
           <div className="flex h-full w-full items-center justify-center text-xs uppercase tracking-wider text-muted-foreground/60">
             Screenshot not recorded
