@@ -1,8 +1,12 @@
+import type { Metadata } from "next";
 import { Sparkles } from "lucide-react";
 import { AdminLoginForm } from "@/components/AdminLoginForm";
 import { sanitizeNext } from "@/lib/auth/oauth";
 
-export const metadata = { title: "Admin login" };
+export const metadata: Metadata = {
+  title: "Admin login",
+  robots: { index: false, follow: false },
+};
 
 export default async function AdminLoginPage({
   searchParams,
