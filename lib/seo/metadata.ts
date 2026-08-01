@@ -3,26 +3,6 @@ import { siteName, siteDescription, siteUrl } from "@/lib/site";
 
 export { siteUrl, siteName, siteDescription };
 
-export const defaultOpenGraph: Metadata["openGraph"] = {
-  type: "website",
-  siteName,
-  locale: "en_US",
-  images: [
-    {
-      url: "/opengraph-image",
-      width: 1200,
-      height: 630,
-      alt: `${siteName} — ${siteDescription}`,
-    },
-  ],
-};
-
-export const defaultTwitter: Metadata["twitter"] = {
-  card: "summary_large_image",
-  site: "@aiknows",
-  images: ["/opengraph-image"],
-};
-
 export interface PageMetadataInput {
   title: string;
   description?: string;
@@ -33,43 +13,37 @@ export interface PageMetadataInput {
 
 export function pageMetadata({
   title,
-  description,
+  description = siteDescription,
   path,
   image,
-  noIndex,
+  noIndex = false,
 }: PageMetadataInput): Metadata {
-  const canonical = `${siteUrl}${path}`;
-  const resolvedDescription = description ?? siteDescription;
-  const resolvedImage = image ?? "/opengraph-image";
+  const canonical = new URL(path, siteUrl).toString();
+  const openGraph = {
+    type: "website" as const,
+    siteName,
+    locale: "en_US",
+    title,
+    description,
+    url: canonical,
+    ...(image
+      ? {
+          images: [{ url: image, width: 1200, height: 630, alt: title }],
+        }
+      : {}),
+  };
 
   return {
     title,
-    description: resolvedDescription,
-    alternates: {
-      canonical,
-    },
-    openGraph: {
-      ...defaultOpenGraph,
-      title,
-      description: resolvedDescription,
-      url: canonical,
-      images: [
-        {
-          url: resolvedImage,
-          width: 1200,
-          height: 630,
-          alt: title,
-        },
-      ],
-    },
+    description,
+    alternates: { canonical },
+    openGraph,
     twitter: {
-      ...defaultTwitter,
+      card: "summary_large_image",
       title,
-      description: resolvedDescription,
-      images: [resolvedImage],
+      description,
+      ...(image ? { images: [image] } : {}),
     },
-    robots: noIndex
-      ? { index: false, follow: false }
-      : { index: true, follow: true },
+    robots: noIndex ? { index: false, follow: false } : { index: true, follow: true },
   };
 }
