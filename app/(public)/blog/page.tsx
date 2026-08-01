@@ -1,18 +1,31 @@
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo/metadata";
 import Link from "next/link";
 import { ArrowRight, FileText } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
-export const metadata: Metadata = {
-  title: "Blog",
+export const metadata = pageMetadata({
+  title: "Field notes from the index",
   description:
-    "Editorial notes on the AI tool landscape: what the index records, how it evolves, and where the evidence-led reading differs from the launch feed.",
-};
+    "Editorial notes on what the index records, how it evolves, and where evidence-led reading differs from the launch feed.",
+  path: "/blog",
+});
 
 export default function BlogPage() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: "Field notes from the index",
+    description:
+      "Editorial notes on what the index records, how it evolves, and where evidence-led reading differs from the launch feed.",
+    url: `${process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"}/blog`,
+  };
   return (
     <div className="container mx-auto max-w-3xl px-4 py-16 md:py-24">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
+      />
       <p className="mb-3 font-mono text-[10px] uppercase tracking-[0.16em] text-accent">
         Blog / 00 entries
       </p>

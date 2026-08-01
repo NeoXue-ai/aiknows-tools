@@ -1,3 +1,4 @@
+import { pageMetadata } from "@/lib/seo/metadata";
 import type { Metadata } from "next";
 import { Suspense } from "react";
 import Link from "next/link";
@@ -6,8 +7,8 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 import { ToolDiscovery } from "@/components/tool-discovery";
 import { BreadcrumbNav } from "@/components/breadcrumb-nav";
 import { categoryIcon } from "@/lib/category-icons";
+import { breadcrumbJsonLd, directoryItemListJsonLd } from "@/lib/seo/tool-schema";
 import { siteUrl } from "@/lib/site";
-import { directoryItemListJsonLd } from "@/lib/seo/tool-schema";
 import {
   countSubs,
   getPublicCategories,
@@ -60,17 +61,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const description =
       resolved.category.description ??
       `Recorded AI tool entries in ${resolved.category.name}.`;
-    return {
-      title: `${resolved.category.name} — aiknows.tools`,
+    return pageMetadata({
+      title: resolved.category.name,
       description,
-      alternates: { canonical: `${siteUrl}/categories/${slug}` },
-    };
+      path: `/categories/${slug}`,
+    });
   }
-  return {
-    title: `${resolved.sub.name} — aiknows.tools`,
+  return pageMetadata({
+    title: resolved.sub.name,
     description: resolved.sub.description,
-    alternates: { canonical: `${siteUrl}/categories/${slug}` },
-  };
+    path: `/categories/${slug}`,
+  });
 }
 
 function SubChips({
@@ -144,19 +145,32 @@ async function CategoryHub({
     .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
   const description = category.description ?? null;
 
-  const jsonLd = directoryItemListJsonLd({
+  const hubListJsonLd = directoryItemListJsonLd({
     tools,
     siteUrl,
     name: `${category.name} — aiknows.tools`,
     description: description ?? `Recorded AI tool entries in ${category.name}.`,
   });
+  const hubBreadcrumbJsonLd = breadcrumbJsonLd(
+    [
+      { label: "Categories", href: "/categories" },
+      { label: category.name },
+    ],
+    siteUrl,
+  );
 
   return (
     <div className="container mx-auto max-w-7xl px-4 py-12 md:py-16">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
+          __html: JSON.stringify(hubListJsonLd).replace(/</g, "\\u003c"),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(hubBreadcrumbJsonLd).replace(/</g, "\\u003c"),
         }}
       />
 
@@ -228,19 +242,35 @@ async function SubCategoryPage({
     .map((s) => ({ slug: s.slug, name: s.name, count: subCounts.get(s.name) ?? 0 }))
     .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
 
-  const jsonLd = directoryItemListJsonLd({
+  const subListJsonLd = directoryItemListJsonLd({
     tools,
     siteUrl,
     name: `${sub.name} — aiknows.tools`,
     description: sub.description,
   });
+  const subBreadcrumbJsonLd = breadcrumbJsonLd(
+    [
+      { label: "Categories", href: "/categories" },
+      ...(parent
+        ? [{ label: parent.name, href: `/categories/${parent.slug}` }]
+        : []),
+      { label: sub.name },
+    ],
+    siteUrl,
+  );
 
   return (
     <div className="container mx-auto max-w-7xl px-4 py-12 md:py-16">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
+          __html: JSON.stringify(subListJsonLd).replace(/</g, "\\u003c"),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(subBreadcrumbJsonLd).replace(/</g, "\\u003c"),
         }}
       />
 

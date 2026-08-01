@@ -1,7 +1,8 @@
+import { pageMetadata } from "@/lib/seo/metadata";
 import type { Metadata } from "next";
 import { Suspense } from "react";
 import { ToolDiscovery } from "@/components/tool-discovery";
-import { CATEGORIES, categoryName } from "@/lib/seo/tool-schema";
+import { CATEGORIES, categoryName, directoryItemListJsonLd } from "@/lib/seo/tool-schema";
 import { getPublicTools } from "@/lib/public-catalog";
 
 type Props = {
@@ -16,21 +17,24 @@ export async function generateMetadata({ searchParams }: Props): Promise<Metadat
   const selected = category ? CATEGORIES.find((c) => c.slug === category) : null;
 
   if (q) {
-    return {
-      title: `Search "${q}" — AI tools`,
+    return pageMetadata({
+      title: `Search "${q}"`,
       description: `Search results for "${q}" across the aiknows.tools directory.`,
-    };
+      path: "/tools",
+    });
   }
   if (selected) {
-    return {
+    return pageMetadata({
       title: `AI Tools — ${selected.name}`,
       description: `Recorded AI tool entries in ${selected.name}.`,
-    };
+      path: "/tools",
+    });
   }
-  return {
-    title: "All AI Tools",
+  return pageMetadata({
+    title: "AI Tools",
     description: "Search and compare recorded AI tool entries by category, price, and evidence fields.",
-  };
+    path: "/tools",
+  });
 }
 
 export default async function ToolsIndexPage({ searchParams }: Props) {
@@ -48,9 +52,19 @@ export default async function ToolsIndexPage({ searchParams }: Props) {
   const sub = selected
     ? `${tools.length} recorded tool entr${tools.length === 1 ? "y" : "ies"} in ${categoryName(selected.slug)}.`
     : `${tools.length} recorded AI tool entries. Compare the fields available for each record.`;
+  const jsonLd = directoryItemListJsonLd({
+    tools: tools.slice(0, 50),
+    siteUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
+    name: heading,
+    description: sub,
+  });
 
   return (
     <div className="container mx-auto max-w-7xl px-4 py-12 md:py-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
+      />
       <header className="mb-8 max-w-3xl border-b border-border pb-6">
         <p className="font-mono text-[10px] uppercase tracking-[0.16em] text-accent">
           Tool index / {String(tools.length).padStart(4, "0")} records

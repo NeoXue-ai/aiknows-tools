@@ -1,3 +1,4 @@
+import { pageMetadata, siteUrl } from "@/lib/seo/metadata";
 import Link from "next/link";
 import {
   ArrowRight,
@@ -15,7 +16,7 @@ import { buttonVariants } from "@/components/ui/button";
 import { ToolCardCompact } from "@/components/ToolCardCompact";
 import { ScrollReveal } from "@/components/scroll-reveal";
 import { getPublicCatalogSummary } from "@/lib/public-catalog";
-import { CATEGORIES, categoryName } from "@/lib/seo/tool-schema";
+import { CATEGORIES, categoryName, directoryItemListJsonLd } from "@/lib/seo/tool-schema";
 import { cn } from "@/lib/utils";
 import type { Tool } from "@/lib/supabase/types";
 
@@ -29,6 +30,11 @@ const CATEGORY_ICON: Record<string, React.ComponentType<{ className?: string }>>
   "ecommerce-sales": ShoppingBag,
   "research-data": Network,
 };
+
+export const metadata = pageMetadata({
+  title: "AI tool discovery index",
+  path: "/",
+});
 
 function pricingBadge(type: Tool["pricing_type"]): { label: string; dot: string } | null {
   switch (type) {
@@ -55,9 +61,38 @@ export default async function Home() {
   }));
 
   const samples = tools.slice(0, 4);
+  const websiteJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "aiknows.tools",
+    url: siteUrl,
+    potentialAction: {
+      "@type": "SearchAction",
+      target: `${siteUrl}/tools?q={search_term_string}`,
+      "query-input": "required name=search_term_string",
+    },
+  };
+  const featuredListJsonLd = directoryItemListJsonLd({
+    tools: featured,
+    siteUrl,
+    name: "Featured recorded AI tools",
+    description: "A sample of recorded AI tools from the public index.",
+  });
 
   return (
     <div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(websiteJsonLd).replace(/</g, "\\u003c"),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(featuredListJsonLd).replace(/</g, "\\u003c"),
+        }}
+      />
       {/* Hero — asymmetric: left thesis, right index snapshot */}
       <section className="relative overflow-hidden border-b border-border">
         {/* Ambient spotlight */}
