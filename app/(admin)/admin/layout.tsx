@@ -11,6 +11,7 @@ import {
 } from "lucide-react";
 import { AuthError, requireAdmin } from "@/lib/auth/session";
 import { Separator } from "@/components/ui/separator";
+import { Toaster } from "@/components/ui/sonner";
 import { cn } from "@/lib/utils";
 import { SignOutButton } from "@/components/SignOutButton";
 
@@ -80,6 +81,7 @@ export default async function AdminLayout({
           {children}
         </main>
       </div>
+      <Toaster richColors position="top-right" />
     </div>
   );
 }
