@@ -1,4 +1,4 @@
-import type { Category, Tool } from "@/lib/supabase/types";
+import type { Category, Directory, Tool } from "@/lib/supabase/types";
 
 export const CATEGORIES: Pick<Category, "slug" | "name">[] = [
   { slug: "writing-content", name: "Writing & Content" },
@@ -80,6 +80,45 @@ export function directoryItemListJsonLd({
       position: index + 1,
       url: `${siteUrl}/tools/${tool.slug}`,
       name: tool.name,
+    })),
+  };
+}
+
+export function breadcrumbJsonLd(
+  segments: { label: string; href?: string }[],
+  siteUrl: string,
+) {
+  const baseUrl = siteUrl.replace(/\/$/, "");
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: segments.map((segment, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: segment.label,
+      ...(segment.href
+        ? { item: `${baseUrl}${segment.href}` }
+        : {}),
+    })),
+  };
+}
+
+export function directoryRecordsJsonLd(directories: Directory[], siteUrl: string) {
+  const baseUrl = siteUrl.replace(/\/$/, "");
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Submitted directory records",
+    description:
+      "Recorded submission facts for AI and SaaS directories: domain rating, submission type, link type, listing speed, and recorded check dates.",
+    url: `${baseUrl}/directories`,
+    numberOfItems: directories.length,
+    itemListElement: directories.map((directory, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: directory.name,
+      url: directory.url,
+      description: directory.niche_focus ?? directory.notes ?? null,
     })),
   };
 }

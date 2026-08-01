@@ -4,4 +4,4 @@ export const siteUrl =
 export const siteName = "aiknows.tools";
 
 export const siteDescription =
-  "Curated AI tools and AI directories for SaaS builders.";
+  "An evidence-led index of recorded AI tools and directory submission facts. Inspect what is recorded — no popularity ranking, no star ratings.";
