@@ -7,7 +7,6 @@ const COLUMNS = [
     links: [
       { label: "All tools", href: "/tools" },
       { label: "Categories", href: "/categories" },
-      { label: "Directories", href: "/directories" },
       { label: "Routes", href: "/collections" },
     ],
   },

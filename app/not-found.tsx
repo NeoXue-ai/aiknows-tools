@@ -26,9 +26,6 @@ export default function NotFound() {
           <Link href="/collections" className="hover:text-foreground/80">
             Routes
           </Link>
-          <Link href="/directories" className="hover:text-foreground/80">
-            Directories
-          </Link>
           <Link href="/categories" className="hover:text-foreground/80">
             Categories
           </Link>

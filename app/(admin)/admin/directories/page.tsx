@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ExternalLink, FolderTree } from "lucide-react";
+import { FolderTree } from "lucide-react";
 import { createAdminClient } from "@/lib/supabase/admin";
 import {
   Table,
@@ -92,13 +92,9 @@ export default async function AdminDirectoriesPage() {
                 >
                   <TableCell>
                     <div className="flex flex-col">
-                      <Link
-                        href={`/directories/${dir.slug}`}
-                        className="group/link inline-flex items-center gap-1.5 font-medium text-foreground transition-colors hover:text-accent"
-                      >
+                      <span className="inline-flex items-center gap-1.5 font-medium text-foreground">
                         {dir.name}
-                        <ExternalLink className="h-3 w-3 opacity-0 transition-opacity group-hover/link:opacity-100" />
-                      </Link>
+                      </span>
                     </div>
                   </TableCell>
                   <TableCell>

@@ -10,7 +10,6 @@ export async function getSitemapEntries(): Promise<MetadataRoute.Sitemap> {
     { url: `${siteUrl}/`, priority: 1.0 },
     { url: `${siteUrl}/tools`, priority: 0.8 },
     { url: `${siteUrl}/categories`, priority: 0.8 },
-    { url: `${siteUrl}/directories`, priority: 0.9 },
     { url: `${siteUrl}/blog`, priority: 0.6 },
     { url: `${siteUrl}/pricing`, priority: 0.5 },
     { url: `${siteUrl}/collections`, priority: 0.6 },

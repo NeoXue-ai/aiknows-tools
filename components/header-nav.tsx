@@ -19,7 +19,6 @@ const UserMenu = dynamic(
 
 const NAV_LINKS = [
   { href: "/categories", label: "Category" },
-  { href: "/directories", label: "Directories" },
   { href: "/blog", label: "Blog" },
   { href: "/pricing", label: "Pricing" },
 ] as const;
