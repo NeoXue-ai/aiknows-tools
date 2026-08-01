@@ -12,7 +12,7 @@ import {
   Sparkles,
   Wand2,
 } from "lucide-react";
-import { buttonVariants } from "@/components/ui/button";
+import { buttonVariants } from "@/components/ui/button-variants";
 import { ToolCardCompact } from "@/components/ToolCardCompact";
 import { ScrollReveal } from "@/components/scroll-reveal";
 import { getPublicCatalogSummary } from "@/lib/public-catalog";

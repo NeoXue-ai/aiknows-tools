@@ -5,7 +5,7 @@ import { createPortal } from "react-dom";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X, ArrowRight } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { buttonVariants } from "@/components/ui/button-variants";
 import { Logo } from "@/components/logo";
 import { cn } from "@/lib/utils";
 
@@ -52,14 +52,14 @@ export function MobileNav({
 
   return (
     <div className="lg:hidden">
-      <Button
-        variant="ghost"
-        size="icon"
+      <button
+        type="button"
         aria-label="Open menu"
         onClick={() => setOpen(true)}
+        className={cn(buttonVariants({ variant: "ghost", size: "icon" }))}
       >
         <Menu className="h-5 w-5" />
-      </Button>
+      </button>
 
       {mounted && open &&
         createPortal(
@@ -86,14 +86,14 @@ export function MobileNav({
             >
         <div className="flex h-16 items-center justify-between border-b border-border px-5">
           <Logo />
-          <Button
-            variant="ghost"
-            size="icon"
+          <button
+            type="button"
             aria-label="Close menu"
             onClick={() => setOpen(false)}
+            className={cn(buttonVariants({ variant: "ghost", size: "icon" }))}
           >
             <X className="h-5 w-5" />
-          </Button>
+          </button>
         </div>
 
         <nav className="flex-1 px-5 py-6">

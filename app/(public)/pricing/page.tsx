@@ -1,7 +1,7 @@
 import { pageMetadata } from "@/lib/seo/metadata";
 import Link from "next/link";
 import { ArrowRight, Check } from "lucide-react";
-import { buttonVariants } from "@/components/ui/button";
+import { buttonVariants } from "@/components/ui/button-variants";
 import { cn } from "@/lib/utils";
 
 export const metadata = pageMetadata({

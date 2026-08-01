@@ -9,7 +9,7 @@ import {
   type LucideIcon,
 } from "lucide-react";
 import { createAdminClient } from "@/lib/supabase/admin";
-import { buttonVariants } from "@/components/ui/button";
+import { buttonVariants } from "@/components/ui/button-variants";
 import { cn } from "@/lib/utils";
 import type { Submission } from "@/lib/supabase/types";
 
