@@ -447,7 +447,7 @@ function DirectoryRow({ directory }: { directory: Directory }) {
           <a
             href={directory.url}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer nofollow"
             className="group inline-flex items-center gap-1 font-medium text-foreground transition-colors hover:text-accent"
           >
             {directory.name}
@@ -521,7 +521,7 @@ function DirectoryRow({ directory }: { directory: Directory }) {
           <a
             href={directory.submit_url}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer nofollow"
             title={
               directory.submission_type === "paid" && directory.paid_price
                 ? `Paid: ${directory.paid_price}`
