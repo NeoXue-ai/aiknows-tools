@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { redirect } from "next/navigation";
 import Link from "next/link";
 import {
@@ -12,6 +13,10 @@ import { AuthError, requireAdmin } from "@/lib/auth/session";
 import { Separator } from "@/components/ui/separator";
 import { cn } from "@/lib/utils";
 import { SignOutButton } from "@/components/SignOutButton";
+
+export const metadata: Metadata = {
+  robots: { index: false, follow: false },
+};
 
 const NAV = [
   { href: "/admin", label: "Dashboard", icon: LayoutDashboard },

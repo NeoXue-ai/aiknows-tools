@@ -1,17 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getPublicSubcategories, getPublicTools } from "@/lib/public-catalog";
+import { CATEGORIES } from "@/lib/seo/tool-schema";
 import { siteUrl } from "@/lib/site";
-
-const CATEGORY_SLUGS = [
-  "writing-content",
-  "seo-marketing",
-  "image-video",
-  "code-development",
-  "productivity",
-  "business-analytics",
-  "research-data",
-  "ecommerce-sales",
-] as const;
 
 export async function getSitemapEntries(): Promise<MetadataRoute.Sitemap> {
   const tools = await getPublicTools();
@@ -21,6 +11,9 @@ export async function getSitemapEntries(): Promise<MetadataRoute.Sitemap> {
     { url: `${siteUrl}/tools`, priority: 0.8 },
     { url: `${siteUrl}/categories`, priority: 0.8 },
     { url: `${siteUrl}/directories`, priority: 0.9 },
+    { url: `${siteUrl}/blog`, priority: 0.6 },
+    { url: `${siteUrl}/pricing`, priority: 0.5 },
+    { url: `${siteUrl}/collections`, priority: 0.6 },
     { url: `${siteUrl}/submit`, priority: 0.5 },
   ];
 
@@ -29,16 +22,18 @@ export async function getSitemapEntries(): Promise<MetadataRoute.Sitemap> {
     priority: 0.7,
   }));
 
-  const categoryRoutes: MetadataRoute.Sitemap = CATEGORY_SLUGS.map((slug) => ({
-    url: `${siteUrl}/categories/${slug}`,
+  const categoryRoutes: MetadataRoute.Sitemap = CATEGORIES.map((category) => ({
+    url: `${siteUrl}/categories/${category.slug}`,
     priority: 0.7,
   }));
 
   const subs = await getPublicSubcategories();
-  const subRoutes: MetadataRoute.Sitemap = subs.map((sub) => ({
-    url: `${siteUrl}/categories/${sub.slug}`,
-    priority: 0.6,
-  }));
+  const subRoutes: MetadataRoute.Sitemap = subs
+    .filter((sub) => sub.count > 0)
+    .map((sub) => ({
+      url: `${siteUrl}/categories/${sub.slug}`,
+      priority: 0.6,
+    }));
 
   return [...staticRoutes, ...toolRoutes, ...categoryRoutes, ...subRoutes];
 }
