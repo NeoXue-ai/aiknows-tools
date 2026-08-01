@@ -22,6 +22,15 @@ const instrumentSerif = Instrument_Serif({
   subsets: ["latin"],
   weight: "400",
   style: ["normal", "italic"],
+  // font-display: optional — the browser uses the metrics-matched fallback
+  // for the first 100ms, then keeps it if the real font isn't loaded yet.
+  // Prevents the hero h1 from being re-painted when the swap fires, which
+  // was adding ~1.1s to mobile LCP.
+  display: "optional",
+  // adjustFontFallback (default true) sizes the synthetic fallback so the
+  // text width/height matches Instrument Serif closely — no layout shift
+  // if the swap does happen.
+  adjustFontFallback: true,
 });
 
 export const metadata: Metadata = {
