@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowLeft, Pause, Clock } from "lucide-react";
 import { siteUrl } from "@/lib/site";
-import { buttonVariants } from "@/components/ui/button";
+import { buttonVariants } from "@/components/ui/button-variants";
 import { getPublicTools } from "@/lib/public-catalog";
 import { cn } from "@/lib/utils";
 

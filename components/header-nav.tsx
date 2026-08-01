@@ -2,12 +2,20 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import dynamic from "next/dynamic";
 import { ArrowRight } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
-import { UserMenu } from "@/components/UserMenu";
 import { MobileNav } from "@/components/mobile-nav";
-import { buttonVariants } from "@/components/ui/button";
+import { buttonVariants } from "@/components/ui/button-variants";
 import { cn } from "@/lib/utils";
+
+// UserMenu pulls Base UI's Menu runtime (floating positioning, portal). Lazy
+// loading keeps it out of the initial bundle for anonymous visitors — it only
+// downloads when a signed-in user is actually shown the menu.
+const UserMenu = dynamic(
+  () => import("@/components/UserMenu").then((m) => m.UserMenu),
+  { loading: () => null }
+);
 
 const NAV_LINKS = [
   { href: "/categories", label: "Category" },

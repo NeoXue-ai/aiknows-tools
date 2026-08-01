@@ -12,7 +12,7 @@ import {
   Send,
 } from "lucide-react";
 import { createAdminClient } from "@/lib/supabase/admin";
-import { buttonVariants } from "@/components/ui/button";
+import { buttonVariants } from "@/components/ui/button-variants";
 import { cn } from "@/lib/utils";
 import { AdminSubmissionActions } from "@/components/AdminSubmissionActions";
 import type { Category, Submission } from "@/lib/supabase/types";

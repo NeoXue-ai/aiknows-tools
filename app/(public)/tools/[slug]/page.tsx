@@ -7,7 +7,7 @@ import { ArrowUpRight, ExternalLink, Check, Minus } from "lucide-react";
 import { ToolListView } from "@/components/tool-list-view";
 import { ToolLogo } from "@/components/tool-logo";
 import { BreadcrumbNav } from "@/components/breadcrumb-nav";
-import { buttonVariants } from "@/components/ui/button";
+import { buttonVariants } from "@/components/ui/button-variants";
 import { categoryName, toolJsonLd, breadcrumbJsonLd } from "@/lib/seo/tool-schema";
 import { getPublicToolBySlug, getPublicTools } from "@/lib/public-catalog";
 import { pricingLabel } from "@/lib/tool-score";
