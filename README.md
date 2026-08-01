@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# aiknows.tools
 
-## Getting Started
+An evidence-led index of recorded AI tools and directory submission facts. Inspect what is recorded — no popularity ranking, no star ratings.
 
-First, run the development server:
+Production: [aiknows.tools](https://aiknows-tools.vercel.app) · Stack: Next.js 16 (App Router) · Supabase · Tailwind · Map Legend design system
+
+## Quick start
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pnpm install
+pnpm dev          # http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Required env vars (see `.env.local.example`):
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY` — DB + auth
+- `NEXT_PUBLIC_SITE_URL` — used for canonical URLs and OG metadata
+- `NEXT_PUBLIC_PLAUSIBLE_DOMAIN` — registered domain on plausible.io (leave empty in dev to skip)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project layout
 
-## Learn More
+```
+app/             Next.js App Router pages, route groups, file conventions
+components/      UI primitives, site sections, OG/Twitter image renderer
+lib/             Domain logic, Supabase client, SEO helpers
+  seo/           pageMetadata(), JSON-LD builders (WebSite, ItemList, SoftwareApplication, BreadcrumbList)
+  public-catalog.ts  Read-only catalog queries for the public site
+supabase/        SQL migrations, RLS policies
+DESIGN.md        Map Legend design tokens — read before any UI change
+AGENTS.md        Next.js 16 conventions reminder
+launch/          Deploy + launch marketing assets (runbook, copy)
+```
 
-To learn more about Next.js, take a look at the following resources:
+## SEO system
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Every public page declares metadata via `pageMetadata()` in `lib/seo/metadata.ts`. The root layout (`app/layout.tsx`) provides the title template `"%s | aiknows.tools"` so each page passes only the bare title.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+OG and Twitter images:
 
-## Deploy on Vercel
+- Root defaults live in `app/opengraph-image.tsx` + `app/twitter-image.tsx`, rendered with the shared `OgCard` helper in `lib/seo/og-card.tsx`
+- Per-tool dynamic OG image lives in `app/(public)/tools/[slug]/opengraph-image.tsx` (`force-dynamic`, fetches by slug)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+JSON-LD per page is emitted as **one schema per `<script type="application/ld+json">` tag** — do not serialize arrays into a single script. Schema.org spec violation if you do.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Sitemap: `app/sitemap.ts` driven by `lib/sitemap-data.ts`. Filters empty sub-categories. Submit the production sitemap to Google Search Console after deploy.
+
+## Plausible analytics
+
+The root layout conditionally renders `<Plausible domain={...} />` when `NEXT_PUBLIC_PLAUSIBLE_DOMAIN` is set. To enable:
+
+1. Sign up at [plausible.io](https://plausible.io) and register the production hostname (e.g. `aiknows-tools.vercel.app`)
+2. Set `NEXT_PUBLIC_PLAUSIBLE_DOMAIN` in:
+   - Local `.env.local` (for local dev verification)
+   - Vercel project settings → Environment Variables (for production)
+3. Redeploy. Visit the site once and confirm events show up in the Plausible dashboard
+
+The Plausible script is a third-party analytics dependency and is **not** part of the `pageMetadata()` helper — keep it in `app/layout.tsx` only.
+
+## Deploy
+
+End-to-end deploy steps live in [`launch/deploy-runbook.md`](./launch/deploy-runbook.md). That runbook covers DB migrations, seeding, Vercel project linking, and DNS.
+
+## Post-deploy: Google Search Console
+
+1. Visit [Google Search Console](https://search.google.com/search-console) and add the property using the production URL
+2. Verify ownership via DNS TXT record (recommended for subdomain migrations)
+3. Submit `https://aiknows.tools/sitemap.xml` under Sitemaps
+4. Use URL Inspection to request indexing for the top 5 pages (`/`, `/tools`, `/categories`, `/tools/<top-slug>`, `/directories`)
+5. Monitor Coverage and Enhancements for crawl errors and structured data issues
+
+## Conventions
+
+- Read [DESIGN.md](./DESIGN.md) before any visual change. Font, color, and spacing tokens are defined there.
+- Read [AGENTS.md](./AGENTS.md) for Next.js 16 reminders (breaking changes from earlier versions).
+- Outbound links in tool/directory records carry `rel="noopener noreferrer nofollow"` — keep that consistent across new components.
