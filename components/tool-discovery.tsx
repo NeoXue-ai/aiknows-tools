@@ -75,21 +75,19 @@ export function ToolDiscovery({
     initialDir === "asc" ? "asc" : "desc",
   );
 
-  // ---- Page (URL ↔ state) ----
-  const [page, setPage] = React.useState<number>(parsePage(searchParams.get("page")));
-
-  // Reset page when search/sort changes — skip first mount so deep links to ?page=N survive.
-  const skipFirstPageResetRef = React.useRef(true);
-  React.useEffect(() => {
-    if (skipFirstPageResetRef.current) {
-      skipFirstPageResetRef.current = false;
-      return;
-    }
-    setPage(1);
-  }, [q, sortKey, sortDir]);
+  // ---- Page (URL is the source of truth — read every render, no state) ----
+  // Page resets to 1 on filter changes for free: the URL sync effect below
+  // excludes `page` from its writes, so any non-page state change strips it.
+  const page = parsePage(searchParams.get("page"));
 
   // ---- URL sync (no scroll, no history bloat) ----
+  // Skip first mount so deep links to ?page=N survive their initial hydration.
+  const skipFirstSyncRef = React.useRef(true);
   React.useEffect(() => {
+    if (skipFirstSyncRef.current) {
+      skipFirstSyncRef.current = false;
+      return;
+    }
     const params = new URLSearchParams();
     for (const [key, value] of searchParams.entries()) {
       if (
@@ -108,13 +106,12 @@ export function ToolDiscovery({
     if (sortKey === "name" && sortDir !== "asc") params.set("dir", sortDir);
     if (sortKey === "dr" && sortDir !== "desc") params.set("dir", sortDir);
     if (view !== "cards") params.set("view", view);
-    if (page > 1) params.set("page", String(page));
     const next = params.toString();
     const current = searchParams.toString();
     if (next === current) return;
     router.replace(`?${next}`, { scroll: false });
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [q, sortKey, sortDir, view, page]);
+  }, [q, sortKey, sortDir, view]);
 
   // ---- Persist view to localStorage ----
   React.useEffect(() => {
@@ -179,16 +176,7 @@ export function ToolDiscovery({
       )}
 
       {filtered.length > 0 && (
-        <ToolPagination
-          currentPage={safePage}
-          totalPages={totalPages}
-          onChange={(n) => {
-            setPage(n);
-            if (typeof window !== "undefined") {
-              window.scrollTo({ top: 0, behavior: "smooth" });
-            }
-          }}
-        />
+        <ToolPagination currentPage={safePage} totalPages={totalPages} />
       )}
     </div>
   );

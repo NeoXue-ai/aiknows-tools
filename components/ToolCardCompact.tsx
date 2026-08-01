@@ -58,7 +58,7 @@ export function ToolCardCompact({ tool }: { tool: Tool }) {
         <a
           href={tool.url}
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener noreferrer nofollow"
           className="inline-flex items-center gap-1 text-[11px] font-medium text-muted-foreground transition-colors hover:text-accent"
           aria-label={`Visit ${tool.name}`}
         >

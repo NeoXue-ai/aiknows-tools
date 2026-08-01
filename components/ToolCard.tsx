@@ -77,7 +77,7 @@ export function ToolCard({ tool }: { tool: Tool }) {
           <a
             href={tool.url}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer nofollow"
             className="relative z-20 inline-flex items-center gap-1 text-xs font-medium text-muted-foreground transition-colors hover:text-accent"
           >
             Visit
