@@ -15,6 +15,7 @@
     "db:types": "pnpm dlx supabase gen types typescript --local > lib/supabase/types.gen.ts",
     "seed": "tsx --env-file=.env.local scripts/seed.ts",
     "audit:catalog": "tsx scripts/audit-catalog-data.ts",
+    "gsc": "node scripts/gsc.mjs",
     "ui:add": "pnpm dlx shadcn@latest add"
   },
   "dependencies": {
@@ -39,6 +40,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "googleapis": "^173.0.0",
     "sharp": "^0.35.3",
     "tailwindcss": "^4",
     "tsx": "^4.20.0",
