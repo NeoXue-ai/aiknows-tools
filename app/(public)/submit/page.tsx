@@ -12,6 +12,7 @@ import {
 import { createClient } from "@/lib/supabase/server";
 import { getCurrentUser } from "@/lib/auth/session";
 import { SubmitForm } from "@/components/SubmitForm";
+import { Toaster } from "@/components/ui/sonner";
 import type { Category } from "@/lib/supabase/types";
 
 export const metadata = pageMetadata({
@@ -148,6 +149,7 @@ export default async function SubmitPage() {
           </p>
         </aside>
       </div>
+      <Toaster richColors position="top-right" />
     </div>
   );
 }

@@ -1,6 +1,5 @@
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono, Instrument_Serif } from "next/font/google";
-import { Toaster } from "@/components/ui/sonner";
 import { Plausible } from "@/components/plausible";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Header } from "@/components/header";
@@ -97,7 +96,6 @@ export default function RootLayout({
             <PageTransition>{children}</PageTransition>
           </main>
           <Footer />
-          <Toaster richColors position="top-right" />
         </ThemeProvider>
         {plausibleDomain ? <Plausible domain={plausibleDomain} /> : null}
       </body>
