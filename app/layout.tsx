@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono, Instrument_Serif } from "next/font/google";
 import { Plausible } from "@/components/plausible";
 import { ThemeProvider } from "@/components/theme-provider";
+import { VercelAnalytics } from "@/components/vercel-analytics";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { PageTransition } from "@/components/page-transition";
@@ -107,6 +108,7 @@ export default function RootLayout({
           <Footer />
         </ThemeProvider>
         {plausibleDomain ? <Plausible domain={plausibleDomain} /> : null}
+        <VercelAnalytics />
       </body>
     </html>
   );
