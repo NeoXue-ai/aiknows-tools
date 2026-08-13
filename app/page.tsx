@@ -16,9 +16,8 @@ import { buttonVariants } from "@/components/ui/button-variants";
 import { ToolCardCompact } from "@/components/ToolCardCompact";
 import { ScrollReveal } from "@/components/scroll-reveal";
 import { getPublicCatalogSummary } from "@/lib/public-catalog";
-import { CATEGORIES, categoryName, directoryItemListJsonLd } from "@/lib/seo/tool-schema";
+import { CATEGORIES, directoryItemListJsonLd } from "@/lib/seo/tool-schema";
 import { cn } from "@/lib/utils";
-import type { Tool } from "@/lib/supabase/types";
 
 const CATEGORY_ICON: Record<string, React.ComponentType<{ className?: string }>> = {
   "writing-content": Wand2,
@@ -36,21 +35,6 @@ export const metadata = pageMetadata({
   path: "/",
 });
 
-function pricingBadge(type: Tool["pricing_type"]): { label: string; dot: string } | null {
-  switch (type) {
-    case "free":
-      return { label: "Free", dot: "bg-emerald-500" };
-    case "freemium":
-      return { label: "Freemium", dot: "bg-amber-500" };
-    case "paid":
-      return { label: "Paid", dot: "bg-accent" };
-    case "enterprise":
-      return { label: "Enterprise", dot: "bg-violet-500" };
-    default:
-      return null;
-  }
-}
-
 export default async function Home() {
   const { tools, toolCount, directoryCount } = await getPublicCatalogSummary();
   const featured = tools.slice(0, 6);
@@ -59,8 +43,6 @@ export default async function Home() {
     ...c,
     count: tools.filter((t) => t.primary_category === c.slug).length,
   }));
-
-  const samples = tools.slice(0, 4);
   const websiteJsonLd = {
     "@context": "https://schema.org",
     "@type": "WebSite",
@@ -140,62 +122,50 @@ export default async function Home() {
             </p>
           </div>
 
-          {/* Right: index snapshot */}
+          {/* Right: what this index does */}
           <aside className="flex flex-col self-stretch">
-            <div className="flex items-baseline justify-between border-b border-border pb-3">
+            <div className="border-b border-border pb-2">
               <span className="font-mono text-[10px] uppercase tracking-[0.18em] text-muted-foreground">
-                Index snapshot
+                What this index does
               </span>
-              <Link
-                href="/tools"
-                className="font-mono text-[10px] uppercase tracking-[0.18em] text-muted-foreground transition-colors hover:text-accent"
-              >
-                Browse →
-              </Link>
             </div>
-            <ol className="flex flex-1 flex-col">
-              {samples.map((t, i) => {
-                const pricing = pricingBadge(t.pricing_type);
-                return (
-                  <li
-                    key={t.id || t.slug}
-                    className="group/row border-b border-border last:border-b-0"
-                  >
-                    <Link
-                      href={`/tools/${t.slug}`}
-                      className="-mx-2 flex items-center gap-4 rounded-md px-2 py-4 transition-colors hover:bg-secondary/30"
-                    >
-                      <span className="w-8 shrink-0 font-serif text-[18px] italic leading-none tabular-nums text-muted-foreground transition-colors group-hover/row:text-foreground">
-                        {String(i + 1).padStart(2, "0")}
-                      </span>
-                      <div className="min-w-0 flex-1">
-                        <span className="block truncate text-[15px] font-medium text-foreground transition-colors group-hover/row:text-accent">
-                          {t.name}
-                        </span>
-                        <span className="block font-mono text-[10px] uppercase tracking-[0.12em] text-muted-foreground">
-                          {categoryName(t.primary_category)}
-                          {pricing && (
-                            <>
-                              <span aria-hidden className="mx-2 text-border">·</span>
-                              <span className="inline-flex items-center gap-1">
-                                <span
-                                  aria-hidden
-                                  className={cn(
-                                    "h-1.5 w-1.5 rounded-full",
-                                    pricing.dot,
-                                  )}
-                                />
-                                {pricing.label}
-                              </span>
-                            </>
-                          )}
-                        </span>
-                      </div>
-                    </Link>
-                  </li>
-                );
-              })}
-            </ol>
+            <ul className="flex flex-1 flex-col">
+              {[
+                {
+                  label: "Records AI tools",
+                  detail: "Name, category, pricing, source, and tags per entry.",
+                },
+                {
+                  label: "Indexes directories",
+                  detail: `Submission facts for ${directoryCount}+ tool directories.`,
+                },
+                {
+                  label: "Surfaces what's missing",
+                  detail: "Sparse data is shown as such — not hidden or padded.",
+                },
+              ].map((row) => (
+                <li
+                  key={row.label}
+                  className="group/row border-b border-border last:border-b-0"
+                >
+                  <div className="-mx-2 flex flex-col gap-1 rounded-md px-2 py-4">
+                    <span className="text-[15px] font-medium text-foreground transition-colors group-hover/row:text-accent">
+                      {row.label}
+                    </span>
+                    <span className="text-[13px] leading-5 text-muted-foreground">
+                      {row.detail}
+                    </span>
+                  </div>
+                </li>
+              ))}
+            </ul>
+            <Link
+              href="/tools"
+              className="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-foreground transition-colors hover:text-accent"
+            >
+              Browse all {toolCount} records
+              <ArrowRight className="h-4 w-4" />
+            </Link>
           </aside>
         </div>
       </section>
