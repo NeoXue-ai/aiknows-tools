@@ -14,6 +14,9 @@ export async function getSitemapEntries(): Promise<MetadataRoute.Sitemap> {
     { url: `${siteUrl}/pricing`, priority: 0.5 },
     { url: `${siteUrl}/collections`, priority: 0.6 },
     { url: `${siteUrl}/submit`, priority: 0.5 },
+    { url: `${siteUrl}/about`, priority: 0.4 },
+    { url: `${siteUrl}/faq`, priority: 0.4 },
+    { url: `${siteUrl}/contact`, priority: 0.4 },
   ];
 
   const toolRoutes: MetadataRoute.Sitemap = tools.map((tool) => ({
