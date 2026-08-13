@@ -11,18 +11,19 @@ const COLUMNS = [
     ],
   },
   {
-    title: "Notes",
+    title: "Contribute",
     links: [
+      { label: "Submit a tool", href: "/submit" },
       { label: "Blog", href: "/blog" },
       { label: "Pricing", href: "/pricing" },
-      { label: "Submit a tool", href: "/submit" },
     ],
   },
   {
-    title: "Account",
+    title: "About",
     links: [
-      { label: "Sign in", href: "/login" },
-      { label: "Admin", href: "/admin" },
+      { label: "About", href: "/about" },
+      { label: "FAQ", href: "/faq" },
+      { label: "Contact", href: "/contact" },
     ],
   },
 ];
