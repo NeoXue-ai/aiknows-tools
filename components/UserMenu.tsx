@@ -4,6 +4,7 @@ import Link from "next/link";
 import {
   DropdownMenu,
   DropdownMenuContent,
+  DropdownMenuGroup,
   DropdownMenuItem,
   DropdownMenuLabel,
   DropdownMenuSeparator,
@@ -50,12 +51,14 @@ export function UserMenu({ email, isAdmin }: UserMenuProps) {
         <span className="hidden sm:inline">{email}</span>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="w-56">
-        <DropdownMenuLabel className="font-normal">
-          <div className="flex flex-col space-y-1">
-            <p className="text-sm font-medium">Signed in</p>
-            <p className="text-muted-foreground text-xs">{email}</p>
-          </div>
-        </DropdownMenuLabel>
+        <DropdownMenuGroup>
+          <DropdownMenuLabel className="font-normal">
+            <div className="flex flex-col space-y-1">
+              <p className="text-sm font-medium">Signed in</p>
+              <p className="text-muted-foreground text-xs">{email}</p>
+            </div>
+          </DropdownMenuLabel>
+        </DropdownMenuGroup>
         <DropdownMenuSeparator />
         <DropdownMenuItem render={<Link href="/submit" />}>
           Submit a tool
