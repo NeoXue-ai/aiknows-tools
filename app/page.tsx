@@ -13,6 +13,7 @@ import {
   Wand2,
 } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button-variants";
+import { ToolCard } from "@/components/ToolCard";
 import { ToolCardCompact } from "@/components/ToolCardCompact";
 import { ScrollReveal } from "@/components/scroll-reveal";
 import { getPublicCatalogSummary } from "@/lib/public-catalog";
@@ -30,6 +31,24 @@ const CATEGORY_ICON: Record<string, React.ComponentType<{ className?: string }>>
   "research-data": Network,
 };
 
+// Curated homepage picks — order matters. Slugs must exist in the catalog.
+const FEATURED_SLUGS = [
+  "dshplugin",
+  "runway-gen-45",
+  "alias-browser",
+  "depthsight",
+  "aniv-ai",
+  "echoleads-ai",
+  "1clickclaw",
+  "attensira",
+];
+
+// Per-slug card image overrides for the Featured grid (detail pages keep
+// the record's own screenshot_url).
+const FEATURED_CARD_IMAGES: Record<string, string> = {
+  dshplugin: "/screenshots/dshplugin-card.webp",
+};
+
 export const metadata = pageMetadata({
   title: "AI tool discovery index",
   path: "/",
@@ -37,7 +56,11 @@ export const metadata = pageMetadata({
 
 export default async function Home() {
   const { tools, toolCount, directoryCount } = await getPublicCatalogSummary();
-  const featured = tools.slice(0, 6);
+  const recent = tools.slice(0, 6);
+  const featuredPicks = FEATURED_SLUGS.flatMap((slug) => {
+    const tool = tools.find((t) => t.slug === slug);
+    return tool ? [tool] : [];
+  });
 
   const categoryCounts = CATEGORIES.map((c) => ({
     ...c,
@@ -55,7 +78,7 @@ export default async function Home() {
     },
   };
   const featuredListJsonLd = directoryItemListJsonLd({
-    tools: featured,
+    tools: recent,
     siteUrl,
     name: "Featured recorded AI tools",
     description: "A sample of recorded AI tools from the public index.",
@@ -75,7 +98,7 @@ export default async function Home() {
           __html: JSON.stringify(featuredListJsonLd).replace(/</g, "\\u003c"),
         }}
       />
-      {/* Hero — asymmetric: left thesis, right index snapshot */}
+      {/* Hero — centered thesis */}
       <section className="relative overflow-hidden border-b border-border">
         {/* Ambient spotlight */}
         <div
@@ -87,19 +110,21 @@ export default async function Home() {
             animation: "ml-spotlight 24s ease-in-out infinite",
           }}
         />
-        <div className="container mx-auto grid max-w-7xl gap-12 px-4 py-20 lg:grid-cols-[minmax(0,1fr)_minmax(0,0.85fr)] lg:gap-16 lg:py-28">
-          {/* Left: thesis */}
-          <div className="flex flex-col">
+        <div className="container mx-auto max-w-7xl px-4 py-20 lg:py-28">
+          <div className="flex flex-col items-center text-center">
             <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-muted-foreground">
-              AI tool discovery platform
+              AI tools directory
             </p>
-            <h1 className="mt-5 text-balance font-serif text-5xl font-normal leading-[1.02] tracking-[-0.025em] text-foreground sm:text-6xl lg:text-[5rem] lg:tracking-[-0.035em]">
-              Discover the Future of AI
+            <h1 className="mt-5 text-balance font-serif text-5xl font-normal leading-[1.04] tracking-[-0.025em] text-foreground sm:text-6xl lg:text-[4.75rem] lg:tracking-[-0.03em]">
+              Find the <em className="italic">Right</em> AI Tool for{" "}
+              <mark className="rounded-md bg-emphasis px-[0.18em] pb-[0.08em] text-emphasis-foreground [box-decoration-break:clone]">
+                Every Task
+              </mark>
             </h1>
-            <p className="mt-6 max-w-xl text-pretty text-base leading-7 text-muted-foreground sm:text-lg">
-              Explore the best AI tools, products, and startups shaping the future.
+            <p className="mt-6 text-pretty text-base leading-7 text-muted-foreground sm:text-lg">
+              Search and filter {toolCount}+ AI tools by category and pricing. Every record shows its data source.
             </p>
-            <div className="mt-8 flex flex-wrap items-center gap-3">
+            <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
               <Link
                 href="/tools"
                 className={cn(
@@ -121,106 +146,39 @@ export default async function Home() {
               {toolCount}+ AI tools · {directoryCount}+ directories · Live records
             </p>
           </div>
-
-          {/* Right: what this index does */}
-          <aside className="flex flex-col self-stretch">
-            <div className="border-b border-border pb-2">
-              <span className="font-mono text-[10px] uppercase tracking-[0.18em] text-muted-foreground">
-                What this index does
-              </span>
-            </div>
-            <ul className="flex flex-1 flex-col">
-              {[
-                {
-                  label: "Records AI tools",
-                  detail: "Name, category, pricing, source, and tags per entry.",
-                },
-                {
-                  label: "Indexes directories",
-                  detail: `Submission facts for ${directoryCount}+ tool directories.`,
-                },
-                {
-                  label: "Surfaces what's missing",
-                  detail: "Sparse data is shown as such — not hidden or padded.",
-                },
-              ].map((row) => (
-                <li
-                  key={row.label}
-                  className="group/row border-b border-border last:border-b-0"
-                >
-                  <div className="-mx-2 flex flex-col gap-1 rounded-md px-2 py-4">
-                    <span className="text-[15px] font-medium text-foreground transition-colors group-hover/row:text-accent">
-                      {row.label}
-                    </span>
-                    <span className="text-[13px] leading-5 text-muted-foreground">
-                      {row.detail}
-                    </span>
-                  </div>
-                </li>
-              ))}
-            </ul>
-            <Link
-              href="/tools"
-              className="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-foreground transition-colors hover:text-accent"
-            >
-              Browse all {toolCount} records
-              <ArrowRight className="h-4 w-4" />
-            </Link>
-          </aside>
         </div>
       </section>
 
-      {/* What this index records */}
+      {/* Featured picks */}
       <ScrollReveal>
-      <section className="border-b border-border">
-        <div className="container mx-auto max-w-7xl px-4 py-16 lg:py-20">
-          <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.4fr)] lg:gap-16">
-            <div>
-              <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-muted-foreground">
-                How to read the index
-              </p>
-              <h2 className="mt-3 text-balance text-2xl font-semibold tracking-[-0.03em] sm:text-3xl">
-                An evidence-led map, not a popularity ranking.
-              </h2>
-              <p className="mt-3 max-w-md text-sm leading-6 text-muted-foreground">
-                Each record states what is captured, what is missing, and what is not measured. No claims of review, ranking, or popularity unless the data carries them.
-              </p>
+        <section className="border-b border-border">
+          <div className="container mx-auto max-w-7xl px-4 py-16 lg:py-20">
+            <div className="flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-end">
+              <div>
+                <h2 className="text-balance text-2xl font-semibold tracking-[-0.03em] sm:text-3xl">
+                  Featured
+                </h2>
+              </div>
+              <Link
+                href="/tools"
+                className="inline-flex items-center gap-1.5 text-sm font-medium text-foreground transition-colors hover:text-accent"
+              >
+                View all tools <ArrowRight className="h-4 w-4" />
+              </Link>
             </div>
-            <dl className="divide-y divide-border border-y border-border">
-              {[
-                {
-                  label: "Identity",
-                  detail: "Name, primary category, tagline, and a working URL.",
-                },
-                {
-                  label: "Pricing state",
-                  detail: "Free · Freemium · Paid · Enterprise, with detail when recorded.",
-                },
-                {
-                  label: "Description & tags",
-                  detail: "Description depth and tag coverage drive the evidence score.",
-                },
-                {
-                  label: "Recorded source",
-                  detail: "Where the record originated, when present. Not a verification.",
-                },
-              ].map((row) => (
-                <div
-                  key={row.label}
-                  className="grid grid-cols-[8rem_minmax(0,1fr)] gap-4 py-4 sm:grid-cols-[10rem_minmax(0,1fr)] sm:gap-6"
-                >
-                  <dt className="font-mono text-[11px] uppercase tracking-[0.14em] text-muted-foreground">
-                    {row.label}
-                  </dt>
-                  <dd className="text-sm leading-6 text-foreground/85">
-                    {row.detail}
-                  </dd>
-                </div>
+            <div className="ml-stagger mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+              {featuredPicks.map((tool) => (
+                <ToolCard
+                  key={tool.id || tool.slug}
+                  tool={tool}
+                  compact
+                  image={FEATURED_CARD_IMAGES[tool.slug]}
+                  badge={tool.slug === "dshplugin" ? "Featured" : undefined}
+                />
               ))}
-            </dl>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
       </ScrollReveal>
 
       {/* Trending AI Tools */}
@@ -240,11 +198,11 @@ export default async function Home() {
               href="/tools"
               className="inline-flex items-center gap-1.5 text-sm font-medium text-foreground transition-colors hover:text-accent"
             >
-              View all tools <ArrowRight className="h-4 w-4" />
-            </Link>
-          </div>
+                View all tools <ArrowRight className="h-4 w-4" />
+              </Link>
+            </div>
           <div className="ml-stagger mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {featured.map((tool) => (
+            {recent.map((tool) => (
               <ToolCardCompact key={tool.id || tool.slug} tool={tool} />
             ))}
           </div>
