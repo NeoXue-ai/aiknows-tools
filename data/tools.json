@@ -1,5 +1,21 @@
 [
   {
+    "slug": "dshplugin",
+    "name": "DSHPlug.in",
+    "tagline": "Curated directory of 4,900+ free DeepSeek Harness (DSH) plugins & tools.",
+    "description": "Curated directory for the DeepSeek Harness (DSH) ecosystem: 4,900+ open-source plugins in 12 purpose-based categories — agents, MCP servers, coding tools, knowledge/RAG, automation, themes, desktop clients and utilities. Listings include install command, stars, update date and alternatives. Free.",
+    "url": "https://dshplug.in",
+    "logo_url": "https://dshplug.in/apple-touch-icon.png",
+    "screenshot_url": "/screenshots/dshplugin.webp",
+    "primary_category": "research-data",
+    "tags": [],
+    "pricing_type": "free",
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "Directories"
+  },
+  {
     "slug": "1-mp3-to-text-converter",
     "name": "#1 MP3 to Text Converter",
     "tagline": "#1 AI-powered MP3 to text transcription. Convert MP3 audio to accurate text in 90+ languages. Export in multiple formats.",
