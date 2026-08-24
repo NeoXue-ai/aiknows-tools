@@ -22,6 +22,30 @@ You have two options. **Option A is faster** (no credentials to share).
 4. Repeat for `supabase/migrations/20260614000002_rls.sql`
 5. Verify: SQL editor → `SELECT count(*) FROM categories;` should return 8
 
+### Step 1.5 — request_logs forensic capture
+
+Add this migration **before the first production deploy that has `proxy.ts` writing to `request_logs`**:
+
+1. Open `supabase/migrations/20260824000001_request_logs.sql`
+2. Paste into SQL editor → Run
+3. Verify: SQL editor → `SELECT count(*) FROM request_logs;` (will return 0 until traffic lands)
+
+`proxy.ts` does fire-and-forget `INSERT` into this table on every dynamic request. Two operational notes:
+
+- **PII** — `ip` (PII under GDPR/PIPL) and `ua` (often personally identifying) are stored raw for forensic purposes. Do not export this table to any third-party service without legal review. Plan to add a cleanup job at ~90 days.
+- **Volume** — at 10k PV/day this table grows ~300k rows/month. Supabase free tier (500MB) fits ~1 year, but watch the row count and add a retention cleanup before it matters.
+
+### Step 1.6 — request_logs ASN enrichment (optional)
+
+If you want to backfill ASN / org data from captured IPs:
+
+```bash
+pnpm tsx --env-file=.env.local scripts/enrich-ips.ts --since 7d
+pnpm tsx --env-file=.env.local scripts/query-bot-traffic.ts top-asn --since 7d
+```
+
+`enrich-ips.ts` calls `ip-api.com` (45 req/min free tier, we cap at 40). Safe to rerun — it only fills NULL rows.
+
 ### Option B — Connection string + psql (if you want to script it)
 
 ```bash
