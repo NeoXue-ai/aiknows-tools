@@ -49,8 +49,7 @@ type Row = {
 type QueryBuilder = any;
 
 function parseSince(): string {
-  const arg = process.argv.find((a) => a.startsWith("--since="));
-  const raw = arg ? arg.split("=")[1] : DEFAULT_LOOKBACK;
+  const raw = readFlagValue("--since") ?? DEFAULT_LOOKBACK;
   const m = /^(\d+)([hdwm])$/.exec(raw);
   if (!m) {
     throw new Error(`Bad --since value '${raw}'. Use e.g. 7d, 12h, 30m.`);
@@ -65,16 +64,33 @@ function parseSince(): string {
 }
 
 function parseLimit(): number {
-  const arg = process.argv.find((a) => a.startsWith("--limit="));
-  if (!arg) return DEFAULT_LIMIT;
-  const n = Number(arg.split("=")[1]);
+  const raw = readFlagValue("--limit");
+  if (!raw) return DEFAULT_LIMIT;
+  const n = Number(raw);
   return Number.isFinite(n) && n > 0 ? n : DEFAULT_LIMIT;
 }
 
 function parsePath(): string {
-  const arg = process.argv.find((a) => a.startsWith("--path="));
-  if (!arg) throw new Error("--path=<value> is required for path-summary.");
-  return arg.split("=")[1];
+  const v = readFlagValue("--path");
+  if (!v) throw new Error("--path=<value> is required for path-summary.");
+  return v;
+}
+
+// Accepts both `--flag=value` and `--flag value`. The `--flag value`
+// form is necessary when running under Node ≥ 18, which otherwise
+// strips `--flag=...` arguments that look like Node options (e.g.
+// `--path=/tools/...`) before the script ever sees them.
+function readFlagValue(flag: string): string | null {
+  for (let i = 0; i < process.argv.length; i += 1) {
+    const a = process.argv[i];
+    if (a === flag) {
+      return process.argv[i + 1] ?? null;
+    }
+    if (a.startsWith(`${flag}=`)) {
+      return a.slice(flag.length + 1);
+    }
+  }
+  return null;
 }
 
 function arg(name: string): string | null {
