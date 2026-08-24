@@ -76,7 +76,7 @@ export function ToolListView({ tools }: { tools: Tool[] }) {
             <a
               href={tool.url}
               target="_blank"
-              rel="noopener noreferrer nofollow"
+              rel="noopener noreferrer"
               aria-label={`Visit ${tool.name} website`}
               className="relative z-10 hidden shrink-0 self-center text-muted-foreground transition-colors hover:text-accent sm:inline-flex"
             >

@@ -233,7 +233,7 @@ export default async function ToolDetailPage({ params }: Props) {
             <a
               href={tool.url}
               target="_blank"
-              rel="noopener noreferrer nofollow"
+              rel="noopener noreferrer"
               className={cn(buttonVariants({ size: "sm" }), "gap-1.5")}
             >
               Visit website
