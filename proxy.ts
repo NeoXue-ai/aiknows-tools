@@ -27,9 +27,9 @@ export function proxy(request: NextRequest, event: NextFetchEvent) {
 
 async function captureRequest(request: NextRequest): Promise<void> {
   try {
-    const xff = request.headers.get("x-forwarded-for");
     const ip =
-      xff?.split(",")[0]?.trim() ??
+      request.headers.get("cf-connecting-ip") ??
+      request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ??
       request.headers.get("x-real-ip") ??
       "0.0.0.0";
 
