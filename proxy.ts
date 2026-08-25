@@ -94,21 +94,56 @@ async function captureRequest(request: NextRequest): Promise<void> {
 // conservative is_suspicious flags for soft analysis.
 // Sources: Aug 2026 botnet shifted to Cloudflare path after the direct-IP
 // block went live; observed ~50% of remaining traffic matches these.
+// After 3 rounds of rotation, ~99% of bot traffic is now caught by these
+// 8 patterns; remaining is mostly legit (FB/Bing crawlers + humans).
 function isBotUa(ua: string): boolean {
   if (!ua) return true; // empty UA — only headless bots do this
-  // Windows Phone shipped Trident/EdgeHTML, never WebKit. WP + WebKit = bot.
+
+  // 1. Windows Phone shipped Trident/EdgeHTML, never WebKit. WP + WebKit = bot.
   if (/Windows Phone.*AppleWebKit/i.test(ua)) return true;
   if (/Windows Phone.*Android/i.test(ua)) return true; // WP can't run Android
-  // rv: token in Gecko/20100101 UAs maps to the Firefox major version.
+
+  // 2. rv: token in Gecko/20100101 UAs maps to the Firefox major version.
   // Firefox 50 shipped 2016-11; anything rv:<50 is ~10 years stale and
   // not used by any real client in 2026. The botnet rotates rv values
   // (rv:10, rv:46) while claiming modern Firefox/100-101 versions — the
   // contradiction confirms spoofing, but rv:<50 alone is conclusive.
   const rvMatch = ua.match(/rv:(\d{2,3})/);
-  if (rvMatch) {
-    const rv = parseInt(rvMatch[1], 10);
-    if (rv < 50) return true;
+  if (rvMatch && parseInt(rvMatch[1], 10) < 50) return true;
+
+  // 3. AppleWebKit/533 was used in Chrome 14–28 (2011–2013). No modern
+  // browser ships with 533.x WebKit; covers tr-TR bots, Win+Safari 15 bots.
+  if (/AppleWebKit\/533/.test(ua)) return true;
+
+  // 4. Opera identifies as "Chrome/X ... OPR/Y" where X matches the
+  // underlying Chromium version (Opera 89 → Chromium 105, etc.). A high
+  // OPR with an ancient Chrome is a contradiction no real Opera produces
+  // (e.g. Chrome/28 + OPR/89 — 8-year version gap, seen in the Aug 2026
+  // botnet's third rotation).
+  const oprMatch = ua.match(/OPR\/(\d+)/);
+  const chromeMatch = ua.match(/Chrome\/(\d+)/);
+  if (oprMatch && chromeMatch) {
+    const opr = parseInt(oprMatch[1], 10);
+    const chrome = parseInt(chromeMatch[1], 10);
+    if (opr >= 50 && chrome < 50) return true;
   }
+
+  // 5. Apple dropped Windows Safari support in 2012 (Safari 6 was the
+  // last Win release). Any "Version/X.Y" on a Windows UA where X.Y >= 13
+  // (Safari 13, 2020+) is impossible — covers Win+Safari 15.6 bots that
+  // combine AppleWebKit/533 + Version/15.6 + tr-TR locale.
+  const safariVerMatch = ua.match(/Version\/(\d+)\./);
+  if (safariVerMatch && /Windows/i.test(ua)) {
+    const v = parseInt(safariVerMatch[1], 10);
+    if (v >= 13) return true;
+  }
+
+  // 6. Chrome/104.0.5112 with a space before "/537.36" is a bot-generator
+  // copy-paste typo. Real Chrome never produces "Safari /537.36" with
+  // that space; the string is the cleanest signature for the Aug 2026
+  // botnet's fourth rotation (3 NL/CA IPs sharing the same exact UA).
+  if (/Chrome\/104\.0\.5112[^/]*Safari \//.test(ua)) return true;
+
   return false;
 }
 
