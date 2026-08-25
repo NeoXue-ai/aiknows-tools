@@ -6,6 +6,18 @@ const SESSION_COOKIE_NAME = "__Host-aiknows_session";
 export function proxy(request: NextRequest, event: NextFetchEvent) {
   const { pathname } = request.nextUrl;
 
+  // Production custom domain: require Cloudflare proxy path.
+  // The Aug 2026 botnet cached the Vercel origin IP (76.76.21.21) and
+  // hits it directly, bypassing Cloudflare edge entirely (Bot Fight
+  // Mode only sees what reaches the edge). cf-connecting-ip is set
+  // only by Cloudflare on the proxied path; missing = direct hit = bot.
+  // Preview URLs (*.vercel.app) and admin keep working.
+  const host = request.headers.get("host") ?? "";
+  const isProdDomain = host === "aiknows.tools" || host === "www.aiknows.tools";
+  if (isProdDomain && !request.headers.get("cf-connecting-ip")) {
+    return new NextResponse("Forbidden", { status: 403 });
+  }
+
   // Admin auth gate (preserved from original).
   if (pathname.startsWith("/admin") && pathname !== "/admin/login") {
     const hasSession = Boolean(request.cookies.get(SESSION_COOKIE_NAME)?.value);
