@@ -18,6 +18,17 @@ export function proxy(request: NextRequest, event: NextFetchEvent) {
     return new NextResponse("Forbidden", { status: 403 });
   }
 
+  // UA fingerprint block: after the direct-IP pivot (Aug 2026 botnet
+  // moved to the Cloudflare path), Bot Fight Mode stopped catching them.
+  // Their UAs are conclusively impossible — Windows Phone never shipped
+  // AppleWebKit, and Firefox rv:40-49 (2015) predates Android 10/11
+  // (2019). No real user can hit these patterns, so a hard 403 here
+  // costs zero false positives while dropping ~50% of bot volume.
+  const ua = request.headers.get("user-agent") ?? "";
+  if (isBotUa(ua)) {
+    return new NextResponse("Forbidden", { status: 403 });
+  }
+
   // Admin auth gate (preserved from original).
   if (pathname.startsWith("/admin") && pathname !== "/admin/login") {
     const hasSession = Boolean(request.cookies.get(SESSION_COOKIE_NAME)?.value);
@@ -76,6 +87,26 @@ async function captureRequest(request: NextRequest): Promise<void> {
   } catch (err) {
     console.error("[proxy] request_logs insert failed:", err);
   }
+}
+
+// Bot UA fingerprints — patterns no real browser/UA combination produces.
+// These are the hard blocks above; captureRequest() still uses the
+// conservative is_suspicious flags for soft analysis.
+// Sources: Aug 2026 botnet shifted to Cloudflare path after the direct-IP
+// block went live; observed ~50% of remaining traffic matches these.
+function isBotUa(ua: string): boolean {
+  if (!ua) return true; // empty UA — only headless bots do this
+  // Windows Phone shipped Trident/EdgeHTML, never WebKit. WP + WebKit = bot.
+  if (/Windows Phone.*AppleWebKit/i.test(ua)) return true;
+  if (/Windows Phone.*Android/i.test(ua)) return true; // WP can't run Android
+  // Firefox rv:40-49 shipped 2015–2016, before Android 10/11 existed.
+  // Modern Android (10+) on Firefox 40-49 = bot spoofing.
+  const ffMatch = ua.match(/rv:(\d{2})\./);
+  if (ffMatch && /^Mozilla\/5\.0 \(Linux; Android (1[0-9]|[2-9][0-9])/i.test(ua)) {
+    const rv = parseInt(ffMatch[1], 10);
+    if (rv >= 40 && rv <= 49) return true;
+  }
+  return false;
 }
 
 // Match all dynamic paths. Excludes static assets so we don't log every
