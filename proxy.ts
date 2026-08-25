@@ -99,12 +99,15 @@ function isBotUa(ua: string): boolean {
   // Windows Phone shipped Trident/EdgeHTML, never WebKit. WP + WebKit = bot.
   if (/Windows Phone.*AppleWebKit/i.test(ua)) return true;
   if (/Windows Phone.*Android/i.test(ua)) return true; // WP can't run Android
-  // Firefox rv:40-49 shipped 2015–2016, before Android 10/11 existed.
-  // Modern Android (10+) on Firefox 40-49 = bot spoofing.
-  const ffMatch = ua.match(/rv:(\d{2})\./);
-  if (ffMatch && /^Mozilla\/5\.0 \(Linux; Android (1[0-9]|[2-9][0-9])/i.test(ua)) {
-    const rv = parseInt(ffMatch[1], 10);
-    if (rv >= 40 && rv <= 49) return true;
+  // rv: token in Gecko/20100101 UAs maps to the Firefox major version.
+  // Firefox 50 shipped 2016-11; anything rv:<50 is ~10 years stale and
+  // not used by any real client in 2026. The botnet rotates rv values
+  // (rv:10, rv:46) while claiming modern Firefox/100-101 versions — the
+  // contradiction confirms spoofing, but rv:<50 alone is conclusive.
+  const rvMatch = ua.match(/rv:(\d{2,3})/);
+  if (rvMatch) {
+    const rv = parseInt(rvMatch[1], 10);
+    if (rv < 50) return true;
   }
   return false;
 }
