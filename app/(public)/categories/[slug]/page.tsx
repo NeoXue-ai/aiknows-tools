@@ -51,6 +51,62 @@ async function resolve(slug: string): Promise<Resolved | null> {
   return null;
 }
 
+// Per-category Title + Description templates. {count} is interpolated with
+// the live tool count. Patterns follow the audit's verbatim shape —
+// "Best AI {Category} Tools 2026 — {count} {Variants} Apps" and a
+// "Find the best ... Compare {count}+ ..." description with category-
+// specific variants.
+const CATEGORY_TDK: Record<string, { titleTemplate: string; descTemplate: string }> = {
+  "writing-content": {
+    titleTemplate:
+      "Best AI Writing & Content Tools 2026 — {count} AI Writer & Content Generator Apps",
+    descTemplate:
+      "Find the best AI writing tools & content software in 2026. Compare {count}+ AI writers, paraphrasing tools, grammar checkers, and SEO content generators — with pricing, features, and verified data sources.",
+  },
+  "seo-marketing": {
+    titleTemplate:
+      "Best AI SEO & Marketing Tools 2026 — {count} AI Optimization & Campaign Apps",
+    descTemplate:
+      "Find the best AI SEO & marketing tools in 2026. Compare {count}+ AI SEO tools, marketing automation, social media managers, and ad creative generators — with pricing, features, and verified data sources.",
+  },
+  "image-video": {
+    titleTemplate:
+      "Best AI Image & Video Tools 2026 — {count} AI Generation & Editing Apps",
+    descTemplate:
+      "Find the best AI image & video tools in 2026. Compare {count}+ AI image generators, video creation tools, background removers, and photo enhancers — with pricing, features, and verified data sources.",
+  },
+  "code-development": {
+    titleTemplate:
+      "Best AI Code & Development Tools 2026 — {count} AI Coding Assistant & Generator Apps",
+    descTemplate:
+      "Find the best AI code & development tools in 2026. Compare {count}+ AI coding assistants, code generators, debugging tools, and API builders — with pricing, features, and verified data sources.",
+  },
+  productivity: {
+    titleTemplate:
+      "Best AI Productivity Tools 2026 — {count} AI Automation & Workflow Apps",
+    descTemplate:
+      "Find the best AI productivity tools & automation software in 2026. Compare {count}+ AI task managers, workflow apps, scheduling tools, and AI agents — with pricing, features, and verified data sources.",
+  },
+  "business-analytics": {
+    titleTemplate:
+      "Best AI Business & Analytics Tools 2026 — {count} AI Research & BI Apps",
+    descTemplate:
+      "Find the best AI business & analytics tools in 2026. Compare {count}+ AI research assistants, business intelligence, data visualization, and reporting tools — with pricing, features, and verified data sources.",
+  },
+  "ecommerce-sales": {
+    titleTemplate:
+      "Best AI E-commerce & Sales Tools 2026 — {count} AI Store Builder & Conversion Apps",
+    descTemplate:
+      "Find the best AI e-commerce & sales tools in 2026. Compare {count}+ AI store builders, product description writers, conversion optimizers, and sales assistants — with pricing, features, and verified data sources.",
+  },
+  "research-data": {
+    titleTemplate:
+      "Best AI Research & Data Tools 2026 — {count} AI Research Assistant & Data Analysis Apps",
+    descTemplate:
+      "Find the best AI research & data tools in 2026. Compare {count}+ AI research tools, data analysis, no-code platforms, and knowledge bases — with pricing, features, and verified data sources.",
+  },
+};
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const resolved = await resolve(slug);
@@ -58,6 +114,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return { title: "Category not found" };
   }
   if (resolved.kind === "category") {
+    const tdk = CATEGORY_TDK[resolved.category.slug];
+    if (tdk) {
+      const tools = await getPublicTools();
+      const count = tools.filter(
+        (t) => t.primary_category === resolved.category.slug,
+      ).length;
+      const interpolatedCount = count.toLocaleString();
+      return pageMetadata({
+        title: tdk.titleTemplate.replace("{count}", interpolatedCount),
+        description: tdk.descTemplate.replace("{count}", interpolatedCount),
+        path: `/categories/${slug}`,
+      });
+    }
     const description =
       resolved.category.description ??
       `Recorded AI tool entries in ${resolved.category.name}.`;
@@ -67,9 +136,26 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       path: `/categories/${slug}`,
     });
   }
+  // SEO: every sub-category gets a per-page TDK template parallel to the
+  // top-level audit pattern. {count} is the live tool count for this sub.
+  // Title uses absoluteTitle=false so root layout's title.template
+  // ("%s | aiknows.tools") appends the suffix.
+  const subTools = (await getPublicTools()).filter(
+    (t) => t.sub === resolved.sub.name,
+  );
+  const subCount = subTools.length;
+  const subCountStr = subCount.toLocaleString();
+  // SEO: the Email sub merges both "best temp mail" and "temp mail best"
+  // query intents into a single title so Google treats one page as the
+  // canonical answer for both phrasings (audit P4.1).
+  const subTitle =
+    resolved.sub.name === "Email"
+      ? `Best Temp Mail & Email Tools 2026 — ${subCountStr} AI Apps`
+      : `Best ${resolved.sub.name} 2026 — ${subCountStr} AI Apps`;
+  const subDescription = `${resolved.sub.description} Find the best ${resolved.sub.name} in 2026 — compare ${subCountStr}+ tools with pricing, features, and verified data sources.`;
   return pageMetadata({
-    title: resolved.sub.name,
-    description: resolved.sub.description,
+    title: subTitle,
+    description: subDescription,
     path: `/categories/${slug}`,
   });
 }

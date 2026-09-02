@@ -10,7 +10,6 @@ import {
   categoryName,
   toolJsonLd,
   breadcrumbJsonLd,
-  faqJsonLd,
 } from "@/lib/seo/tool-schema";
 import { getPublicToolBySlug, getPublicTools } from "@/lib/public-catalog";
 import { pricingLabel } from "@/lib/tool-score";
@@ -27,14 +26,54 @@ export async function generateStaticParams() {
 
 type Props = { params: Promise<{ slug: string }> };
 
+// SEO: title combines tool name + one-line function hint (first sentence of
+// tagline or description, capped at ~60 chars). Strips a leading
+// "{toolName} is" / "{toolName}: " pattern from the hint so the title
+// doesn't read "{Name} — {Name} is a ...". Falls back to tool.sub.
+function deriveFunctionHint(tool: Tool): string {
+  const tagline = tool.tagline?.trim();
+  let source = tagline ?? tool.description?.trim() ?? "";
+  if (source) {
+    const nameEsc = tool.name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const leading = new RegExp(
+      `^${nameEsc}\\s+(?:is|:|-|—|–)\\s*`,
+      "i",
+    );
+    source = source.replace(leading, "").trim();
+  }
+  if (!source) return tool.sub || "AI Tool";
+  const firstSentence = source.split(/(?<=[.!?])\s+/)[0] ?? source;
+  if (firstSentence.length <= 60) return firstSentence;
+  return firstSentence.slice(0, 57).trimEnd() + "…";
+}
+
+function deriveMetaDescription(tool: Tool): string {
+  const tagline = tool.tagline?.trim() ?? "";
+  const desc = tool.description?.trim() ?? "";
+  const source = tagline || desc;
+  if (!source) {
+    return `${tool.name} is recorded in the AIknows.tools index.`;
+  }
+  const firstSentence = source.split(/(?<=[.!?])\s+/)[0] ?? source;
+  const trailing =
+    " Listed on aiknows.tools — see source, pricing, and recorded evidence.";
+  const budget = 158 - trailing.length;
+  const head =
+    firstSentence.length <= budget
+      ? firstSentence
+      : firstSentence.slice(0, budget - 1).trimEnd() + "…";
+  return head + trailing;
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const tool = await getPublicToolBySlug(slug);
   if (!tool) return { title: "Tool not found" };
 
-  const description = tool.tagline ?? tool.description ?? undefined;
+  const title = `${tool.name} — ${deriveFunctionHint(tool)}`;
+  const description = deriveMetaDescription(tool);
   return pageMetadata({
-    title: tool.name,
+    title,
     description,
     path: `/tools/${slug}`,
   });
@@ -147,7 +186,6 @@ export default async function ToolDetailPage({ params }: Props) {
     siteUrl,
   );
   const faqs = deriveFAQs(tool, category, domain);
-  const faqJsonLdBlock = faqJsonLd(faqs);
 
   return (
     <div className="container mx-auto max-w-6xl px-4 py-8 md:py-12">
@@ -163,20 +201,26 @@ export default async function ToolDetailPage({ params }: Props) {
           __html: JSON.stringify(breadcrumbJsonLdBlock).replace(/</g, "\\u003c"),
         }}
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(faqJsonLdBlock).replace(/</g, "\\u003c"),
-        }}
-      />
+      {/* Audit P5: Google retired FAQPage rich snippets in 2026 — emitting
+          FAQPage JSON-LD is now wasted signal. The on-page <details> FAQ
+          stays for users; we just stop marking it up. */}
 
-      <BreadcrumbNav
-        segments={[
-          { label: "All tools", href: "/tools" },
-          { label: category, href: `/categories/${tool.primary_category}` },
-          { label: tool.name },
-        ]}
-      />
+      <div className="mb-2 flex flex-wrap items-center justify-between gap-3">
+        <BreadcrumbNav
+          segments={[
+            { label: "All tools", href: "/tools" },
+            { label: category, href: `/categories/${tool.primary_category}` },
+            { label: tool.name },
+          ]}
+        />
+        <Link
+          href={`/categories/${tool.primary_category}`}
+          className="inline-flex items-center gap-1 rounded-md border border-border bg-card px-3 py-1.5 text-xs font-medium text-foreground transition-colors hover:border-accent/40 hover:text-accent"
+        >
+          Browse {category}
+          <ArrowUpRight className="h-3 w-3" />
+        </Link>
+      </div>
 
       {/* Header — text identity on left, screenshot evidence on right */}
       <header className="mt-5 grid gap-6 border-b border-border pb-6 lg:grid-cols-[minmax(0,1fr)_18rem] lg:gap-10">

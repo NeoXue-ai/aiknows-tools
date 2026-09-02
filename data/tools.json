@@ -1831,13 +1831,13 @@
     "url": "https://www.ai-image-agent.com/",
     "logo_url": "https://www.google.com/s2/favicons?domain=ai-image-agent.com&sz=64",
     "screenshot_url": "/screenshots/ai-image-agent.webp",
-    "primary_category": "code-development",
+    "primary_category": "image-video",
     "tags": [],
     "pricing_type": "free",
     "pricing_detail": null,
     "source": null,
     "dr": 19,
-    "sub": "AI Image API"
+    "sub": "AI Image Generator"
   },
   {
     "slug": "ai-model",
@@ -4018,7 +4018,7 @@
   {
     "slug": "biassort-create-a-bias-sorter-for-anything",
     "name": "BiasSort - Create a Bias Sorter for Anything",
-    "tagline": null,
+    "tagline": "Build custom bias sorters to rank anything from a list, powered by ranked-choice inputs.",
     "description": null,
     "url": "https://biassort.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=biassort.com&sz=64",
@@ -7111,13 +7111,13 @@
     "url": "https://cursivegenerators.org",
     "logo_url": "https://www.google.com/s2/favicons?domain=cursivegenerators.org&sz=64",
     "screenshot_url": "/screenshots/cursive-generators.webp",
-    "primary_category": "code-development",
+    "primary_category": "writing-content",
     "tags": [],
     "pricing_type": "free",
     "pricing_detail": null,
     "source": null,
     "dr": 23,
-    "sub": "AI Image API"
+    "sub": "AI Writer"
   },
   {
     "slug": "cursivekit",
@@ -8162,7 +8162,7 @@
   {
     "slug": "dle-games",
     "name": "DLE Games",
-    "tagline": null,
+    "tagline": "Play bite-sized AI-driven mini games in your browser — no downloads, no installs.",
     "description": null,
     "url": "https://dlegames.app",
     "logo_url": "https://www.google.com/s2/favicons?domain=dlegames.app&sz=64",
@@ -8258,7 +8258,7 @@
   {
     "slug": "dock-groups",
     "name": "Dock Groups",
-    "tagline": null,
+    "tagline": "Group and manage your macOS Dock icons into named stacks so the Dock stays tidy.",
     "description": null,
     "url": "https://dockgroups.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=dockgroups.com&sz=64",
@@ -11202,7 +11202,7 @@
   {
     "slug": "free-seedance-30-ai-video-generator",
     "name": "Free Seedance 3.0 AI Video Generator",
-    "tagline": null,
+    "tagline": "Generate short videos from text prompts using the Seedance 3.0 model, free to try online.",
     "description": null,
     "url": "https://seedance3ai.io",
     "logo_url": "https://www.google.com/s2/favicons?domain=seedance3ai.io&sz=64",
@@ -16850,7 +16850,7 @@
   {
     "slug": "kling-motion",
     "name": "Kling Motion",
-    "tagline": null,
+    "tagline": "Turn still images into motion clips using the Kling video model, with presets for common shot types.",
     "description": null,
     "url": "https://klingmotion.org/en",
     "logo_url": "https://www.google.com/s2/favicons?domain=klingmotion.org&sz=64",
@@ -17010,7 +17010,7 @@
   {
     "slug": "labgen",
     "name": "Labgen",
-    "tagline": null,
+    "tagline": "Browse and search a curated directory of AI research labs and the models they ship.",
     "description": null,
     "url": "https://labgen.ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=labgen.ai&sz=64",
@@ -19874,7 +19874,7 @@
   {
     "slug": "moshion",
     "name": "Moshion",
-    "tagline": null,
+    "tagline": "Discover AI products and directories in a curated, ranked index.",
     "description": null,
     "url": "https://moshion.app",
     "logo_url": "https://www.google.com/s2/favicons?domain=moshion.app&sz=64",
@@ -19927,13 +19927,13 @@
     "url": "https://showflik.com/movie-end-time-calculator/",
     "logo_url": "https://www.google.com/s2/favicons?domain=showflik.com&sz=64",
     "screenshot_url": "/screenshots/movie-end-time-calculator.webp",
-    "primary_category": "code-development",
+    "primary_category": "productivity",
     "tags": [],
     "pricing_type": "free",
     "pricing_detail": null,
     "source": null,
     "dr": 3.8,
-    "sub": "Developer Tools"
+    "sub": "Productivity Tools"
   },
   {
     "slug": "movoria-ai",
@@ -23975,13 +23975,13 @@
     "url": "https://www.pixmagic.app",
     "logo_url": "https://www.google.com/s2/favicons?domain=pixmagic.app&sz=64",
     "screenshot_url": "/screenshots/pixmagic.webp",
-    "primary_category": "code-development",
+    "primary_category": "image-video",
     "tags": [],
     "pricing_type": "free",
     "pricing_detail": null,
     "source": null,
     "dr": 37,
-    "sub": "AI Image API"
+    "sub": "AI Photo Editor"
   },
   {
     "slug": "pixora",
@@ -25911,13 +25911,13 @@
     "url": "https://reelmeai.com/",
     "logo_url": "https://www.google.com/s2/favicons?domain=reelmeai.com&sz=64",
     "screenshot_url": "/screenshots/reelme-ai.webp",
-    "primary_category": "code-development",
+    "primary_category": "image-video",
     "tags": [],
     "pricing_type": "free",
     "pricing_detail": null,
     "source": null,
     "dr": 7,
-    "sub": "AI Image API"
+    "sub": "AI Video Generator"
   },
   {
     "slug": "reelsmakerai",
@@ -28002,7 +28002,7 @@
   {
     "slug": "seedance-20-8",
     "name": "seedance 2.0",
-    "tagline": null,
+    "tagline": "Generate Seedance 2.0 videos from text prompts with no signup required.",
     "description": null,
     "url": "https://seedance2.so",
     "logo_url": "https://www.google.com/s2/favicons?domain=seedance2.so&sz=64",
@@ -34402,7 +34402,7 @@
   {
     "slug": "vibebridge",
     "name": "VibeBridge",
-    "tagline": null,
+    "tagline": "Connect developer communities with shared workspaces, channels, and discovery feeds.",
     "description": null,
     "url": "https://www.vibebridge.dev/",
     "logo_url": "https://www.google.com/s2/favicons?domain=vibebridge.dev&sz=64",
@@ -35399,13 +35399,13 @@
     "url": "https://wan27image.net",
     "logo_url": "https://www.google.com/s2/favicons?domain=wan27image.net&sz=64",
     "screenshot_url": "/screenshots/wan-2-7-image.webp",
-    "primary_category": "code-development",
+    "primary_category": "image-video",
     "tags": [],
     "pricing_type": "free",
     "pricing_detail": null,
     "source": null,
     "dr": 20,
-    "sub": "AI Image API"
+    "sub": "AI Image Generator"
   },
   {
     "slug": "wan-ai-platform",
@@ -36807,13 +36807,13 @@
     "url": "https://youraihunt.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=youraihunt.com&sz=64",
     "screenshot_url": "/screenshots/your-ai-hunt.webp",
-    "primary_category": "code-development",
+    "primary_category": "research-data",
     "tags": [],
     "pricing_type": "free",
     "pricing_detail": null,
     "source": null,
     "dr": 29,
-    "sub": "AI Image API"
+    "sub": "Directories"
   },
   {
     "slug": "yourwebsitescore",
@@ -37095,13 +37095,13 @@
     "url": "https://z-image-edit.com/",
     "logo_url": "https://www.google.com/s2/favicons?domain=z-image-edit.com&sz=64",
     "screenshot_url": "/screenshots/z-image-edit-1.webp",
-    "primary_category": "code-development",
+    "primary_category": "image-video",
     "tags": [],
     "pricing_type": "free",
     "pricing_detail": null,
     "source": null,
     "dr": 15,
-    "sub": "AI Image API"
+    "sub": "AI Photo Editor"
   },
   {
     "slug": "z-image-edit-online",

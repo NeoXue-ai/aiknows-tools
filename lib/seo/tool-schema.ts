@@ -103,20 +103,7 @@ export function breadcrumbJsonLd(
   };
 }
 
-export function faqJsonLd(
-  faqs: { question: string; answer: string }[],
-) {
-  return {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: faqs.map((faq) => ({
-      "@type": "Question",
-      name: faq.question,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: faq.answer,
-      },
-    })),
-  };
-}
+// FAQPage schema removed — Google retired FAQPage rich snippets in 2026
+// (audit P5). On-page FAQ UIs (tool dossier + /faq) still render the Q&A
+// for human readers; we just no longer mark it up.
 
