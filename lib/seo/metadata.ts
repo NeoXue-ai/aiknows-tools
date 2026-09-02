@@ -9,6 +9,13 @@ export interface PageMetadataInput {
   path: string;
   image?: string;
   noIndex?: boolean;
+  /**
+   * When true, the title is set with `title.absolute`, which bypasses the
+   * `title.template` defined in any parent layout. Use this for pages that
+   * share a route segment with the root layout (e.g. the homepage at
+   * `app/page.tsx`), where Next.js 16 does not apply the parent template.
+   */
+  absoluteTitle?: boolean;
 }
 
 export function pageMetadata({
@@ -17,6 +24,7 @@ export function pageMetadata({
   path,
   image,
   noIndex = false,
+  absoluteTitle = false,
 }: PageMetadataInput): Metadata {
   const canonical = new URL(path, siteUrl).toString();
   const openGraph = {
@@ -34,7 +42,7 @@ export function pageMetadata({
   };
 
   return {
-    title,
+    ...(absoluteTitle ? { title: { absolute: title } } : { title }),
     description,
     alternates: { canonical },
     openGraph,

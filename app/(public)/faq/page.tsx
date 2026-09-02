@@ -1,6 +1,5 @@
 import { pageMetadata } from "@/lib/seo/metadata";
 import Link from "next/link";
-import { faqJsonLd } from "@/lib/seo/tool-schema";
 
 type Faq = { question: string; answer: string };
 
@@ -75,14 +74,11 @@ export const metadata = pageMetadata({
 });
 
 export default function FaqPage() {
-  const jsonLd = faqJsonLd(FAQS);
-
   return (
     <div className="container mx-auto max-w-3xl px-4 py-12 md:py-16">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
-      />
+      {/* Audit P5: Google retired FAQPage rich snippets in 2026 — emitting
+          FAQPage JSON-LD is now wasted signal. The on-page Q&A list stays
+          for users; we just stop marking it up. */}
       <header className="mb-10 border-b border-border pb-6">
         <p className="font-mono text-[10px] uppercase tracking-[0.16em] text-muted-foreground">
           Frequently asked questions
