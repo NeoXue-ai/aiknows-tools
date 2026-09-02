@@ -32,6 +32,7 @@
   --color-accent: var(--accent);
   --color-emphasis: var(--emphasis);
   --color-emphasis-foreground: var(--emphasis-foreground);
+  --color-highlight: var(--highlight);
   --color-muted-foreground: var(--muted-foreground);
   --color-muted: var(--muted);
   --color-secondary-foreground: var(--secondary-foreground);
@@ -72,6 +73,7 @@
   --accent-glow: rgb(37 120 248 / 0.2);
   --emphasis: #e8f0ff;
   --emphasis-foreground: #1d4ed8;
+  --highlight: #1c3f78;
   --destructive: oklch(0.577 0.245 27.325);
   --border: #d9dee8;
   --input: #d9dee8;

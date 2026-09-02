@@ -1,17 +1,7 @@
 import { pageMetadata, siteUrl } from "@/lib/seo/metadata";
+import type { Metadata } from "next";
 import Link from "next/link";
-import {
-  ArrowRight,
-  ArrowUpRight,
-  Code2,
-  Image as ImageIcon,
-  LineChart,
-  Megaphone,
-  Network,
-  ShoppingBag,
-  Sparkles,
-  Wand2,
-} from "lucide-react";
+import { ArrowRight, ArrowUpRight } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button-variants";
 import { ToolCard } from "@/components/ToolCard";
 import { ToolCardCompact } from "@/components/ToolCardCompact";
@@ -20,15 +10,26 @@ import { getPublicCatalogSummary } from "@/lib/public-catalog";
 import { CATEGORIES, directoryItemListJsonLd } from "@/lib/seo/tool-schema";
 import { cn } from "@/lib/utils";
 
-const CATEGORY_ICON: Record<string, React.ComponentType<{ className?: string }>> = {
-  "writing-content": Wand2,
-  "seo-marketing": Megaphone,
-  "image-video": ImageIcon,
-  "code-development": Code2,
-  "productivity": Sparkles,
-  "business-analytics": LineChart,
-  "ecommerce-sales": ShoppingBag,
-  "research-data": Network,
+// SEO skeleton: each category's H3 + description paragraph gives Google a
+// keyword-rich category backbone. Per the audit, this section replaces the
+// previous icon-card grid — Google reads semantic H2/H3/p/a, not card spans.
+const CATEGORY_DESCRIPTIONS: Record<string, string> = {
+  "image-video":
+    "AI image generators, video creation tools, background removers, photo enhancers.",
+  "code-development":
+    "AI coding assistants, code generators, debugging tools, API builders.",
+  "writing-content":
+    "AI writers, paraphrasing tools, grammar checkers, SEO content generators.",
+  "productivity":
+    "AI task managers, workflow automation, scheduling, AI agents.",
+  "seo-marketing":
+    "AI SEO tools, marketing automation, social media managers, ad creative generators.",
+  "business-analytics":
+    "AI research assistants, business intelligence, data visualization, reporting tools.",
+  "ecommerce-sales":
+    "AI store builders, product description writers, conversion optimizers, sales assistants.",
+  "research-data":
+    "AI research tools, data analysis, no-code platforms, knowledge bases.",
 };
 
 // Curated homepage picks — order matters. Slugs must exist in the catalog.
@@ -49,10 +50,20 @@ const FEATURED_CARD_IMAGES: Record<string, string> = {
   dshplugin: "/screenshots/dshplugin-card.webp",
 };
 
-export const metadata = pageMetadata({
-  title: "AI tool discovery index",
-  path: "/",
-});
+// SEO: title and description follow the 哥飞 audit's verbatim wording,
+// with the tool count interpolated. absoluteTitle bypasses the root layout's
+// title.template (Next.js 16 does not apply parent templates within the same
+// route segment — root layout and root page share one).
+export async function generateMetadata(): Promise<Metadata> {
+  const { toolCount } = await getPublicCatalogSummary();
+  const n = toolCount.toLocaleString();
+  return pageMetadata({
+    title: `Best AI Tools Directory — Find & Compare ${n}+ AI Tools by Category`,
+    description: `Discover and compare ${n}+ AI tools across 50+ categories. Browse text-to-image, video generation, coding assistants, writing tools, and more — each with pricing, features, and verified data sources.`,
+    path: "/",
+    absoluteTitle: true,
+  });
+}
 
 export default async function Home() {
   const { tools, toolCount, directoryCount } = await getPublicCatalogSummary();
@@ -98,7 +109,7 @@ export default async function Home() {
           __html: JSON.stringify(featuredListJsonLd).replace(/</g, "\\u003c"),
         }}
       />
-      {/* Hero — centered thesis */}
+      {/* Hero — editorial band */}
       <section className="relative overflow-hidden border-b border-border">
         {/* Ambient spotlight */}
         <div
@@ -110,21 +121,29 @@ export default async function Home() {
             animation: "ml-spotlight 24s ease-in-out infinite",
           }}
         />
-        <div className="container mx-auto max-w-7xl px-4 py-20 lg:py-28">
-          <div className="flex flex-col items-center text-center">
-            <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-muted-foreground">
+        <div className="container mx-auto max-w-5xl px-4 pb-14 pt-20 lg:pb-16 lg:pt-28">
+          <div className="ml-stagger flex flex-col items-center text-center">
+            <p className="flex items-center gap-3 font-mono text-[11px] uppercase tracking-[0.22em] text-muted-foreground">
+              <span aria-hidden className="h-px w-10 bg-border" />
               AI tools directory
+              <span aria-hidden className="h-px w-10 bg-border" />
             </p>
-            <h1 className="mt-5 text-balance font-serif text-5xl font-normal leading-[1.04] tracking-[-0.025em] text-foreground sm:text-6xl lg:text-[4.75rem] lg:tracking-[-0.03em]">
-              Find the <em className="italic">Right</em> AI Tool for{" "}
-              <mark className="rounded-md bg-emphasis px-[0.18em] pb-[0.08em] text-emphasis-foreground [box-decoration-break:clone]">
-                Every Task
-              </mark>
+            <h1 className="mt-6 max-w-4xl text-balance font-serif text-5xl font-normal leading-[1.06] tracking-[-0.025em] text-foreground sm:text-6xl lg:text-[4.5rem] lg:tracking-[-0.03em]">
+              Find the <em className="italic">Best</em> AI Tools for{" "}
+              <span className="relative inline-block whitespace-nowrap">
+                <span
+                  aria-hidden
+                  className="absolute -inset-x-2 -inset-y-1.5 -rotate-1 rounded-[0.2em] bg-highlight dark:-inset-x-1 dark:-inset-y-1"
+                />
+                <span className="relative z-10 text-white dark:text-emphasis-foreground">
+                  Every Task
+                </span>
+              </span>
             </h1>
-            <p className="mt-6 text-pretty text-base leading-7 text-muted-foreground sm:text-lg">
-              Search and filter {toolCount}+ AI tools by category and pricing. Every record shows its data source.
+            <p className="mt-6 max-w-2xl text-pretty text-base leading-7 text-muted-foreground sm:text-lg">
+              AI tools by category — free &amp; paid, with real data sources.
             </p>
-            <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
+            <div className="mt-9 flex flex-wrap items-center justify-center gap-3">
               <Link
                 href="/tools"
                 className={cn(
@@ -142,8 +161,17 @@ export default async function Home() {
                 <ArrowRight className="h-4 w-4" />
               </Link>
             </div>
-            <p className="mt-10 font-mono text-[11px] uppercase tracking-[0.18em] text-muted-foreground">
-              {toolCount}+ AI tools · {directoryCount}+ directories · Live records
+          </div>
+        </div>
+        {/* Data strip — hairline-separated stat cells */}
+        <div className="border-t border-border/60">
+          <div className="container mx-auto max-w-5xl px-4 py-4">
+            <p className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 font-mono text-[11px] uppercase tracking-[0.18em] text-muted-foreground">
+              <span className="whitespace-nowrap">{toolCount.toLocaleString()}+ AI tools</span>
+              <span aria-hidden className="hidden h-3 w-px bg-border sm:inline-block" />
+              <span className="whitespace-nowrap">{directoryCount}+ directories</span>
+              <span aria-hidden className="hidden h-3 w-px bg-border sm:inline-block" />
+              <span className="whitespace-nowrap">Live records</span>
             </p>
           </div>
         </div>
@@ -181,6 +209,39 @@ export default async function Home() {
         </section>
       </ScrollReveal>
 
+      {/* SEO skeleton: 分门别类罗列 — server-rendered H2/H3 with descriptions
+          and internal links. Per the audit, this gives Google a category
+          backbone and transmits link weight to the eight category pages. */}
+      <section className="border-b border-border">
+        <div className="container mx-auto max-w-7xl px-4 py-16 lg:py-20">
+          <h2 className="text-balance text-2xl font-semibold tracking-[-0.03em] sm:text-3xl">
+            Browse AI Tools by Category
+          </h2>
+          <p className="mt-2 max-w-2xl text-sm leading-6 text-muted-foreground">
+            Eight categories, {toolCount.toLocaleString()}+ verified AI tools across image & video, code, writing, SEO, productivity, business, e-commerce, and research.
+          </p>
+          <div className="mt-10 grid gap-x-10 gap-y-8 sm:grid-cols-2">
+            {categoryCounts.map((c) => (
+              <div key={c.slug}>
+                <h3 className="text-base font-semibold tracking-[-0.02em]">
+                  AI {c.name} Tools
+                </h3>
+                <p className="mt-1.5 text-sm leading-6 text-muted-foreground">
+                  {CATEGORY_DESCRIPTIONS[c.slug]}
+                </p>
+                <Link
+                  href={`/categories/${c.slug}`}
+                  className="mt-2 inline-flex items-center gap-1 text-sm font-medium text-foreground transition-colors hover:text-accent"
+                >
+                  Browse {c.count}+ AI {c.name} tools
+                  <ArrowRight className="h-3.5 w-3.5" />
+                </Link>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Trending AI Tools */}
       <ScrollReveal>
       <section className="border-b border-border">
@@ -205,44 +266,6 @@ export default async function Home() {
             {recent.map((tool) => (
               <ToolCardCompact key={tool.id || tool.slug} tool={tool} />
             ))}
-          </div>
-        </div>
-      </section>
-      </ScrollReveal>
-
-      {/* AI Categories */}
-      <ScrollReveal>
-      <section className="border-b border-border">
-        <div className="container mx-auto max-w-7xl px-4 py-16 lg:py-20">
-          <h2 className="text-balance text-2xl font-semibold tracking-[-0.03em] sm:text-3xl">
-            AI Categories
-          </h2>
-          <p className="mt-2 max-w-xl text-sm leading-6 text-muted-foreground">
-            Browse the index by what a tool actually does.
-          </p>
-          <div className="ml-stagger mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
-            {categoryCounts.map((c) => {
-              const Icon = CATEGORY_ICON[c.slug] ?? Sparkles;
-              return (
-                <Link
-                  key={c.slug}
-                  href={`/categories/${c.slug}`}
-                  className="group flex items-center gap-3 rounded-xl border border-border bg-card p-4 transition-all hover:-translate-y-0.5 hover:border-accent/40"
-                >
-                  <span className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-lg border border-border bg-secondary/40 text-foreground transition-colors group-hover:border-accent/40 group-hover:text-accent">
-                    <Icon className="h-4 w-4" />
-                  </span>
-                  <span className="min-w-0 flex-1">
-                    <span className="block truncate text-sm font-medium text-foreground group-hover:text-accent">
-                      {c.name}
-                    </span>
-                    <span className="block font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground">
-                      {c.count} {c.count === 1 ? "tool" : "tools"}
-                    </span>
-                  </span>
-                </Link>
-              );
-            })}
           </div>
         </div>
       </section>
