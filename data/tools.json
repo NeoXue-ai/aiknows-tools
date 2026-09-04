@@ -2232,7 +2232,7 @@
     "pricing_detail": null,
     "source": null,
     "dr": 35,
-    "sub": "(none)"
+    "sub": "AI Document Generator"
   },
   {
     "slug": "anyspeech",
@@ -2727,7 +2727,7 @@
     "pricing_detail": null,
     "source": null,
     "dr": 22,
-    "sub": "(none)"
+    "sub": "AI Avatar Generator"
   },
   {
     "slug": "avatarka-ai",
@@ -3492,7 +3492,7 @@
     "pricing_detail": null,
     "source": null,
     "dr": 13,
-    "sub": "(none)"
+    "sub": "AI Ad Creative"
   },
   {
     "slug": "brain-test-game",
@@ -7617,7 +7617,7 @@
     "pricing_detail": null,
     "source": null,
     "dr": 23,
-    "sub": "(none)"
+    "sub": "AI Dating"
   },
   {
     "slug": "free-ai-pdf-to-video",
@@ -9447,7 +9447,7 @@
     "pricing_detail": null,
     "source": null,
     "dr": 2.5,
-    "sub": "(none)"
+    "sub": "AI Video Generator"
   },
   {
     "slug": "happy-horse-ai-4",
@@ -13467,7 +13467,7 @@
     "pricing_detail": null,
     "source": null,
     "dr": 28,
-    "sub": "(none)"
+    "sub": "AI Search Engine"
   },
   {
     "slug": "md2card",
@@ -16167,7 +16167,7 @@
     "pricing_detail": null,
     "source": null,
     "dr": 30,
-    "sub": "(none)"
+    "sub": "AI Research"
   },
   {
     "slug": "osint-tools",
@@ -17337,7 +17337,7 @@
     "pricing_detail": null,
     "source": null,
     "dr": 12,
-    "sub": "(none)"
+    "sub": "AI 3D Model Generator"
   },
   {
     "slug": "promgee-ai-english-learning-app",
@@ -20592,7 +20592,7 @@
     "pricing_detail": null,
     "source": null,
     "dr": 7,
-    "sub": "(none)"
+    "sub": "AI Interior Design"
   },
   {
     "slug": "shotai-all-in-one-ai-imagevideo-creation-platform",
@@ -23322,7 +23322,7 @@
     "pricing_detail": null,
     "source": null,
     "dr": 25,
-    "sub": "(none)"
+    "sub": "Automation"
   },
   {
     "slug": "trustcircle",
@@ -24732,7 +24732,7 @@
     "pricing_detail": null,
     "source": null,
     "dr": 25,
-    "sub": "(none)"
+    "sub": "AI Art Generator"
   },
   {
     "slug": "vizcept",
@@ -25872,7 +25872,7 @@
     "pricing_detail": null,
     "source": null,
     "dr": 28,
-    "sub": "(none)"
+    "sub": "Chrome Extensions"
   },
   {
     "slug": "yesremotejobs",
@@ -28032,7 +28032,7 @@
     "pricing_detail": null,
     "source": null,
     "dr": null,
-    "sub": null
+    "sub": "Chrome Extensions"
   },
   {
     "slug": "dibi8",
@@ -33868,5 +33868,2154 @@
     "source": null,
     "dr": null,
     "sub": "AI Agent"
+  },
+  {
+    "slug": "adcreative-ai",
+    "name": "AdCreative.ai",
+    "tagline": "AI ad creative generator",
+    "description": "Generate conversion-focused ad creatives and social posts in seconds.",
+    "url": "https://adcreative.ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=adcreative.ai&sz=64",
+    "screenshot_url": null,
+    "primary_category": "seo-marketing",
+    "tags": [
+      "ads",
+      "creative"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Ad Creative"
+  },
+  {
+    "slug": "ahrefs",
+    "name": "Ahrefs",
+    "tagline": "SEO tools built on real data",
+    "description": "Backlink analysis, keyword research, content explorer, and rank tracking.",
+    "url": "https://ahrefs.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=ahrefs.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "seo-marketing",
+    "tags": [
+      "seo",
+      "backlinks"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI SEO Tools"
+  },
+  {
+    "slug": "anyword",
+    "name": "Anyword",
+    "tagline": "AI copy with predictive scores",
+    "description": "Copy generation with performance scoring and audience targeting for marketers.",
+    "url": "https://anyword.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=anyword.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "writing-content",
+    "tags": [
+      "copywriting",
+      "analytics"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "(none)"
+  },
+  {
+    "slug": "bolt-new",
+    "name": "Bolt.new",
+    "tagline": "AI full-stack in the browser",
+    "description": "Prompt, run, and deploy full-stack apps without leaving the browser.",
+    "url": "https://bolt.new",
+    "logo_url": "https://www.google.com/s2/favicons?domain=bolt.new&sz=64",
+    "screenshot_url": null,
+    "primary_category": "code-development",
+    "tags": [
+      "fullstack",
+      "deploy"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "(none)"
+  },
+  {
+    "slug": "claude-code",
+    "name": "Claude Code",
+    "tagline": "Agentic coding from Anthropic",
+    "description": "Terminal-based AI coding agent that plans, edits, and tests in your repo.",
+    "url": "https://claude.com/product/claude-code",
+    "logo_url": "https://www.google.com/s2/favicons?domain=claude.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "code-development",
+    "tags": [
+      "agent",
+      "cli"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Agent"
+  },
+  {
+    "slug": "clearscope",
+    "name": "Clearscope",
+    "tagline": "Content optimization platform",
+    "description": "AI-powered content reports to help teams write for search intent.",
+    "url": "https://clearscope.io",
+    "logo_url": "https://www.google.com/s2/favicons?domain=clearscope.io&sz=64",
+    "screenshot_url": null,
+    "primary_category": "seo-marketing",
+    "tags": [
+      "seo",
+      "content"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "(none)"
+  },
+  {
+    "slug": "codeium",
+    "name": "Codeium",
+    "tagline": "Free AI code completion",
+    "description": "Free AI completions and chat across 70+ languages.",
+    "url": "https://codeium.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=codeium.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "code-development",
+    "tags": [
+      "completion",
+      "free"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Code Generator"
+  },
+  {
+    "slug": "consensus",
+    "name": "Consensus",
+    "tagline": "AI search across peer-reviewed papers",
+    "description": "Find scientific answers sourced from peer-reviewed studies.",
+    "url": "https://consensus.app",
+    "logo_url": "https://www.google.com/s2/favicons?domain=consensus.app&sz=64",
+    "screenshot_url": null,
+    "primary_category": "research-data",
+    "tags": [
+      "research",
+      "science"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Search Engine"
+  },
+  {
+    "slug": "contentbot",
+    "name": "ContentBot",
+    "tagline": "AI content automation",
+    "description": "Blog posts, marketing copy, and AI workflows on autopilot.",
+    "url": "https://contentbot.ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=contentbot.ai&sz=64",
+    "screenshot_url": null,
+    "primary_category": "writing-content",
+    "tags": [
+      "automation",
+      "blogs"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Workflow"
+  },
+  {
+    "slug": "copy-ai",
+    "name": "Copy.ai",
+    "tagline": "Go-to-market AI platform",
+    "description": "Workflows and agents for sales, marketing, and ops. Built for revenue teams.",
+    "url": "https://copy.ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=copy.ai&sz=64",
+    "screenshot_url": null,
+    "primary_category": "writing-content",
+    "tags": [
+      "copywriting",
+      "workflows",
+      "gtm"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Marketing"
+  },
+  {
+    "slug": "cursor",
+    "name": "Cursor",
+    "tagline": "AI-first code editor",
+    "description": "VS Code fork built around agentic coding, multi-file edits, and chat.",
+    "url": "https://cursor.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=cursor.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "code-development",
+    "tags": [
+      "editor",
+      "agent"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Agent"
+  },
+  {
+    "slug": "dall-e",
+    "name": "DALL·E",
+    "tagline": "OpenAI image generation",
+    "description": "Text-to-image from OpenAI, available via ChatGPT and API.",
+    "url": "https://openai.com/dall-e-3",
+    "logo_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "image-video",
+    "tags": [
+      "image",
+      "openai"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Image Generator"
+  },
+  {
+    "slug": "drift",
+    "name": "Drift",
+    "tagline": "Conversational marketing",
+    "description": "AI chatbots and live chat that qualify pipeline on your site.",
+    "url": "https://drift.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=drift.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "seo-marketing",
+    "tags": [
+      "chatbot",
+      "conversational"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "Customer Support"
+  },
+  {
+    "slug": "elevenlabs",
+    "name": "ElevenLabs",
+    "tagline": "AI voice and dubbing",
+    "description": "Lifelike voice synthesis, voice cloning, and dubbing in 30+ languages.",
+    "url": "https://elevenlabs.io",
+    "logo_url": "https://www.google.com/s2/favicons?domain=elevenlabs.io&sz=64",
+    "screenshot_url": null,
+    "primary_category": "image-video",
+    "tags": [
+      "voice",
+      "audio"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Voice Cloning"
+  },
+  {
+    "slug": "elicit",
+    "name": "Elicit",
+    "tagline": "AI research assistant",
+    "description": "Find, summarize, and extract data from academic papers.",
+    "url": "https://elicit.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=elicit.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "research-data",
+    "tags": [
+      "research",
+      "papers"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Research"
+  },
+  {
+    "slug": "frase",
+    "name": "Frase",
+    "tagline": "AI for SEO content",
+    "description": "Research, write, and optimize SEO content with AI briefs and scoring.",
+    "url": "https://frase.io",
+    "logo_url": "https://www.google.com/s2/favicons?domain=frase.io&sz=64",
+    "screenshot_url": null,
+    "primary_category": "writing-content",
+    "tags": [
+      "seo",
+      "briefs"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI SEO Tools"
+  },
+  {
+    "slug": "github-copilot",
+    "name": "GitHub Copilot",
+    "tagline": "AI pair programmer",
+    "description": "Inline code completions, chat, and agents inside your editor and GitHub.",
+    "url": "https://github.com/features/copilot",
+    "logo_url": "https://www.google.com/s2/favicons?domain=github.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "code-development",
+    "tags": [
+      "coding",
+      "github"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": 97,
+    "sub": "AI Code Generator"
+  },
+  {
+    "slug": "grammarly",
+    "name": "Grammarly",
+    "tagline": "AI writing assistance",
+    "description": "Grammar, tone, and clarity suggestions across the apps you use.",
+    "url": "https://grammarly.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=grammarly.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "writing-content",
+    "tags": [
+      "grammar",
+      "editing"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Grammar Checker"
+  },
+  {
+    "slug": "heygen",
+    "name": "HeyGen",
+    "tagline": "AI avatar videos",
+    "description": "Generate studio-quality videos with AI avatars and voice cloning.",
+    "url": "https://heygen.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=heygen.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "image-video",
+    "tags": [
+      "video",
+      "avatar"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Voice Cloning"
+  },
+  {
+    "slug": "hypotenuse",
+    "name": "Hypotenuse AI",
+    "tagline": "AI content for ecommerce",
+    "description": "Bulk product descriptions, blog posts, and brand-aligned copy for stores.",
+    "url": "https://hypotenuse.ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=hypotenuse.ai&sz=64",
+    "screenshot_url": null,
+    "primary_category": "writing-content",
+    "tags": [
+      "ecommerce",
+      "product-copy"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "Blogging"
+  },
+  {
+    "slug": "ideogram",
+    "name": "Ideogram",
+    "tagline": "AI images with text",
+    "description": "Text-to-image model that handles legible text inside images.",
+    "url": "https://ideogram.ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=ideogram.ai&sz=64",
+    "screenshot_url": null,
+    "primary_category": "image-video",
+    "tags": [
+      "image",
+      "text"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Image Generator"
+  },
+  {
+    "slug": "jasper",
+    "name": "Jasper",
+    "tagline": "AI co-pilot for marketing teams",
+    "description": "Enterprise-grade AI content platform for marketing, with brand voice, campaigns, and team workflows.",
+    "url": "https://jasper.ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=jasper.ai&sz=64",
+    "screenshot_url": null,
+    "primary_category": "writing-content",
+    "tags": [
+      "copywriting",
+      "marketing",
+      "brand-voice"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Content Creator"
+  },
+  {
+    "slug": "leadiq",
+    "name": "LeadIQ",
+    "tagline": "B2B lead generation",
+    "description": "Find verified contact data and run personalized outbound sequences.",
+    "url": "https://leadiq.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=leadiq.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "seo-marketing",
+    "tags": [
+      "lead-gen",
+      "b2b"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Marketing"
+  },
+  {
+    "slug": "leonardo-ai",
+    "name": "Leonardo.AI",
+    "tagline": "Production-ready AI art",
+    "description": "Game assets, concept art, and design-ready images with fine-grained control.",
+    "url": "https://leonardo.ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=leonardo.ai&sz=64",
+    "screenshot_url": null,
+    "primary_category": "image-video",
+    "tags": [
+      "image",
+      "games"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Art Generator"
+  },
+  {
+    "slug": "lovable",
+    "name": "Lovable",
+    "tagline": "AI app builder",
+    "description": "Prompt to production web app with React + Tailwind + Supabase.",
+    "url": "https://lovable.dev",
+    "logo_url": "https://www.google.com/s2/favicons?domain=lovable.dev&sz=64",
+    "screenshot_url": null,
+    "primary_category": "code-development",
+    "tags": [
+      "fullstack",
+      "supabase"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI App Builder"
+  },
+  {
+    "slug": "marketmuse",
+    "name": "MarketMuse",
+    "tagline": "AI content intelligence",
+    "description": "Topic authority, content briefs, and audits to win in competitive SERPs.",
+    "url": "https://marketmuse.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=marketmuse.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "seo-marketing",
+    "tags": [
+      "seo",
+      "content-strategy"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Content Creator"
+  },
+  {
+    "slug": "midjourney",
+    "name": "Midjourney",
+    "tagline": "AI image generation",
+    "description": "Best-in-class image generation, especially for stylized and editorial work.",
+    "url": "https://midjourney.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=midjourney.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "image-video",
+    "tags": [
+      "image",
+      "art"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Image Generator"
+  },
+  {
+    "slug": "neuronwriter",
+    "name": "NeuronWriter",
+    "tagline": "AI content optimization",
+    "description": "SERP-based recommendations and an AI writer for ranking content.",
+    "url": "https://neuronwriter.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=neuronwriter.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "seo-marketing",
+    "tags": [
+      "seo",
+      "writing"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Writer"
+  },
+  {
+    "slug": "notion-ai",
+    "name": "Notion AI",
+    "tagline": "AI inside Notion docs",
+    "description": "Summarize, translate, and draft inside your Notion workspace.",
+    "url": "https://notion.so/product/ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=notion.so&sz=64",
+    "screenshot_url": null,
+    "primary_category": "writing-content",
+    "tags": [
+      "docs",
+      "workspace"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Summarizer"
+  },
+  {
+    "slug": "perplexity",
+    "name": "Perplexity",
+    "tagline": "AI answer engine",
+    "description": "Cited answers with web-grounded sources and a Pro model picker.",
+    "url": "https://perplexity.ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=perplexity.ai&sz=64",
+    "screenshot_url": null,
+    "primary_category": "research-data",
+    "tags": [
+      "search",
+      "answers"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Answer"
+  },
+  {
+    "slug": "persana",
+    "name": "Persana AI",
+    "tagline": "AI sales copilot",
+    "description": "Signals, enrichment, and AI-driven outreach personalization.",
+    "url": "https://persana.ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=persana.ai&sz=64",
+    "screenshot_url": null,
+    "primary_category": "seo-marketing",
+    "tags": [
+      "sales",
+      "signals"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "Sales"
+  },
+  {
+    "slug": "phind",
+    "name": "Phind",
+    "tagline": "AI search for developers",
+    "description": "Developer-focused answer engine with code-aware results.",
+    "url": "https://phind.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=phind.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "code-development",
+    "tags": [
+      "search",
+      "dev"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Answer"
+  },
+  {
+    "slug": "pika",
+    "name": "Pika",
+    "tagline": "Idea-to-video AI",
+    "description": "Generate and edit video from text, image, or existing clips.",
+    "url": "https://pika.art",
+    "logo_url": "https://www.google.com/s2/favicons?domain=pika.art&sz=64",
+    "screenshot_url": null,
+    "primary_category": "image-video",
+    "tags": [
+      "video"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Video Generator"
+  },
+  {
+    "slug": "recraft",
+    "name": "Recraft",
+    "tagline": "AI design for brand work",
+    "description": "Vector-first AI image and design tool for brand assets.",
+    "url": "https://recraft.ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=recraft.ai&sz=64",
+    "screenshot_url": null,
+    "primary_category": "image-video",
+    "tags": [
+      "vector",
+      "design"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Image Generator"
+  },
+  {
+    "slug": "replit",
+    "name": "Replit",
+    "tagline": "AI app builder in the browser",
+    "description": "Browser IDE with AI agent that builds and deploys apps from prompts.",
+    "url": "https://replit.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=replit.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "code-development",
+    "tags": [
+      "ide",
+      "deploy"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Agent"
+  },
+  {
+    "slug": "runway",
+    "name": "Runway",
+    "tagline": "AI video generation and editing",
+    "description": "Gen-3 video, image, and creative tools for filmmakers and creators.",
+    "url": "https://runwayml.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=runwayml.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "image-video",
+    "tags": [
+      "video",
+      "creative"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Video Generator"
+  },
+  {
+    "slug": "rytr",
+    "name": "Rytr",
+    "tagline": "AI writing assistant",
+    "description": "Affordable AI writer for emails, blogs, ads, and social posts.",
+    "url": "https://rytr.me",
+    "logo_url": "https://www.google.com/s2/favicons?domain=rytr.me&sz=64",
+    "screenshot_url": null,
+    "primary_category": "writing-content",
+    "tags": [
+      "writing",
+      "budget"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Writer"
+  },
+  {
+    "slug": "semrush",
+    "name": "Semrush",
+    "tagline": "All-in-one marketing platform",
+    "description": "SEO, PPC, content, and competitive research suite trusted by marketers.",
+    "url": "https://semrush.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=semrush.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "seo-marketing",
+    "tags": [
+      "seo",
+      "ppc",
+      "research"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Marketing"
+  },
+  {
+    "slug": "smartwriter",
+    "name": "Smartwriter",
+    "tagline": "AI for cold outreach",
+    "description": "Personalized cold emails and LinkedIn messages at scale.",
+    "url": "https://smartwriter.ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=smartwriter.ai&sz=64",
+    "screenshot_url": null,
+    "primary_category": "seo-marketing",
+    "tags": [
+      "outreach",
+      "email"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "Email"
+  },
+  {
+    "slug": "sora",
+    "name": "Sora",
+    "tagline": "OpenAI video generation",
+    "description": "Text-to-video from OpenAI, available in ChatGPT.",
+    "url": "https://openai.com/sora",
+    "logo_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "image-video",
+    "tags": [
+      "video",
+      "openai"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Video Generator"
+  },
+  {
+    "slug": "sudowrite",
+    "name": "Sudowrite",
+    "tagline": "AI for fiction writers",
+    "description": "Story engine that helps novelists brainstorm, draft, and revise fiction.",
+    "url": "https://sudowrite.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=sudowrite.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "writing-content",
+    "tags": [
+      "fiction",
+      "creative"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Writer"
+  },
+  {
+    "slug": "suno",
+    "name": "Suno",
+    "tagline": "AI music generator",
+    "description": "Generate original songs with vocals and instruments from a prompt.",
+    "url": "https://suno.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=suno.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "image-video",
+    "tags": [
+      "music",
+      "audio"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Music Generator"
+  },
+  {
+    "slug": "surfer-seo",
+    "name": "Surfer SEO",
+    "tagline": "Content optimization for SEO",
+    "description": "SERP-driven content briefs, audits, and an AI writer for ranking pages.",
+    "url": "https://surferseo.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=surferseo.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "seo-marketing",
+    "tags": [
+      "seo",
+      "optimization"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Writer"
+  },
+  {
+    "slug": "synthesia",
+    "name": "Synthesia",
+    "tagline": "AI video for business",
+    "description": "Studio-quality videos with AI presenters, used by enterprise L&D and marketing.",
+    "url": "https://synthesia.io",
+    "logo_url": "https://www.google.com/s2/favicons?domain=synthesia.io&sz=64",
+    "screenshot_url": null,
+    "primary_category": "image-video",
+    "tags": [
+      "video",
+      "enterprise"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Video Generator"
+  },
+  {
+    "slug": "tabnine",
+    "name": "Tabnine",
+    "tagline": "AI code assistant",
+    "description": "Privacy-focused AI code completions and chat, deployable on-prem.",
+    "url": "https://tabnine.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=tabnine.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "code-development",
+    "tags": [
+      "completion",
+      "privacy"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Code Generator"
+  },
+  {
+    "slug": "v0",
+    "name": "v0 by Vercel",
+    "tagline": "AI UI generator",
+    "description": "Generate React/Tailwind UI from prompts, copy-paste into your codebase.",
+    "url": "https://v0.dev",
+    "logo_url": "https://www.google.com/s2/favicons?domain=v0.dev&sz=64",
+    "screenshot_url": null,
+    "primary_category": "code-development",
+    "tags": [
+      "ui",
+      "frontend"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "(none)"
+  },
+  {
+    "slug": "windsurf",
+    "name": "Windsurf",
+    "tagline": "Agentic IDE by Codeium",
+    "description": "AI IDE with flows that plan and apply multi-file changes.",
+    "url": "https://codeium.com/windsurf",
+    "logo_url": "https://www.google.com/s2/favicons?domain=codeium.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "code-development",
+    "tags": [
+      "ide",
+      "agent"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Agent"
+  },
+  {
+    "slug": "wordtune",
+    "name": "Wordtune",
+    "tagline": "Rewrite and rephrase with AI",
+    "description": "Rewrite sentences, change tone, and summarize content.",
+    "url": "https://wordtune.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=wordtune.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "writing-content",
+    "tags": [
+      "rewriting",
+      "summarize"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Summarizer"
+  },
+  {
+    "slug": "writesonic",
+    "name": "Writesonic",
+    "tagline": "AI writer for SEO and content",
+    "description": "Generate SEO-optimized articles, ads, and product descriptions at scale.",
+    "url": "https://writesonic.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=writesonic.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "writing-content",
+    "tags": [
+      "seo",
+      "articles",
+      "ads"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Writer"
+  },
+  {
+    "slug": "you-com",
+    "name": "You.com",
+    "tagline": "AI search with apps",
+    "description": "Conversational search with custom AI apps for research and code.",
+    "url": "https://you.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=you.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "research-data",
+    "tags": [
+      "search"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI App Builder"
+  },
+  {
+    "slug": "adintelli",
+    "name": "AdIntelli",
+    "tagline": "AI Shopify ad manager",
+    "description": "AI that builds, runs, and optimizes Meta & TikTok ads for Shopify stores.",
+    "url": "https://adintelli.ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=adintelli.ai&sz=64",
+    "screenshot_url": null,
+    "primary_category": "ecommerce-sales",
+    "tags": [
+      "ads",
+      "shopify"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "Ecommerce"
+  },
+  {
+    "slug": "akkio",
+    "name": "Akkio",
+    "tagline": "AI for business analytics",
+    "description": "Predictive AI for marketing, sales, and finance teams — no code required.",
+    "url": "https://akkio.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=akkio.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "business-analytics",
+    "tags": [
+      "predictive",
+      "no-code"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "No Code"
+  },
+  {
+    "slug": "algolia-recommend",
+    "name": "Algolia Recommend",
+    "tagline": "AI product recommendations",
+    "description": "Personalized product recommendations and search for ecommerce.",
+    "url": "https://algolia.com/products/recommend",
+    "logo_url": "https://www.google.com/s2/favicons?domain=algolia.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "ecommerce-sales",
+    "tags": [
+      "search",
+      "recommendations"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "Directories"
+  },
+  {
+    "slug": "bouncer",
+    "name": "Bouncer",
+    "tagline": "Email verification",
+    "description": "Verify and clean email lists in real time to protect sender reputation.",
+    "url": "https://bouncer.email",
+    "logo_url": "https://www.google.com/s2/favicons?domain=bouncer.email&sz=64",
+    "screenshot_url": null,
+    "primary_category": "ecommerce-sales",
+    "tags": [
+      "email",
+      "verification"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "Email"
+  },
+  {
+    "slug": "chatgpt",
+    "name": "ChatGPT",
+    "tagline": "AI assistant from OpenAI",
+    "description": "General-purpose conversational AI with plugins, GPTs, and tools.",
+    "url": "https://chatgpt.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=chatgpt.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "productivity",
+    "tags": [
+      "assistant",
+      "openai"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Assistant"
+  },
+  {
+    "slug": "chatpdf",
+    "name": "ChatPDF",
+    "tagline": "Chat with any PDF",
+    "description": "Ask questions, summarize, and extract data from PDFs.",
+    "url": "https://chatpdf.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=chatpdf.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "research-data",
+    "tags": [
+      "pdf",
+      "summarize"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Summarizer"
+  },
+  {
+    "slug": "chorus-ai",
+    "name": "Chorus.ai",
+    "tagline": "Conversation intelligence",
+    "description": "AI that records, transcribes, and analyzes sales calls for coaching.",
+    "url": "https://chorus.ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=chorus.ai&sz=64",
+    "screenshot_url": null,
+    "primary_category": "ecommerce-sales",
+    "tags": [
+      "sales",
+      "calls"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "Sales"
+  },
+  {
+    "slug": "claude",
+    "name": "Claude",
+    "tagline": "AI assistant from Anthropic",
+    "description": "Helpful, harmless, honest assistant for writing, code, and analysis.",
+    "url": "https://claude.ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=claude.ai&sz=64",
+    "screenshot_url": null,
+    "primary_category": "productivity",
+    "tags": [
+      "assistant",
+      "anthropic"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Assistant"
+  },
+  {
+    "slug": "crewai",
+    "name": "CrewAI",
+    "tagline": "Multi-agent orchestration framework",
+    "description": "Role-based multi-agent framework for production AI workflows.",
+    "url": "https://crewai.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=crewai.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "productivity",
+    "tags": [
+      "agents",
+      "framework"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Workflow"
+  },
+  {
+    "slug": "descript",
+    "name": "Descript",
+    "tagline": "AI video and podcast editor",
+    "description": "Edit video and podcasts by editing the transcript, with AI tools for filler words, voice, and more.",
+    "url": "https://descript.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=descript.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "ecommerce-sales",
+    "tags": [
+      "video",
+      "podcast"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Video Editor"
+  },
+  {
+    "slug": "domo",
+    "name": "Domo",
+    "tagline": "AI + data intelligence platform",
+    "description": "Cloud BI with AI chat, dashboards, and low-code apps for the enterprise.",
+    "url": "https://domo.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=domo.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "business-analytics",
+    "tags": [
+      "bi",
+      "dashboards"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "No Code"
+  },
+  {
+    "slug": "fathom",
+    "name": "Fathom",
+    "tagline": "AI meeting notes",
+    "description": "Free AI notetaker that records, transcribes, and summarizes meetings.",
+    "url": "https://fathom.video",
+    "logo_url": "https://www.google.com/s2/favicons?domain=fathom.video&sz=64",
+    "screenshot_url": null,
+    "primary_category": "productivity",
+    "tags": [
+      "meetings",
+      "notes"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Note Taker"
+  },
+  {
+    "slug": "feedhive",
+    "name": "FeedHive",
+    "tagline": "AI social media management",
+    "description": "Schedule, write, and recycle social posts with AI assistance.",
+    "url": "https://feedhive.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=feedhive.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "seo-marketing",
+    "tags": [
+      "social",
+      "scheduling"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "Social Media"
+  },
+  {
+    "slug": "gemini",
+    "name": "Gemini",
+    "tagline": "Google AI assistant",
+    "description": "Google's multimodal AI with deep integrations across Google apps.",
+    "url": "https://gemini.google.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=gemini.google.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "productivity",
+    "tags": [
+      "assistant",
+      "google"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Assistant"
+  },
+  {
+    "slug": "gong",
+    "name": "Gong",
+    "tagline": "Revenue intelligence AI",
+    "description": "Capture, understand, and act on customer interactions to grow revenue.",
+    "url": "https://gong.io",
+    "logo_url": "https://www.google.com/s2/favicons?domain=gong.io&sz=64",
+    "screenshot_url": null,
+    "primary_category": "ecommerce-sales",
+    "tags": [
+      "sales",
+      "calls"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "(none)"
+  },
+  {
+    "slug": "grok",
+    "name": "Grok",
+    "tagline": "xAI conversational AI",
+    "description": "xAI's assistant with real-time X (Twitter) awareness and tools.",
+    "url": "https://grok.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=grok.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "productivity",
+    "tags": [
+      "assistant",
+      "xai"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Chatbot"
+  },
+  {
+    "slug": "harvey",
+    "name": "Harvey",
+    "tagline": "Domain-specific AI for law",
+    "description": "Legal AI for firms and in-house teams — research, drafting, due diligence.",
+    "url": "https://harvey.ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=harvey.ai&sz=64",
+    "screenshot_url": null,
+    "primary_category": "business-analytics",
+    "tags": [
+      "legal",
+      "enterprise"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Research"
+  },
+  {
+    "slug": "hebbia",
+    "name": "Hebbia",
+    "tagline": "AI knowledge worker for finance",
+    "description": "AI matrix that reads, reasons over, and structures unstructured documents.",
+    "url": "https://hebbia.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=hebbia.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "business-analytics",
+    "tags": [
+      "finance",
+      "enterprise"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Ad Creative"
+  },
+  {
+    "slug": "humata",
+    "name": "Humata",
+    "tagline": "AI for your documents",
+    "description": "Ask, summarize, and synthesize answers from PDFs and docs.",
+    "url": "https://humata.ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=humata.ai&sz=64",
+    "screenshot_url": null,
+    "primary_category": "research-data",
+    "tags": [
+      "pdf",
+      "qa"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Summarizer"
+  },
+  {
+    "slug": "instantly",
+    "name": "Instantly.ai",
+    "tagline": "Cold email at scale",
+    "description": "Unlimited email accounts, warmup, and AI sequences for outbound.",
+    "url": "https://instantly.ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=instantly.ai&sz=64",
+    "screenshot_url": null,
+    "primary_category": "ecommerce-sales",
+    "tags": [
+      "email",
+      "outbound"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "Email"
+  },
+  {
+    "slug": "julius-ai",
+    "name": "Julius AI",
+    "tagline": "AI data analyst",
+    "description": "Chat with your data, generate charts, and analyze CSVs in chat.",
+    "url": "https://julius.ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=julius.ai&sz=64",
+    "screenshot_url": null,
+    "primary_category": "business-analytics",
+    "tags": [
+      "data",
+      "chat"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Spreadsheet"
+  },
+  {
+    "slug": "langgraph",
+    "name": "LangGraph",
+    "tagline": "Stateful agent runtime",
+    "description": "Build stateful, multi-actor LLM apps with cycles, branches, and persistence.",
+    "url": "https://langchain.com/langgraph",
+    "logo_url": "https://www.google.com/s2/favicons?domain=langchain.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "productivity",
+    "tags": [
+      "agents",
+      "framework"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Models"
+  },
+  {
+    "slug": "lavender",
+    "name": "Lavender",
+    "tagline": "AI sales email coach",
+    "description": "Real-time coaching to help reps write better, more personalized sales emails.",
+    "url": "https://lavender.ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=lavender.ai&sz=64",
+    "screenshot_url": null,
+    "primary_category": "ecommerce-sales",
+    "tags": [
+      "email",
+      "sales"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "Sales"
+  },
+  {
+    "slug": "lindy",
+    "name": "Lindy",
+    "tagline": "Build AI agents in minutes",
+    "description": "No-code AI agents for sales, support, and ops with native integrations.",
+    "url": "https://lindy.ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=lindy.ai&sz=64",
+    "screenshot_url": null,
+    "primary_category": "productivity",
+    "tags": [
+      "agents",
+      "no-code"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Agent"
+  },
+  {
+    "slug": "magic-studio",
+    "name": "Magic Studio",
+    "tagline": "AI image editor",
+    "description": "Edit, remove, and reimagine images with simple AI tools.",
+    "url": "https://magicstudio.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=magicstudio.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "image-video",
+    "tags": [
+      "image",
+      "editor"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Image Generator"
+  },
+  {
+    "slug": "make",
+    "name": "Make",
+    "tagline": "Visual automation platform",
+    "description": "Build complex multi-step automations with a no-code visual editor.",
+    "url": "https://make.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=make.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "productivity",
+    "tags": [
+      "automation",
+      "no-code"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Workflow"
+  },
+  {
+    "slug": "manifest-ai",
+    "name": "Manifest AI",
+    "tagline": "AI shopping assistant for ecommerce",
+    "description": "GPT-powered shopping assistant that converts browsers into buyers.",
+    "url": "https://getmanifest.ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=getmanifest.ai&sz=64",
+    "screenshot_url": null,
+    "primary_category": "ecommerce-sales",
+    "tags": [
+      "chatbot",
+      "ecommerce"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "Ecommerce"
+  },
+  {
+    "slug": "mem",
+    "name": "Mem",
+    "tagline": "AI notes that organize themselves",
+    "description": "Self-organizing workspace with AI search, smart write, and chat.",
+    "url": "https://mem.ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=mem.ai&sz=64",
+    "screenshot_url": null,
+    "primary_category": "productivity",
+    "tags": [
+      "notes"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Note Taker"
+  },
+  {
+    "slug": "monica",
+    "name": "Monica",
+    "tagline": "AI assistant in your browser",
+    "description": "Chrome AI copilot for chat, writing, translation, and search.",
+    "url": "https://monica.im",
+    "logo_url": "https://www.google.com/s2/favicons?domain=monica.im&sz=64",
+    "screenshot_url": null,
+    "primary_category": "productivity",
+    "tags": [
+      "assistant",
+      "browser"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Assistant"
+  },
+  {
+    "slug": "motion",
+    "name": "Motion",
+    "tagline": "AI calendar and task manager",
+    "description": "Auto-schedules your day around meetings, tasks, and deep work.",
+    "url": "https://usemotion.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=usemotion.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "productivity",
+    "tags": [
+      "calendar",
+      "tasks"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "Productivity Tools"
+  },
+  {
+    "slug": "n8n",
+    "name": "n8n",
+    "tagline": "Source-available workflow automation",
+    "description": "Self-hostable workflow automation with AI agents and 400+ integrations.",
+    "url": "https://n8n.io",
+    "logo_url": "https://www.google.com/s2/favicons?domain=n8n.io&sz=64",
+    "screenshot_url": null,
+    "primary_category": "productivity",
+    "tags": [
+      "automation",
+      "self-host"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Workflow"
+  },
+  {
+    "slug": "notebooklm",
+    "name": "NotebookLM",
+    "tagline": "AI research notebook",
+    "description": "Google's research notebook with grounded answers and audio overviews.",
+    "url": "https://notebooklm.google.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=notebooklm.google.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "research-data",
+    "tags": [
+      "notebook",
+      "google"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Research"
+  },
+  {
+    "slug": "obviously-ai",
+    "name": "Obviously AI",
+    "tagline": "No-code AI for predictions",
+    "description": "Build and deploy predictive models from a spreadsheet in minutes.",
+    "url": "https://obviously.ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=obviously.ai&sz=64",
+    "screenshot_url": null,
+    "primary_category": "business-analytics",
+    "tags": [
+      "predictive",
+      "spreadsheet"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Ad Creative"
+  },
+  {
+    "slug": "outreach-kaia",
+    "name": "Outreach Kaia",
+    "tagline": "AI sales assistant",
+    "description": "Real-time call summaries, content recommendations, and follow-ups for sellers.",
+    "url": "https://outreach.io",
+    "logo_url": "https://www.google.com/s2/favicons?domain=outreach.io&sz=64",
+    "screenshot_url": null,
+    "primary_category": "ecommerce-sales",
+    "tags": [
+      "sales",
+      "assistant"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "Sales"
+  },
+  {
+    "slug": "pandas-ai",
+    "name": "PandasAI",
+    "tagline": "Chat with your data",
+    "description": "Python library to query pandas DataFrames with natural language.",
+    "url": "https://pandas-ai.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=pandas-ai.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "business-analytics",
+    "tags": [
+      "python",
+      "pandas"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "(none)"
+  },
+  {
+    "slug": "polymer",
+    "name": "Polymer",
+    "tagline": "AI dashboards, no code",
+    "description": "Turn spreadsheets into beautiful, AI-powered dashboards.",
+    "url": "https://polymersearch.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=polymersearch.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "business-analytics",
+    "tags": [
+      "dashboards",
+      "spreadsheet"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "No Code"
+  },
+  {
+    "slug": "predis-ai",
+    "name": "Predis.ai",
+    "tagline": "AI social media posts",
+    "description": "Generate branded social posts and carousels in seconds.",
+    "url": "https://predis.ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=predis.ai&sz=64",
+    "screenshot_url": null,
+    "primary_category": "seo-marketing",
+    "tags": [
+      "social"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "Social Media"
+  },
+  {
+    "slug": "reclaim",
+    "name": "Reclaim",
+    "tagline": "AI calendar for busy teams",
+    "description": "Smart scheduling for tasks, habits, meetings, and breaks.",
+    "url": "https://reclaim.ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=reclaim.ai&sz=64",
+    "screenshot_url": null,
+    "primary_category": "productivity",
+    "tags": [
+      "calendar"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "Productivity Tools"
+  },
+  {
+    "slug": "relevance-ai",
+    "name": "Relevance AI",
+    "tagline": "AI agents for ops teams",
+    "description": "Build and deploy AI agents and tools for revenue and ops workflows.",
+    "url": "https://relevanceai.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=relevanceai.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "productivity",
+    "tags": [
+      "agents",
+      "ops"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Agent"
+  },
+  {
+    "slug": "replo",
+    "name": "Replo",
+    "tagline": "AI Shopify landing pages",
+    "description": "Build and A/B test high-converting Shopify landing pages, no code.",
+    "url": "https://replo.app",
+    "logo_url": "https://www.google.com/s2/favicons?domain=replo.app&sz=64",
+    "screenshot_url": null,
+    "primary_category": "ecommerce-sales",
+    "tags": [
+      "shopify",
+      "landing-pages"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Website Builder"
+  },
+  {
+    "slug": "saner-ai",
+    "name": "Saner AI",
+    "tagline": "AI second brain for ADHD",
+    "description": "Capture, organize, and recall notes with AI assistance.",
+    "url": "https://saner.ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=saner.ai&sz=64",
+    "screenshot_url": null,
+    "primary_category": "productivity",
+    "tags": [
+      "notes",
+      "adhd"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Note Taker"
+  },
+  {
+    "slug": "scholarcy",
+    "name": "Scholarcy",
+    "tagline": "AI paper summarizer",
+    "description": "Summarize papers into flashcards, highlights, and structured summaries.",
+    "url": "https://scholarcy.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=scholarcy.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "research-data",
+    "tags": [
+      "summarize",
+      "papers"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Summarizer"
+  },
+  {
+    "slug": "shopify-magic",
+    "name": "Shopify Magic",
+    "tagline": "AI features across Shopify",
+    "description": "AI product descriptions, image editing, and store assistant inside Shopify.",
+    "url": "https://shopify.com/magic",
+    "logo_url": "https://www.google.com/s2/favicons?domain=shopify.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "ecommerce-sales",
+    "tags": [
+      "shopify",
+      "ecommerce"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "Directories"
+  },
+  {
+    "slug": "smartlead",
+    "name": "Smartlead",
+    "tagline": "AI cold email software",
+    "description": "Automated, AI-warmed email sequences with unlimited mailboxes.",
+    "url": "https://smartlead.ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=smartlead.ai&sz=64",
+    "screenshot_url": null,
+    "primary_category": "ecommerce-sales",
+    "tags": [
+      "email"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "Email"
+  },
+  {
+    "slug": "superhuman",
+    "name": "Superhuman AI",
+    "tagline": "AI-powered email",
+    "description": "Inbox zero with AI triage, replies, and snippets.",
+    "url": "https://superhuman.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=superhuman.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "productivity",
+    "tags": [
+      "email"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "Email"
+  },
+  {
+    "slug": "tactiq",
+    "name": "Tactiq",
+    "tagline": "AI meeting transcripts",
+    "description": "Real-time transcripts, summaries, and action items for Zoom/Meet/Teams.",
+    "url": "https://tactiq.io",
+    "logo_url": "https://www.google.com/s2/favicons?domain=tactiq.io&sz=64",
+    "screenshot_url": null,
+    "primary_category": "productivity",
+    "tags": [
+      "meetings",
+      "transcripts"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "Speech to Text AI"
+  },
+  {
+    "slug": "taplio",
+    "name": "Taplio",
+    "tagline": "AI LinkedIn growth tool",
+    "description": "Create content, schedule, and engage on LinkedIn with AI.",
+    "url": "https://taplio.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=taplio.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "seo-marketing",
+    "tags": [
+      "linkedin"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "Social Media"
+  },
+  {
+    "slug": "thoughtspot",
+    "name": "ThoughtSpot",
+    "tagline": "AI analytics for everyone",
+    "description": "Natural-language search and AI-powered insights on your data.",
+    "url": "https://thoughtspot.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=thoughtspot.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "business-analytics",
+    "tags": [
+      "bi",
+      "search"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Analytics"
+  },
+  {
+    "slug": "warmbox",
+    "name": "Warmbox.ai",
+    "tagline": "Email warmup tool",
+    "description": "AI-powered email warmup to improve deliverability and sender reputation.",
+    "url": "https://warmbox.ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=warmbox.ai&sz=64",
+    "screenshot_url": null,
+    "primary_category": "ecommerce-sales",
+    "tags": [
+      "email",
+      "warmup"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "Email"
+  },
+  {
+    "slug": "zapier",
+    "name": "Zapier",
+    "tagline": "Workflow automation",
+    "description": "Connect 7,000+ apps to automate workflows, now with AI actions.",
+    "url": "https://zapier.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=zapier.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "productivity",
+    "tags": [
+      "automation",
+      "integration"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Workflow"
+  },
+  {
+    "slug": "aider",
+    "name": "Aider",
+    "tagline": "AI pair programming in your terminal",
+    "description": "Open-source AI coding assistant that edits code in your git repo via chat.",
+    "url": "https://aider.chat",
+    "logo_url": "https://www.google.com/s2/favicons?domain=aider.chat&sz=64",
+    "screenshot_url": null,
+    "primary_category": "code-development",
+    "tags": [
+      "cli",
+      "oss"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Code Generator"
+  },
+  {
+    "slug": "beautiful-ai",
+    "name": "Beautiful.ai",
+    "tagline": "AI presentation maker",
+    "description": "Smart slides that auto-design themselves as you add content.",
+    "url": "https://beautiful.ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=beautiful.ai&sz=64",
+    "screenshot_url": null,
+    "primary_category": "writing-content",
+    "tags": [
+      "presentations"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Presentation Maker"
+  },
+  {
+    "slug": "cody",
+    "name": "Cody by Sourcegraph",
+    "tagline": "AI code assistant for enterprise",
+    "description": "Codebase-aware AI assistant that knows your repos and context.",
+    "url": "https://sourcegraph.com/cody",
+    "logo_url": "https://www.google.com/s2/favicons?domain=sourcegraph.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "code-development",
+    "tags": [
+      "enterprise",
+      "codebase"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Code Generator"
+  },
+  {
+    "slug": "continue",
+    "name": "Continue",
+    "tagline": "Open-source AI code assistant",
+    "description": "Open-source AI assistant for VS Code and JetBrains with any model.",
+    "url": "https://continue.dev",
+    "logo_url": "https://www.google.com/s2/favicons?domain=continue.dev&sz=64",
+    "screenshot_url": null,
+    "primary_category": "code-development",
+    "tags": [
+      "oss",
+      "vscode"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Code Generator"
+  },
+  {
+    "slug": "fireflies",
+    "name": "Fireflies.ai",
+    "tagline": "AI meeting assistant",
+    "description": "Transcribe, search, and analyze meetings across your stack.",
+    "url": "https://fireflies.ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=fireflies.ai&sz=64",
+    "screenshot_url": null,
+    "primary_category": "productivity",
+    "tags": [
+      "meetings"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "Speech to Text AI"
+  },
+  {
+    "slug": "flux",
+    "name": "FLUX",
+    "tagline": "Open-weights image model",
+    "description": "Black Forest Labs' flagship open-weights image generation model.",
+    "url": "https://blackforestlabs.ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=blackforestlabs.ai&sz=64",
+    "screenshot_url": null,
+    "primary_category": "image-video",
+    "tags": [
+      "oss",
+      "image"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Image Generator"
+  },
+  {
+    "slug": "gamma",
+    "name": "Gamma",
+    "tagline": "AI presentations and websites",
+    "description": "Generate decks, docs, and websites from prompts — no design needed.",
+    "url": "https://gamma.app",
+    "logo_url": "https://www.google.com/s2/favicons?domain=gamma.app&sz=64",
+    "screenshot_url": null,
+    "primary_category": "writing-content",
+    "tags": [
+      "presentations",
+      "websites"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Presentation Maker"
+  },
+  {
+    "slug": "invideo-ai",
+    "name": "InVideo AI",
+    "tagline": "AI video generator",
+    "description": "Turn a prompt into a publish-ready video with script, scenes, and voice.",
+    "url": "https://invideo.io/ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=invideo.io&sz=64",
+    "screenshot_url": null,
+    "primary_category": "image-video",
+    "tags": [
+      "video"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Video Generator"
+  },
+  {
+    "slug": "kaiber",
+    "name": "Kaiber",
+    "tagline": "AI music videos",
+    "description": "Generate stylized music videos and animations from audio or images.",
+    "url": "https://kaiber.ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=kaiber.ai&sz=64",
+    "screenshot_url": null,
+    "primary_category": "image-video",
+    "tags": [
+      "video",
+      "music"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Music Generator"
+  },
+  {
+    "slug": "krea-ai",
+    "name": "Krea AI",
+    "tagline": "AI design and video",
+    "description": "Real-time image and video generation with fine-grained control.",
+    "url": "https://krea.ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=krea.ai&sz=64",
+    "screenshot_url": null,
+    "primary_category": "image-video",
+    "tags": [
+      "image",
+      "video"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Video Generator"
+  },
+  {
+    "slug": "krisp",
+    "name": "Krisp",
+    "tagline": "AI noise, voice, and meeting assistant",
+    "description": "Remove background noise, transcribe, and summarize meetings.",
+    "url": "https://krisp.ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=krisp.ai&sz=64",
+    "screenshot_url": null,
+    "primary_category": "productivity",
+    "tags": [
+      "meetings",
+      "audio"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Background Remover"
+  },
+  {
+    "slug": "otter",
+    "name": "Otter.ai",
+    "tagline": "AI meeting transcription",
+    "description": "Real-time transcription, summaries, and action items for meetings.",
+    "url": "https://otter.ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=otter.ai&sz=64",
+    "screenshot_url": null,
+    "primary_category": "productivity",
+    "tags": [
+      "meetings"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "Speech to Text AI"
+  },
+  {
+    "slug": "photoroom",
+    "name": "Photoroom",
+    "tagline": "AI photo studio",
+    "description": "Background removal, batch editing, and product photos for sellers.",
+    "url": "https://photoroom.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=photoroom.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "image-video",
+    "tags": [
+      "ecommerce",
+      "photos"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Background Remover"
+  },
+  {
+    "slug": "pieces",
+    "name": "Pieces for Developers",
+    "tagline": "AI code snippet manager",
+    "description": "Save, enrich, and reuse code snippets with on-device AI.",
+    "url": "https://pieces.app",
+    "logo_url": "https://www.google.com/s2/favicons?domain=pieces.app&sz=64",
+    "screenshot_url": null,
+    "primary_category": "code-development",
+    "tags": [
+      "snippets"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Code Generator"
+  },
+  {
+    "slug": "pitch",
+    "name": "Pitch",
+    "tagline": "Modern presentation software",
+    "description": "Collaborative decks with smart templates and AI assistance.",
+    "url": "https://pitch.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=pitch.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "writing-content",
+    "tags": [
+      "presentations"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Presentation Maker"
+  },
+  {
+    "slug": "remove-bg",
+    "name": "remove.bg",
+    "tagline": "Background removal",
+    "description": "AI background removal for product photos, portraits, and more.",
+    "url": "https://remove.bg",
+    "logo_url": "https://www.google.com/s2/favicons?domain=remove.bg&sz=64",
+    "screenshot_url": null,
+    "primary_category": "image-video",
+    "tags": [
+      "photos",
+      "ecommerce"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Background Remover"
+  },
+  {
+    "slug": "replit-agent",
+    "name": "Replit Agent",
+    "tagline": "AI app builder",
+    "description": "Autonomous agent inside Replit that builds, tests, and deploys apps.",
+    "url": "https://replit.com/ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=replit.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "code-development",
+    "tags": [
+      "agent",
+      "build"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI App Builder"
+  },
+  {
+    "slug": "stability-ai",
+    "name": "Stability AI",
+    "tagline": "Open-source generative models",
+    "description": "Stable Diffusion, Stable Video, and APIs for image and video generation.",
+    "url": "https://stability.ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=stability.ai&sz=64",
+    "screenshot_url": null,
+    "primary_category": "image-video",
+    "tags": [
+      "oss",
+      "image"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Video Generator"
+  },
+  {
+    "slug": "steve-ai",
+    "name": "Steve AI",
+    "tagline": "AI video maker",
+    "description": "Turn text, blog posts, and audio into animated videos.",
+    "url": "https://steve.ai",
+    "logo_url": "https://www.google.com/s2/favicons?domain=steve.ai&sz=64",
+    "screenshot_url": null,
+    "primary_category": "image-video",
+    "tags": [
+      "video"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Video Generator"
+  },
+  {
+    "slug": "taskade",
+    "name": "Taskade",
+    "tagline": "AI workspace for teams",
+    "description": "Tasks, notes, and chat in one AI-powered workspace.",
+    "url": "https://taskade.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=taskade.com&sz=64",
+    "screenshot_url": null,
+    "primary_category": "productivity",
+    "tags": [
+      "tasks",
+      "workspace"
+    ],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Note Taker"
   }
 ]
