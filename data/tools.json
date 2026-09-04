@@ -9261,7 +9261,7 @@
     "description": "Create Grok Imagine AI images and videos from text prompts, references, and uploads for product visuals, ads, social shorts, concepts, and storyboard clips.",
     "url": "https://grokimagineai.art",
     "logo_url": "https://www.google.com/s2/favicons?domain=grokimagineai.art&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/grok-imagine-ai.webp",
     "primary_category": "image-video",
     "tags": [],
     "pricing_detail": null,
@@ -33876,7 +33876,7 @@
     "description": "Generate conversion-focused ad creatives and social posts in seconds.",
     "url": "https://adcreative.ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=adcreative.ai&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/adcreative-ai.webp",
     "primary_category": "seo-marketing",
     "tags": [
       "ads",
@@ -33894,7 +33894,7 @@
     "description": "Backlink analysis, keyword research, content explorer, and rank tracking.",
     "url": "https://ahrefs.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=ahrefs.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/ahrefs.webp",
     "primary_category": "seo-marketing",
     "tags": [
       "seo",
@@ -33912,7 +33912,7 @@
     "description": "Copy generation with performance scoring and audience targeting for marketers.",
     "url": "https://anyword.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=anyword.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/anyword.webp",
     "primary_category": "writing-content",
     "tags": [
       "copywriting",
@@ -33930,7 +33930,7 @@
     "description": "Prompt, run, and deploy full-stack apps without leaving the browser.",
     "url": "https://bolt.new",
     "logo_url": "https://www.google.com/s2/favicons?domain=bolt.new&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/bolt-new.webp",
     "primary_category": "code-development",
     "tags": [
       "fullstack",
@@ -33948,7 +33948,7 @@
     "description": "Terminal-based AI coding agent that plans, edits, and tests in your repo.",
     "url": "https://claude.com/product/claude-code",
     "logo_url": "https://www.google.com/s2/favicons?domain=claude.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/claude-code.webp",
     "primary_category": "code-development",
     "tags": [
       "agent",
@@ -33966,7 +33966,7 @@
     "description": "AI-powered content reports to help teams write for search intent.",
     "url": "https://clearscope.io",
     "logo_url": "https://www.google.com/s2/favicons?domain=clearscope.io&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/clearscope.webp",
     "primary_category": "seo-marketing",
     "tags": [
       "seo",
@@ -33984,7 +33984,7 @@
     "description": "Free AI completions and chat across 70+ languages.",
     "url": "https://codeium.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=codeium.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/codeium.webp",
     "primary_category": "code-development",
     "tags": [
       "completion",
@@ -34002,7 +34002,7 @@
     "description": "Find scientific answers sourced from peer-reviewed studies.",
     "url": "https://consensus.app",
     "logo_url": "https://www.google.com/s2/favicons?domain=consensus.app&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/consensus.webp",
     "primary_category": "research-data",
     "tags": [
       "research",
@@ -34020,7 +34020,7 @@
     "description": "Blog posts, marketing copy, and AI workflows on autopilot.",
     "url": "https://contentbot.ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=contentbot.ai&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/contentbot.webp",
     "primary_category": "writing-content",
     "tags": [
       "automation",
@@ -34038,7 +34038,7 @@
     "description": "Workflows and agents for sales, marketing, and ops. Built for revenue teams.",
     "url": "https://copy.ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=copy.ai&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/copy-ai.webp",
     "primary_category": "writing-content",
     "tags": [
       "copywriting",
@@ -34057,7 +34057,7 @@
     "description": "VS Code fork built around agentic coding, multi-file edits, and chat.",
     "url": "https://cursor.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=cursor.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/cursor.webp",
     "primary_category": "code-development",
     "tags": [
       "editor",
@@ -34075,7 +34075,7 @@
     "description": "Text-to-image from OpenAI, available via ChatGPT and API.",
     "url": "https://openai.com/dall-e-3",
     "logo_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/dall-e.webp",
     "primary_category": "image-video",
     "tags": [
       "image",
@@ -34093,7 +34093,7 @@
     "description": "AI chatbots and live chat that qualify pipeline on your site.",
     "url": "https://drift.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=drift.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/drift.webp",
     "primary_category": "seo-marketing",
     "tags": [
       "chatbot",
@@ -34111,7 +34111,7 @@
     "description": "Lifelike voice synthesis, voice cloning, and dubbing in 30+ languages.",
     "url": "https://elevenlabs.io",
     "logo_url": "https://www.google.com/s2/favicons?domain=elevenlabs.io&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/elevenlabs.webp",
     "primary_category": "image-video",
     "tags": [
       "voice",
@@ -34129,7 +34129,7 @@
     "description": "Find, summarize, and extract data from academic papers.",
     "url": "https://elicit.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=elicit.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/elicit.webp",
     "primary_category": "research-data",
     "tags": [
       "research",
@@ -34147,7 +34147,7 @@
     "description": "Research, write, and optimize SEO content with AI briefs and scoring.",
     "url": "https://frase.io",
     "logo_url": "https://www.google.com/s2/favicons?domain=frase.io&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/frase.webp",
     "primary_category": "writing-content",
     "tags": [
       "seo",
@@ -34165,7 +34165,7 @@
     "description": "Inline code completions, chat, and agents inside your editor and GitHub.",
     "url": "https://github.com/features/copilot",
     "logo_url": "https://www.google.com/s2/favicons?domain=github.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/github-copilot.webp",
     "primary_category": "code-development",
     "tags": [
       "coding",
@@ -34183,7 +34183,7 @@
     "description": "Grammar, tone, and clarity suggestions across the apps you use.",
     "url": "https://grammarly.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=grammarly.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/grammarly.webp",
     "primary_category": "writing-content",
     "tags": [
       "grammar",
@@ -34201,7 +34201,7 @@
     "description": "Generate studio-quality videos with AI avatars and voice cloning.",
     "url": "https://heygen.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=heygen.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/heygen.webp",
     "primary_category": "image-video",
     "tags": [
       "video",
@@ -34219,7 +34219,7 @@
     "description": "Bulk product descriptions, blog posts, and brand-aligned copy for stores.",
     "url": "https://hypotenuse.ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=hypotenuse.ai&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/hypotenuse.webp",
     "primary_category": "writing-content",
     "tags": [
       "ecommerce",
@@ -34237,7 +34237,7 @@
     "description": "Text-to-image model that handles legible text inside images.",
     "url": "https://ideogram.ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=ideogram.ai&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/ideogram.webp",
     "primary_category": "image-video",
     "tags": [
       "image",
@@ -34255,7 +34255,7 @@
     "description": "Enterprise-grade AI content platform for marketing, with brand voice, campaigns, and team workflows.",
     "url": "https://jasper.ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=jasper.ai&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/jasper.webp",
     "primary_category": "writing-content",
     "tags": [
       "copywriting",
@@ -34274,7 +34274,7 @@
     "description": "Find verified contact data and run personalized outbound sequences.",
     "url": "https://leadiq.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=leadiq.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/leadiq.webp",
     "primary_category": "seo-marketing",
     "tags": [
       "lead-gen",
@@ -34292,7 +34292,7 @@
     "description": "Game assets, concept art, and design-ready images with fine-grained control.",
     "url": "https://leonardo.ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=leonardo.ai&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/leonardo-ai.webp",
     "primary_category": "image-video",
     "tags": [
       "image",
@@ -34310,7 +34310,7 @@
     "description": "Prompt to production web app with React + Tailwind + Supabase.",
     "url": "https://lovable.dev",
     "logo_url": "https://www.google.com/s2/favicons?domain=lovable.dev&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/lovable.webp",
     "primary_category": "code-development",
     "tags": [
       "fullstack",
@@ -34328,7 +34328,7 @@
     "description": "Topic authority, content briefs, and audits to win in competitive SERPs.",
     "url": "https://marketmuse.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=marketmuse.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/marketmuse.webp",
     "primary_category": "seo-marketing",
     "tags": [
       "seo",
@@ -34346,7 +34346,7 @@
     "description": "Best-in-class image generation, especially for stylized and editorial work.",
     "url": "https://midjourney.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=midjourney.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/midjourney.webp",
     "primary_category": "image-video",
     "tags": [
       "image",
@@ -34364,7 +34364,7 @@
     "description": "SERP-based recommendations and an AI writer for ranking content.",
     "url": "https://neuronwriter.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=neuronwriter.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/neuronwriter.webp",
     "primary_category": "seo-marketing",
     "tags": [
       "seo",
@@ -34382,7 +34382,7 @@
     "description": "Summarize, translate, and draft inside your Notion workspace.",
     "url": "https://notion.so/product/ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=notion.so&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/notion-ai.webp",
     "primary_category": "writing-content",
     "tags": [
       "docs",
@@ -34400,7 +34400,7 @@
     "description": "Cited answers with web-grounded sources and a Pro model picker.",
     "url": "https://perplexity.ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=perplexity.ai&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/perplexity.webp",
     "primary_category": "research-data",
     "tags": [
       "search",
@@ -34418,7 +34418,7 @@
     "description": "Signals, enrichment, and AI-driven outreach personalization.",
     "url": "https://persana.ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=persana.ai&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/persana.webp",
     "primary_category": "seo-marketing",
     "tags": [
       "sales",
@@ -34430,31 +34430,13 @@
     "sub": "Sales"
   },
   {
-    "slug": "phind",
-    "name": "Phind",
-    "tagline": "AI search for developers",
-    "description": "Developer-focused answer engine with code-aware results.",
-    "url": "https://phind.com",
-    "logo_url": "https://www.google.com/s2/favicons?domain=phind.com&sz=64",
-    "screenshot_url": null,
-    "primary_category": "code-development",
-    "tags": [
-      "search",
-      "dev"
-    ],
-    "pricing_detail": null,
-    "source": null,
-    "dr": null,
-    "sub": "AI Answer"
-  },
-  {
     "slug": "pika",
     "name": "Pika",
     "tagline": "Idea-to-video AI",
     "description": "Generate and edit video from text, image, or existing clips.",
     "url": "https://pika.art",
     "logo_url": "https://www.google.com/s2/favicons?domain=pika.art&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/pika.webp",
     "primary_category": "image-video",
     "tags": [
       "video"
@@ -34471,7 +34453,7 @@
     "description": "Vector-first AI image and design tool for brand assets.",
     "url": "https://recraft.ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=recraft.ai&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/recraft.webp",
     "primary_category": "image-video",
     "tags": [
       "vector",
@@ -34489,7 +34471,7 @@
     "description": "Browser IDE with AI agent that builds and deploys apps from prompts.",
     "url": "https://replit.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=replit.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/replit.webp",
     "primary_category": "code-development",
     "tags": [
       "ide",
@@ -34507,7 +34489,7 @@
     "description": "Gen-3 video, image, and creative tools for filmmakers and creators.",
     "url": "https://runwayml.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=runwayml.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/runway.webp",
     "primary_category": "image-video",
     "tags": [
       "video",
@@ -34525,7 +34507,7 @@
     "description": "Affordable AI writer for emails, blogs, ads, and social posts.",
     "url": "https://rytr.me",
     "logo_url": "https://www.google.com/s2/favicons?domain=rytr.me&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/rytr.webp",
     "primary_category": "writing-content",
     "tags": [
       "writing",
@@ -34543,7 +34525,7 @@
     "description": "SEO, PPC, content, and competitive research suite trusted by marketers.",
     "url": "https://semrush.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=semrush.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/semrush.webp",
     "primary_category": "seo-marketing",
     "tags": [
       "seo",
@@ -34562,7 +34544,7 @@
     "description": "Personalized cold emails and LinkedIn messages at scale.",
     "url": "https://smartwriter.ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=smartwriter.ai&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/smartwriter.webp",
     "primary_category": "seo-marketing",
     "tags": [
       "outreach",
@@ -34574,31 +34556,13 @@
     "sub": "Email"
   },
   {
-    "slug": "sora",
-    "name": "Sora",
-    "tagline": "OpenAI video generation",
-    "description": "Text-to-video from OpenAI, available in ChatGPT.",
-    "url": "https://openai.com/sora",
-    "logo_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "screenshot_url": null,
-    "primary_category": "image-video",
-    "tags": [
-      "video",
-      "openai"
-    ],
-    "pricing_detail": null,
-    "source": null,
-    "dr": null,
-    "sub": "AI Video Generator"
-  },
-  {
     "slug": "sudowrite",
     "name": "Sudowrite",
     "tagline": "AI for fiction writers",
     "description": "Story engine that helps novelists brainstorm, draft, and revise fiction.",
     "url": "https://sudowrite.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=sudowrite.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/sudowrite.webp",
     "primary_category": "writing-content",
     "tags": [
       "fiction",
@@ -34616,7 +34580,7 @@
     "description": "Generate original songs with vocals and instruments from a prompt.",
     "url": "https://suno.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=suno.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/suno.webp",
     "primary_category": "image-video",
     "tags": [
       "music",
@@ -34634,7 +34598,7 @@
     "description": "SERP-driven content briefs, audits, and an AI writer for ranking pages.",
     "url": "https://surferseo.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=surferseo.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/surfer-seo.webp",
     "primary_category": "seo-marketing",
     "tags": [
       "seo",
@@ -34652,7 +34616,7 @@
     "description": "Studio-quality videos with AI presenters, used by enterprise L&D and marketing.",
     "url": "https://synthesia.io",
     "logo_url": "https://www.google.com/s2/favicons?domain=synthesia.io&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/synthesia.webp",
     "primary_category": "image-video",
     "tags": [
       "video",
@@ -34670,7 +34634,7 @@
     "description": "Privacy-focused AI code completions and chat, deployable on-prem.",
     "url": "https://tabnine.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=tabnine.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/tabnine.webp",
     "primary_category": "code-development",
     "tags": [
       "completion",
@@ -34688,7 +34652,7 @@
     "description": "Generate React/Tailwind UI from prompts, copy-paste into your codebase.",
     "url": "https://v0.dev",
     "logo_url": "https://www.google.com/s2/favicons?domain=v0.dev&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/v0.webp",
     "primary_category": "code-development",
     "tags": [
       "ui",
@@ -34706,7 +34670,7 @@
     "description": "AI IDE with flows that plan and apply multi-file changes.",
     "url": "https://codeium.com/windsurf",
     "logo_url": "https://www.google.com/s2/favicons?domain=codeium.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/windsurf.webp",
     "primary_category": "code-development",
     "tags": [
       "ide",
@@ -34724,7 +34688,7 @@
     "description": "Rewrite sentences, change tone, and summarize content.",
     "url": "https://wordtune.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=wordtune.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/wordtune.webp",
     "primary_category": "writing-content",
     "tags": [
       "rewriting",
@@ -34742,7 +34706,7 @@
     "description": "Generate SEO-optimized articles, ads, and product descriptions at scale.",
     "url": "https://writesonic.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=writesonic.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/writesonic.webp",
     "primary_category": "writing-content",
     "tags": [
       "seo",
@@ -34761,7 +34725,7 @@
     "description": "Conversational search with custom AI apps for research and code.",
     "url": "https://you.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=you.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/you-com.webp",
     "primary_category": "research-data",
     "tags": [
       "search"
@@ -34778,7 +34742,7 @@
     "description": "AI that builds, runs, and optimizes Meta & TikTok ads for Shopify stores.",
     "url": "https://adintelli.ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=adintelli.ai&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/adintelli.webp",
     "primary_category": "ecommerce-sales",
     "tags": [
       "ads",
@@ -34796,7 +34760,7 @@
     "description": "Predictive AI for marketing, sales, and finance teams — no code required.",
     "url": "https://akkio.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=akkio.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/akkio.webp",
     "primary_category": "business-analytics",
     "tags": [
       "predictive",
@@ -34808,49 +34772,13 @@
     "sub": "No Code"
   },
   {
-    "slug": "algolia-recommend",
-    "name": "Algolia Recommend",
-    "tagline": "AI product recommendations",
-    "description": "Personalized product recommendations and search for ecommerce.",
-    "url": "https://algolia.com/products/recommend",
-    "logo_url": "https://www.google.com/s2/favicons?domain=algolia.com&sz=64",
-    "screenshot_url": null,
-    "primary_category": "ecommerce-sales",
-    "tags": [
-      "search",
-      "recommendations"
-    ],
-    "pricing_detail": null,
-    "source": null,
-    "dr": null,
-    "sub": "Directories"
-  },
-  {
-    "slug": "bouncer",
-    "name": "Bouncer",
-    "tagline": "Email verification",
-    "description": "Verify and clean email lists in real time to protect sender reputation.",
-    "url": "https://bouncer.email",
-    "logo_url": "https://www.google.com/s2/favicons?domain=bouncer.email&sz=64",
-    "screenshot_url": null,
-    "primary_category": "ecommerce-sales",
-    "tags": [
-      "email",
-      "verification"
-    ],
-    "pricing_detail": null,
-    "source": null,
-    "dr": null,
-    "sub": "Email"
-  },
-  {
     "slug": "chatgpt",
     "name": "ChatGPT",
     "tagline": "AI assistant from OpenAI",
     "description": "General-purpose conversational AI with plugins, GPTs, and tools.",
     "url": "https://chatgpt.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=chatgpt.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/chatgpt.webp",
     "primary_category": "productivity",
     "tags": [
       "assistant",
@@ -34868,7 +34796,7 @@
     "description": "Ask questions, summarize, and extract data from PDFs.",
     "url": "https://chatpdf.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=chatpdf.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/chatpdf.webp",
     "primary_category": "research-data",
     "tags": [
       "pdf",
@@ -34886,7 +34814,7 @@
     "description": "AI that records, transcribes, and analyzes sales calls for coaching.",
     "url": "https://chorus.ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=chorus.ai&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/chorus-ai.webp",
     "primary_category": "ecommerce-sales",
     "tags": [
       "sales",
@@ -34904,7 +34832,7 @@
     "description": "Helpful, harmless, honest assistant for writing, code, and analysis.",
     "url": "https://claude.ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=claude.ai&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/claude.webp",
     "primary_category": "productivity",
     "tags": [
       "assistant",
@@ -34922,7 +34850,7 @@
     "description": "Role-based multi-agent framework for production AI workflows.",
     "url": "https://crewai.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=crewai.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/crewai.webp",
     "primary_category": "productivity",
     "tags": [
       "agents",
@@ -34940,7 +34868,7 @@
     "description": "Edit video and podcasts by editing the transcript, with AI tools for filler words, voice, and more.",
     "url": "https://descript.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=descript.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/descript.webp",
     "primary_category": "ecommerce-sales",
     "tags": [
       "video",
@@ -34958,7 +34886,7 @@
     "description": "Cloud BI with AI chat, dashboards, and low-code apps for the enterprise.",
     "url": "https://domo.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=domo.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/domo.webp",
     "primary_category": "business-analytics",
     "tags": [
       "bi",
@@ -34976,7 +34904,7 @@
     "description": "Free AI notetaker that records, transcribes, and summarizes meetings.",
     "url": "https://fathom.video",
     "logo_url": "https://www.google.com/s2/favicons?domain=fathom.video&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/fathom.webp",
     "primary_category": "productivity",
     "tags": [
       "meetings",
@@ -34994,7 +34922,7 @@
     "description": "Schedule, write, and recycle social posts with AI assistance.",
     "url": "https://feedhive.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=feedhive.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/feedhive.webp",
     "primary_category": "seo-marketing",
     "tags": [
       "social",
@@ -35012,7 +34940,7 @@
     "description": "Google's multimodal AI with deep integrations across Google apps.",
     "url": "https://gemini.google.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=gemini.google.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/gemini.webp",
     "primary_category": "productivity",
     "tags": [
       "assistant",
@@ -35030,7 +34958,7 @@
     "description": "Capture, understand, and act on customer interactions to grow revenue.",
     "url": "https://gong.io",
     "logo_url": "https://www.google.com/s2/favicons?domain=gong.io&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/gong.webp",
     "primary_category": "ecommerce-sales",
     "tags": [
       "sales",
@@ -35048,7 +34976,7 @@
     "description": "xAI's assistant with real-time X (Twitter) awareness and tools.",
     "url": "https://grok.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=grok.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/grok.webp",
     "primary_category": "productivity",
     "tags": [
       "assistant",
@@ -35066,7 +34994,7 @@
     "description": "Legal AI for firms and in-house teams — research, drafting, due diligence.",
     "url": "https://harvey.ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=harvey.ai&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/harvey.webp",
     "primary_category": "business-analytics",
     "tags": [
       "legal",
@@ -35084,7 +35012,7 @@
     "description": "AI matrix that reads, reasons over, and structures unstructured documents.",
     "url": "https://hebbia.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=hebbia.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/hebbia.webp",
     "primary_category": "business-analytics",
     "tags": [
       "finance",
@@ -35102,7 +35030,7 @@
     "description": "Ask, summarize, and synthesize answers from PDFs and docs.",
     "url": "https://humata.ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=humata.ai&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/humata.webp",
     "primary_category": "research-data",
     "tags": [
       "pdf",
@@ -35120,7 +35048,7 @@
     "description": "Unlimited email accounts, warmup, and AI sequences for outbound.",
     "url": "https://instantly.ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=instantly.ai&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/instantly.webp",
     "primary_category": "ecommerce-sales",
     "tags": [
       "email",
@@ -35138,7 +35066,7 @@
     "description": "Chat with your data, generate charts, and analyze CSVs in chat.",
     "url": "https://julius.ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=julius.ai&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/julius-ai.webp",
     "primary_category": "business-analytics",
     "tags": [
       "data",
@@ -35156,7 +35084,7 @@
     "description": "Build stateful, multi-actor LLM apps with cycles, branches, and persistence.",
     "url": "https://langchain.com/langgraph",
     "logo_url": "https://www.google.com/s2/favicons?domain=langchain.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/langgraph.webp",
     "primary_category": "productivity",
     "tags": [
       "agents",
@@ -35174,7 +35102,7 @@
     "description": "Real-time coaching to help reps write better, more personalized sales emails.",
     "url": "https://lavender.ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=lavender.ai&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/lavender.webp",
     "primary_category": "ecommerce-sales",
     "tags": [
       "email",
@@ -35192,7 +35120,7 @@
     "description": "No-code AI agents for sales, support, and ops with native integrations.",
     "url": "https://lindy.ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=lindy.ai&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/lindy.webp",
     "primary_category": "productivity",
     "tags": [
       "agents",
@@ -35210,7 +35138,7 @@
     "description": "Edit, remove, and reimagine images with simple AI tools.",
     "url": "https://magicstudio.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=magicstudio.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/magic-studio.webp",
     "primary_category": "image-video",
     "tags": [
       "image",
@@ -35228,7 +35156,7 @@
     "description": "Build complex multi-step automations with a no-code visual editor.",
     "url": "https://make.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=make.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/make.webp",
     "primary_category": "productivity",
     "tags": [
       "automation",
@@ -35246,7 +35174,7 @@
     "description": "GPT-powered shopping assistant that converts browsers into buyers.",
     "url": "https://getmanifest.ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=getmanifest.ai&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/manifest-ai.webp",
     "primary_category": "ecommerce-sales",
     "tags": [
       "chatbot",
@@ -35264,7 +35192,7 @@
     "description": "Self-organizing workspace with AI search, smart write, and chat.",
     "url": "https://mem.ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=mem.ai&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/mem.webp",
     "primary_category": "productivity",
     "tags": [
       "notes"
@@ -35281,7 +35209,7 @@
     "description": "Chrome AI copilot for chat, writing, translation, and search.",
     "url": "https://monica.im",
     "logo_url": "https://www.google.com/s2/favicons?domain=monica.im&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/monica.webp",
     "primary_category": "productivity",
     "tags": [
       "assistant",
@@ -35299,7 +35227,7 @@
     "description": "Auto-schedules your day around meetings, tasks, and deep work.",
     "url": "https://usemotion.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=usemotion.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/motion.webp",
     "primary_category": "productivity",
     "tags": [
       "calendar",
@@ -35317,7 +35245,7 @@
     "description": "Self-hostable workflow automation with AI agents and 400+ integrations.",
     "url": "https://n8n.io",
     "logo_url": "https://www.google.com/s2/favicons?domain=n8n.io&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/n8n.webp",
     "primary_category": "productivity",
     "tags": [
       "automation",
@@ -35335,7 +35263,7 @@
     "description": "Google's research notebook with grounded answers and audio overviews.",
     "url": "https://notebooklm.google.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=notebooklm.google.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/notebooklm.webp",
     "primary_category": "research-data",
     "tags": [
       "notebook",
@@ -35353,7 +35281,7 @@
     "description": "Build and deploy predictive models from a spreadsheet in minutes.",
     "url": "https://obviously.ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=obviously.ai&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/obviously-ai.webp",
     "primary_category": "business-analytics",
     "tags": [
       "predictive",
@@ -35371,7 +35299,7 @@
     "description": "Real-time call summaries, content recommendations, and follow-ups for sellers.",
     "url": "https://outreach.io",
     "logo_url": "https://www.google.com/s2/favicons?domain=outreach.io&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/outreach-kaia.webp",
     "primary_category": "ecommerce-sales",
     "tags": [
       "sales",
@@ -35389,7 +35317,7 @@
     "description": "Python library to query pandas DataFrames with natural language.",
     "url": "https://pandas-ai.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=pandas-ai.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/pandas-ai.webp",
     "primary_category": "business-analytics",
     "tags": [
       "python",
@@ -35407,7 +35335,7 @@
     "description": "Turn spreadsheets into beautiful, AI-powered dashboards.",
     "url": "https://polymersearch.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=polymersearch.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/polymer.webp",
     "primary_category": "business-analytics",
     "tags": [
       "dashboards",
@@ -35425,7 +35353,7 @@
     "description": "Generate branded social posts and carousels in seconds.",
     "url": "https://predis.ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=predis.ai&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/predis-ai.webp",
     "primary_category": "seo-marketing",
     "tags": [
       "social"
@@ -35442,7 +35370,7 @@
     "description": "Smart scheduling for tasks, habits, meetings, and breaks.",
     "url": "https://reclaim.ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=reclaim.ai&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/reclaim.webp",
     "primary_category": "productivity",
     "tags": [
       "calendar"
@@ -35459,7 +35387,7 @@
     "description": "Build and deploy AI agents and tools for revenue and ops workflows.",
     "url": "https://relevanceai.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=relevanceai.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/relevance-ai.webp",
     "primary_category": "productivity",
     "tags": [
       "agents",
@@ -35477,7 +35405,7 @@
     "description": "Build and A/B test high-converting Shopify landing pages, no code.",
     "url": "https://replo.app",
     "logo_url": "https://www.google.com/s2/favicons?domain=replo.app&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/replo.webp",
     "primary_category": "ecommerce-sales",
     "tags": [
       "shopify",
@@ -35495,7 +35423,7 @@
     "description": "Capture, organize, and recall notes with AI assistance.",
     "url": "https://saner.ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=saner.ai&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/saner-ai.webp",
     "primary_category": "productivity",
     "tags": [
       "notes",
@@ -35513,7 +35441,7 @@
     "description": "Summarize papers into flashcards, highlights, and structured summaries.",
     "url": "https://scholarcy.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=scholarcy.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/scholarcy.webp",
     "primary_category": "research-data",
     "tags": [
       "summarize",
@@ -35531,7 +35459,7 @@
     "description": "AI product descriptions, image editing, and store assistant inside Shopify.",
     "url": "https://shopify.com/magic",
     "logo_url": "https://www.google.com/s2/favicons?domain=shopify.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/shopify-magic.webp",
     "primary_category": "ecommerce-sales",
     "tags": [
       "shopify",
@@ -35549,7 +35477,7 @@
     "description": "Automated, AI-warmed email sequences with unlimited mailboxes.",
     "url": "https://smartlead.ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=smartlead.ai&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/smartlead.webp",
     "primary_category": "ecommerce-sales",
     "tags": [
       "email"
@@ -35566,7 +35494,7 @@
     "description": "Inbox zero with AI triage, replies, and snippets.",
     "url": "https://superhuman.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=superhuman.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/superhuman.webp",
     "primary_category": "productivity",
     "tags": [
       "email"
@@ -35583,7 +35511,7 @@
     "description": "Real-time transcripts, summaries, and action items for Zoom/Meet/Teams.",
     "url": "https://tactiq.io",
     "logo_url": "https://www.google.com/s2/favicons?domain=tactiq.io&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/tactiq.webp",
     "primary_category": "productivity",
     "tags": [
       "meetings",
@@ -35601,7 +35529,7 @@
     "description": "Create content, schedule, and engage on LinkedIn with AI.",
     "url": "https://taplio.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=taplio.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/taplio.webp",
     "primary_category": "seo-marketing",
     "tags": [
       "linkedin"
@@ -35618,7 +35546,7 @@
     "description": "Natural-language search and AI-powered insights on your data.",
     "url": "https://thoughtspot.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=thoughtspot.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/thoughtspot.webp",
     "primary_category": "business-analytics",
     "tags": [
       "bi",
@@ -35636,7 +35564,7 @@
     "description": "AI-powered email warmup to improve deliverability and sender reputation.",
     "url": "https://warmbox.ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=warmbox.ai&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/warmbox.webp",
     "primary_category": "ecommerce-sales",
     "tags": [
       "email",
@@ -35654,7 +35582,7 @@
     "description": "Connect 7,000+ apps to automate workflows, now with AI actions.",
     "url": "https://zapier.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=zapier.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/zapier.webp",
     "primary_category": "productivity",
     "tags": [
       "automation",
@@ -35672,7 +35600,7 @@
     "description": "Open-source AI coding assistant that edits code in your git repo via chat.",
     "url": "https://aider.chat",
     "logo_url": "https://www.google.com/s2/favicons?domain=aider.chat&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/aider.webp",
     "primary_category": "code-development",
     "tags": [
       "cli",
@@ -35690,7 +35618,7 @@
     "description": "Smart slides that auto-design themselves as you add content.",
     "url": "https://beautiful.ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=beautiful.ai&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/beautiful-ai.webp",
     "primary_category": "writing-content",
     "tags": [
       "presentations"
@@ -35707,7 +35635,7 @@
     "description": "Codebase-aware AI assistant that knows your repos and context.",
     "url": "https://sourcegraph.com/cody",
     "logo_url": "https://www.google.com/s2/favicons?domain=sourcegraph.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/cody.webp",
     "primary_category": "code-development",
     "tags": [
       "enterprise",
@@ -35725,7 +35653,7 @@
     "description": "Open-source AI assistant for VS Code and JetBrains with any model.",
     "url": "https://continue.dev",
     "logo_url": "https://www.google.com/s2/favicons?domain=continue.dev&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/continue.webp",
     "primary_category": "code-development",
     "tags": [
       "oss",
@@ -35743,7 +35671,7 @@
     "description": "Transcribe, search, and analyze meetings across your stack.",
     "url": "https://fireflies.ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=fireflies.ai&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/fireflies.webp",
     "primary_category": "productivity",
     "tags": [
       "meetings"
@@ -35760,7 +35688,7 @@
     "description": "Black Forest Labs' flagship open-weights image generation model.",
     "url": "https://blackforestlabs.ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=blackforestlabs.ai&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/flux.webp",
     "primary_category": "image-video",
     "tags": [
       "oss",
@@ -35778,7 +35706,7 @@
     "description": "Generate decks, docs, and websites from prompts — no design needed.",
     "url": "https://gamma.app",
     "logo_url": "https://www.google.com/s2/favicons?domain=gamma.app&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/gamma.webp",
     "primary_category": "writing-content",
     "tags": [
       "presentations",
@@ -35796,7 +35724,7 @@
     "description": "Turn a prompt into a publish-ready video with script, scenes, and voice.",
     "url": "https://invideo.io/ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=invideo.io&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/invideo-ai.webp",
     "primary_category": "image-video",
     "tags": [
       "video"
@@ -35813,7 +35741,7 @@
     "description": "Generate stylized music videos and animations from audio or images.",
     "url": "https://kaiber.ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=kaiber.ai&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/kaiber.webp",
     "primary_category": "image-video",
     "tags": [
       "video",
@@ -35831,7 +35759,7 @@
     "description": "Real-time image and video generation with fine-grained control.",
     "url": "https://krea.ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=krea.ai&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/krea-ai.webp",
     "primary_category": "image-video",
     "tags": [
       "image",
@@ -35849,7 +35777,7 @@
     "description": "Remove background noise, transcribe, and summarize meetings.",
     "url": "https://krisp.ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=krisp.ai&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/krisp.webp",
     "primary_category": "productivity",
     "tags": [
       "meetings",
@@ -35867,7 +35795,7 @@
     "description": "Real-time transcription, summaries, and action items for meetings.",
     "url": "https://otter.ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=otter.ai&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/otter.webp",
     "primary_category": "productivity",
     "tags": [
       "meetings"
@@ -35884,7 +35812,7 @@
     "description": "Background removal, batch editing, and product photos for sellers.",
     "url": "https://photoroom.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=photoroom.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/photoroom.webp",
     "primary_category": "image-video",
     "tags": [
       "ecommerce",
@@ -35902,7 +35830,7 @@
     "description": "Save, enrich, and reuse code snippets with on-device AI.",
     "url": "https://pieces.app",
     "logo_url": "https://www.google.com/s2/favicons?domain=pieces.app&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/pieces.webp",
     "primary_category": "code-development",
     "tags": [
       "snippets"
@@ -35919,7 +35847,7 @@
     "description": "Collaborative decks with smart templates and AI assistance.",
     "url": "https://pitch.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=pitch.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/pitch.webp",
     "primary_category": "writing-content",
     "tags": [
       "presentations"
@@ -35936,7 +35864,7 @@
     "description": "AI background removal for product photos, portraits, and more.",
     "url": "https://remove.bg",
     "logo_url": "https://www.google.com/s2/favicons?domain=remove.bg&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/remove-bg.webp",
     "primary_category": "image-video",
     "tags": [
       "photos",
@@ -35954,7 +35882,7 @@
     "description": "Autonomous agent inside Replit that builds, tests, and deploys apps.",
     "url": "https://replit.com/ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=replit.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/replit-agent.webp",
     "primary_category": "code-development",
     "tags": [
       "agent",
@@ -35972,7 +35900,7 @@
     "description": "Stable Diffusion, Stable Video, and APIs for image and video generation.",
     "url": "https://stability.ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=stability.ai&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/stability-ai.webp",
     "primary_category": "image-video",
     "tags": [
       "oss",
@@ -35990,7 +35918,7 @@
     "description": "Turn text, blog posts, and audio into animated videos.",
     "url": "https://steve.ai",
     "logo_url": "https://www.google.com/s2/favicons?domain=steve.ai&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/steve-ai.webp",
     "primary_category": "image-video",
     "tags": [
       "video"
@@ -36007,7 +35935,7 @@
     "description": "Tasks, notes, and chat in one AI-powered workspace.",
     "url": "https://taskade.com",
     "logo_url": "https://www.google.com/s2/favicons?domain=taskade.com&sz=64",
-    "screenshot_url": null,
+    "screenshot_url": "/screenshots/taskade.webp",
     "primary_category": "productivity",
     "tags": [
       "tasks",
