@@ -12,7 +12,6 @@ import {
   breadcrumbJsonLd,
 } from "@/lib/seo/tool-schema";
 import { getPublicToolBySlug, getPublicTools } from "@/lib/public-catalog";
-import { pricingLabel } from "@/lib/tool-score";
 import { siteUrl } from "@/lib/site";
 import { cn } from "@/lib/utils";
 import type { Tool } from "@/lib/supabase/types";
@@ -56,7 +55,7 @@ function deriveMetaDescription(tool: Tool): string {
   }
   const firstSentence = source.split(/(?<=[.!?])\s+/)[0] ?? source;
   const trailing =
-    " Listed on aiknows.tools — see source, pricing, and recorded evidence.";
+    " Listed on aiknows.tools — see source, recorded evidence, and editorial notes.";
   const budget = 158 - trailing.length;
   const head =
     firstSentence.length <= budget
@@ -99,7 +98,6 @@ function deriveFAQs(tool: Tool, categoryLabel: string, domain: string | null): F
   const name = tool.name;
   const tagline = tool.tagline?.trim();
   const description = tool.description?.trim();
-  const pricing = pricingLabel(tool.pricing_type);
   const pricingDetail = tool.pricing_detail?.trim();
 
   const faqs: Faq[] = [
@@ -115,17 +113,10 @@ function deriveFAQs(tool: Tool, categoryLabel: string, domain: string | null): F
     },
   ];
 
-  if (pricing !== "—") {
-    faqs.push({
-      question: `How is ${name} priced?`,
-      answer: pricingDetail
-        ? `The record shows ${name} as ${pricing}. Additional pricing detail recorded: "${pricingDetail}".`
-        : `The record shows ${name} as ${pricing}. No further pricing detail is recorded for this entry.`,
-    });
-  } else {
+  if (pricingDetail) {
     faqs.push({
       question: `Is ${name} free to use?`,
-      answer: `Pricing for ${name} is not recorded in the AIknows index. The recorded entry does not carry a pricing_type value. Visit the official website to check current plans.`,
+      answer: `Editor's note on ${name}: ${pricingDetail}. For current plans and pricing, visit the official website.`,
     });
   }
 
@@ -172,8 +163,6 @@ export default async function ToolDetailPage({ params }: Props) {
 
   const allTools = await getPublicTools();
   const related = relatedTools(allTools, tool);
-  const pricing = pricingLabel(tool.pricing_type);
-  const pricingDetail = tool.pricing_detail?.trim();
   const category = categoryName(tool.primary_category);
   const domain = extractDomain(tool.url);
   const toolJsonLdBlock = toolJsonLd({ tool, categoryName: category, siteUrl });
@@ -365,12 +354,11 @@ export default async function ToolDetailPage({ params }: Props) {
                   tool.description && "description",
                   tool.tags.length > 0 && "tags",
                   tool.source && "source",
-                  tool.pricing_type && "pricing",
                   tool.pricing_detail && "pricing detail",
                   typeof tool.dr === "number" && "DR",
                   tool.screenshot_url && "screenshot",
                   tool.logo_url && "logo",
-                ].filter(Boolean).length} / 11 recorded
+                ].filter(Boolean).length} / 10 recorded
               </span>
             </div>
             <dl className="mt-4 grid grid-cols-1 gap-x-8 border-y border-border sm:grid-cols-2">
@@ -378,11 +366,6 @@ export default async function ToolDetailPage({ params }: Props) {
               <FieldRow
                 label="Description"
                 recorded={!!tool.description?.trim()}
-              />
-              <FieldRow
-                label="Pricing type"
-                recorded={pricing !== "—"}
-                value={pricing !== "—" ? pricing : undefined}
               />
               <FieldRow
                 label="Pricing detail"
@@ -454,11 +437,6 @@ export default async function ToolDetailPage({ params }: Props) {
             </p>
             <dl className="mt-4 space-y-2.5 text-sm">
               <SidebarField label="Domain" value={domain ?? "Not recorded"} mono />
-              <SidebarField
-                label="Pricing"
-                value={pricing === "—" ? "Not recorded" : pricing}
-                mono
-              />
               {typeof tool.dr === "number" && (
                 <SidebarField label="DR" value={String(tool.dr)} mono />
               )}

@@ -13,7 +13,7 @@ Do not position the product as a launch feed, a generic marketplace, or a user-r
 ## Principles
 
 1. **Evidence over assertion.** Never imply a tool is human-reviewed, verified, popular, or recommended unless the displayed record supports it.
-2. **Show information gaps.** Missing verification, pricing, category, or editorial fields are product facts, not UI defects to hide.
+2. **Show information gaps.** Missing verification, category, or editorial fields are product facts, not UI defects to hide.
 3. **Editorial entry, analytical depth.** Landing and collection pages set a clear point of view; tools and directories make comparison fast.
 4. **Calm density.** Prefer an orderly index, tables, dossiers, and concise metadata over decorative card walls.
 5. **Functional motion only.** Animation must clarify interaction or state change, not become ambient decoration.
@@ -81,9 +81,9 @@ Avoid centered, generic SaaS heroes and feature-card triptychs.
 ### Tool catalogue
 
 - Default to an information-dense list or table-led index; cards remain an optional browsing mode.
-- Search, task, pricing, and audience filters are visible and easy to reset.
+- Search, task, and audience filters are visible and easy to reset.
 - Show AIknows Score with a direct link or disclosure to its evidence basis.
-- Use category, pricing, score, last-updated data, and explicit missing fields to support scanning.
+- Use category, score, last-updated data, and explicit missing fields to support scanning.
 - Never substitute invented popularity, ratings, review counts, freshness, or expert opinions.
 
 ### Tool detail dossiers

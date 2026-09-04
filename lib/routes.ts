@@ -35,7 +35,6 @@ export type RouteStep = {
   description: string;
   filters: {
     category?: PrimaryCategory;
-    pricing?: "free" | "freemium" | "paid";
     tags?: TagSet[];
   };
   /** Pre-built, shareable /tools URL. */
@@ -65,14 +64,6 @@ export const ROUTES: Route[] = [
       },
       {
         index: 2,
-        title: "Refine by availability",
-        description:
-          "Records with pricing_type = free. Reproduces a published query string.",
-        filters: { category: "research-data", pricing: "free" },
-        href: "/tools?category=research-data&pricing=free&view=table",
-      },
-      {
-        index: 3,
         title: "Audit the ledgers",
         description:
           "Read the Evidence Ledger sidebar on each record to confirm what is filed versus missing.",
@@ -96,9 +87,9 @@ export const ROUTES: Route[] = [
       },
       {
         index: 2,
-        title: "Confirm source and price detail",
+        title: "Confirm source and evidence",
         description:
-          "Filter by price detail recorded so the comparison can read prior values.",
+          "Open each record and read the Evidence Ledger to verify source and recorded fields.",
         filters: { category: "code-development" },
         href: "/tools?category=code-development&view=table",
       },
@@ -127,17 +118,17 @@ export const ROUTES: Route[] = [
       },
       {
         index: 2,
-        title: "Narrow to freemium",
+        title: "Cross-check SEO & marketing",
         description:
-          "Same record set with pricing_type filter applied.",
-        filters: { category: "writing-content", pricing: "freemium" },
-        href: "/tools?category=writing-content&pricing=freemium&view=table",
+          "Same methodology applied to records filed under seo-marketing.",
+        filters: { category: "seo-marketing" },
+        href: "/tools?category=seo-marketing&view=table",
       },
       {
         index: 3,
         title: "Read the ledger",
         description:
-          "Evidence sidebar tells you whether pricing detail, source, and recorded verification are on file.",
+          "Evidence sidebar tells you whether source and recorded verification are on file.",
         filters: {},
         href: "/tools?view=table",
       },
@@ -211,4 +202,4 @@ export function findRouteBySlug(slug: string): Route | undefined {
   return ROUTES.find((r) => r.slug === slug);
 }
 
-export const ROUTE_VERSION = "2026-07-23";
+export const ROUTE_VERSION = "2026-09-04";

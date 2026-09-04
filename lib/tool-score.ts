@@ -38,9 +38,6 @@ export const TASKS = [
 ] as const;
 export type Task = (typeof TASKS)[number];
 
-export const PRICING_OPTIONS = ["Free", "Freemium", "Paid"] as const;
-export type PricingOption = (typeof PRICING_OPTIONS)[number];
-
 export const USER_TYPES = [
   "Founder",
   "Creator",
@@ -96,7 +93,6 @@ export type SortDir = "asc" | "desc";
 export interface ToolFilters {
   q: string;
   task?: Task | null;
-  pricing?: PricingOption | null;
   userType?: UserTypeFilter | null;
   sort: SortKey;
   dir: SortDir;
@@ -135,16 +131,6 @@ export function filterTools(tools: Tool[], filters: ToolFilters): Tool[] {
       const cats = USER_TYPE_TO_CATEGORIES[filters.userType] ?? [];
       if (!cats.includes(t.primary_category)) return false;
     }
-    if (filters.pricing) {
-      const pt = t.pricing_type;
-      if (filters.pricing === "Free") {
-        if (pt !== "free") return false;
-      } else if (filters.pricing === "Freemium") {
-        if (pt !== "freemium") return false;
-      } else if (filters.pricing === "Paid") {
-        if (pt !== "paid" && pt !== "enterprise") return false;
-      }
-    }
     return true;
   });
 
@@ -173,21 +159,6 @@ export function filterTools(tools: Tool[], filters: ToolFilters): Tool[] {
     });
   }
   return out;
-}
-
-export function pricingLabel(p: Tool["pricing_type"]): string {
-  switch (p) {
-    case "free":
-      return "Free";
-    case "freemium":
-      return "Freemium";
-    case "paid":
-      return "Paid";
-    case "enterprise":
-      return "Enterprise";
-    default:
-      return "—";
-  }
 }
 
 export function timeLabel(iso: string | null | undefined): string {

@@ -59,7 +59,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const n = toolCount.toLocaleString();
   return pageMetadata({
     title: `Best AI Tools Directory — Find & Compare ${n}+ AI Tools by Category`,
-    description: `Discover and compare ${n}+ AI tools across 50+ categories. Browse text-to-image, video generation, coding assistants, writing tools, and more — each with pricing, features, and verified data sources.`,
+    description: `Discover and compare ${n}+ AI tools across 50+ categories. Browse text-to-image, video generation, coding assistants, writing tools, and more — each with features, category placement, and verified data sources.`,
     path: "/",
     absoluteTitle: true,
   });

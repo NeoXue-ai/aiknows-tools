@@ -20,14 +20,13 @@ import {
 } from "@/components/ui/select";
 import { buttonVariants } from "@/components/ui/button-variants";
 import { cn } from "@/lib/utils";
-import type { Category, PricingType } from "@/lib/supabase/types";
+import type { Category } from "@/lib/supabase/types";
 
 type FormState = {
   tool_name: string;
   tool_url: string;
   description: string;
   category: string;
-  pricing_type: PricingType;
   submitter_email: string;
   logo_url: string;
   screenshot_url: string;
@@ -38,7 +37,6 @@ const INITIAL_STATE: FormState = {
   tool_url: "",
   description: "",
   category: "",
-  pricing_type: "freemium",
   submitter_email: "",
   logo_url: "",
   screenshot_url: "",
@@ -94,7 +92,6 @@ export function SubmitForm({ categories }: SubmitFormProps) {
           tool_url: form.tool_url.trim(),
           description: form.description.trim(),
           category: form.category,
-          pricing_type: form.pricing_type,
           submitter_email: form.submitter_email.trim(),
           logo_url: form.logo_url.trim() || null,
           screenshot_url: form.screenshot_url.trim() || null,
@@ -203,44 +200,23 @@ export function SubmitForm({ categories }: SubmitFormProps) {
           />
         </Field>
 
-        <div className="grid gap-7 sm:grid-cols-2">
-          <Field label="Category" htmlFor="category" required>
-            <Select
-              value={form.category}
-              onValueChange={(value) => update("category", value ?? "")}
-            >
-              <SelectTrigger id="category" className="h-10 w-full">
-                <SelectValue placeholder="Pick a category" />
-              </SelectTrigger>
-              <SelectContent>
-                {categories.map((c) => (
-                  <SelectItem key={c.slug} value={c.slug}>
-                    {c.name}
-                  </SelectItem>
-                ))}
-              </SelectContent>
-            </Select>
-          </Field>
-
-          <Field label="Pricing" htmlFor="pricing_type" required>
-            <Select
-              value={form.pricing_type}
-              onValueChange={(value) =>
-                update("pricing_type", (value as PricingType) ?? "freemium")
-              }
-            >
-              <SelectTrigger id="pricing_type" className="h-10 w-full">
-                <SelectValue placeholder="Pick pricing model" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="free">Free</SelectItem>
-                <SelectItem value="freemium">Freemium</SelectItem>
-                <SelectItem value="paid">Paid</SelectItem>
-                <SelectItem value="enterprise">Enterprise</SelectItem>
-              </SelectContent>
-            </Select>
-          </Field>
-        </div>
+        <Field label="Category" htmlFor="category" required>
+          <Select
+            value={form.category}
+            onValueChange={(value) => update("category", value ?? "")}
+          >
+            <SelectTrigger id="category" className="h-10 w-full">
+              <SelectValue placeholder="Pick a category" />
+            </SelectTrigger>
+            <SelectContent>
+              {categories.map((c) => (
+                <SelectItem key={c.slug} value={c.slug}>
+                  {c.name}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </Field>
 
         <Field
           label="Your email"

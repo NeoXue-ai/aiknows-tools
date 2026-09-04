@@ -1,25 +1,14 @@
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { ToolLogo } from "@/components/tool-logo";
-import { pricingLabel } from "@/lib/tool-score";
 import { categoryName } from "@/lib/seo/tool-schema";
-import { cn } from "@/lib/utils";
 import type { Tool } from "@/lib/supabase/types";
-
-const PRICING_DOT: Record<string, string> = {
-  Free: "bg-emerald-500",
-  Freemium: "bg-amber-500",
-  Paid: "bg-accent",
-  Enterprise: "bg-violet-500",
-};
 
 /**
  * Compact tool card used in the homepage trending strip.
- * Records only what fits a scannable grid: identity, tagline, category, pricing.
+ * Records only what fits a scannable grid: identity, tagline, category.
  */
 export function ToolCardCompact({ tool }: { tool: Tool }) {
-  const pricing = pricingLabel(tool.pricing_type);
-
   return (
     <div className="group/row relative h-full overflow-hidden rounded-xl border border-border bg-card p-5 transition-colors hover:border-accent/40">
       <div className="flex items-start gap-3">
@@ -39,21 +28,6 @@ export function ToolCardCompact({ tool }: { tool: Tool }) {
           <span className="font-mono uppercase tracking-[0.08em] text-foreground/70">
             {categoryName(tool.primary_category)}
           </span>
-          {pricing !== "—" && (
-            <>
-              <span aria-hidden className="text-border">·</span>
-              <span className="inline-flex items-center gap-1">
-                <span
-                  aria-hidden
-                  className={cn(
-                    "h-1.5 w-1.5 rounded-full",
-                    PRICING_DOT[pricing] ?? "bg-muted-foreground",
-                  )}
-                />
-                {pricing}
-              </span>
-            </>
-          )}
         </div>
         <a
           href={tool.url}

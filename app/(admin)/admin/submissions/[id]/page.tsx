@@ -125,16 +125,6 @@ export default async function AdminSubmissionDetailPage({
                 )}
               </DetailRow>
 
-              <DetailRow label="Pricing">
-                {submission.pricing_type ? (
-                  <span className="inline-flex items-center rounded-full border border-border bg-secondary/40 px-2 py-0.5 text-[11px] font-medium text-foreground/90">
-                    {submission.pricing_type}
-                  </span>
-                ) : (
-                  <span className="text-muted-foreground">—</span>
-                )}
-              </DetailRow>
-
               <DetailRow
                 label="Logo URL"
                 icon={ImageIcon}

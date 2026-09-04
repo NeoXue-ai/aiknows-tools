@@ -44,6 +44,7 @@ next-env.d.ts
 # design scratch + session data backups
 /.screenshots/
 /data/tools*.bak*.json
+/data/tools.json.bak
 
 # GSC CLI auth token (created by `pnpm gsc auth`)
 /.gsc-token.json

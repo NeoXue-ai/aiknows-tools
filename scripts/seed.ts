@@ -17,7 +17,6 @@ import { createClient } from "@supabase/supabase-js";
 import { readFile } from "node:fs/promises";
 import { resolve } from "node:path";
 
-type PricingType = "free" | "freemium" | "paid" | "enterprise";
 type SubmissionType = "free" | "paid" | "both";
 type LinkType = "dofollow" | "nofollow";
 type DirectoryStatus = "active" | "dead" | "unknown";
@@ -32,7 +31,6 @@ interface SeedTool {
   logo_url: string | null;
   primary_category: string;
   tags: string[];
-  pricing_type: PricingType | null;
   pricing_detail: string | null;
   source: string | null;
 }
@@ -95,7 +93,6 @@ async function main() {
       logo_url: t.logo_url,
       primary_category: t.primary_category,
       tags: t.tags,
-      pricing_type: t.pricing_type,
       pricing_detail: t.pricing_detail,
       source: t.source,
     }));

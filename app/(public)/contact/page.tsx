@@ -79,7 +79,7 @@ export default function ContactPage() {
               {
                 label: "Corrections",
                 detail:
-                  "A record that has drifted from reality — wrong category, missing tags, changed pricing, dead link. Send the URL of the dossier so we can locate the row.",
+                  "A record that has drifted from reality — wrong category, missing tags, dead link. Send the URL of the dossier so we can locate the row.",
               },
               {
                 label: "Submission status",

@@ -2,7 +2,6 @@
 // Run `pnpm dlx supabase gen types typescript --local` to regenerate from schema.
 
 export type ToolStatus = 'pending' | 'approved' | 'rejected'
-export type PricingType = 'free' | 'freemium' | 'paid' | 'enterprise'
 export type DirectoryStatus = 'active' | 'dead' | 'unknown'
 export type SubmissionType = 'free' | 'paid' | 'both'
 export type LinkType = 'dofollow' | 'nofollow'
@@ -28,7 +27,6 @@ export interface Tool {
   primary_category: string
   sub?: string | null
   tags: string[]
-  pricing_type: PricingType | null
   pricing_detail: string | null
   source: string | null
   dr: number | null
@@ -68,7 +66,6 @@ export interface Submission {
   tool_url: string
   description: string | null
   category: string | null
-  pricing_type: PricingType | null
   submitter_email: string
   logo_url: string | null
   screenshot_url: string | null

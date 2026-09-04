@@ -4,7 +4,6 @@ import { resolve } from "node:path";
 type ToolRecord = {
   slug: string;
   primary_category?: string | null;
-  pricing_type?: string | null;
   pricing_detail?: string | null;
   tagline?: string | null;
   description?: string | null;
@@ -59,7 +58,6 @@ async function main() {
       source: tools.filter((tool) => nonEmpty(tool.source)).length,
       featured: tools.filter((tool) => tool.is_featured).length,
       verified: tools.filter((tool) => tool.is_verified).length,
-      pricingTypes: countBy(tools, (tool) => tool.pricing_type),
     },
     directories: {
       total: directories.length,

@@ -24,7 +24,7 @@ export default async function AdminToolsPage() {
       supabase
         .from("tools")
         .select(
-          "id, slug, name, primary_category, pricing_type, is_featured, is_verified, status, published_at"
+          "id, slug, name, primary_category, is_featured, is_verified, status, published_at"
         )
         .order("created_at", { ascending: false })
         .limit(200),
@@ -41,7 +41,6 @@ export default async function AdminToolsPage() {
     | "slug"
     | "name"
     | "primary_category"
-    | "pricing_type"
     | "is_featured"
     | "is_verified"
     | "status"
@@ -87,7 +86,6 @@ export default async function AdminToolsPage() {
               <TableRow className="border-b border-border/60 bg-secondary/30 hover:bg-secondary/30">
                 <TableHead>Name</TableHead>
                 <TableHead>Category</TableHead>
-                <TableHead>Pricing</TableHead>
                 <TableHead>Status</TableHead>
                 <TableHead>Published</TableHead>
                 <TableHead className="text-right">Actions</TableHead>
@@ -117,15 +115,6 @@ export default async function AdminToolsPage() {
                       {categoriesBySlug[tool.primary_category] ??
                         tool.primary_category}
                     </span>
-                  </TableCell>
-                  <TableCell>
-                    {tool.pricing_type ? (
-                      <span className="inline-flex items-center rounded-full border border-border bg-secondary/40 px-2 py-0.5 text-[11px] font-medium text-foreground/90">
-                        {tool.pricing_type}
-                      </span>
-                    ) : (
-                      <span className="text-muted-foreground">—</span>
-                    )}
                   </TableCell>
                   <TableCell>
                     <StatusBadge status={tool.status} />
