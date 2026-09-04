@@ -29,10 +29,12 @@ interface SeedTool {
   description: string | null;
   url: string;
   logo_url: string | null;
+  screenshot_url: string | null;
   primary_category: string;
   tags: string[];
   pricing_detail: string | null;
   source: string | null;
+  sub: string | null;
 }
 
 type ToolsSnapshot = { tools?: SeedTool[] } | SeedTool[];
@@ -91,10 +93,12 @@ async function main() {
       description: t.description,
       url: t.url,
       logo_url: t.logo_url,
+      screenshot_url: t.screenshot_url,
       primary_category: t.primary_category,
       tags: t.tags,
       pricing_detail: t.pricing_detail,
       source: t.source,
+      sub: t.sub,
     }));
 
     const chunkSize = 50;
