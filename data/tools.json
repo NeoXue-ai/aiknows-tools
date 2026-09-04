@@ -270,21 +270,6 @@
     "sub": "AI Image Generator"
   },
   {
-    "slug": "agiletask",
-    "name": "AgileTask",
-    "tagline": "AgileTask turns one goal into a structured one-week sprint — tasks scoped and sized to the days you actually have — then closes the loop with an…",
-    "description": "AgileTask turns one goal into a structured one-week sprint — tasks scoped and sized to the days you actually have — then closes the loop with an end-of-sprint review of what shipped. It's built for solo founders and one-person teams who want agile's focus without the ceremony of a full project-management suite. Web-based, free to start, paid plan for unlimited sprints.",
-    "url": "https://agiletask.ai",
-    "logo_url": "https://www.google.com/s2/favicons?domain=agiletask.ai&sz=64",
-    "screenshot_url": "/screenshots/agiletask.webp",
-    "primary_category": "productivity",
-    "tags": [],
-    "pricing_detail": null,
-    "source": null,
-    "dr": 5,
-    "sub": "Productivity Tools"
-  },
-  {
     "slug": "ai-3d-model-generator",
     "name": "AI 3D Model Generator",
     "tagline": "Generate AI 3D models from text or images using Hunyuan 3D and Seed3D. Free online AI 3D model generator — no 3D skills needed, export GLB instantly.",
@@ -4230,21 +4215,6 @@
     "sub": "AI Agent"
   },
   {
-    "slug": "claude-image",
-    "name": "Claude image",
-    "tagline": "Claude Image is your free Claude Image Generator and Claude Image AI tool",
-    "description": "Claude Image is your free Claude Image Generator and Claude Image AI tool. Create and edit images with Claude AI Image Model online. Try Claude Image Online Free — no signup required.",
-    "url": "https://www.claude-image.app",
-    "logo_url": "https://www.google.com/s2/favicons?domain=claude-image.app&sz=64",
-    "screenshot_url": "/screenshots/claude-image.webp",
-    "primary_category": "image-video",
-    "tags": [],
-    "pricing_detail": null,
-    "source": null,
-    "dr": 29,
-    "sub": "AI Image Generator"
-  },
-  {
     "slug": "clausify",
     "name": "Clausify",
     "tagline": "AI-powered contract scanner for freelancers, consultants, and small business owners",
@@ -5457,21 +5427,6 @@
     "pricing_detail": null,
     "source": null,
     "dr": 32,
-    "sub": "Productivity Tools"
-  },
-  {
-    "slug": "deepseeds-start-generating-seo-content-briefs",
-    "name": "DeepSeeds - Start Generating SEO Content Briefs",
-    "tagline": "DeepSeeds is an AI-powered SEO productivity tool that generates structured, actionable Content Briefs and Content Refresh Plans",
-    "description": "DeepSeeds is an AI-powered SEO productivity tool that generates structured, actionable Content Briefs and Content Refresh Plans. Transform your content workflow with AI-driven insights.",
-    "url": "https://deepseeds.net",
-    "logo_url": "https://www.google.com/s2/favicons?domain=deepseeds.net&sz=64",
-    "screenshot_url": "/screenshots/deepseeds-start-generating-seo-content-briefs.webp",
-    "primary_category": "productivity",
-    "tags": [],
-    "pricing_detail": null,
-    "source": null,
-    "dr": 5,
     "sub": "Productivity Tools"
   },
   {
@@ -8610,21 +8565,6 @@
     "sub": "Fintech"
   },
   {
-    "slug": "goodgoodbad",
-    "name": "goodgoodbad",
-    "tagline": "Every review follows a strict format: ✅ Something genuinely good (140 chars) ✅ Another good thing (140 chars) ❌ Something genuinely bad (140 chars)…",
-    "description": "Every review follows a strict format: ✅ Something genuinely good (140 chars) ✅ Another good thing (140 chars) ❌ Something genuinely bad (140 chars) No star ratings. No sign-ups. No long reviews nobody reads.",
-    "url": "https://goodgoodbad.com",
-    "logo_url": "https://www.google.com/s2/favicons?domain=goodgoodbad.com&sz=64",
-    "screenshot_url": "/screenshots/goodgoodbad.webp",
-    "primary_category": "seo-marketing",
-    "tags": [],
-    "pricing_detail": null,
-    "source": null,
-    "dr": 2.2,
-    "sub": "AI Ad Creative"
-  },
-  {
     "slug": "gotostudy",
     "name": "Gotostudy",
     "tagline": "Upload files or links to make English study guides, notes, flashcards, and 1:1 AI Tutor lessons for IELTS, TOEFL, and fast English learning.",
@@ -8742,21 +8682,6 @@
     "pricing_detail": null,
     "source": null,
     "dr": 9,
-    "sub": "AI Image Generator"
-  },
-  {
-    "slug": "gpt-image-2-2",
-    "name": "GPT Image 2",
-    "tagline": "ImageGen 2 — the ultimate AI image generator powered by OpenAI&#x27;s GPT Image 2. Create stunning, photorealistic images from text in milliseconds.",
-    "description": "ImageGen 2 — the ultimate AI image generator powered by OpenAI&#x27;s GPT Image 2. Create stunning, photorealistic images from text in milliseconds.",
-    "url": "https://gpt-image-2.blog/",
-    "logo_url": "https://www.google.com/s2/favicons?domain=gpt-image-2.blog&sz=64",
-    "screenshot_url": "/screenshots/gpt-image-2-16.webp",
-    "primary_category": "image-video",
-    "tags": [],
-    "pricing_detail": null,
-    "source": null,
-    "dr": 18,
     "sub": "AI Image Generator"
   },
   {
@@ -11550,21 +11475,6 @@
     "sub": "AI Entertainment"
   },
   {
-    "slug": "kimi-k25",
-    "name": "Kimi K2.5",
-    "tagline": "Kimi K2.5 is an open-weight native multimodal model from Moonshot AI, continued-trained on ~15T multimodal tokens for 256K context, visual coding,…",
-    "description": "Kimi K2.5 is an open-weight native multimodal model from Moonshot AI, continued-trained on ~15T multimodal tokens for 256K context, visual coding, and agent swarms.",
-    "url": "https://kimik25.net",
-    "logo_url": "https://www.google.com/s2/favicons?domain=kimik25.net&sz=64",
-    "screenshot_url": "/screenshots/kimi-k2-5-1.webp",
-    "primary_category": "productivity",
-    "tags": [],
-    "pricing_detail": null,
-    "source": null,
-    "dr": 8,
-    "sub": "AI Models"
-  },
-  {
     "slug": "kindly-prompt",
     "name": "Kindly Prompt",
     "tagline": "An AI workspace to generate detailed prompts, design documents, and agent skills from simple ideas for coding tools.",
@@ -11742,21 +11652,6 @@
     "pricing_detail": null,
     "source": null,
     "dr": 11,
-    "sub": "AI Video Generator"
-  },
-  {
-    "slug": "kling-30",
-    "name": "Kling 3.0",
-    "tagline": "Generate stunning 15-second videos with native audio from text, images, or references",
-    "description": "Generate stunning 15-second videos with native audio from text, images, or references. Kling 3.0 — the most advanced unified AI video creation platform.",
-    "url": "https://kling3.pro",
-    "logo_url": "https://www.google.com/s2/favicons?domain=kling3.pro&sz=64",
-    "screenshot_url": "/screenshots/kling-3-0-1.webp",
-    "primary_category": "image-video",
-    "tags": [],
-    "pricing_detail": null,
-    "source": null,
-    "dr": 14,
     "sub": "AI Video Generator"
   },
   {
@@ -17685,21 +17580,6 @@
     "sub": "AI Image Generator"
   },
   {
-    "slug": "qwen3-tts",
-    "name": "Qwen3 TTS",
-    "tagline": "Qwen3-TTS is an Apache-2.0 open-source TTS model series for voice design, fast voice cloning, controllable synthesis, and 97ms streaming latency with…",
-    "description": "Qwen3-TTS is an Apache-2.0 open-source TTS model series for voice design, fast voice cloning, controllable synthesis, and 97ms streaming latency with 10-language coverage.",
-    "url": "https://qwen3tts.app/",
-    "logo_url": "https://www.google.com/s2/favicons?domain=qwen3tts.app&sz=64",
-    "screenshot_url": "/screenshots/qwen3-tts-4.webp",
-    "primary_category": "image-video",
-    "tags": [],
-    "pricing_detail": null,
-    "source": null,
-    "dr": 5,
-    "sub": "AI Voice Cloning"
-  },
-  {
     "slug": "qwen3-tts-2",
     "name": "Qwen3 TTS",
     "tagline": "Experience Qwen3 TTS revolutionary AI text to speech with 97ms processing. Free demo with 17 voices across 10 languages including Chinese dialects.",
@@ -19482,21 +19362,6 @@
     "pricing_detail": null,
     "source": null,
     "dr": 13,
-    "sub": "AI Video Generator"
-  },
-  {
-    "slug": "seedance-2-2",
-    "name": "Seedance 2",
-    "tagline": "Create stunning AI videos with Seedance 2.0. Transform images and text into cinematic videos with advanced motion synthesis and professional quality.",
-    "description": "Create stunning AI videos with Seedance 2.0. Transform images and text into cinematic videos with advanced motion synthesis and professional quality.",
-    "url": "https://seedance2.ai",
-    "logo_url": "https://www.google.com/s2/favicons?domain=seedance2.ai&sz=64",
-    "screenshot_url": "/screenshots/seedance-2.webp",
-    "primary_category": "image-video",
-    "tags": [],
-    "pricing_detail": null,
-    "source": null,
-    "dr": 46,
     "sub": "AI Video Generator"
   },
   {
@@ -23025,21 +22890,6 @@
     "sub": "Directories"
   },
   {
-    "slug": "toon-composer",
-    "name": "Toon Composer",
-    "tagline": "Transform sketches into stunning cartoon animations with ToonComposer",
-    "description": "Transform sketches into stunning cartoon animations with ToonComposer. AI-powered generative post-keyframing for streamlined cartoon production by Tencent ARC Lab.",
-    "url": "https://tooncomposer.art",
-    "logo_url": "https://www.google.com/s2/favicons?domain=tooncomposer.art&sz=64",
-    "screenshot_url": "/screenshots/toon-composer.webp",
-    "primary_category": "image-video",
-    "tags": [],
-    "pricing_detail": null,
-    "source": null,
-    "dr": 16,
-    "sub": "AI Avatar Generator"
-  },
-  {
     "slug": "toon-tone",
     "name": "toon tone",
     "tagline": "Tune HSB sliders, match cartoon character colors, get ranked, and share the same five-round challenge with friends.",
@@ -23550,21 +23400,6 @@
     "sub": "AI SEO Tools"
   },
   {
-    "slug": "unblur-image",
-    "name": "Unblur Image",
-    "tagline": "Unblur Image helps you fix blurry and low-quality photos using AI",
-    "description": "Unblur Image helps you fix blurry and low-quality photos using AI. Upload an image, choose 2× or 4× enhancement, and get clean, sharp results fast. Batch processing and credit-based pricing make it easy to use at any scale.",
-    "url": "https://www.unblurimage.app",
-    "logo_url": "https://www.google.com/s2/favicons?domain=unblurimage.app&sz=64",
-    "screenshot_url": "/screenshots/unblur-image.webp",
-    "primary_category": "image-video",
-    "tags": [],
-    "pricing_detail": null,
-    "source": null,
-    "dr": 34,
-    "sub": "AI Photo Editor"
-  },
-  {
     "slug": "unboundai",
     "name": "UnboundAI",
     "tagline": "Generate with uncensored, unrestricted, and unfiltered controls for AI images and AI videos in one platform.",
@@ -23938,21 +23773,6 @@
     "source": null,
     "dr": 35,
     "sub": "AI Entertainment"
-  },
-  {
-    "slug": "usvisaphotoai",
-    "name": "Usvisaphotoai",
-    "tagline": "USVisaPhotoAI – AI Visa Photo Maker & Validator USVisaPhotoAI is an AI-powered online tool that creates and validates U.S",
-    "description": "USVisaPhotoAI – AI Visa Photo Maker & Validator USVisaPhotoAI is an AI-powered online tool that creates and validates U.S. visa and passport photos according to official government requirements. It automates the entire process, allowing users to convert a simple photo into a fully compliant biometric photo within seconds. The platform includes a visa photo maker, auto crop and resize engine, background remover, and a compliance validator. It ensures that photos meet strict specifications such as",
-    "url": "https://www.usvisaphotoai.pro/",
-    "logo_url": "https://www.google.com/s2/favicons?domain=usvisaphotoai.pro&sz=64",
-    "screenshot_url": "/screenshots/usvisaphotoai.webp",
-    "primary_category": "image-video",
-    "tags": [],
-    "pricing_detail": null,
-    "source": null,
-    "dr": 17,
-    "sub": "AI Background Remover"
   },
   {
     "slug": "utilvox",
@@ -27315,21 +27135,6 @@
     "sub": "AI Ad Creative"
   },
   {
-    "slug": "atracker",
-    "name": "Atracker",
-    "tagline": "What it does Atracker is a professional tracker for media buying and paid traffic",
-    "description": "What it does Atracker is a professional tracker for media buying and paid traffic. It is a powerful analytics and tracking system for advertising campaigns that lets you control every click, optimize ROI, and scale your profits. Key benefits - Real-time campaign monitoring and live reporting - Click-level tracking across all traffic sources - Custom metrics, funnels and offer monitoring - AI insights chat and built-in landing page code editor Pricing 14 days free, no credit card required.",
-    "url": "https://atracker.io",
-    "logo_url": "https://www.google.com/s2/favicons?domain=atracker.io&sz=64",
-    "screenshot_url": "/screenshots/atracker.webp",
-    "primary_category": "seo-marketing",
-    "tags": [],
-    "pricing_detail": null,
-    "source": null,
-    "dr": null,
-    "sub": "AI Analytics"
-  },
-  {
     "slug": "atspass",
     "name": "ATSPass",
     "tagline": "What it does AtsPass is a free AI-powered ATS resume checker that scans your resume against Applicant Tracking System filters in seconds",
@@ -27778,21 +27583,6 @@
     "source": null,
     "dr": null,
     "sub": "AI Photo Editor"
-  },
-  {
-    "slug": "coachned",
-    "name": "CoachNed",
-    "tagline": "CoachNed is AI consulting-interview prep",
-    "description": "CoachNed is AI consulting-interview prep. One interviewer. Live voice cases, 7-score debriefs, drills, and firm screens (Casey, CCA, Solve-style, SOVA, PEI). First scored case is free. Independent practice software, not affiliated with Deloitte or MBB.",
-    "url": "https://www.coachned.com",
-    "logo_url": "https://www.google.com/s2/favicons?domain=coachned.com&sz=64",
-    "screenshot_url": "/screenshots/coachned.webp",
-    "primary_category": "research-data",
-    "tags": [],
-    "pricing_detail": null,
-    "source": null,
-    "dr": null,
-    "sub": "AI Tutor"
   },
   {
     "slug": "color-season-ai",
@@ -29910,21 +29700,6 @@
     "sub": "AI Video Generator"
   },
   {
-    "slug": "lyricfast-ai-lyric-video-maker",
-    "name": "LyricFast – AI Lyric Video Maker",
-    "tagline": "Upload one song. Fix only uncertain words. Export a complete release kit.",
-    "description": "Upload one song. Fix only uncertain words. Export a complete release kit.",
-    "url": "https://lyricfast.com",
-    "logo_url": "https://www.google.com/s2/favicons?domain=lyricfast.com&sz=64",
-    "screenshot_url": "/screenshots/lyricfast-ai-lyric-video-maker.webp",
-    "primary_category": "image-video",
-    "tags": [],
-    "pricing_detail": null,
-    "source": null,
-    "dr": null,
-    "sub": "AI Video Generator"
-  },
-  {
     "slug": "magpie",
     "name": "Magpie",
     "tagline": "Magpie is a quiet Chrome side panel for saving images, screenshots, links, and notes into private boards stored on your device",
@@ -30088,21 +29863,6 @@
     "source": null,
     "dr": null,
     "sub": "AI Models"
-  },
-  {
-    "slug": "memovera",
-    "name": "Memovera",
-    "tagline": "Memovera helps teams transcribe meetings, generate AI notes, summarize discussions, and organize conversations into searchable knowledge",
-    "description": "Memovera helps teams transcribe meetings, generate AI notes, summarize discussions, and organize conversations into searchable knowledge. From team meetings to interviews and calls, Memovera turns every conversation into structured, reusable memory.",
-    "url": "https://www.memovera.io",
-    "logo_url": "https://www.google.com/s2/favicons?domain=memovera.io&sz=64",
-    "screenshot_url": "/screenshots/memovera.webp",
-    "primary_category": "productivity",
-    "tags": [],
-    "pricing_detail": null,
-    "source": null,
-    "dr": 8,
-    "sub": "AI Note Taker"
   },
   {
     "slug": "mendphoto",
@@ -31108,21 +30868,6 @@
     "source": null,
     "dr": null,
     "sub": "AI SEO Tools"
-  },
-  {
-    "slug": "playtex-ai",
-    "name": "PLAYTEX AI",
-    "tagline": "PLAYTEX AI is a browser-based AI texture generator and 3D creation workflow for game developers and 3D artists",
-    "description": "PLAYTEX AI is a browser-based AI texture generator and 3D creation workflow for game developers and 3D artists. Generate seamless textures, turn images into repeatable tiles, create seven aligned PBR maps, produce 360° HDRIs, assemble editable mesh worlds, and prepare reviewed assets for supported 3D destinations—all in one workflow. Browse 750+ creator-shared public texture assets with PLAYTEX AI's browser material workflow.",
-    "url": "https://playtex.ai",
-    "logo_url": "https://www.google.com/s2/favicons?domain=playtex.ai&sz=64",
-    "screenshot_url": "/screenshots/playtex-ai.webp",
-    "primary_category": "productivity",
-    "tags": [],
-    "pricing_detail": null,
-    "source": null,
-    "dr": null,
-    "sub": "AI Entertainment"
   },
   {
     "slug": "podtext",
