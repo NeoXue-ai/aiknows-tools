@@ -12,6 +12,11 @@ import {
   breadcrumbJsonLd,
 } from "@/lib/seo/tool-schema";
 import { getPublicToolBySlug, getPublicTools } from "@/lib/public-catalog";
+import {
+  getEditorial,
+  editorialFaqs,
+  type EditorialLink,
+} from "@/lib/editorial-content";
 import { siteUrl } from "@/lib/site";
 import { cn } from "@/lib/utils";
 import type { Tool } from "@/lib/supabase/types";
@@ -174,7 +179,8 @@ export default async function ToolDetailPage({ params }: Props) {
     ],
     siteUrl,
   );
-  const faqs = deriveFAQs(tool, category, domain);
+  const faqs = [...deriveFAQs(tool, category, domain), ...editorialFaqs(tool)];
+  const editorial = getEditorial(slug);
 
   return (
     <div className="container mx-auto max-w-6xl px-4 py-8 md:py-12">
@@ -339,6 +345,70 @@ export default async function ToolDetailPage({ params }: Props) {
               )}
             </div>
           </section>
+
+          {/* Editorial comparison — rendered only when data exists */}
+          {editorial?.comparison && (
+            <section id="sec-compare" className="scroll-mt-24">
+              <div className="flex items-baseline justify-between gap-4">
+                <h2 className="text-xl font-semibold tracking-[-0.02em]">
+                  {editorial.comparison.heading}
+                </h2>
+                <span className="font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground/70">
+                  Editorial
+                </span>
+              </div>
+              <div className="mt-4 space-y-4 text-pretty leading-7 text-foreground/90">
+                {editorial.comparison.paragraphs.map((p, i) => (
+                  <p key={i}>{p}</p>
+                ))}
+              </div>
+              {editorial.comparison.points &&
+                editorial.comparison.points.length > 0 && (
+                  <ul className="mt-5 divide-y divide-border border-y border-border">
+                    {editorial.comparison.points.map((pt) => (
+                      <li
+                        key={pt.label}
+                        className="flex flex-col gap-1 py-3.5 sm:flex-row sm:items-baseline sm:gap-6"
+                      >
+                        <span className="shrink-0 font-mono text-[10px] uppercase tracking-[0.14em] text-accent sm:w-36">
+                          {pt.label}
+                        </span>
+                        <span className="text-sm leading-6 text-foreground/90">
+                          {pt.text}
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              {editorial.externalLinks &&
+                editorial.externalLinks.length > 0 && (
+                  <div className="mt-6">
+                    <p className="font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground">
+                      Related resources
+                    </p>
+                    <ul className="mt-2.5 space-y-1.5">
+                      {editorial.externalLinks.map((link: EditorialLink) => (
+                        <li key={link.url} className="text-sm leading-6">
+                          <a
+                            href={link.url}
+                            target="_blank"
+                            rel="noopener"
+                            className="font-medium text-foreground underline decoration-border underline-offset-4 transition-colors hover:text-accent hover:decoration-accent/50"
+                          >
+                            {link.label}
+                            <ArrowUpRight className="ml-1 inline h-3 w-3 align-[-1px]" />
+                          </a>
+                          <span className="text-muted-foreground">
+                            {" "}
+                            — {link.context}
+                          </span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+            </section>
+          )}
 
           {/* Recorded fields — compact 2-col grid */}
           <section id="sec-fields" className="scroll-mt-24">
