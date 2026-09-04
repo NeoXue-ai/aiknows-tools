@@ -116,7 +116,7 @@ export default async function SubmitPage() {
                 two lines of the description.
               </Criterion>
               <Criterion>
-                Public pricing or a credible free / freemium tier.
+                A clear access story (public sign-up, free tier, or trial).
               </Criterion>
               <Criterion>
                 A working homepage — broken links get auto-rejected.

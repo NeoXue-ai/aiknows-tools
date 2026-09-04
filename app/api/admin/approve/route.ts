@@ -7,9 +7,7 @@ import {
 } from "@/lib/auth/session";
 import { notifySubmitterApproved } from "@/lib/email";
 import { createAdminClient } from "@/lib/supabase/admin";
-import type { PricingType, Submission } from "@/lib/supabase/types";
-
-const PRICING_VALUES: PricingType[] = ["free", "freemium", "paid", "enterprise"];
+import type { Submission } from "@/lib/supabase/types";
 
 function slugify(input: string): string {
   return input
@@ -85,11 +83,6 @@ export async function POST(request: NextRequest) {
   const baseSlug = slugify(submission.tool_name) || "tool";
   const slug = `${baseSlug}-${shortId()}`;
 
-  const pricing: PricingType | null =
-    submission.pricing_type && (PRICING_VALUES as string[]).includes(submission.pricing_type)
-      ? (submission.pricing_type as PricingType)
-      : null;
-
   const category = submission.category ?? "writing-content";
 
   const { data: toolData, error: toolError } = await admin
@@ -104,7 +97,6 @@ export async function POST(request: NextRequest) {
       screenshot_url: submission.screenshot_url,
       primary_category: category,
       tags: [],
-      pricing_type: pricing,
       pricing_detail: null,
       is_featured: false,
       is_verified: false,

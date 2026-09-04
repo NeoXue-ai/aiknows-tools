@@ -3,7 +3,6 @@ import Image from "next/image";
 import { ArrowUpRight, Sparkles } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { ToolLogo } from "@/components/tool-logo";
-import { pricingLabel } from "@/lib/tool-score";
 import { categoryName } from "@/lib/seo/tool-schema";
 import { cn } from "@/lib/utils";
 import type { Tool } from "@/lib/supabase/types";
@@ -21,7 +20,6 @@ export function ToolCard({
   image?: string;
   badge?: string;
 }) {
-  const pricing = pricingLabel(tool.pricing_type);
   const domain = (() => {
     try {
       return new URL(tool.url).hostname.replace(/^www\./, "");
@@ -98,14 +96,12 @@ export function ToolCard({
           {tool.tagline ?? tool.description ?? "Description not recorded."}
         </p>
 
-        {/* Footer: category · pricing + visit CTA */}
+        {/* Footer: category + visit CTA */}
         <div className="flex items-center justify-between gap-2 pt-1">
           <div className="flex items-center gap-2 text-xs text-muted-foreground">
             <span className="font-medium text-foreground/80">
               {categoryName(tool.primary_category)}
             </span>
-            <span aria-hidden>·</span>
-            <span>{pricing === "—" ? "Pricing not recorded" : pricing}</span>
           </div>
           <a
             href={tool.url}

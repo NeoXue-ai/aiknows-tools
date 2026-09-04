@@ -6,16 +6,13 @@ import {
 } from "@/lib/auth/session";
 import { notifyAdminOfSubmission } from "@/lib/email";
 import { createAdminClient } from "@/lib/supabase/admin";
-import type { PricingType, Submission } from "@/lib/supabase/types";
-
-const PRICING_VALUES: PricingType[] = ["free", "freemium", "paid", "enterprise"];
+import type { Submission } from "@/lib/supabase/types";
 
 interface SubmitPayload {
   tool_name?: unknown;
   tool_url?: unknown;
   description?: unknown;
   category?: unknown;
-  pricing_type?: unknown;
   submitter_email?: unknown;
   logo_url?: unknown;
   screenshot_url?: unknown;
@@ -58,7 +55,6 @@ export async function POST(request: NextRequest) {
   const description = asString(body.description, 2000);
   const category = asString(body.category, 100);
   const submitterEmail = asString(body.submitter_email, 320);
-  const pricingTypeRaw = asString(body.pricing_type, 20);
   const logoUrl = asString(body.logo_url, 500);
   const screenshotUrl = asString(body.screenshot_url, 500);
 
@@ -86,10 +82,6 @@ export async function POST(request: NextRequest) {
       { status: 400 }
     );
   }
-  const pricingType: PricingType =
-    pricingTypeRaw && (PRICING_VALUES as string[]).includes(pricingTypeRaw)
-      ? (pricingTypeRaw as PricingType)
-      : "freemium";
 
   if (logoUrl && !isValidUrl(logoUrl)) {
     return NextResponse.json({ error: "Logo URL must be a valid URL" }, { status: 400 });
@@ -109,7 +101,6 @@ export async function POST(request: NextRequest) {
       tool_url: toolUrl,
       description,
       category,
-      pricing_type: pricingType,
       submitter_email: submitterEmail,
       logo_url: logoUrl,
       screenshot_url: screenshotUrl,

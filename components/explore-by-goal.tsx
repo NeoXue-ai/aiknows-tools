@@ -5,14 +5,12 @@ import { cn } from "@/lib/utils";
 
 const FILTERS_DESCRIPTION: Record<string, string> = {
   category: "category",
-  pricing: "pricing",
   tags: "tags",
 };
 
 function summarizeFilters(filters: Route["steps"][number]["filters"]) {
   const parts: string[] = [];
   if (filters.category) parts.push(`category=${filters.category}`);
-  if (filters.pricing) parts.push(`pricing=${filters.pricing}`);
   if (filters.tags && filters.tags.length > 0) {
     parts.push(`tags=${filters.tags.join(",")}`);
   }

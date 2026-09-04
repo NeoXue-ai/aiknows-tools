@@ -128,18 +128,6 @@ function localScreenshot(directoryUrl: string): string | null {
   return existsSync(localPath) ? `/screenshots/${slug}.webp` : null;
 }
 
-/* ── Pricing normalisation ── */
-
-function parsePricing(raw: string | null): "free" | "freemium" | "paid" | "enterprise" | null {
-  if (!raw) return null;
-  const v = raw.toLowerCase().trim();
-  if (v === "free") return "free";
-  if (v === "freemium") return "freemium";
-  if (v === "paid" || v === "premium") return "paid";
-  if (v === "enterprise" || v === "business") return "enterprise";
-  return null;
-}
-
 /* ── Tagline extraction from description ── */
 
 function extractTagline(desc: string | null, max = 150): string | null {
@@ -218,7 +206,6 @@ interface AiknowsTool {
   screenshot_url: string | null;
   primary_category: string;
   tags: string[];
-  pricing_type: "free" | "freemium" | "paid" | "enterprise" | null;
   pricing_detail: string | null;
   source: string | null;
 }
@@ -275,7 +262,6 @@ async function main() {
     const findlyCat = ft.category?.find((c) => CATEGORY_MAP[c]) ?? "";
     const primaryCategory = CATEGORY_MAP[findlyCat] ?? DEFAULT_CATEGORY;
 
-    const pricingType = parsePricing(ft.pricing);
     const screenshotUrl = localScreenshot(ft.directory_url);
     const description = cleanDescription(ft.description);
     const url = stripFindlyParams(ft.official_url);
@@ -290,7 +276,6 @@ async function main() {
       screenshot_url: screenshotUrl,
       primary_category: primaryCategory,
       tags: [],
-      pricing_type: pricingType,
       pricing_detail: null,
       source: null,
     });
