@@ -22242,7 +22242,7 @@
     "pricing_detail": null,
     "source": null,
     "dr": 9,
-    "sub": "AI Marketing"
+    "sub": "Freelancer Tools"
   },
   {
     "slug": "taxhance",
@@ -35690,5 +35690,35 @@
     "source": null,
     "dr": null,
     "sub": "AI Note Taker"
+  },
+  {
+    "slug": "rephrazy",
+    "name": "Rephrazy",
+    "tagline": "Free AI tools for writing and creativity. Rewrite, summarize, generate poems, and solve tasks easily online.",
+    "description": "Rephrazy is a free online toolkit for writing and creativity: rewrite sentences in different tones, summarize long text, generate poems, and handle everyday writing tasks. Works in the browser with no signup, with English and Russian interfaces.",
+    "url": "https://rephrazy.com",
+    "logo_url": "https://www.google.com/s2/favicons?domain=rephrazy.com&sz=64",
+    "screenshot_url": "/screenshots/rephrazy.webp",
+    "primary_category": "writing-content",
+    "tags": [],
+    "pricing_detail": null,
+    "source": null,
+    "dr": null,
+    "sub": "AI Writer"
+  },
+  {
+    "slug": "kidcue",
+    "name": "KidCue",
+    "tagline": "KidCue is a visual schedule for kids: real-object visual cues, gentle timers, and ADHD/autism-friendly pacing for calmer mornings, smoother bedtimes, and easier transitions.",
+    "description": "KidCue is a visual schedule app for kids built around real-object visual cues and gentle timers. Families use it to run calmer mornings, smoother bedtimes, and easier daily transitions — designed with ADHD and autism-friendly pacing in mind. Available in English and Chinese.",
+    "url": "https://www.kidcue.app",
+    "logo_url": "https://pub-459c6f6553344cc393826444731f5707.r2.dev/upload-1773304449563.png",
+    "screenshot_url": "/screenshots/kidcue.webp",
+    "primary_category": "productivity",
+    "tags": [],
+    "pricing_detail": null,
+    "source": null,
+    "dr": 9,
+    "sub": "Productivity Tools"
   }
 ]

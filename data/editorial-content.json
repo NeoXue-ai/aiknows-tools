@@ -1,0 +1,238 @@
+{
+  "pxlify": {
+    "comparison": {
+      "eyebrow": "Editorial",
+      "heading": "How Pxlify compares",
+      "paragraphs": [
+        "Pxlify bundles three jobs that teams usually run through separate tools: browser-native screenshots and screen recording, AI transcription with speaker separation, and subtitle translation into 20+ languages. Capture happens in a Chrome extension, then the recording lands in a web studio where transcripts are generated at a claimed 99.8% accuracy and exported as SRT or VTT. The practical alternative path is CleanShot X for capture plus a dedicated transcription service, moving files between two products by hand.",
+        "The comparison worth making is with single-purpose incumbents. CleanShot X remains the stronger pure screenshot tool on macOS — more annotation options, better scrolling capture — but it records and stops there. Otter.ai is the deeper transcription product for meetings, with searchable archives and integrations Pxlify lacks. And for text translation alone, DeepL is still the quality bar. Pxlify's bet is that one capture-to-caption pipeline beats three best-in-class tools for creators who publish subtitled video regularly; if you only need one of those steps, the specialist is still the better buy."
+      ],
+      "points": [
+        {
+          "label": "vs CleanShot X",
+          "text": "CleanShot X is a paid macOS desktop app with best-in-class annotation and scrolling capture. Pxlify runs in the browser cross-platform and hands the recording straight to its transcription engine — fewer moving parts if subtitles are the end goal."
+        },
+        {
+          "label": "vs Otter.ai",
+          "text": "Otter targets meeting transcription with archives, search, and calendar integrations. Pxlify targets video content: speaker-separated transcripts synced to the millisecond and exported as subtitle files, which Otter does not do."
+        },
+        {
+          "label": "vs DeepL",
+          "text": "DeepL is the reference quality for plain text translation but handles no video or timing. Pxlify translates subtitle tracks while preserving timestamps, accepting some quality loss for the pipeline convenience."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Is Pxlify free to use?",
+        "answer": "The Chrome extension and a starting tier of the web studio are free, with paid plans covering heavier transcription and translation volume. Check the pricing page on pxlify.com for current limits."
+      },
+      {
+        "question": "Does Pxlify work on Mac and Windows?",
+        "answer": "Yes. Because capture runs through a Chrome extension and transcription runs in the browser, Pxlify works anywhere Chrome does — unlike desktop-only recorders such as CleanShot X."
+      },
+      {
+        "question": "Which languages can Pxlify translate subtitles into?",
+        "answer": "20+ languages including Spanish, French, Japanese, German, and Arabic. Transcripts keep their timestamps through translation, so exported SRT/VTT files stay in sync."
+      },
+      {
+        "question": "Can Pxlify replace Otter.ai for meeting notes?",
+        "answer": "It can transcribe recordings with speaker separation, but Otter is purpose-built for meetings with live transcription, searchable archives, and calendar integrations. Pxlify is stronger when the recording is video content that needs subtitles."
+      }
+    ],
+    "externalLinks": [
+      {
+        "label": "CleanShot X",
+        "url": "https://cleanshot.com",
+        "context": "the macOS reference for annotated screenshots and screen recording"
+      },
+      {
+        "label": "Otter.ai",
+        "url": "https://otter.ai",
+        "context": "meeting-focused AI transcription with searchable archives"
+      },
+      {
+        "label": "DeepL",
+        "url": "https://www.deepl.com",
+        "context": "the translation quality benchmark for text-level work"
+      }
+    ]
+  },
+  "rephrazy": {
+    "comparison": {
+      "eyebrow": "Editorial",
+      "heading": "How Rephrazy compares",
+      "paragraphs": [
+        "Rephrazy is a free, browser-based writing toolkit: a sentence rewriter, summarizer, punctuation checker, word counter, translator, rhyme and question generators, plus a hashtag generator for social posts. Everything runs on the site with no signup and no credit card, with English and Russian interfaces. The trade-off for zero cost is scope — these are single-shot utilities, not a workspace with documents, history, and team features.",
+        "Against the paid incumbents the difference is shape, not quality per task. QuillBot pairs its rewriter with a grammar checker and a summarizer inside one document flow, and its free tier limits how much text each pass can handle. Wordtune focuses purely on sentence rewriting with a tighter free quota and tone controls. Grammarly is the heavyweight for grammar correction across everything you type. Rephrazy wins on price (free, no cap games) and on the long tail of niche utilities — rhyme finding, question generation — that the big suites don't offer at all."
+      ],
+      "points": [
+        {
+          "label": "vs QuillBot",
+          "text": "QuillBot's free tier caps rewriting at ~125 words per pass and locks modes behind Premium. Rephrazy places no visible cap on single-shot use, but offers no document workspace or citation tools."
+        },
+        {
+          "label": "vs Wordtune",
+          "text": "Wordtune is the stronger sentence-level rewriter with tone control, but its free plan allows only ~10 rewrites a day. Rephrazy covers rewriting plus a dozen adjacent utilities at zero cost."
+        },
+        {
+          "label": "vs Grammarly",
+          "text": "Grammarly checks grammar everywhere you type and is the standard for correction. Rephrazy is not a grammar platform — it's a set of quick one-off utilities, including some Grammarly has no answer for."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Is Rephrazy really free?",
+        "answer": "Yes — every tool on rephrazy.com is free with no signup, no credit card, and no hidden fees, according to the site. It processes text client-side, which also keeps your writing private."
+      },
+      {
+        "question": "What can I use Rephrazy for?",
+        "answer": "Everyday writing tasks: rewriting sentences, summarizing long text, checking punctuation, counting words, translating, generating rhymes or questions, and producing hashtags for social posts."
+      },
+      {
+        "question": "Is Rephrazy a good free alternative to QuillBot?",
+        "answer": "For quick rewrites without a word cap, yes. QuillBot still wins if you need document-level editing, citation generation, or its plagiarism checker — features Rephrazy doesn't attempt."
+      },
+      {
+        "question": "Does Rephrazy support languages other than English?",
+        "answer": "The site interface is available in English and Russian, and its translator tool handles text translation between languages."
+      }
+    ],
+    "externalLinks": [
+      {
+        "label": "QuillBot",
+        "url": "https://quillbot.com",
+        "context": "the most popular freemium rewriter, with summarizer and grammar tools"
+      },
+      {
+        "label": "Wordtune",
+        "url": "https://www.wordtune.com",
+        "context": "tone-controlled sentence rewriting from AI21 Labs"
+      },
+      {
+        "label": "Grammarly",
+        "url": "https://www.grammarly.com",
+        "context": "the standard grammar checker across browsers and apps"
+      }
+    ]
+  },
+  "taskevery": {
+    "comparison": {
+      "eyebrow": "Editorial",
+      "heading": "How Taskevery compares",
+      "paragraphs": [
+        "Taskevery is a two-sided local task marketplace: task owners post jobs — home cleaning, handyman work, moving, gardening, pet care, tech support — and service providers bid or offer fixed prices. New users can post up to 2 tasks free with 90-day validity, then compare proposals and hire. The site is a young marketplace (2M claimed service providers, categories still being seeded), and it is currently listed for acquisition, which is worth knowing before building a workflow around it.",
+        "The comparison is with the established local-services platforms. TaskRabbit operates in dozens of US metros with vetted 'Taskers', hourly pricing, and in-app payments — denser supply, less negotiation. Thumbtack covers a wider professional-services spread (events, lessons, wellness) with quote-based matching. Angi (formerly Angie's List) leans on reviews and locked-in pricing for home projects. Taskevery's pitch is the free posting window and bid/offer/fixed flexibility; its gap is marketplace liquidity — fewer providers per metro than the incumbents today."
+      ],
+      "points": [
+        {
+          "label": "vs TaskRabbit",
+          "text": "TaskRabbit has metro density, background-vetted Taskers, and hourly rates with in-app payment. Taskevery offers free task posting and price flexibility but a much younger provider network."
+        },
+        {
+          "label": "vs Thumbtack",
+          "text": "Thumbtack matches customers with pros across ~1000 service types using custom quotes. Taskevery's category set is narrower (home, garden, pets, events) but posting is free rather than quote-credit based."
+        },
+        {
+          "label": "vs Angi",
+          "text": "Angi brings two decades of reviews and instant home-service pricing. Taskevery is earlier-stage, so expect to vet providers yourself rather than rely on a deep review base."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Is Taskevery free to post tasks?",
+        "answer": "Yes — the free plan allows posting up to 2 tasks with 90-day validity at no charge. Beyond that, the site doesn't currently publish paid-plan details."
+      },
+      {
+        "question": "What kinds of tasks can I post on Taskevery?",
+        "answer": "Home cleaning, handyman services, moving and packing, gardening and lawn care, interior design, pet care, tech support, and event planning — the site lists 22+ categories."
+      },
+      {
+        "question": "How does Taskevery make money?",
+        "answer": "The visible model is a free tier for task owners with providers competing via bids, offers, or fixed prices; monetization details beyond that are not published on the site."
+      },
+      {
+        "question": "Is Taskevery available outside the US?",
+        "answer": "The site doesn't restrict by geography, but its provider network is early-stage, so supply outside major markets may be thin. Established alternatives like TaskRabbit or Thumbtack are safer bets for dense metros."
+      }
+    ],
+    "externalLinks": [
+      {
+        "label": "TaskRabbit",
+        "url": "https://www.taskrabbit.com",
+        "context": "the largest vetted local-task marketplace in the US"
+      },
+      {
+        "label": "Thumbtack",
+        "url": "https://www.thumbtack.com",
+        "context": "quote-based matching across ~1000 local service categories"
+      },
+      {
+        "label": "Angi",
+        "url": "https://www.angi.com",
+        "context": "reviews-led home services platform, formerly Angie's List"
+      }
+    ]
+  },
+  "kidcue": {
+    "comparison": {
+      "eyebrow": "Editorial",
+      "heading": "How KidCue compares",
+      "paragraphs": [
+        "KidCue is an iPhone/iPad visual routine app built around real-object cues: parents photograph the actual objects in their child's routine (shoes, toothbrush, backpack), and the app shows what's now and next with gentle timers at transition points. Pricing is $9.99/month, $39.99/year, or $129.99 lifetime, with no ads and privacy-first handling of family photos. The design intent is explicit — predictable visuals and calm pacing for ADHD and autism-friendly mornings, bedtimes, and transitions.",
+        "The apps it gets compared with split into two camps. Tiimo is the mature cross-platform visual planner with a large template library and widget system — broader, but built around icons rather than your child's own objects. Time Timer is the classic countdown visualizer, excellent for time perception alone but with no routine sequence. Goally pairs a dedicated device with apps for neurodivergent kids at a much higher price point. KidCue's niche is the personal-photo approach: the cue is the child's own toothbrush, not a generic icon, which many parents report makes routines stick faster."
+      ],
+      "points": [
+        {
+          "label": "vs Tiimo",
+          "text": "Tiimo is cross-platform (iOS/Android/web) with rich templates and widgets, using icon-based visuals. KidCue is iOS-only but uses photos of your child's real objects — more personal, less setup-from-scratch."
+        },
+        {
+          "label": "vs Time Timer",
+          "text": "Time Timer visualizes elapsed time with its signature red disk — great for 'how long', silent on 'what's next'. KidCue covers both sequence and timing in one flow."
+        },
+        {
+          "label": "vs Goally",
+          "text": "Goally sells a dedicated kids' device plus apps (~$100+ hardware), aimed at neurodivergent kids. KidCue runs on hardware families already own, at a lower total cost."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "What is a visual schedule app for kids?",
+        "answer": "It shows routines as pictures instead of verbal instructions — what's happening now, what comes next — so kids can follow steps without a parent repeating them. Especially helpful for children with ADHD or autism, and for any child who struggles with transitions."
+      },
+      {
+        "question": "How much does KidCue cost?",
+        "answer": "US pricing: $9.99/month, $39.99/year, or $129.99 one-time lifetime access. Final prices vary by region in the App Store. No ads and no data sharing."
+      },
+      {
+        "question": "Is KidCue good for kids with ADHD or autism?",
+        "answer": "It's designed for that: real-object photo cues, gentle timers, and predictable daily flow are the standard structure recommended for neurodivergent kids' routines. Parent reviews on the site report fewer repeat commands and smoother transitions within the first week."
+      },
+      {
+        "question": "Is KidCue available on Android?",
+        "answer": "No — KidCue is currently iPhone and iPad only (App Store). Families on Android may want to look at Tiimo, which covers both platforms."
+      }
+    ],
+    "externalLinks": [
+      {
+        "label": "CHADD",
+        "url": "https://chadd.org",
+        "context": "the national ADHD resource center, for evidence on visual routines"
+      },
+      {
+        "label": "ADDitude",
+        "url": "https://www.additudemag.com",
+        "context": "expert guidance on ADHD routines, mornings, and transitions"
+      },
+      {
+        "label": "Tiimo",
+        "url": "https://www.tiimoapp.com",
+        "context": "the leading cross-platform visual planner, KidCue's closest alternative"
+      }
+    ]
+  }
+}
