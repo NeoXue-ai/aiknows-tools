@@ -249,7 +249,7 @@ type Cls = { top: string; sub: string; legacy: string };
 
 function classify(tool: any): Cls {
   const primary = (tool.category ?? [])[0] ?? null;
-  const haystack = [tool.name ?? "", tool.description ?? ""].join(" \n ").toLowerCase();
+  const haystack = [tool.name ?? "", tool.description ?? "", tool.tagline ?? ""].join(" \n ").toLowerCase();
   const anchoredTop = FINDLY_RAW[primary] ?? null;
 
   const scored: [string, number][] = [];
@@ -276,6 +276,17 @@ function classify(tool: any): Cls {
   const top = anchoredTop ?? "Other";
   return { top, sub: "(none)", legacy: TOP_TO_LEGACY[top] ?? "productivity" };
 }
+
+/* ── Hand sub overrides ──────────────────────────────────────────── */
+// Findly-missing entries whose one-line tagline fools the keyword router
+// (e.g. "Automate your SEO writing" wins the generic "automate" signal over
+// the specific "seo" one). Overrides are stable across full re-runs, unlike
+// hand-editing tools.json.
+const SUB_OVERRIDES: Record<string, string> = {
+  dolphinscribe: "AI SEO Tools",
+  goldpal: "Fintech",
+  safeshelf: "AI Agent",
+};
 
 /* ── Taxonomy integrity (dry-run only) ───────────────────────────── */
 
@@ -391,7 +402,14 @@ async function main() {
   for (const t of tools) {
     const u = (t.url ?? "").replace(/\/$/, "");
     const f = findlyByUrl.get(u);
-    if (!f) { missing++; continue; }
+    if (!f) {
+      missing++;
+      if (shouldWrite) {
+        const override = SUB_OVERRIDES[t.slug];
+        t.sub = override ?? classify(t).sub;
+      }
+      continue;
+    }
     const c = classify(f);
     if (t.primary_category !== c.legacy) {
       reclassed++;
