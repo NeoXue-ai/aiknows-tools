@@ -15,7 +15,7 @@ import { resolve } from "node:path";
 import { existsSync, readFileSync } from "node:fs";
 
 const TOOLS_PATH = resolve(process.cwd(), "data/tools.json");
-const FINDLY_PATH = "/Users/lonnie/Desktop/findly_results/findly_tools.json";
+const FINDLY_PATH = "/Users/lonnie/Desktop/findly-crawl/findly_tools.json";
 
 /* ── Top-level taxonomy (18 tops) + sub-classes ─────────────────────────────── */
 const TOP = {
