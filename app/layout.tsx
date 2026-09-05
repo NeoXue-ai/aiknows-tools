@@ -6,7 +6,18 @@ import { VercelAnalytics } from "@/components/vercel-analytics";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { PageTransition } from "@/components/page-transition";
+import { siteUrl, siteName, siteDescription } from "@/lib/site";
 import "./globals.css";
+
+const organizationJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": `${siteUrl}/#organization`,
+  name: siteName,
+  url: siteUrl,
+  logo: `${siteUrl}/icon.svg`,
+  description: siteDescription,
+};
 
 const geist = Geist({
   variable: "--font-geist-sans",
@@ -92,6 +103,12 @@ export default function RootLayout({
       className={`${geist.variable} ${geistMono.variable} ${instrumentSerif.variable} h-full antialiased`}
       suppressHydrationWarning
     >
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(organizationJsonLd).replace(/</g, "\\u003c"),
+        }}
+      />
       <body className="min-h-full flex flex-col bg-background text-foreground">
         <ThemeProvider
           attribute="class"

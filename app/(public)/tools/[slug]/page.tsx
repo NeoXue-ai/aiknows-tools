@@ -518,6 +518,33 @@ export default async function ToolDetailPage({ params }: Props) {
               {tool.is_featured && (
                 <SidebarField label="Editorial" value="Featured" />
               )}
+              {tool.source && (
+                <div className="flex items-baseline justify-between gap-3">
+                  <dt className="font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground">
+                    Source
+                  </dt>
+                  <dd className="truncate text-right text-sm text-foreground">
+                    {tool.source.startsWith("http") ? (
+                      <a
+                        href={tool.source}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="underline decoration-border underline-offset-4 transition-colors hover:text-accent hover:decoration-accent/50"
+                      >
+                        {tool.source}
+                      </a>
+                    ) : (
+                      tool.source
+                    )}
+                  </dd>
+                </div>
+              )}
+              {(() => {
+                const recorded = formatDate(tool.published_at || tool.created_at);
+                return recorded ? (
+                  <SidebarField label="Recorded" value={recorded} mono />
+                ) : null;
+              })()}
               {tool.tags.length > 0 && (
                 <div className="border-t border-border pt-2.5">
                   <dt className="font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground">
@@ -641,4 +668,11 @@ function SidebarField({
       </dd>
     </div>
   );
+}
+
+function formatDate(value: string | null | undefined): string | null {
+  if (!value) return null;
+  const d = new Date(value);
+  if (Number.isNaN(d.getTime())) return null;
+  return d.toISOString().slice(0, 10);
 }
