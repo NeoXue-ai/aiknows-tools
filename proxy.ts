@@ -1,7 +1,44 @@
 import { NextResponse, type NextFetchEvent, type NextRequest } from "next/server";
 import { createAdminClient } from "@/lib/supabase/admin";
+import { SLUGS } from "@/data/slugs";
 
 const SESSION_COOKIE_NAME = "__Host-aiknows_session";
+
+// TLD suffixes a scraper can mangle onto a domain slug. Order doesn't matter —
+// `lookupRealSlug` short-circuits on the first hit, and Set.has() is O(1).
+// Kept conservative: real public-suffix-style TLDs only, no word collisions.
+const TLD_SUFFIXES = [
+  "com", "io", "ai", "org", "net", "id", "app", "pro", "site", "cloud",
+  "top", "dev", "co", "tech", "me", "info", "biz", "us", "uk", "tv",
+  "cc", "gg", "nu", "xyz", "fm", "ws", "la", "sh", "to", "ly",
+];
+
+// Top-level static route names — these live under their own segments and
+// MUST NOT be treated as tool slugs. Anything else single-segment under /
+// is either a known tool (→ /tools/<slug>) or a real 404.
+const ROOT_DENY = new Set([
+  "tools", "categories", "blog", "latest", "trending", "pricing",
+  "submit", "about", "faq", "contact", "collections", "admin",
+  "login", "auth", "api", "sitemap", "robots", "manifest",
+  "_next", "favicon.ico", "opengraph-image", "twitter-image", "apple-icon",
+]);
+
+// Given a request segment like "lexi4-com" or "100leadcom", find the real
+// slug in the catalog (if any). Returns null when no match — caller 404s.
+function lookupRealSlug(segment: string): string | null {
+  if (SLUGS.has(segment)) return segment;
+  for (const tld of TLD_SUFFIXES) {
+    if (segment.length <= tld.length) continue;
+    if (segment.endsWith(`-${tld}`)) {
+      const stripped = segment.slice(0, -(tld.length + 1));
+      if (SLUGS.has(stripped)) return stripped;
+    } else if (segment.endsWith(tld)) {
+      const stripped = segment.slice(0, -tld.length);
+      if (SLUGS.has(stripped)) return stripped;
+    }
+  }
+  return null;
+}
 
 export function proxy(request: NextRequest, event: NextFetchEvent) {
   const { pathname } = request.nextUrl;
@@ -36,6 +73,27 @@ export function proxy(request: NextRequest, event: NextFetchEvent) {
       const loginUrl = new URL("/admin/login", request.url);
       loginUrl.searchParams.set("next", pathname);
       return NextResponse.redirect(loginUrl);
+    }
+  }
+
+  // SEO redirect: external links + GSC crawl both surface bare /<slug>
+  // URLs (e.g. /lexi4-com, /100leadcom) that don't have a route — they
+  // 404 and bleed PageRank. /tools/<slug> is the canonical route, so
+  // we 301 there when the segment matches a known tool. Also tries
+  // stripping a TLD suffix (with or without dash) for cases where the
+  // scraper slugified the URL's host as one word ("100leadcom" from
+  // "100lead.com"). Only fires for single-segment paths; /tools/...
+  // and /categories/... pass through unchanged.
+  // Regenerate SLUGS with `node scripts/build-slug-index.js` after
+  // data/tools.json changes.
+  const trimmed = pathname.replace(/\/+$/, "") || "/";
+  if (trimmed !== "/" && !trimmed.includes("/", 1)) {
+    const seg = trimmed.slice(1).toLowerCase();
+    if (!ROOT_DENY.has(seg) && !seg.includes(".")) {
+      const realSlug = lookupRealSlug(seg);
+      if (realSlug) {
+        return NextResponse.redirect(new URL(`/tools/${realSlug}`, request.url), 301);
+      }
     }
   }
 

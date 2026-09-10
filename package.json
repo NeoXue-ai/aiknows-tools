@@ -15,6 +15,8 @@
     "db:types": "pnpm dlx supabase gen types typescript --local > lib/supabase/types.gen.ts",
     "seed": "tsx --env-file=.env.local scripts/seed.ts",
     "audit:catalog": "tsx scripts/audit-catalog-data.ts",
+    "validate:tools": "tsx scripts/validate-tools.ts",
+    "build:slugs": "node scripts/build-slug-index.js",
     "gsc": "node scripts/gsc.mjs",
     "ui:add": "pnpm dlx shadcn@latest add"
   },

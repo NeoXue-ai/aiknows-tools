@@ -89,7 +89,17 @@ function classifySignal(ft: any): "AI" | "UNCLEAR" | "EXCLUDED" {
 /* ── Slug generation ── */
 
 function toSlug(name: string): string {
-  return name
+  // Strip a trailing TLD when the raw name is a bare domain (e.g.
+  // "aniv.ai" → "aniv", "100lead.com" → "100lead"). Otherwise we end up
+  // with slugs like "aniv-ai" or "100leadcom" that external links + GSC
+  // crawl as bare /<slug>, hitting a 404 before the proxy 301 catches
+  // them. Detection runs BEFORE the normal slugifier, so a name like
+  // "Web app 2.0" is left alone (whitespace rules it out).
+  const trimmed = name.trim();
+  const bareDomain = /^[a-z0-9-]+(\.[a-z0-9-]+)+$/i.test(trimmed);
+  const base = bareDomain ? trimmed.replace(/\.[a-z0-9-]+$/i, "") : trimmed;
+
+  return base
     .toLowerCase()
     .replace(/[''']/g, "")
     .replace(/[^\w\s-]/g, "")

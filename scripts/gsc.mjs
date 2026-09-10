@@ -133,7 +133,63 @@ switch (cmd) {
     break;
   }
 
-  case "query"): {
+  case "bulk-inspect": {
+    // Read URLs from stdin (one per line) or a file path. Inspect each via
+    // URL Inspection API with 200ms throttle (quota: 2000/day, ~5 req/sec safe).
+    // Outputs PASS/FAIL summary so you can see which 404s are now resolving
+    // after a redirect fix, and which still need manual "Validate Fix".
+    const siteUrl = rest[0];
+    if (!siteUrl) {
+      console.error("Usage: gsc bulk-inspect <siteUrl> [path/to/urls.txt]\n  (omit file arg to read from stdin)");
+      process.exit(1);
+    }
+    const filePath = rest[1];
+    let urls = "";
+    if (filePath) {
+      urls = await fs.readFile(filePath, "utf8");
+    } else {
+      urls = await new Promise((resolveStream) => {
+        let buf = "";
+        process.stdin.setEncoding("utf8");
+        process.stdin.on("data", (c) => (buf += c));
+        process.stdin.on("end", () => resolveStream(buf));
+      });
+    }
+    const list = urls.split(/\r?\n/).map((s) => s.trim()).filter(Boolean);
+    if (!list.length) {
+      console.error("No URLs to inspect.");
+      process.exit(1);
+    }
+    console.log(`Inspecting ${list.length} URLs against ${siteUrl}...`);
+    await withClient(async (sc) => {
+      const summary = { PASS: 0, FAIL: 0, REDIRECT: 0, OTHER: 0 };
+      for (const [i, u] of list.entries()) {
+        try {
+          const { inspectionResult } = await sc.urlInspection.index.inspect({
+            requestBody: { siteUrl, inspectionUrl: u, languageCode: "en-US" },
+          });
+          const verdict = inspectionResult?.indexStatusResult?.verdict ?? "?";
+          const coverage = inspectionResult?.indexStatusResult?.coverageState ?? "?";
+          const lastCrawl = inspectionResult?.indexStatusResult?.lastCrawlTime ?? null;
+          if (verdict === "PASS") summary.PASS++;
+          else if (verdict === "FAIL") summary.FAIL++;
+          else if (coverage === "Redirected") summary.REDIRECT++;
+          else summary.OTHER++;
+          const tag = verdict === "PASS" ? "✓" : verdict === "FAIL" ? "✗" : coverage === "Redirected" ? "→" : "?";
+          console.log(`  ${tag} ${String(i + 1).padStart(4)}/${list.length}  ${verdict.padEnd(10)}  ${coverage.padEnd(28)}  ${u}`);
+        } catch (err) {
+          summary.OTHER++;
+          console.log(`  ! ${String(i + 1).padStart(4)}/${list.length}  ERROR  ${u}  ${err.message ?? err}`);
+        }
+        await new Promise((r) => setTimeout(r, 220));
+      }
+      console.log(`\n── Summary ──`);
+      for (const [k, v] of Object.entries(summary)) console.log(`  ${k.padEnd(10)} ${v}`);
+    });
+    break;
+  }
+
+  case "query": {
     const siteUrl = rest[0];
     if (!siteUrl) {
       console.error("Usage: gsc query <siteUrl> [--days N]");
@@ -161,6 +217,6 @@ switch (cmd) {
   }
 
   default:
-    console.error(`Unknown command: ${cmd ?? "(none)"}\nUsage: gsc auth | list | submit-sitemap | inspect | query`);
+    console.error(`Unknown command: ${cmd ?? "(none)"}\nUsage: gsc auth | list | submit-sitemap | inspect | bulk-inspect | query`);
     process.exit(1);
 }
