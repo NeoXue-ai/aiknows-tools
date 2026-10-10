@@ -1,0 +1,18 @@
+{
+  "slug": "ai-video-extender",
+  "name": "AI Video Extender",
+  "tagline": "Extend duration and frame with AI outpainting. Continue scenes seamlessly and create longer, more immersive clips for creative storytelling.",
+  "description": "Extend duration and frame with AI outpainting. Continue scenes seamlessly and create longer, more immersive clips for creative storytelling.",
+  "url": "https://laike.ai/tools/ai-video-extender",
+  "logo_url": "https://www.google.com/s2/favicons?domain=laike.ai&sz=64",
+  "screenshot_url": "/screenshots/ai-video-extender.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 17,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

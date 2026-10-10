@@ -1,0 +1,391 @@
+{
+  "snapshotCount": 2518,
+  "databaseCount": 2518,
+  "databaseOnly": [],
+  "snapshotOnly": [],
+  "preserved": {
+    "is_verified": 117,
+    "published_at": 117,
+    "is_featured": 17
+  },
+  "editorialEntries": [
+    "pxlify",
+    "rephrazy",
+    "taskevery",
+    "kidcue"
+  ],
+  "datePolicy": "Preserve real published_at; unknown dates remain null.",
+  "taxonomyPolicy": "Preserve primary categories; explicit multi-parent subcategory membership. Normalize 22 None sentinel values to null.",
+  "originalTaxonomyMismatches": [
+    {
+      "slug": "avatarforge-ai",
+      "category": "productivity",
+      "sub": "ai-avatar-generator"
+    },
+    {
+      "slug": "free-ai-kiss-video",
+      "category": "image-video",
+      "sub": "ai-dating"
+    },
+    {
+      "slug": "happy-horse-ai-3",
+      "category": "productivity",
+      "sub": "ai-video-generator"
+    },
+    {
+      "slug": "image-describer-2",
+      "category": "productivity",
+      "sub": "none"
+    },
+    {
+      "slug": "maxaeo",
+      "category": "seo-marketing",
+      "sub": "ai-search-engine"
+    },
+    {
+      "slug": "originbrief",
+      "category": "productivity",
+      "sub": "ai-research"
+    },
+    {
+      "slug": "project-genie-3",
+      "category": "productivity",
+      "sub": "ai-3d-model-generator"
+    },
+    {
+      "slug": "taskevery",
+      "category": "seo-marketing",
+      "sub": "freelancer-tools"
+    },
+    {
+      "slug": "unithub",
+      "category": "productivity",
+      "sub": "none"
+    },
+    {
+      "slug": "vividmanga",
+      "category": "productivity",
+      "sub": "ai-art-generator"
+    },
+    {
+      "slug": "where-is-this-place",
+      "category": "image-video",
+      "sub": "none"
+    },
+    {
+      "slug": "where-is-this-place-2",
+      "category": "productivity",
+      "sub": "none"
+    },
+    {
+      "slug": "xreplyai",
+      "category": "seo-marketing",
+      "sub": "chrome-extensions"
+    },
+    {
+      "slug": "100-questions",
+      "category": "productivity",
+      "sub": "none"
+    },
+    {
+      "slug": "ai-graffiti-generator",
+      "category": "image-video",
+      "sub": "none"
+    },
+    {
+      "slug": "ai-texture",
+      "category": "productivity",
+      "sub": "none"
+    },
+    {
+      "slug": "any-rock-identifier",
+      "category": "productivity",
+      "sub": "none"
+    },
+    {
+      "slug": "cupid",
+      "category": "productivity",
+      "sub": "none"
+    },
+    {
+      "slug": "deepverify-ai-fact-checker-for-youtube",
+      "category": "productivity",
+      "sub": "chrome-extensions"
+    },
+    {
+      "slug": "eye-color-identifier",
+      "category": "productivity",
+      "sub": "none"
+    },
+    {
+      "slug": "gambetaai",
+      "category": "productivity",
+      "sub": "none"
+    },
+    {
+      "slug": "how-old-do-i-look",
+      "category": "productivity",
+      "sub": "none"
+    },
+    {
+      "slug": "mishruh-ai",
+      "category": "productivity",
+      "sub": "none"
+    },
+    {
+      "slug": "nailmuseai",
+      "category": "image-video",
+      "sub": "none"
+    },
+    {
+      "slug": "palm-reader",
+      "category": "productivity",
+      "sub": "none"
+    },
+    {
+      "slug": "videoany",
+      "category": "productivity",
+      "sub": "none"
+    },
+    {
+      "slug": "anyword",
+      "category": "writing-content",
+      "sub": "none"
+    },
+    {
+      "slug": "bolt-new",
+      "category": "code-development",
+      "sub": "none"
+    },
+    {
+      "slug": "claude-code",
+      "category": "code-development",
+      "sub": "ai-agent"
+    },
+    {
+      "slug": "clearscope",
+      "category": "seo-marketing",
+      "sub": "none"
+    },
+    {
+      "slug": "consensus",
+      "category": "research-data",
+      "sub": "ai-search-engine"
+    },
+    {
+      "slug": "contentbot",
+      "category": "writing-content",
+      "sub": "ai-workflow"
+    },
+    {
+      "slug": "copy-ai",
+      "category": "writing-content",
+      "sub": "ai-marketing"
+    },
+    {
+      "slug": "cursor",
+      "category": "code-development",
+      "sub": "ai-agent"
+    },
+    {
+      "slug": "drift",
+      "category": "seo-marketing",
+      "sub": "customer-support"
+    },
+    {
+      "slug": "elicit",
+      "category": "research-data",
+      "sub": "ai-research"
+    },
+    {
+      "slug": "frase",
+      "category": "writing-content",
+      "sub": "ai-seo-tools"
+    },
+    {
+      "slug": "grammarly",
+      "category": "writing-content",
+      "sub": "ai-grammar-checker"
+    },
+    {
+      "slug": "hypotenuse",
+      "category": "writing-content",
+      "sub": "blogging"
+    },
+    {
+      "slug": "marketmuse",
+      "category": "seo-marketing",
+      "sub": "ai-content-creator"
+    },
+    {
+      "slug": "neuronwriter",
+      "category": "seo-marketing",
+      "sub": "ai-writer"
+    },
+    {
+      "slug": "persana",
+      "category": "seo-marketing",
+      "sub": "sales"
+    },
+    {
+      "slug": "replit",
+      "category": "code-development",
+      "sub": "ai-agent"
+    },
+    {
+      "slug": "smartwriter",
+      "category": "seo-marketing",
+      "sub": "email"
+    },
+    {
+      "slug": "surfer-seo",
+      "category": "seo-marketing",
+      "sub": "ai-writer"
+    },
+    {
+      "slug": "v0",
+      "category": "code-development",
+      "sub": "none"
+    },
+    {
+      "slug": "windsurf",
+      "category": "code-development",
+      "sub": "ai-agent"
+    },
+    {
+      "slug": "you-com",
+      "category": "research-data",
+      "sub": "ai-app-builder"
+    },
+    {
+      "slug": "akkio",
+      "category": "business-analytics",
+      "sub": "no-code"
+    },
+    {
+      "slug": "chatpdf",
+      "category": "research-data",
+      "sub": "ai-summarizer"
+    },
+    {
+      "slug": "descript",
+      "category": "ecommerce-sales",
+      "sub": "ai-video-editor"
+    },
+    {
+      "slug": "domo",
+      "category": "business-analytics",
+      "sub": "no-code"
+    },
+    {
+      "slug": "gong",
+      "category": "ecommerce-sales",
+      "sub": "none"
+    },
+    {
+      "slug": "hebbia",
+      "category": "business-analytics",
+      "sub": "ai-ad-creative"
+    },
+    {
+      "slug": "humata",
+      "category": "research-data",
+      "sub": "ai-summarizer"
+    },
+    {
+      "slug": "instantly",
+      "category": "ecommerce-sales",
+      "sub": "email"
+    },
+    {
+      "slug": "julius-ai",
+      "category": "business-analytics",
+      "sub": "ai-spreadsheet"
+    },
+    {
+      "slug": "notebooklm",
+      "category": "research-data",
+      "sub": "ai-research"
+    },
+    {
+      "slug": "obviously-ai",
+      "category": "business-analytics",
+      "sub": "ai-ad-creative"
+    },
+    {
+      "slug": "pandas-ai",
+      "category": "business-analytics",
+      "sub": "none"
+    },
+    {
+      "slug": "polymer",
+      "category": "business-analytics",
+      "sub": "no-code"
+    },
+    {
+      "slug": "replo",
+      "category": "ecommerce-sales",
+      "sub": "ai-website-builder"
+    },
+    {
+      "slug": "scholarcy",
+      "category": "research-data",
+      "sub": "ai-summarizer"
+    },
+    {
+      "slug": "shopify-magic",
+      "category": "ecommerce-sales",
+      "sub": "directories"
+    },
+    {
+      "slug": "smartlead",
+      "category": "ecommerce-sales",
+      "sub": "email"
+    },
+    {
+      "slug": "tactiq",
+      "category": "productivity",
+      "sub": "speech-to-text-ai"
+    },
+    {
+      "slug": "thoughtspot",
+      "category": "business-analytics",
+      "sub": "ai-analytics"
+    },
+    {
+      "slug": "warmbox",
+      "category": "ecommerce-sales",
+      "sub": "email"
+    },
+    {
+      "slug": "beautiful-ai",
+      "category": "writing-content",
+      "sub": "ai-presentation-maker"
+    },
+    {
+      "slug": "fireflies",
+      "category": "productivity",
+      "sub": "speech-to-text-ai"
+    },
+    {
+      "slug": "gamma",
+      "category": "writing-content",
+      "sub": "ai-presentation-maker"
+    },
+    {
+      "slug": "krisp",
+      "category": "productivity",
+      "sub": "ai-background-remover"
+    },
+    {
+      "slug": "otter",
+      "category": "productivity",
+      "sub": "speech-to-text-ai"
+    },
+    {
+      "slug": "pitch",
+      "category": "writing-content",
+      "sub": "ai-presentation-maker"
+    }
+  ]
+}

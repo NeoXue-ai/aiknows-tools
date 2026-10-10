@@ -1,8 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { buttonVariants } from "@/components/ui/button-variants";
-import { cn } from "@/lib/utils";
 
 export default function Error({
   error,
@@ -12,19 +10,19 @@ export default function Error({
   reset: () => void;
 }) {
   return (
-    <div className="container mx-auto flex max-w-2xl flex-col items-center justify-center px-4 py-24 text-center">
+    <div className="mx-auto flex w-full max-w-[768px] flex-col items-center justify-center px-5 py-24 text-center sm:px-8">
       <p className="mb-2 text-sm font-medium text-destructive">
         Something went wrong
       </p>
-      <h1 className="mb-4 text-3xl font-bold tracking-tight sm:text-4xl">
+      <h1 className="mb-4 text-4xl font-semibold tracking-[-0.045em] sm:text-5xl">
         We hit a snag
       </h1>
-      <p className="mb-8 max-w-md text-muted-foreground">
+      <p className="mb-8 max-w-md text-base leading-7 text-muted-foreground">
         An unexpected error occurred while loading this page. Please try again,
         or head back to the homepage.
       </p>
       {error.digest ? (
-        <p className="mb-8 rounded-md border border-border bg-muted/40 px-3 py-2 font-mono text-xs text-muted-foreground">
+        <p className="mb-8 max-w-full break-all rounded-xl border border-border bg-card px-4 py-3 text-xs text-muted-foreground">
           Reference: {error.digest}
         </p>
       ) : null}
@@ -32,13 +30,13 @@ export default function Error({
         <button
           type="button"
           onClick={() => reset()}
-          className={cn(buttonVariants({ size: "lg" }))}
+          className="action-primary"
         >
           Try again
         </button>
         <Link
           href="/"
-          className={cn(buttonVariants({ size: "lg", variant: "outline" }))}
+          className="action-secondary"
         >
           Back to home
         </Link>

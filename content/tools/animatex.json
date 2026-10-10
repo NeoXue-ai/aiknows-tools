@@ -1,0 +1,18 @@
+{
+  "slug": "animatex",
+  "name": "AnimateX",
+  "tagline": "Create stunning videos from text or images with AI. Fast, high-quality video generation for creators, marketers, and educators.",
+  "description": "Create stunning videos from text or images with AI. Fast, high-quality video generation for creators, marketers, and educators.",
+  "url": "https://animatex.io/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=animatex.io&sz=64",
+  "screenshot_url": "/screenshots/animatex.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 9,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "papercheck",
+  "name": "PaperCheck",
+  "tagline": "Real Turnitin AI detector + plagiarism check before you submit. Official Turnitin AI report in 5–15 min, detects ChatGPT. Files deleted in 24h.",
+  "description": "Real Turnitin AI detector + plagiarism check before you submit. Official Turnitin AI report in 5–15 min, detects ChatGPT. Files deleted in 24h.",
+  "url": "https://aiturnitinchecker.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=aiturnitinchecker.com&sz=64",
+  "screenshot_url": "/screenshots/papercheck.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-detector",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

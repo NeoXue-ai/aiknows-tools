@@ -1,0 +1,18 @@
+{
+  "slug": "gpt-image-2-9",
+  "name": "GPT Image 2",
+  "tagline": "GPT-Image2.me is an AI image generation and editing platform powered by OpenAI’s latest GPT-Image-2 model",
+  "description": "GPT-Image2.me is an AI image generation and editing platform powered by OpenAI’s latest GPT-Image-2 model. It allows users to create, edit, and enhance images directly in the browser with much better prompt understanding, stronger text rendering, and more realistic results than previous AI image models. The platform is designed to showcase what GPT-Image-2 can do in real-world use cases. Users can generate images from text prompts, edit existing images, remove backgrounds, replace objects, upsca",
+  "url": "https://gpt-image2.me",
+  "logo_url": "https://www.google.com/s2/favicons?domain=gpt-image2.me&sz=64",
+  "screenshot_url": "/screenshots/gpt-image-2-6.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 26,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

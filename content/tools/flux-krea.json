@@ -1,0 +1,18 @@
+{
+  "slug": "flux-krea",
+  "name": "flux krea",
+  "tagline": "Free FLUX.1 AI image-to-image editor. Upload your image and tell AI what to change - character consistency, context-aware editing, fast performance.",
+  "description": "Free FLUX.1 AI image-to-image editor. Upload your image and tell AI what to change - character consistency, context-aware editing, fast performance.",
+  "url": "https://flux-krea.app/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=flux-krea.app&sz=64",
+  "screenshot_url": "/screenshots/flux-krea.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 36,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

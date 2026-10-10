@@ -1,0 +1,18 @@
+{
+  "slug": "aiflowmusic",
+  "name": "AIFlowMusic",
+  "tagline": "AIFlowMusic turns one line of text into a complete song - vocals, lyrics and instrumentation",
+  "description": "AIFlowMusic turns one line of text into a complete song - vocals, lyrics and instrumentation. Describe the mood, genre or scene and get two versions back in about a minute, or paste your own lyrics and have them sung. Alongside the generator it ships 20+ free tools for musicians and producers: song key finder with Camelot codes for harmonic mixing, BPM detector and tap tempo, audio-to-MIDI transcription, pitch and note detection, beat and time-signature analysis, scale finder, slowed & reverb, l",
+  "url": "https://aiflowmusic.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=aiflowmusic.com&sz=64",
+  "screenshot_url": "/screenshots/aiflowmusic.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-music-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

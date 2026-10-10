@@ -1,0 +1,18 @@
+{
+  "slug": "character-generator",
+  "name": "Character Generator",
+  "tagline": "Free AI character generator for cartoons, books, and animation. Instantly create complete designs with turnarounds and expressions from photos.",
+  "description": "Free AI character generator for cartoons, books, and animation. Instantly create complete designs with turnarounds and expressions from photos.",
+  "url": "https://charactergen.app/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=charactergen.app&sz=64",
+  "screenshot_url": "/screenshots/character-generator.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 28,
+  "subcategory": "ai-avatar-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

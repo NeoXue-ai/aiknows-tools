@@ -1,0 +1,18 @@
+{
+  "slug": "shareotter",
+  "name": "ShareOtter",
+  "tagline": "Host and share your files instantly. ShareOtter automatically creates beautiful viewing experiences for presentations, PDFs, videos, and more.",
+  "description": "Host and share your files instantly. ShareOtter automatically creates beautiful viewing experiences for presentations, PDFs, videos, and more.",
+  "url": "https://shareotter.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=shareotter.com&sz=64",
+  "screenshot_url": "/screenshots/shareotter.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 12,
+  "subcategory": "ai-presentation-maker",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "agerenty",
+  "name": "Agerenty",
+  "tagline": "An AI assistant that installs on your website with a single line of code",
+  "description": "An AI assistant that installs on your website with a single line of code. It instantly resolves your visitors' questions and helps them buy, book, or get in touch, always using the information on your page.",
+  "url": "https://agerenty.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=agerenty.com&sz=64",
+  "screenshot_url": "/screenshots/agerenty.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-assistant",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

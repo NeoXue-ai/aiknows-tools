@@ -1,0 +1,18 @@
+{
+  "slug": "free-public-health-mapping-tool",
+  "name": "Free Public Health Mapping Tool",
+  "tagline": "Enter county-level public health data and generate an interactive choropleth map with tooltips, legends, rankings, exports, and shareable views.",
+  "description": "Enter county-level public health data and generate an interactive choropleth map with tooltips, legends, rankings, exports, and shareable views.",
+  "url": "https://countyhealthmapper.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=countyhealthmapper.com&sz=64",
+  "screenshot_url": "/screenshots/free-public-health-mapping-tool.webp",
+  "primary_category": "writing-content",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 16,
+  "subcategory": "ai-content-creator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

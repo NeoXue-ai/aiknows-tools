@@ -1,0 +1,21 @@
+{
+  "slug": "contentbot",
+  "name": "ContentBot",
+  "tagline": "AI content automation",
+  "description": "Blog posts, marketing copy, and AI workflows on autopilot.",
+  "url": "https://contentbot.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=contentbot.ai&sz=64",
+  "screenshot_url": "/screenshots/contentbot.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "automation",
+    "blogs"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-workflow",
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

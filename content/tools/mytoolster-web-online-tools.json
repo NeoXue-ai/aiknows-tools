@@ -1,0 +1,18 @@
+{
+  "slug": "mytoolster-web-online-tools",
+  "name": "MyToolster web online tools",
+  "tagline": "MyToolster is a lightweight collection of online tools built to solve small but frequent problems in daily work",
+  "description": "MyToolster is a lightweight collection of online tools built to solve small but frequent problems in daily work. No accounts, no setup, no learning curve — just open the page and use the tool you need. It focuses on practical utilities that developers, site owners, and content editors use all the time: Unicode Converter – Convert text to and from Unicode for debugging and multilingual text handling. UTF-8 & Hex Converter – Useful for API testing, data inspection, and encoding checks. Unix Timest",
+  "url": "https://mytoolster.com",
+  "logo_url": "https://pub-459c6f6553344cc393826444731f5707.r2.dev/upload-1769865119961.png",
+  "screenshot_url": "/screenshots/mytoolster-web-online-tools.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": "https://findly.tools",
+  "dr": 6,
+  "subcategory": null,
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

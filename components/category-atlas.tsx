@@ -2,7 +2,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { SubGridReveal } from "@/components/sub-grid-reveal";
 import { categoryIcon } from "@/lib/category-icons";
-import type { Category } from "@/lib/supabase/types";
+import type { Category } from "@/features/catalog/types";
 
 export type CategorySection = {
   category: Category;

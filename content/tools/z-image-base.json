@@ -1,0 +1,18 @@
+{
+  "slug": "z-image-base",
+  "name": "Z-Image Base",
+  "tagline": "Z Image Base is a powerful AI image generator",
+  "description": "Z Image Base is a powerful AI image generator. Generate photorealistic images from text prompts, create marketing visuals, thumbnails, and more. Fast, affordable, commercial-ready.",
+  "url": "https://zimagebase.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=zimagebase.ai&sz=64",
+  "screenshot_url": "/screenshots/z-image-base-1.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 8,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

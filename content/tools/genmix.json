@@ -1,0 +1,18 @@
+{
+  "slug": "genmix",
+  "name": "GenMix",
+  "tagline": "All-in-one AI platform with 30+ models including Sora 2, Kling 2.6, Veo 3.1 & Flux",
+  "description": "All-in-one AI platform with 30+ models including Sora 2, Kling 2.6, Veo 3.1 & Flux. Create videos, images & voiceovers easily. One platform, all models.",
+  "url": "https://genmix.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=genmix.ai&sz=64",
+  "screenshot_url": "/screenshots/genmix.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 25,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

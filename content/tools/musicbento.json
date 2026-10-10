@@ -1,0 +1,18 @@
+{
+  "slug": "musicbento",
+  "name": "MusicBento",
+  "tagline": "Generate royalty-free music, songs, lyrics, and instrumentals from text prompts",
+  "description": "Generate royalty-free music, songs, lyrics, and instrumentals from text prompts. Create original AI songs for videos, social media, podcasts, and commercial use",
+  "url": "https://musicbento.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=musicbento.com&sz=64",
+  "screenshot_url": "/screenshots/musicbento.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-music-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

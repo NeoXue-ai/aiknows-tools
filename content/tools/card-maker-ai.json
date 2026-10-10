@@ -1,0 +1,18 @@
+{
+  "slug": "card-maker-ai",
+  "name": "Card Maker AI",
+  "tagline": "Create stunning AI-generated card images for Pokemon, Yu-Gi-Oh, MTG, baseball, birthday, wedding, tarot, and more",
+  "description": "Create stunning AI-generated card images for Pokemon, Yu-Gi-Oh, MTG, baseball, birthday, wedding, tarot, and more. Design custom cards from text prompts or photos — free to try.",
+  "url": "https://cardmaker.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=cardmaker.org&sz=64",
+  "screenshot_url": "/screenshots/card-maker-ai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 34,
+  "subcategory": "ai-graphic-design",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

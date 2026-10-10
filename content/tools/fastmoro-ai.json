@@ -1,0 +1,18 @@
+{
+  "slug": "fastmoro-ai",
+  "name": "FastMoro AI",
+  "tagline": "Free AI video generator and image generator online. Create stunning videos from text or images with FastMoro AI. No watermark, no sign-up required.",
+  "description": "Free AI video generator and image generator online. Create stunning videos from text or images with FastMoro AI. No watermark, no sign-up required.",
+  "url": "https://fastmoroai.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=fastmoroai.com&sz=64",
+  "screenshot_url": "/screenshots/fastmoro-ai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 26,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

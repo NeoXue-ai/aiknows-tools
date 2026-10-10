@@ -1,0 +1,18 @@
+{
+  "slug": "alignbuddy",
+  "name": "AlignBuddy",
+  "tagline": "Align your EB2-NIW Proposed Endeavor with recent US federal priorities. Get explainable suggestions, rewrites, and source links.",
+  "description": "Align your EB2-NIW Proposed Endeavor with recent US federal priorities. Get explainable suggestions, rewrites, and source links.",
+  "url": "https://alignbuddy.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=alignbuddy.org&sz=64",
+  "screenshot_url": "/screenshots/alignbuddy.webp",
+  "primary_category": "writing-content",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 4.5,
+  "subcategory": "ai-content-creator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

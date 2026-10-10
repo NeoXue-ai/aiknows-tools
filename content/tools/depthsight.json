@@ -1,0 +1,18 @@
+{
+  "slug": "depthsight",
+  "name": "DepthSight",
+  "tagline": "DepthSight is a powerful, 100% free, and open-source algorithmic trading platform designed for everyone",
+  "description": "DepthSight is a powerful, 100% free, and open-source algorithmic trading platform designed for everyone. Instead of writing complex scripts or paying for expensive SaaS subscriptions, you can use our intuitive drag-and-drop node builder to design your trading logic visually. Key Features: Visual Node Builder: Connect conditions, indicators, and actions with zero coding experience. AI Co-Pilot: Analyze backtests and optimize your algorithms automatically. Ultimate Privacy: Fully self-hosted. Your",
+  "url": "https://depthsight.pro",
+  "logo_url": "https://www.google.com/s2/favicons?domain=depthsight.pro&sz=64",
+  "screenshot_url": "/screenshots/depthsight.webp",
+  "primary_category": "business-analytics",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 17,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

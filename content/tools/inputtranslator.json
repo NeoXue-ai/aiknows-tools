@@ -1,0 +1,18 @@
+{
+  "slug": "inputtranslator",
+  "name": "InputTranslator",
+  "tagline": "Desktop typing translator for any app",
+  "description": "Desktop typing translator for any app. Press hotkey to translate in-place — no copy-paste. AI-powered with scene modes for chat, business, e-commerce, gaming. Windows.",
+  "url": "https://www.inputtranslator.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=inputtranslator.com&sz=64",
+  "screenshot_url": "/screenshots/inputtranslator.webp",
+  "primary_category": "writing-content",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 3.6,
+  "subcategory": "ai-translator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

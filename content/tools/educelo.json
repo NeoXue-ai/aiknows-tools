@@ -1,0 +1,18 @@
+{
+  "slug": "educelo",
+  "name": "Educelo",
+  "tagline": "Discover personalized AI-powered learning tailored for every goal",
+  "description": "Discover personalized AI-powered learning tailored for every goal. Speed up skill acquisition with adaptive lessons, interactive practice, and real-time feedback. Join our community and unlock smarter education.",
+  "url": "https://educelo.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=educelo.com&sz=64",
+  "screenshot_url": "/screenshots/educelo.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 2.8,
+  "subcategory": "ai-tutor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

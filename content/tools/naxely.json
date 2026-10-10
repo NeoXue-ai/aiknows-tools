@@ -1,0 +1,18 @@
+{
+  "slug": "naxely",
+  "name": "Naxely",
+  "tagline": "Naxely turns CSV or Google Sheets data into branded, AI-narrated PDF client reports in minutes",
+  "description": "Naxely turns CSV or Google Sheets data into branded, AI-narrated PDF client reports in minutes. Built for Freelance analysts, consultants, and small agencies who send recurring client reports. What it does - Charts, anomaly detection, and AI-written executive summaries - Custom branding (logo, colors) — set once, applies to every report - Bring your own AI key (Gemini, Claude, OpenAI, DeepSeek, Groq, Mistral, or Together AI) — no shared quota, no vendor lock-in Free tier available (3 reports/mon",
+  "url": "https://www.naxely.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=naxely.com&sz=64",
+  "screenshot_url": "/screenshots/naxely.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-pdf",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "cvnomist",
+  "name": "CVnomist",
+  "tagline": "Get your resume tailored by AI",
+  "description": "Get your resume tailored by AI",
+  "url": "https://cvnomist.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=cvnomist.com&sz=64",
+  "screenshot_url": "/screenshots/cvnomist.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 19,
+  "subcategory": "ai-resume-builder",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "animagine-xl",
+  "name": "Animagine XL",
+  "tagline": "Learn Animagine XL: an anime-focused Stable Diffusion XL model series by Cagliostro Research Lab",
+  "description": "Learn Animagine XL: an anime-focused Stable Diffusion XL model series by Cagliostro Research Lab. Read plain-language guides, version history from 3.0 to 4.0, and try browser playgrounds.",
+  "url": "https://animaginexl.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=animaginexl.org&sz=64",
+  "screenshot_url": "/screenshots/animagine-xl.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-avatar-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

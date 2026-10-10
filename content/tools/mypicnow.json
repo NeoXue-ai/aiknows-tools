@@ -1,0 +1,18 @@
+{
+  "slug": "mypicnow",
+  "name": "MyPicNow",
+  "tagline": "Create studio-quality AI headshots that look exactly like you",
+  "description": "Create studio-quality AI headshots that look exactly like you. Save hundreds on photography and hours of your time. Rated 4.8/5 by 2,500+ professionals.",
+  "url": "https://www.mypicnow.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=mypicnow.com&sz=64",
+  "screenshot_url": "/screenshots/mypicnow.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 21,
+  "subcategory": "ai-headshot-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

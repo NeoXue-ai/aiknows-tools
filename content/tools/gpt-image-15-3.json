@@ -1,0 +1,18 @@
+{
+  "slug": "gpt-image-15-3",
+  "name": "GPT Image 1.5",
+  "tagline": "Create stunning images with GPT Image 1.5, OpenAI's latest AI image generation model",
+  "description": "Create stunning images with GPT Image 1.5, OpenAI's latest AI image generation model. Generate photorealistic photos, infographics, logos, UI mockups, and more with advanced text rendering and style transfer capabilities.",
+  "url": "https://gptimage15.run",
+  "logo_url": "https://www.google.com/s2/favicons?domain=gptimage15.run&sz=64",
+  "screenshot_url": "/screenshots/gpt-image-1-5-3.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 13,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

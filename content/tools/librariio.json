@@ -1,0 +1,18 @@
+{
+  "slug": "librariio",
+  "name": "librari.io",
+  "tagline": "Most library management apps are either too basic or are designed for institutional libraries with rigid workflows that are not suitable for personal…",
+  "description": "Most library management apps are either too basic or are designed for institutional libraries with rigid workflows that are not suitable for personal use. librari.io is a platform that provides a wide range of tools and services to help you easily keep on top of your library, offering a host of features.",
+  "url": "https://www.librari.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=librari.io&sz=64",
+  "screenshot_url": "/screenshots/librari-io.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 20,
+  "subcategory": "ai-workflow",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

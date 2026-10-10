@@ -1,0 +1,18 @@
+{
+  "slug": "nano-banana-pro-8",
+  "name": "nano banana pro",
+  "tagline": "Professional AI image generation with Nano Banana Pro",
+  "description": "Professional AI image generation with Nano Banana Pro. Powered by Gemini 3.0 Pro, delivering 4K quality images in 10-30 seconds with superior efficiency.",
+  "url": "https://nanobananapro.art",
+  "logo_url": "https://www.google.com/s2/favicons?domain=nanobananapro.art&sz=64",
+  "screenshot_url": "/screenshots/nano-banana-pro-3.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 26,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

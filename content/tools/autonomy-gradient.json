@@ -1,0 +1,18 @@
+{
+  "slug": "autonomy-gradient",
+  "name": "Autonomy Gradient",
+  "tagline": "Autonomy Gradient is a simple framework that helps teams see how AI changes engineering work",
+  "description": "Autonomy Gradient is a simple framework that helps teams see how AI changes engineering work. It maps the path from pure assistance to full autonomy, breaking delivery down into practical areas like generation, validation, deterministic execution, constraint encoding, and production feedback. The framework complements DevOps and MLOps by focusing on who moves work from failing to passing inside bounded systems. Use the interactive assessment to pinpoint where your workflow sits, learn how human ",
+  "url": "https://autonomygradient.engineer/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=autonomygradient.engineer&sz=64",
+  "screenshot_url": "/screenshots/autonomy-gradient.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 15,
+  "subcategory": "ai-music-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "soul-chat",
+  "name": "Soul Chat",
+  "tagline": "Chat with deeply written AI characters who remember you. Free to try, no signup needed.",
+  "description": "Chat with deeply written AI characters who remember you. Free to try, no signup needed.",
+  "url": "https://loveaisoul.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=loveaisoul.com&sz=64",
+  "screenshot_url": "/screenshots/soul-chat.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 8,
+  "subcategory": "ai-avatar-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

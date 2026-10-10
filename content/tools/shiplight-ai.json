@@ -1,0 +1,18 @@
+{
+  "slug": "shiplight-ai",
+  "name": "Shiplight AI",
+  "tagline": "Shiplight AI is an advanced AI testing platform specifically designed for AI-native software teams",
+  "description": "Shiplight AI is an advanced AI testing platform specifically designed for AI-native software teams. The platform aims to make quality effortless by providing tools that verify UI changes within a real browser environment. By focusing on durable systems and long-term scalability, Shiplight AI helps teams maintain high standards of software quality without the traditional overhead of manual testing. Autonomous Testing Capabilities The platform leverages agent systems and LLM orchestration to autom",
+  "url": "https://www.shiplight.ai/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=shiplight.ai&sz=64",
+  "screenshot_url": "/screenshots/shiplight-ai.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 17,
+  "subcategory": "ai-models",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

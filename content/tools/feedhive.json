@@ -1,0 +1,21 @@
+{
+  "slug": "feedhive",
+  "name": "FeedHive",
+  "tagline": "AI social media management",
+  "description": "Schedule, write, and recycle social posts with AI assistance.",
+  "url": "https://feedhive.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=feedhive.com&sz=64",
+  "screenshot_url": "/screenshots/feedhive.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "social",
+    "scheduling"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "social-media",
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

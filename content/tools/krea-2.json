@@ -1,0 +1,18 @@
+{
+  "slug": "krea-2",
+  "name": "Krea 2",
+  "tagline": "Krea 2 is an AI image generator workspace that pairs text to image generation with reference-led style control",
+  "description": "Krea 2 is an AI image generator workspace that pairs text to image generation with reference-led style control. Krea 2 is Krea AI's first image foundation model built from scratch, designed for aesthetic diversity instead of one polished default look. Key features - Expressive text to image: a natural-language brief becomes visual concepts that keep mood, material, light, and composition central. - Style references: up to 9 reference slots guide palette, texture, framing, and atmosphere, each wi",
+  "url": "https://krea-2.pro",
+  "logo_url": "https://www.google.com/s2/favicons?domain=krea-2.pro&sz=64",
+  "screenshot_url": "/screenshots/krea-2-1.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

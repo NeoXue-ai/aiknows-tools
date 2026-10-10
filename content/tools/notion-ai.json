@@ -1,0 +1,21 @@
+{
+  "slug": "notion-ai",
+  "name": "Notion AI",
+  "tagline": "AI inside Notion docs",
+  "description": "Summarize, translate, and draft inside your Notion workspace.",
+  "url": "https://notion.so/product/ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=notion.so&sz=64",
+  "screenshot_url": "/screenshots/notion-ai.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "docs",
+    "workspace"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-summarizer",
+  "is_featured": true,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

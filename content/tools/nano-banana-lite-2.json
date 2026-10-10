@@ -1,0 +1,18 @@
+{
+  "slug": "nano-banana-lite-2",
+  "name": "Nano Banana Lite",
+  "tagline": "What it does Nano Banana Lite is a free online AI image generator powered by Google's Gemini 3.1 Flash Lite model",
+  "description": "What it does Nano Banana Lite is a free online AI image generator powered by Google's Gemini 3.1 Flash Lite model. Type a prompt, get a finished image in under 2 seconds — no signup, no watermark, no queue. Key benefits - Ultra-fast generation — images ready in ~1 second - 100% free daily credits, no account required - Accurate text rendering inside generated images - Multilingual prompt support (18 languages) - Style presets for quick creative exploration - Commercial use allowed on all outputs",
+  "url": "https://nanobananalite.im",
+  "logo_url": "https://www.google.com/s2/favicons?domain=nanobananalite.im&sz=64",
+  "screenshot_url": "/screenshots/nano-banana-lite.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 7,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

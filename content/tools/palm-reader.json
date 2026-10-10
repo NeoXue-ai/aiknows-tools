@@ -1,0 +1,18 @@
+{
+  "slug": "palm-reader",
+  "name": "Palm Reader",
+  "tagline": "Upload a palm photo and let our AI palm reader explain your life, head, heart, and fate lines in a warm personal reading. Free, fast, private.",
+  "description": "Upload a palm photo and let our AI palm reader explain your life, head, heart, and fate lines in a warm personal reading. Free, fast, private.",
+  "url": "https://handreaderai.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=handreaderai.com&sz=64",
+  "screenshot_url": "/screenshots/palm-reader.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": null,
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

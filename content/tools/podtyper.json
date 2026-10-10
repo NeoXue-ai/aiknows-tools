@@ -1,0 +1,18 @@
+{
+  "slug": "podtyper",
+  "name": "PodTyper",
+  "tagline": "Transcribe any podcast in minutes",
+  "description": "Transcribe any podcast in minutes. Paste a YouTube, Spotify, or Apple Podcasts link. Get a full transcript with speaker labels and AI summaries. Convert podcasts to text, easy. Paste a link. Get a transcript in 2 minutes. Paste a podcast link. YouTube, Spotify, Apple Podcasts. Podtyper downloads the audio, transcribes it, labels each speaker, and generates insights. Done in 1-2 minutes. Works with YouTube, Spotify & Apple Podcasts If it's a public episode, Podtyper can transcribe it. Export as P",
+  "url": "https://www.podtyper.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=podtyper.com&sz=64",
+  "screenshot_url": "/screenshots/podtyper.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 9,
+  "subcategory": "speech-to-text-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

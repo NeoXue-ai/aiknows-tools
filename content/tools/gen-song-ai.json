@@ -1,0 +1,18 @@
+{
+  "slug": "gen-song-ai",
+  "name": "Gen Song AI",
+  "tagline": "GenSong AI is a comprehensive AI song generator designed to transform text descriptions and lyrics into professional-grade music in seconds",
+  "description": "GenSong AI is a comprehensive AI song generator designed to transform text descriptions and lyrics into professional-grade music in seconds. The platform simplifies the music creation process by analyzing user-provided text and style preferences to generate complete melodies, harmonies, rhythms, and instrumentation. Users can produce high-fidelity audio without the need for complex software or musical expertise. Professional Music Creation Features The tool provides a suite of features aimed at ",
+  "url": "https://gensong.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=gensong.ai&sz=64",
+  "screenshot_url": "/screenshots/gen-song-ai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 26,
+  "subcategory": "ai-music-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

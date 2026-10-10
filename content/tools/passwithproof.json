@@ -1,0 +1,18 @@
+{
+  "slug": "passwithproof",
+  "name": "PassWithProof",
+  "tagline": "PassWithProof helps creators detect AI text, humanize drafts, and polish writing for natural, credible content",
+  "description": "PassWithProof helps creators detect AI text, humanize drafts, and polish writing for natural, credible content",
+  "url": "https://www.passwithproof.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=passwithproof.com&sz=64",
+  "screenshot_url": "/screenshots/passwithproof.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 15,
+  "subcategory": "ai-detector",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

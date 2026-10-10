@@ -1,0 +1,18 @@
+{
+  "slug": "our-event-album",
+  "name": "Our Event Album",
+  "tagline": "The easiest way to collect, view, and share photos and videos from your guests in a beautiful gallery.",
+  "description": "The easiest way to collect, view, and share photos and videos from your guests in a beautiful gallery.",
+  "url": "https://oureventalbum.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=oureventalbum.com&sz=64",
+  "screenshot_url": "/screenshots/our-event-album.webp",
+  "primary_category": "writing-content",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 25,
+  "subcategory": "ai-content-creator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

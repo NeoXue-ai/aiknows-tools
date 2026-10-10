@@ -1,0 +1,18 @@
+{
+  "slug": "movoria-ai",
+  "name": "Movoria AI",
+  "tagline": "Movoria AI is an all-in-one AI creative platform for generating images and cinematic videos in one workflow",
+  "description": "Movoria AI is an all-in-one AI creative platform for generating images and cinematic videos in one workflow. It offers text-to-image, text-to-video, image-to-video, multiple AI models, free daily usage, and flexible credits for creators, marketers, and teams.",
+  "url": "https://movoria.studio",
+  "logo_url": "https://www.google.com/s2/favicons?domain=movoria.studio&sz=64",
+  "screenshot_url": "/screenshots/movoria-ai.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 26,
+  "subcategory": "ai-models",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

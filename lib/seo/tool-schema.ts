@@ -1,21 +1,5 @@
-import type { Category, Tool } from "@/lib/supabase/types";
-
-export const CATEGORIES: Pick<Category, "slug" | "name">[] = [
-  { slug: "writing-content", name: "Writing & Content" },
-  { slug: "seo-marketing", name: "SEO & Marketing" },
-  { slug: "image-video", name: "Image & Video" },
-  { slug: "code-development", name: "Code & Development" },
-  { slug: "productivity", name: "Productivity & Automation" },
-  { slug: "business-analytics", name: "Business & Analytics" },
-  { slug: "ecommerce-sales", name: "E-commerce & Sales" },
-  { slug: "research-data", name: "Research & Data" },
-];
-
-const CATEGORY_NAME_BY_SLUG = new Map(CATEGORIES.map((c) => [c.slug, c.name]));
-
-export function categoryName(slug: string): string {
-  return CATEGORY_NAME_BY_SLUG.get(slug) ?? slug;
-}
+import type { Tool, ToolSummary } from "@/features/catalog/types";
+export { CATEGORIES, categoryName } from "@/features/catalog/taxonomy";
 
 function parsePrice(detail: string | null): number | null {
   if (!detail) return null;
@@ -57,7 +41,7 @@ export function toolJsonLd({
 }
 
 export interface DirectoryItemListInput {
-  tools: Tool[];
+  tools: Pick<ToolSummary, "slug" | "name">[];
   siteUrl: string;
   name: string;
   description: string;

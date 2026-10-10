@@ -1,0 +1,18 @@
+{
+  "slug": "conceptframeworkai",
+  "name": "ConceptFrameworkAI",
+  "tagline": "You know the variables and relationships — just describe them",
+  "description": "You know the variables and relationships — just describe them. AI structures your research into a publication-ready conceptual framework diagram in seconds.",
+  "url": "https://conceptframeworkai.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=conceptframeworkai.com&sz=64",
+  "screenshot_url": "/screenshots/conceptframeworkai.webp",
+  "primary_category": "business-analytics",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 30,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

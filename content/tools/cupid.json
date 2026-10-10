@@ -1,0 +1,18 @@
+{
+  "slug": "cupid",
+  "name": "Cupid",
+  "tagline": "Cupid is a content review app",
+  "description": "Cupid is a content review app. Mark up a document or image, add a comment, and hit refine — AI generates the next version, kept in a version tree. Runs in the cloud.",
+  "url": "https://heyheycupid.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=heyheycupid.com&sz=64",
+  "screenshot_url": "/screenshots/cupid.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": null,
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

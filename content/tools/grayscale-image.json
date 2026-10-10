@@ -1,0 +1,18 @@
+{
+  "slug": "grayscale-image",
+  "name": "Grayscale Image",
+  "tagline": "[Grayscale Image](https://www.grayscaleimage.org/) is a professional online utility designed to transform full-color photographs into high-quality…",
+  "description": "[Grayscale Image](https://www.grayscaleimage.org/) is a professional online utility designed to transform full-color photographs into high-quality monochrome images. Unlike basic filters that simply strip color, this tool utilizes advanced luminance-based processing to ensure every shade of gray is accurately represented. Users can upload images in popular formats like JPG, PNG, and WebP to begin the conversion process immediately. Advanced Conversion Methods The platform provides four distinct ",
+  "url": "https://grayscaleimage.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=grayscaleimage.org&sz=64",
+  "screenshot_url": "/screenshots/grayscale-image.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 41,
+  "subcategory": "ai-photo-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

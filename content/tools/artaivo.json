@@ -1,0 +1,18 @@
+{
+  "slug": "artaivo",
+  "name": "Artaivo",
+  "tagline": "Create with an AI video maker for text, images, and clips",
+  "description": "Create with an AI video maker for text, images, and clips. Use text to video AI, image to video AI, and AI video generator models like Kling, Veo, and Seedance.",
+  "url": "https://artaivo.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=artaivo.org&sz=64",
+  "screenshot_url": "/screenshots/artaivo.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "c-dance-20",
+  "name": "c dance 2.0",
+  "tagline": "C Dance ai, built on Seedance 2.0, supports text, image, audio, and video inputs. Multimodal reference/editing and director-level control.",
+  "description": "C Dance ai, built on Seedance 2.0, supports text, image, audio, and video inputs. Multimodal reference/editing and director-level control.",
+  "url": "https://cdance.net/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=cdance.net&sz=64",
+  "screenshot_url": "/screenshots/c-dance-2-0.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 19,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

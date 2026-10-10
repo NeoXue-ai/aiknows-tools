@@ -1,0 +1,18 @@
+{
+  "slug": "aiswapface",
+  "name": "AISwapFace",
+  "tagline": "The best AI face swap tool online. Swap faces in photos, videos, and GIFs instantly. Free, no sign up required. Try our AI face swap online now!",
+  "description": "The best AI face swap tool online. Swap faces in photos, videos, and GIFs instantly. Free, no sign up required. Try our AI face swap online now!",
+  "url": "https://aiswapface.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=aiswapface.org&sz=64",
+  "screenshot_url": "/screenshots/aiswapface.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 14,
+  "subcategory": "ai-photo-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "shopify-magic",
+  "name": "Shopify Magic",
+  "tagline": "AI features across Shopify",
+  "description": "AI product descriptions, image editing, and store assistant inside Shopify.",
+  "url": "https://shopify.com/magic",
+  "logo_url": "https://www.google.com/s2/favicons?domain=shopify.com&sz=64",
+  "screenshot_url": "/screenshots/shopify-magic.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "shopify",
+    "ecommerce"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "directories",
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

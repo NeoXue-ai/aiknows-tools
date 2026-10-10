@@ -1,0 +1,18 @@
+{
+  "slug": "noromeal",
+  "name": "NoroMeal",
+  "tagline": "NoroMeal Replaces calorie tracking apps with personalized weekly meal plans tailored to your body, goals, and preferences",
+  "description": "NoroMeal Replaces calorie tracking apps with personalized weekly meal plans tailored to your body, goals, and preferences. Instead of logging every meal, users get a full 7-day plan with macro-balanced recipes from a library of 400+ meals. Users can set their goals, adjust preferences, mark favorite or avoided foods, and swap meals with macro-equivalent alternatives — all without manual tracking or complicated logging. Features - Personalized 7-day meal plans based on goals and macros - 400+ rec",
+  "url": "https://www.noromeal.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=noromeal.com&sz=64",
+  "screenshot_url": "/screenshots/noromeal.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 29,
+  "subcategory": "ai-food-nutrition",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

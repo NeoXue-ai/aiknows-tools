@@ -1,0 +1,18 @@
+{
+  "slug": "prediqte",
+  "name": "Prediqte",
+  "tagline": "Prediqte is a multi-platform lead generation tool designed for B2B SaaS founders",
+  "description": "Prediqte is a multi-platform lead generation tool designed for B2B SaaS founders. You enter your website URL, the tool analyzes your product and ICP, then scans Reddit, HackerNews & more to find people actively asking for solutions like yours, whether they're seeking recommendations, complaining about competitors, or looking for alternatives.",
+  "url": "https://www.prediqte.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=prediqte.com&sz=64",
+  "screenshot_url": "/screenshots/prediqte.webp",
+  "primary_category": "seo-marketing",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 22,
+  "subcategory": "ai-marketing",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

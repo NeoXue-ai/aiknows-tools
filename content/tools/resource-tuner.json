@@ -1,0 +1,18 @@
+{
+  "slug": "resource-tuner",
+  "name": "Resource Tuner",
+  "tagline": "Everything you need to get at the EXE or DLL/MUN file's resources. View, edit, extract, and replace icons, strings, logos and bitmaps.",
+  "description": "Everything you need to get at the EXE or DLL/MUN file's resources. View, edit, extract, and replace icons, strings, logos and bitmaps.",
+  "url": "https://www.resource-editor.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=resource-editor.com&sz=64",
+  "screenshot_url": "/screenshots/resource-tuner.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 14,
+  "subcategory": "ai-graphic-design",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

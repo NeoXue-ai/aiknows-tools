@@ -1,0 +1,18 @@
+{
+  "slug": "unicorn-icons",
+  "name": "Unicorn icons",
+  "tagline": "Unicornicons is a library of beautifully handcrafted animated icons designed for modern apps, websites, and products",
+  "description": "Unicornicons is a library of beautifully handcrafted animated icons designed for modern apps, websites, and products. The collection includes high-quality icons available in Lottie, Rive, SVG, and JSON formats. Developers and designers can instantly use these icons in React, Vue, iOS, Android, HTML, and other frameworks without much hassle. What do you get ? - 100 Free icons with lottie & svg files - Access to lottie and rive(currently under production) files - Icon editor to customize the icons",
+  "url": "https://unicornicons.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=unicornicons.com&sz=64",
+  "screenshot_url": "/screenshots/unicorn-icons.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 42,
+  "subcategory": "ai-graphic-design",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "musvideo",
+  "name": "MusVideo",
+  "tagline": "Turn your music into stunning cinematic videos with AI. Upload your audio and MusVideo generates a scene-by-scene music video in minutes.",
+  "description": "Turn your music into stunning cinematic videos with AI. Upload your audio and MusVideo generates a scene-by-scene music video in minutes.",
+  "url": "https://musvideo.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=musvideo.ai&sz=64",
+  "screenshot_url": "/screenshots/musvideo.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

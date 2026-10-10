@@ -1,96 +1,53 @@
 "use client";
-
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import dynamic from "next/dynamic";
-import { ArrowRight } from "lucide-react";
+import { Plus } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { MobileNav } from "@/components/mobile-nav";
-import { buttonVariants } from "@/components/ui/button-variants";
 import { cn } from "@/lib/utils";
-
-// UserMenu pulls Base UI's Menu runtime (floating positioning, portal). Lazy
-// loading keeps it out of the initial bundle for anonymous visitors — it only
-// downloads when a signed-in user is actually shown the menu.
-const UserMenu = dynamic(
-  () => import("@/components/UserMenu").then((m) => m.UserMenu),
-  { loading: () => null }
-);
-
-const NAV_LINKS = [
-  { href: "/categories", label: "Category" },
+export const NAV_LINKS = [
+  { href: "/tools", label: "Discover" },
+  { href: "/categories", label: "Categories" },
+  { href: "/collections", label: "Collections" },
   { href: "/blog", label: "Blog" },
-  { href: "/pricing", label: "Pricing" },
-] as const;
-
-export function HeaderNav({
-  isAuthenticated,
-  user,
-  toolCount,
-}: {
-  isAuthenticated: boolean;
-  user: { email: string; isAdmin: boolean } | null;
-  toolCount?: number;
-}) {
+];
+export function HeaderNav() {
   const pathname = usePathname();
-  const isActive = (href: string) =>
-    pathname === href || pathname.startsWith(href + "/");
-
   return (
-    <div className="flex flex-1 items-center">
-      {/* Nav links — immediately after logo */}
-      <nav className="ml-6 hidden items-center gap-5 lg:flex" aria-label="Primary">
-        {NAV_LINKS.map((link) => (
-          <Link
-            key={link.href}
-            href={link.href}
-            className={cn(
-              "border-b px-0 py-2 text-sm transition-colors",
-              isActive(link.href)
-                ? "border-accent text-foreground"
-                : "border-transparent text-muted-foreground hover:border-foreground/30 hover:text-foreground",
-            )}
-          >
-            {link.label}
-            {link.href === "/categories" && toolCount !== undefined && (
-              <span className="ml-1.5 font-mono text-[10px] tabular-nums text-muted-foreground/50">
-                {toolCount}
-              </span>
-            )}
-          </Link>
-        ))}
+    <div className="flex min-w-0 flex-1 items-center">
+      <nav
+        aria-label="Primary"
+        className="ml-8 hidden items-center gap-7 lg:flex"
+      >
+        {NAV_LINKS.map((link) => {
+          const active =
+            pathname === link.href || pathname.startsWith(link.href + "/");
+          return (
+            <Link
+              key={link.href}
+              href={link.href}
+              aria-current={active ? "page" : undefined}
+              className={cn(
+                "py-3 text-[13px] transition-colors hover:text-accent",
+                active ? "font-medium text-accent" : "text-muted-foreground",
+              )}
+            >
+              {link.label}
+            </Link>
+          );
+        })}
       </nav>
-
-      {/* Actions — pushed far right */}
-      <div className="ml-auto flex items-center gap-2">
+      <div className="ml-auto flex min-w-0 items-center gap-2 sm:gap-4">
         <ThemeToggle />
 
         <Link
           href="/submit"
-          className={cn(
-            buttonVariants({ size: "sm" }),
-            "hidden sm:inline-flex items-center gap-1.5",
-          )}
+          className="action-primary hidden min-h-10 whitespace-nowrap px-4 text-[13px] lg:inline-flex"
         >
-          Submit
-          <ArrowRight className="h-3.5 w-3.5" />
+          <Plus aria-hidden className="h-3.5 w-3.5" />
+          Submit a tool
         </Link>
-
-        {isAuthenticated && user ? (
-          <UserMenu email={user.email} isAdmin={user.isAdmin} />
-        ) : (
-          <Link
-            href="/login?next=/"
-            className={cn(
-              buttonVariants({ variant: "outline", size: "sm" }),
-              "hidden sm:inline-flex",
-            )}
-          >
-            Sign in
-          </Link>
-        )}
-
-        <MobileNav isAuthenticated={isAuthenticated} />
+        <MobileNav />
       </div>
     </div>
   );

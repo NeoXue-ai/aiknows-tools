@@ -1,0 +1,18 @@
+{
+  "slug": "miso-one-2",
+  "name": "Miso One",
+  "tagline": "Miso One AI is a browser-based voice generation workspace designed for high-quality audio production and expressive speech",
+  "description": "Miso One AI is a browser-based voice generation workspace designed for high-quality audio production and expressive speech. The platform provides a comprehensive environment for managing expressive prompts, conducting cloning tests, and organizing transcripts. Users can leverage the tool for launch planning and making responsible audio decisions through a centralized interface. Advanced Voice Capabilities The software specializes in low-latency dialogue and one-shot voice cloning, allowing for r",
+  "url": "https://misooneai.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=misooneai.com&sz=64",
+  "screenshot_url": "/screenshots/miso-one.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 5,
+  "subcategory": "ai-voice-cloning",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

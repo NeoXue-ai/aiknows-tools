@@ -1,0 +1,18 @@
+{
+  "slug": "imideo-ai",
+  "name": "iMideo AI",
+  "tagline": "iMideo AI is an all-in-one video generation platform designed to streamline the production of high-quality visual content",
+  "description": "iMideo AI is an all-in-one video generation platform designed to streamline the production of high-quality visual content. Founded in 2024, the tool enables users to transform text prompts and static images into professional videos in as little as 60 seconds. By leveraging advanced AI models such as Veo3, Sora 2, and Seedance, the platform ensures high-fidelity output ranging from 1080p to 4K resolution. Advanced Video Generation Capabilities The platform specializes in converting product photos",
+  "url": "https://www.imideo.net/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=imideo.net&sz=64",
+  "screenshot_url": "/screenshots/imideo-ai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 32,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

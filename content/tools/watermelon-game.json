@@ -1,0 +1,18 @@
+{
+  "slug": "watermelon-game",
+  "name": "Watermelon Game",
+  "tagline": "Drop fruits into the box. Matching fruits merge into bigger ones. The run ends if the stack crosses the top line for too long.",
+  "description": "Drop fruits into the box. Matching fruits merge into bigger ones. The run ends if the stack crosses the top line for too long.",
+  "url": "https://watermelongame.vip",
+  "logo_url": "https://www.google.com/s2/favicons?domain=watermelongame.vip&sz=64",
+  "screenshot_url": "/screenshots/watermelon-game.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 3.1,
+  "subcategory": "ai-entertainment",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "grokvideopro",
+  "name": "grokvideo.pro",
+  "tagline": "Grok video generator creates stunning videos from text and images",
+  "description": "Grok video generator creates stunning videos from text and images. Fast AI video creation with natural language control. 2 free credits daily, no credit card needed. Try Grok Video now!",
+  "url": "https://grokvideo.pro/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=grokvideo.pro&sz=64",
+  "screenshot_url": "/screenshots/grokvideo-pro.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 21,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

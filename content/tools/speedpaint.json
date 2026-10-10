@@ -1,0 +1,18 @@
+{
+  "slug": "speedpaint",
+  "name": "speedpaint",
+  "tagline": "Transform Images into Whiteboard Animations Speedpaint is an AI-powered image-to-sketch video maker designed to convert photos, logos, and…",
+  "description": "Transform Images into Whiteboard Animations Speedpaint is an AI-powered image-to-sketch video maker designed to convert photos, logos, and illustrations into hand-drawn animations. Unlike traditional timeline editors that rely on pre-made clip libraries, this tool starts with your existing imagery and automatically extracts line art to create a stroke-by-stroke drawing effect. The platform is built for speed, allowing users to generate high-quality sketch videos in just a few minutes. Customizat",
+  "url": "https://speedpaint.io/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=speedpaint.io&sz=64",
+  "screenshot_url": "/screenshots/speedpaint.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

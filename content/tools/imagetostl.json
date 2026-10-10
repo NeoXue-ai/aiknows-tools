@@ -1,0 +1,18 @@
+{
+  "slug": "imagetostl",
+  "name": "imagetostl",
+  "tagline": "**ImageToSTL.pro** is an online AI Image to STL Converter that helps users turn 2D images into 3D printable STL models",
+  "description": "**ImageToSTL.pro** is an online AI Image to STL Converter that helps users turn 2D images into 3D printable STL models. Upload a JPG, PNG, or WEBP image, generate a 3D model, preview it online, and download the STL file for 3D printing, prototyping, or creative design projects. It is useful for makers, 3D printing enthusiasts, designers, hobbyists, and anyone who wants to quickly convert image-based ideas into printable 3D models without complex 3D modeling software.",
+  "url": "https://imagetostl.pro",
+  "logo_url": "https://www.google.com/s2/favicons?domain=imagetostl.pro&sz=64",
+  "screenshot_url": "/screenshots/imagetostl.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 7,
+  "subcategory": "ai-3d-model-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

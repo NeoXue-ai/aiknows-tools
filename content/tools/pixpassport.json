@@ -1,0 +1,18 @@
+{
+  "slug": "pixpassport",
+  "name": "pixpassport",
+  "tagline": "PixPassport – AI Passport & Visa Photo Tool PixPassport is an AI-powered online platform that helps users create compliant passport, visa, and ID…",
+  "description": "PixPassport – AI Passport & Visa Photo Tool PixPassport is an AI-powered online platform that helps users create compliant passport, visa, and ID photos in minutes. It uses advanced computer vision to automatically crop, align, and validate images according to official government standards for 50+ countries, including the US, UK, India, and Schengen regions. The tool features automatic background removal, facial landmark detection, and real-time compliance checks to ensure correct head size, eye",
+  "url": "https://www.pixpassport.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=pixpassport.com&sz=64",
+  "screenshot_url": "/screenshots/pixpassport.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 26,
+  "subcategory": "ai-background-remover",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

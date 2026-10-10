@@ -1,0 +1,18 @@
+{
+  "slug": "stageonce",
+  "name": "StageOnce",
+  "tagline": "AI virtual staging tool — $299.99 one-time, no subscription. Upload a photo, get a staged room in 30 seconds. First photo free, no sign-up.",
+  "description": "AI virtual staging tool — $299.99 one-time, no subscription. Upload a photo, get a staged room in 30 seconds. First photo free, no sign-up.",
+  "url": "https://stageonce.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=stageonce.com&sz=64",
+  "screenshot_url": "/screenshots/stageonce.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-interior-design",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

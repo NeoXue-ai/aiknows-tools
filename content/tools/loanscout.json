@@ -1,0 +1,18 @@
+{
+  "slug": "loanscout",
+  "name": "LoanScout",
+  "tagline": "LoanScout is an online loan comparison tool that helps U.S",
+  "description": "LoanScout is an online loan comparison tool that helps U.S. borrowers explore personal loan, installment loan, emergency loan, cash advance, and bad credit loan options before applying. Users can compare loan amounts, estimated rates and fees, state availability, funding speed, eligibility requirements, and lender details in one place. LoanScout is not a lender and does not make credit decisions; it organizes loan information so people can review options, understand costs, and choose where to ap",
+  "url": "https://loanscout.co",
+  "logo_url": "https://www.google.com/s2/favicons?domain=loanscout.co&sz=64",
+  "screenshot_url": "/screenshots/loanscout.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 2.3,
+  "subcategory": "ai-models",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

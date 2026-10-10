@@ -1,0 +1,18 @@
+{
+  "slug": "posteahora",
+  "name": "PosteAhora",
+  "tagline": "PosteAhora — social media on autopilot Staying consistent across every network is a grind: writing captions, switching apps, posting the same thing…",
+  "description": "PosteAhora — social media on autopilot Staying consistent across every network is a grind: writing captions, switching apps, posting the same thing over and over. PosteAhora is built for how people work now — **connect an AI agent and let it run your posting for you.** A hosted **MCP server** and full **API** let **Claude, ChatGPT, Cursor** and other agents draft, schedule and publish from chat — 14 tools, no coding. Prefer hands-on? Do it yourself in one workspace: - **Cross-post to 9 networks*",
+  "url": "https://posteahora.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=posteahora.com&sz=64",
+  "screenshot_url": "/screenshots/posteahora.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-agent",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

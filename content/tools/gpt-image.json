@@ -1,0 +1,18 @@
+{
+  "slug": "gpt-image",
+  "name": "gpt  image",
+  "tagline": "Generate and edit images with GPT Image via OpenAI&#x27;s API",
+  "description": "Generate and edit images with GPT Image via OpenAI&#x27;s API. 4K output, accurate text, precise edits in seconds. Free trial credits — no install or waitlist.",
+  "url": "https://gptimg.co",
+  "logo_url": "https://www.google.com/s2/favicons?domain=gptimg.co&sz=64",
+  "screenshot_url": "/screenshots/gpt-image.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 16,
+  "subcategory": "ai-models",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

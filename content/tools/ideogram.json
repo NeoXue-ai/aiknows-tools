@@ -1,0 +1,21 @@
+{
+  "slug": "ideogram",
+  "name": "Ideogram",
+  "tagline": "AI images with text",
+  "description": "Text-to-image model that handles legible text inside images.",
+  "url": "https://ideogram.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=ideogram.ai&sz=64",
+  "screenshot_url": "/screenshots/ideogram.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "image",
+    "text"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

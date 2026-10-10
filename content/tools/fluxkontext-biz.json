@@ -1,0 +1,18 @@
+{
+  "slug": "fluxkontext-biz",
+  "name": "FluxKontext Biz",
+  "tagline": "Advanced AI image generation platform powered by Flux Kontext",
+  "description": "Advanced AI image generation platform powered by Flux Kontext. Create stunning images from text, edit existing images, and process multiple images with cutting-edge AI technology.",
+  "url": "https://www.fluxkontext.biz/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=fluxkontext.biz&sz=64",
+  "screenshot_url": "/screenshots/fluxkontext-biz.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 20,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

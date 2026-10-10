@@ -1,0 +1,18 @@
+{
+  "slug": "crepal",
+  "name": "CrePal",
+  "tagline": "The secure AI agent platform for enterprises. Credal powers multi-agent workflows and enterprise AI search across your data, tools, and expertise.",
+  "description": "The secure AI agent platform for enterprises. Credal powers multi-agent workflows and enterprise AI search across your data, tools, and expertise.",
+  "url": "https://credal.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=credal.ai&sz=64",
+  "screenshot_url": "/screenshots/crepal.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 52,
+  "subcategory": "ai-agent",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

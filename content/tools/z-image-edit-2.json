@@ -1,0 +1,18 @@
+{
+  "slug": "z-image-edit-2",
+  "name": "Z-Image-Edit",
+  "tagline": "Z-Image-Edit is a professional image editing platform powered by Alibaba Tongyi's Z-Image-Edit model",
+  "description": "Z-Image-Edit is a professional image editing platform powered by Alibaba Tongyi's Z-Image-Edit model. Experience Z-Image, Z-Image-Turbo, and Z-Image-Edit for AI-powered image generation and editing with bilingual support.",
+  "url": "https://z-image-edit.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=z-image-edit.com&sz=64",
+  "screenshot_url": "/screenshots/z-image-edit-1.webp",
+  "primary_category": "code-development",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 15,
+  "subcategory": "ai-image-api",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

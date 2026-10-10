@@ -1,0 +1,18 @@
+{
+  "slug": "workreport",
+  "name": "workreport",
+  "tagline": "日報書き方に迷ったら、今日の業務を話すだけ。AIが作業日報テンプレートに沿って、要点・成果・リスク・明日の計画が伝わる日報に整理します。",
+  "description": "日報書き方に迷ったら、今日の業務を話すだけ。AIが作業日報テンプレートに沿って、要点・成果・リスク・明日の計画が伝わる日報に整理します。",
+  "url": "https://workreport.pro",
+  "logo_url": "https://www.google.com/s2/favicons?domain=workreport.pro&sz=64",
+  "screenshot_url": "/screenshots/workreport.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-agent",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

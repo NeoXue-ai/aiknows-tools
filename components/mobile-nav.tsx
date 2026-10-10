@@ -1,149 +1,123 @@
 "use client";
-
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Menu, X, ArrowRight } from "lucide-react";
-import { buttonVariants } from "@/components/ui/button-variants";
+import { ArrowRight, Menu, X } from "lucide-react";
 import { Logo } from "@/components/logo";
 import { cn } from "@/lib/utils";
-
-const NAV_LINKS = [
-  { href: "/categories", label: "Category" },
+const LINKS = [
+  { href: "/tools", label: "Discover" },
+  { href: "/categories", label: "Categories" },
+  { href: "/collections", label: "Collections" },
   { href: "/blog", label: "Blog" },
-  { href: "/pricing", label: "Pricing" },
-] as const;
-
-export function MobileNav({
-  isAuthenticated,
-}: {
-  isAuthenticated: boolean;
-}) {
+];
+export function MobileNav() {
   const [open, setOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
+  const dialogRef = useRef<HTMLDialogElement>(null);
+  const triggerRef = useRef<HTMLButtonElement>(null);
+  const closeRef = useRef<HTMLButtonElement>(null);
   const pathname = usePathname();
-
+  useEffect(() => setMounted(true), []);
+  useEffect(() => setOpen(false), [pathname]);
   useEffect(() => {
-    setMounted(true);
-  }, []);
-
-  useEffect(() => {
-    if (!open) return;
-    const onKey = (e: KeyboardEvent) => {
-      if (e.key === "Escape") setOpen(false);
-    };
-    document.addEventListener("keydown", onKey);
+    const dialog = dialogRef.current;
+    if (!mounted || !dialog || !open) return;
+    const previousOverflow = document.body.style.overflow;
+    dialog.showModal();
     document.body.style.overflow = "hidden";
+    closeRef.current?.focus();
     return () => {
-      document.removeEventListener("keydown", onKey);
-      document.body.style.overflow = "";
+      dialog.close();
+      document.body.style.overflow = previousOverflow;
+      triggerRef.current?.focus();
     };
-  }, [open]);
-
-  // Close drawer whenever route changes
-  useEffect(() => {
-    setOpen(false);
-  }, [pathname]);
-
-  const isActive = (href: string) =>
-    pathname === href || pathname.startsWith(href + "/");
-
+  }, [open, mounted]);
   return (
     <div className="lg:hidden">
       <button
+        ref={triggerRef}
         type="button"
-        aria-label="Open menu"
         onClick={() => setOpen(true)}
-        className={cn(buttonVariants({ variant: "ghost", size: "icon" }))}
+        aria-label="Open menu"
+        aria-expanded={open}
+        aria-controls="mobile-site-navigation"
+        className="inline-flex h-10 w-10 items-center justify-center rounded-full text-foreground hover:bg-secondary"
       >
-        <Menu className="h-5 w-5" />
+        <Menu aria-hidden className="h-5 w-5" strokeWidth={1.6} />
       </button>
-
-      {mounted && open &&
+      {mounted &&
         createPortal(
-          <>
-            {/* Backdrop */}
-            <div
-              aria-hidden
-              onClick={() => setOpen(false)}
-              className={cn(
-                "fixed inset-0 z-50 bg-black/45 transition-opacity duration-200",
-                open ? "opacity-100" : "pointer-events-none opacity-0",
-              )}
-            />
-
-            {/* Drawer */}
-            <aside
-              role="dialog"
-              aria-modal="true"
-              aria-label="Site navigation"
-              className={cn(
-                "fixed inset-y-0 right-0 z-50 flex w-full max-w-xs flex-col border-l border-border bg-background transition-transform duration-200 ease-out",
-                open ? "translate-x-0" : "translate-x-full",
-              )}
-            >
-        <div className="flex h-16 items-center justify-between border-b border-border px-5">
-          <Logo />
-          <button
-            type="button"
-            aria-label="Close menu"
-            onClick={() => setOpen(false)}
-            className={cn(buttonVariants({ variant: "ghost", size: "icon" }))}
+          <dialog
+            ref={dialogRef}
+            id="mobile-site-navigation"
+            aria-labelledby="mobile-menu-title"
+            onCancel={() => setOpen(false)}
+            onClick={(event) => {
+              if (event.target === event.currentTarget) setOpen(false);
+            }}
+            className="fixed inset-y-0 left-auto right-0 m-0 h-dvh max-h-none w-[min(360px,calc(100%-24px))] max-w-none border-0 border-l border-border bg-background p-0 text-foreground backdrop:bg-black/30"
           >
-            <X className="h-5 w-5" />
-          </button>
-        </div>
-
-        <nav className="flex-1 px-5 py-6">
-          <ul className="border-y border-border">
-            {NAV_LINKS.map((link) => (
-              <li key={link.href} className="border-b border-border last:border-b-0">
-                <Link
-                  href={link.href}
-                  className={cn(
-                    "flex h-12 items-center border-l-2 px-3 text-sm font-medium transition-colors",
-                    isActive(link.href)
-                      ? "border-accent text-foreground"
-                      : "border-transparent text-muted-foreground hover:border-foreground/30 hover:text-foreground",
-                  )}
+            <div className="flex h-full flex-col px-6">
+              <div className="flex h-[88px] shrink-0 items-center justify-between gap-4">
+                <Logo />
+                <button
+                  ref={closeRef}
+                  type="button"
+                  aria-label="Close menu"
+                  onClick={() => setOpen(false)}
+                  className="flex h-10 w-10 items-center justify-center rounded-full hover:bg-secondary"
                 >
-                  {link.label}
+                  <X aria-hidden className="h-5 w-5" />
+                </button>
+              </div>
+              <h2
+                id="mobile-menu-title"
+                className="mt-7 text-xs font-medium text-muted-foreground"
+              >
+                Explore AIknows
+              </h2>
+              <nav aria-label="Mobile" className="mt-4 flex-1">
+                <ul>
+                  {LINKS.map((link) => {
+                    const active =
+                      pathname === link.href ||
+                      pathname.startsWith(link.href + "/");
+                    return (
+                      <li key={link.href}>
+                        <Link
+                          href={link.href}
+                          onClick={() => setOpen(false)}
+                          aria-current={active ? "page" : undefined}
+                          className={cn(
+                            "flex min-h-16 items-center justify-between border-b border-border text-xl tracking-[-0.03em]",
+                            active ? "text-accent" : "text-foreground",
+                          )}
+                        >
+                          {link.label}
+                          <ArrowRight
+                            aria-hidden
+                            className="h-4 w-4 text-muted-foreground"
+                          />
+                        </Link>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </nav>
+              <div className="space-y-5 border-t border-border py-7">
+                <Link
+                  href="/submit"
+                  onClick={() => setOpen(false)}
+                  className="action-primary w-full"
+                >
+                  Submit a tool
+                  <ArrowRight aria-hidden className="h-4 w-4" />
                 </Link>
-              </li>
-            ))}
-          </ul>
-
-          <div className="mt-8">
-            <p className="mb-3 font-mono text-[10px] uppercase tracking-[0.16em] text-muted-foreground">
-              Add a record
-            </p>
-            <Link
-              href="/submit"
-              className="flex h-11 items-center gap-2 border-b border-foreground px-1 text-sm font-medium text-foreground transition-colors hover:border-accent hover:text-accent"
-            >
-              <ArrowRight className="h-4 w-4" />
-              Submit
-            </Link>
-          </div>
-        </nav>
-
-        <div className="border-t border-border p-5">
-          {isAuthenticated ? (
-            <Link href="/" className="text-sm text-muted-foreground hover:text-foreground">
-              You&apos;re signed in
-            </Link>
-          ) : (
-            <Link
-              href="/login?next=/"
-              className="inline-flex border-b border-transparent py-1 text-sm font-medium text-foreground transition-colors hover:border-accent hover:text-accent"
-            >
-              Sign in
-            </Link>
-          )}
-        </div>
-            </aside>
-          </>,
+              </div>
+            </div>
+          </dialog>,
           document.body,
         )}
     </div>

@@ -1,0 +1,18 @@
+{
+  "slug": "aspirelyai",
+  "name": "Aspirely.ai",
+  "tagline": "Aspirely.ai is an AI-powered platform designed to make job hunting simple and efficient",
+  "description": "Aspirely.ai is an AI-powered platform designed to make job hunting simple and efficient. It helps users create personalized resumes, tailored cover letters, and interview kits directly on the site while also delivering real-time job alerts on Telegram. The platform aims to give young professionals and fresh graduates the tools they need to navigate the job market with confidence, save time, and increase their chances of landing the right opportunities. Aspirely.ai combines intelligent automation",
+  "url": "https://aspirely.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=aspirely.ai&sz=64",
+  "screenshot_url": "/screenshots/aspirely-ai.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 7,
+  "subcategory": "ai-resume-builder",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

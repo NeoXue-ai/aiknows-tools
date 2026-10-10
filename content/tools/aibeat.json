@@ -1,0 +1,18 @@
+{
+  "slug": "aibeat",
+  "name": "AIBEAT",
+  "tagline": "Explore useful AI tools, emerging startups, important industry news, and new product launches.",
+  "description": "Explore useful AI tools, emerging startups, important industry news, and new product launches.",
+  "url": "https://www.aibeat.dev/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=aibeat.dev&sz=64",
+  "screenshot_url": "/screenshots/aibeat.webp",
+  "primary_category": "seo-marketing",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-marketing",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

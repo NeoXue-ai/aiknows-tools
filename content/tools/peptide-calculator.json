@@ -1,0 +1,18 @@
+{
+  "slug": "peptide-calculator",
+  "name": "Peptide Calculator",
+  "tagline": "The Cernum Biosciences peptide calculator is a fast, accurate, and easy-to-use peptide dosage calculator designed for researchers, clinicians, and…",
+  "description": "The Cernum Biosciences peptide calculator is a fast, accurate, and easy-to-use peptide dosage calculator designed for researchers, clinicians, and advanced users who need precise results without complexity. Whether you’re calculating peptide dosage, performing peptide reconstitution calculations, or converting between mg, mcg, and mL, this tool simplifies every step. This powerful peptide reconstitution calculator helps you determine exact dosing based on vial strength, bacteriostatic water volu",
+  "url": "https://cernumbiosciences.com/peptide-calculator/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=cernumbiosciences.com&sz=64",
+  "screenshot_url": "/screenshots/peptide-calculator.webp",
+  "primary_category": "code-development",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 15,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

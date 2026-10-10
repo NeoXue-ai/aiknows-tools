@@ -1,0 +1,18 @@
+{
+  "slug": "seedance-25-ai-video-generator",
+  "name": "Seedance 2.5 AI Video Generator",
+  "tagline": "SeeVideo is an independent AI video platform for creating Seedance 2.5 videos from text or images",
+  "description": "SeeVideo is an independent AI video platform for creating Seedance 2.5 videos from text or images. Add references, review settings, and refine results.",
+  "url": "https://seevid.org/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=seevid.org&sz=64",
+  "screenshot_url": "/screenshots/seedance-2-5-ai-video-generator-1.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

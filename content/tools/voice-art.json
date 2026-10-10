@@ -1,0 +1,18 @@
+{
+  "slug": "voice-art",
+  "name": "Voice Art",
+  "tagline": "Voice Art is a browser-based AI voice generator that combines text to speech, consent-first voice cloning, and prompt-driven voice design in one…",
+  "description": "Voice Art is a browser-based AI voice generator that combines text to speech, consent-first voice cloning, and prompt-driven voice design in one studio. Key features - Text to speech that reads punctuation and wording as direction, producing speech with a clear pace and emotional shape - Private voice cloning from a short approved sample, kept as a reusable voice model in your account - Voice design that builds a new synthetic voice from a written description - A public library of 300+ voices yo",
+  "url": "https://voiceart.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=voiceart.app&sz=64",
+  "screenshot_url": "/screenshots/voice-art.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-voice-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

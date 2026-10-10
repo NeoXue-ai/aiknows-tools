@@ -1,0 +1,18 @@
+{
+  "slug": "nano-banana-ge",
+  "name": "Nano Banana GE",
+  "tagline": "Create and edit images instantly with Nano Banana AI",
+  "description": "Create and edit images instantly with Nano Banana AI. Powered by Gemini 2.5 Flash Image and Gemini 3 Pro — the world&#x27;s most advanced AI image generation and editing models.",
+  "url": "https://nanobananage.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=nanobananage.com&sz=64",
+  "screenshot_url": "/screenshots/nano-banana-ge.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 13,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

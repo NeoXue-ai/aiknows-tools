@@ -1,0 +1,18 @@
+{
+  "slug": "image2gpt",
+  "name": "Image2GPT",
+  "tagline": "The #1 free advanced AI image generator powered by GPT Image 2",
+  "description": "The #1 free advanced AI image generator powered by GPT Image 2. Create, edit, and transform images with ChatGPT image generation — text to image, style transfer, background removal, and more.",
+  "url": "https://image2gpt.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=image2gpt.com&sz=64",
+  "screenshot_url": "/screenshots/image2gpt.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 28,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

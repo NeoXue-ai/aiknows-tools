@@ -1,0 +1,18 @@
+{
+  "slug": "just-the-gist",
+  "name": "Just The Gist",
+  "tagline": "**Just The Gist** turns YouTube videos, podcasts, lectures, and any local audio or video file into clean transcripts and sharp, structured summaries…",
+  "description": "**Just The Gist** turns YouTube videos, podcasts, lectures, and any local audio or video file into clean transcripts and sharp, structured summaries — TL;DR, key topics, the stuff you actually wanted from that 2-hour interview. The twist: **it's 100% local by default**. Whisper transcribes on-device and a built-in local model summarizes right on your Mac — no account, no API key, no credit card, and your audio never leaves your machine. Want more horsepower? Plug in OpenRouter's free tier, a Cla",
+  "url": "https://justthegist.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=justthegist.app&sz=64",
+  "screenshot_url": "/screenshots/just-the-gist.webp",
+  "primary_category": "writing-content",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-summarizer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

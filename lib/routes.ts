@@ -3,18 +3,7 @@
 // /tools query. They do not make recommendations; they organize recorded
 // taxonomy into useful entry points.
 
-export const PRIMARY_CATEGORIES = [
-  "research-data",
-  "code-development",
-  "writing-content",
-  "image-video",
-  "seo-marketing",
-  "productivity",
-  "business-analytics",
-  "ecommerce-sales",
-] as const;
-
-export type PrimaryCategory = (typeof PRIMARY_CATEGORIES)[number];
+import type { PrimaryCategory } from "@/features/catalog/taxonomy";
 
 export const TAG_SETS = [
   "automation",
@@ -60,7 +49,7 @@ export const ROUTES: Route[] = [
         description:
           "Recorded research and data tools. Open the linked view to see the same record set after refresh.",
         filters: { category: "research-data" },
-        href: "/tools?category=research-data&view=table",
+        href: "/tools?category=research-data&view=list",
       },
       {
         index: 2,
@@ -68,7 +57,7 @@ export const ROUTES: Route[] = [
         description:
           "Read the Evidence Ledger sidebar on each record to confirm what is filed versus missing.",
         filters: {},
-        href: "/tools?view=table",
+        href: "/tools?view=list",
       },
     ],
   },
@@ -83,7 +72,7 @@ export const ROUTES: Route[] = [
         description:
           "Recorded code and development tools, by primary category.",
         filters: { category: "code-development" },
-        href: "/tools?category=code-development&view=table",
+        href: "/tools?category=code-development&view=list",
       },
       {
         index: 2,
@@ -91,7 +80,7 @@ export const ROUTES: Route[] = [
         description:
           "Open each record and read the Evidence Ledger to verify source and recorded fields.",
         filters: { category: "code-development" },
-        href: "/tools?category=code-development&view=table",
+        href: "/tools?category=code-development&view=list",
       },
       {
         index: 3,
@@ -99,7 +88,7 @@ export const ROUTES: Route[] = [
         description:
           "Open a record and read the Evidence Ledger sidebar before adopting any tool into a stack.",
         filters: {},
-        href: "/tools?view=table",
+        href: "/tools?view=list",
       },
     ],
   },
@@ -112,9 +101,9 @@ export const ROUTES: Route[] = [
         index: 1,
         title: "Open writing & content",
         description:
-          "Recorded writing and content tools, ordered by AIknows Score descending.",
+          "Recorded writing and content tools, ordered alphabetically.",
         filters: { category: "writing-content" },
-        href: "/tools?category=writing-content&view=table&sort=score",
+        href: "/tools?category=writing-content&view=list&sort=name",
       },
       {
         index: 2,
@@ -122,7 +111,7 @@ export const ROUTES: Route[] = [
         description:
           "Same methodology applied to records filed under seo-marketing.",
         filters: { category: "seo-marketing" },
-        href: "/tools?category=seo-marketing&view=table",
+        href: "/tools?category=seo-marketing&view=list",
       },
       {
         index: 3,
@@ -130,7 +119,7 @@ export const ROUTES: Route[] = [
         description:
           "Evidence sidebar tells you whether source and recorded verification are on file.",
         filters: {},
-        href: "/tools?view=table",
+        href: "/tools?view=list",
       },
     ],
   },
@@ -143,9 +132,9 @@ export const ROUTES: Route[] = [
         index: 1,
         title: "Image and video records",
         description:
-          "Recorded image and video tools, ordered by score.",
+          "Recorded image and video tools, ordered alphabetically.",
         filters: { category: "image-video" },
-        href: "/tools?category=image-video&view=table&sort=score",
+        href: "/tools?category=image-video&view=list&sort=name",
       },
       {
         index: 2,
@@ -153,7 +142,7 @@ export const ROUTES: Route[] = [
         description:
           "Same methodology applied to records filed under productivity & automation.",
         filters: { category: "productivity" },
-        href: "/tools?category=productivity&view=table",
+        href: "/tools?category=productivity&view=list",
       },
       {
         index: 3,
@@ -161,7 +150,7 @@ export const ROUTES: Route[] = [
         description:
           "Each record page surfaces the Evidence Ledger; nothing else is editorial signal.",
         filters: {},
-        href: "/tools?view=table",
+        href: "/tools?view=list",
       },
     ],
   },
@@ -174,9 +163,9 @@ export const ROUTES: Route[] = [
         index: 1,
         title: "SEO and marketing",
         description:
-          "Recorded SEO and marketing records, ordered by score.",
+          "Recorded SEO and marketing records, ordered alphabetically.",
         filters: { category: "seo-marketing" },
-        href: "/tools?category=seo-marketing&view=table&sort=score",
+        href: "/tools?category=seo-marketing&view=list&sort=name",
       },
       {
         index: 2,
@@ -184,7 +173,7 @@ export const ROUTES: Route[] = [
         description:
           "Some distribution work borrows from productivity records.",
         filters: { category: "productivity" },
-        href: "/tools?category=productivity&view=table",
+        href: "/tools?category=productivity&view=list",
       },
       {
         index: 3,
@@ -192,7 +181,7 @@ export const ROUTES: Route[] = [
         description:
           "Each record's Evidence Ledger tells you what is recorded. No more, no less.",
         filters: {},
-        href: "/tools?view=table",
+        href: "/tools?view=list",
       },
     ],
   },

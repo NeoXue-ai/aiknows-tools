@@ -1,0 +1,21 @@
+{
+  "slug": "humata",
+  "name": "Humata",
+  "tagline": "AI for your documents",
+  "description": "Ask, summarize, and synthesize answers from PDFs and docs.",
+  "url": "https://humata.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=humata.ai&sz=64",
+  "screenshot_url": "/screenshots/humata.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "pdf",
+    "qa"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-summarizer",
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

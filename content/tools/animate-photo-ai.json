@@ -1,0 +1,18 @@
+{
+  "slug": "animate-photo-ai",
+  "name": "Animate Photo AI",
+  "tagline": "Animate Photo AI turns photos into videos online. Upload & animate in seconds to create talking portraits, pet motion, and scene loops. Try it now.",
+  "description": "Animate Photo AI turns photos into videos online. Upload & animate in seconds to create talking portraits, pet motion, and scene loops. Try it now.",
+  "url": "https://animatephotoai.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=animatephotoai.com&sz=64",
+  "screenshot_url": "/screenshots/animate-photo-ai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 12,
+  "subcategory": "image-to-video-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

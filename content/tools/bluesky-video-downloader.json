@@ -1,0 +1,18 @@
+{
+  "slug": "bluesky-video-downloader",
+  "name": "Bluesky Video Downloader",
+  "tagline": "Download videos from Bluesky in MP4 with one click. No login, no watermark, no rate limit. Just paste a Bluesky post URL.",
+  "description": "Download videos from Bluesky in MP4 with one click. No login, no watermark, no rate limit. Just paste a Bluesky post URL.",
+  "url": "https://bluesky-video-downloader.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=bluesky-video-downloader.com&sz=64",
+  "screenshot_url": "/screenshots/bluesky-video-downloader.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 2.3,
+  "subcategory": "ai-image-enhancer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

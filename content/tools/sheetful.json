@@ -1,0 +1,18 @@
+{
+  "slug": "sheetful",
+  "name": "Sheetful",
+  "tagline": "Connect your Google Sheets and transform them into powerful REST APIs instantly. Try it for 14 days with our free trial.",
+  "description": "Connect your Google Sheets and transform them into powerful REST APIs instantly. Try it for 14 days with our free trial.",
+  "url": "https://sheetful.co",
+  "logo_url": "https://www.google.com/s2/favicons?domain=sheetful.co&sz=64",
+  "screenshot_url": "/screenshots/sheetful.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 5,
+  "subcategory": "ai-spreadsheet",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

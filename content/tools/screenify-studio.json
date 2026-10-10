@@ -1,0 +1,18 @@
+{
+  "slug": "screenify-studio",
+  "name": "Screenify Studio",
+  "tagline": "Screenify Studio turns rough screen recordings into polished product demos on Mac — without the editing tax",
+  "description": "Screenify Studio turns rough screen recordings into polished product demos on Mac — without the editing tax. Recording takes five minutes; making it look good usually takes forty-five. Screenify closes that gap. Point it at any URL, describe the demo in plain English, and an AI drives a real browser to record it, then adds cinematic 3D camera moves, spotlights, and callouts. Prefer control? A deep multi-track editor with manual zoom keyframes. Stage any recording in a photoreal 3D MacBook, iPhon",
+  "url": "https://www.screenify.studio/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=screenify.studio&sz=64",
+  "screenshot_url": "/screenshots/screenify-studio.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

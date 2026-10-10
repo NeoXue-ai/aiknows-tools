@@ -1,0 +1,18 @@
+{
+  "slug": "seedance-20-4",
+  "name": "Seedance 2.0",
+  "tagline": "Seedance 2.0 is a sophisticated AI video generation platform developed by ByteDance’s Seed lab",
+  "description": "Seedance 2.0 is a sophisticated AI video generation platform developed by ByteDance’s Seed lab. It specializes in transforming text prompts and static images into high-quality 1080p videos. The platform is engineered to deliver professional-grade visuals with a focus on temporal stability and cinematic quality, making it a powerful tool for modern digital storytelling. Advanced Video Generation Capabilities The software utilizes advanced text-to-video (T2V) and image-to-video (I2V) models to pro",
+  "url": "https://seedance.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=seedance.io&sz=64",
+  "screenshot_url": "/screenshots/seedance-2-0-13.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 27,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "klarion",
+  "name": "Klarion",
+  "tagline": "What Klarion Measures Against Most audit tools give you an AI's opinion",
+  "description": "What Klarion Measures Against Most audit tools give you an AI's opinion. Klarion scores your site against real buyer behavior: a corpus of Hacker News and Reddit posts from people describing the exact problem your product solves — in their own words. The gap between how your homepage talks and how buyers actually describe their pain is the core metric. Klarion finds it, names it, and rewrites your hero claim using the language your buyers use. What the Audit Covers Six scored dimensions — Visual",
+  "url": "https://klarion.dev",
+  "logo_url": "https://www.google.com/s2/favicons?domain=klarion.dev&sz=64",
+  "screenshot_url": "/screenshots/klarion.webp",
+  "primary_category": "writing-content",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 20,
+  "subcategory": "ai-content-creator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "answerforme",
+  "name": "AnswerForMe",
+  "tagline": "Chatbot para WhatsApp Business con IA",
+  "description": "Chatbot para WhatsApp Business con IA. Automatiza ventas, soporte y atenci&#xF3;n al cliente 24/7. Integraci&#xF3;n oficial API de Meta. Sin c&#xF3;digo, gratis para empezar.",
+  "url": "https://answerforme.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=answerforme.io&sz=64",
+  "screenshot_url": "/screenshots/answerforme.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-chatbot",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

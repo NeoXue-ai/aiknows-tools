@@ -1,0 +1,18 @@
+{
+  "slug": "bookyolo",
+  "name": "BookYolo",
+  "tagline": "Travel Al for stays, vacation rentals, and hotels",
+  "description": "Travel Al for stays, vacation rentals, and hotels. We decode the fine print of your stay, so you book with confidence. You get the full story before booking — No more surprises when you arrive!",
+  "url": "https://bookyolo.com/badges",
+  "logo_url": "https://www.google.com/s2/favicons?domain=bookyolo.com&sz=64",
+  "screenshot_url": "/screenshots/bookyolo.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 23,
+  "subcategory": "ai-travel",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

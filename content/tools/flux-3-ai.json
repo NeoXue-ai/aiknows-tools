@@ -1,0 +1,18 @@
+{
+  "slug": "flux-3-ai",
+  "name": "Flux 3 AI",
+  "tagline": "Explore Flux 3, the multimodal omni model for image, video, audio, and action generation. Try the online playground and generate from a single prompt.",
+  "description": "Explore Flux 3, the multimodal omni model for image, video, audio, and action generation. Try the online playground and generate from a single prompt.",
+  "url": "https://flux3.co",
+  "logo_url": "https://www.google.com/s2/favicons?domain=flux3.co&sz=64",
+  "screenshot_url": "/screenshots/flux-3-ai-1.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "productivity-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

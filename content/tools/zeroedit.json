@@ -1,0 +1,18 @@
+{
+  "slug": "zeroedit",
+  "name": "ZeroEdit",
+  "tagline": "Edit images with AI using natural language. Remove backgrounds, apply style transfers, remove objects, and transform photos in seconds. Free to try.",
+  "description": "Edit images with AI using natural language. Remove backgrounds, apply style transfers, remove objects, and transform photos in seconds. Free to try.",
+  "url": "https://zeroedit.me/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=zeroedit.me&sz=64",
+  "screenshot_url": "/screenshots/zeroedit.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 9,
+  "subcategory": "ai-art-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "fithairai",
+  "name": "FitHairAI",
+  "tagline": "Discover FitHairAI, the leading AI hairstyle changer",
+  "description": "Discover FitHairAI, the leading AI hairstyle changer. Upload your photo and preview 30+ realistic hairstyles—bobs, curls, pixie cuts, fades, and more—in seconds. No salon risk, no app download, free credits included.",
+  "url": "https://fithairai.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=fithairai.com&sz=64",
+  "screenshot_url": "/screenshots/fithairai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 20,
+  "subcategory": "ai-photo-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

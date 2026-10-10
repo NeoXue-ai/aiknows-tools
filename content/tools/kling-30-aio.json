@@ -1,0 +1,18 @@
+{
+  "slug": "kling-30-aio",
+  "name": "Kling 3.0 AIO",
+  "tagline": "KlingAIO.com is a comprehensive AI creative studio powered by Kuaishou’s Kling 3.0 model, released in early 2026",
+  "description": "KlingAIO.com is a comprehensive AI creative studio powered by Kuaishou’s Kling 3.0 model, released in early 2026. Operating under the slogan \"Everyone a Director,\" this \"All in One\" platform aggregates frontier models (including Kling 3.0, Seedance 2.0, and Veo 3.1) into a unified workflow for text-to-video, image-to-video, and video-to-video generation. It delivers cinematic 4K outputs characterized by realistic physics, multi-shot consistency, and professional-grade camera controls. Key techni",
+  "url": "https://klingaio.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=klingaio.com&sz=64",
+  "screenshot_url": "/screenshots/kling-3-0-aio.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 40,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

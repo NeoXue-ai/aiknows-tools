@@ -1,0 +1,18 @@
+{
+  "slug": "market-master",
+  "name": "Market Master",
+  "tagline": "Turn one website into a reviewed campaign with AI-generated ads, carousels, short videos, posts, email, publishing, and analytics.",
+  "description": "Turn one website into a reviewed campaign with AI-generated ads, carousels, short videos, posts, email, publishing, and analytics.",
+  "url": "https://marketmaster.dev",
+  "logo_url": "https://www.google.com/s2/favicons?domain=marketmaster.dev&sz=64",
+  "screenshot_url": "/screenshots/market-master.webp",
+  "primary_category": "seo-marketing",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-ad-creative",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

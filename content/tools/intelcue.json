@@ -1,0 +1,18 @@
+{
+  "slug": "intelcue",
+  "name": "IntelCue",
+  "tagline": "IntelCue: AI Competitive Intelligence Inside Claude and ChatGPT **IntelCue is an AI-powered competitive intelligence and market monitoring platform…",
+  "description": "IntelCue: AI Competitive Intelligence Inside Claude and ChatGPT **IntelCue is an AI-powered competitive intelligence and market monitoring platform built for lean B2B SaaS teams that don't have a dedicated analyst and don't have time to be one.** It turns scattered competitor signals into live context you can use directly inside ChatGPT, Claude (via MCP), and Slack. No new dashboard to live in. What IntelCue does IntelCue monitors competitor and market signals 24/7 across **13+ source types**, t",
+  "url": "https://www.intelcue.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=intelcue.ai&sz=64",
+  "screenshot_url": "/screenshots/intelcue.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 24,
+  "subcategory": "ai-models",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

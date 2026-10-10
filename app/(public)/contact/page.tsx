@@ -21,16 +21,16 @@ export default function ContactPage() {
   };
 
   return (
-    <div className="container mx-auto max-w-3xl px-4 py-12 md:py-16">
+    <div className="mx-auto w-full max-w-[768px] px-5 py-12 sm:px-8 md:py-16">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
       />
-      <header className="mb-10 border-b border-border pb-6">
-        <p className="font-mono text-[10px] uppercase tracking-[0.16em] text-muted-foreground">
+      <header className="mb-10">
+        <p className="text-sm font-medium text-accent">
           Contact / get in touch
         </p>
-        <h1 className="mt-3 text-balance text-3xl font-semibold tracking-[-0.03em] sm:text-4xl">
+        <h1 className="mt-3 text-balance text-4xl font-semibold tracking-[-0.045em] sm:text-5xl">
           Reach the maintainers.
         </h1>
         <p className="mt-3 text-pretty leading-7 text-muted-foreground">
@@ -41,18 +41,18 @@ export default function ContactPage() {
       </header>
 
       <section className="space-y-12">
-        <article className="rounded-xl border border-border bg-card p-7">
+        <article className="rounded-2xl border border-border bg-card p-6 sm:p-8">
           <div className="flex items-center gap-3">
-            <span className="inline-flex h-9 w-9 items-center justify-center rounded-lg border border-border bg-secondary/40 text-foreground">
+            <span className="inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-accent/8 text-accent">
               <Mail className="h-4 w-4" />
             </span>
-            <div>
-              <p className="font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground">
+            <div className="min-w-0">
+              <p className="text-xs font-medium text-muted-foreground">
                 Email
               </p>
               <a
                 href={`mailto:${CONTACT_EMAIL}`}
-                className="text-xl font-medium text-foreground transition-colors hover:text-accent"
+                className="text-lg font-medium text-foreground transition-colors [overflow-wrap:anywhere] hover:text-accent sm:text-xl"
               >
                 {CONTACT_EMAIL}
               </a>
@@ -60,7 +60,7 @@ export default function ContactPage() {
           </div>
           <a
             href={`mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent("aiknows.tools — ")}`}
-            className="mt-6 inline-flex h-11 items-center gap-2 bg-foreground px-5 text-sm font-medium text-background transition-colors hover:bg-foreground/90"
+            className="action-primary mt-6"
           >
             Open mail composer
             <ArrowUpRight className="h-4 w-4" />
@@ -68,7 +68,7 @@ export default function ContactPage() {
         </article>
 
         <article>
-          <p className="font-mono text-[10px] uppercase tracking-[0.14em] text-accent">
+          <p className="text-sm font-medium text-accent">
             When to write
           </p>
           <h2 className="mt-3 text-2xl font-semibold tracking-[-0.025em]">
@@ -104,9 +104,9 @@ export default function ContactPage() {
             ].map((row) => (
               <div
                 key={row.label}
-                className="grid grid-cols-[8rem_minmax(0,1fr)] gap-4 py-4 sm:grid-cols-[10rem_minmax(0,1fr)] sm:gap-6"
+                className="grid gap-2 py-4 sm:grid-cols-[10rem_minmax(0,1fr)] sm:gap-6"
               >
-                <dt className="font-mono text-[11px] uppercase tracking-[0.14em] text-muted-foreground">
+                <dt className="text-sm font-medium text-muted-foreground">
                   {row.label}
                 </dt>
                 <dd className="text-sm leading-6 text-foreground/85">{row.detail}</dd>
@@ -116,7 +116,7 @@ export default function ContactPage() {
         </article>
 
         <article>
-          <p className="font-mono text-[10px] uppercase tracking-[0.14em] text-accent">
+          <p className="text-sm font-medium text-accent">
             Response time
           </p>
           <h2 className="mt-3 text-2xl font-semibold tracking-[-0.025em]">

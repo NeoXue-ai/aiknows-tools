@@ -1,0 +1,18 @@
+{
+  "slug": "lessie-ai",
+  "name": "Lessie AI",
+  "tagline": "Lessie AI is an AI people search engine and outreach agent that helps teams find, verify, and reach the right people across the web",
+  "description": "Lessie AI is an AI people search engine and outreach agent that helps teams find, verify, and reach the right people across the web. Users can describe their ideal target in natural language, such as founders in a specific market, creators in a niche, potential customers, investors, podcast guests, or recruiting candidates. Lessie uses specialized AI agents to search across 100+ data sources, rank the best matches, verify contact details, and support personalized outreach and follow-ups. It repl",
+  "url": "https://lessie.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=lessie.ai&sz=64",
+  "screenshot_url": "/screenshots/lessie-ai.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-agent",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

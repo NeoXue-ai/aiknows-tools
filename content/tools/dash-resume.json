@@ -1,0 +1,18 @@
+{
+  "slug": "dash-resume",
+  "name": "Dash Resume",
+  "tagline": "Dash Resume is a professional online resume builder designed to help job seekers create high-quality documents that stand out to recruiters",
+  "description": "Dash Resume is a professional online resume builder designed to help job seekers create high-quality documents that stand out to recruiters. The platform focuses on providing a streamlined editing experience that allows users to customize every section of their resume while maintaining a clean, professional layout. By utilizing structured templates, the tool ensures that your final document is both readable for humans and optimized for Applicant Tracking Systems (ATS). Professional Templates and",
+  "url": "https://dashresume.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=dashresume.com&sz=64",
+  "screenshot_url": "/screenshots/dash-resume.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 7,
+  "subcategory": "ai-resume-builder",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

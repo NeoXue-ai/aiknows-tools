@@ -1,0 +1,18 @@
+{
+  "slug": "video-frame-extractor",
+  "name": "Video Frame Extractor",
+  "tagline": "Extract frames from video online for free with no upload",
+  "description": "Extract frames from video online for free with no upload. Capture single frames, batch exports, and scene changes in your browser from MP4, MOV, and WebM files.",
+  "url": "https://frame-extractor.video",
+  "logo_url": "https://www.google.com/s2/favicons?domain=frame-extractor.video&sz=64",
+  "screenshot_url": "/screenshots/video-frame-extractor.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 34,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

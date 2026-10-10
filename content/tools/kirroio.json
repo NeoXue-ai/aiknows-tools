@@ -1,0 +1,18 @@
+{
+  "slug": "kirroio",
+  "name": "Kirro.io",
+  "tagline": "A/B testing without the BS. Set up tests in minutes, get results in plain English. Built for marketers and founders, not data scientists.",
+  "description": "A/B testing without the BS. Set up tests in minutes, get results in plain English. Built for marketers and founders, not data scientists.",
+  "url": "https://kirro.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=kirro.io&sz=64",
+  "screenshot_url": "/screenshots/kirro-io.webp",
+  "primary_category": "seo-marketing",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 26,
+  "subcategory": "ai-marketing",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

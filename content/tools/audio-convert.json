@@ -1,0 +1,18 @@
+{
+  "slug": "audio-convert",
+  "name": "Audio Convert",
+  "tagline": "What it does Audio Convert is an online speech to text tool that turns audio and video recordings into editable text using OpenAI Whisper",
+  "description": "What it does Audio Convert is an online speech to text tool that turns audio and video recordings into editable text using OpenAI Whisper. Upload an MP3, WAV, M4A, or MP4 file, record live in the browser, or paste a supported media URL. Key features - AI transcription in 100+ languages with automatic language detection - Speaker labels and timestamps for interviews, meetings, and quote checking - In-browser editor to search the transcript, correct proper nouns, and rename speakers - Export TXT,",
+  "url": "https://audioconvert.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=audioconvert.app&sz=64",
+  "screenshot_url": "/screenshots/audio-convert.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "speech-to-text-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

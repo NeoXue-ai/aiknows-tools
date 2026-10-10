@@ -1,0 +1,18 @@
+{
+  "slug": "seedream-ai",
+  "name": "Seedream AI",
+  "tagline": "Generate beautiful, high-quality images using the revolutionary Seedream 4.0 model",
+  "description": "Generate beautiful, high-quality images using the revolutionary Seedream 4.0 model. Experience next-generation AI image creation with unparalleled quality and creativity.",
+  "url": "https://seedreamai.run",
+  "logo_url": "https://www.google.com/s2/favicons?domain=seedreamai.run&sz=64",
+  "screenshot_url": "/screenshots/seedream-ai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 33,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

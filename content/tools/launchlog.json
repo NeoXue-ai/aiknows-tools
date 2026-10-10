@@ -1,0 +1,18 @@
+{
+  "slug": "launchlog",
+  "name": "LaunchLog",
+  "tagline": "Get your startup roasted by AI, track revenue, share your journey, and get feedback from other makers.",
+  "description": "Get your startup roasted by AI, track revenue, share your journey, and get feedback from other makers.",
+  "url": "https://launchlog.fun",
+  "logo_url": "https://www.google.com/s2/favicons?domain=launchlog.fun&sz=64",
+  "screenshot_url": "/screenshots/launchlog.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 19,
+  "subcategory": "building-products",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "aura",
+  "name": "Aura++",
+  "tagline": "Aura++ is an AI-powered platform designed to help startups and creators launch their products with a single click",
+  "description": "Aura++ is an AI-powered platform designed to help startups and creators launch their products with a single click. Submit effortlessly, earn a credibility badge and increase your online aura.",
+  "url": "https://auraplusplus.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=auraplusplus.com&sz=64",
+  "screenshot_url": "/screenshots/aura.webp",
+  "primary_category": "code-development",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 72,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

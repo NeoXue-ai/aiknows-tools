@@ -1,0 +1,18 @@
+{
+  "slug": "humanizefast",
+  "name": "Humanize.fast",
+  "tagline": "Humanize AI text in seconds. 100+ languages supported.",
+  "description": "Humanize AI text in seconds. 100+ languages supported.",
+  "url": "https://humanize.fast",
+  "logo_url": "https://www.google.com/s2/favicons?domain=humanize.fast&sz=64",
+  "screenshot_url": "/screenshots/humanize-fast.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 37,
+  "subcategory": "ai-humanizer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

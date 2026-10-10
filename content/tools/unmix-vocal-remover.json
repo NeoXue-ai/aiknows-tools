@@ -1,0 +1,18 @@
+{
+  "slug": "unmix-vocal-remover",
+  "name": "unMix - Vocal Remover",
+  "tagline": "What is unMix Vocal Remover? unMix Vocal Remover is an AI-powered vocal remover and stem splitter that helps you isolate vocals, instrumentals, and…",
+  "description": "What is unMix Vocal Remover? unMix Vocal Remover is an AI-powered vocal remover and stem splitter that helps you isolate vocals, instrumentals, and individual stems from songs in seconds. Whether you're creating karaoke tracks, remixing music, practicing instruments, or editing audio for content creation, unMix delivers fast, high-quality results directly in your browser or app. Key Features - AI Vocal Remover for clean vocal and instrumental separation - Stem Splitter supporting vocals, drums,",
+  "url": "https://unmix.audio/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=unmix.audio&sz=64",
+  "screenshot_url": "/screenshots/unmix-vocal-remover.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-music-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

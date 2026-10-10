@@ -1,0 +1,18 @@
+{
+  "slug": "online-text-editor",
+  "name": "Online Text Editor",
+  "tagline": "The best Online Notepad in web browser for distraction-free writing, note-taking, and text editing",
+  "description": "The best Online Notepad in web browser for distraction-free writing, note-taking, and text editing. Free, no registration required, can share notes with others.",
+  "url": "https://onlinenotepad101.org/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=onlinenotepad101.org&sz=64",
+  "screenshot_url": "/screenshots/online-text-editor.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 29,
+  "subcategory": "ai-note-taker",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

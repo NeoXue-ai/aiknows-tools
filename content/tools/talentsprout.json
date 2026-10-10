@@ -1,0 +1,18 @@
+{
+  "slug": "talentsprout",
+  "name": "TalentSprout",
+  "tagline": "AI recruiter that automates voice & video interviews",
+  "description": "AI recruiter that automates voice & video interviews. Screen & hire candidates 10x faster with instant scoring & insights. Save 10+ hours/week. Try free.",
+  "url": "https://www.talentsprout.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=talentsprout.ai&sz=64",
+  "screenshot_url": "/screenshots/talentsprout.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 27,
+  "subcategory": "ai-agent",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

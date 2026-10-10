@@ -1,0 +1,18 @@
+{
+  "slug": "magpie",
+  "name": "Magpie",
+  "tagline": "Magpie is a quiet Chrome side panel for saving images, screenshots, links, and notes into private boards stored on your device",
+  "description": "Magpie is a quiet Chrome side panel for saving images, screenshots, links, and notes into private boards stored on your device. Unlike save-for-later apps that become feeds, Magpie appears when you need it and stays out of the way when you don't. No ads, account, or tracking. Capture content with a right-click, screenshot clipper, drag-and-drop, paste, or multi-image grab. Save X and Instagram posts with metadata intact. Organize with boards, tags, notes, search, and color filtering. Optional AI",
+  "url": "https://www.magpie.ee",
+  "logo_url": "https://www.google.com/s2/favicons?domain=magpie.ee&sz=64",
+  "screenshot_url": "/screenshots/magpie.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "chrome-extensions",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

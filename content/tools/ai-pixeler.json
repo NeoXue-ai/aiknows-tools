@@ -1,0 +1,18 @@
+{
+  "slug": "ai-pixeler",
+  "name": "AI Pixeler",
+  "tagline": "Turn simple product photos into campaign-ready visuals with AI",
+  "description": "Turn simple product photos into campaign-ready visuals with AI. Create ecommerce images, product-in-hand scenes, social media creatives, and editable marketing assets.",
+  "url": "https://aipixeler.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=aipixeler.com&sz=64",
+  "screenshot_url": "/screenshots/ai-pixeler.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 4.2,
+  "subcategory": "ai-product-photography",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

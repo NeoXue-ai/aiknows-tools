@@ -1,0 +1,18 @@
+{
+  "slug": "recipe-roulette",
+  "name": "Recipe Roulette",
+  "tagline": "Recipe Roulette is an AI recipe generator that creates personalized dishes based on your cuisine preferences, dietary restrictions, and available…",
+  "description": "Recipe Roulette is an AI recipe generator that creates personalized dishes based on your cuisine preferences, dietary restrictions, and available ingredients. Every recipe includes quantities in each step, instant serving scaling, and ingredient substitutes. Spin the wheel to discover your next favorite meal. Key Features: - AI Recipe Generation - Spin the wheel to get unique, personalized recipes instantly - Smart Filtering - Filter by cuisine, meal type, dietary restrictions, prep time, and av",
+  "url": "https://reciperouletteit.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=reciperouletteit.com&sz=64",
+  "screenshot_url": "/screenshots/recipe-roulette.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 2.2,
+  "subcategory": "ai-food-nutrition",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

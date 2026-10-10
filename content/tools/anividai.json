@@ -1,0 +1,18 @@
+{
+  "slug": "anividai",
+  "name": "AnividAI",
+  "tagline": "Create original characters (OCs), generate consistent AI anime art, anime videos, stories and chat with your OCs—all in one platform with AnividAI.",
+  "description": "Create original characters (OCs), generate consistent AI anime art, anime videos, stories and chat with your OCs—all in one platform with AnividAI.",
+  "url": "https://anividai.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=anividai.com&sz=64",
+  "screenshot_url": "/screenshots/anividai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 35,
+  "subcategory": "ai-art-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

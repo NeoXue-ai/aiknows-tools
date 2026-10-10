@@ -1,0 +1,21 @@
+{
+  "slug": "n8n",
+  "name": "n8n",
+  "tagline": "Source-available workflow automation",
+  "description": "Self-hostable workflow automation with AI agents and 400+ integrations.",
+  "url": "https://n8n.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=n8n.io&sz=64",
+  "screenshot_url": "/screenshots/n8n.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "automation",
+    "self-host"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-workflow",
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

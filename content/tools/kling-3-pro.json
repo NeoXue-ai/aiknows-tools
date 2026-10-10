@@ -1,0 +1,18 @@
+{
+  "slug": "kling-3-pro",
+  "name": "Kling 3 Pro",
+  "tagline": "Create stunning AI videos and images with Kling 3.0",
+  "description": "Create stunning AI videos and images with Kling 3.0. Native 4K 60fps video, multi-shot storyboarding, and built-in audio in 6+ languages. Try free today.",
+  "url": "https://kling3pro.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=kling3pro.com&sz=64",
+  "screenshot_url": "/screenshots/kling-3-pro.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 11,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "hy-motion",
+  "name": "HY Motion",
+  "tagline": "HY Motion is an online platform to generate high-fidelity 3D character animations from text descriptions",
+  "description": "HY Motion is an online platform to generate high-fidelity 3D character animations from text descriptions. Powered by Tencent&#x27;s open-source AI model.",
+  "url": "https://hymotion.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=hymotion.app&sz=64",
+  "screenshot_url": "/screenshots/hy-motion.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 23,
+  "subcategory": "ai-models",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

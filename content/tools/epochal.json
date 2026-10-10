@@ -1,0 +1,18 @@
+{
+  "slug": "epochal",
+  "name": "Epochal",
+  "tagline": "Epochal is an AI video generator for text to video, image to video, and AI image generation",
+  "description": "Epochal is an AI video generator for text to video, image to video, and AI image generation. Create short videos, product visuals, and cinematic scenes with top AI models in one workflow.",
+  "url": "https://epochal.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=epochal.app&sz=64",
+  "screenshot_url": "/screenshots/epochal.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 33,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "scriptery",
+  "name": "Scriptery",
+  "tagline": "What it does Scriptery turns any video or audio into clean, timestamped text in seconds",
+  "description": "What it does Scriptery turns any video or audio into clean, timestamped text in seconds. Paste a public link from YouTube, TikTok, Instagram, X, Reddit, Facebook, Vimeo, SoundCloud, Twitch or RedNote, or upload your own file, and get an accurate transcript powered by OpenAI's Whisper. Key benefits - Export to TXT, SRT or VTT for notes, subtitles and captions - Every line timestamped, with no sign-up and a free daily quota - Runs in the browser, with the interface available in nine languages",
+  "url": "https://scriptery.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=scriptery.app&sz=64",
+  "screenshot_url": "/screenshots/scriptery.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "speech-to-text-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "omniroute",
+  "name": "OmniRoute",
+  "tagline": "Complete OmniRoute guide: install the free AI gateway, connect 237 providers with 90+ free tiers, and route Claude Code, Cursor, and Cline through…",
+  "description": "Complete OmniRoute guide: install the free AI gateway, connect 237 providers with 90+ free tiers, and route Claude Code, Cursor, and Cline through one endpoint.",
+  "url": "https://omniroute.site",
+  "logo_url": "https://www.google.com/s2/favicons?domain=omniroute.site&sz=64",
+  "screenshot_url": "/screenshots/omniroute.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-models",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

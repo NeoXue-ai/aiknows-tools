@@ -1,0 +1,18 @@
+{
+  "slug": "ordr",
+  "name": "Ordr",
+  "tagline": "**Ordr** is the AI task manager for busy brains, built for people who feel overwhelmed by everything they need to do and waste time figuring out…",
+  "description": "**Ordr** is the AI task manager for busy brains, built for people who feel overwhelmed by everything they need to do and waste time figuring out where to start. Instead of making you manually sort, tag, and organize tasks, Ordr lets you dump your thoughts in and turns them into a clear, actionable plan. It’s designed to reduce cognitive load, cut decision fatigue, and help you focus on the right next step. Ordr supports fast task capture, lists, projects, reminders, and flexible planning, with A",
+  "url": "https://useordr.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=useordr.app&sz=64",
+  "screenshot_url": "/screenshots/ordr.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 22,
+  "subcategory": "productivity-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

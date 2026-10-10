@@ -1,0 +1,18 @@
+{
+  "slug": "reviewinsight",
+  "name": "ReviewInsight",
+  "tagline": "ReviewInsight analyzes app reviews to extract business intelligence, helping you discover user insights, pain points, and market opportunities…",
+  "description": "ReviewInsight analyzes app reviews to extract business intelligence, helping you discover user insights, pain points, and market opportunities through AI-powered analysis.",
+  "url": "https://reviewinsight.app/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=reviewinsight.app&sz=64",
+  "screenshot_url": "/screenshots/reviewinsight.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 2.2,
+  "subcategory": "directories",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "scifig",
+  "name": "SciFig",
+  "tagline": "AI scientific figure generator for researchers",
+  "description": "AI scientific figure generator for researchers. Turn text, sketches, references, PDFs or photos into publication-ready figures with editable labels and layouts.",
+  "url": "https://scifig.ai/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=scifig.ai&sz=64",
+  "screenshot_url": "/screenshots/scifig.webp",
+  "primary_category": "business-analytics",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 29,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

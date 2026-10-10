@@ -1,0 +1,18 @@
+{
+  "slug": "transept-ai",
+  "name": "Transept AI",
+  "tagline": "AI translation that remembers your decisions — every terminology and tone choice carries across documents, languages, and your team",
+  "description": "AI translation that remembers your decisions — every terminology and tone choice carries across documents, languages, and your team. Glossaries, styleguides, and review built in.",
+  "url": "https://transept.ai/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=transept.ai&sz=64",
+  "screenshot_url": "/screenshots/transept-ai.webp",
+  "primary_category": "writing-content",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-translator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

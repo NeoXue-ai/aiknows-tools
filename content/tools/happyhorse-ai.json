@@ -1,0 +1,18 @@
+{
+  "slug": "happyhorse-ai",
+  "name": "happyhorse ai",
+  "tagline": "Happy Horse AI is powered by Happy Horse 1.0 — a single self-attention Transformer that jointly generates video and audio from text, replacing the…",
+  "description": "Happy Horse AI is powered by Happy Horse 1.0 — a single self-attention Transformer that jointly generates video and audio from text, replacing the multi-stream complexity of older architectures. Blazing fast, multilingual, and fully open source. Whether you start from a text prompt or a reference image, Happy Horse AI delivers state-of-the-art results at record speeds.",
+  "url": "https://happyhorse-ai.co",
+  "logo_url": "https://www.google.com/s2/favicons?domain=happyhorse-ai.co&sz=64",
+  "screenshot_url": "/screenshots/happyhorse-ai-4.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 10,
+  "subcategory": "ai-art-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

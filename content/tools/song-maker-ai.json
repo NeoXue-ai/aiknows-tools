@@ -1,0 +1,18 @@
+{
+  "slug": "song-maker-ai",
+  "name": "song maker ai",
+  "tagline": "AI Music Generator creates professional songs from text and lyrics instantly",
+  "description": "AI Music Generator creates professional songs from text and lyrics instantly. Free AI song maker with royalty-free music generation. Transform ideas into original music in seconds.",
+  "url": "https://www.songmakerai.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=songmakerai.org&sz=64",
+  "screenshot_url": "/screenshots/song-maker-ai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 26,
+  "subcategory": "ai-music-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

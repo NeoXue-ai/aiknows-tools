@@ -1,0 +1,18 @@
+{
+  "slug": "viora",
+  "name": "Viora",
+  "tagline": "Viora is a dedicated macOS voice AI assistant designed to transform speaking into a natural, continuous interface for your computer",
+  "description": "Viora is a dedicated macOS voice AI assistant designed to transform speaking into a natural, continuous interface for your computer. By holding a single shortcut, users can dictate text directly into any input field, where it is automatically formatted with correct punctuation and context-aware tone. This integration allows for a seamless transition from thought to text without manual typing. Intelligent Text Editing and Interaction Beyond simple dictation, Viora enables users to edit existing t",
+  "url": "https://viora.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=viora.io&sz=64",
+  "screenshot_url": "/screenshots/viora.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 21,
+  "subcategory": "ai-assistant",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

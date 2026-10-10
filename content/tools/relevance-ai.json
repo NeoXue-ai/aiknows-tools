@@ -1,0 +1,21 @@
+{
+  "slug": "relevance-ai",
+  "name": "Relevance AI",
+  "tagline": "AI agents for ops teams",
+  "description": "Build and deploy AI agents and tools for revenue and ops workflows.",
+  "url": "https://relevanceai.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=relevanceai.com&sz=64",
+  "screenshot_url": "/screenshots/relevance-ai.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "agents",
+    "ops"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-agent",
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "nim-video",
+  "name": "Nim Video",
+  "tagline": "Create AI videos and AI images in one dark studio workspace with multiple generation models, inspiration, and fast creative controls.",
+  "description": "Create AI videos and AI images in one dark studio workspace with multiple generation models, inspiration, and fast creative controls.",
+  "url": "https://nimvideo.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=nimvideo.com&sz=64",
+  "screenshot_url": "/screenshots/nim-video.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 26,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

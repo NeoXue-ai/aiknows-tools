@@ -1,0 +1,18 @@
+{
+  "slug": "imgvid",
+  "name": "ImgVid",
+  "tagline": "Images to Video AI turns any image into a video free online with a prompt. Generate watermark-free AI video from your images with signup credits.",
+  "description": "Images to Video AI turns any image into a video free online with a prompt. Generate watermark-free AI video from your images with signup credits.",
+  "url": "https://imgvid.net",
+  "logo_url": "https://www.google.com/s2/favicons?domain=imgvid.net&sz=64",
+  "screenshot_url": "/screenshots/imgvid.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

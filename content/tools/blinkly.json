@@ -1,0 +1,18 @@
+{
+  "slug": "blinkly",
+  "name": "Blinkly",
+  "tagline": "Blinkly AI is a flagship AI visual creation platform incorporating advanced image editing and video generation models.",
+  "description": "Blinkly AI is a flagship AI visual creation platform incorporating advanced image editing and video generation models.",
+  "url": "https://blinklyai.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=blinklyai.com&sz=64",
+  "screenshot_url": "/screenshots/blinkly.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 6,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

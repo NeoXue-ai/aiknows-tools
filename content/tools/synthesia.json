@@ -1,0 +1,21 @@
+{
+  "slug": "synthesia",
+  "name": "Synthesia",
+  "tagline": "AI video for business",
+  "description": "Studio-quality videos with AI presenters, used by enterprise L&D and marketing.",
+  "url": "https://synthesia.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=synthesia.io&sz=64",
+  "screenshot_url": "/screenshots/synthesia.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "video",
+    "enterprise"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

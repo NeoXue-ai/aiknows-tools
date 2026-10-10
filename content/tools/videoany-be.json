@@ -1,0 +1,18 @@
+{
+  "slug": "videoany-be",
+  "name": "VideoAny BE",
+  "tagline": "Zet tekst en afbeeldingen om in AI-video&#x27;s",
+  "description": "Zet tekst en afbeeldingen om in AI-video&#x27;s. VideoAny combineert AI video generator, image-to-video, text-to-video, AI-afbeeldingen en audio in een studio.",
+  "url": "https://videoany.be/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=videoany.be&sz=64",
+  "screenshot_url": "/screenshots/videoany-be.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "adintelli",
+  "name": "AdIntelli",
+  "tagline": "AI Shopify ad manager",
+  "description": "AI that builds, runs, and optimizes Meta & TikTok ads for Shopify stores.",
+  "url": "https://adintelli.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=adintelli.ai&sz=64",
+  "screenshot_url": "/screenshots/adintelli.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "ads",
+    "shopify"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ecommerce",
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

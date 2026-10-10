@@ -1,0 +1,18 @@
+{
+  "slug": "cards-ai",
+  "name": "Cards AI",
+  "tagline": "Real eBay sold prices and AI grading for sports cards and TCGs. Scan any card and know what its worth in seconds.",
+  "description": "Real eBay sold prices and AI grading for sports cards and TCGs. Scan any card and know what its worth in seconds.",
+  "url": "https://www.cardsaiapp.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=cardsaiapp.com&sz=64",
+  "screenshot_url": "/screenshots/cards-ai.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 15,
+  "subcategory": "ios",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

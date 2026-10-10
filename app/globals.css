@@ -10,7 +10,7 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-heading: var(--font-sans);
-  --font-serif: var(--font-serif);
+  --font-serif: var(--font-editorial);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -53,252 +53,114 @@
   --radius-4xl: calc(var(--radius) * 2.6);
 }
 
-/* Evidence-led Editorial Atlas palette. Blue identifies navigation and state. */
-
+/* Quiet Discovery: warm paper, botanical green, and generous breathing room. */
 :root {
-  --background: #f6f7f9;
-  --foreground: #101725;
+  --background: #faf9f6;
+  --foreground: #202722;
   --card: #ffffff;
-  --card-foreground: #101725;
+  --card-foreground: #202722;
   --popover: #ffffff;
-  --popover-foreground: #101725;
-  --primary: #101725;
-  --primary-foreground: #f6f7f9;
-  --secondary: #eef1f5;
-  --secondary-foreground: #101725;
-  --muted: #eef1f5;
-  --muted-foreground: #667085;
-  --accent: #2578f8;
+  --popover-foreground: #202722;
+  --primary: #2e5846;
+  --primary-foreground: #ffffff;
+  --secondary: #eeefea;
+  --secondary-foreground: #34443a;
+  --muted: #f0f1eb;
+  --muted-foreground: #6b736c;
+  --accent: #2e5846;
   --accent-foreground: #ffffff;
-  --accent-glow: rgb(37 120 248 / 0.2);
-  --emphasis: #e8f0ff;
-  --emphasis-foreground: #1d4ed8;
-  --highlight: #1c3f78;
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: #d9dee8;
-  --input: #d9dee8;
-  --ring: rgb(37 120 248 / 0.45);
-  --chart-1: #2578f8;
-  --chart-2: #667085;
-  --chart-3: #98a2b3;
-  --chart-4: #c5ccd8;
-  --chart-5: #e4e7ec;
-  --radius: 0.375rem;
+  --accent-glow: rgb(46 88 70 / 0.08);
+  --emphasis: #eaf0e8;
+  --emphasis-foreground: #2e5846;
+  --highlight: #2e5846;
+  --destructive: #b43c35;
+  --border: #e3e6df;
+  --input: #d9ded5;
+  --ring: #6d9179;
+  --chart-1: #2e5846;
+  --chart-2: #71967c;
+  --chart-3: #adc1a8;
+  --chart-4: #b8b5a1;
+  --chart-5: #dedfd3;
+  --radius: 0.75rem;
   --sidebar: #ffffff;
-  --sidebar-foreground: #101725;
-  --sidebar-primary: #101725;
-  --sidebar-primary-foreground: #f6f7f9;
-  --sidebar-accent: #eef1f5;
-  --sidebar-accent-foreground: #101725;
-  --sidebar-border: #d9dee8;
-  --sidebar-ring: rgb(37 120 248 / 0.45);
+  --sidebar-foreground: #202722;
+  --sidebar-primary: #2e5846;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #eaf0e8;
+  --sidebar-accent-foreground: #2e5846;
+  --sidebar-border: #e3e6df;
+  --sidebar-ring: #6d9179;
 }
 
 .dark {
-  --background: #0b1018;
-  --foreground: #edf2f7;
-  --card: #121a26;
-  --card-foreground: #edf2f7;
-  --popover: #121a26;
-  --popover-foreground: #edf2f7;
-  --primary: #edf2f7;
-  --primary-foreground: #0b1018;
-  --secondary: #172231;
-  --secondary-foreground: #edf2f7;
-  --muted: #172231;
-  --muted-foreground: #8b96a7;
-  --accent: #2578f8;
-  --accent-foreground: #ffffff;
-  --accent-glow: rgb(37 120 248 / 0.26);
-  --emphasis: #1c3f78;
-  --emphasis-foreground: #edf2f7;
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: #273244;
-  --input: #334155;
-  --ring: rgb(37 120 248 / 0.6);
-  --chart-1: #2578f8;
-  --chart-2: #8b96a7;
-  --chart-3: #64748b;
-  --chart-4: #334155;
-  --chart-5: #1e293b;
-  --sidebar: #121a26;
-  --sidebar-foreground: #edf2f7;
-  --sidebar-primary: #edf2f7;
-  --sidebar-primary-foreground: #0b1018;
-  --sidebar-accent: #172231;
-  --sidebar-accent-foreground: #edf2f7;
-  --sidebar-border: #273244;
-  --sidebar-ring: rgb(37 120 248 / 0.6);
+  --background: #161c18;
+  --foreground: #eff1e9;
+  --card: #1e2721;
+  --card-foreground: #eff1e9;
+  --popover: #1e2721;
+  --popover-foreground: #eff1e9;
+  --primary: #c4dbc6;
+  --primary-foreground: #19271d;
+  --secondary: #28332b;
+  --secondary-foreground: #e0e7da;
+  --muted: #242e27;
+  --muted-foreground: #a5b0a3;
+  --accent: #bdd6be;
+  --accent-foreground: #19271d;
+  --accent-glow: rgb(189 214 190 / 0.08);
+  --emphasis: #283a2c;
+  --emphasis-foreground: #bdd6be;
+  --highlight: #bdd6be;
+  --destructive: #f39b8f;
+  --border: #354038;
+  --input: #465248;
+  --ring: #99b39c;
+  --chart-1: #bdd6be;
+  --chart-2: #8eae95;
+  --chart-3: #68816d;
+  --chart-4: #9f9e85;
+  --chart-5: #465248;
+  --sidebar: #1e2721;
+  --sidebar-foreground: #eff1e9;
+  --sidebar-primary: #bdd6be;
+  --sidebar-primary-foreground: #19271d;
+  --sidebar-accent: #283a2c;
+  --sidebar-accent-foreground: #bdd6be;
+  --sidebar-border: #354038;
+  --sidebar-ring: #99b39c;
 }
 
 @layer base {
-  * {
-    @apply border-border outline-ring/50;
-  }
-  body {
-    @apply bg-background text-foreground;
-    transition: background-color 250ms ease-out, color 250ms ease-out;
-  }
-  html {
-    @apply font-sans;
-  }
+  * { @apply border-border outline-ring/50; }
+  html { @apply font-sans; scroll-padding-top: 6rem; }
+  body { @apply bg-background text-foreground; }
+  button, a, input, select, textarea { -webkit-tap-highlight-color: transparent; }
+  button:not(:disabled), [role="button"]:not(:disabled) { cursor: pointer; }
+  ::selection { background: var(--emphasis); color: var(--emphasis-foreground); }
+  :focus-visible { outline: 2px solid var(--ring); outline-offset: 4px; }
 }
 
-/* Custom scrollbar — thin, theme-aware */
-::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
-}
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-::-webkit-scrollbar-thumb {
-  background: color-mix(in srgb, var(--foreground) 15%, transparent);
-  border-radius: 3px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: color-mix(in srgb, var(--foreground) 25%, transparent);
+/* A shared page rhythm: all discovery surfaces align to the same column. */
+@layer components {
+  .site-shell { @apply mx-auto w-full max-w-[1200px] px-5 sm:px-8; }
+  .section-label { @apply text-xs font-medium tracking-[0.08em] text-accent; }
+  .text-link { @apply inline-flex items-center gap-2 text-sm font-medium text-foreground transition-colors hover:text-accent; }
+  .action-primary { @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-full bg-primary px-5 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90; }
+  .action-secondary { @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-full border border-border bg-card px-5 text-sm font-medium text-foreground transition-colors hover:bg-secondary; }
 }
 
-/* Map Legend motion: short, restrained, one-shot. */
-@keyframes ml-fade-up {
-  from {
-    opacity: 0;
-    transform: translateY(8px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+/* Reveal content remains readable before hydration and without JavaScript. */
+@keyframes quiet-enter {
+  from { opacity: 0; transform: translateY(5px); }
+  to { opacity: 1; transform: translateY(0); }
 }
-
-@keyframes ml-fill {
-  from {
-    transform: scaleX(0);
-  }
-  to {
-    transform: scaleX(1);
-  }
-}
-
-@keyframes ml-bracket-in {
-  from {
-    opacity: 0;
-    transform: scale(0.7);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
-@keyframes ml-ping {
-  0% {
-    transform: scale(1);
-    opacity: 0.55;
-  }
-  100% {
-    transform: scale(2.6);
-    opacity: 0;
-  }
-}
-
-/* Hero ambient spotlight — slow orbit */
-@keyframes ml-spotlight {
-  0% {
-    transform: translate(-20%, -10%) rotate(0deg);
-  }
-  33% {
-    transform: translate(15%, -25%) rotate(120deg);
-  }
-  66% {
-    transform: translate(-5%, 10%) rotate(240deg);
-  }
-  100% {
-    transform: translate(-20%, -10%) rotate(360deg);
-  }
-}
-
-/* Page fade-in on route change */
-@keyframes page-enter {
-  from {
-    opacity: 0;
-    transform: translateY(6px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.ml-stagger > * {
-  opacity: 0;
-  animation: ml-fade-up 480ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
-}
-.ml-stagger > *:nth-child(1)  { animation-delay:  40ms; }
-.ml-stagger > *:nth-child(2)  { animation-delay: 120ms; }
-.ml-stagger > *:nth-child(3)  { animation-delay: 200ms; }
-.ml-stagger > *:nth-child(4)  { animation-delay: 280ms; }
-.ml-stagger > *:nth-child(5)  { animation-delay: 360ms; }
-.ml-stagger > *:nth-child(6)  { animation-delay: 440ms; }
-.ml-stagger > *:nth-child(7)  { animation-delay: 520ms; }
-.ml-stagger > *:nth-child(8)  { animation-delay: 600ms; }
-.ml-stagger > *:nth-child(n+9) { animation-delay: 680ms; }
-
-/* Scroll-triggered stagger for the category sub grids: one observer on the
-   grid adds this class, and each child row animates in on a small delay.
-   `backwards` fill hides rows during their delay, then releases afterwards so
-   the natural state (opacity 1, no transform) returns and hover lifts work.
-   There is deliberately no base `opacity: 0` here -- with backwards fill that
-   would snap rows back to invisible once the animation ends. */
-.atlas-reveal > * {
-  animation: ml-fade-up 480ms cubic-bezier(0.22, 1, 0.36, 1) backwards;
-}
-.atlas-reveal > *:nth-child(1)  { animation-delay:  40ms; }
-.atlas-reveal > *:nth-child(2)  { animation-delay:  80ms; }
-.atlas-reveal > *:nth-child(3)  { animation-delay: 120ms; }
-.atlas-reveal > *:nth-child(4)  { animation-delay: 160ms; }
-.atlas-reveal > *:nth-child(5)  { animation-delay: 200ms; }
-.atlas-reveal > *:nth-child(6)  { animation-delay: 240ms; }
-.atlas-reveal > *:nth-child(7)  { animation-delay: 280ms; }
-.atlas-reveal > *:nth-child(8)  { animation-delay: 320ms; }
-.atlas-reveal > *:nth-child(n+9) { animation-delay: 360ms; }
-
-.ml-bar {
-  transform-origin: left center;
-  transform: scaleX(0);
-  animation: ml-fill 700ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
-}
-
-.ml-bracket {
-  opacity: 0;
-  animation: ml-bracket-in 420ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
-}
-.ml-bracket-tl { transform-origin: top left; }
-.ml-bracket-tr { transform-origin: top right; }
-.ml-bracket-bl { transform-origin: bottom left; }
-.ml-bracket-br { transform-origin: bottom right; }
-
-.ml-ping {
-  animation: ml-ping 1200ms cubic-bezier(0, 0, 0.2, 1) 600ms 1 both;
-}
+.animate-page-enter { animation: quiet-enter 260ms ease-out both; }
+.ml-stagger > *, .atlas-reveal > * { animation: quiet-enter 300ms ease-out both; }
+.ml-stagger > *:nth-child(2), .atlas-reveal > *:nth-child(2) { animation-delay: 30ms; }
+.ml-stagger > *:nth-child(3), .atlas-reveal > *:nth-child(3) { animation-delay: 60ms; }
+.ml-stagger > *:nth-child(n+4), .atlas-reveal > *:nth-child(n+4) { animation-delay: 90ms; }
 
 @media (prefers-reduced-motion: reduce) {
-  body {
-    transition: none;
-  }
-  .ml-stagger > *,
-  .ml-bar,
-  .ml-bracket,
-  .ml-ping,
-  .animate-page-enter,
-  .atlas-reveal > * {
-    animation: none !important;
-    opacity: 1 !important;
-    transform: none !important;
-  }
-  .ml-spotlight {
-    animation: none !important;
-    opacity: 0 !important;
-  }
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }

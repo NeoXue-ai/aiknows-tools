@@ -1,0 +1,18 @@
+{
+  "slug": "my-invoice-generator",
+  "name": "My Invoice Generator",
+  "tagline": "Create professional PDF invoices for free directly in your browser. No sign-up required.",
+  "description": "Create professional PDF invoices for free directly in your browser. No sign-up required.",
+  "url": "https://www.myinvoicegenerator.app/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=myinvoicegenerator.app&sz=64",
+  "screenshot_url": "/screenshots/my-invoice-generator.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 7,
+  "subcategory": "ai-voice-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

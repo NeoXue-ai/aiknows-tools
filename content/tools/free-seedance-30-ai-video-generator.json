@@ -1,0 +1,18 @@
+{
+  "slug": "free-seedance-30-ai-video-generator",
+  "name": "Free Seedance 3.0 AI Video Generator",
+  "tagline": "Generate short videos from text prompts using the Seedance 3.0 model, free to try online.",
+  "description": null,
+  "url": "https://seedance3ai.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=seedance3ai.io&sz=64",
+  "screenshot_url": "/screenshots/free-seedance-3-0-ai-video-generator.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 11,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

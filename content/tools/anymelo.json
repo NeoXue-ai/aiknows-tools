@@ -1,0 +1,18 @@
+{
+  "slug": "anymelo",
+  "name": "Anymelo",
+  "tagline": "Create royalty-free music with Anymelo's AI Music Generator. Describe your style and get the perfect soundtrack—no skills required.",
+  "description": "Create royalty-free music with Anymelo's AI Music Generator. Describe your style and get the perfect soundtrack—no skills required.",
+  "url": "https://anymelo.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=anymelo.ai&sz=64",
+  "screenshot_url": "/screenshots/anymelo.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 28,
+  "subcategory": "ai-music-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

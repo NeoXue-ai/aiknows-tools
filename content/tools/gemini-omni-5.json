@@ -1,0 +1,18 @@
+{
+  "slug": "gemini-omni-5",
+  "name": "Gemini Omni",
+  "tagline": "Open a chat, describe a scene, remix until it&#x27;s yours",
+  "description": "Open a chat, describe a scene, remix until it&#x27;s yours. The chat-edit video workflow Gemini calls &#x27;Omni&#x27; — live in your browser today. No waitlist, no API keys.",
+  "url": "https://aigeminiomni.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=aigeminiomni.org&sz=64",
+  "screenshot_url": "/screenshots/gemini-omni.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 3.2,
+  "subcategory": "ai-video-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

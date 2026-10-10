@@ -1,0 +1,18 @@
+{
+  "slug": "img2img",
+  "name": "Img2Img",
+  "tagline": "Free Image-to-Image AI Generator Img2Img lets you transform existing images with simple text prompts",
+  "description": "Free Image-to-Image AI Generator Img2Img lets you transform existing images with simple text prompts. Upload a photo, describe what you want to keep or change, and compare the generated result with the original before downloading. Key features - Restyle portraits into anime, manga, 3D, clay, sketch, and graphic-novel looks - Create product campaign variations and new creative concepts - Adjust aspect ratio, output count, resolution, and quality - Compare source and generated images side by side",
+  "url": "https://img2img-ai.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=img2img-ai.com&sz=64",
+  "screenshot_url": "/screenshots/img2img.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

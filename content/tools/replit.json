@@ -1,0 +1,21 @@
+{
+  "slug": "replit",
+  "name": "Replit",
+  "tagline": "AI app builder in the browser",
+  "description": "Browser IDE with AI agent that builds and deploys apps from prompts.",
+  "url": "https://replit.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=replit.com&sz=64",
+  "screenshot_url": "/screenshots/replit.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "ide",
+    "deploy"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-agent",
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

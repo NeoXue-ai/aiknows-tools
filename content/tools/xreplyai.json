@@ -1,0 +1,18 @@
+{
+  "slug": "xreplyai",
+  "name": "XreplyAI",
+  "tagline": "Generate authentic tweet replies that match your writing style with AI. Chrome extension with BYOK (Gemini, ChatGPT, Claude). Join beta waitlist.",
+  "description": "Generate authentic tweet replies that match your writing style with AI. Chrome extension with BYOK (Gemini, ChatGPT, Claude). Join beta waitlist.",
+  "url": "https://xreplyai.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=xreplyai.com&sz=64",
+  "screenshot_url": "/screenshots/xreplyai.webp",
+  "primary_category": "seo-marketing",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 28,
+  "subcategory": "chrome-extensions",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

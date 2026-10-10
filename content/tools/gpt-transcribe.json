@@ -1,0 +1,18 @@
+{
+  "slug": "gpt-transcribe",
+  "name": "GPT Transcribe",
+  "tagline": "GPT Transcribe is an online AI speech to text workspace that turns audio and video recordings into searchable, timestamped transcripts",
+  "description": "GPT Transcribe is an online AI speech to text workspace that turns audio and video recordings into searchable, timestamped transcripts. Every job runs on OpenAI Whisper, so accents, jargon and noisy real-world audio hold up far better than phone dictation. Key features - Upload a file, record live in the browser, or paste a media URL - MP3, WAV, M4A, FLAC, OGG, MP4, MOV and WebM, up to 1GB per file - 100+ languages with automatic detection - Speaker labels that split interviews and panels by voi",
+  "url": "https://gpt-transcribe.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=gpt-transcribe.org&sz=64",
+  "screenshot_url": "/screenshots/gpt-transcribe.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "speech-to-text-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

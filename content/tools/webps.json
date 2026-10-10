@@ -1,0 +1,18 @@
+{
+  "slug": "webps",
+  "name": "WebPS",
+  "tagline": "WebPS: Free online image editor for everyday tasks",
+  "description": "WebPS: Free online image editor for everyday tasks. Crop, annotate, resize, add text, and export PNG/WebP/JPG directly in your browser. No install, no account, no watermarks—fast, private, and clean.",
+  "url": "https://webps.online",
+  "logo_url": "https://www.google.com/s2/favicons?domain=webps.online&sz=64",
+  "screenshot_url": "/screenshots/webps.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 2.2,
+  "subcategory": "ai-photo-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

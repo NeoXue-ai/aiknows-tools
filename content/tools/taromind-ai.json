@@ -1,0 +1,18 @@
+{
+  "slug": "taromind-ai",
+  "name": "TaroMind AI",
+  "tagline": "TaroMind AI offers free browser-based yes/no, one-card, three-card, love, and Celtic Cross tarot tools, educational meanings for all 78 cards, and…",
+  "description": "TaroMind AI offers free browser-based yes/no, one-card, three-card, love, and Celtic Cross tarot tools, educational meanings for all 78 cards, and optional signed-in AI explanations with private journaling. Structured yes/no answers remain fixed by card data. Designed for education and personal reflection.",
+  "url": "https://taromindai.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=taromindai.com&sz=64",
+  "screenshot_url": "/screenshots/taromind-ai.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-education",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

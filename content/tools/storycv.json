@@ -1,0 +1,18 @@
+{
+  "slug": "storycv",
+  "name": "StoryCV",
+  "tagline": "Your career is more than bullet points. Here's a resume writer that asks better questions, so you can tell a better story.",
+  "description": "Your career is more than bullet points. Here's a resume writer that asks better questions, so you can tell a better story.",
+  "url": "https://story.cv",
+  "logo_url": "https://www.google.com/s2/favicons?domain=story.cv&sz=64",
+  "screenshot_url": "/screenshots/storycv.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 32,
+  "subcategory": "ai-resume-builder",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "blazeway",
+  "name": "Blazeway",
+  "tagline": "Document every hypothesis, check-in, and learning",
+  "description": "Document every hypothesis, check-in, and learning. Your A/B tests and product decisions compound into knowledge instead of vanishing into spreadsheets.",
+  "url": "https://www.blazeway.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=blazeway.app&sz=64",
+  "screenshot_url": "/screenshots/blazeway.webp",
+  "primary_category": "seo-marketing",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 13,
+  "subcategory": "ai-ad-creative",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

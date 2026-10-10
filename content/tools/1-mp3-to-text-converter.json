@@ -1,0 +1,18 @@
+{
+  "slug": "1-mp3-to-text-converter",
+  "name": "#1 MP3 to Text Converter",
+  "tagline": "#1 AI-powered MP3 to text transcription. Convert MP3 audio to accurate text in 90+ languages. Export in multiple formats.",
+  "description": "#1 AI-powered MP3 to text transcription. Convert MP3 audio to accurate text in 90+ languages. Export in multiple formats.",
+  "url": "https://mp3-to-text.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=mp3-to-text.org&sz=64",
+  "screenshot_url": "/screenshots/1-mp3-to-text-converter.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 25,
+  "subcategory": "speech-to-text-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

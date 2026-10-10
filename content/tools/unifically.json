@@ -1,0 +1,18 @@
+{
+  "slug": "unifically",
+  "name": "UnificAlly",
+  "tagline": "One API for 100+ video, image, music, and speech models UnificAlly lets developers generate video, images, music, and speech without opening an…",
+  "description": "One API for 100+ video, image, music, and speech models UnificAlly lets developers generate video, images, music, and speech without opening an account at every provider. Use Veo 3.1, Seedance, Grok, and Kling from one integration, skip the long onboarding, and pay less than going direct. Unified API One endpoint (POST /v1/tasks) for Veo, Kling, Suno, GPT Image, and the rest. Pay per generation. No subscription. No per-provider onboarding. What you can generate - Video: Veo 3.1, Kling, Seedance,",
+  "url": "https://unifically.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=unifically.com&sz=64",
+  "screenshot_url": "/screenshots/unifically.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

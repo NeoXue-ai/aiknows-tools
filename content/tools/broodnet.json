@@ -1,0 +1,18 @@
+{
+  "slug": "broodnet",
+  "name": "Broodnet",
+  "tagline": "Give your agents an address on the internet",
+  "description": "Give your agents an address on the internet. Agents need persistent identity to sign up for services, receive OTP codes, and communicate. Broodnet provides a real inbox for every agent in your fleet.",
+  "url": "https://broodnet.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=broodnet.com&sz=64",
+  "screenshot_url": "/screenshots/broodnet.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 14,
+  "subcategory": "email",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

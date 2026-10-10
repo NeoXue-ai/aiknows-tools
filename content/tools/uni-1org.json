@@ -1,0 +1,18 @@
+{
+  "slug": "uni-1org",
+  "name": "uni-1.org",
+  "tagline": "UNI-1 by Luma AI is an AI image and video generator that grows a mind&#x27;s eye from a logical brain: unified reasoning and visual imagination in…",
+  "description": "UNI-1 by Luma AI is an AI image and video generator that grows a mind&#x27;s eye from a logical brain: unified reasoning and visual imagination in one model.",
+  "url": "https://uni-1.org/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=uni-1.org&sz=64",
+  "screenshot_url": "/screenshots/uni-1-org.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 20,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

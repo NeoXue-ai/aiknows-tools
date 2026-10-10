@@ -1,0 +1,18 @@
+{
+  "slug": "noticky",
+  "name": "Noticky",
+  "tagline": "Noticky keeps your sticky notes visible above every app — even in fullscreen",
+  "description": "Noticky keeps your sticky notes visible above every app — even in fullscreen. Global hotkey ⌘⇧N, Markdown, iCloud Sync, Touch ID. macOS 15+. $6 one-time.",
+  "url": "https://www.noticky.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=noticky.app&sz=64",
+  "screenshot_url": "/screenshots/noticky.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 13,
+  "subcategory": "ai-note-taker",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

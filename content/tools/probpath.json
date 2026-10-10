@@ -1,0 +1,18 @@
+{
+  "slug": "probpath",
+  "name": "Probpath",
+  "tagline": "ProbPath is an AI-powered probability tree generator designed to make probability problems easier to visualize and solve",
+  "description": "ProbPath is an AI-powered probability tree generator designed to make probability problems easier to visualize and solve. Simply describe a scenario in natural language, and ProbPath generates a complete probability tree with branches, labels, and calculated path probabilities. Users can refine the tree through chat, edit nodes and probabilities directly, and automatically validate that branch probabilities are consistent. Finished diagrams can be exported as PNG, PDF, or SVG, making ProbPath us",
+  "url": "https://probpath.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=probpath.com&sz=64",
+  "screenshot_url": "/screenshots/probpath.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-graphic-design",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

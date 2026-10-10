@@ -1,0 +1,18 @@
+{
+  "slug": "batchremover",
+  "name": "BatchRemover",
+  "tagline": "Free AI Background Remover [BatchRemover](https://www.batchremover.com/) is a powerful, 100% free online tool designed to automate your image editing…",
+  "description": "Free AI Background Remover [BatchRemover](https://www.batchremover.com/) is a powerful, 100% free online tool designed to automate your image editing workflow. Perfect for e-commerce sellers, photographers, and content creators, it allows you to process dozens of images simultaneously with incredible precision. Key Features: * **True Batch Processing:** Upload and remove backgrounds from multiple photos at once—no more tedious one-by-one editing. * **Custom Backgrounds:** Instantly swap backgrou",
+  "url": "https://batchremover.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=batchremover.com&sz=64",
+  "screenshot_url": "/screenshots/batchremover.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 10,
+  "subcategory": "ai-background-remover",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

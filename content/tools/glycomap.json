@@ -1,0 +1,18 @@
+{
+  "slug": "glycomap",
+  "name": "glycomap",
+  "tagline": "Search 1000+ foods by glycemic index and load. Make informed food choices for stable blood sugar.",
+  "description": "Search 1000+ foods by glycemic index and load. Make informed food choices for stable blood sugar.",
+  "url": "https://glycomap.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=glycomap.com&sz=64",
+  "screenshot_url": "/screenshots/glycomap.webp",
+  "primary_category": "seo-marketing",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 2.2,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

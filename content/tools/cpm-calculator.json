@@ -1,0 +1,18 @@
+{
+  "slug": "cpm-calculator",
+  "name": "CPM Calculator",
+  "tagline": "Free CPM calculator to calculate CPM, cost, or impressions instantly. See the CPM formula, learn what CPM means, and compare YouTube CPM rates.",
+  "description": "Free CPM calculator to calculate CPM, cost, or impressions instantly. See the CPM formula, learn what CPM means, and compare YouTube CPM rates.",
+  "url": "https://cpmcalculator.dev",
+  "logo_url": "https://www.google.com/s2/favicons?domain=cpmcalculator.dev&sz=64",
+  "screenshot_url": "/screenshots/cpm-calculator.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 25,
+  "subcategory": "ai-tutor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

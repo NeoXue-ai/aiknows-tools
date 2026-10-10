@@ -1,0 +1,18 @@
+{
+  "slug": "resumakeai",
+  "name": "ResuMakeAi",
+  "tagline": "Import your CV, get it scored against real ATS rules, rewrite it with AI, and find live jobs that actually match.",
+  "description": "Import your CV, get it scored against real ATS rules, rewrite it with AI, and find live jobs that actually match.",
+  "url": "https://resumakeai.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=resumakeai.com&sz=64",
+  "screenshot_url": "/screenshots/resumakeai.webp",
+  "primary_category": "writing-content",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-content-creator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

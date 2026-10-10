@@ -1,0 +1,18 @@
+{
+  "slug": "extrabar",
+  "name": "ExtraBar",
+  "tagline": "ExtraBar is a menu bar manager for macOS with deep links, quick actions, and app-specific shortcuts. Take control of your Mac workflow.",
+  "description": "ExtraBar is a menu bar manager for macOS with deep links, quick actions, and app-specific shortcuts. Take control of your Mac workflow.",
+  "url": "https://extrabar.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=extrabar.app&sz=64",
+  "screenshot_url": "/screenshots/extrabar.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 27,
+  "subcategory": "ai-workflow",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

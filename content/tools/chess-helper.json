@@ -1,0 +1,18 @@
+{
+  "slug": "chess-helper",
+  "name": "Chess Helper",
+  "tagline": "See attackers, hanging pieces, and checks at a glance",
+  "description": "See attackers, hanging pieces, and checks at a glance. Visualize tactics with arrows and get engine-calculated best moves. Works on Chess.com and Lichess.org.",
+  "url": "https://www.chesshelper.app/",
+  "logo_url": "https://pub-459c6f6553344cc393826444731f5707.r2.dev/upload-1770073987432.png",
+  "screenshot_url": "/screenshots/chess-helper.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": "https://findly.tools",
+  "dr": 26,
+  "subcategory": null,
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

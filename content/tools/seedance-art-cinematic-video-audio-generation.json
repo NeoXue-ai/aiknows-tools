@@ -1,0 +1,18 @@
+{
+  "slug": "seedance-art-cinematic-video-audio-generation",
+  "name": "Seedance Art: Cinematic Video & Audio Generation",
+  "tagline": "Create cinematic videos with perfectly synchronized audio using Seedance 1.5 Pro and the upcoming Seedance 2.0",
+  "description": "Create cinematic videos with perfectly synchronized audio using Seedance 1.5 Pro and the upcoming Seedance 2.0. Powered by ByteDance, offering expert lip-sync and character consistency.",
+  "url": "https://seedanceart.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=seedanceart.com&sz=64",
+  "screenshot_url": "/screenshots/seedance-art-cinematic-video-audio-generation.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 26,
+  "subcategory": "ai-music-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

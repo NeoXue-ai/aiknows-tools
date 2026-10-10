@@ -1,0 +1,18 @@
+{
+  "slug": "fotoback",
+  "name": "Fotoback",
+  "tagline": "Your family photos, end-to-end encrypted and never used to train AI",
+  "description": "Your family photos, end-to-end encrypted and never used to train AI. Fotoback backs up every photo automatically and builds your baby's growth timeline — from $1/month.",
+  "url": "https://fotoback.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=fotoback.app&sz=64",
+  "screenshot_url": "/screenshots/fotoback.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-photo-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

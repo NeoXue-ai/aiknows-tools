@@ -1,0 +1,18 @@
+{
+  "slug": "pseudorun",
+  "name": "Pseudorun",
+  "tagline": "Practice IGCSE pseudocode with PseudoRun - the free online editor designed for Computer Science students",
+  "description": "Practice IGCSE pseudocode with PseudoRun - the free online editor designed for Computer Science students. Perfect for exam preparation with real-time validation.",
+  "url": "https://pseudorun.tech",
+  "logo_url": "https://www.google.com/s2/favicons?domain=pseudorun.tech&sz=64",
+  "screenshot_url": "/screenshots/pseudorun.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 17,
+  "subcategory": "ai-tutor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

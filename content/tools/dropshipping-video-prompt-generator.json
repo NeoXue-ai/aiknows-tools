@@ -1,0 +1,18 @@
+{
+  "slug": "dropshipping-video-prompt-generator",
+  "name": "Dropshipping Video Prompt Generator",
+  "tagline": "I spent a lot of time testing dropshipping products before I built this, and product videos almost always beat static images",
+  "description": "I spent a lot of time testing dropshipping products before I built this, and product videos almost always beat static images. The problem was that most of my AI videos came out terrible. I kept blaming the model and switching tools, but after making hundreds of them I realized the model was not the issue. The prompt was. So I built this, and I trained it on more than 20 hours of transcripts from creators who actually know how to write AI video prompts. It does one thing well. It writes the promp",
+  "url": "https://freeaivideohub.com/dropship-video",
+  "logo_url": "https://www.google.com/s2/favicons?domain=freeaivideohub.com&sz=64",
+  "screenshot_url": "/screenshots/dropshipping-video-prompt-generator.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 9,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

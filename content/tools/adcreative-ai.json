@@ -1,0 +1,21 @@
+{
+  "slug": "adcreative-ai",
+  "name": "AdCreative.ai",
+  "tagline": "AI ad creative generator",
+  "description": "Generate conversion-focused ad creatives and social posts in seconds.",
+  "url": "https://adcreative.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=adcreative.ai&sz=64",
+  "screenshot_url": "/screenshots/adcreative-ai.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "ads",
+    "creative"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-ad-creative",
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

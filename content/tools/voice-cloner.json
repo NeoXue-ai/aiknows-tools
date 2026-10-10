@@ -1,0 +1,18 @@
+{
+  "slug": "voice-cloner",
+  "name": "Voice Cloner",
+  "tagline": "Clone any voice with AI in seconds",
+  "description": "Clone any voice with AI in seconds. Upload a short audio sample and generate a realistic voice clone instantly. No sign-up required — 100% free, unlimited usage.",
+  "url": "https://voicecloner.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=voicecloner.org&sz=64",
+  "screenshot_url": "/screenshots/voice-cloner.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-voice-cloning",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

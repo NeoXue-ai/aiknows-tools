@@ -1,0 +1,18 @@
+{
+  "slug": "music-to-video",
+  "name": "Music to Video",
+  "tagline": "Upload your song and generate an AI music video in minutes",
+  "description": "Upload your song and generate an AI music video in minutes. Preview scenes, edit prompts, adjust before rendering. The music video generator built for independent artists and creators.",
+  "url": "https://musictovideo.org/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=musictovideo.org&sz=64",
+  "screenshot_url": "/screenshots/music-to-video.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 23,
+  "subcategory": "ai-music-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

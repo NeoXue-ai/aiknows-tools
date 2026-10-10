@@ -1,0 +1,18 @@
+{
+  "slug": "drama-pilot",
+  "name": "Drama Pilot",
+  "tagline": "Drama Pilot is an AI short drama creation platform that helps creators turn story ideas into structured video production workflows",
+  "description": "Drama Pilot is an AI short drama creation platform that helps creators turn story ideas into structured video production workflows. It supports scripts, character profiles, scene planning, storyboards, shot breakdowns, and AI video prompts for story-driven short-form videos. Built for AI filmmakers, micro-drama creators, content teams, and creators making TikTok-style stories, YouTube Shorts, Reels, and AI filmmaking projects. [Visit Drama Pilot](https://dramapilot.com/)",
+  "url": "https://dramapilot.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=dramapilot.com&sz=64",
+  "screenshot_url": "/screenshots/drama-pilot.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

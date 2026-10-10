@@ -1,0 +1,18 @@
+{
+  "slug": "z-image-turbo-top",
+  "name": "Z-Image Turbo TOP",
+  "tagline": "Based on Alibaba Tongyi-MAI 6B parameter model, optimized by PrunaAI. Generate high-quality images in 1-2 seconds.",
+  "description": "Based on Alibaba Tongyi-MAI 6B parameter model, optimized by PrunaAI. Generate high-quality images in 1-2 seconds.",
+  "url": "https://www.zimageturbo.top/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=zimageturbo.top&sz=64",
+  "screenshot_url": "/screenshots/z-image-turbo-top.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 2.2,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

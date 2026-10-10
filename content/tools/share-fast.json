@@ -1,0 +1,18 @@
+{
+  "slug": "share-fast",
+  "name": "Share Fast",
+  "tagline": "Browse curated software, AI tools, SaaS products, and online utilities, or submit your own product for a simple $1 listing",
+  "description": "Browse curated software, AI tools, SaaS products, and online utilities, or submit your own product for a simple $1 listing. Built for browsing and discovery Clear product cards with readable summaries and category context. Paid submissions are highlighted without overwhelming the directory. People can browse new tools quickly and submit products with one login flow.",
+  "url": "https://sharefast.co",
+  "logo_url": "https://www.google.com/s2/favicons?domain=sharefast.co&sz=64",
+  "screenshot_url": "/screenshots/share-fast.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 31,
+  "subcategory": "directories",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

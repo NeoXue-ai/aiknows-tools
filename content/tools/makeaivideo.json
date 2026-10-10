@@ -1,0 +1,18 @@
+{
+  "slug": "makeaivideo",
+  "name": "MakeAIVideo",
+  "tagline": "Create AI videos free online — no login required. Text to video, image to video, AI video generator powered by multi-model routing. Try it free now.",
+  "description": "Create AI videos free online — no login required. Text to video, image to video, AI video generator powered by multi-model routing. Try it free now.",
+  "url": "https://makeaivideo.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=makeaivideo.app&sz=64",
+  "screenshot_url": "/screenshots/makeaivideo.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 35,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

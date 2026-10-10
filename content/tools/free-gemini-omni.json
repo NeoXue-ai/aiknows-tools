@@ -1,0 +1,18 @@
+{
+  "slug": "free-gemini-omni",
+  "name": "Free Gemini Omni",
+  "tagline": "Free Gemini Omni is a free AI video generator inspired by Gemini Omni multimodal workflows",
+  "description": "Free Gemini Omni is a free AI video generator inspired by Gemini Omni multimodal workflows. Create, remix, and edit cinematic videos online for ads, Shorts, Reels, education, and creator content.",
+  "url": "https://freegeminiomni.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=freegeminiomni.com&sz=64",
+  "screenshot_url": "/screenshots/free-gemini-omni.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

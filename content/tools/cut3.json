@@ -1,0 +1,18 @@
+{
+  "slug": "cut3",
+  "name": "CUT3",
+  "tagline": "CUT3 is an AI video editor you drive by chat",
+  "description": "CUT3 is an AI video editor you drive by chat. Tell the agent what you want and it builds the edit: cuts synced to the beat, automatic subtitles, voiceover and voice cloning, background removal, and generated shots when you are missing footage. There is no timeline to drag — you keep refining in plain language until it is right, with live preview while it works. Separate compositions are edited in parallel, and every change is shown before it lands. It handles full-length projects as well as shor",
+  "url": "https://cut3.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=cut3.ai&sz=64",
+  "screenshot_url": "/screenshots/cut3.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-video-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

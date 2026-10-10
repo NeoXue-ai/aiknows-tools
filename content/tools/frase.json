@@ -1,0 +1,21 @@
+{
+  "slug": "frase",
+  "name": "Frase",
+  "tagline": "AI for SEO content",
+  "description": "Research, write, and optimize SEO content with AI briefs and scoring.",
+  "url": "https://frase.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=frase.io&sz=64",
+  "screenshot_url": "/screenshots/frase.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "seo",
+    "briefs"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-seo-tools",
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

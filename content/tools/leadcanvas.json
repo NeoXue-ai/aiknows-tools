@@ -1,0 +1,18 @@
+{
+  "slug": "leadcanvas",
+  "name": "LeadCanvas",
+  "tagline": "LeadCanvas is a sales intelligence platform that uses AI and real-time Google Maps data to extract contact information from local businesses",
+  "description": "LeadCanvas is a sales intelligence platform that uses AI and real-time Google Maps data to extract contact information from local businesses. It retrieves phone numbers, email addresses, WhatsApp contacts, and social media profiles, with WhatsApp verification ensuring active contacts before outreach. The platform features an integrated CRM with a visual kanban board to track leads, while AI-generated icebreaker messages personalize outreach. Contact details are auto-populated, eliminating manual",
+  "url": "https://www.leadcanvas.app/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=leadcanvas.app&sz=64",
+  "screenshot_url": "/screenshots/leadcanvas.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 17,
+  "subcategory": "productivity-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

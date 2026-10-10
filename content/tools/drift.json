@@ -1,0 +1,21 @@
+{
+  "slug": "drift",
+  "name": "Drift",
+  "tagline": "Conversational marketing",
+  "description": "AI chatbots and live chat that qualify pipeline on your site.",
+  "url": "https://drift.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=drift.com&sz=64",
+  "screenshot_url": "/screenshots/drift.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "chatbot",
+    "conversational"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "customer-support",
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

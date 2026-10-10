@@ -1,0 +1,18 @@
+{
+  "slug": "mcp-playground-online",
+  "name": "MCP Playground Online",
+  "tagline": "MCP Playground Online is a browser-based platform for building, testing, and deploying AI agents powered by the Model Context Protocol (MCP)",
+  "description": "MCP Playground Online is a browser-based platform for building, testing, and deploying AI agents powered by the Model Context Protocol (MCP). Connect to any MCP server, deploy hosted servers in one click, and debug agents with live tool inspection—all without installing SDKs or managing infrastructure. Compare leading AI models, export agents as production-ready APIs, and accelerate development with built-in templates and free MCP tools. 1. Build, test, and deploy AI agents directly from your br",
+  "url": "https://mcpplaygroundonline.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=mcpplaygroundonline.com&sz=64",
+  "screenshot_url": "/screenshots/mcp-playground-online.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 28,
+  "subcategory": "ai-agent",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

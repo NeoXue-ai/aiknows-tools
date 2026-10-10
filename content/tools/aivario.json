@@ -1,0 +1,18 @@
+{
+  "slug": "aivario",
+  "name": "AIvario",
+  "tagline": "**AIVario** — an independent AI tools directory with verified pricing and honest reviews",
+  "description": "**AIVario** — an independent AI tools directory with verified pricing and honest reviews. We cover **200+ AI tools** across writing, coding, video, image generation, research, and business automation — including Cursor, ChatGPT, Claude, Midjourney, ElevenLabs, and Perplexity. **What makes it different:** - **Verified pricing, with dates.** Every plan is checked against the vendor's own page and the check date is published. AI pricing shifts monthly — most directories don't keep up. - **Real cost",
+  "url": "https://aivario.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=aivario.com&sz=64",
+  "screenshot_url": "/screenshots/aivario.webp",
+  "primary_category": "code-development",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-image-api",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

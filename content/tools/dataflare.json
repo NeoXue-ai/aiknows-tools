@@ -1,0 +1,18 @@
+{
+  "slug": "dataflare",
+  "name": "Dataflare",
+  "tagline": "Modern Database Management for Developers Dataflare is a fast, cross-platform database manager designed to simplify how developers interact with…",
+  "description": "Modern Database Management for Developers Dataflare is a fast, cross-platform database manager designed to simplify how developers interact with their data. It provides a clean and intuitive GUI that allows you to connect, query, and manage over 27 different databases from a single unified interface. By focusing on speed and simplicity, it eliminates the friction often found in traditional database tools. Streamlined Workflow and AI Integration The platform features a robust SQL query editor equ",
+  "url": "https://dataflare.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=dataflare.app&sz=64",
+  "screenshot_url": "/screenshots/dataflare.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-workflow",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

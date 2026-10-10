@@ -1,0 +1,18 @@
+{
+  "slug": "dot-art-generator",
+  "name": "dot art generator",
+  "tagline": "Create stunning halftone dot art patterns from any image. Free online tool with advanced dithering algorithms. Export transparent PNG.",
+  "description": "Create stunning halftone dot art patterns from any image. Free online tool with advanced dithering algorithms. Export transparent PNG.",
+  "url": "https://dotartgenerator.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=dotartgenerator.com&sz=64",
+  "screenshot_url": "/screenshots/dot-art-generator.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 39,
+  "subcategory": "ai-art-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

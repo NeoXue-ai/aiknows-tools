@@ -1,0 +1,18 @@
+{
+  "slug": "dailyme",
+  "name": "DailyMe",
+  "tagline": "Organize your child's study plan and tasks with DailyMe.app – a free tracker for students & parents",
+  "description": "Organize your child's study plan and tasks with DailyMe.app – a free tracker for students & parents. Set daily goals, manage homework, and build better learning habits together.",
+  "url": "https://dailyme.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=dailyme.app&sz=64",
+  "screenshot_url": "/screenshots/dailyme.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 2.2,
+  "subcategory": "ai-education",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

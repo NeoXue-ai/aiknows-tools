@@ -1,0 +1,18 @@
+{
+  "slug": "volume-shader",
+  "name": "volume shader",
+  "tagline": "Test GPU performance with Volume Shader BM benchmark. Advanced volumetric rendering test for WebGL, real-time 3D graphics and shader performance.",
+  "description": "Test GPU performance with Volume Shader BM benchmark. Advanced volumetric rendering test for WebGL, real-time 3D graphics and shader performance.",
+  "url": "https://volume-shader.net/",
+  "logo_url": "https://pub-459c6f6553344cc393826444731f5707.r2.dev/upload-1757233448611.jpeg",
+  "screenshot_url": "/screenshots/volume-shader.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": "https://findly.tools",
+  "dr": 27,
+  "subcategory": null,
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

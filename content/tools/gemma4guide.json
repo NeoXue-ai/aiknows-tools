@@ -1,0 +1,18 @@
+{
+  "slug": "gemma4guide",
+  "name": "Gemma4Guide",
+  "tagline": "A practical [Gemma 4 guide](https://gemma4guide.com) covering what Gemma 4 is, which models matter, how to run it locally, how much VRAM it needs,…",
+  "description": "A practical [Gemma 4 guide](https://gemma4guide.com) covering what Gemma 4 is, which models matter, how to run it locally, how much VRAM it needs, and how it compares with Qwen3 and Llama 4.",
+  "url": "https://gemma4guide.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=gemma4guide.com&sz=64",
+  "screenshot_url": "/screenshots/gemma4guide.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 6,
+  "subcategory": "ai-models",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

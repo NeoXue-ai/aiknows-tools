@@ -1,0 +1,18 @@
+{
+  "slug": "kling-motion",
+  "name": "Kling Motion",
+  "tagline": "Turn still images into motion clips using the Kling video model, with presets for common shot types.",
+  "description": null,
+  "url": "https://klingmotion.org/en",
+  "logo_url": "https://www.google.com/s2/favicons?domain=klingmotion.org&sz=64",
+  "screenshot_url": "/screenshots/kling-motion.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 23,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

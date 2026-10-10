@@ -1,0 +1,18 @@
+{
+  "slug": "subtitlegenerator",
+  "name": "SubtitleGenerator",
+  "tagline": "Generate and edit subtitles with a free AI subtitle generator",
+  "description": "Generate and edit subtitles with a free AI subtitle generator. Fix uncertain words, choose from 33 styles and export in your browser — no signup to start.",
+  "url": "https://subtitlegenerator.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=subtitlegenerator.app&sz=64",
+  "screenshot_url": "/screenshots/subtitlegenerator.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "speech-to-text-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

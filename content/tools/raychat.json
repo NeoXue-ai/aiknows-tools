@@ -1,0 +1,18 @@
+{
+  "slug": "raychat",
+  "name": "RayChat",
+  "tagline": "Raychat is a live chat platform for websites that also answers visitor questions using your own docs",
+  "description": "Raychat is a live chat platform for websites that also answers visitor questions using your own docs. Chat with visitors in real time, capture leads when you're offline, and track where your traffic comes from — free, unlimited sites, no credit card needed. Turn on an AI agent trained on your FAQs and it answers instantly, citing sources, and hands off to a human the moment it's unsure — a real answer, never a guess.",
+  "url": "https://raychat.rohanyeole.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=raychat.rohanyeole.com&sz=64",
+  "screenshot_url": "/screenshots/raychat.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-agent",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

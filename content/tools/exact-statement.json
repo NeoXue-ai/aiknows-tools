@@ -1,0 +1,18 @@
+{
+  "slug": "exact-statement",
+  "name": "Exact statement",
+  "tagline": "Convert bank statement PDFs to CSV and Excel files ready to import into QuickBooks Online and Xero",
+  "description": "Convert bank statement PDFs to CSV and Excel files ready to import into QuickBooks Online and Xero. Fast, accurate, and secure bank statement converter.",
+  "url": "https://exactstatement.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=exactstatement.com&sz=64",
+  "screenshot_url": "/screenshots/exact-statement.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 18,
+  "subcategory": "ai-spreadsheet",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

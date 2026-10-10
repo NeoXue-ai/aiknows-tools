@@ -1,0 +1,18 @@
+{
+  "slug": "omni-ai-video",
+  "name": "Omni AI Video",
+  "tagline": "Generate cinematic AI video with Gemini Omni on Omni AI Video — native audio, chat-based editing, multi-reference control. Free to start.",
+  "description": "Generate cinematic AI video with Gemini Omni on Omni AI Video — native audio, chat-based editing, multi-reference control. Free to start.",
+  "url": "https://www.omniaivideo.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=omniaivideo.org&sz=64",
+  "screenshot_url": "/screenshots/omni-ai-video.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 3,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

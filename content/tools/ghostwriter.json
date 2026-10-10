@@ -1,0 +1,18 @@
+{
+  "slug": "ghostwriter",
+  "name": "GhostWriter",
+  "tagline": "Voice powered AI that turns speech into clean, ready-to-paste text, anywhere on your Mac.",
+  "description": "Voice powered AI that turns speech into clean, ready-to-paste text, anywhere on your Mac.",
+  "url": "https://www.justghostwriter.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=justghostwriter.com&sz=64",
+  "screenshot_url": "/screenshots/ghostwriter.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 16,
+  "subcategory": "productivity-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

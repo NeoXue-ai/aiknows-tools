@@ -1,0 +1,21 @@
+{
+  "slug": "heygen",
+  "name": "HeyGen",
+  "tagline": "AI avatar videos",
+  "description": "Generate studio-quality videos with AI avatars and voice cloning.",
+  "url": "https://heygen.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=heygen.com&sz=64",
+  "screenshot_url": "/screenshots/heygen.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "video",
+    "avatar"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-voice-cloning",
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "wan27",
+  "name": "Wan2.7",
+  "tagline": "Generate polished AI images from one reference with Wan2.7-Image",
+  "description": "Generate polished AI images from one reference with Wan2.7-Image. Keep identity, clean composition, and download-ready detail in one streamlined workflow.",
+  "url": "https://wan27image.app/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=wan27image.app&sz=64",
+  "screenshot_url": "/screenshots/wan2-7-1.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 8,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "musicany-ai-music-generator",
+  "name": "MusicAny AI Music Generator",
+  "tagline": "Generate songs and music from prompts, create AI background music, and turn audio into AI music videos with MusicAny.",
+  "description": "Generate songs and music from prompts, create AI background music, and turn audio into AI music videos with MusicAny.",
+  "url": "https://musicany.io/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=musicany.io&sz=64",
+  "screenshot_url": "/screenshots/musicany-ai-music-generator.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 21,
+  "subcategory": "ai-music-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

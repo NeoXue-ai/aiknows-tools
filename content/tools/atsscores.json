@@ -1,0 +1,18 @@
+{
+  "slug": "atsscores",
+  "name": "ATSScores",
+  "tagline": "Find missing resume keywords and optimize your resume for ATS in 30 seconds. No signup required. Land more interviews!",
+  "description": "Find missing resume keywords and optimize your resume for ATS in 30 seconds. No signup required. Land more interviews!",
+  "url": "https://atsscores.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=atsscores.com&sz=64",
+  "screenshot_url": "/screenshots/atsscores.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 27,
+  "subcategory": "ai-resume-builder",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

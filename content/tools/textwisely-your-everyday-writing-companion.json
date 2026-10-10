@@ -1,0 +1,18 @@
+{
+  "slug": "textwisely-your-everyday-writing-companion",
+  "name": "🔮 TextWisely – Your everyday writing companion",
+  "tagline": "Fix grammar, Reply to emails, Change tone, Translate, and Summarize – all from a native macOS app that works across your favorite applications",
+  "description": "Fix grammar, Reply to emails, Change tone, Translate, and Summarize – all from a native macOS app that works across your favorite applications. No switching tabs, no copy-paste, no clutter. Just fast, focused writing powered by AI, right where you need it. Stay private, stay fast, and write like never before.",
+  "url": "https://textwisely.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=textwisely.ai&sz=64",
+  "screenshot_url": "/screenshots/textwisely-your-everyday-writing-companion.webp",
+  "primary_category": "writing-content",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 3.5,
+  "subcategory": "ai-summarizer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

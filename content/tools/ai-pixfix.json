@@ -1,0 +1,18 @@
+{
+  "slug": "ai-pixfix",
+  "name": "AI PixFix",
+  "tagline": "AI PixFix is a free all-in-one online toolkit for images and PDFs — no signup, no watermarks, no uploads to a server",
+  "description": "AI PixFix is a free all-in-one online toolkit for images and PDFs — no signup, no watermarks, no uploads to a server. Every tool runs 100% in your browser, so your files never leave your device. We cover 60+ tools across four areas: • Image editing — remove or replace backgrounds, resize, crop, compress, add text, watermark, blur faces, censor, generate favicons, create collages, memes, ASCII and pixel art, apply filters (preset, B&W, sepia), pick colors, strip metadata. • Image conversion — PNG",
+  "url": "https://aipixfix.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=aipixfix.com&sz=64",
+  "screenshot_url": "/screenshots/ai-pixfix.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 7,
+  "subcategory": "ai-graphic-design",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

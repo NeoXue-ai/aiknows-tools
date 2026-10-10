@@ -1,0 +1,18 @@
+{
+  "slug": "reporticaai",
+  "name": "ReporticaAI",
+  "tagline": "AI documentation platform for Care Quality Commission (CQC) registration and inspections",
+  "description": "AI documentation platform for Care Quality Commission (CQC) registration and inspections. Generate compliant policies, evidence portfolios, and NMC-mapped student reflections. Policy & Compliance Drafter covers 25+ UK regulations. Turn rough notes into polished regulation-ready reports. For care providers, education, legal, NGOs, and professional services.",
+  "url": "https://reporticaai.co.uk/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=reporticaai.co.uk&sz=64",
+  "screenshot_url": "/screenshots/reporticaai.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 5,
+  "subcategory": "ai-document-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

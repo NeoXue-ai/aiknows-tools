@@ -1,0 +1,18 @@
+{
+  "slug": "supervisor",
+  "name": "Supervisor",
+  "tagline": "AI-powered content moderation API for Discord and web apps",
+  "description": "AI-powered content moderation API for Discord and web apps. Filter toxic and harmful content in real-time with advanced machine learning models. Why choose Supervisor? - Understands context instead of relying on keywords - Understands intent - Reduces false positives with advanced models - Fully configurable to fit your community - Provides real-time protection without slowdowns - Privacy-focused and built to scale",
+  "url": "https://supervisor.gg",
+  "logo_url": "https://www.google.com/s2/favicons?domain=supervisor.gg&sz=64",
+  "screenshot_url": "/screenshots/supervisor.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "community",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

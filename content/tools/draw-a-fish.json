@@ -1,0 +1,18 @@
+{
+  "slug": "draw-a-fish",
+  "name": "Draw a Fish",
+  "tagline": "Interactive Digital Aquarium Experience [Draw a Fish](https://drawafish.live) is an interactive web-based platform that allows users to bring their…",
+  "description": "Interactive Digital Aquarium Experience [Draw a Fish](https://drawafish.live) is an interactive web-based platform that allows users to bring their artistic creations to life in a shared digital environment. By utilizing real-time drawing tools, users can sketch unique aquatic creatures and watch them join a global tank where they interact with other users' designs. The platform features a sophisticated on-device fish detector that provides immediate feedback. As you use the various brushes and ",
+  "url": "https://drawafish.live",
+  "logo_url": "https://www.google.com/s2/favicons?domain=drawafish.live&sz=64",
+  "screenshot_url": "/screenshots/draw-a-fish.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 9,
+  "subcategory": "ai-art-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "lyria-3",
+  "name": "Lyria 3",
+  "tagline": "Lyria 3 is a free AI music generator powered by the Google Music Model",
+  "description": "Lyria 3 is a free AI music generator powered by the Google Music Model. Create songs from text or lyrics with the Lyria 3 AI. Try Lyria 3 online — no experience needed.",
+  "url": "https://lyria3.one",
+  "logo_url": "https://www.google.com/s2/favicons?domain=lyria3.one&sz=64",
+  "screenshot_url": "/screenshots/lyria-3.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 21,
+  "subcategory": "ai-music-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

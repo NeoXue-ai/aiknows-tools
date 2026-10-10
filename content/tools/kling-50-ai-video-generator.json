@@ -1,0 +1,18 @@
+{
+  "slug": "kling-50-ai-video-generator",
+  "name": "Kling 5.0 AI Video Generator",
+  "tagline": "Create 1080P AI videos from prompts or images with Kling 5.0 AI",
+  "description": "Create 1080P AI videos from prompts or images with Kling 5.0 AI. Get cinematic motion, multi-shot control, and free daily credits in one browser-based studio.",
+  "url": "https://kling5.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=kling5.org&sz=64",
+  "screenshot_url": "/screenshots/kling-5-0-ai-video-generator.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 3.7,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

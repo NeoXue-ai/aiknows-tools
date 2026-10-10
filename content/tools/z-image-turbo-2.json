@@ -1,0 +1,18 @@
+{
+  "slug": "z-image-turbo-2",
+  "name": "Z-Image-Turbo",
+  "tagline": "Generate photorealistic AI images instantly with Z-Image-Turbo",
+  "description": "Generate photorealistic AI images instantly with Z-Image-Turbo. The #1 open-source generator featuring sub-second inference & bilingual text support. Try free!",
+  "url": "https://zimageturbo.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=zimageturbo.com&sz=64",
+  "screenshot_url": "/screenshots/z-image-turbo-2.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 24,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

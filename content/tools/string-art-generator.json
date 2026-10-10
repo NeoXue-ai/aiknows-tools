@@ -1,0 +1,18 @@
+{
+  "slug": "string-art-generator",
+  "name": "string art generator",
+  "tagline": "Free online String Art Generator that transforms your photos into beautiful thread patterns",
+  "description": "Free online String Art Generator that transforms your photos into beautiful thread patterns. Create, customize, and download string art designs instantly.",
+  "url": "https://string-art-generator.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=string-art-generator.com&sz=64",
+  "screenshot_url": "/screenshots/string-art-generator.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 24,
+  "subcategory": "ai-art-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

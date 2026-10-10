@@ -1,0 +1,18 @@
+{
+  "slug": "image-to-ascii",
+  "name": "Image to ascii",
+  "tagline": "Turn any photo into ASCII art in seconds. Free converter in your browser — all styles and exports free. AI generation optional on Pro.",
+  "description": "Turn any photo into ASCII art in seconds. Free converter in your browser — all styles and exports free. AI generation optional on Pro.",
+  "url": "https://image-to-ascii.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=image-to-ascii.com&sz=64",
+  "screenshot_url": "/screenshots/https-image-to-ascii-com.webp",
+  "primary_category": "code-development",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

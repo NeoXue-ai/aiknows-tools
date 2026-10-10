@@ -1,0 +1,18 @@
+{
+  "slug": "z-image-base-2",
+  "name": "Z-Image-Base",
+  "tagline": "All-in-one AI Image Generator, supporting Z-Image and its derivative models, including Z-Image-Turbo, Z-Image-Base, and Z-Image-Edit",
+  "description": "All-in-one AI Image Generator, supporting Z-Image and its derivative models, including Z-Image-Turbo, Z-Image-Base, and Z-Image-Edit. Generate images fast!",
+  "url": "https://zimagebase.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=zimagebase.com&sz=64",
+  "screenshot_url": "/screenshots/z-image-base.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 2.9,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

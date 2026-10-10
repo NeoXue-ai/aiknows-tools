@@ -1,0 +1,18 @@
+{
+  "slug": "frauger",
+  "name": "Frauger",
+  "tagline": "Frauger is a privacy-focused, web-based form builder designed as a direct alternative to Google Forms",
+  "description": "Frauger is a privacy-focused, web-based form builder designed as a direct alternative to Google Forms. Developed in Finland, the platform prioritizes data sovereignty by hosting all forms and responses exclusively on servers within the European Union. It enables users to create various field types such as text, multiple-choice, and ratings through a simple interface. Designed for GDPR compliance, Frauger does not sell or analyze respondent data for advertising, nor does it require a Google accou",
+  "url": "https://frauger.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=frauger.com&sz=64",
+  "screenshot_url": "/screenshots/frauger.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 8,
+  "subcategory": "ai-document-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

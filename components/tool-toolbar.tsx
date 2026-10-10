@@ -8,13 +8,13 @@ import {
   ChevronDown,
   LayoutGrid,
   List,
-  Plus,
+  Shapes,
   Search,
   X,
 } from "lucide-react";
 import { CATEGORIES } from "@/lib/seo/tool-schema";
 import { categoryIcon } from "@/lib/category-icons";
-import type { SortKey, SortDir } from "@/lib/tool-score";
+import type { SortKey, SortDir } from "@/features/catalog/types";
 import { cn } from "@/lib/utils";
 
 const SEARCH_EXAMPLES = ["meeting transcription", "API testing", "image generation"];
@@ -89,8 +89,8 @@ export function ToolToolbar({
 
   return (
     <div className="space-y-3">
-      <div className="rounded-2xl border border-border bg-card p-1.5">
-        <div className="flex flex-col items-stretch gap-1 md:flex-row md:items-center md:gap-0">
+      <div className="rounded-2xl border border-border bg-card p-2">
+        <div className="flex flex-wrap items-center gap-2 lg:flex-nowrap lg:gap-1">
           <SearchControl q={q} onQChange={onQChange} inputRef={inputRef} />
           {showCategory && <VDivider />}
           {showCategory && <CategoryMenu />}
@@ -104,27 +104,27 @@ export function ToolToolbar({
           />
           <VDivider />
           <ViewSwitcher value={view} onChange={onViewChange} />
-          <span className="hidden whitespace-nowrap px-3 font-mono text-xs tabular-nums text-muted-foreground md:ml-2 md:inline-block">
+          <span className="ml-auto hidden whitespace-nowrap px-3 text-xs tabular-nums text-muted-foreground lg:inline-block">
             {count} results
           </span>
         </div>
       </div>
 
-      <div className="flex items-center justify-between gap-3 md:hidden">
-        <span className="font-mono text-xs tabular-nums text-muted-foreground">
+      <div className="flex items-center justify-between gap-3 lg:hidden">
+        <span className="text-xs tabular-nums text-muted-foreground">
           {count} results
         </span>
         {showExamples && (
-          <p className="font-mono text-[10px] uppercase tracking-[0.12em] text-muted-foreground">
-            Examples ↓
+          <p className="text-xs text-muted-foreground">
+            Search by task or tool name
           </p>
         )}
       </div>
 
       {showExamples && (
         <ul className="hidden flex-wrap items-center gap-2 text-xs md:flex">
-          <li className="font-mono text-[10px] uppercase tracking-[0.12em] text-muted-foreground">
-            Examples
+          <li className="mr-1 text-muted-foreground">
+            Try searching
           </li>
           {SEARCH_EXAMPLES.map((ex) => (
             <li key={ex}>
@@ -134,7 +134,7 @@ export function ToolToolbar({
                   onQChange(ex);
                   inputRef.current?.focus();
                 }}
-                className="border border-border px-2 py-1 text-muted-foreground transition-colors hover:border-accent hover:text-accent"
+                className="rounded-full border border-border bg-card px-3 py-1.5 text-muted-foreground transition-colors hover:border-accent/30 hover:text-accent"
               >
                 {ex}
               </button>
@@ -147,7 +147,7 @@ export function ToolToolbar({
 }
 
 function VDivider() {
-  return <div aria-hidden className="hidden h-6 w-px shrink-0 bg-border md:block" />;
+  return <div aria-hidden className="hidden h-5 w-px shrink-0 bg-border lg:block" />;
 }
 
 function SearchControl({
@@ -164,8 +164,8 @@ function SearchControl({
     <label
       htmlFor="tool-search"
       className={cn(
-        "group flex min-w-0 flex-1 items-center gap-2.5 rounded-xl border bg-background px-3 py-2 transition-colors duration-200",
-        focused ? "border-accent" : "border-border hover:border-foreground/25",
+        "group flex h-12 min-w-0 basis-full items-center gap-3 rounded-xl border bg-background px-4 transition-colors duration-200 lg:basis-auto lg:flex-1",
+        focused ? "border-accent/60 ring-2 ring-accent/10" : "border-transparent hover:border-border",
       )}
     >
       <Search
@@ -194,14 +194,14 @@ function SearchControl({
             onQChange("");
             inputRef.current?.focus();
           }}
-          className="inline-flex h-6 w-6 shrink-0 items-center justify-center rounded text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground"
+          className="inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-lg text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground"
         >
           <X className="h-3.5 w-3.5" />
         </button>
       ) : (
         <span
           aria-hidden
-          className="hidden items-center gap-1 border border-border px-1.5 py-0.5 text-[10px] font-medium text-muted-foreground sm:inline-flex"
+          className="hidden items-center gap-1 rounded-md border border-border bg-card px-1.5 py-1 text-[11px] font-medium text-muted-foreground sm:inline-flex"
         >
           <kbd className="font-sans">⌘</kbd>
           <kbd className="font-sans">K</kbd>
@@ -256,13 +256,13 @@ function CategoryMenu() {
         aria-haspopup="listbox"
         aria-expanded={open}
         className={cn(
-          "inline-flex h-full w-full items-center gap-2 rounded-xl px-3 py-2 text-sm transition-colors md:w-auto",
+          "inline-flex h-10 w-full items-center gap-2 rounded-xl px-3 text-sm transition-colors md:w-auto",
           hasFilter
             ? "bg-accent/10 text-accent"
             : "text-foreground hover:bg-secondary",
         )}
       >
-        <Plus className="h-4 w-4 shrink-0" />
+        <Shapes className="h-4 w-4 shrink-0" />
         <span className="whitespace-nowrap">{label}</span>
         <ChevronDown
           className={cn(
@@ -274,7 +274,7 @@ function CategoryMenu() {
       {open && (
         <div
           role="listbox"
-          className="absolute left-0 top-full z-30 mt-1 w-64 overflow-hidden rounded-lg border border-border bg-popover py-1 text-popover-foreground shadow-lg"
+          className="absolute left-0 top-full z-30 mt-3 w-64 overflow-hidden rounded-2xl border border-border bg-popover p-2 text-popover-foreground shadow-[0_12px_40px_-10px_rgb(32_39_34/0.15)]"
         >
           <button
             type="button"
@@ -282,7 +282,7 @@ function CategoryMenu() {
             aria-selected={!hasFilter}
             onClick={() => pick(null)}
             className={cn(
-              "flex w-full items-center justify-between gap-2 px-3 py-2 text-left text-sm transition-colors hover:bg-secondary",
+              "flex w-full items-center justify-between gap-2 rounded-lg px-3 py-2.5 text-left text-sm transition-colors hover:bg-secondary",
               !hasFilter ? "text-foreground" : "text-muted-foreground",
             )}
           >
@@ -301,7 +301,7 @@ function CategoryMenu() {
                 aria-selected={isActive}
                 onClick={() => pick(c.slug)}
                 className={cn(
-                  "flex w-full items-center gap-2 px-3 py-2 text-left text-sm transition-colors hover:bg-secondary",
+                  "flex w-full items-center gap-2 rounded-lg px-3 py-2.5 text-left text-sm transition-colors hover:bg-secondary",
                   isActive ? "text-accent" : "text-foreground",
                 )}
               >
@@ -361,7 +361,7 @@ function SortMenu({
         onClick={onToggleDir}
         title={`Sort direction: ${sortDir === "asc" ? "ascending" : "descending"} — click to toggle`}
         aria-label={`Sort direction: ${sortDir === "asc" ? "ascending" : "descending"}`}
-        className="inline-flex h-full items-center justify-center rounded-xl px-2 text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground"
+        className="inline-flex h-10 items-center justify-center rounded-xl px-2 text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground"
       >
         <ArrowUpDown className="h-4 w-4" />
       </button>
@@ -370,7 +370,7 @@ function SortMenu({
         onClick={() => setOpen((v) => !v)}
         aria-haspopup="listbox"
         aria-expanded={open}
-        className="inline-flex h-full items-center gap-1.5 rounded-xl px-2 py-2 text-sm text-foreground transition-colors hover:bg-secondary"
+        className="inline-flex h-10 items-center gap-1.5 rounded-xl px-2 text-sm text-foreground transition-colors hover:bg-secondary"
       >
         <span className="whitespace-nowrap">{label}</span>
         <ChevronDown
@@ -383,7 +383,7 @@ function SortMenu({
       {open && (
         <div
           role="listbox"
-          className="absolute right-0 top-full z-30 mt-1 w-48 overflow-hidden rounded-lg border border-border bg-popover py-1 text-popover-foreground shadow-lg"
+          className="absolute right-0 top-full z-30 mt-3 w-48 overflow-hidden rounded-2xl border border-border bg-popover p-2 text-popover-foreground shadow-[0_12px_40px_-10px_rgb(32_39_34/0.15)]"
         >
           {SORT_OPTIONS.map((opt) => (
             <button
@@ -396,13 +396,13 @@ function SortMenu({
                 setOpen(false);
               }}
               className={cn(
-                "block w-full px-3 py-2 text-left text-sm transition-colors hover:bg-secondary",
+                "block w-full rounded-lg px-3 py-2.5 text-left text-sm transition-colors hover:bg-secondary",
                 sortKey === opt.key ? "text-foreground" : "text-muted-foreground",
               )}
             >
               <span className="flex items-center justify-between gap-2">
                 <span>{opt.label}</span>
-                <span className="font-mono text-[10px] uppercase text-muted-foreground">
+                <span className="text-xs text-muted-foreground">
                   {sortKey === opt.key ? (sortDir === "asc" ? "↑ asc" : "↓ desc") : ""}
                 </span>
               </span>
@@ -425,7 +425,7 @@ function ViewSwitcher({
     <div
       role="group"
       aria-label="View mode"
-      className="inline-flex items-center rounded-xl border border-border bg-background p-0.5"
+      className="ml-auto inline-flex items-center rounded-xl bg-secondary p-1 lg:ml-1"
     >
       {VIEW_OPTIONS.map((opt) => {
         const Icon = opt.icon;
@@ -437,9 +437,9 @@ function ViewSwitcher({
             onClick={() => onChange(opt.value)}
             aria-pressed={active}
             className={cn(
-              "inline-flex items-center gap-1.5 rounded-md px-2.5 py-1.5 text-xs font-medium transition-colors",
+              "inline-flex h-8 items-center gap-1.5 rounded-lg px-2.5 text-xs font-medium transition-colors",
               active
-                ? "bg-secondary text-foreground"
+                ? "bg-card text-foreground shadow-sm"
                 : "text-muted-foreground hover:text-foreground",
             )}
           >

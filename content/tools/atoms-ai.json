@@ -1,0 +1,18 @@
+{
+  "slug": "atoms-ai",
+  "name": "Atoms AI",
+  "tagline": "Turn Ideas into Functional Products Atoms AI is an AI-powered development platform designed to help teams build websites and apps without writing…",
+  "description": "Turn Ideas into Functional Products Atoms AI is an AI-powered development platform designed to help teams build websites and apps without writing code. By utilizing a multi-agent workflow, the platform employs AI employees—including Product Managers, Engineers, and Data Scientists—to plan, build, test, and launch products in minutes rather than weeks. Comprehensive Development and Operations The platform goes beyond simple demos to create real, functional applications that are ready for launch a",
+  "url": "https://atoms.dev/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=atoms.dev&sz=64",
+  "screenshot_url": "/screenshots/atoms-ai.webp",
+  "primary_category": "code-development",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 63,
+  "subcategory": "ai-website-builder",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

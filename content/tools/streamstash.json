@@ -1,0 +1,18 @@
+{
+  "slug": "streamstash",
+  "name": "StreamStash",
+  "tagline": "StreamStash is a self-hosted desktop application for archiving social media content from TikTok, Instagram, Twitter/X, Telegram, Reddit, Snapchat,…",
+  "description": "StreamStash is a self-hosted desktop application for archiving social media content from TikTok, Instagram, Twitter/X, Telegram, Reddit, Snapchat, forums, and web albums. Everything runs on your own hardware with a local SQLite database, no cloud, no third-party accounts. Features include automatic TikTok live stream recording (24/7 monitoring), scheduled feed archiving, perceptual hash deduplication, hardware-accelerated H265 compression via NVENC, Discord webhook notifications, AI-powered sema",
+  "url": "https://www.streamstash.live",
+  "logo_url": "https://www.google.com/s2/favicons?domain=streamstash.live&sz=64",
+  "screenshot_url": "/screenshots/streamstash.webp",
+  "primary_category": "seo-marketing",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 2.3,
+  "subcategory": "social-media",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

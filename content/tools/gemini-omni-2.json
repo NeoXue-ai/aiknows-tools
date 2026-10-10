@@ -1,0 +1,18 @@
+{
+  "slug": "gemini-omni-2",
+  "name": "Gemini Omni",
+  "tagline": "Gemini Omni | Google&#x27;s Next-Gen AI Video Generator",
+  "description": "Gemini Omni | Google&#x27;s Next-Gen AI Video Generator",
+  "url": "https://gemini-omni-ai.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=gemini-omni-ai.org&sz=64",
+  "screenshot_url": "/screenshots/gemini-omni-3.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 35,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

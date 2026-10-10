@@ -1,0 +1,18 @@
+{
+  "slug": "lettings-quest",
+  "name": "Lettings Quest",
+  "tagline": "AI virtual assistant that answers calls 24/7. Never miss a landlord enquiry or tenant viewing again.",
+  "description": "AI virtual assistant that answers calls 24/7. Never miss a landlord enquiry or tenant viewing again.",
+  "url": "https://lettings.quest",
+  "logo_url": "https://www.google.com/s2/favicons?domain=lettings.quest&sz=64",
+  "screenshot_url": "/screenshots/lettings-quest.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "automation",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "stow-ui-marketplace",
+  "name": "Stow - UI Marketplace",
+  "tagline": "Accelerate Your Development Workflow Stow is a specialized UI marketplace designed to help developers stop rebuilding the same interface elements…",
+  "description": "Accelerate Your Development Workflow Stow is a specialized UI marketplace designed to help developers stop rebuilding the same interface elements from scratch. By providing high-quality React, Vue, and shadcn/ui components, the platform allows teams to drop production-ready blocks directly into their repositories. This approach significantly reduces development time, enabling you to ship interfaces up to 10x faster. Seamless Integration and Customization The platform focuses on ease of use throu",
+  "url": "https://stow.build",
+  "logo_url": "https://www.google.com/s2/favicons?domain=stow.build&sz=64",
+  "screenshot_url": "/screenshots/stow-ui-marketplace.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 14,
+  "subcategory": "ai-workflow",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

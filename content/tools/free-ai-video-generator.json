@@ -1,0 +1,18 @@
+{
+  "slug": "free-ai-video-generator",
+  "name": "Free AI video generator",
+  "tagline": "Free AI video generator with 20+ models — Veo 3.1, Sora 2, Kling 3.0, Runway Gen-4",
+  "description": "Free AI video generator with 20+ models — Veo 3.1, Sora 2, Kling 3.0, Runway Gen-4. Create video from text or images for ads, social content, and more.",
+  "url": "https://vimod.ai/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=vimod.ai&sz=64",
+  "screenshot_url": "/screenshots/free-ai-video-generator.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 14,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "tendera",
+  "name": "tendera",
+  "tagline": "Tendera is an AI companion platform with four written characters who remember you, speak in distinct voices, and feel like real people",
+  "description": "Tendera is an AI companion platform with four written characters who remember you, speak in distinct voices, and feel like real people. Free AI chat, no signup.",
+  "url": "https://tendera.chat",
+  "logo_url": "https://www.google.com/s2/favicons?domain=tendera.chat&sz=64",
+  "screenshot_url": "/screenshots/tendera.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 13,
+  "subcategory": "ai-assistant",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

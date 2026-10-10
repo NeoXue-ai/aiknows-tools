@@ -1,0 +1,18 @@
+{
+  "slug": "roadbase",
+  "name": "Roadbase",
+  "tagline": "Roadbase is an AI-assisted, quote-first planning platform for creative freelancers and agencies",
+  "description": "Roadbase is an AI-assisted, quote-first planning platform for creative freelancers and agencies. Paste a project brief or attach a PDF, and Roadbase creates an editable first draft with a project summary, phases, tasks, roles, estimated hours, timing, assumptions, and estimate reasoning. Your team reviews and adjusts the draft, then applies its own role costs and billable rates, overhead, direct expenses, contingency, and target margin to build the quote. The visual timeline keeps tasks, timing,",
+  "url": "https://roadbase.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=roadbase.io&sz=64",
+  "screenshot_url": "/screenshots/roadbase.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "productivity-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "tinulo",
+  "name": "Tinulo",
+  "tagline": "Create AI videos and images with reusable presets and transparent credit quotes.",
+  "description": "Create AI videos and images with reusable presets and transparent credit quotes.",
+  "url": "https://tinulo.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=tinulo.com&sz=64",
+  "screenshot_url": "/screenshots/tinulo.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "rephrazy",
+  "name": "Rephrazy",
+  "tagline": "Free AI tools for writing and creativity. Rewrite, summarize, generate poems, and solve tasks easily online.",
+  "description": "Rephrazy is a free online toolkit for writing and creativity: rewrite sentences in different tones, summarize long text, generate poems, and handle everyday writing tasks. Works in the browser with no signup, with English and Russian interfaces.",
+  "url": "https://rephrazy.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=rephrazy.com&sz=64",
+  "screenshot_url": "/screenshots/rephrazy.webp",
+  "primary_category": "writing-content",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-writer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null,
+  "editorial": {
+    "comparison": {
+      "eyebrow": "Editorial",
+      "heading": "How Rephrazy compares",
+      "paragraphs": [
+        "Rephrazy is a free, browser-based writing toolkit: a sentence rewriter, summarizer, punctuation checker, word counter, translator, rhyme and question generators, plus a hashtag generator for social posts. Everything runs on the site with no signup and no credit card, with English and Russian interfaces. The trade-off for zero cost is scope — these are single-shot utilities, not a workspace with documents, history, and team features.",
+        "Against the paid incumbents the difference is shape, not quality per task. QuillBot pairs its rewriter with a grammar checker and a summarizer inside one document flow, and its free tier limits how much text each pass can handle. Wordtune focuses purely on sentence rewriting with a tighter free quota and tone controls. Grammarly is the heavyweight for grammar correction across everything you type. Rephrazy wins on price (free, no cap games) and on the long tail of niche utilities — rhyme finding, question generation — that the big suites don't offer at all."
+      ],
+      "points": [
+        {
+          "label": "vs QuillBot",
+          "text": "QuillBot's free tier caps rewriting at ~125 words per pass and locks modes behind Premium. Rephrazy places no visible cap on single-shot use, but offers no document workspace or citation tools."
+        },
+        {
+          "label": "vs Wordtune",
+          "text": "Wordtune is the stronger sentence-level rewriter with tone control, but its free plan allows only ~10 rewrites a day. Rephrazy covers rewriting plus a dozen adjacent utilities at zero cost."
+        },
+        {
+          "label": "vs Grammarly",
+          "text": "Grammarly checks grammar everywhere you type and is the standard for correction. Rephrazy is not a grammar platform — it's a set of quick one-off utilities, including some Grammarly has no answer for."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Is Rephrazy really free?",
+        "answer": "Yes — every tool on rephrazy.com is free with no signup, no credit card, and no hidden fees, according to the site. It processes text client-side, which also keeps your writing private."
+      },
+      {
+        "question": "What can I use Rephrazy for?",
+        "answer": "Everyday writing tasks: rewriting sentences, summarizing long text, checking punctuation, counting words, translating, generating rhymes or questions, and producing hashtags for social posts."
+      },
+      {
+        "question": "Is Rephrazy a good free alternative to QuillBot?",
+        "answer": "For quick rewrites without a word cap, yes. QuillBot still wins if you need document-level editing, citation generation, or its plagiarism checker — features Rephrazy doesn't attempt."
+      },
+      {
+        "question": "Does Rephrazy support languages other than English?",
+        "answer": "The site interface is available in English and Russian, and its translator tool handles text translation between languages."
+      }
+    ],
+    "externalLinks": [
+      {
+        "label": "QuillBot",
+        "url": "https://quillbot.com",
+        "context": "the most popular freemium rewriter, with summarizer and grammar tools"
+      },
+      {
+        "label": "Wordtune",
+        "url": "https://www.wordtune.com",
+        "context": "tone-controlled sentence rewriting from AI21 Labs"
+      },
+      {
+        "label": "Grammarly",
+        "url": "https://www.grammarly.com",
+        "context": "the standard grammar checker across browsers and apps"
+      }
+    ]
+  }
+}

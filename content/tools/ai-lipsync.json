@@ -1,0 +1,18 @@
+{
+  "slug": "ai-lipsync",
+  "name": "AI LipSync",
+  "tagline": "Lip sync any video with speed and quality with LipSync.show - Your online lip sync maker & generator! Free for personal and business use. Start now!",
+  "description": "Lip sync any video with speed and quality with LipSync.show - Your online lip sync maker & generator! Free for personal and business use. Start now!",
+  "url": "https://www.lipsync.show",
+  "logo_url": "https://www.google.com/s2/favicons?domain=lipsync.show&sz=64",
+  "screenshot_url": "/screenshots/ai-lipsync.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 6,
+  "subcategory": "ai-lip-sync",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

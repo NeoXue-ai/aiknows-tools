@@ -1,0 +1,18 @@
+{
+  "slug": "gemma-4",
+  "name": "Gemma 4",
+  "tagline": "Try Gemma 4 online, download it from official sources, and follow clear local or mobile setup guides.",
+  "description": "Try Gemma 4 online, download it from official sources, and follow clear local or mobile setup guides.",
+  "url": "https://www.gemma4.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=gemma4.app&sz=64",
+  "screenshot_url": "/screenshots/gemma-4.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 3.4,
+  "subcategory": "ai-models",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

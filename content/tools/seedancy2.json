@@ -1,0 +1,18 @@
+{
+  "slug": "seedancy2",
+  "name": "Seedancy2",
+  "tagline": "Seedance 2.0 is the leading AI video generator by CapCut (ByteDance)",
+  "description": "Seedance 2.0 is the leading AI video generator by CapCut (ByteDance). Create high-quality, cinematic 2K videos with perfect character consistency and smooth motion.",
+  "url": "https://seedancy2.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=seedancy2.com&sz=64",
+  "screenshot_url": "/screenshots/seedancy2.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 34,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

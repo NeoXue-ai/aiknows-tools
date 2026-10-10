@@ -1,0 +1,18 @@
+{
+  "slug": "core-level",
+  "name": "core level",
+  "tagline": "Your all-in-one wellness companion for building healthier habits",
+  "description": "Your all-in-one wellness companion for building healthier habits. Track meals, weight, mood, and journal your progress, all visualized with a clean, intuitive interface. MyFitnessPal but better.",
+  "url": "https://corelevelapp.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=corelevelapp.com&sz=64",
+  "screenshot_url": "/screenshots/core-level.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 15,
+  "subcategory": "ai-note-taker",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

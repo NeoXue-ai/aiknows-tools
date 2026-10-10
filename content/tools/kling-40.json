@@ -1,0 +1,18 @@
+{
+  "slug": "kling-40",
+  "name": "Kling 4.0",
+  "tagline": "Kling AI Models provides the Kling 4.0 AI video generator for text-to-video creation, 4K cinematic output, and multi-shot storytelling.",
+  "description": "Kling AI Models provides the Kling 4.0 AI video generator for text-to-video creation, 4K cinematic output, and multi-shot storytelling.",
+  "url": "https://kling4.net",
+  "logo_url": "https://www.google.com/s2/favicons?domain=kling4.net&sz=64",
+  "screenshot_url": "/screenshots/kling-4-0-1.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 24,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

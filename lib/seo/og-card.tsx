@@ -20,8 +20,8 @@ export function OgCard({
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
-        background: "#0B1018",
-        color: "#EDF2F7",
+        background: "#FAF9F6",
+        color: "#202722",
         fontFamily: "system-ui, sans-serif",
         padding: "80px 90px",
         position: "relative",
@@ -32,7 +32,7 @@ export function OgCard({
         style={{
           position: "absolute",
           inset: 24,
-          border: "1px solid rgba(237, 242, 247, 0.10)",
+          border: "1px solid #E3E6DF",
           borderRadius: 16,
         }}
       />
@@ -45,7 +45,7 @@ export function OgCard({
           gap: 14,
           fontSize: 26,
           fontWeight: 500,
-          color: "#2578F8",
+          color: "#2E5846",
           marginBottom: 32,
         }}
       >
@@ -56,11 +56,11 @@ export function OgCard({
             justifyContent: "center",
             width: 30,
             height: 30,
-            border: "2px solid #2578F8",
+            border: "2px solid #2E5846",
             borderRadius: 6,
             fontSize: 18,
             fontWeight: 700,
-            color: "#2578F8",
+            color: "#2E5846",
             letterSpacing: "-0.04em",
           }}
         >
@@ -76,7 +76,7 @@ export function OgCard({
           fontWeight: 700,
           lineHeight: 1.06,
           letterSpacing: "-0.035em",
-          color: "#EDF2F7",
+          color: "#202722",
           maxWidth: 920,
           display: "flex",
         }}
@@ -90,7 +90,7 @@ export function OgCard({
           style={{
             fontSize: 30,
             fontWeight: 400,
-            color: "#8B96A7",
+            color: "#6B736C",
             maxWidth: 820,
             lineHeight: 1.35,
             marginTop: 28,

@@ -1,0 +1,18 @@
+{
+  "slug": "image-describe",
+  "name": "Image Describe",
+  "tagline": "[Image Describe](https://imagedescribe.net) is an AI-powered image description tool that helps users understand, analyze, and describe images online",
+  "description": "[Image Describe](https://imagedescribe.net) is an AI-powered image description tool that helps users understand, analyze, and describe images online. It can generate accurate image descriptions, extract OCR text, create captions, write prompts, and answer questions about uploaded images through image chat. The tool is useful for students, content creators, marketers, developers, designers, and anyone who needs to turn visual content into clear text. Users can upload an image and quickly get deta",
+  "url": "https://imagedescribe.net",
+  "logo_url": "https://www.google.com/s2/favicons?domain=imagedescribe.net&sz=64",
+  "screenshot_url": "/screenshots/image-describe.webp",
+  "primary_category": "writing-content",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 6,
+  "subcategory": "ai-content-creator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -3,7 +3,7 @@ import type { MetadataRoute } from "next";
 /**
  * PWA web app manifest. Next.js will serve this at /manifest.webmanifest
  * when linked from metadata.icons or metadata.manifest. The icons here are
- * the brand-blue tiled PNGs — home-screen tiles can't adapt to color scheme,
+ * the forest-green tiled PNGs — home-screen tiles can't adapt to color scheme,
  * so a solid background is the only way to stay readable on every wallpaper.
  */
 export default function manifest(): MetadataRoute.Manifest {
@@ -15,8 +15,8 @@ export default function manifest(): MetadataRoute.Manifest {
     start_url: "/",
     display: "standalone",
     orientation: "portrait",
-    background_color: "#0b1018",
-    theme_color: "#0b1018",
+    background_color: "#faf9f6",
+    theme_color: "#faf9f6",
     icons: [
       {
         src: "/icon-192.png",

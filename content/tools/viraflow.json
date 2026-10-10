@@ -1,0 +1,18 @@
+{
+  "slug": "viraflow",
+  "name": "ViraFlow",
+  "tagline": "Analyze viral videos, turn them into reusable prompts, and generate similar AI videos from TikTok, Instagram Reel, YouTube, or uploaded references.",
+  "description": "Analyze viral videos, turn them into reusable prompts, and generate similar AI videos from TikTok, Instagram Reel, YouTube, or uploaded references.",
+  "url": "https://viraflow.org/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=viraflow.org&sz=64",
+  "screenshot_url": "/screenshots/viraflow.webp",
+  "primary_category": "seo-marketing",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 24,
+  "subcategory": "social-media",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "pixelprompt",
+  "name": "PixelPrompt",
+  "tagline": "Creator-focused AIGC suite: prompt engineering, text-to-image inspiration, AI video & music, and multimodal generative workflows",
+  "description": "Creator-focused AIGC suite: prompt engineering, text-to-image inspiration, AI video & music, and multimodal generative workflows. Credits-based tools for teams and independents.",
+  "url": "https://pixelprompt.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=pixelprompt.app&sz=64",
+  "screenshot_url": "/screenshots/pixelprompt.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 27,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

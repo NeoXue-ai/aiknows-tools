@@ -1,0 +1,18 @@
+{
+  "slug": "objectremover",
+  "name": "objectremover",
+  "tagline": "Remove unwanted people, text, logos, and objects from MP4 or MOV videos online with AI",
+  "description": "Remove unwanted people, text, logos, and objects from MP4 or MOV videos online with AI. Upload a short clip, describe the target, and download the result.",
+  "url": "https://objectremover.pro",
+  "logo_url": "https://www.google.com/s2/favicons?domain=objectremover.pro&sz=64",
+  "screenshot_url": "/screenshots/objectremover.webp",
+  "primary_category": "code-development",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

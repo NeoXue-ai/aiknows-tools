@@ -1,0 +1,18 @@
+{
+  "slug": "deepsong-ai",
+  "name": "DeepSong AI",
+  "tagline": "Create original and royalty-free songs with DeepSong.ai now! - a free online AI-powered platform for fast, high-quality song & music generator.",
+  "description": "Create original and royalty-free songs with DeepSong.ai now! - a free online AI-powered platform for fast, high-quality song & music generator.",
+  "url": "https://deepsong.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=deepsong.ai&sz=64",
+  "screenshot_url": "/screenshots/deepsong-ai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 38,
+  "subcategory": "ai-music-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

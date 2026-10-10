@@ -1,0 +1,21 @@
+{
+  "slug": "akkio",
+  "name": "Akkio",
+  "tagline": "AI for business analytics",
+  "description": "Predictive AI for marketing, sales, and finance teams — no code required.",
+  "url": "https://akkio.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=akkio.com&sz=64",
+  "screenshot_url": "/screenshots/akkio.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "predictive",
+    "no-code"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "no-code",
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

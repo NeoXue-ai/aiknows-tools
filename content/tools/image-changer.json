@@ -1,0 +1,18 @@
+{
+  "slug": "image-changer",
+  "name": "image changer",
+  "tagline": "Edit images online with our free AI image changer. Change backgrounds, remove objects, restyle photos, and try one free image without signing up.",
+  "description": "Edit images online with our free AI image changer. Change backgrounds, remove objects, restyle photos, and try one free image without signing up.",
+  "url": "https://imagechanger.net/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=imagechanger.net&sz=64",
+  "screenshot_url": "/screenshots/image-changer.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

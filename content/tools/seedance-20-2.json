@@ -1,0 +1,18 @@
+{
+  "slug": "seedance-20-2",
+  "name": "Seedance 2.0",
+  "tagline": "Seedance 2.0 is ByteDance&#x27;s most advanced AI video generation model",
+  "description": "Seedance 2.0 is ByteDance&#x27;s most advanced AI video generation model. Create stunning videos from text and images with native audio, multi-shot storytelling, and cinematic motion.",
+  "url": "https://seedancestudio.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=seedancestudio.org&sz=64",
+  "screenshot_url": "/screenshots/seedance-2-0-16.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 32,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,19 +1,17 @@
 import Link from "next/link";
-import { buttonVariants } from "@/components/ui/button-variants";
-import { cn } from "@/lib/utils";
 
 export default function NotFound() {
   return (
-    <div className="container mx-auto flex max-w-2xl flex-col items-center justify-center px-4 py-24 text-center">
+    <div className="mx-auto flex w-full max-w-[768px] flex-col items-center justify-center px-5 py-24 text-center sm:px-8">
       <p className="mb-2 text-sm font-medium text-primary">404</p>
-      <h1 className="mb-4 text-4xl font-bold tracking-tight sm:text-5xl">
+      <h1 className="mb-4 text-4xl font-semibold tracking-[-0.045em] sm:text-5xl">
         Page not found
       </h1>
-      <p className="mb-8 max-w-md text-muted-foreground">
+      <p className="mb-8 max-w-md text-base leading-7 text-muted-foreground">
         We couldn&apos;t find the page you were looking for. It may have been
         moved, renamed, or never existed.
       </p>
-      <Link href="/" className={cn(buttonVariants({ size: "lg" }))}>
+      <Link href="/" className="action-primary">
         Back to home
       </Link>
 

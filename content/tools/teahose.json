@@ -1,0 +1,18 @@
+{
+  "slug": "teahose",
+  "name": "Teahose",
+  "tagline": "The AI/VC podcasts, newsletters, and papers that matter, distilled daily — plus a live graph of the companies, people, and themes moving underneath,…",
+  "description": "The AI/VC podcasts, newsletters, and papers that matter, distilled daily — plus a live graph of the companies, people, and themes moving underneath, with signals from 14 top VCs.",
+  "url": "https://www.teahose.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=teahose.com&sz=64",
+  "screenshot_url": "/screenshots/teahose.webp",
+  "primary_category": "writing-content",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 3.4,
+  "subcategory": "ai-content-creator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

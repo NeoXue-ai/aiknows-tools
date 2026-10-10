@@ -1,0 +1,18 @@
+{
+  "slug": "gemini-omni-4",
+  "name": "Gemini Omni",
+  "tagline": "A focused Gemini Omni landing page covering multimodal prompting, chat-based editing, remix workflows, and practical tips for faster iteration…",
+  "description": "A focused Gemini Omni landing page covering multimodal prompting, chat-based editing, remix workflows, and practical tips for faster iteration without losing visual continuity.",
+  "url": "https://omnigemini.app/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=omnigemini.app&sz=64",
+  "screenshot_url": "/screenshots/gemini-omni-1.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 13,
+  "subcategory": "ai-workflow",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}
