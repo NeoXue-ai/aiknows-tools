@@ -1,0 +1,64 @@
+name: Submit an AI tool
+description: Propose a public catalog record for editorial review.
+title: "[Tool] "
+labels: ["catalog:submission"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Tool name
+    validations:
+      required: true
+  - type: input
+    id: slug
+    attributes:
+      label: Slug
+      description: Short listing URL name, such as example-tool. Use lowercase letters, numbers and hyphens. An editor can adjust this before accepting your submission.
+    validations:
+      required: true
+  - type: input
+    id: website
+    attributes:
+      label: Website
+      placeholder: https://example.com
+    validations:
+      required: true
+  - type: input
+    id: tagline
+    attributes:
+      label: Short description
+      description: Explain what the product does, in at most 240 characters.
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Full description
+      description: Describe the product, intended users and supporting evidence. Plain text only.
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Primary category
+      options:
+        - writing-content
+        - seo-marketing
+        - image-video
+        - code-development
+        - productivity
+        - business-analytics
+        - ecommerce-sales
+        - research-data
+    validations:
+      required: true
+  - type: input
+    id: subcategory
+    attributes:
+      label: Subcategory
+      description: Optional subcategory URL name from the directory. Leave blank if unsure.
+  - type: input
+    id: tags
+    attributes:
+      label: Tags
+      description: Comma-separated factual descriptors; at most 20.

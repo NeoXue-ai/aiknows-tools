@@ -1,0 +1,18 @@
+name: Correct an existing tool
+description: Suggest a factual correction to a published record.
+title: "[Correction] "
+labels: ["catalog:correction"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Tool record URL
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Requested correction
+      description: Include the incorrect field, corrected value and evidence URL. Editors apply accepted corrections through a content PR.
+    validations:
+      required: true
