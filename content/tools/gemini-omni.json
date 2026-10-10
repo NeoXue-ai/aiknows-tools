@@ -1,0 +1,18 @@
+{
+  "slug": "gemini-omni",
+  "name": "Gemini Omni",
+  "tagline": "Gemini Omni AI Video Generator — Google&#x27;s omni-modal model. Text, image, video, and audio in one prompt. Native audio, in-chat editing. Free.",
+  "description": "Gemini Omni AI Video Generator — Google&#x27;s omni-modal model. Text, image, video, and audio in one prompt. Native audio, in-chat editing. Free.",
+  "url": "https://gemini-omni.pro",
+  "logo_url": "https://www.google.com/s2/favicons?domain=gemini-omni.pro&sz=64",
+  "screenshot_url": "/screenshots/gemini-omni-4.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 14,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

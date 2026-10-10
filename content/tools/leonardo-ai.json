@@ -1,0 +1,21 @@
+{
+  "slug": "leonardo-ai",
+  "name": "Leonardo.AI",
+  "tagline": "Production-ready AI art",
+  "description": "Game assets, concept art, and design-ready images with fine-grained control.",
+  "url": "https://leonardo.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=leonardo.ai&sz=64",
+  "screenshot_url": "/screenshots/leonardo-ai.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "image",
+    "games"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-art-generator",
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

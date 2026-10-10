@@ -1,0 +1,21 @@
+{
+  "slug": "claude",
+  "name": "Claude",
+  "tagline": "AI assistant from Anthropic",
+  "description": "Helpful, harmless, honest assistant for writing, code, and analysis.",
+  "url": "https://claude.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=claude.ai&sz=64",
+  "screenshot_url": "/screenshots/claude.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "assistant",
+    "anthropic"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-assistant",
+  "is_featured": true,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

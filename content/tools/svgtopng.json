@@ -1,0 +1,18 @@
+{
+  "slug": "svgtopng",
+  "name": "SvgToPng",
+  "tagline": "Convert SVG files to PNG format instantly. Free, fast, and secure.",
+  "description": "Convert SVG files to PNG format instantly. Free, fast, and secure.",
+  "url": "https://svg-to-png.io/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=svg-to-png.io&sz=64",
+  "screenshot_url": "/screenshots/svgtopng.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 19,
+  "subcategory": "ai-graphic-design",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

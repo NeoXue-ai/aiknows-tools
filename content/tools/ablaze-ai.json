@@ -1,0 +1,18 @@
+{
+  "slug": "ablaze-ai",
+  "name": "Ablaze AI",
+  "tagline": "Transform your dating profile with AI-powered coaching",
+  "description": "Transform your dating profile with AI-powered coaching. Get profile analysis, photo generation, bio writing, and chat help to get more matches and dates.",
+  "url": "https://www.ablaze.dating",
+  "logo_url": "https://www.google.com/s2/favicons?domain=ablaze.dating&sz=64",
+  "screenshot_url": "/screenshots/ablaze-ai.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 26,
+  "subcategory": "ai-dating",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "mksaas",
+  "name": "MkSaaS",
+  "tagline": "The complete Next.js boilerplate for building profitable SaaS, packed with AI, auth, payments, i18n, newsletter, dashboard, blog, docs, blocks,…",
+  "description": "The complete Next.js boilerplate for building profitable SaaS, packed with AI, auth, payments, i18n, newsletter, dashboard, blog, docs, blocks, themes, SEO and more.",
+  "url": "https://mksaas.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=mksaas.com&sz=64",
+  "screenshot_url": "/screenshots/mksaas.webp",
+  "primary_category": "writing-content",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 66,
+  "subcategory": "ai-content-creator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "taplio",
+  "name": "Taplio",
+  "tagline": "AI LinkedIn growth tool",
+  "description": "Create content, schedule, and engage on LinkedIn with AI.",
+  "url": "https://taplio.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=taplio.com&sz=64",
+  "screenshot_url": "/screenshots/taplio.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "linkedin"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "social-media",
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

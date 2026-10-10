@@ -1,0 +1,18 @@
+{
+  "slug": "lyrics-to-song-2",
+  "name": "Lyrics to Song",
+  "tagline": "Lyrics to Song instantly transforms your words into professional music",
+  "description": "Lyrics to Song instantly transforms your words into professional music. Create custom songs with AI in 30 seconds—no musical skills needed. Try free today!",
+  "url": "https://lyricstosong.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=lyricstosong.app&sz=64",
+  "screenshot_url": "/screenshots/lyrics-to-song.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 31,
+  "subcategory": "ai-music-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

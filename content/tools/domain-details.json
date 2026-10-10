@@ -1,0 +1,18 @@
+{
+  "slug": "domain-details",
+  "name": "Domain Details",
+  "tagline": "Free, local-first domain research using modern RDAP protocol. Better than WHOIS with standardized data, enhanced security, and aftermarket insights.",
+  "description": "Free, local-first domain research using modern RDAP protocol. Better than WHOIS with standardized data, enhanced security, and aftermarket insights.",
+  "url": "https://domaindetails.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=domaindetails.com&sz=64",
+  "screenshot_url": "/screenshots/domain-details.webp",
+  "primary_category": "business-analytics",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 59,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

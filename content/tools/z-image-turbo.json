@@ -1,0 +1,18 @@
+{
+  "slug": "z-image-turbo",
+  "name": "Z-Image Turbo",
+  "tagline": "ShipAny is a NextJS boilerplate for building AI SaaS startups. Ship Fast with a variety of templates and components.",
+  "description": "ShipAny is a NextJS boilerplate for building AI SaaS startups. Ship Fast with a variety of templates and components.",
+  "url": "https://www.zimage-turbo.org/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=zimage-turbo.org&sz=64",
+  "screenshot_url": "/screenshots/z-image-turbo.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 21,
+  "subcategory": "boilerplates",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -34,7 +34,7 @@ export function ScrollReveal({ children, className, delay = 0, as: Tag = "div" }
   return (
     <Tag
       ref={ref}
-      className={cn(visible ? "animate-page-enter" : "opacity-0", className)}
+      className={cn(visible ? "animate-page-enter" : "", className)}
       style={{
         animationDuration: "500ms",
         animationFillMode: "both",

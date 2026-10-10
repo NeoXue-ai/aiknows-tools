@@ -1,0 +1,18 @@
+{
+  "slug": "freestartupdeals",
+  "name": "FreeStartupDeals",
+  "tagline": "Discover the best startup deals & tools Free startup credits, cloud deals, AI tools, SaaS discounts, and developer perks — all vetted for founders",
+  "description": "Discover the best startup deals & tools Free startup credits, cloud deals, AI tools, SaaS discounts, and developer perks — all vetted for founders. Updated regularly with offers from AWS, Google Cloud, Anthropic, Vercel, and more. We track the best free credits, discounts, and startup programs so you don't have to. Whether you need cloud hosting credits, AI API access, or productivity tools, every deal is verified and kept up to date.",
+  "url": "https://freestartupdeals.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=freestartupdeals.com&sz=64",
+  "screenshot_url": "/screenshots/freestartupdeals.webp",
+  "primary_category": "code-development",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 7,
+  "subcategory": "ai-text-api",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

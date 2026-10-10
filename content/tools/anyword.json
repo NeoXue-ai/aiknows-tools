@@ -1,0 +1,21 @@
+{
+  "slug": "anyword",
+  "name": "Anyword",
+  "tagline": "AI copy with predictive scores",
+  "description": "Copy generation with performance scoring and audience targeting for marketers.",
+  "url": "https://anyword.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=anyword.com&sz=64",
+  "screenshot_url": "/screenshots/anyword.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "copywriting",
+    "analytics"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": null,
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

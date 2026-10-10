@@ -1,0 +1,18 @@
+{
+  "slug": "invoicerapid",
+  "name": "InvoiceRapid",
+  "tagline": "InvoiceRapid is a specialized tax automation platform designed for SaaS and AI software businesses that process payments through Stripe",
+  "description": "InvoiceRapid is a specialized tax automation platform designed for SaaS and AI software businesses that process payments through Stripe. It simplifies the complexities of global expansion by automating EU VAT, UK VAT, and US Sales Tax calculations. By utilizing an AI-powered Tax Engine, the platform combines deterministic tax rules with human oversight to ensure compliance across different jurisdictions without requiring manual code implementation. Automated Tax Compliance and Monitoring The pla",
+  "url": "https://invoicerapid.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=invoicerapid.com&sz=64",
+  "screenshot_url": "/screenshots/invoicerapid.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 16,
+  "subcategory": "ai-workflow",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

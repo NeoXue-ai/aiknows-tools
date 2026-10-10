@@ -1,0 +1,18 @@
+{
+  "slug": "picdash",
+  "name": "PicDash",
+  "tagline": "Upload your photo, pick a scene, get studio-quality photos in 30 seconds. Perfect for your store, your feed, your ads — in scenes trending right now.",
+  "description": "Upload your photo, pick a scene, get studio-quality photos in 30 seconds. Perfect for your store, your feed, your ads — in scenes trending right now.",
+  "url": "https://picdash.co",
+  "logo_url": "https://www.google.com/s2/favicons?domain=picdash.co&sz=64",
+  "screenshot_url": "/screenshots/picdash.webp",
+  "primary_category": "seo-marketing",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 10,
+  "subcategory": "ai-ad-creative",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

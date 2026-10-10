@@ -1,0 +1,18 @@
+{
+  "slug": "growreddit",
+  "name": "GrowReddit",
+  "tagline": "Turn Reddit into a recommendation engine for LLMs and buyers",
+  "description": "Turn Reddit into a recommendation engine for LLMs and buyers. Expert Reddit marketing, organic growth, and LLM visibility for brands across multiple industries.",
+  "url": "https://growreddit.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=growreddit.com&sz=64",
+  "screenshot_url": "/screenshots/growreddit.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 13,
+  "subcategory": "ai-models",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

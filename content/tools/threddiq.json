@@ -1,0 +1,18 @@
+{
+  "slug": "threddiq",
+  "name": "ThreddIQ",
+  "tagline": "ThreddIQ uses AI to mine Reddit for urgent customer pain points, validating software ideas before you build.",
+  "description": "ThreddIQ uses AI to mine Reddit for urgent customer pain points, validating software ideas before you build.",
+  "url": "https://threddiq.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=threddiq.com&sz=64",
+  "screenshot_url": "/screenshots/threddiq.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 5,
+  "subcategory": "ai-dating",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

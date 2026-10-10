@@ -1,0 +1,18 @@
+{
+  "slug": "ccnavx",
+  "name": "CCNavX",
+  "tagline": "CCNavX is an AI API proxy provider directory for developers who want to find OpenRouter alternatives and lower-cost ways to access popular models…",
+  "description": "CCNavX is an AI API proxy provider directory for developers who want to find OpenRouter alternatives and lower-cost ways to access popular models when official APIs or subscription plans feel too expensive. The site organizes model coverage, pricing rules, payment methods, Base URLs, integration details, and verification notes for different AI API proxy / gateway providers, helping users compare options before connecting them to tools like Claude Code, Codex, and Cursor.",
+  "url": "https://ccnavx.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=ccnavx.com&sz=64",
+  "screenshot_url": "/screenshots/ccnavx.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 9,
+  "subcategory": "ai-models",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

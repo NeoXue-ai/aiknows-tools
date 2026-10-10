@@ -1,0 +1,18 @@
+{
+  "slug": "flux-3-ai-image-generator",
+  "name": "FLUX 3 AI Image Generator",
+  "tagline": "What it does FLUX 3 AI Image Generator is a browser-based multimodal workspace for creating and editing images with text prompts and visual…",
+  "description": "What it does FLUX 3 AI Image Generator is a browser-based multimodal workspace for creating and editing images with text prompts and visual references. It can use images, video, and audio context alongside written instructions so users can refine composition, style, details, and variants in one connected workflow. Key benefits - Generate new images or edit an existing reference - Combine text with visual and media context - Iterate on layout, styling, and fine details - Work in a browser without",
+  "url": "https://www-flux3.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=www-flux3.com&sz=64",
+  "screenshot_url": "/screenshots/flux-3-ai-image-generator.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "nourish",
+  "name": "Nourish",
+  "tagline": "Support hub for the Nourish nutrition tracking app: privacy policy, terms of use, and how to delete your account and data.",
+  "description": "Support hub for the Nourish nutrition tracking app: privacy policy, terms of use, and how to delete your account and data.",
+  "url": "https://nourish.carsonrodrigues.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=nourish.carsonrodrigues.com&sz=64",
+  "screenshot_url": "/screenshots/nourish.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 5,
+  "subcategory": "ai-food-nutrition",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

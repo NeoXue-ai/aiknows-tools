@@ -4,7 +4,7 @@ import {
   countSubs,
   getPublicCategories,
   getPublicTools,
-} from "@/lib/public-catalog";
+} from "@/features/catalog/server";
 import { subsForLegacy } from "@/lib/subcategories";
 import { siteUrl } from "@/lib/site";
 import Link from "next/link";
@@ -44,7 +44,6 @@ export default async function CategoriesIndexPage() {
   ];
 
   const totalRecords = ordered.reduce((sum, s) => sum + s.toolCount, 0);
-  const populatedCount = ordered.filter((s) => s.toolCount > 0).length;
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -68,24 +67,21 @@ export default async function CategoriesIndexPage() {
   };
 
   return (
-    <div className="container mx-auto max-w-4xl px-4 py-12 md:py-16">
+    <div className="mx-auto w-full max-w-[1200px] px-5 py-12 sm:px-8 md:py-16">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
       />
 
-      <header className="mb-12 border-b border-border pb-8">
-        <p className="font-mono text-[10px] uppercase tracking-[0.16em] text-accent">
-          Categories / {String(ordered.length).padStart(2, "0")} entries ·{" "}
-          {String(totalRecords).padStart(4, "0")} tool records ·{" "}
-          {String(populatedCount).padStart(2, "0")} populated
+      <header className="mb-12">
+        <p className="text-sm font-medium text-accent">
+          Explore by category
         </p>
-        <h1 className="mt-3 text-balance text-3xl font-semibold tracking-[-0.03em] sm:text-4xl">
-          Browse the index by category
+        <h1 className="mt-4 text-balance text-4xl font-semibold tracking-[-0.045em] sm:text-5xl">
+          Find your next useful tool.
         </h1>
-        <p className="mt-3 max-w-2xl text-pretty leading-7 text-muted-foreground">
-          {ordered.length} top-level categories in the public catalog, each broken into
-          sub-categories. Counts below are live tool counts from the current records.
+        <p className="mt-4 max-w-2xl text-pretty text-base leading-7 text-muted-foreground">
+          Explore {totalRecords.toLocaleString()} tools across {ordered.length} categories. Start with a category, then find the right tool for the task at hand.
         </p>
       </header>
 
@@ -96,14 +92,14 @@ export default async function CategoriesIndexPage() {
           href="/tools"
           className="inline-flex items-center gap-1.5 text-muted-foreground transition-colors hover:text-accent"
         >
-          Open the full tool index
+          Explore all tools
           <ArrowRight className="h-3.5 w-3.5" />
         </Link>
         <Link
           href="/collections"
           className="inline-flex items-center gap-1.5 text-muted-foreground transition-colors hover:text-accent"
         >
-          Numbered taxonomy routes
+          Browse collections
           <ArrowRight className="h-3.5 w-3.5" />
         </Link>
       </nav>

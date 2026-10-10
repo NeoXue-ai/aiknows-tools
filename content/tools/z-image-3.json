@@ -1,0 +1,18 @@
+{
+  "slug": "z-image-3",
+  "name": "Z-Image",
+  "tagline": "Create stunning AI-generated images for free with Z-Image",
+  "description": "Create stunning AI-generated images for free with Z-Image. Z-Image is a breakthrough open-source AI image generator from Alibaba Tongyi Lab that delivers commercial-grade quality without the commercial price tag. Built on the novel S3-DiT (Single-Stream Diffusion Transformer) architecture, Z-Image packs the visual fidelity of 20B+ parameter models like Midjourney and DALL-E 3 into just 6 billion parameters — making professional AI image generation accessible to everyone, on any consumer GPU. Wha",
+  "url": "https://zimage.design/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=zimage.design&sz=64",
+  "screenshot_url": "/screenshots/z-image-5.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 2.7,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

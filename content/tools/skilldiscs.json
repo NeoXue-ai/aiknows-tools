@@ -1,0 +1,18 @@
+{
+  "slug": "skilldiscs",
+  "name": "Skilldiscs",
+  "tagline": "[skilldiscs.com](https://skilldiscs.com/en/) **Turn any source into a visual knowledge graph, guided course and AI tutor.** SkillDiscs transforms…",
+  "description": "[skilldiscs.com](https://skilldiscs.com/en/) **Turn any source into a visual knowledge graph, guided course and AI tutor.** SkillDiscs transforms PDFs, research papers, books, YouTube videos, articles and GitHub repositories into connected, source-grounded learning experiences. Explore interactive knowledge graphs, personalized lessons and recall exercises, or ask questions through AI chat and voice. Highlight difficult passages, diagrams or formulas to receive instant explanations while keeping",
+  "url": "https://www.skilldiscs.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=skilldiscs.com&sz=64",
+  "screenshot_url": "/screenshots/skilldiscs.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-chatbot",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

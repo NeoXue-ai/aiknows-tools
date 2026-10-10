@@ -1,0 +1,77 @@
+{
+  "slug": "kidcue",
+  "name": "KidCue",
+  "tagline": "KidCue is a visual schedule for kids: real-object visual cues, gentle timers, and ADHD/autism-friendly pacing for calmer mornings, smoother bedtimes, and easier transitions.",
+  "description": "KidCue is a visual schedule app for kids built around real-object visual cues and gentle timers. Families use it to run calmer mornings, smoother bedtimes, and easier daily transitions — designed with ADHD and autism-friendly pacing in mind. Available in English and Chinese.",
+  "url": "https://www.kidcue.app",
+  "logo_url": "https://pub-459c6f6553344cc393826444731f5707.r2.dev/upload-1773304449563.png",
+  "screenshot_url": "/screenshots/kidcue.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 9,
+  "subcategory": "productivity-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null,
+  "editorial": {
+    "comparison": {
+      "eyebrow": "Editorial",
+      "heading": "How KidCue compares",
+      "paragraphs": [
+        "KidCue is an iPhone/iPad visual routine app built around real-object cues: parents photograph the actual objects in their child's routine (shoes, toothbrush, backpack), and the app shows what's now and next with gentle timers at transition points. Pricing is $9.99/month, $39.99/year, or $129.99 lifetime, with no ads and privacy-first handling of family photos. The design intent is explicit — predictable visuals and calm pacing for ADHD and autism-friendly mornings, bedtimes, and transitions.",
+        "The apps it gets compared with split into two camps. Tiimo is the mature cross-platform visual planner with a large template library and widget system — broader, but built around icons rather than your child's own objects. Time Timer is the classic countdown visualizer, excellent for time perception alone but with no routine sequence. Goally pairs a dedicated device with apps for neurodivergent kids at a much higher price point. KidCue's niche is the personal-photo approach: the cue is the child's own toothbrush, not a generic icon, which many parents report makes routines stick faster."
+      ],
+      "points": [
+        {
+          "label": "vs Tiimo",
+          "text": "Tiimo is cross-platform (iOS/Android/web) with rich templates and widgets, using icon-based visuals. KidCue is iOS-only but uses photos of your child's real objects — more personal, less setup-from-scratch."
+        },
+        {
+          "label": "vs Time Timer",
+          "text": "Time Timer visualizes elapsed time with its signature red disk — great for 'how long', silent on 'what's next'. KidCue covers both sequence and timing in one flow."
+        },
+        {
+          "label": "vs Goally",
+          "text": "Goally sells a dedicated kids' device plus apps (~$100+ hardware), aimed at neurodivergent kids. KidCue runs on hardware families already own, at a lower total cost."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "What is a visual schedule app for kids?",
+        "answer": "It shows routines as pictures instead of verbal instructions — what's happening now, what comes next — so kids can follow steps without a parent repeating them. Especially helpful for children with ADHD or autism, and for any child who struggles with transitions."
+      },
+      {
+        "question": "How much does KidCue cost?",
+        "answer": "US pricing: $9.99/month, $39.99/year, or $129.99 one-time lifetime access. Final prices vary by region in the App Store. No ads and no data sharing."
+      },
+      {
+        "question": "Is KidCue good for kids with ADHD or autism?",
+        "answer": "It's designed for that: real-object photo cues, gentle timers, and predictable daily flow are the standard structure recommended for neurodivergent kids' routines. Parent reviews on the site report fewer repeat commands and smoother transitions within the first week."
+      },
+      {
+        "question": "Is KidCue available on Android?",
+        "answer": "No — KidCue is currently iPhone and iPad only (App Store). Families on Android may want to look at Tiimo, which covers both platforms."
+      }
+    ],
+    "externalLinks": [
+      {
+        "label": "CHADD",
+        "url": "https://chadd.org",
+        "context": "the national ADHD resource center, for evidence on visual routines"
+      },
+      {
+        "label": "ADDitude",
+        "url": "https://www.additudemag.com",
+        "context": "expert guidance on ADHD routines, mornings, and transitions"
+      },
+      {
+        "label": "Tiimo",
+        "url": "https://www.tiimoapp.com",
+        "context": "the leading cross-platform visual planner, KidCue's closest alternative"
+      }
+    ]
+  }
+}

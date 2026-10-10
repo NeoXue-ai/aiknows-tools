@@ -1,0 +1,18 @@
+{
+  "slug": "bird-identifier-by-picture",
+  "name": "Bird Identifier by Picture",
+  "tagline": "Upload a photo to instantly identify bird species with AI-powered recognition,identify bird from photo online.Get detailed information about habitat,…",
+  "description": "Upload a photo to instantly identify bird species with AI-powered recognition,identify bird from photo online.Get detailed information about habitat, behavior, and bird calls.",
+  "url": "https://birdfinder.app/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=birdfinder.app&sz=64",
+  "screenshot_url": "/screenshots/bird-identifier-by-picture.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 8,
+  "subcategory": "productivity-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

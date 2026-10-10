@@ -1,0 +1,18 @@
+{
+  "slug": "realtime-blue",
+  "name": "Realtime Blue",
+  "tagline": "Get your realtime Bluesky metrics",
+  "description": "Get your realtime Bluesky metrics",
+  "url": "https://realtime.blue",
+  "logo_url": "https://www.google.com/s2/favicons?domain=realtime.blue&sz=64",
+  "screenshot_url": "/screenshots/realtime-blue.webp",
+  "primary_category": "seo-marketing",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 22,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

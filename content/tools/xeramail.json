@@ -1,0 +1,18 @@
+{
+  "slug": "xeramail",
+  "name": "Xeramail",
+  "tagline": "Xeramail gives you a working temporary email inbox in seconds",
+  "description": "Xeramail gives you a working temporary email inbox in seconds. No registration, no personal information, no account to create. You get an address, you use it, and it self-destructs. How it works 1. **Generate an address**: random or custom name, pick your domain 2. **Use it anywhere**: sign-ups, free trials, Wi-Fi portals, verifications 3. **Read your mail**: messages arrive in real-time, everything deletes itself Features - **Custom email names**: pick your own name (e.g. `myproject@xeramail.co",
+  "url": "https://xeramail.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=xeramail.com&sz=64",
+  "screenshot_url": "/screenshots/xeramail.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 15,
+  "subcategory": "email",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

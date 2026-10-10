@@ -1,0 +1,18 @@
+{
+  "slug": "wan-30",
+  "name": "Wan 3.0",
+  "tagline": "Wan 3.0 is a professional-grade AI video generator designed to transform text prompts and static images into cinematic video clips directly within…",
+  "description": "Wan 3.0 is a professional-grade AI video generator designed to transform text prompts and static images into cinematic video clips directly within your browser. The platform utilizes advanced multimodal referencing, allowing users to anchor their shots to specific photos, product images, or reference clips to maintain composition and depth. By integrating multiple top-tier AI models into a single workflow, it provides a streamlined environment for high-quality video production. Advanced Cinemati",
+  "url": "https://wan3.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=wan3.io&sz=64",
+  "screenshot_url": "/screenshots/wan-3-0.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

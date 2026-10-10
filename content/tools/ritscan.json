@@ -1,0 +1,18 @@
+{
+  "slug": "ritscan",
+  "name": "Ritscan",
+  "tagline": "Vergeet handmatige ritadministratie. Start met automatisch registreren.",
+  "description": "Vergeet handmatige ritadministratie. Start met automatisch registreren.",
+  "url": "https://ritscan.nl",
+  "logo_url": "https://pub-459c6f6553344cc393826444731f5707.r2.dev/upload-1769107262402.jpg",
+  "screenshot_url": "/screenshots/ritscan.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": "https://findly.tools",
+  "dr": 18,
+  "subcategory": null,
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

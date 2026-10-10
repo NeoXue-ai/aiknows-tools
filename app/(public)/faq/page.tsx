@@ -22,7 +22,7 @@ const FAQS: Faq[] = [
   {
     question: "How do I submit a tool or directory?",
     answer:
-      "Use the submission form at /submit. The minimum viable record is a name, URL, and primary category. Submissions enter a review queue and are published once they pass basic validity checks.",
+      "Visit /submit for the current submission channel. Include a name, official URL, category, and product description. Editors review the details before publishing.",
   },
   {
     question: "Is aiknows.tools free to use?",
@@ -37,7 +37,7 @@ const FAQS: Faq[] = [
   {
     question: "How often is the directory updated?",
     answer:
-      "Recheck cadence varies by tool. New submissions are reviewed within a few days. Editor-imported batches run on a separate cadence. Each dossier shows the most recent recheck.",
+      "Review cadence varies by tool. Suggest a correction through /submit if a record has changed. Publication dates and verification flags appear only when they are recorded; an empty field does not imply a recent review.",
   },
   {
     question: "Can I edit my tool's record after submission?",
@@ -75,15 +75,15 @@ export const metadata = pageMetadata({
 
 export default function FaqPage() {
   return (
-    <div className="container mx-auto max-w-3xl px-4 py-12 md:py-16">
+    <div className="mx-auto w-full max-w-[768px] px-5 py-12 sm:px-8 md:py-16">
       {/* Audit P5: Google retired FAQPage rich snippets in 2026 — emitting
           FAQPage JSON-LD is now wasted signal. The on-page Q&A list stays
           for users; we just stop marking it up. */}
-      <header className="mb-10 border-b border-border pb-6">
-        <p className="font-mono text-[10px] uppercase tracking-[0.16em] text-muted-foreground">
+      <header className="mb-10">
+        <p className="text-sm font-medium text-accent">
           Frequently asked questions
         </p>
-        <h1 className="mt-3 text-balance text-3xl font-semibold tracking-[-0.03em] sm:text-4xl">
+        <h1 className="mt-3 text-balance text-4xl font-semibold tracking-[-0.045em] sm:text-5xl">
           Frequently Asked Questions
         </h1>
         <p className="mt-3 text-pretty leading-7 text-muted-foreground">
@@ -91,12 +91,12 @@ export default function FaqPage() {
         </p>
       </header>
 
-      <ol className="border-y border-border">
+      <ol className="overflow-hidden rounded-2xl border border-border bg-card px-5 sm:px-7">
         {FAQS.map((item, i) => (
           <li key={item.question} className="border-b border-border last:border-b-0">
             <details className="group/item [&_summary::-webkit-details-marker]:hidden">
-              <summary className="flex cursor-pointer list-none items-center gap-6 py-5">
-                <span className="w-8 shrink-0 font-serif text-[18px] italic leading-none tabular-nums text-muted-foreground transition-colors group-hover/item:text-foreground group-open/item:text-foreground">
+              <summary className="flex cursor-pointer list-none items-center gap-4 py-5">
+                <span className="w-6 shrink-0 text-xs leading-none tabular-nums text-muted-foreground transition-colors group-hover/item:text-foreground group-open/item:text-foreground">
                   {String(i + 1).padStart(2, "0")}
                 </span>
                 <span className="flex-1 text-[15px] font-medium text-foreground transition-colors group-hover/item:text-accent">
@@ -104,12 +104,12 @@ export default function FaqPage() {
                 </span>
                 <span
                   aria-hidden
-                  className="font-mono text-lg leading-none text-muted-foreground transition-transform group-open/item:rotate-45"
+                  className="text-lg leading-none text-muted-foreground transition-transform group-open/item:rotate-45"
                 >
                   +
                 </span>
               </summary>
-              <p className="pb-5 pl-14 pr-10 text-sm leading-6 text-muted-foreground">
+              <p className="pb-5 pl-10 pr-5 text-sm leading-6 text-muted-foreground">
                 {item.answer}
               </p>
             </details>
@@ -118,7 +118,7 @@ export default function FaqPage() {
       </ol>
 
       <section className="mt-12 border-t border-border pt-8">
-        <p className="font-mono text-[10px] uppercase tracking-[0.14em] text-accent">
+        <p className="text-sm font-medium text-accent">
           Still have a question?
         </p>
         <h2 className="mt-3 text-2xl font-semibold tracking-[-0.025em]">

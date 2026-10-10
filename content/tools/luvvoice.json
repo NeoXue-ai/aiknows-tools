@@ -1,0 +1,18 @@
+{
+  "slug": "luvvoice",
+  "name": "luvvoice",
+  "tagline": "Free text to speech voices over 70 languages and 200 voices,no word limit. Listen online and download files in mp3 format.A free tts tool.",
+  "description": "Free text to speech voices over 70 languages and 200 voices,no word limit. Listen online and download files in mp3 format.A free tts tool.",
+  "url": "https://luvvoice.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=luvvoice.com&sz=64",
+  "screenshot_url": "/screenshots/luvvoice.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 47,
+  "subcategory": "text-to-speech-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

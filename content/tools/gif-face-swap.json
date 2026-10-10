@@ -1,0 +1,18 @@
+{
+  "slug": "gif-face-swap",
+  "name": "gif face swap",
+  "tagline": "Upload a GIF and one clear face photo to create an AI GIF face swap online.",
+  "description": "Upload a GIF and one clear face photo to create an AI GIF face swap online.",
+  "url": "https://giffaceswap.org/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=giffaceswap.org&sz=64",
+  "screenshot_url": "/screenshots/gif-face-swap.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-photo-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

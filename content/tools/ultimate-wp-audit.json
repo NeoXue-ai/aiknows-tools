@@ -1,0 +1,18 @@
+{
+  "slug": "ultimate-wp-audit",
+  "name": "Ultimate WP Audit",
+  "tagline": "Professional WordPress site auditing service. Analyze security, performance, SEO, and more.",
+  "description": "Professional WordPress site auditing service. Analyze security, performance, SEO, and more.",
+  "url": "https://wpaudit.cc/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=wpaudit.cc&sz=64",
+  "screenshot_url": "/screenshots/ultimate-wp-audit.webp",
+  "primary_category": "seo-marketing",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 3.9,
+  "subcategory": "ai-seo-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

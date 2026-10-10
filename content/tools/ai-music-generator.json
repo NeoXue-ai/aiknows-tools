@@ -1,0 +1,18 @@
+{
+  "slug": "ai-music-generator",
+  "name": "AI Music Generator",
+  "tagline": "Free AI music generator with vocals - create professional music from text in seconds",
+  "description": "Free AI music generator with vocals - create professional music from text in seconds. Generate songs with AI vocals, download unlimited tracks. Better alternative to Suno AI. No credit card required!",
+  "url": "https://aimusicgen.me/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=aimusicgen.me&sz=64",
+  "screenshot_url": "/screenshots/ai-music-generator.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 19,
+  "subcategory": "ai-music-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

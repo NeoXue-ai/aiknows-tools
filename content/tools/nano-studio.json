@@ -1,0 +1,18 @@
+{
+  "slug": "nano-studio",
+  "name": "Nano Studio",
+  "tagline": "Nano banana 2 is a powerful AI image generator",
+  "description": "Nano banana 2 is a powerful AI image generator. Simply describe what you want, and create stunning AI artwork in seconds. Free to try, no skills required.",
+  "url": "https://gempix2.us/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=gempix2.us&sz=64",
+  "screenshot_url": "/screenshots/nano-studio.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 11,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

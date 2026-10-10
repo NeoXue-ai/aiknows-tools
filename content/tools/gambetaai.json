@@ -1,0 +1,18 @@
+{
+  "slug": "gambetaai",
+  "name": "Gambeta.ai",
+  "tagline": "🤖 Pronósticos deportivos con IA gratis: fútbol, tenis, béisbol y básquet",
+  "description": "🤖 Pronósticos deportivos con IA gratis: fútbol, tenis, béisbol y básquet. +38 ligas, historial público verificable y cada pick publicado antes del partido.",
+  "url": "https://gambeta.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=gambeta.ai&sz=64",
+  "screenshot_url": "/screenshots/gambeta-ai.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": null,
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

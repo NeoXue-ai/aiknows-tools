@@ -1,0 +1,18 @@
+{
+  "slug": "duct-tape-ai-image-generator",
+  "name": "Duct Tape AI Image Generator",
+  "tagline": "Duct Tape AI Image Generator is a free online AI image tool powered by OpenAI&#x27;s duct tape model",
+  "description": "Duct Tape AI Image Generator is a free online AI image tool powered by OpenAI&#x27;s duct tape model. Create photorealistic images from text prompts. Try free, no signup.",
+  "url": "https://ducttapeai.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=ducttapeai.org&sz=64",
+  "screenshot_url": "/screenshots/duct-tape-ai-image-generator.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 3.2,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

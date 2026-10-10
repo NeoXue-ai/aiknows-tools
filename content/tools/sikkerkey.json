@@ -1,0 +1,18 @@
+{
+  "slug": "sikkerkey",
+  "name": "SikkerKey",
+  "tagline": "SikkerKey is a specialized secrets management platform designed to secure how code builds, ships, and runs across various environments",
+  "description": "SikkerKey is a specialized secrets management platform designed to secure how code builds, ships, and runs across various environments. By utilizing Ed25519 machine authentication, the platform eliminates the need for traditional tokens or agents, relying instead on cryptographic signatures to verify identity. This approach ensures that sensitive credentials remain protected through envelope encryption and granular, per-secret access grants. Secure Machine Authentication and Access The platform ",
+  "url": "https://sikkerkey.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=sikkerkey.com&sz=64",
+  "screenshot_url": "/screenshots/sikkerkey.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 23,
+  "subcategory": "ai-document-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

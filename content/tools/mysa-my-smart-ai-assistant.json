@@ -1,0 +1,18 @@
+{
+  "slug": "mysa-my-smart-ai-assistant",
+  "name": "MySA : My Smart AI Assistant",
+  "tagline": "My Smart Assistant",
+  "description": "My Smart Assistant",
+  "url": "https://mysmartassistant.ai/our-partner-directories",
+  "logo_url": "https://www.google.com/s2/favicons?domain=mysmartassistant.ai&sz=64",
+  "screenshot_url": "/screenshots/mysa-my-smart-ai-assistant.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 9,
+  "subcategory": "ai-assistant",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

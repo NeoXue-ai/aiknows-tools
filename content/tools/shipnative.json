@@ -1,0 +1,18 @@
+{
+  "slug": "shipnative",
+  "name": "Shipnative",
+  "tagline": "Shipnative — A production-ready React Native + Expo boilerplate that lets developers launch cross-platform mobile apps faster with minimal setup",
+  "description": "Shipnative — A production-ready React Native + Expo boilerplate that lets developers launch cross-platform mobile apps faster with minimal setup. It ships with pre-wired essentials like authentication, payments, analytics, error tracking, push notifications, internationalisation, theming and responsive UI components, so you can focus on building your unique features instead of repetitive configuration. Shipnative supports iOS, Android and Web from a single TypeScript codebase and includes mock m",
+  "url": "https://shipnative.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=shipnative.app&sz=64",
+  "screenshot_url": "/screenshots/shipnative.webp",
+  "primary_category": "seo-marketing",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 3,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

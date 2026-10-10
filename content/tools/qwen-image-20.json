@@ -1,0 +1,18 @@
+{
+  "slug": "qwen-image-20",
+  "name": "Qwen Image 2.0",
+  "tagline": "Generate stunning AI images for free with Qwen Image 2.0",
+  "description": "Generate stunning AI images for free with Qwen Image 2.0. Professional AI image generator with advanced text rendering, multilingual support & Qwen Image Edit.",
+  "url": "https://qwenimage2.run",
+  "logo_url": "https://www.google.com/s2/favicons?domain=qwenimage2.run&sz=64",
+  "screenshot_url": "/screenshots/qwen-image-2-0.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 8,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

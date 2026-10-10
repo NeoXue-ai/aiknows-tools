@@ -1,0 +1,18 @@
+{
+  "slug": "happyhorse-ai-2",
+  "name": "HappyHorse AI",
+  "tagline": "HappyHorse AI is a free AI video generation platform that lets anyone create stunning cinematic videos from text descriptions or images — no…",
+  "description": "HappyHorse AI is a free AI video generation platform that lets anyone create stunning cinematic videos from text descriptions or images — no technical skills required. Powered by the HappyHorse 1.0 model (15B parameters), the generator delivers 1080p HD video in approximately 38 seconds, with fluid motion synthesis, synchronized audio, and multi-shot storytelling capabilities. Whether you're animating a product photo, generating a social media clip from a written prompt, or producing short-form ",
+  "url": "https://happyaihorse.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=happyaihorse.com&sz=64",
+  "screenshot_url": "/screenshots/happyhorse-ai-3.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 22,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

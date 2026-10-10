@@ -1,0 +1,18 @@
+{
+  "slug": "seedance-2",
+  "name": "Seedance 2",
+  "tagline": "Seedance 2: Professional AI video generator with text-to-video, image-to-video, native audio generation, and 1080p cinematic output",
+  "description": "Seedance 2: Professional AI video generator with text-to-video, image-to-video, native audio generation, and 1080p cinematic output. Create stunning AI videos in seconds.",
+  "url": "https://seedance2ai.video/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=seedance2ai.video&sz=64",
+  "screenshot_url": "/screenshots/seedance-2-1.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 13,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

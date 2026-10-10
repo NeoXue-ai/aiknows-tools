@@ -1,0 +1,18 @@
+{
+  "slug": "ltx-23-ai-video-generator",
+  "name": "LTX 2.3 AI Video Generator",
+  "tagline": "Generate high-fidelity videos with synchronized audio using LTX 2.3 — up to 4K resolution, 50 FPS, and native portrait support",
+  "description": "Generate high-fidelity videos with synchronized audio using LTX 2.3 — up to 4K resolution, 50 FPS, and native portrait support. No downloads, no GPU required.",
+  "url": "https://ltx23.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=ltx23.org&sz=64",
+  "screenshot_url": "/screenshots/ltx-2-3-ai-video-generator.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 30,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

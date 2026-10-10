@@ -1,0 +1,18 @@
+{
+  "slug": "ai-3d-model-generator",
+  "name": "AI 3D Model Generator",
+  "tagline": "Generate AI 3D models from text or images using Hunyuan 3D and Seed3D. Free online AI 3D model generator — no 3D skills needed, export GLB instantly.",
+  "description": "Generate AI 3D models from text or images using Hunyuan 3D and Seed3D. Free online AI 3D model generator — no 3D skills needed, export GLB instantly.",
+  "url": "https://www.ai-3d.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=ai-3d.org&sz=64",
+  "screenshot_url": "/screenshots/ai-3d-model-generator.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 6,
+  "subcategory": "ai-3d-model-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

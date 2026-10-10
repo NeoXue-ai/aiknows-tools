@@ -1,0 +1,18 @@
+{
+  "slug": "omni-flash",
+  "name": "Omni Flash",
+  "tagline": "Omni Flash is a free online AI video generator that transforms text and images into polished short videos in seconds",
+  "description": "Omni Flash is a free online AI video generator that transforms text and images into polished short videos in seconds. Powered by Google AI, it supports text-to-video and image-to-video creation with reference image and clip uploads — all directly in your browser, no downloads needed. Export in 16:9 or 9:16 for any platform, from product demos and ads to social media shorts. New users get free credits, with flexible pay-as-you-go pricing and no mandatory subscription.",
+  "url": "https://omniflash.net/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=omniflash.net&sz=64",
+  "screenshot_url": "/screenshots/omni-flash-2.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 11,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

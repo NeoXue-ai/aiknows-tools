@@ -1,0 +1,18 @@
+{
+  "slug": "seed-audio",
+  "name": "Seed Audio",
+  "tagline": "What it does Seed Audio is an AI text to speech and voice generator powered by ByteDance Seed Speech models",
+  "description": "What it does Seed Audio is an AI text to speech and voice generator powered by ByteDance Seed Speech models. Seed Audio turns any script into natural, expressive speech and clones a consented voice from seconds of audio. Key benefits - Realistic text to speech with human-like emotion, emphasis, and pacing - Instant voice cloning from a short, consented audio sample - 300+ lifelike voices across dozens of languages and accents - Voice design controls for emotion, speed, and tone - Low-latency dev",
+  "url": "https://seed-audio.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=seed-audio.com&sz=64",
+  "screenshot_url": "/screenshots/seed-audio.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 29,
+  "subcategory": "ai-voice-cloning",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

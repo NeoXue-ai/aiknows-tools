@@ -1,0 +1,18 @@
+{
+  "slug": "noden",
+  "name": "Noden",
+  "tagline": "One native Mac app for your servers and your Windows machines: multi-session SSH terminal, dual-pane SFTP commander, RDP remote desktop and an AI…",
+  "description": "One native Mac app for your servers and your Windows machines: multi-session SSH terminal, dual-pane SFTP commander, RDP remote desktop and an AI that writes the commands.",
+  "url": "https://noden.useroamteknoloji.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=noden.useroamteknoloji.com&sz=64",
+  "screenshot_url": "/screenshots/noden.webp",
+  "primary_category": "code-development",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

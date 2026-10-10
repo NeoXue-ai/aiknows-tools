@@ -1,0 +1,18 @@
+{
+  "slug": "nano-banana-pro-image",
+  "name": "Nano Banana Pro Image",
+  "tagline": "Experience Google's Gemini 3 Pro Image architecture for advanced image editing",
+  "description": "Experience Google's Gemini 3 Pro Image architecture for advanced image editing. Transform visuals with natural language instructions, semantic understanding, and studio-quality output.",
+  "url": "https://nanobananaproimage.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=nanobananaproimage.com&sz=64",
+  "screenshot_url": "/screenshots/nano-banana-pro-image.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 15,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

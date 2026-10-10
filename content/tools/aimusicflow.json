@@ -1,0 +1,18 @@
+{
+  "slug": "aimusicflow",
+  "name": "AIMusicFlow",
+  "tagline": "Create royalty-free songs with AIMusicFlow from text or lyrics, then move through one connected AI music workflow for vocals, stems, mastering, and…",
+  "description": "Create royalty-free songs with AIMusicFlow from text or lyrics, then move through one connected AI music workflow for vocals, stems, mastering, and video.",
+  "url": "https://aimusicflow.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=aimusicflow.com&sz=64",
+  "screenshot_url": "/screenshots/aimusicflow.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-music-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

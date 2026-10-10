@@ -1,0 +1,18 @@
+{
+  "slug": "deepverify-ai-fact-checker-for-youtube",
+  "name": "DeepVerify - AI Fact Checker for YouTube",
+  "tagline": "Real-Time AI Fact-Checking DeepVerify is a specialized Chrome extension designed to detect and verify claims across various digital formats including…",
+  "description": "Real-Time AI Fact-Checking DeepVerify is a specialized Chrome extension designed to detect and verify claims across various digital formats including YouTube videos, web articles, and live audio. By utilizing a Knowledge Graph verification engine, the tool aims to eliminate AI hallucinations and provide users with immediate clarity on the information they consume. Instant Verdicts and Cited Sources The extension operates in real time, offering verdicts such as true, false, or uncertain alongside",
+  "url": "https://deepverify.ai/?utm_medium=affiliate&utm_campaign=deepverify_install_202608",
+  "logo_url": "https://www.google.com/s2/favicons?domain=deepverify.ai&sz=64",
+  "screenshot_url": "/screenshots/deepverify-ai-fact-checker-for-youtube.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "chrome-extensions",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

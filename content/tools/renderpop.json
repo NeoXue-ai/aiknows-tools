@@ -1,0 +1,18 @@
+{
+  "slug": "renderpop",
+  "name": "renderpop",
+  "tagline": "Free AI image generator with no sign-up for Fast mode. Create from a prompt or photo, then make AI videos in one workspace.",
+  "description": "Free AI image generator with no sign-up for Fast mode. Create from a prompt or photo, then make AI videos in one workspace.",
+  "url": "https://www.renderpop.app/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=renderpop.app&sz=64",
+  "screenshot_url": "/screenshots/renderpop.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

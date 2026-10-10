@@ -1,0 +1,18 @@
+{
+  "slug": "wysera",
+  "name": "Wysera",
+  "tagline": "One AI assistant that posts to your social, answers your leads, and follows up with clients",
+  "description": "One AI assistant that posts to your social, answers your leads, and follows up with clients. You approve before anything ships. Built for solo med spas, CPAs, and insurance agents.",
+  "url": "https://wysera.ai/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=wysera.ai&sz=64",
+  "screenshot_url": "/screenshots/wysera.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 37,
+  "subcategory": "ai-assistant",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

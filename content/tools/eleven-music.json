@@ -1,0 +1,18 @@
+{
+  "slug": "eleven-music",
+  "name": "Eleven Music",
+  "tagline": "Create unique, royalty-free music with our advanced AI music generator. Transform text prompts into professional-quality songs instantly.",
+  "description": "Create unique, royalty-free music with our advanced AI music generator. Transform text prompts into professional-quality songs instantly.",
+  "url": "https://elevenmusic.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=elevenmusic.ai&sz=64",
+  "screenshot_url": "/screenshots/eleven-music.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 32,
+  "subcategory": "ai-music-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

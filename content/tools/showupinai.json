@@ -1,0 +1,18 @@
+{
+  "slug": "showupinai",
+  "name": "ShowUpInAI",
+  "tagline": "ShowUpInAI crawls your site daily and instantly submits changed pages so AI assistants can find them sooner. Start your 3-day free trial.",
+  "description": "ShowUpInAI crawls your site daily and instantly submits changed pages so AI assistants can find them sooner. Start your 3-day free trial.",
+  "url": "https://showupinai.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=showupinai.com&sz=64",
+  "screenshot_url": "/screenshots/showupinai.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 40,
+  "subcategory": "ai-assistant",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

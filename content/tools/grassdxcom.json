@@ -1,0 +1,18 @@
+{
+  "slug": "grassdxcom",
+  "name": "GrassDx.com",
+  "tagline": "GrassDx is a free AI lawn diagnosis tool built by a veterinarian",
+  "description": "GrassDx is a free AI lawn diagnosis tool built by a veterinarian. Upload 1–4 photos of your lawn, enter your ZIP code, and get an instant diagnosis with a treatment plan localized to your grass type, climate zone, and current season. Unlike generic lawn care advice, GrassDx knows the difference between brown patch fungus in Houston in August and the same-looking problem in Seattle in May, because the cause and treatment are completely different. Free. No account required. Works on any phone. Ide",
+  "url": "https://www.grassdx.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=grassdx.com&sz=64",
+  "screenshot_url": "/screenshots/grassdx-com.webp",
+  "primary_category": "code-development",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 6,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

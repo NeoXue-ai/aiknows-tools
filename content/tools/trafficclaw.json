@@ -1,0 +1,18 @@
+{
+  "slug": "trafficclaw",
+  "name": "TrafficClaw",
+  "tagline": "Monitor your Google Analytics & Search Console data, get AI-powered SEO insights, traffic drop alerts, and automated fixes.",
+  "description": "Monitor your Google Analytics & Search Console data, get AI-powered SEO insights, traffic drop alerts, and automated fixes.",
+  "url": "https://trafficclaw.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=trafficclaw.com&sz=64",
+  "screenshot_url": "/screenshots/trafficclaw.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 23,
+  "subcategory": "monitoring",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

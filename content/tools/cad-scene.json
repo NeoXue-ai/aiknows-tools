@@ -1,0 +1,18 @@
+{
+  "slug": "cad-scene",
+  "name": "CAD Scene",
+  "tagline": "CAD Scene is a professional architecture AI rendering software designed to bridge the gap between technical 3D models and client-ready visuals",
+  "description": "CAD Scene is a professional architecture AI rendering software designed to bridge the gap between technical 3D models and client-ready visuals. Built by architects for architects, the platform addresses the common bottleneck of long rendering times that often consume project deadlines. It allows design studios to transform prompts, sketches, and 3D model views into photorealistic images in a fraction of the time required by traditional software. Streamlined Visualization Workflow The tool simpli",
+  "url": "https://cadscene.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=cadscene.com&sz=64",
+  "screenshot_url": "/screenshots/cad-scene.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-3d-model-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

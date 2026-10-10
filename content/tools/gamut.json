@@ -1,0 +1,18 @@
+{
+  "slug": "gamut",
+  "name": "Gamut",
+  "tagline": "Gamut lets you build a team of specialized AI agents — not one generalist, but specialists, each with its own memory, skills, connected accounts, and…",
+  "description": "Gamut lets you build a team of specialized AI agents — not one generalist, but specialists, each with its own memory, skills, connected accounts, and permissions, purpose-built for one job. Agents work autonomously inside isolated containers: writing and running code, using your browser, calling APIs and MCP tools, and building custom interfaces when chat isn't enough. They remember context across sessions, run on schedules or triggers, hand off to one another, and reach you in Slack, Telegram, ",
+  "url": "https://gamut.so",
+  "logo_url": "https://www.google.com/s2/favicons?domain=gamut.so&sz=64",
+  "screenshot_url": "/screenshots/gamut.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 32,
+  "subcategory": "ai-agent",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

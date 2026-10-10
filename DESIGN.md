@@ -1,144 +1,182 @@
-# AIknows Design System
+# AIknows 前端设计规范
 
-## Product direction
+> 2026-10-10 · Quiet Discovery / 安静地发现
+>
+> 本文完整替换此前的设计方案。当前规范以新的产品结构、视觉语言和已实现组件为准。
 
-**Evidence-led Editorial Atlas — Map Legend**
+## 1. 产品与设计目标
 
-AIknows is a calm, independent index for people choosing AI software. It should feel like a trustworthy map of an evolving landscape: editorial in voice, structured in layout, and explicit about what is known, inferred, or missing.
+AIknows 是面向创作者、开发者和日常工作者的 AI 工具发现目录。访问者首先应理解「这里能找到什么」，随后通过搜索、用途入口或分类找到合适的工具，再进入详情或访问工具官网。
 
-The intended lasting impression is: **“这是我能相信的 AI 工具地图。”**
+设计关键词：简洁、温和、清晰、克制、有品质。高级感来自排版、空间、比例和真实内容。
 
-Do not position the product as a launch feed, a generic marketplace, or a user-review platform.
+网站界面继续使用英文，设计说明使用中文。数据、认证、提交接口与既有公开 URL 保留；视觉与信息层级重新建立。
 
-## Principles
+## 2. 视觉方向
 
-1. **Evidence over assertion.** Never imply a tool is human-reviewed, verified, popular, or recommended unless the displayed record supports it.
-2. **Show information gaps.** Missing verification, category, or editorial fields are product facts, not UI defects to hide.
-3. **Editorial entry, analytical depth.** Landing and collection pages set a clear point of view; tools and directories make comparison fast.
-4. **Calm density.** Prefer an orderly index, tables, dossiers, and concise metadata over decorative card walls.
-5. **Functional motion only.** Animation must clarify interaction or state change, not become ambient decoration.
+采用暖白底色、墨色正文与植物绿强调色。白色工具卡片形成轻量层次，细边框帮助识别区域。大量留白使页面有呼吸感，同时保持目录可扫描。
 
-## Visual language
+首页以清晰的无衬线第一行标题配合绿色斜体衬线第二行，表达「Less searching. More creating.」。正文、导航、筛选器和元信息统一使用无衬线字体。
 
-### Composition
+不使用大面积渐变、光晕、发光描边、持续漂浮动画、伪科技网格、装饰性数据仪表盘。截图负责展示产品本身，不用装饰图片替代产品预览。
 
-- Use an asymmetric editorial homepage: a left-aligned thesis and search entry, with a right-hand column of factual index records.
-- Treat routes, collections, pages, and metadata like a map: route numbers, coordinate-like labels, hairline dividers, and clear hierarchy.
-- Use cards only when they establish a meaningful bounded record. Prefer list rows and tables for comparison-heavy information.
-- Keep the experience spacious, but allow dense evidence blocks and result lists where scan speed matters.
+## 3. 颜色与语义变量
 
-### Surfaces and colour
+所有主题色由 `app/globals.css` 定义；组件使用语义变量。
 
-Use semantic tokens from `app/globals.css` rather than hardcoded colours in product components. The intended palette is:
+| 用途 | 浅色 | 深色 | 变量 |
+| --- | --- | --- | --- |
+| 页面背景 | `#FAF9F6` | `#161C18` | `background` |
+| 主要文字 | `#202722` | `#EFF1E9` | `foreground` |
+| 卡片 / 浮层 | `#FFFFFF` | `#1E2721` | `card` / `popover` |
+| 主按钮 / 强调色 | `#2E5846` | `#BDD6BE` | `primary` / `accent` |
+| 主按钮文字 | `#FFFFFF` | `#19271D` | `primary-foreground` / `accent-foreground` |
+| 次级表面 | `#EEEFEA` | `#28332B` | `secondary` |
+| 中性表面 | `#F0F1EB` | `#242E27` | `muted` |
+| 次级文字 | `#6B736C` | `#A5B0A3` | `muted-foreground` |
+| 浅绿强调面 | `#EAF0E8` | `#283A2C` | `emphasis` |
+| 边框 | `#E3E6DF` | `#354038` | `border` |
+| 输入边框 | `#D9DED5` | `#465248` | `input` |
+| 键盘焦点 | `#6D9179` | `#99B39C` | `ring` |
+| 错误状态 | `#B43C35` | `#F39B8F` | `destructive` |
 
-| Role | Light | Dark |
-| --- | --- | --- |
-| Canvas | `#F6F7F9` | `#0B1018` |
-| Surface | `#FFFFFF` | `#121A26` |
-| Ink | `#101725` | `#EDF2F7` |
-| Muted text | `#667085` | `#8B96A7` |
-| Active/link blue | `#2578F8` | `#2578F8` |
-| Soft blue emphasis | `#E8F0FF` | `#1C3F78` |
-| Confirmed data | green, reserved for factual positive states | green, reserved for factual positive states |
-| Warning/missing | ochre, reserved for incomplete or pending data | ochre, reserved for incomplete or pending data |
+默认浅色，用户可手动切换深色并保留选择。页面不自动追随系统主题。主按钮必须成对使用背景与前景变量，不能在深色浅绿背景上写死白字。
 
-- Blue is the navigational and active-state colour, not a broad surface treatment.
-- Avoid gradients, purple branding, neon glows, and pure-white wordmarks in theme-aware UI.
-- Rules and table separators should be subtle but readable. They are structural, not decorative.
+正文和有意义的辅助信息避免低透明度灰字；浅绿强调面上的小字号正文使用 `foreground/80`。颜色之外，选中状态同时以形状、背景或文字标识呈现。
 
-### Typography
+## 4. 字体与字号
 
-- **UI/body:** Geist.
-- **Data, scores, timestamps, route labels:** Geist Mono.
-- **Editorial display only:** Instrument Serif may be introduced for major homepage claims and collection titles after it is configured through `next/font`; do not use it for navigation, controls, tables, or the logo.
-- **Logo:** Geist; the `AIknows` wordmark follows `text-foreground` and the blue mark follows the accent token.
+- 正文 / 界面：Geist Sans，通过 Next 字体加载器自托管。
+- 首页强调行：Instrument Serif italic，仅用于品牌表达；不应用于筛选或长正文。
+- 等宽字体：只用于确实需要等宽的技术字段，不用于装饰性页眉与整段全大写文案。
 
-Typography should feel precise and restrained. Use sentence case, direct labels, and no marketing superlatives without evidence.
+| 层级 | 桌面 | 手机 | 规则 |
+| --- | --- | --- | --- |
+| 首页主标题 | 84px | 46px | 字重 500，行高 1.04，紧凑字距 |
+| 首页斜体行 | 主标题的 1.13 倍 | 同比例 | 字重 400，绿色 |
+| 内页主标题 | 40–48px | 32–36px | 标题适当换行，长单词可折行 |
+| 区块标题 | 32px | 24px | 字重 500，适当负字距 |
+| 卡片名称 | 15–16px | 15–16px | 字重 500–600 |
+| 正文 | 14–16px | 14–16px | 行高 1.6–1.75 |
+| 元信息 | 12–13px | 12–13px | 清晰对比度 |
+| 区块引导 | 12px | 12px | 轻微字距，无全大写堆叠 |
 
-### Spacing, borders, and interaction
+页面保持单个 H1，区块使用 H2，工具卡片和用途入口使用 H3。标题不靠人为逐字插入空格调整排版。
 
-- Use a stable page grid and 1px hairline rules to organize content.
-- Prefer modest radii and surfaces with clear hierarchy; avoid pill-heavy or floating-card-heavy layouts.
-- Interactive transitions: 150–220ms for colour, border, opacity, and small positional movement.
-- Strong focus states are mandatory. Hover effects may use a subtle border change or 1–2px lift, never glow.
-- Mobile filter controls may scroll horizontally but must preserve visible labels and active state.
+## 5. 布局与空间
 
-## Information design
+- 全站主要对齐线：最大宽度 1200px，使用共享 `site-shell`。
+- 手机横向边距 20px，640px 以上 32px。
+- 首页 Hero 居中；其余发现区块左对齐。
+- 标准段落宽度控制在约 640–768px，避免长行。
+- 区块上下间距：手机 56–64px，桌面 80px；区块内部常用 12、16、24、32px。
+- 工具网格：手机 1 列，640px 起 2 列，1024px 起 3 列；卡片间距 20px 左右。
+- 分类索引：手机 1 列，桌面 2 列。
+- 首页用途入口：手机 1 列，平板 2 列，桌面 4 列，共八项。
+- 工具详情：桌面主要内容与侧栏分列；手机按自然阅读顺序垂直排列。
+- 移动端禁止横向页面溢出，长名称、域名、按钮组合须能换行或截断。
 
-### Homepage
+## 6. 圆角、边框与阴影
 
-The homepage uses the Map Legend composition:
+基础圆角 12px。输入容器 16px，工具卡片与截图约 12–20px，首页提交引导 24px。主行动按钮和分类筛选采用胶囊形。
 
-1. Index label and independent-index statement.
-2. Clear editorial thesis: users can find the right AI tool and inspect why it belongs.
-3. Prominent natural-language search entry.
-4. Factual inventory counts only when derived from live data.
-5. A right-side “field notes” record strip showing concise, realistic tool records and their evidence status.
-6. A short score-basis note that states what the score is and is not.
+边框使用 1px 中性语义色。截图内嵌卡片，保留一圈空间，使用圆角内框。阴影仅用于浮层、搜索框与轻微 hover 反馈，不给每个内容块叠加多重阴影。
 
-Avoid centered, generic SaaS heroes and feature-card triptychs.
+## 7. 导航与品牌
 
-### Tool catalogue
+品牌标识保留原有 aK 线条字母图形，浅色使用墨绿、深色使用浅绿，配合 `aiknows.tools` 字标。导航提供 Discover、Categories、Collections、Blog。右侧放主题切换与 Submit a tool。
 
-- Default to an information-dense list or table-led index; cards remain an optional browsing mode.
-- Search, task, and audience filters are visible and easy to reset.
-- Show AIknows Score with a direct link or disclosure to its evidence basis.
-- Use category, score, last-updated data, and explicit missing fields to support scanning.
-- Never substitute invented popularity, ratings, review counts, freshness, or expert opinions.
+桌面导航保持清晰水平排列；窄屏切换为菜单按钮。移动菜单需要 dialog 语义、明确标题、关闭按钮、Escape 关闭、焦点约束和关闭后的焦点恢复。公开导航不读取会话或显示管理员入口。
 
-### Tool detail dossiers
+页脚采用品牌说明与 Discover / Resources / Contribute 分组，链接必须对应已存在路径。版权文字保持轻量，不增加缺少数据支持的用户规模或合作伙伴标识。
 
-A detail page should read as an inspectable record:
+## 8. 首页信息结构
 
-- Product identity and concise description.
-- Evidence Ledger: show each score contributor and its actual value.
-- Clearly distinguish recorded evidence from absent evidence.
-- Pricing and category information as facts, with an explicit absence state where applicable.
-- Clear external-site action without obscuring the AIknows record.
+### 8.1 首屏
 
-The label **“AIknows Score”** describes an evidence summary, never a user rating or a quality guarantee.
+1. 小型品牌引导文字。
+2. 「Less searching. More creating.」主标题。
+3. 两行简短说明。
+4. 大搜索框，右侧明确箭头提交按钮；支持 Enter 与 Cmd/Ctrl+K。
+5. 三个真实分类快捷入口。
+6. 来自公开目录的工具总数、八个大类和独立目录说明。
 
-### Collections and routes
+搜索以任务、工具或关键词为入口。空查询提交进入完整目录；非空查询进入 `/tools?q=...`。查询进行 URL 编码。
 
-Collections organize a builder’s real intent as a sequence of discovery steps, such as research, building, explaining, and distribution. They guide exploration but must not claim personalized recommendations.
+### 8.2 精选发现区
 
-### Directories
+标题为「A few good places to start.」。包含 Start here、Writing、Image & video、Coding、Productivity、Research 六个标签。
 
-Directories should present their concrete properties separately: DR, submission type, link type, category, and last checked. Avoid collapsing heterogeneous facts into a vague “best” ranking.
+默认展示 Claude、Cursor、Midjourney、ChatGPT、Perplexity、Runway。分类标签切换本地明确选择的真实条目；不自动填充不相关工具。卡片下标注已选条目数与该类真实总数，并提供继续浏览的链接。
 
-### Trust language
+分类标签采用 tablist / tab / tabpanel 语义；支持左右方向键、Home、End 与标准焦点移动。标签同时展示选中状态。
 
-Allowed when supported by data:
+### 8.3 按用途发现
 
-- “Recorded verification”
-- “Editorial feature”
-- “Pricing detail available”
-- “Description completeness”
-- “Information not yet recorded”
+八个真实大类转换为简短任务入口，包含线性图标、标题、一句说明和真实条目数，链接到对应分类页。完整类别名称仍在分类索引与卡片中展示。
 
-Disallowed unless independently substantiated:
+### 8.4 提交引导
 
-- “Expert reviewed”
-- “Most trusted”
-- “Best tool”
-- “Community favourite”
-- Any implied user rating, popularity, or quality assurance
+使用轻绿背景大面板，文案简短，一个主行动进入 `/submit`；无需站内登录，进入公开投稿说明与外部投稿渠道。
 
-## Implementation guardrails
+## 9. 工具卡片
 
-- Derive all trust UI from existing source fields. Do not add visual claims that the data model cannot support.
-- Verify aggregate counts and field coverage before displaying them in production UI.
-- Reuse established Tailwind tokens and shared components before creating page-specific visual systems.
-- Keep dark and light themes equivalently legible.
-- Test desktop and mobile browser states for every visible UI change.
+卡片结构：产品截图 → Logo 与名称 / 域名 → 简短摘要 → 类别与 Visit 外链。
 
-## Review checklist
+- 使用已有真实工具截图，顶部对齐裁切，不重新绘制产品界面。
+- Logo 加载失败回退到名称首字母；缺少截图显示温和的预览占位说明。
+- 摘要最多两行，长名称在卡片中截断，详情中完整显示。
+- 整卡点击进入站内详情；Visit 外链必须位于整卡覆盖链接上层，确保可点击。
+- 外链使用 `noopener noreferrer`，包含工具名称的无障碍标签。
+- 不虚构星级、价格、验证状态或热度。DR 如记录中存在，可以作为事实字段显示，不包装成质量评分。
 
-Before accepting a visual change, confirm:
+## 10. 目录、分类与详情
 
-- It reinforces AIknows as an evidence-led index rather than a generic directory.
-- Every trust signal has a real data source.
-- Missing data remains visible where it materially affects a decision.
-- The hierarchy works in dark and light themes.
-- Lists and tables are more useful than cards where comparison is the primary job.
-- The result has no decorative gradients, purple brand treatment, continuous glow, or unnecessary animation.
+### 工具目录
+
+保留关键词搜索、类别筛选、日期 / 名称 / DR 排序、升降序、卡片 / 列表切换及每页 24 条分页。筛选状态写入既有 URL 参数；分页保留搜索与筛选条件；视图偏好保留在浏览器中。
+
+工具条使用圆角白色面板和简洁控制。搜索为空结果时，提供明确的清除搜索入口。结果数为真实筛选数量。
+
+### 分类索引与分类详情
+
+分类索引以双列卡片呈现大类、数量、描述和子类。类别与子类 URL 保留。详情展示当前类别说明、筛选工具条与工具列表；子类匹配以目录的 `sub` 字段为依据。
+
+### 工具详情
+
+顶部显示分类、Logo、完整名称、摘要、官网入口及真实截图。内容区呈现现有描述、编辑内容与记录事实；相关工具沿用统一卡片。未记录的数据使用简短明确的缺失说明。
+
+### 其他公开页
+
+Collections、Blog、About、Contact、FAQ、Pricing、登录、提交及错误页面共用新主题、按钮、边框与字体语言。既有暂停状态仍明确呈现；页面不因为视觉更新而伪造功能可用性。
+
+## 11. 内容与数据边界
+
+目录读取继续使用现有 `getPublicTools`、`getPublicCategories` 与 `getPublicCatalogSummary`，保留远程目录读取和静态回退。
+
+当前静态目录许多价格、来源与日期字段为空；前端不能将缺失值转成免费、已验证或新发布。静态回退日期不是编辑发布日期，不得以数组前几项制造「最新」榜单。
+
+工具总数、分类数量与标签数量从实际数据派生。公开文案不新增没有记录依据的用户数、排名、评分或「全部验证」承诺。
+
+## 12. 动效与无障碍
+
+颜色与阴影反馈在约 150–200ms 内完成；页面可使用一次性的 260–300ms 轻量淡入，位移不超过 5px。禁止无限循环装饰动画。
+
+内容在 JavaScript 运行前保持可读，滚动显现不依赖永久 `opacity: 0`。`prefers-reduced-motion` 下关闭动效与过渡。
+
+所有按钮具备可理解的标签，纯装饰图标设为隐藏。全站提供 Skip to content；焦点轮廓可见。搜索有真实 label，主题切换可通过键盘操作，手机操作区域保证舒适尺寸。
+
+## 13. 实现与维护
+
+- 全局变量和共享组件类：`app/globals.css`。
+- 默认主题、字体和页面框架：`app/layout.tsx`。
+- 首页编排：`app/page.tsx`。
+- 搜索与精选切换：`components/hero-search.tsx`、`components/home-tool-shelf.tsx`。
+- 品牌与导航：`logo`、`header`、`header-nav`、`mobile-nav`、`theme-toggle`。
+- 卡片与发现界面：`ToolCard`、`ToolGrid`、`tool-toolbar`、`tool-list-view`、`tool-pagination`、`category-index`。
+
+服务端组件处理目录数据及 SEO；客户端组件处理输入、主题、标签、筛选等交互。首页只传入精选所需的小规模数据，不把全目录下载给首页交互。
+
+保留 metadata、canonical、现有工具 / 分类结构化数据和语义标题。新增组件优先复用现有语义颜色与共享样式，不新增独立的一套硬编码主题。
+
+验收包含类型检查、生产构建，以及桌面 / 手机的搜索、分类、详情、分页、列表视图、主题与菜单操作。视觉验收关注对齐、文字可读性、截图比例、内容密度和横向溢出。

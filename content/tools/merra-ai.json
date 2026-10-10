@@ -1,0 +1,18 @@
+{
+  "slug": "merra-ai",
+  "name": "Merra AI",
+  "tagline": "Create 100 voiceover-style videos from 5 clips with AI",
+  "description": "Create 100 voiceover-style videos from 5 clips with AI. Transform your raw video footage into engaging videos that capture attention and drive results.",
+  "url": "https://merra.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=merra.ai&sz=64",
+  "screenshot_url": "/screenshots/merra-ai.webp",
+  "primary_category": "code-development",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 18,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

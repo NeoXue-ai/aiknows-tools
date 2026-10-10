@@ -1,0 +1,18 @@
+{
+  "slug": "imagevideo-ai",
+  "name": "ImageVideo AI",
+  "tagline": "ImageVideo AI serves as a specialized generative workspace designed to bridge the gap between static photography and professional cinematography",
+  "description": "ImageVideo AI serves as a specialized generative workspace designed to bridge the gap between static photography and professional cinematography. By leveraging advanced AI models like Kling 3.0, the platform empowers filmmakers, designers, and marketers to transform still graphics into high-fidelity, dynamic videos without the complexity of traditional editing suites. Our technology prioritizes realistic motion and smooth camera transitions, delivering up to 4K resolution to meet the rigorous st",
+  "url": "https://imagevideoai.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=imagevideoai.org&sz=64",
+  "screenshot_url": "/screenshots/imagevideo-ai.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 32,
+  "subcategory": "ai-models",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

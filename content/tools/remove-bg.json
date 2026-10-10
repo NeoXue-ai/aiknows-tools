@@ -1,0 +1,21 @@
+{
+  "slug": "remove-bg",
+  "name": "remove.bg",
+  "tagline": "Background removal",
+  "description": "AI background removal for product photos, portraits, and more.",
+  "url": "https://remove.bg",
+  "logo_url": "https://www.google.com/s2/favicons?domain=remove.bg&sz=64",
+  "screenshot_url": "/screenshots/remove-bg.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "photos",
+    "ecommerce"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-background-remover",
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

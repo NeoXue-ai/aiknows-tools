@@ -1,0 +1,18 @@
+{
+  "slug": "lazyeyefix-ai-photo-editor",
+  "name": "Lazyeyefix AI Photo Editor",
+  "tagline": "Fixes lazy eye using AI.",
+  "description": "Fixes lazy eye using AI.",
+  "url": "https://www.lazyeyefix.com/photo-editor",
+  "logo_url": "https://www.google.com/s2/favicons?domain=lazyeyefix.com&sz=64",
+  "screenshot_url": "/screenshots/lazyeyefix-ai-photo-editor.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 15,
+  "subcategory": "ai-photo-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

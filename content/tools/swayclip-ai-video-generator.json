@@ -1,0 +1,18 @@
+{
+  "slug": "swayclip-ai-video-generator",
+  "name": "Swayclip AI Video Generator",
+  "tagline": "Swayclip is a comprehensive AI-driven creative workspace designed to streamline the production of high-quality digital media",
+  "description": "Swayclip is a comprehensive AI-driven creative workspace designed to streamline the production of high-quality digital media. By integrating leading video, image, and music models into a single browser-based interface, the platform allows users to generate professional assets from simple text prompts or reference images. This unified approach eliminates the need for multiple subscriptions and complex software installations. Multi-Model Creative Workspace The platform provides a versatile environ",
+  "url": "https://swayclip.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=swayclip.com&sz=64",
+  "screenshot_url": "/screenshots/swayclip-ai-video-generator.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 15,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "planmoon",
+  "name": "Planmoon",
+  "tagline": "PlanMoon is an AI SEO and generative engine optimization (GEO) tool for small business",
+  "description": "PlanMoon is an AI SEO and generative engine optimization (GEO) tool for small business. It finds your content gaps, writes the articles, and publishes them, so you get found on Google, ChatGPT, Perplexity and Google AI. No marketing team needed.",
+  "url": "https://planmoon.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=planmoon.app&sz=64",
+  "screenshot_url": "/screenshots/planmoon.webp",
+  "primary_category": "seo-marketing",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-seo-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

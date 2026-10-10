@@ -1,0 +1,21 @@
+{
+  "slug": "scholarcy",
+  "name": "Scholarcy",
+  "tagline": "AI paper summarizer",
+  "description": "Summarize papers into flashcards, highlights, and structured summaries.",
+  "url": "https://scholarcy.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=scholarcy.com&sz=64",
+  "screenshot_url": "/screenshots/scholarcy.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "summarize",
+    "papers"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-summarizer",
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

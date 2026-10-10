@@ -1,0 +1,21 @@
+{
+  "slug": "lovable",
+  "name": "Lovable",
+  "tagline": "AI app builder",
+  "description": "Prompt to production web app with React + Tailwind + Supabase.",
+  "url": "https://lovable.dev",
+  "logo_url": "https://www.google.com/s2/favicons?domain=lovable.dev&sz=64",
+  "screenshot_url": "/screenshots/lovable.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "fullstack",
+    "supabase"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-app-builder",
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

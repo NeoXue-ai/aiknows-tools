@@ -1,0 +1,18 @@
+{
+  "slug": "muse-image-ai",
+  "name": "Muse Image AI",
+  "tagline": "Use Muse Image AI to create and edit images from natural prompts and reference images",
+  "description": "Use Muse Image AI to create and edit images from natural prompts and reference images. Generate product shots, posters, social visuals, and image edits online.",
+  "url": "https://muzeimage.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=muzeimage.com&sz=64",
+  "screenshot_url": "/screenshots/muse-image-ai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-photo-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

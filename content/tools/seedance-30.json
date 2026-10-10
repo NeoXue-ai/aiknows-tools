@@ -1,0 +1,18 @@
+{
+  "slug": "seedance-30",
+  "name": "Seedance 3.0",
+  "tagline": "Seedance 3.0 on SeedVideo is an independent third-party creative studio designed to run advanced AI video workflows",
+  "description": "Seedance 3.0 on SeedVideo is an independent third-party creative studio designed to run advanced AI video workflows. The platform enables creators to utilize multi-modal inputs, including text, images, video, and audio, to generate high-quality cinematic content. By acting as a specialized interface for Seedance models, it provides the tools necessary to transform creative visions into professional-grade productions. Advanced Reference Control The platform stands out for its deep reference capab",
+  "url": "https://seedvideo.io/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=seedvideo.io&sz=64",
+  "screenshot_url": "/screenshots/seedance-3-0-4.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 14,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

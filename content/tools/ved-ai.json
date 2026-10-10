@@ -1,0 +1,18 @@
+{
+  "slug": "ved-ai",
+  "name": "Ved Ai",
+  "tagline": "Launch cinematic Veo 3.1 videos in 60 seconds. Enjoy free trial credits, high fidelity output, and Veo 3 backup so deliveries never stop.",
+  "description": "Launch cinematic Veo 3.1 videos in 60 seconds. Enjoy free trial credits, high fidelity output, and Veo 3 backup so deliveries never stop.",
+  "url": "https://vedai.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=vedai.app&sz=64",
+  "screenshot_url": "/screenshots/ved-ai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 15,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

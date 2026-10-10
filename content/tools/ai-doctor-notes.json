@@ -1,0 +1,18 @@
+{
+  "slug": "ai-doctor-notes",
+  "name": "AI Doctor Notes",
+  "tagline": "AI Doctor Notes is a private doctor visit notes app built for patients and caregivers who want to feel more prepared before appointments and more…",
+  "description": "AI Doctor Notes is a private doctor visit notes app built for patients and caregivers who want to feel more prepared before appointments and more confident afterward. Most people walk out of doctor visits trying to remember instructions, medications, referrals, follow-up steps, and what the doctor actually said. AI Doctor Notes helps organize the entire experience — from preparing questions before the appointment to reviewing a clear doctor appointment summary after the visit. Use AI Doctor Note",
+  "url": "https://aidoctornotes.app/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=aidoctornotes.app&sz=64",
+  "screenshot_url": "/screenshots/ai-doctor-notes.webp",
+  "primary_category": "writing-content",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 13,
+  "subcategory": "ai-summarizer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

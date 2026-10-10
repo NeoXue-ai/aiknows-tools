@@ -1,0 +1,18 @@
+{
+  "slug": "ai-best",
+  "name": "AI Best",
+  "tagline": "Create stunning AI images and videos with AI Best",
+  "description": "Create stunning AI images and videos with AI Best. Generate images from text, transform images, edit images, and create videos with 9+ AI models. Fast, reliable, affordable.",
+  "url": "https://aibest.live",
+  "logo_url": "https://www.google.com/s2/favicons?domain=aibest.live&sz=64",
+  "screenshot_url": "/screenshots/ai-best.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 34,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

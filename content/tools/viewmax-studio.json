@@ -1,0 +1,18 @@
+{
+  "slug": "viewmax-studio",
+  "name": "ViewMax Studio",
+  "tagline": "Viewmax Studio is an AI editing suite with built-in templates for popular social media formats, helping creators publish viral-ready videos faster.",
+  "description": "Viewmax Studio is an AI editing suite with built-in templates for popular social media formats, helping creators publish viral-ready videos faster.",
+  "url": "https://viewmax.studio",
+  "logo_url": "https://www.google.com/s2/favicons?domain=viewmax.studio&sz=64",
+  "screenshot_url": "/screenshots/viewmax-studio.webp",
+  "primary_category": "seo-marketing",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 29,
+  "subcategory": "social-media",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

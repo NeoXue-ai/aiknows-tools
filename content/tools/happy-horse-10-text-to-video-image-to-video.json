@@ -1,0 +1,18 @@
+{
+  "slug": "happy-horse-10-text-to-video-image-to-video",
+  "name": "Happy Horse 1.0 – Text to Video & Image to Video",
+  "tagline": "[Happy Horse 1.0 ](https://aihappyhorse.ai) is a comprehensive video generation platform powered by the Happy Horse 1.0 model, a 15B-parameter…",
+  "description": "[Happy Horse 1.0 ](https://aihappyhorse.ai) is a comprehensive video generation platform powered by the Happy Horse 1.0 model, a 15B-parameter unified system designed for high-fidelity content creation. It enables users to transform text prompts or static images into cinema-grade 1080p videos with native audio synthesis. The platform is engineered for rapid iteration, utilizing DMD-2 distilled inference to generate 5-second clips in approximately 38 seconds. Advanced Storytelling and Audio One o",
+  "url": "https://aihappyhorse.ai/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=aihappyhorse.ai&sz=64",
+  "screenshot_url": "/screenshots/happy-horse-ai-text-to-video-image-to-video.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 6,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "aiarttools",
+  "name": "aiart.tools",
+  "tagline": "AIArt.Tools is an AI tools and models directory that helps users discover, explore, and compare AI products across multiple categories such as image…",
+  "description": "AIArt.Tools is an AI tools and models directory that helps users discover, explore, and compare AI products across multiple categories such as image generation, video generation, AI agents, coding assistants, productivity tools, and more. It currently lists thousands of AI tools and models organized by category, usage,",
+  "url": "https://aiart.tools",
+  "logo_url": "https://www.google.com/s2/favicons?domain=aiart.tools&sz=64",
+  "screenshot_url": "/screenshots/aiart-tools.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 20,
+  "subcategory": "directories",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

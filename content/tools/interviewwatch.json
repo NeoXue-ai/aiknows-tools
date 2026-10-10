@@ -1,0 +1,18 @@
+{
+  "slug": "interviewwatch",
+  "name": "InterviewWatch",
+  "tagline": "InterviewWatch helps companies detect AI assistance and suspicious activity during live remote technical interviews by monitoring machine-level…",
+  "description": "InterviewWatch helps companies detect AI assistance and suspicious activity during live remote technical interviews by monitoring machine-level signals such as tab switching, multiple voices, and unexpected browser or screen activity. It flags suspicious events in real time and provides a timestamped report for review, helping interviewers make more confident hiring decisions. nterviewWatch does not record the candidate’s screen or voice, and it does not collect personal or sensitive data such a",
+  "url": "https://interviewwatch.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=interviewwatch.com&sz=64",
+  "screenshot_url": "/screenshots/interviewwatch.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-detector",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

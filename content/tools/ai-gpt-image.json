@@ -1,0 +1,18 @@
+{
+  "slug": "ai-gpt-image",
+  "name": "AI GPT Image",
+  "tagline": "Create and edit production-ready AI images with GPT Image 2. Turn prompts and reference images into private text-to-image and image-to-image outputs.",
+  "description": "Create and edit production-ready AI images with GPT Image 2. Turn prompts and reference images into private text-to-image and image-to-image outputs.",
+  "url": "https://aigptimage.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=aigptimage.org&sz=64",
+  "screenshot_url": "/screenshots/ai-gpt-image.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 7,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

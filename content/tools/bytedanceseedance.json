@@ -1,0 +1,18 @@
+{
+  "slug": "bytedanceseedance",
+  "name": "bytedanceseedance",
+  "tagline": "Bytedance Seedance brings Seedance 2.0 online — generate cinematic video with native audio, 2K resolution, up to 15 seconds",
+  "description": "Bytedance Seedance brings Seedance 2.0 online — generate cinematic video with native audio, 2K resolution, up to 15 seconds. Start free, no download required.",
+  "url": "https://www.bytedanceseedance.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=bytedanceseedance.com&sz=64",
+  "screenshot_url": "/screenshots/bytedanceseedance.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 11,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

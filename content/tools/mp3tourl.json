@@ -1,0 +1,18 @@
+{
+  "slug": "mp3tourl",
+  "name": "mp3tourl",
+  "tagline": "Convert audio to URL online for free. Upload MP3, WAV, OGG, AAC, and M4A files up to 100MB and share permanent links instantly.",
+  "description": "Convert audio to URL online for free. Upload MP3, WAV, OGG, AAC, and M4A files up to 100MB and share permanent links instantly.",
+  "url": "https://www.mp3tourl.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=mp3tourl.com&sz=64",
+  "screenshot_url": "/screenshots/mp3tourl.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 14,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

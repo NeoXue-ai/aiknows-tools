@@ -1,0 +1,77 @@
+{
+  "slug": "taskevery",
+  "name": "Taskevery",
+  "tagline": "Need help with local tasks? Our platform connects task owners with trusted service providers in your area",
+  "description": "Need help with local tasks? Our platform connects task owners with trusted service providers in your area. Whether it's home repairs, cleaning, or personal assistance, find reliable professionals for any task quickly and easily. Get started today!",
+  "url": "https://www.taskevery.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=taskevery.com&sz=64",
+  "screenshot_url": "/screenshots/taskevery.webp",
+  "primary_category": "seo-marketing",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 9,
+  "subcategory": "freelancer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null,
+  "editorial": {
+    "comparison": {
+      "eyebrow": "Editorial",
+      "heading": "How Taskevery compares",
+      "paragraphs": [
+        "Taskevery is a two-sided local task marketplace: task owners post jobs — home cleaning, handyman work, moving, gardening, pet care, tech support — and service providers bid or offer fixed prices. New users can post up to 2 tasks free with 90-day validity, then compare proposals and hire. The site is a young marketplace (2M claimed service providers, categories still being seeded), and it is currently listed for acquisition, which is worth knowing before building a workflow around it.",
+        "The comparison is with the established local-services platforms. TaskRabbit operates in dozens of US metros with vetted 'Taskers', hourly pricing, and in-app payments — denser supply, less negotiation. Thumbtack covers a wider professional-services spread (events, lessons, wellness) with quote-based matching. Angi (formerly Angie's List) leans on reviews and locked-in pricing for home projects. Taskevery's pitch is the free posting window and bid/offer/fixed flexibility; its gap is marketplace liquidity — fewer providers per metro than the incumbents today."
+      ],
+      "points": [
+        {
+          "label": "vs TaskRabbit",
+          "text": "TaskRabbit has metro density, background-vetted Taskers, and hourly rates with in-app payment. Taskevery offers free task posting and price flexibility but a much younger provider network."
+        },
+        {
+          "label": "vs Thumbtack",
+          "text": "Thumbtack matches customers with pros across ~1000 service types using custom quotes. Taskevery's category set is narrower (home, garden, pets, events) but posting is free rather than quote-credit based."
+        },
+        {
+          "label": "vs Angi",
+          "text": "Angi brings two decades of reviews and instant home-service pricing. Taskevery is earlier-stage, so expect to vet providers yourself rather than rely on a deep review base."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Is Taskevery free to post tasks?",
+        "answer": "Yes — the free plan allows posting up to 2 tasks with 90-day validity at no charge. Beyond that, the site doesn't currently publish paid-plan details."
+      },
+      {
+        "question": "What kinds of tasks can I post on Taskevery?",
+        "answer": "Home cleaning, handyman services, moving and packing, gardening and lawn care, interior design, pet care, tech support, and event planning — the site lists 22+ categories."
+      },
+      {
+        "question": "How does Taskevery make money?",
+        "answer": "The visible model is a free tier for task owners with providers competing via bids, offers, or fixed prices; monetization details beyond that are not published on the site."
+      },
+      {
+        "question": "Is Taskevery available outside the US?",
+        "answer": "The site doesn't restrict by geography, but its provider network is early-stage, so supply outside major markets may be thin. Established alternatives like TaskRabbit or Thumbtack are safer bets for dense metros."
+      }
+    ],
+    "externalLinks": [
+      {
+        "label": "TaskRabbit",
+        "url": "https://www.taskrabbit.com",
+        "context": "the largest vetted local-task marketplace in the US"
+      },
+      {
+        "label": "Thumbtack",
+        "url": "https://www.thumbtack.com",
+        "context": "quote-based matching across ~1000 local service categories"
+      },
+      {
+        "label": "Angi",
+        "url": "https://www.angi.com",
+        "context": "reviews-led home services platform, formerly Angie's List"
+      }
+    ]
+  }
+}

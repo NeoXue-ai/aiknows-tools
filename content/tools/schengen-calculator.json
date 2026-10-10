@@ -1,0 +1,18 @@
+{
+  "slug": "schengen-calculator",
+  "name": "Schengen Calculator",
+  "tagline": "Free Schengen calculator to track your 90/180 day visa allowance",
+  "description": "Free Schengen calculator to track your 90/180 day visa allowance. Avoid overstays and plan your European travel with our accurate visa rule checker. No Sign up Required!",
+  "url": "https://schengencalculator.org/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=schengencalculator.org&sz=64",
+  "screenshot_url": "/screenshots/schengen-calculator.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 34,
+  "subcategory": "ai-travel",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

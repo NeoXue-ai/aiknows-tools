@@ -1,0 +1,18 @@
+{
+  "slug": "meetwave",
+  "name": "MeetWave",
+  "tagline": "MeetWave is a privacy-first meeting assistant for Windows that records, transcribes and summarises your calls without ever joining them as a bot",
+  "description": "MeetWave is a privacy-first meeting assistant for Windows that records, transcribes and summarises your calls without ever joining them as a bot. How it works - Captures Windows system loopback audio and your microphone in one session, so both sides of the call are recorded - Whisper transcription with speaker diarization, including long meetings - Claude and GPT turn the transcript into a structured summary: key points, decisions, action items with owners and deadlines, risks and blockers - Sha",
+  "url": "https://meetwave.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=meetwave.io&sz=64",
+  "screenshot_url": "/screenshots/meetwave.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-models",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

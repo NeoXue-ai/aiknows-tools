@@ -1,0 +1,18 @@
+{
+  "slug": "joyfun-ai",
+  "name": "JoyFun AI",
+  "tagline": "Joyfun AI is a comprehensive video generation platform designed to provide users with creative freedom through a suite of AI-powered tools",
+  "description": "Joyfun AI is a comprehensive video generation platform designed to provide users with creative freedom through a suite of AI-powered tools. The platform specializes in transforming static content into dynamic animations, offering features like text-to-video and image-to-video generation. Users can describe complex scenes or upload existing artwork to produce high-quality cinematic shots and character animations. Advanced Video Manipulation Tools The platform includes a robust face swap system th",
+  "url": "https://joyfun.ai/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=joyfun.ai&sz=64",
+  "screenshot_url": "/screenshots/joyfun-ai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 27,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

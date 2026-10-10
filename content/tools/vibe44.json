@@ -1,0 +1,18 @@
+{
+  "slug": "vibe44",
+  "name": "Vibe44",
+  "tagline": "Ship your AI SaaS in days, not months. The ultimate agent-native Next.js boilerplate.",
+  "description": "Ship your AI SaaS in days, not months. The ultimate agent-native Next.js boilerplate.",
+  "url": "https://vibe44.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=vibe44.com&sz=64",
+  "screenshot_url": "/screenshots/vibe44.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 18,
+  "subcategory": "boilerplates",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

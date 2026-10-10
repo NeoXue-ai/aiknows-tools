@@ -1,0 +1,18 @@
+{
+  "slug": "seedream-50-ai",
+  "name": "Seedream 5.0 AI",
+  "tagline": "Seedream 5.0 AI is the most advanced AI image generator",
+  "description": "Seedream 5.0 AI is the most advanced AI image generator. Create stunning 2K images from text prompts with photorealistic detail & multi-subject composition.",
+  "url": "https://seedream5-ai.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=seedream5-ai.org&sz=64",
+  "screenshot_url": "/screenshots/seedream-5-0-ai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 23,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "krea-2-turbo",
+  "name": "Krea 2 Turbo",
+  "tagline": "What it does Krea 2 Turbo is a browser-based AI image generator running the eight-step distilled branch of Krea 2, a 12B-parameter diffusion…",
+  "description": "What it does Krea 2 Turbo is a browser-based AI image generator running the eight-step distilled branch of Krea 2, a 12B-parameter diffusion transformer trained from scratch toward photographic behaviour. A 1024px draft returns in roughly two seconds, and 2K follows shortly after. Key benefits - Fast text to image: eight sampling steps instead of dozens, so drafts can be judged by eye rather than from memory - Image to image refinement from a reference or a previous frame, inside the same worksp",
+  "url": "https://krea2turbo.pro",
+  "logo_url": "https://www.google.com/s2/favicons?domain=krea2turbo.pro&sz=64",
+  "screenshot_url": "/screenshots/krea-2-turbo.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

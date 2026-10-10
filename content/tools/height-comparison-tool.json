@@ -1,0 +1,18 @@
+{
+  "slug": "height-comparison-tool",
+  "name": "height comparison tool",
+  "tagline": "Compare heights side by side with our interactive visual chart",
+  "description": "Compare heights side by side with our interactive visual chart. Enter cm or ft/in, add people or objects, then export and share your results instantly.",
+  "url": "https://www.height-comparison.online/",
+  "logo_url": "https://pub-459c6f6553344cc393826444731f5707.r2.dev/upload-1771679982245.png",
+  "screenshot_url": "/screenshots/height-comparison-tool.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": "https://findly.tools",
+  "dr": 10,
+  "subcategory": null,
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

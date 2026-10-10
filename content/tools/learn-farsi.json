@@ -1,0 +1,18 @@
+{
+  "slug": "learn-farsi",
+  "name": "Learn Farsi",
+  "tagline": "Learn Farsi (Persian) vocabulary, grammar, and alphabet with structured lessons and spaced repetition. Free forever. Start learning Persian today.",
+  "description": "Learn Farsi (Persian) vocabulary, grammar, and alphabet with structured lessons and spaced repetition. Free forever. Start learning Persian today.",
+  "url": "https://www.learnfarsi.app/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=learnfarsi.app&sz=64",
+  "screenshot_url": "/screenshots/learn-farsi.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 28,
+  "subcategory": "ai-education",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

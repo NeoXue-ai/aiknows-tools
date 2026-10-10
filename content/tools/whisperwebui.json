@@ -1,0 +1,18 @@
+{
+  "slug": "whisperwebui",
+  "name": "WhisperWebUI",
+  "tagline": "Whisper Web by WhisperWebUI converts audio and video to text with Whisper-powered transcription, 100+ languages, and export-ready results.",
+  "description": "Whisper Web by WhisperWebUI converts audio and video to text with Whisper-powered transcription, 100+ languages, and export-ready results.",
+  "url": "https://whisperwebui.net",
+  "logo_url": "https://www.google.com/s2/favicons?domain=whisperwebui.net&sz=64",
+  "screenshot_url": "/screenshots/whisperwebui.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "speech-to-text-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "llm-models-directory",
+  "name": "LLM Models Directory",
+  "tagline": "AI Models Directory - Explore and compare AI models and their benchmarks",
+  "description": "AI Models Directory - Explore and compare AI models and their benchmarks",
+  "url": "https://llm-models.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=llm-models.org&sz=64",
+  "screenshot_url": "/screenshots/llm-models-directory.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 10,
+  "subcategory": "ai-models",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

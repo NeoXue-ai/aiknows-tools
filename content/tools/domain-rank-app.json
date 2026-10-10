@@ -1,0 +1,18 @@
+{
+  "slug": "domain-rank-app",
+  "name": "Domain Rank App",
+  "tagline": "Analyze your domain authority, track rankings, and get actionable SEO insights to boost organic traffic",
+  "description": "Analyze your domain authority, track rankings, and get actionable SEO insights to boost organic traffic. Comprehensive metrics and competitor analysis.",
+  "url": "https://domainrank.app/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=domainrank.app&sz=64",
+  "screenshot_url": "/screenshots/domain-rank-app.webp",
+  "primary_category": "seo-marketing",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 63,
+  "subcategory": "ai-seo-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

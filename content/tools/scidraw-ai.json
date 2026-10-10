@@ -1,0 +1,18 @@
+{
+  "slug": "scidraw-ai",
+  "name": "SciDraw AI",
+  "tagline": "AI-Powered Scientific Illustration & Data Visualization SciDraw is a publication-ready figure generation platform built specifically for researchers…",
+  "description": "AI-Powered Scientific Illustration & Data Visualization SciDraw is a publication-ready figure generation platform built specifically for researchers and academics. Combine AI illustration with data visualization tools in one workflow — optimized for SCI journal submission standards. Trusted by **10,000+ researchers** at institutions including Stanford, MIT, and Harvard. How It Works 1. **Describe or Upload** — Enter a text description or upload a sketch/reference image 2. **Generate** — AI produ",
+  "url": "https://sci-draw.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=sci-draw.com&sz=64",
+  "screenshot_url": "/screenshots/scidraw.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 47,
+  "subcategory": "ai-note-taker",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

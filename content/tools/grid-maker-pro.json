@@ -1,0 +1,18 @@
+{
+  "slug": "grid-maker-pro",
+  "name": "Grid Maker Pro",
+  "tagline": "The ultimate Grid Maker for beginners",
+  "description": "The ultimate Grid Maker for beginners. Create professional artwork with zero drawing skills. Completely free, no sign-up needed. Upload your photo now!",
+  "url": "https://grid-maker.pro",
+  "logo_url": "https://www.google.com/s2/favicons?domain=grid-maker.pro&sz=64",
+  "screenshot_url": "/screenshots/grid-maker-pro.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 13,
+  "subcategory": "ai-art-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

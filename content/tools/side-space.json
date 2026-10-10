@@ -1,0 +1,18 @@
+{
+  "slug": "side-space",
+  "name": "Side Space",
+  "tagline": "Side Space is a contextual AI agent designed to live within your browser's side panel, focusing on automating workflows through research,…",
+  "description": "Side Space is a contextual AI agent designed to live within your browser's side panel, focusing on automating workflows through research, summarization, and organization. By integrating directly into the browsing experience, it allows users to interact with web content in real-time without switching tabs or windows. The tool emphasizes action over conversation, providing a streamlined interface for managing digital information. Smart Browser Automation The platform features an AI Agent capable o",
+  "url": "https://sidespace.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=sidespace.app&sz=64",
+  "screenshot_url": "/screenshots/side-space.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 57,
+  "subcategory": "ai-agent",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

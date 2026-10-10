@@ -1,0 +1,18 @@
+{
+  "slug": "make-your-biodata",
+  "name": "Make Your Biodata",
+  "tagline": "Make Your Biodata is a lightweight web application purpose-built for creating marriage biodata documents",
+  "description": "Make Your Biodata is a lightweight web application purpose-built for creating marriage biodata documents. Users select from five curated templates or design their own, fill in structured personal and family details, upload and edit a photo using integrated tools, choose a decorative background, and download a print-quality PDF — all without creating an account or sending any data to a server. The tool is completely free with no feature restrictions, watermarks, or premium tiers.",
+  "url": "https://www.makeyourbiodata.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=makeyourbiodata.com&sz=64",
+  "screenshot_url": "/screenshots/make-your-biodata.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 7,
+  "subcategory": "ai-pdf",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "zilivo-ai",
+  "name": "Zilivo AI",
+  "tagline": "Zilivo AI is a multimodal creation engine for generating images and videos",
+  "description": "Zilivo AI is a multimodal creation engine for generating images and videos. It combines multiple AI models into a single workspace so you do not have to switch between different tools to finish a creative project. Content teams and solo creators use it to turn text prompts into visual assets or animate static images. The platform handles the backend model routing for you. In practice, this means you just pick a workflow card and get a rendered file without managing technical settings or comparin",
+  "url": "https://zilivo.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=zilivo.io&sz=64",
+  "screenshot_url": "/screenshots/zilivo-ai.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 29,
+  "subcategory": "ai-models",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

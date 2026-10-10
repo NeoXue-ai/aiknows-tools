@@ -1,0 +1,18 @@
+{
+  "slug": "idea-to-image",
+  "name": "Idea To Image",
+  "tagline": "Turn your idea to image in seconds",
+  "description": "Turn your idea to image in seconds. The easiest AI tool to generate, edit, and animate photos from simple text. Start your idea to image journey for free.",
+  "url": "https://ideatoimg.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=ideatoimg.com&sz=64",
+  "screenshot_url": "/screenshots/idea-to-image.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 48,
+  "subcategory": "image-to-video-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

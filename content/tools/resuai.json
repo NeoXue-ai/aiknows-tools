@@ -1,0 +1,18 @@
+{
+  "slug": "resuai",
+  "name": "ResuAI",
+  "tagline": "ResuAI Job seekers spend hours perfecting resumes, yet many never reach a recruiter because ATS filters them out",
+  "description": "ResuAI Job seekers spend hours perfecting resumes, yet many never reach a recruiter because ATS filters them out. ResuAI solves this with one AI platform for resume creation, analysis, and optimization. What it does -AI Resume Builder with ATS-friendly templates and bullet rewriting -Resume Analyzer with line-by-line feedback, keyword gaps, and a 0–100 score -ATS Score Checker, personalized checklist, AI cover letter, interview prep, and LinkedIn optimization. Who it’s for Students, graduates, c",
+  "url": "https://resuai.co",
+  "logo_url": "https://www.google.com/s2/favicons?domain=resuai.co&sz=64",
+  "screenshot_url": "/screenshots/resuai.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 10,
+  "subcategory": "ai-resume-builder",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

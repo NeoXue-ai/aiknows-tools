@@ -1,0 +1,18 @@
+{
+  "slug": "doforai",
+  "name": "Doforai",
+  "tagline": "Search and discover AI tools with featured picks, fresh additions, category navigation, and structured verification signals.",
+  "description": "Search and discover AI tools with featured picks, fresh additions, category navigation, and structured verification signals.",
+  "url": "https://doforai.tools",
+  "logo_url": "https://www.google.com/s2/favicons?domain=doforai.tools&sz=64",
+  "screenshot_url": "/screenshots/doforai.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 37,
+  "subcategory": "directories",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

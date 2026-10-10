@@ -1,0 +1,18 @@
+{
+  "slug": "mp3-to-srt-subtitle-generator",
+  "name": "MP3 to SRT (Subtitle Generator)",
+  "tagline": "Use the mp3 to srt converter at mp3totext.net: upload MP3, transcribe online, copy text, download TXT, or Export SRT—start free, no installs.",
+  "description": "Use the mp3 to srt converter at mp3totext.net: upload MP3, transcribe online, copy text, download TXT, or Export SRT—start free, no installs.",
+  "url": "https://mp3totext.net/mp3-to-srt",
+  "logo_url": "https://www.google.com/s2/favicons?domain=mp3totext.net&sz=64",
+  "screenshot_url": "/screenshots/mp3-to-srt-subtitle-generator.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 37,
+  "subcategory": "speech-to-text-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

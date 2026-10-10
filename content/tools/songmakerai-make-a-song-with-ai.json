@@ -1,0 +1,18 @@
+{
+  "slug": "songmakerai-make-a-song-with-ai",
+  "name": "SongMaker.AI - Make a song with AI",
+  "tagline": "Turn a simple text prompt into a complete song — melody, instruments, and vocals",
+  "description": "Turn a simple text prompt into a complete song — melody, instruments, and vocals. Choose a style, generate variations, and export your track instantly.",
+  "url": "https://songmakerai.net",
+  "logo_url": "https://www.google.com/s2/favicons?domain=songmakerai.net&sz=64",
+  "screenshot_url": "/screenshots/suno-ai-songmaker-ai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 22,
+  "subcategory": "ai-music-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

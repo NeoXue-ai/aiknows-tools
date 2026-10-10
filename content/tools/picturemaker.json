@@ -1,0 +1,18 @@
+{
+  "slug": "picturemaker",
+  "name": "PictureMaker",
+  "tagline": "Advanced AI Image Generation and Editing PictureMaker is a versatile AI image generator built on Flux Kontext technology, designed to transform text…",
+  "description": "Advanced AI Image Generation and Editing PictureMaker is a versatile AI image generator built on Flux Kontext technology, designed to transform text descriptions into high-quality visual assets. The platform supports a wide range of creative outputs, including professional avatars, detailed cartoons, and complex collages. Users can generate new images from scratch or upload existing photos to apply restyling, retouching, and background removal. Specialized Creative Tools The platform offers dedi",
+  "url": "https://www.picturemaker.ai/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=picturemaker.ai&sz=64",
+  "screenshot_url": "/screenshots/picturemaker.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

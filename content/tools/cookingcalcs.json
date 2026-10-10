@@ -1,0 +1,18 @@
+{
+  "slug": "cookingcalcs",
+  "name": "CookingCalcs",
+  "tagline": "CookingCalcs offers 12 free kitchen calculators — no signup, no paywall, open and use instantly",
+  "description": "CookingCalcs offers 12 free kitchen calculators — no signup, no paywall, open and use instantly. Tools included - Cups to Grams — convert over 100 ingredients by name - Oven Temperature Converter — Fahrenheit, Celsius, Gas Mark - Recipe Multiplier — scale any recipe up or down by servings - Cooking Time Calculator — by meat type, weight, and method - Meal Cost Calculator — ingredient-by-ingredient cost breakdown - Cost Per Serving — instant cost from total recipe price - Meat Temperature Guide —",
+  "url": "https://cookingcalcs.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=cookingcalcs.com&sz=64",
+  "screenshot_url": "/screenshots/cookingcalcs.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 8,
+  "subcategory": "ai-food-nutrition",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

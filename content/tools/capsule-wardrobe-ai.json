@@ -1,0 +1,18 @@
+{
+  "slug": "capsule-wardrobe-ai",
+  "name": "Capsule Wardrobe AI",
+  "tagline": "Photorealistic AI try-on for real outfits",
+  "description": "Photorealistic AI try-on for real outfits. Upload one photo, see yourself in pieces you own, pieces you&#x27;re thinking of buying, or any retailer URL — before you commit.",
+  "url": "https://capsulewardrobe.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=capsulewardrobe.ai&sz=64",
+  "screenshot_url": "/screenshots/capsule-wardrobe-ai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

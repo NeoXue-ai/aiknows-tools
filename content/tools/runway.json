@@ -1,0 +1,21 @@
+{
+  "slug": "runway",
+  "name": "Runway",
+  "tagline": "AI video generation and editing",
+  "description": "Gen-3 video, image, and creative tools for filmmakers and creators.",
+  "url": "https://runwayml.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=runwayml.com&sz=64",
+  "screenshot_url": "/screenshots/runway.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "video",
+    "creative"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-video-generator",
+  "is_featured": true,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

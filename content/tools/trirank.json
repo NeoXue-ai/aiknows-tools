@@ -1,0 +1,18 @@
+{
+  "slug": "trirank",
+  "name": "TriRank",
+  "tagline": "TriRank is an AI search visibility (AEO/GEO) tool that helps you optimize English-language sites for AI engines like ChatGPT, Perplexity, and Gemini",
+  "description": "TriRank is an AI search visibility (AEO/GEO) tool that helps you optimize English-language sites for AI engines like ChatGPT, Perplexity, and Gemini. Unlike tools that overstate \"AI traffic,\" TriRank anchors results to real Google Search Console rankings and clicks, plus AI citation monitoring — so you measure visibility you can actually act on. Built for SaaS founders, indie makers, and export-market sellers who need their content cited by AI, not just ranked on Google.",
+  "url": "https://trirankai.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=trirankai.com&sz=64",
+  "screenshot_url": "/screenshots/trirank.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-search-engine",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

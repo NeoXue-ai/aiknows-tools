@@ -1,0 +1,18 @@
+{
+  "slug": "ai-video-generator-2",
+  "name": "AI video Generator",
+  "tagline": "Create AI images and videos with Gemini Omni. Generate images from text, edit photos with references, and turn prompts or images into videos online.",
+  "description": "Create AI images and videos with Gemini Omni. Generate images from text, edit photos with references, and turn prompts or images into videos online.",
+  "url": "https://www.gemini-omin.top/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=gemini-omin.top&sz=64",
+  "screenshot_url": "/screenshots/ai-video-generator.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 9,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

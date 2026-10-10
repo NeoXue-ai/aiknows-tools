@@ -1,0 +1,18 @@
+{
+  "slug": "sam-tts",
+  "name": "SAM TTS",
+  "tagline": "[SAM TTS](https://samtts.com) is a specialized online platform that recreates the iconic Microsoft SAM voice synthesizer originally found in Windows…",
+  "description": "[SAM TTS](https://samtts.com) is a specialized online platform that recreates the iconic Microsoft SAM voice synthesizer originally found in Windows XP. This tool utilizes a modern JavaScript implementation to bring the classic Speech API (SAPI4) experience directly to web browsers without requiring any software downloads. Users can generate authentic nostalgic audio for creative projects, memes, and videos instantly. Authentic Voice Synthesis and Customization The platform provides a high degre",
+  "url": "https://samtts.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=samtts.com&sz=64",
+  "screenshot_url": "/screenshots/sam-tts.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 49,
+  "subcategory": "text-to-speech-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

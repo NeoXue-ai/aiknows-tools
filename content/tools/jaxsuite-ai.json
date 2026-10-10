@@ -1,0 +1,18 @@
+{
+  "slug": "jaxsuite-ai",
+  "name": "JaxSuite AI",
+  "tagline": "JaxSuite AI is an AI-native cold outreach and CRM platform for startups and lean sales teams that need pipeline without hiring an SDR team",
+  "description": "JaxSuite AI is an AI-native cold outreach and CRM platform for startups and lean sales teams that need pipeline without hiring an SDR team. Connect an inbox in minutes. JaxSuite AI works with Gmail, Outlook, and any SMTP provider, then rotates sending across every connected mailbox so volume never concentrates on a single address. Bring your own list or tap a built-in database of 300M+ verified B2B contacts across 45,000+ intent segments, so you can build a targeted audience without paying for a",
+  "url": "https://www.jaxsuite.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=jaxsuite.com&sz=64",
+  "screenshot_url": "/screenshots/jaxsuite-ai.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "sales",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

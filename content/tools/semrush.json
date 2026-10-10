@@ -1,0 +1,22 @@
+{
+  "slug": "semrush",
+  "name": "Semrush",
+  "tagline": "All-in-one marketing platform",
+  "description": "SEO, PPC, content, and competitive research suite trusted by marketers.",
+  "url": "https://semrush.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=semrush.com&sz=64",
+  "screenshot_url": "/screenshots/semrush.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "seo",
+    "ppc",
+    "research"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-marketing",
+  "is_featured": true,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

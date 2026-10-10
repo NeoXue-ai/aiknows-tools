@@ -1,0 +1,18 @@
+{
+  "slug": "your-ai-hunt",
+  "name": "Your AI Hunt",
+  "tagline": "Discover curated AI tools for writing, image generation, video creation, coding, audio processing, art design, and more",
+  "description": "Discover curated AI tools for writing, image generation, video creation, coding, audio processing, art design, and more. Find the perfect AI tool to boost your productivity.",
+  "url": "https://youraihunt.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=youraihunt.com&sz=64",
+  "screenshot_url": "/screenshots/your-ai-hunt.webp",
+  "primary_category": "code-development",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 29,
+  "subcategory": "ai-image-api",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

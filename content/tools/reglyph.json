@@ -1,0 +1,18 @@
+{
+  "slug": "reglyph",
+  "name": "Reglyph",
+  "tagline": "Reglyph is a web app for translating scanned and image-only PDFs without losing their layout",
+  "description": "Reglyph is a web app for translating scanned and image-only PDFs without losing their layout. Ordinary translators give you a wall of reflowed text; Reglyph keeps the document looking like the original. Under the hood it runs an OCR pass to read the page, an inpainting step that erases the source text from the image, machine translation, and an automatic re-typesetting step that places the translated text back into the original positions. The result: columns, tables, figures, stamps, signature l",
+  "url": "https://tryreglyph.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=tryreglyph.com&sz=64",
+  "screenshot_url": "/screenshots/reglyph.webp",
+  "primary_category": "writing-content",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 2.2,
+  "subcategory": "ai-translator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "miraframeai",
+  "name": "MiraFrameAI",
+  "tagline": "MiraFrame is an AI creative workspace for turning prompts and reference images into polished images and videos",
+  "description": "MiraFrame is an AI creative workspace for turning prompts and reference images into polished images and videos. Generate, remix, edit, and explore ready-to-use templates in one place.",
+  "url": "https://miraframe.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=miraframe.ai&sz=64",
+  "screenshot_url": "/screenshots/miraframeai.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "boilerplates",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

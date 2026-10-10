@@ -1,0 +1,18 @@
+{
+  "slug": "songmuse-ai-music-generator",
+  "name": "Songmuse - AI Music Generator",
+  "tagline": "SongMuse — AI Music Generator - **One-line introduction**: SongMuse is an AI music generation tool that lets you quickly create complete,…",
+  "description": "SongMuse — AI Music Generator - **One-line introduction**: SongMuse is an AI music generation tool that lets you quickly create complete, professional-quality songs from simple text prompts. - **How to use**: Simply describe the mood, style, theme, or genre you want, and SongMuse will automatically generate matching music. [Lyrics to Song](https://songmuse.art/lyrics-to-song) [Background Music](https://songmuse.art/ai-background-music-generator) [AI Remix Maker](https://songmuse.art/ai-remix-mak",
+  "url": "https://songmuse.art",
+  "logo_url": "https://www.google.com/s2/favicons?domain=songmuse.art&sz=64",
+  "screenshot_url": "/screenshots/songmuse-ai-music-generator.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 22,
+  "subcategory": "ai-music-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

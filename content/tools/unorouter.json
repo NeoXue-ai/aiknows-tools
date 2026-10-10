@@ -1,0 +1,18 @@
+{
+  "slug": "unorouter",
+  "name": "UnoRouter",
+  "tagline": "One key for every AI model. Use it in your code, in Claude Code, or in your favorite AI clients. Smart routing across every major provider.",
+  "description": "One key for every AI model. Use it in your code, in Claude Code, or in your favorite AI clients. Smart routing across every major provider.",
+  "url": "https://unorouter.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=unorouter.com&sz=64",
+  "screenshot_url": "/screenshots/unorouter.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-models",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

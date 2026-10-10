@@ -1,0 +1,18 @@
+{
+  "slug": "kalyvox",
+  "name": "Kalyvox",
+  "tagline": "Kalyvox is an AI voice agent for SMEs that handles inbound calls in real time",
+  "description": "Kalyvox is an AI voice agent for SMEs that handles inbound calls in real time. It answers calls, captures intent, urgency, and context, and turns each interaction into a structured, actionable summary ready for follow-up. The focus is on making calls usable. Instead of relying on voicemails or partial notes, each call is converted into clear information that can be processed quickly. This helps reduce missed opportunities and improves how inbound demand is handled. Kalyvox integrates with existi",
+  "url": "https://kalyvox.ai/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=kalyvox.ai&sz=64",
+  "screenshot_url": "/screenshots/kalyvox.webp",
+  "primary_category": "writing-content",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 7,
+  "subcategory": "ai-summarizer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "prompt-px",
+  "name": "Prompt PX",
+  "tagline": "AI Photo Editing Prompts Gemini & ChatGPT",
+  "description": "AI Photo Editing Prompts Gemini & ChatGPT",
+  "url": "https://promptpx.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=promptpx.com&sz=64",
+  "screenshot_url": "/screenshots/prompt-px.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 4.4,
+  "subcategory": "ai-photo-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

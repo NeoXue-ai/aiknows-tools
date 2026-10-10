@@ -1,0 +1,18 @@
+{
+  "slug": "emailverifyai",
+  "name": "EmailVerify.ai",
+  "tagline": "Free email checker and email verification with 99.9% accuracy. Reduce bounces, protect sender reputation. 100 free email verification credits daily.",
+  "description": "Free email checker and email verification with 99.9% accuracy. Reduce bounces, protect sender reputation. 100 free email verification credits daily.",
+  "url": "https://emailverify.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=emailverify.ai&sz=64",
+  "screenshot_url": "/screenshots/emailverify-ai.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 21,
+  "subcategory": "email",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

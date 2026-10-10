@@ -1,0 +1,18 @@
+{
+  "slug": "ai-translate-manga",
+  "name": "AI Translate Manga",
+  "tagline": "AI Translate Manga",
+  "description": "AI Translate Manga",
+  "url": "https://www.ai-translate-manga.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=ai-translate-manga.com&sz=64",
+  "screenshot_url": "/screenshots/ai-translate-manga.webp",
+  "primary_category": "writing-content",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 7,
+  "subcategory": "ai-translator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

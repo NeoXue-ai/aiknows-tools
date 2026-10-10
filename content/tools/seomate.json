@@ -1,0 +1,18 @@
+{
+  "slug": "seomate",
+  "name": "Seomate",
+  "tagline": "Transform your content marketing with AI. Generate SEO-optimized articles, analyze keywords, and publish automatically.",
+  "description": "Transform your content marketing with AI. Generate SEO-optimized articles, analyze keywords, and publish automatically.",
+  "url": "https://www.seomate.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=seomate.ai&sz=64",
+  "screenshot_url": "/screenshots/seomate.webp",
+  "primary_category": "writing-content",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 4.6,
+  "subcategory": "ai-content-creator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

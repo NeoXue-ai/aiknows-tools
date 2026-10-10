@@ -1,0 +1,18 @@
+{
+  "slug": "textifyall",
+  "name": "TextifyALL",
+  "tagline": "Transcribe audio to text and convert video to text easily. Fast AI audio transcription for MP3/MP4 in 90+ languages. Try TextifyALL for free!",
+  "description": "Transcribe audio to text and convert video to text easily. Fast AI audio transcription for MP3/MP4 in 90+ languages. Try TextifyALL for free!",
+  "url": "https://textifyall.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=textifyall.com&sz=64",
+  "screenshot_url": "/screenshots/textifyall.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 15,
+  "subcategory": "speech-to-text-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

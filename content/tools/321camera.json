@@ -1,0 +1,18 @@
+{
+  "slug": "321camera",
+  "name": "321Camera",
+  "tagline": "Free online photo and webcam editor. Edit photos, add filters, stickers, and create collages—all in your browser. No signup required. Privacy-first.",
+  "description": "Free online photo and webcam editor. Edit photos, add filters, stickers, and create collages—all in your browser. No signup required. Privacy-first.",
+  "url": "https://321camera.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=321camera.com&sz=64",
+  "screenshot_url": "/screenshots/321camera.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 7,
+  "subcategory": "ai-photo-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

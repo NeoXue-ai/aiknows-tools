@@ -1,0 +1,18 @@
+{
+  "slug": "aiqualityhq",
+  "name": "AIQualityHQ",
+  "tagline": "What it does AIQualityHQ is a free, browser-native suite of deterministic AI prompt evaluation and optimization tools",
+  "description": "What it does AIQualityHQ is a free, browser-native suite of deterministic AI prompt evaluation and optimization tools. It instantly analyzes AI prompts across core dimensions—including structure, safety, privacy, context, memory, and trust—to provide deterministic quality scores, diagnostics, and actionable fix suggestions in milliseconds. Key benefits - 100% Client-Side Privacy: Runs completely inside the browser using local JavaScript with zero external data transmission or API keys required.",
+  "url": "https://aiqualityhq.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=aiqualityhq.com&sz=64",
+  "screenshot_url": "/screenshots/aiqualityhq.webp",
+  "primary_category": "code-development",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "developer-apis",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "qwen3-tts-2",
+  "name": "Qwen3 TTS",
+  "tagline": "Experience Qwen3 TTS revolutionary AI text to speech with 97ms processing. Free demo with 17 voices across 10 languages including Chinese dialects.",
+  "description": "Experience Qwen3 TTS revolutionary AI text to speech with 97ms processing. Free demo with 17 voices across 10 languages including Chinese dialects.",
+  "url": "https://qwen3tts.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=qwen3tts.com&sz=64",
+  "screenshot_url": "/screenshots/qwen3-tts-1.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 27,
+  "subcategory": "text-to-speech-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "creget",
+  "name": "Creget",
+  "tagline": "Research-backed intelligence on every Indian mutual fund and stock",
+  "description": "Research-backed intelligence on every Indian mutual fund and stock. ETFs, credit cards, portfolio tracking, and an AI assistant that reasons over real market data.",
+  "url": "https://www.creget.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=creget.com&sz=64",
+  "screenshot_url": "/screenshots/creget.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-assistant",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

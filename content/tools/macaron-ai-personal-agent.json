@@ -1,0 +1,18 @@
+{
+  "slug": "macaron-ai-personal-agent",
+  "name": "Macaron AI personal agent",
+  "tagline": "Macaron AI isn’t a productivity tool",
+  "description": "Macaron AI isn’t a productivity tool. It’s a personal AI agent that helps you live better by instantly building mini‑apps and remembering everything for you.",
+  "url": "https://macaron.im/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=macaron.im&sz=64",
+  "screenshot_url": "/screenshots/macaron-ai-personal-agent.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 47,
+  "subcategory": "ai-agent",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

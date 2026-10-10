@@ -1,0 +1,18 @@
+{
+  "slug": "fablepilot",
+  "name": "FablePilot",
+  "tagline": "Free AI story generator — turn any prompt into a full story instantly",
+  "description": "Free AI story generator — turn any prompt into a full story instantly. No sign-up needed. Choose genre, tone, and length for guided results. Try it now.",
+  "url": "https://fablepilot.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=fablepilot.com&sz=64",
+  "screenshot_url": "/screenshots/fablepilot.webp",
+  "primary_category": "writing-content",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 21,
+  "subcategory": "ai-writer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

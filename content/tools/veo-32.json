@@ -1,0 +1,18 @@
+{
+  "slug": "veo-32",
+  "name": "Veo 3.2",
+  "tagline": "Veo 3.2 AI is a free online video generator with the Artemis engine",
+  "description": "Veo 3.2 AI is a free online video generator with the Artemis engine. Create 4K videos from text and images with world-model physics and character consistency.",
+  "url": "https://veo3-2.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=veo3-2.app&sz=64",
+  "screenshot_url": "/screenshots/veo-3-2-1.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 25,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

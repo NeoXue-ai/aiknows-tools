@@ -1,0 +1,18 @@
+{
+  "slug": "supaimagine",
+  "name": "SupaImagine",
+  "tagline": "One subscription, every top AI model for image and video—GPT Image 2, Nano Banana, Veo, Seedance and more in one workspace",
+  "description": "One subscription, every top AI model for image and video—GPT Image 2, Nano Banana, Veo, Seedance and more in one workspace. Every creation saved to your library; turn any image into video.",
+  "url": "https://supaimagine.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=supaimagine.ai&sz=64",
+  "screenshot_url": "/screenshots/supaimagine.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 34,
+  "subcategory": "ai-models",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

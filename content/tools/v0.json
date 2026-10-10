@@ -1,0 +1,21 @@
+{
+  "slug": "v0",
+  "name": "v0 by Vercel",
+  "tagline": "AI UI generator",
+  "description": "Generate React/Tailwind UI from prompts, copy-paste into your codebase.",
+  "url": "https://v0.dev",
+  "logo_url": "https://www.google.com/s2/favicons?domain=v0.dev&sz=64",
+  "screenshot_url": "/screenshots/v0.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "ui",
+    "frontend"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": null,
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

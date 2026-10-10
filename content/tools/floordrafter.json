@@ -1,0 +1,18 @@
+{
+  "slug": "floordrafter",
+  "name": "FloorDrafter",
+  "tagline": "Generate rendered, technical, 2.5D, or 3D floor plans in seconds from text or an image with FloorDrafter&#x27;s AI floor plan generator",
+  "description": "Generate rendered, technical, 2.5D, or 3D floor plans in seconds from text or an image with FloorDrafter&#x27;s AI floor plan generator. Edit and download a high-res PNG.",
+  "url": "https://floordrafter.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=floordrafter.com&sz=64",
+  "screenshot_url": "/screenshots/floordrafter.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 4.5,
+  "subcategory": "ai-interior-design",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

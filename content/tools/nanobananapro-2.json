@@ -1,0 +1,18 @@
+{
+  "slug": "nanobananapro-2",
+  "name": "NanoBananaPro",
+  "tagline": "Powered by Google's Gemini 3 Pro Image model, Nano Banana Pro delivers state-of-the-art image generation with perfect text rendering, 4K resolution,…",
+  "description": "Powered by Google's Gemini 3 Pro Image model, Nano Banana Pro delivers state-of-the-art image generation with perfect text rendering, 4K resolution, and unprecedented creative control.",
+  "url": "https://nanobananapro.design/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=nanobananapro.design&sz=64",
+  "screenshot_url": "/screenshots/nanobananapro.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 13,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "matcharge-subscription-manager",
+  "name": "Matcharge - Subscription Manager",
+  "tagline": "Track recurring bills, visualize spending, and end surprise charges.",
+  "description": "Track recurring bills, visualize spending, and end surprise charges.",
+  "url": "https://matcharge.app",
+  "logo_url": "https://pub-459c6f6553344cc393826444731f5707.r2.dev/upload-1766394580982.png",
+  "screenshot_url": "/screenshots/matcharge-subscription-manager.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": "https://findly.tools",
+  "dr": 28,
+  "subcategory": null,
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

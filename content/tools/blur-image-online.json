@@ -1,0 +1,18 @@
+{
+  "slug": "blur-image-online",
+  "name": "Blur Image Online",
+  "tagline": "Blur-image.org is a free online tool designed to quickly blur specific areas, faces, or entire images with precise control",
+  "description": "Blur-image.org is a free online tool designed to quickly blur specific areas, faces, or entire images with precise control. Fast and precise image blurring without leaving your browser. 1. [Selective Blur](https://blur-image.org/): Manually blur specific areas of an image with full control. 2. [Full Image Blur](https://blur-image.org/global-blur/): Blur the entire image in a single step. 3. [Face Blur](https://blur-image.org/blur-faces/): Automatically detect and blur faces. 4. [Sensitive Inform",
+  "url": "https://blur-image.org/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=blur-image.org&sz=64",
+  "screenshot_url": "/screenshots/blur-image-online.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 22,
+  "subcategory": "ai-photo-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

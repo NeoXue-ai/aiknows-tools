@@ -1,0 +1,18 @@
+{
+  "slug": "freewanvideo",
+  "name": "Freewanvideo",
+  "tagline": "Freewanvideo is a low cost AI video generation platform that leverages advanced models like WAN /Grok / Veo /Seedance to transform static images into…",
+  "description": "Freewanvideo is a low cost AI video generation platform that leverages advanced models like WAN /Grok / Veo /Seedance to transform static images into professional-grade video content. no watermarks, and no complicated setup—just upload an image or enter a prompt, and let our AI create stunning, professional-grade videos in minutes. Key Features: Free start: Get 100 free credits and get daily 60 credits for first two weeks. Image-to-Video: Transform static photos into dynamic, moving scenes with ",
+  "url": "https://www.freewanvideo.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=freewanvideo.com&sz=64",
+  "screenshot_url": "/screenshots/freewanvideo.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 18,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "saasgrow",
+  "name": "SaaSGrow",
+  "tagline": "Leaderboard for SaaS that build in public. Track your wins, failures, and learnings.",
+  "description": "Leaderboard for SaaS that build in public. Track your wins, failures, and learnings.",
+  "url": "https://saasgrow.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=saasgrow.app&sz=64",
+  "screenshot_url": "/screenshots/saasgrow.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 46,
+  "subcategory": "ai-education",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

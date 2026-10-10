@@ -1,7 +1,6 @@
 import { pageMetadata } from "@/lib/seo/metadata";
 import Link from "next/link";
 import { ArrowRight, Check } from "lucide-react";
-import { buttonVariants } from "@/components/ui/button-variants";
 import { cn } from "@/lib/utils";
 
 export const metadata = pageMetadata({
@@ -54,16 +53,16 @@ export default function PricingPage() {
     url: `${process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"}/pricing`,
   };
   return (
-    <div className="container mx-auto max-w-7xl px-4 py-12 md:py-16">
+    <div className="mx-auto w-full max-w-[1200px] px-5 py-12 sm:px-8 md:py-16">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
       />
-      <header className="mb-10 max-w-3xl border-b border-border pb-6">
-        <p className="font-mono text-[10px] uppercase tracking-[0.16em] text-muted-foreground">
+      <header className="mb-10 max-w-3xl">
+        <p className="text-sm font-medium text-accent">
           Pricing / 02 plans
         </p>
-        <h1 className="mt-3 text-balance text-3xl font-semibold tracking-[-0.03em] sm:text-4xl">
+        <h1 className="mt-3 text-balance text-4xl font-semibold tracking-[-0.045em] sm:text-5xl">
           Submission plans
         </h1>
         <p className="mt-3 max-w-2xl text-pretty leading-7 text-muted-foreground">
@@ -72,22 +71,22 @@ export default function PricingPage() {
         </p>
       </header>
 
-      <section className="grid gap-4 md:grid-cols-2">
+      <section className="grid gap-6 md:grid-cols-2">
         {PLANS.map((plan) => (
           <article
             key={plan.code}
             className={cn(
-              "flex flex-col rounded-xl border bg-card p-7 transition-colors",
+              "flex flex-col rounded-2xl border bg-card p-7 transition-colors sm:p-8",
               plan.accent
-                ? "border-accent"
+                ? "border-accent/40"
                 : "border-border hover:border-foreground/25",
             )}
           >
             <div className="flex items-baseline justify-between gap-3">
-              <span className="font-mono text-[10px] uppercase tracking-[0.16em] text-muted-foreground">
+              <span className="text-sm font-medium text-accent">
                 {plan.code}
               </span>
-              <span className="font-mono text-[10px] uppercase tracking-[0.16em] text-muted-foreground">
+              <span className="text-sm font-medium text-accent">
                 {plan.cadence}
               </span>
             </div>
@@ -95,7 +94,7 @@ export default function PricingPage() {
               {plan.name}
             </h2>
             <div className="mt-4 flex items-baseline gap-2">
-              <span className="font-serif text-4xl font-normal tracking-[-0.025em] text-foreground">
+              <span className="text-4xl font-semibold tracking-[-0.04em] text-foreground">
                 {plan.price}
               </span>
             </div>
@@ -113,11 +112,7 @@ export default function PricingPage() {
             <div className="mt-auto pt-7">
               <Link
                 href={plan.cta.href}
-                className={cn(
-                  buttonVariants({ size: "lg" }),
-                  "h-11 w-full justify-center px-5 text-sm font-medium",
-                  plan.accent && "shadow-none",
-                )}
+                className={cn(plan.accent ? "action-primary" : "action-secondary", "w-full")}
               >
                 {plan.cta.label}
                 <ArrowRight className="h-4 w-4" />
@@ -148,9 +143,9 @@ export default function PricingPage() {
           ].map((row) => (
             <div
               key={row.label}
-              className="grid grid-cols-[8rem_minmax(0,1fr)] gap-4 py-4 sm:grid-cols-[12rem_minmax(0,1fr)] sm:gap-6"
+              className="grid gap-2 py-4 sm:grid-cols-[12rem_minmax(0,1fr)] sm:gap-6"
             >
-              <dt className="font-mono text-[11px] uppercase tracking-[0.14em] text-muted-foreground">
+              <dt className="text-sm font-medium text-muted-foreground">
                 {row.label}
               </dt>
               <dd className="text-sm leading-6 text-foreground/85">{row.detail}</dd>

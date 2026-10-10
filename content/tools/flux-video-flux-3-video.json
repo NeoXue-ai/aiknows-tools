@@ -1,0 +1,18 @@
+{
+  "slug": "flux-video-flux-3-video",
+  "name": "Flux Video - Flux 3 Video",
+  "tagline": "An independent third-party platform for FLUX 3, the first video model from Black Forest Labs: text-to-video and image-to-video up to 20 seconds with…",
+  "description": "An independent third-party platform for FLUX 3, the first video model from Black Forest Labs: text-to-video and image-to-video up to 20 seconds with sound in a single pass. Generate today with fast, affordable models while FLUX 3 access rolls out.",
+  "url": "https://fluxvideo.co",
+  "logo_url": "https://www.google.com/s2/favicons?domain=fluxvideo.co&sz=64",
+  "screenshot_url": "/screenshots/flux-video-flux-3-video.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

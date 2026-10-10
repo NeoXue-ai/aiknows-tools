@@ -1,0 +1,18 @@
+{
+  "slug": "launchchair",
+  "name": "LaunchChair",
+  "tagline": "LaunchChair turns messy product ideas into market-informed MVPs, then helps founders move from strategy to build to launch in one connected workflow",
+  "description": "LaunchChair turns messy product ideas into market-informed MVPs, then helps founders move from strategy to build to launch in one connected workflow. Instead of starting with a blank doc or vague AI prompt, LaunchChair guides you through the product decisions that shape a stronger build: * Target user * Customer pain * Market wedge * Positioning * MVP scope That thinking becomes a living product spec. From there, LaunchChair generates structured, feature-by-feature prompts for the AI model or co",
+  "url": "https://launchchair.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=launchchair.io&sz=64",
+  "screenshot_url": "/screenshots/launchchair.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 28,
+  "subcategory": "ai-models",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

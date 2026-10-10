@@ -1,0 +1,18 @@
+{
+  "slug": "lpm-10",
+  "name": "LPM 1.0",
+  "tagline": "LPM 1.0 (Large Performance Model) generates real-time AI video with full-duplex conversation",
+  "description": "LPM 1.0 (Large Performance Model) generates real-time AI video with full-duplex conversation. 17B DiT, 0.35s latency, identity-consistent infinite-length character video.",
+  "url": "https://lpm-ai.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=lpm-ai.org&sz=64",
+  "screenshot_url": "/screenshots/lpm-1-0.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 6,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

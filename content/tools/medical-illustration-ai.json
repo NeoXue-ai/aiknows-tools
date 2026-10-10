@@ -1,0 +1,18 @@
+{
+  "slug": "medical-illustration-ai",
+  "name": "Medical Illustration AI",
+  "tagline": "Generate medical illustrations from text",
+  "description": "Generate medical illustrations from text. Create anatomy diagrams, surgical visuals, and patient education materials with AI — no drawing skills needed.",
+  "url": "https://medicalillustration.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=medicalillustration.app&sz=64",
+  "screenshot_url": "/screenshots/medical-illustration-ai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 34,
+  "subcategory": "ai-art-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

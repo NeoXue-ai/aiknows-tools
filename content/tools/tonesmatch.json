@@ -1,0 +1,18 @@
+{
+  "slug": "tonesmatch",
+  "name": "TonesMatch",
+  "tagline": "Precision Guitar Tone Matching TonesMatch is an AI-powered platform designed to help guitarists and bass players achieve the exact sounds of their…",
+  "description": "Precision Guitar Tone Matching TonesMatch is an AI-powered platform designed to help guitarists and bass players achieve the exact sounds of their favorite recordings. By analyzing the signal chains of original studio takes, the tool provides specific amp settings, pedal orders, and pickup positions. Unlike generic presets, it uses real gear data to ensure accuracy without model hallucinations. Adaptive Calibration for Your Rig The core strength of the platform lies in its ability to adapt setti",
+  "url": "https://tonesmatch.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=tonesmatch.com&sz=64",
+  "screenshot_url": "/screenshots/tonesmatch.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 11,
+  "subcategory": "ai-music-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

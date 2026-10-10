@@ -1,0 +1,18 @@
+{
+  "slug": "sidebutton",
+  "name": "SideButton",
+  "tagline": "Multi-Agent Orchestration for Engineering Teams SideButton is a specialized orchestration platform designed to manage AI coding agents as a unified…",
+  "description": "Multi-Agent Orchestration for Engineering Teams SideButton is a specialized orchestration platform designed to manage AI coding agents as a unified engineering team. By integrating powerful models like Claude Code and Codex, the platform allows developers to run agentic workflows directly on their own infrastructure. This centralized approach eliminates the chaos of managing multiple independent agents by providing a structured environment for coordination. Streamlined Development Workflows The",
+  "url": "https://sidebutton.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=sidebutton.com&sz=64",
+  "screenshot_url": "/screenshots/sidebutton.webp",
+  "primary_category": "code-development",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-code-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

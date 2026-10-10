@@ -1,0 +1,18 @@
+{
+  "slug": "ai-age-challenge",
+  "name": "AI Age Challenge",
+  "tagline": "Challenge your friends to see who looks younger with our AI age estimation tool. Upload a photo and share to compete!",
+  "description": "Challenge your friends to see who looks younger with our AI age estimation tool. Upload a photo and share to compete!",
+  "url": "https://agechecker.app/age-challenge",
+  "logo_url": "https://www.google.com/s2/favicons?domain=agechecker.app&sz=64",
+  "screenshot_url": "/screenshots/ai-age-challenge.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 12,
+  "subcategory": "ai-entertainment",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

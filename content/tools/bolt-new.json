@@ -1,0 +1,21 @@
+{
+  "slug": "bolt-new",
+  "name": "Bolt.new",
+  "tagline": "AI full-stack in the browser",
+  "description": "Prompt, run, and deploy full-stack apps without leaving the browser.",
+  "url": "https://bolt.new",
+  "logo_url": "https://www.google.com/s2/favicons?domain=bolt.new&sz=64",
+  "screenshot_url": "/screenshots/bolt-new.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "fullstack",
+    "deploy"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": null,
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

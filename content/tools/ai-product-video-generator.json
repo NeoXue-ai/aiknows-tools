@@ -1,0 +1,18 @@
+{
+  "slug": "ai-product-video-generator",
+  "name": "ai product video generator",
+  "tagline": "Generate AI videos from text or images with GenVideo&#x27;s free AI video generator",
+  "description": "Generate AI videos from text or images with GenVideo&#x27;s free AI video generator. Turn prompts into video with Veo 3.1, Seedance, Kling, Wan, and Grok Imagine.",
+  "url": "https://genvideo.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=genvideo.app&sz=64",
+  "screenshot_url": "/screenshots/ai-product-video-generator.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

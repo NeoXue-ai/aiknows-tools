@@ -1,0 +1,18 @@
+{
+  "slug": "spendkeep",
+  "name": "SpendKeep",
+  "tagline": "Track expenses and budgets without giving up your banking data",
+  "description": "Track expenses and budgets without giving up your banking data. Forward bank alerts, import CSV, let AI categorize everything. Financial Sovereignty by design.",
+  "url": "https://www.spendkeep.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=spendkeep.com&sz=64",
+  "screenshot_url": "/screenshots/spendkeep.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 21,
+  "subcategory": "fintech",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

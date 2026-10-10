@@ -1,0 +1,18 @@
+{
+  "slug": "banana-ai",
+  "name": "Banana AI",
+  "tagline": "Effortless AI Image Generation Banana AI simplifies the creative process by allowing users to generate high-quality images through a conversational…",
+  "description": "Effortless AI Image Generation Banana AI simplifies the creative process by allowing users to generate high-quality images through a conversational chat interface. By removing the need for complex prompt engineering, the platform enables anyone to turn a simple description into a professional visual asset in under a minute. High-Resolution Output and Advanced Models The platform provides access to various models, including Nano Banana and Nano Banana Pro, catering to different quality needs. Use",
+  "url": "https://bananai.net",
+  "logo_url": "https://www.google.com/s2/favicons?domain=bananai.net&sz=64",
+  "screenshot_url": "/screenshots/banana-ai-3.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 48,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

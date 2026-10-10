@@ -1,0 +1,18 @@
+{
+  "slug": "nano-bananaai",
+  "name": "Nano BananaAI",
+  "tagline": "Nano BananaAI is a comprehensive AI image generation and editing platform powered by the Google Gemini 2.5 Flash Image model",
+  "description": "Nano BananaAI is a comprehensive AI image generation and editing platform powered by the Google Gemini 2.5 Flash Image model. It allows users to create high-quality visuals from text prompts or modify existing photos using natural language commands. The platform is designed to bridge the gap between complex design software and intuitive conversational interfaces. Advanced Image Editing and Generation The tool specializes in smart object replacement and natural language image editing, enabling us",
+  "url": "https://bananananoai.ai/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=bananananoai.ai&sz=64",
+  "screenshot_url": "/screenshots/nano-bananaai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 17,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

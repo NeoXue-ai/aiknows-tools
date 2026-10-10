@@ -1,0 +1,18 @@
+{
+  "slug": "kling-50",
+  "name": "kling 5.0",
+  "tagline": "Kling 5.0 is an AI video generator that turns your text (and optional reference images) into short, downloadable clips",
+  "description": "Kling 5.0 is an AI video generator that turns your text (and optional reference images) into short, downloadable clips. Start in minutes, iterate by adjusting a single line of prompt, and move to Kling 5.0 Pro when you need more generations, priority queues, and a smoother production cadence.",
+  "url": "https://www.kling5.video",
+  "logo_url": "https://www.google.com/s2/favicons?domain=kling5.video&sz=64",
+  "screenshot_url": "/screenshots/kling-5-0-1.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 8,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

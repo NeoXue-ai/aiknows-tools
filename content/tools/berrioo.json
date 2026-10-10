@@ -1,0 +1,18 @@
+{
+  "slug": "berrioo",
+  "name": "Berrioo",
+  "tagline": "Berrioo makes it easy to create stunning images with AI",
+  "description": "Berrioo makes it easy to create stunning images with AI. Generate photos, remove backgrounds, enhance quality, and transform your pictures instantly — no design skills needed.",
+  "url": "https://berrioo.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=berrioo.com&sz=64",
+  "screenshot_url": "/screenshots/berrioo.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 27,
+  "subcategory": "ai-background-remover",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

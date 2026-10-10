@@ -1,0 +1,18 @@
+{
+  "slug": "tailkits-ui",
+  "name": "Tailkits UI",
+  "tagline": "200+ Tailwind components. Early-bird from $29",
+  "description": "200+ Tailwind components. Early-bird from $29",
+  "url": "https://tailkits.com/ui/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=tailkits.com&sz=64",
+  "screenshot_url": "/screenshots/tailkits-ui.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 42,
+  "subcategory": "boilerplates",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

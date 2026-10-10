@@ -1,0 +1,18 @@
+{
+  "slug": "gifspeed",
+  "name": "GifSpeed",
+  "tagline": "Speed up, slow down, or change GIF speed instantly in your browser. Free GIF speed changer — no watermark, no upload, 100% free.",
+  "description": "Speed up, slow down, or change GIF speed instantly in your browser. Free GIF speed changer — no watermark, no upload, 100% free.",
+  "url": "https://www.gifspeed.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=gifspeed.com&sz=64",
+  "screenshot_url": "/screenshots/gifspeed.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 24,
+  "subcategory": "ai-graphic-design",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

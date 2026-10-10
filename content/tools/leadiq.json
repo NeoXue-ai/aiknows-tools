@@ -1,0 +1,21 @@
+{
+  "slug": "leadiq",
+  "name": "LeadIQ",
+  "tagline": "B2B lead generation",
+  "description": "Find verified contact data and run personalized outbound sequences.",
+  "url": "https://leadiq.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=leadiq.com&sz=64",
+  "screenshot_url": "/screenshots/leadiq.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "lead-gen",
+    "b2b"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-marketing",
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

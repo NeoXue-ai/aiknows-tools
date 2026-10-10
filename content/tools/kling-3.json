@@ -1,0 +1,18 @@
+{
+  "slug": "kling-3",
+  "name": "kling 3",
+  "tagline": "Create Kling 3.5 video clips from prompts or reference images. Try free credits, then upgrade for more renders.",
+  "description": "Create Kling 3.5 video clips from prompts or reference images. Try free credits, then upgrade for more renders.",
+  "url": "https://www.kling35.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=kling35.org&sz=64",
+  "screenshot_url": "/screenshots/kling-3-2.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 33,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

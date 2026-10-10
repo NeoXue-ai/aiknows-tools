@@ -1,0 +1,20 @@
+{
+  "slug": "steve-ai",
+  "name": "Steve AI",
+  "tagline": "AI video maker",
+  "description": "Turn text, blog posts, and audio into animated videos.",
+  "url": "https://steve.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=steve.ai&sz=64",
+  "screenshot_url": "/screenshots/steve-ai.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "video"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

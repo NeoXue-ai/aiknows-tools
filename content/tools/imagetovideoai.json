@@ -1,0 +1,18 @@
+{
+  "slug": "imagetovideoai",
+  "name": "ImageToVideoAI",
+  "tagline": "ImageToVideoAI ([imagetovideoai.net](http://imagetovideoai.net/)) is a next-generation AI video generator that turns static images into cinematic,…",
+  "description": "ImageToVideoAI ([imagetovideoai.net](http://imagetovideoai.net/)) is a next-generation AI video generator that turns static images into cinematic, shareable videos. Whether you want to bring a vintage family portrait back to life, reunite with your childhood self, recreate a warm hug between two people, or produce a polished product ad from a single product shot, ImageToVideoAI makes it possible in a few clicks. The platform integrates multiple state-of-the-art generative video models — includin",
+  "url": "https://imagetovideoai.net",
+  "logo_url": "https://www.google.com/s2/favicons?domain=imagetovideoai.net&sz=64",
+  "screenshot_url": "/screenshots/imagetovideoai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 27,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

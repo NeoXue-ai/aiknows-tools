@@ -1,0 +1,18 @@
+{
+  "slug": "saymo",
+  "name": "Saymo",
+  "tagline": "Record voice posts, leave audio pins on the map, share real emotions",
+  "description": "Record voice posts, leave audio pins on the map, share real emotions. Saymo is a voice-first social app with no ads, no filters — just pure connection.",
+  "url": "https://saymo.me/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=saymo.me&sz=64",
+  "screenshot_url": "/screenshots/saymo.webp",
+  "primary_category": "seo-marketing",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 16,
+  "subcategory": "ai-ad-creative",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "trify3d",
+  "name": "Trify3D",
+  "tagline": "Trify3D is the multi-model AI 3D generator that runs every leading 3D engine — Tripo3D, Meshy, and Rodin — on a single input, so you can compare…",
+  "description": "Trify3D is the multi-model AI 3D generator that runs every leading 3D engine — Tripo3D, Meshy, and Rodin — on a single input, so you can compare results side by side and keep the best one. One account, one credit pool, every engine. Turn text prompts or images (JPG, PNG, WEBP) into production-ready 3D models with PBR textures, then export GLB, glTF, OBJ, or STL directly into Unity, Unreal, Blender, Three.js, or a 3D printing slicer. Built for game developers, 3D artists, product designers, and 3",
+  "url": "https://trify3d.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=trify3d.com&sz=64",
+  "screenshot_url": "/screenshots/trify3d.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-3d-model-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

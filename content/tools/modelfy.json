@@ -1,0 +1,18 @@
+{
+  "slug": "modelfy",
+  "name": "Modelfy",
+  "tagline": "Transform any image to 3D models instantly with our advanced AI image to 3D generator",
+  "description": "Transform any image to 3D models instantly with our advanced AI image to 3D generator. Convert 2D images to 3D models in seconds - free online tool for 3D printing, games, and professional projects.",
+  "url": "https://modelfy.art/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=modelfy.art&sz=64",
+  "screenshot_url": "/screenshots/modelfy.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 35,
+  "subcategory": "ai-3d-model-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

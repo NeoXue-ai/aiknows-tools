@@ -1,0 +1,21 @@
+{
+  "slug": "midjourney",
+  "name": "Midjourney",
+  "tagline": "AI image generation",
+  "description": "Best-in-class image generation, especially for stylized and editorial work.",
+  "url": "https://midjourney.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=midjourney.com&sz=64",
+  "screenshot_url": "/screenshots/midjourney.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "image",
+    "art"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-image-generator",
+  "is_featured": true,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

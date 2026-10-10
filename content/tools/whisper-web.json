@@ -1,0 +1,18 @@
+{
+  "slug": "whisper-web",
+  "name": "Whisper Web",
+  "tagline": "Whisper Web is a browser-based AI speech recognition tool powered by OpenAI's Whisper model",
+  "description": "Whisper Web is a browser-based AI speech recognition tool powered by OpenAI's Whisper model. It converts audio and video files to accurate text transcriptions in over 100 languages — no downloads or installations required. Key Features - Real-time speech-to-text from microphone, file upload (MP3, WAV, M4A, MP4, MOV, WEBM), or media URLs - Speaker labels and timestamps for multi-person recordings - AI-powered summaries, analytics, and translation to 100+ languages - Export in TXT, SRT, VTT, JSON,",
+  "url": "https://whisperweb.art",
+  "logo_url": "https://www.google.com/s2/favicons?domain=whisperweb.art&sz=64",
+  "screenshot_url": "/screenshots/whisper-web-1.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 22,
+  "subcategory": "speech-to-text-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

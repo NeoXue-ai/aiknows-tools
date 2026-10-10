@@ -1,0 +1,18 @@
+{
+  "slug": "genie3",
+  "name": "genie3",
+  "tagline": "Geni3 is the breakthrough AI for Real-Time World Generation",
+  "description": "Geni3 is the breakthrough AI for Real-Time World Generation. Create interactive 3D environments from text prompts at 24 FPS with 720p resolution. Google Genie 3 powers explorable worlds with environmental consistency. Try geni3 today.",
+  "url": "https://www.geni3.org/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=geni3.org&sz=64",
+  "screenshot_url": "/screenshots/genie3.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 17,
+  "subcategory": "ai-3d-model-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

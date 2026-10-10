@@ -1,0 +1,21 @@
+{
+  "slug": "perplexity",
+  "name": "Perplexity",
+  "tagline": "AI answer engine",
+  "description": "Cited answers with web-grounded sources and a Pro model picker.",
+  "url": "https://perplexity.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=perplexity.ai&sz=64",
+  "screenshot_url": "/screenshots/perplexity.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "search",
+    "answers"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-answer",
+  "is_featured": true,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

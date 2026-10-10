@@ -1,0 +1,18 @@
+{
+  "slug": "adscriptly",
+  "name": "Adscriptly",
+  "tagline": "AI ad optimization software that automates ad campaigns and maximizes ROI",
+  "description": "AI ad optimization software that automates ad campaigns and maximizes ROI. Built for data-driven marketers who optimize for revenue, not vanity metrics.",
+  "url": "https://adscriptly.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=adscriptly.com&sz=64",
+  "screenshot_url": "/screenshots/adscriptly.webp",
+  "primary_category": "seo-marketing",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 28,
+  "subcategory": "ai-ad-creative",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

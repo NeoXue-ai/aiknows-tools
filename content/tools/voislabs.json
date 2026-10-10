@@ -1,0 +1,18 @@
+{
+  "slug": "voislabs",
+  "name": "Voislabs",
+  "tagline": "VoisLabs turns text into natural, studio-quality speech in 8+ Indian languages — Hindi, Tamil, Telugu, Malayalam, Kannada, Bengali, Marathi, Punjabi…",
+  "description": "VoisLabs turns text into natural, studio-quality speech in 8+ Indian languages — Hindi, Tamil, Telugu, Malayalam, Kannada, Bengali, Marathi, Punjabi and Indian English. Built for creators and businesses who need authentic regional voices, not robotic accents. Type or paste your script, pick a voice, and download broadcast-ready audio in seconds. Clone your own voice from a single English sample and generate in any supported language. Fine-tune emotion, pace and tone for narration that actually s",
+  "url": "https://voislabs.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=voislabs.com&sz=64",
+  "screenshot_url": "/screenshots/voislabs.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 15,
+  "subcategory": "ai-voice-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

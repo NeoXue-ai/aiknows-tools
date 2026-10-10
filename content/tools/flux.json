@@ -1,0 +1,21 @@
+{
+  "slug": "flux",
+  "name": "FLUX",
+  "tagline": "Open-weights image model",
+  "description": "Black Forest Labs' flagship open-weights image generation model.",
+  "url": "https://blackforestlabs.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=blackforestlabs.ai&sz=64",
+  "screenshot_url": "/screenshots/flux.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "oss",
+    "image"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

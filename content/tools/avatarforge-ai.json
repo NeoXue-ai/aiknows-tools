@@ -1,0 +1,18 @@
+{
+  "slug": "avatarforge-ai",
+  "name": "AvatarForge AI",
+  "tagline": "Create your own digital avatar from a photo and voice sample, then generate talking avatar videos from script with custom backgrounds and flexible…",
+  "description": "Create your own digital avatar from a photo and voice sample, then generate talking avatar videos from script with custom backgrounds and flexible video ratios.",
+  "url": "https://avatarforgeai.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=avatarforgeai.com&sz=64",
+  "screenshot_url": "/screenshots/avatarforge-ai.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 22,
+  "subcategory": "ai-avatar-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

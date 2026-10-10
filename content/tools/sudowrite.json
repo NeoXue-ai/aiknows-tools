@@ -1,0 +1,21 @@
+{
+  "slug": "sudowrite",
+  "name": "Sudowrite",
+  "tagline": "AI for fiction writers",
+  "description": "Story engine that helps novelists brainstorm, draft, and revise fiction.",
+  "url": "https://sudowrite.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=sudowrite.com&sz=64",
+  "screenshot_url": "/screenshots/sudowrite.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "fiction",
+    "creative"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-writer",
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

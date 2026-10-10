@@ -1,0 +1,18 @@
+{
+  "slug": "kano-surveys",
+  "name": "Kano Surveys",
+  "tagline": "Create Kano surveys, collect customer responses, analyse feature categories and prioritise product ideas in one simple Kano survey tool",
+  "description": "Create Kano surveys, collect customer responses, analyse feature categories and prioritise product ideas in one simple Kano survey tool. No spreadsheets required.",
+  "url": "https://www.kanosurveys.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=kanosurveys.com&sz=64",
+  "screenshot_url": "/screenshots/kano-surveys.webp",
+  "primary_category": "seo-marketing",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 18,
+  "subcategory": "ai-ad-creative",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

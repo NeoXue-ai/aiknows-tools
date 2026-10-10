@@ -1,0 +1,18 @@
+{
+  "slug": "nanoscene-ai",
+  "name": "NanoScene AI",
+  "tagline": "Free Nano Banana 2 Lite AI image generator for prompts and reference images",
+  "description": "Free Nano Banana 2 Lite AI image generator for prompts and reference images. Create, edit, upscale, remove backgrounds, and keep characters consistent.",
+  "url": "https://nanosceneai.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=nanosceneai.com&sz=64",
+  "screenshot_url": "/screenshots/nanoscene-ai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

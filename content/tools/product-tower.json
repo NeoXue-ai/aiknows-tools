@@ -1,0 +1,18 @@
+{
+  "slug": "product-tower",
+  "name": "Product-Tower",
+  "tagline": "Discover and upvote the best new products on Product Tower — a startup directory and launch platform built for founders who think local first and…",
+  "description": "Discover and upvote the best new products on Product Tower — a startup directory and launch platform built for founders who think local first and global next. Browse AI, SaaS, fintech, and mobile products by category, follow weekly rankings, and find what's launching before everyone else does.",
+  "url": "https://www.product-tower.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=product-tower.com&sz=64",
+  "screenshot_url": "/screenshots/product-tower.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 47,
+  "subcategory": "directories",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

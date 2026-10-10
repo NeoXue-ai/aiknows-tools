@@ -1,0 +1,18 @@
+{
+  "slug": "songlyricslab",
+  "name": "SongLyricsLab",
+  "tagline": "Ready-to-use song lyrics from one idea — built for real songs, not generic AI templates.",
+  "description": "Ready-to-use song lyrics from one idea — built for real songs, not generic AI templates.",
+  "url": "https://songlyricslab.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=songlyricslab.com&sz=64",
+  "screenshot_url": "/screenshots/songlyricslab.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 9,
+  "subcategory": "ai-music-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

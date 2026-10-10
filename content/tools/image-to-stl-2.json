@@ -1,0 +1,18 @@
+{
+  "slug": "image-to-stl-2",
+  "name": "Image to STL",
+  "tagline": "Free Convert image to STL files instantly with AI",
+  "description": "Free Convert image to STL files instantly with AI. Transform PNG, JPG photos into 3D printable STL models for free. Best image to STL converter online.",
+  "url": "https://imagetostl.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=imagetostl.org&sz=64",
+  "screenshot_url": "/screenshots/image-to-stl-1.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 25,
+  "subcategory": "ai-3d-model-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

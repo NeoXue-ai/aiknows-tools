@@ -1,0 +1,18 @@
+{
+  "slug": "ai-image-enhancer",
+  "name": "AI Image Enhancer",
+  "tagline": "AI Image Enhancer started as a simple upscaling tool and grew into a full photo editing suite",
+  "description": "AI Image Enhancer started as a simple upscaling tool and grew into a full photo editing suite. Right now it covers seven core tools: image enhancement (sharpening, denoising, 2x/4x upscaling), background removal with replacement options, old photo restoration with colorization, object removal via brush-based inpainting, face swap, hairstyle try-on, and anime-style conversion. The workflow is intentionally simple — upload, process, download. No Photoshop skills required. Batch mode lets you queue",
+  "url": "https://www.mejorarcalidaddeimagen.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=mejorarcalidaddeimagen.app&sz=64",
+  "screenshot_url": "/screenshots/ai-image-enhancer.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 13,
+  "subcategory": "ai-photo-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

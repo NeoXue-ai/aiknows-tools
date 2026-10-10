@@ -1,0 +1,18 @@
+{
+  "slug": "seedance2-2",
+  "name": "Seedance2",
+  "tagline": "Seedance 2 is a multi-modal video model with reference-anything control, precise motion & camera replication, video extension/editing, and built-in…",
+  "description": "Seedance 2 is a multi-modal video model with reference-anything control, precise motion & camera replication, video extension/editing, and built-in audio generation.",
+  "url": "https://seedance-pro.org/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=seedance-pro.org&sz=64",
+  "screenshot_url": "/screenshots/seedance2.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 12,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

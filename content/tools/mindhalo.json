@@ -1,0 +1,18 @@
+{
+  "slug": "mindhalo",
+  "name": "MindHalo",
+  "tagline": "Turn your notes into interactive tutors, flashcards, and study guides with local AI. No cloud required. Download for free.",
+  "description": "Turn your notes into interactive tutors, flashcards, and study guides with local AI. No cloud required. Download for free.",
+  "url": "https://mindhalo.techfixpro.net",
+  "logo_url": "https://www.google.com/s2/favicons?domain=mindhalo.techfixpro.net&sz=64",
+  "screenshot_url": "/screenshots/mindhalo.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 15,
+  "subcategory": "ai-tutor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

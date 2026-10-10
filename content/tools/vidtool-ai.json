@@ -1,0 +1,18 @@
+{
+  "slug": "vidtool-ai",
+  "name": "Vidtool AI",
+  "tagline": "Stop paying for multiple subscriptions",
+  "description": "Stop paying for multiple subscriptions. Generate, upscale, and edit professional videos using Seedance, Veo, Runway, and more—all from a single, unified workspace.",
+  "url": "https://vidtoolai.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=vidtoolai.com&sz=64",
+  "screenshot_url": "/screenshots/vidtool-ai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 16,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

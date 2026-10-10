@@ -1,0 +1,18 @@
+{
+  "slug": "cleardemand",
+  "name": "ClearDemand",
+  "tagline": "Generate source-verified demand letters in your firm's voice. Medical record OCR and case companion AI.",
+  "description": "Generate source-verified demand letters in your firm's voice. Medical record OCR and case companion AI.",
+  "url": "https://cleardemand.io/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=cleardemand.io&sz=64",
+  "screenshot_url": "/screenshots/cleardemand.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 16,
+  "subcategory": "ai-ocr",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 import { OgCard, OG_CONTENT_TYPE, OG_SIZE } from "@/lib/seo/og-card";
-import { getPublicToolBySlug } from "@/lib/public-catalog";
+import { getPublicToolBySlug } from "@/features/catalog/server";
 import { categoryName } from "@/lib/seo/tool-schema";
 
 type Props = { params: Promise<{ slug: string }> };

@@ -1,0 +1,18 @@
+{
+  "slug": "flux-2-2",
+  "name": "FLUX 2",
+  "tagline": "Create stunning 4MP images with FLUX 2, powered by Black Forest Labs",
+  "description": "Create stunning 4MP images with FLUX 2, powered by Black Forest Labs. Perfect text rendering, multi-reference support & photorealistic quality. Try free!",
+  "url": "https://flux2ai.art/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=flux2ai.art&sz=64",
+  "screenshot_url": "/screenshots/flux-2-2.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 11,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

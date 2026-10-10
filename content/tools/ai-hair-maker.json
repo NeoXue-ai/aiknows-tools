@@ -1,0 +1,18 @@
+{
+  "slug": "ai-hair-maker",
+  "name": "AI Hair Maker",
+  "tagline": "AI hairstyle changer that shows your new look on your own face. Upload a selfie, try on hairstyles and hair colors in seconds. Free to start.",
+  "description": "AI hairstyle changer that shows your new look on your own face. Upload a selfie, try on hairstyles and hair colors in seconds. Free to start.",
+  "url": "https://aihairmaker.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=aihairmaker.com&sz=64",
+  "screenshot_url": "/screenshots/ai-hair-maker.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 10,
+  "subcategory": "ai-photo-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "paper-banana-2",
+  "name": "paper banana",
+  "tagline": "Paper Banana helps turn paper text into research figures and scientific diagrams. Try PaperBanana online for faster figure creation.",
+  "description": "Paper Banana helps turn paper text into research figures and scientific diagrams. Try PaperBanana online for faster figure creation.",
+  "url": "https://paper-banana.art/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=paper-banana.art&sz=64",
+  "screenshot_url": "/screenshots/paper-banana.webp",
+  "primary_category": "business-analytics",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 6,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

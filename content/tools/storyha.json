@@ -1,0 +1,18 @@
+{
+  "slug": "storyha",
+  "name": "Storyha",
+  "tagline": "AI-powered writing assistant for global writers",
+  "description": "AI-powered writing assistant for global writers. Generate unique characters, vivid descriptions, and plot twists for fantasy novels, anime fanfic, and more. Free trial available worldwide.",
+  "url": "https://www.storyha.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=storyha.com&sz=64",
+  "screenshot_url": "/screenshots/storyha.webp",
+  "primary_category": "writing-content",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 5,
+  "subcategory": "ai-writer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

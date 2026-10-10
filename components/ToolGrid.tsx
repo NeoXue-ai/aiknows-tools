@@ -1,24 +1,24 @@
 import { ToolCard } from "@/components/ToolCard";
-import type { Tool } from "@/lib/supabase/types";
+import type { ToolSummary } from "@/features/catalog/types";
 
 export function ToolGrid({
   tools,
   emptyMessage = "No tools to show yet.",
 }: {
-  tools: Tool[];
+  tools: ToolSummary[];
   emptyMessage?: string;
 }) {
   if (tools.length === 0) {
     return (
-      <div className="rounded-lg border border-dashed border-border bg-muted/30 px-6 py-12 text-center text-sm text-muted-foreground">
+      <div className="rounded-2xl border border-dashed border-border bg-card px-6 py-16 text-center text-sm text-muted-foreground">
         {emptyMessage}
       </div>
     );
   }
   return (
-    <div className="ml-stagger grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+    <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
       {tools.map((tool) => (
-        <ToolCard key={tool.id || tool.slug} tool={tool} />
+        <ToolCard key={tool.slug} tool={tool} />
       ))}
     </div>
   );

@@ -1,0 +1,18 @@
+{
+  "slug": "typingfirst",
+  "name": "TypingFirst",
+  "tagline": "Learn to type faster with free online typing lessons and tests. Improve your speed, accuracy, and keyboarding skills today!",
+  "description": "Learn to type faster with free online typing lessons and tests. Improve your speed, accuracy, and keyboarding skills today!",
+  "url": "https://www.typingfirst.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=typingfirst.com&sz=64",
+  "screenshot_url": "/screenshots/typingfirst.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 22,
+  "subcategory": "ai-tutor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "paper-banana",
+  "name": "paper banana",
+  "tagline": "Paper Banana is an AI-powered academic illustration generator designed specifically for researchers, PhD students, and professors",
+  "description": "Paper Banana is an AI-powered academic illustration generator designed specifically for researchers, PhD students, and professors. The platform simplifies the creation of professional scientific figures, research diagrams, and academic illustrations by converting text descriptions into visual assets. By removing the need for complex design software, it allows users to focus on their research while maintaining high visual standards. Streamlined Scientific Visualization The tool features a special",
+  "url": "https://paperbanana.me/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=paperbanana.me&sz=64",
+  "screenshot_url": "/screenshots/paper-banana-1.webp",
+  "primary_category": "business-analytics",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 43,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

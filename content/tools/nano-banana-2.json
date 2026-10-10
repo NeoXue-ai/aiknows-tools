@@ -1,0 +1,18 @@
+{
+  "slug": "nano-banana-2",
+  "name": "Nano Banana",
+  "tagline": "Nano Banana is a next-generation AI image editor powered by Google's Gemini 2.5 Flash Image model",
+  "description": "Nano Banana is a next-generation AI image editor powered by Google's Gemini 2.5 Flash Image model. It allows users to perform complex image modifications using natural language prompts, ensuring that edits remain aligned with the user's creative vision. The platform is designed to handle everything from minor detail refinements to complete scene reimaginings while maintaining the original quality and structure of the uploaded visual content. Advanced Editing Capabilities The tool excels in intel",
+  "url": "https://nanobanana.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=nanobanana.io&sz=64",
+  "screenshot_url": "/screenshots/nano-banana-5.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 30,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "minia-art",
+  "name": "Minia Art",
+  "tagline": "AI-powered pixel art generation. Create stunning pixel art from text prompts — sprites, scenes, and icons.",
+  "description": "AI-powered pixel art generation. Create stunning pixel art from text prompts — sprites, scenes, and icons.",
+  "url": "https://www.minia.art/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=minia.art&sz=64",
+  "screenshot_url": "/screenshots/minia-art.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-art-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

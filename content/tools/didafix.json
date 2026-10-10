@@ -1,0 +1,18 @@
+{
+  "slug": "didafix",
+  "name": "Didafix",
+  "tagline": "滴答修是专业的在线图片处理平台，提供AI智能抠图、图片去水印、OCR文字识别、图片转PDF、格式转换、压缩优化等多种服务。无需安装软件，一键上传即可处理，支持批量操作，保持高清画质，适用于电商设计、办公文档、社交媒体等多种场景，完全免费试用，操作简单效果专业。",
+  "description": "滴答修是专业的在线图片处理平台，提供AI智能抠图、图片去水印、OCR文字识别、图片转PDF、格式转换、压缩优化等多种服务。无需安装软件，一键上传即可处理，支持批量操作，保持高清画质，适用于电商设计、办公文档、社交媒体等多种场景，完全免费试用，操作简单效果专业。",
+  "url": "https://xiaojingxiu.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=xiaojingxiu.com&sz=64",
+  "screenshot_url": "/screenshots/didafix.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 2.5,
+  "subcategory": "ai-ocr",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

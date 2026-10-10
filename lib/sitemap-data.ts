@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { getPublicSubcategories, getPublicTools } from "@/lib/public-catalog";
+import { getPublicSubcategories, getPublicTools } from "@/features/catalog/server";
 import { CATEGORIES } from "@/lib/seo/tool-schema";
 import { siteUrl } from "@/lib/site";
 

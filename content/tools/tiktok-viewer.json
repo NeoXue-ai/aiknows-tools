@@ -1,0 +1,18 @@
+{
+  "slug": "tiktok-viewer",
+  "name": "Tiktok Viewer",
+  "tagline": "TT-View is a fast, lightweight, and anonymous TikTok Viewer built for marketers, content creators, and researchers",
+  "description": "TT-View is a fast, lightweight, and anonymous TikTok Viewer built for marketers, content creators, and researchers. It allows you to explore public TikTok profiles and video data instantly without registering or logging in. 🚀 Key Features: - Anonymous Browsing: View TikTok accounts and videos with 100% privacy. No login is required, leaving zero footprints. - Profile Viewer: Enter any public TikTok handle to instantly access core metrics like followers, total likes, video count, bio, and verific",
+  "url": "https://tt-view.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=tt-view.com&sz=64",
+  "screenshot_url": "/screenshots/tiktok-viewer.webp",
+  "primary_category": "writing-content",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 13,
+  "subcategory": "ai-content-creator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

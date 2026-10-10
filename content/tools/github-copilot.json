@@ -1,0 +1,21 @@
+{
+  "slug": "github-copilot",
+  "name": "GitHub Copilot",
+  "tagline": "AI pair programmer",
+  "description": "Inline code completions, chat, and agents inside your editor and GitHub.",
+  "url": "https://github.com/features/copilot",
+  "logo_url": "https://www.google.com/s2/favicons?domain=github.com&sz=64",
+  "screenshot_url": "/screenshots/github-copilot.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "coding",
+    "github"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 97,
+  "subcategory": "ai-code-generator",
+  "is_featured": true,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

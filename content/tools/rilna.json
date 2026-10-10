@@ -1,0 +1,18 @@
+{
+  "slug": "rilna",
+  "name": "Rilna",
+  "tagline": "Rilna is a software platform for big companies to indie hackers",
+  "description": "Rilna is a software platform for big companies to indie hackers. We provide a comprehensive suite of tools to help you manage your business and grow your revenue.",
+  "url": "https://www.rilna.net",
+  "logo_url": "https://pub-459c6f6553344cc393826444731f5707.r2.dev/upload-1755241659013.png",
+  "screenshot_url": "/screenshots/rilna.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": "https://findly.tools",
+  "dr": 21,
+  "subcategory": null,
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

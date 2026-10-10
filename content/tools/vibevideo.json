@@ -1,0 +1,18 @@
+{
+  "slug": "vibevideo",
+  "name": "VibeVideo",
+  "tagline": "Convert images to videos with VibeVideo AI. The image to video generator for creators, marketers, and teams.",
+  "description": "Convert images to videos with VibeVideo AI. The image to video generator for creators, marketers, and teams.",
+  "url": "https://vibevideo.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=vibevideo.app&sz=64",
+  "screenshot_url": "/screenshots/vibevideo.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 31,
+  "subcategory": "image-to-video-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

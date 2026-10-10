@@ -7,176 +7,208 @@ import { ToolListView } from "@/components/tool-list-view";
 import { ToolEmptyState } from "@/components/tool-empty-state";
 import { ToolGrid } from "@/components/ToolGrid";
 import { ToolPagination } from "@/components/tool-pagination";
-import { filterTools, type SortKey, type SortDir } from "@/lib/tool-score";
-import type { Tool } from "@/lib/supabase/types";
-
+import {
+  loadCards,
+  loadSearch,
+  StaleCatalogError,
+} from "@/features/catalog/browser";
+import { parseCatalogQuery, queryTools } from "@/features/catalog/query";
+import type { CatalogPage, ToolSummary } from "@/features/catalog/types";
+import type { SortKey } from "@/features/catalog/types";
 const VIEW_KEY = "aiknows:tool-view";
-const PAGE_SIZE = 24;
-
-function isSortKey(v: string | null): v is SortKey {
-  return v === "time" || v === "name" || v === "dr";
-}
-function parsePage(v: string | null): number {
-  if (!v) return 1;
-  const n = Number.parseInt(v, 10);
-  if (!Number.isFinite(n) || n < 1) return 1;
-  return n;
-}
 
 export function ToolDiscovery({
-  tools,
-  initialQ = "",
+  initialPage,
+  indexBase,
+  scope,
   variant = "full",
 }: {
-  tools: Tool[];
-  initialQ?: string;
+  initialPage: CatalogPage;
+  indexBase: string;
+  scope?: { category?: string; subcategory?: string };
   variant?: "full" | "scoped";
 }) {
   const router = useRouter();
-  const scoped = variant === "scoped";
-  const searchParams = useSearchParams();
-
-  // ---- View (URL > localStorage > responsive default) ----
+  const params = useSearchParams();
+  const query = React.useMemo(
+    () => ({
+      ...parseCatalogQuery(new URLSearchParams(params.toString())),
+      ...(scope
+        ? { category: scope.category, subcategory: scope.subcategory }
+        : {}),
+    }),
+    [params, scope],
+  );
+  const [q, setQ] = React.useState(query.q);
   const [view, setView] = React.useState<ViewMode>("cards");
-  const [viewHydrated, setViewHydrated] = React.useState(false);
-  React.useEffect(() => {
-    const fromUrl = searchParams.get("view");
-    if (fromUrl === "cards" || fromUrl === "list") {
-      setView(fromUrl);
-    } else {
-      let stored: string | null = null;
-      try {
-        stored = localStorage.getItem(VIEW_KEY);
-      } catch {
-        /* localStorage may be blocked */
-      }
-      if (stored === "cards" || stored === "list") {
-        setView(stored);
-      } else if (typeof window !== "undefined" && window.matchMedia("(max-width: 767px)").matches) {
-        setView("list");
-      } else {
-        setView("cards");
-      }
-    }
-    setViewHydrated(true);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
-  // ---- Search query (URL ↔ state) ----
-  const [q, setQ] = React.useState(initialQ);
-
-  // ---- Sort (URL ↔ state) ----
-  const initialSort = searchParams.get("sort");
-  const initialDir = (searchParams.get("dir") as SortDir | null) ?? "desc";
-  const [sortKey, setSortKey] = React.useState<SortKey>(
-    isSortKey(initialSort) ? initialSort : "time",
+  const [cards, setCards] = React.useState<ToolSummary[] | null>(null);
+  const [search, setSearch] = React.useState<Record<string, string> | null>(
+    null,
   );
-  const [sortDir, setSortDir] = React.useState<SortDir>(
-    initialDir === "asc" ? "asc" : "desc",
-  );
+  const [error, setError] = React.useState<string | null>(null);
+  const [stale, setStale] = React.useState(false);
+  const [retry, setRetry] = React.useState(0);
+  const urlView = params.get("view");
+  const urlQ = params.get("q") ?? "";
 
-  // ---- Page (URL is the source of truth — read every render, no state) ----
-  // Page resets to 1 on filter changes for free: the URL sync effect below
-  // excludes `page` from its writes, so any non-page state change strips it.
-  const page = parsePage(searchParams.get("page"));
-
-  // ---- URL sync (no scroll, no history bloat) ----
-  // Skip first mount so deep links to ?page=N survive their initial hydration.
-  const skipFirstSyncRef = React.useRef(true);
+  React.useEffect(() => setQ(urlQ), [urlQ]);
   React.useEffect(() => {
-    if (skipFirstSyncRef.current) {
-      skipFirstSyncRef.current = false;
+    let stored: string | null = null;
+    try {
+      stored = localStorage.getItem(VIEW_KEY);
+    } catch {}
+    const next =
+      urlView === "list" || urlView === "cards"
+        ? urlView
+        : stored === "list" || stored === "cards"
+          ? stored
+          : window.matchMedia("(max-width: 767px)").matches
+            ? "list"
+            : "cards";
+    setView(next);
+  }, [urlView]);
+
+  function update(changes: Record<string, string | null>, resetPage = true) {
+    const next = new URLSearchParams(params.toString());
+    if (resetPage) next.delete("page");
+    for (const [key, value] of Object.entries(changes))
+      if (value) next.set(key, value);
+      else next.delete(key);
+    router.replace(`?${next}`, { scroll: false });
+  }
+  React.useEffect(() => {
+    if (q.trim() === query.q) return;
+    const timer = window.setTimeout(() => {
+      const next = new URLSearchParams(params.toString());
+      next.delete("page");
+      if (q.trim()) next.set("q", q.trim());
+      else next.delete("q");
+      router.replace(`?${next}`, { scroll: false });
+    }, 250);
+    return () => window.clearTimeout(timer);
+  }, [q, query.q, params, router]);
+
+  const defaultScope = scope?.category;
+  const isInitial =
+    !query.q &&
+    query.sort === "time" &&
+    query.dir === "desc" &&
+    query.page === 1 &&
+    query.category === defaultScope;
+  const needsCards = !isInitial && !cards;
+  const needsSearch = !!query.q && !search;
+  const loading = needsCards || needsSearch;
+  React.useEffect(() => {
+    if (!loading) {
+      setError(null);
       return;
     }
-    const params = new URLSearchParams();
-    for (const [key, value] of searchParams.entries()) {
-      if (
-        key === "q" ||
-        key === "sort" ||
-        key === "dir" ||
-        key === "view" ||
-        key === "page"
-      )
-        continue;
-      params.set(key, value);
-    }
-    if (q) params.set("q", q);
-    if (sortKey !== "time") params.set("sort", sortKey);
-    if (sortKey === "time" && sortDir !== "desc") params.set("dir", sortDir);
-    if (sortKey === "name" && sortDir !== "asc") params.set("dir", sortDir);
-    if (sortKey === "dr" && sortDir !== "desc") params.set("dir", sortDir);
-    if (view !== "cards") params.set("view", view);
-    const next = params.toString();
-    const current = searchParams.toString();
-    if (next === current) return;
-    router.replace(`?${next}`, { scroll: false });
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [q, sortKey, sortDir, view]);
-
-  // ---- Persist view to localStorage ----
-  React.useEffect(() => {
-    if (!viewHydrated) return;
-    try {
-      localStorage.setItem(VIEW_KEY, view);
-    } catch {
-      /* ignore */
-    }
-  }, [view, viewHydrated]);
-
-  // ---- Derived: filtered + sorted tools ----
-  const filtered = React.useMemo(
-    () => filterTools(tools, { q, sort: sortKey, dir: sortDir }),
-    [tools, q, sortKey, sortDir],
+    let active = true;
+    setError(null);
+    setStale(false);
+    Promise.all([
+      needsCards ? loadCards(indexBase) : Promise.resolve(cards),
+      needsSearch ? loadSearch(indexBase) : Promise.resolve(search),
+    ])
+      .then(([nextCards, nextSearch]) => {
+        if (active) {
+          if (nextCards) setCards(nextCards);
+          if (nextSearch) setSearch(nextSearch);
+        }
+      })
+      .catch((error: unknown) => {
+        if (active) {
+          const outdated = error instanceof StaleCatalogError;
+          setStale(outdated);
+          setError(
+            outdated
+              ? "This directory has been updated. Reload to continue."
+              : "We couldn’t load the tool directory. Please try again.",
+          );
+        }
+      });
+    return () => {
+      active = false;
+    };
+  }, [indexBase, loading, needsCards, needsSearch, cards, search, retry]);
+  const result = React.useMemo(
+    () =>
+      !isInitial && cards && (!query.q || search)
+        ? queryTools(cards, query, search ?? {})
+        : initialPage,
+    [isInitial, cards, query, search, initialPage],
   );
 
-  // ---- Pagination ----
-  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
-  const safePage = Math.min(page, totalPages);
-  const pageStart = (safePage - 1) * PAGE_SIZE;
-  const pageEnd = pageStart + PAGE_SIZE;
-  const paged = filtered.slice(pageStart, pageEnd);
-
-  function setSort(key: SortKey) {
-    if (key === sortKey) {
-      setSortDir((d) => (d === "asc" ? "desc" : "asc"));
-    } else {
-      setSortKey(key);
-      setSortDir(key === "name" ? "asc" : "desc");
-    }
+  function chooseView(next: ViewMode) {
+    setView(next);
+    try {
+      localStorage.setItem(VIEW_KEY, next);
+    } catch {}
+    update({ view: next === "cards" ? null : next }, false);
   }
-
-  function toggleDir() {
-    setSortDir((d) => (d === "asc" ? "desc" : "asc"));
+  function chooseSort(sort: SortKey) {
+    const dir =
+      sort === query.sort
+        ? query.dir === "asc"
+          ? "desc"
+          : "asc"
+        : sort === "name"
+          ? "asc"
+          : "desc";
+    update({ sort, dir });
   }
-
-  const hasSearch = !!q;
-
   return (
-    <div className="space-y-6">
+    <div className="space-y-6" aria-busy={loading && !error}>
       <ToolToolbar
         q={q}
         onQChange={setQ}
-        sortKey={sortKey}
-        sortDir={sortDir}
-        onSortChange={setSort}
-        onToggleDir={toggleDir}
+        sortKey={query.sort}
+        sortDir={query.dir}
+        onSortChange={chooseSort}
+        onToggleDir={() =>
+          update({ dir: query.dir === "asc" ? "desc" : "asc" })
+        }
         view={view}
-        onViewChange={setView}
-        count={filtered.length}
-        showExamples={!scoped}
-        showCategory={!scoped}
+        onViewChange={chooseView}
+        count={result.total}
+        showExamples={variant !== "scoped"}
+        showCategory={variant !== "scoped"}
       />
-
-      {filtered.length === 0 ? (
-        <ToolEmptyState onClear={hasSearch ? () => setQ("") : undefined} />
+      {error ? (
+        <div
+          role="alert"
+          className="rounded-xl border border-border p-6 text-sm"
+        >
+          <p>{error}</p>
+          <button
+            type="button"
+            className="mt-3 text-accent underline"
+            onClick={() =>
+              stale ? window.location.reload() : setRetry((value) => value + 1)
+            }
+          >
+            {stale ? "Reload directory" : "Try again"}
+          </button>
+        </div>
+      ) : loading ? (
+        <p
+          role="status"
+          className="py-10 text-center text-sm text-muted-foreground"
+        >
+          Loading tools…
+        </p>
+      ) : result.total === 0 ? (
+        <ToolEmptyState onClear={query.q ? () => setQ("") : undefined} />
       ) : view === "cards" ? (
-        <ToolGrid tools={paged} />
+        <ToolGrid tools={result.items} />
       ) : (
-        <ToolListView tools={paged} />
+        <ToolListView tools={result.items} />
       )}
-
-      {filtered.length > 0 && (
-        <ToolPagination currentPage={safePage} totalPages={totalPages} />
+      {!loading && !error && result.total > 0 && (
+        <ToolPagination
+          currentPage={result.page}
+          totalPages={result.totalPages}
+        />
       )}
     </div>
   );

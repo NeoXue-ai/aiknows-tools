@@ -1,0 +1,18 @@
+{
+  "slug": "receipt-baker",
+  "name": "Receipt Baker",
+  "tagline": "Create easily customizable receipts in seconds - start from scratch or use curated templates.",
+  "description": "Create easily customizable receipts in seconds - start from scratch or use curated templates.",
+  "url": "https://receiptbaker.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=receiptbaker.com&sz=64",
+  "screenshot_url": "/screenshots/receipt-baker.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 21,
+  "subcategory": "ai-art-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

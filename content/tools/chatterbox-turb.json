@@ -1,0 +1,18 @@
+{
+  "slug": "chatterbox-turb",
+  "name": "Chatterbox Turb",
+  "tagline": "Chatterbox Turbo is a production-grade TTS solution optimized for low latency, streaming output, and real-time speech generation.",
+  "description": "Chatterbox Turbo is a production-grade TTS solution optimized for low latency, streaming output, and real-time speech generation.",
+  "url": "https://chatterbox-turbo.online/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=chatterbox-turbo.online&sz=64",
+  "screenshot_url": "/screenshots/chatterbox-turb.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 2.8,
+  "subcategory": "text-to-speech-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

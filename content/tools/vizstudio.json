@@ -1,0 +1,18 @@
+{
+  "slug": "vizstudio",
+  "name": "Vizstudio",
+  "tagline": "Generate stunning AI videos and images in seconds",
+  "description": "Generate stunning AI videos and images in seconds. Text-to-video, image-to-video, virtual try-on, photo editing and more — no cost to start, runs in your browser.",
+  "url": "https://vizstudio.art",
+  "logo_url": "https://www.google.com/s2/favicons?domain=vizstudio.art&sz=64",
+  "screenshot_url": "/screenshots/vizstudio.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 26,
+  "subcategory": "ai-photo-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

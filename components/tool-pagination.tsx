@@ -45,32 +45,32 @@ export function ToolPagination({ currentPage, totalPages }: Props) {
   return (
     <nav
       aria-label="Pagination"
-      className="flex flex-wrap items-center justify-between gap-3 border-t border-border pt-6"
+      className="flex flex-wrap items-center justify-between gap-4 border-t border-border pt-8"
     >
-      <p className="font-mono text-[10px] uppercase tracking-[0.16em] text-muted-foreground">
-        Page {String(currentPage).padStart(2, "0")} / {String(totalPages).padStart(2, "0")}
+      <p className="text-[13px] tabular-nums text-muted-foreground">
+        Page {currentPage} of {totalPages}
       </p>
-      <div className="flex items-center gap-1">
+      <div className="flex max-w-full flex-wrap items-center gap-1 sm:gap-1.5">
         <Link
           href={buildHref(pathname, searchParams, currentPage - 1)}
           aria-disabled={currentPage <= 1}
           aria-label="Previous page"
           className={cn(
-            "inline-flex h-8 items-center gap-1 rounded-md border border-border bg-card/60 px-2.5 text-xs font-medium transition-colors",
+            "inline-flex h-9 items-center gap-2 rounded-xl border border-border bg-card px-2 text-[13px] font-medium transition-colors sm:h-10 sm:px-3",
             currentPage <= 1
               ? "pointer-events-none cursor-not-allowed text-muted-foreground/40"
-              : "text-muted-foreground hover:text-foreground",
+              : "text-muted-foreground hover:border-accent/30 hover:text-accent",
           )}
         >
           <ArrowLeft className="h-3.5 w-3.5" />
-          <span className="hidden sm:inline">Prev</span>
+          <span className="hidden sm:inline">Previous</span>
         </Link>
         {pages.map((p, idx) =>
           p === "…" ? (
             <span
               key={`gap-${idx}`}
               aria-hidden
-              className="px-1 font-mono text-xs text-muted-foreground/50"
+              className="px-1 text-sm text-muted-foreground/50"
             >
               …
             </span>
@@ -80,10 +80,10 @@ export function ToolPagination({ currentPage, totalPages }: Props) {
               href={buildHref(pathname, searchParams, p)}
               aria-current={p === currentPage ? "page" : undefined}
               className={cn(
-                "inline-flex h-8 min-w-[2rem] items-center justify-center rounded-md border px-2 font-mono text-xs tabular-nums transition-colors",
+                "inline-flex h-9 min-w-8 items-center justify-center rounded-xl border px-2 text-[13px] tabular-nums transition-colors sm:h-10 sm:min-w-10",
                 p === currentPage
-                  ? "border-accent bg-accent text-accent-foreground"
-                  : "border-border bg-card/60 text-muted-foreground hover:text-foreground",
+                  ? "border-accent/20 bg-accent/10 font-semibold text-accent"
+                  : "border-transparent text-muted-foreground hover:border-border hover:bg-card hover:text-foreground",
               )}
             >
               {p}
@@ -95,10 +95,10 @@ export function ToolPagination({ currentPage, totalPages }: Props) {
           aria-disabled={currentPage >= totalPages}
           aria-label="Next page"
           className={cn(
-            "inline-flex h-8 items-center gap-1 rounded-md border border-border bg-card/60 px-2.5 text-xs font-medium transition-colors",
+            "inline-flex h-9 items-center gap-2 rounded-xl border border-border bg-card px-2 text-[13px] font-medium transition-colors sm:h-10 sm:px-3",
             currentPage >= totalPages
               ? "pointer-events-none cursor-not-allowed text-muted-foreground/40"
-              : "text-muted-foreground hover:text-foreground",
+              : "text-muted-foreground hover:border-accent/30 hover:text-accent",
           )}
         >
           <span className="hidden sm:inline">Next</span>

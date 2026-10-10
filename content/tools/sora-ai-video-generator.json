@@ -1,0 +1,18 @@
+{
+  "slug": "sora-ai-video-generator",
+  "name": "Sora AI Video Generator",
+  "tagline": "Sora AI video generator creates stunning AI videos from text or photos",
+  "description": "Sora AI video generator creates stunning AI videos from text or photos. Professional text-to-video, image-to-video, and OpenAI ChatGPT image generation online.",
+  "url": "https://www.soraai.pro",
+  "logo_url": "https://www.google.com/s2/favicons?domain=soraai.pro&sz=64",
+  "screenshot_url": "/screenshots/sora-ai-video-generator.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 24,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

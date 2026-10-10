@@ -1,0 +1,18 @@
+{
+  "slug": "toon-tone-5",
+  "name": "Toon Tone",
+  "tagline": "Play Toon Tone, a fast online toon game where you guess a toon character color with HSB sliders",
+  "description": "Play Toon Tone, a fast online toon game where you guess a toon character color with HSB sliders. Match the changing image area and score up to 1000 points.",
+  "url": "https://toontone.pro/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=toontone.pro&sz=64",
+  "screenshot_url": "/screenshots/toon-tone.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 25,
+  "subcategory": "ai-avatar-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

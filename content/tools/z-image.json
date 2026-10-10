@@ -1,0 +1,18 @@
+{
+  "slug": "z-image",
+  "name": "Z Image",
+  "tagline": "Z-Image: Fast and accessible AI image generation",
+  "description": "Z-Image: Fast and accessible AI image generation. Create stunning images with sub-second speed, bilingual text rendering, and professional quality output.",
+  "url": "https://z-image.net",
+  "logo_url": "https://www.google.com/s2/favicons?domain=z-image.net&sz=64",
+  "screenshot_url": "/screenshots/z-image-2.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 58,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

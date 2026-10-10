@@ -1,0 +1,18 @@
+{
+  "slug": "toontones",
+  "name": "ToonTones",
+  "tagline": "ToonTones is a free toon tone style color memory game",
+  "description": "ToonTones is a free toon tone style color memory game. Match five iconic shades with HSL sliders, get a 0–10 color accuracy score, and share your result with friends. No signup, no download, works directly in the browser.",
+  "url": "https://toontones.net/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=toontones.net&sz=64",
+  "screenshot_url": "/screenshots/toontones.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 2.2,
+  "subcategory": "ai-avatar-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

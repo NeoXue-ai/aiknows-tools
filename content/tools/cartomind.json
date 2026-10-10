@@ -1,0 +1,18 @@
+{
+  "slug": "cartomind",
+  "name": "CartoMind",
+  "tagline": "CartoMind is an AI workspace that turns your text into perfect infographics",
+  "description": "CartoMind is an AI workspace that turns your text into perfect infographics. Just upload or paste your notes, and our AI will read the content, distill key points, and automatically match you with the right design from over 500 combinations or templates. You can easily manage your raw knowledge notes and generated visual assets. Let CartoMind do the heavy infographic design lifting, making your great ideas stand out and easy to share.",
+  "url": "https://cartomind.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=cartomind.ai&sz=64",
+  "screenshot_url": "/screenshots/cartomind.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 29,
+  "subcategory": "ai-graphic-design",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

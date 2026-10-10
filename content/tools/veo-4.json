@@ -1,0 +1,18 @@
+{
+  "slug": "veo-4",
+  "name": "Veo 4",
+  "tagline": "Veo 4 is a multi-modal AI video generation platform designed to transform text, images, and audio into cinematic visual content",
+  "description": "Veo 4 is a multi-modal AI video generation platform designed to transform text, images, and audio into cinematic visual content. The tool allows users to create multi-shot stories with a focus on narrative flow and visual consistency. By integrating various media inputs, it simplifies the process of building high-quality video sequences from a single interface. Advanced Video Control and Consistency The platform features a controllable AI model that enables users to reference specific styles and",
+  "url": "https://aiveo4.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=aiveo4.ai&sz=64",
+  "screenshot_url": "/screenshots/veo-4-4.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 25,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

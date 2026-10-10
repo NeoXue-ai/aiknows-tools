@@ -1,0 +1,18 @@
+{
+  "slug": "bullrun-data-api",
+  "name": "Bullrun Data API",
+  "tagline": "Recession probability scoring, capital rotation analysis, and financial calculators via REST API and MCP. Built for AI agents and developers.",
+  "description": "Recession probability scoring, capital rotation analysis, and financial calculators via REST API and MCP. Built for AI agents and developers.",
+  "url": "https://bullrundata.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=bullrundata.com&sz=64",
+  "screenshot_url": "/screenshots/bullrun-data-api.webp",
+  "primary_category": "code-development",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 11,
+  "subcategory": "developer-apis",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "picremake",
+  "name": "PicRemake",
+  "tagline": "PicRemake offers free AI image transformation left-panels with multiple models and sizes for easy image creation and editing.",
+  "description": "PicRemake offers free AI image transformation left-panels with multiple models and sizes for easy image creation and editing.",
+  "url": "https://picremake.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=picremake.com&sz=64",
+  "screenshot_url": "/screenshots/picremake.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 18,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "codeium",
+  "name": "Codeium",
+  "tagline": "Free AI code completion",
+  "description": "Free AI completions and chat across 70+ languages.",
+  "url": "https://codeium.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=codeium.com&sz=64",
+  "screenshot_url": "/screenshots/codeium.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "completion",
+    "free"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-code-generator",
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

@@ -1,24 +1,12 @@
-import { getCurrentUser } from "@/lib/auth/session";
 import { Logo } from "@/components/logo";
 import { HeaderNav } from "@/components/header-nav";
-import { getPublicCatalogSummary } from "@/lib/public-catalog";
 
-export async function Header() {
-  let user: { email: string; isAdmin: boolean } | null = null;
-  try {
-    const u = await getCurrentUser();
-    if (u) user = { email: u.email, isAdmin: u.isAdmin };
-  } catch {
-    // auth lookup is optional in the header — fail silent
-  }
-
-  const { toolCount } = await getPublicCatalogSummary();
-
+export function Header() {
   return (
-    <header className="sticky top-0 z-40 w-full border-b border-border bg-background/95">
-      <div className="container mx-auto flex h-16 max-w-7xl items-center px-4">
-        <Logo href="/" />
-        <HeaderNav isAuthenticated={!!user} user={user} toolCount={toolCount} />
+    <header className="sticky top-0 z-40 w-full border-b border-border bg-background/95 backdrop-blur-sm">
+      <div className="site-shell flex h-[72px] items-center gap-5 lg:h-20">
+        <Logo />
+        <HeaderNav />
       </div>
     </header>
   );

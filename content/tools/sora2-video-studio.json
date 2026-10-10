@@ -1,0 +1,18 @@
+{
+  "slug": "sora2-video-studio",
+  "name": "Sora2 Video Studio",
+  "tagline": "Sora2 free workflow for creating cinematic AI videos—manage prompts, references, queue status, and delivery in one studio.",
+  "description": "Sora2 free workflow for creating cinematic AI videos—manage prompts, references, queue status, and delivery in one studio.",
+  "url": "https://www.sora2video.blog/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=sora2video.blog&sz=64",
+  "screenshot_url": "/screenshots/sora2-video-studio.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 13,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "flippr",
+  "name": "Flippr",
+  "tagline": "Transform your PDFs into interactive flashcards instantly with AI-powered conversion. Perfect for students, researchers, and educators.",
+  "description": "Transform your PDFs into interactive flashcards instantly with AI-powered conversion. Perfect for students, researchers, and educators.",
+  "url": "https://flippr.pro",
+  "logo_url": "https://www.google.com/s2/favicons?domain=flippr.pro&sz=64",
+  "screenshot_url": "/screenshots/flippr.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 14,
+  "subcategory": "ai-education",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

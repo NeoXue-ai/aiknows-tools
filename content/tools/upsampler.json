@@ -1,0 +1,18 @@
+{
+  "slug": "upsampler",
+  "name": "Upsampler",
+  "tagline": "Upsampler brings together AI image generation, upscaling, restoration, editing, and video creation in one browser workspace.",
+  "description": "Upsampler brings together AI image generation, upscaling, restoration, editing, and video creation in one browser workspace.",
+  "url": "https://upsampler.video",
+  "logo_url": "https://www.google.com/s2/favicons?domain=upsampler.video&sz=64",
+  "screenshot_url": "/screenshots/upsampler.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 19,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

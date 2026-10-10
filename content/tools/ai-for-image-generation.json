@@ -1,0 +1,18 @@
+{
+  "slug": "ai-for-image-generation",
+  "name": "AI for Image Generation",
+  "tagline": "AI for Image Generation is a free online AI image generator built for the moment someone searches for a practical create-and-download tool—not a long…",
+  "description": "AI for Image Generation is a free online AI image generator built for the moment someone searches for a practical create-and-download tool—not a long demo tour. Creators, shop owners, and social marketers often need a cover, product hero, meme, or outfit visual now. The homepage puts the generator first: enter a prompt, optionally upload references, set aspect ratio and quality, generate one image, and download it for use. How it works: users write a text prompt describing the image they want. W",
+  "url": "https://aiforimagegeneration.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=aiforimagegeneration.com&sz=64",
+  "screenshot_url": "/screenshots/ai-for-image-generation.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

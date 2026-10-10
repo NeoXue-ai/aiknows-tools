@@ -1,0 +1,18 @@
+{
+  "slug": "mentor",
+  "name": "Mentor",
+  "tagline": "An AI coach that actually remembers you — goals, commitments, what you said weeks ago — and asks the question only someone who's followed you could…",
+  "description": "An AI coach that actually remembers you — goals, commitments, what you said weeks ago — and asks the question only someone who's followed you could ask.",
+  "url": "https://get-mentor.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=get-mentor.com&sz=64",
+  "screenshot_url": "/screenshots/mentor.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-tutor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

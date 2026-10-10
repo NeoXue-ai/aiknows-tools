@@ -1,0 +1,18 @@
+{
+  "slug": "flow-song",
+  "name": "Flow Song",
+  "tagline": "FlowSong&#x27;s AI turns your story into a personalized song with studio-quality vocals",
+  "description": "FlowSong&#x27;s AI turns your story into a personalized song with studio-quality vocals. Free to preview and create. Pay only when you love the result.",
+  "url": "https://flowsong.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=flowsong.app&sz=64",
+  "screenshot_url": "/screenshots/flow-song.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 22,
+  "subcategory": "ai-music-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

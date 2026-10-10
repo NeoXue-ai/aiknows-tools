@@ -1,0 +1,18 @@
+{
+  "slug": "sidekick",
+  "name": "Sidekick",
+  "tagline": "All in one AI Workstation with unlimited connections",
+  "description": "All in one AI Workstation with unlimited connections",
+  "url": "https://www.coretextai.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=coretextai.com&sz=64",
+  "screenshot_url": "/screenshots/sidekick.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 4.9,
+  "subcategory": "ai-agent",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

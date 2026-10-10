@@ -1,0 +1,21 @@
+{
+  "slug": "chorus-ai",
+  "name": "Chorus.ai",
+  "tagline": "Conversation intelligence",
+  "description": "AI that records, transcribes, and analyzes sales calls for coaching.",
+  "url": "https://chorus.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=chorus.ai&sz=64",
+  "screenshot_url": "/screenshots/chorus-ai.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "sales",
+    "calls"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "sales",
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

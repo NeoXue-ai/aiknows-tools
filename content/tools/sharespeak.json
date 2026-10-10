@@ -1,0 +1,18 @@
+{
+  "slug": "sharespeak",
+  "name": "ShareSpeak",
+  "tagline": "Voice-activated teleprompter that stays hidden while you present",
+  "description": "Voice-activated teleprompter that stays hidden while you present. Hands-free control for screen sharing and recordings. Perfect for presenters and content creators.",
+  "url": "https://sharespeak.co",
+  "logo_url": "https://www.google.com/s2/favicons?domain=sharespeak.co&sz=64",
+  "screenshot_url": "/screenshots/sharespeak.webp",
+  "primary_category": "writing-content",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-content-creator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

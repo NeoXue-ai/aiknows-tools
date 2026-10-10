@@ -1,0 +1,18 @@
+{
+  "slug": "create-a-caricature-of-me",
+  "name": "Create a Caricature of Me",
+  "tagline": "Create a caricature of me based on everything you know about me",
+  "description": "Create a caricature of me based on everything you know about me. Upload a photo and let our AI generate a personalized caricature reflecting your job, personality, and style in seconds.",
+  "url": "https://createcaricatureofme.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=createcaricatureofme.com&sz=64",
+  "screenshot_url": "/screenshots/create-a-caricature-of-me-1.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 11,
+  "subcategory": "ai-avatar-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

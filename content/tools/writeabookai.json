@@ -1,0 +1,18 @@
+{
+  "slug": "writeabookai",
+  "name": "WriteABookAI",
+  "tagline": "WriteABookAI lets professionals write and publish books fast. Generate clear outlines, draft chapters with AI and export a polished manuscript.",
+  "description": "WriteABookAI lets professionals write and publish books fast. Generate clear outlines, draft chapters with AI and export a polished manuscript.",
+  "url": "https://WriteABookAI.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=writeabookai.com&sz=64",
+  "screenshot_url": "/screenshots/writeabookai.webp",
+  "primary_category": "writing-content",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 21,
+  "subcategory": "ai-writer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

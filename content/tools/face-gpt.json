@@ -1,0 +1,18 @@
+{
+  "slug": "face-gpt",
+  "name": "Face GPT",
+  "tagline": "Face GPT: Advanced AI face swap and face analyzer. Use Face GPT swap for photo transformations, Face GPT analysis for insights. Fast and accurate.",
+  "description": "Face GPT: Advanced AI face swap and face analyzer. Use Face GPT swap for photo transformations, Face GPT analysis for insights. Fast and accurate.",
+  "url": "https://facegpt.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=facegpt.io&sz=64",
+  "screenshot_url": "/screenshots/face-gpt.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 22,
+  "subcategory": "ai-photo-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

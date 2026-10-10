@@ -1,0 +1,18 @@
+{
+  "slug": "123audio",
+  "name": "123audio",
+  "tagline": "Convert audio to text online for free with 123audio",
+  "description": "Convert audio to text online for free with 123audio. Get fast transcripts with timestamps, speaker labels, AI summaries, and TXT, DOCX, PDF or SRT exports.",
+  "url": "https://123audio.org/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=123audio.org&sz=64",
+  "screenshot_url": "/screenshots/123audio.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "speech-to-text-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "oc-maker",
+  "name": "OC Maker",
+  "tagline": "Create unique original characters with our AI-powered OC maker. Transform your ideas into stunning artwork instantly with ChatGPT 4o technology.",
+  "description": "Create unique original characters with our AI-powered OC maker. Transform your ideas into stunning artwork instantly with ChatGPT 4o technology.",
+  "url": "https://ocmaker.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=ocmaker.app&sz=64",
+  "screenshot_url": "/screenshots/oc-maker.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 39,
+  "subcategory": "ai-art-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

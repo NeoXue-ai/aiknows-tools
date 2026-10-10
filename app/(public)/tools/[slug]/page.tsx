@@ -1,3 +1,4 @@
+import {buildTitle, deriveMetaDescription} from "@/features/catalog/seo";
 import Link from "next/link";
 import Image from "next/image";
 import { pageMetadata } from "@/lib/seo/metadata";
@@ -5,21 +6,20 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ArrowUpRight, ExternalLink, Check, Minus } from "lucide-react";
 import { BreadcrumbNav } from "@/components/breadcrumb-nav";
-import { buttonVariants } from "@/components/ui/button-variants";
+import { ToolLogo } from "@/components/tool-logo";
 import {
   categoryName,
   toolJsonLd,
   breadcrumbJsonLd,
 } from "@/lib/seo/tool-schema";
-import { getPublicToolBySlug, getPublicTools } from "@/lib/public-catalog";
+import { getPublicToolBySlug, getPublicTools } from "@/features/catalog/server";
+import { slugifySub } from "@/lib/subcategories";
 import {
-  getEditorial,
-  editorialFaqs,
   type EditorialLink,
 } from "@/lib/editorial-content";
 import { siteUrl } from "@/lib/site";
 import { cn } from "@/lib/utils";
-import type { Tool } from "@/lib/supabase/types";
+import type { Tool } from "@/features/catalog/types";
 
 const R2_HOST = "pub-459c6f6553344cc393826444731f5707.r2.dev";
 
@@ -29,224 +29,6 @@ export async function generateStaticParams() {
 }
 
 type Props = { params: Promise<{ slug: string }> };
-
-// SEO: titles must survive Google's ~60-char truncation, so the whole title
-// (brand + hint) is budgeted rather than the hint alone. The catalog is machine
-// scraped — taglines carry markdown, URLs, emoji and their own tool name — so
-// every source is normalized before it reaches the <title>.
-const TITLE_BUDGET = 60;
-const TITLE_SEP = " — ";
-
-const EMOJI_RE =
-  /[\u{1F000}-\u{1FAFF}\u{2600}-\u{27BF}\u{2B00}-\u{2BFF}\u{FE0F}\u{2190}-\u{21FF}]/gu;
-
-const COPULA_RE = /^(?:is|are|was|were|has|have|had)\b[\s,]*/i;
-const VERB_RE =
-  /^(?:is|are|was|were|has|have|had|provides?|offers?|helps?|lets?|allows?|generates?|creates?|makes?|builds?|turns?|converts?|brings?|gives?|delivers?|powers?|enables?)\b[\s,]*/i;
-const DETERMINER_RE =
-  /^(?:a|an|the|any|all|each|every|some|many|your|their|his|her|its|our|my|more|better|new|free|you|us|me|them|one|two|three)\b/i;
-const LEAD_ARTICLE_RE = /^(?:a|an|the)\s+/i;
-const LEAD_PREP_RE = /^(?:with|from|by|on|via|using|through|for)\s+[^,]{1,40},\s*/i;
-const DANGLING_RE =
-  /\s+(?:is|are|was|were|be|been|to|for|with|and|or|of|in|on|at|by|from|as|that|which|the|a|an|your|its|this|these|it|&|,|-|–|—|:)\s*$/i;
-const GAP_RE =
-  /(?:^|\s)(?:your|my|our|its|his|her|the|a|an)\s+(?:for|with|and|or|to|in|on|of|at|by|from)\b/i;
-// Some rows store a whole SEO title in `name` ("Fansloader — Free OnlyFans Downloader").
-const NAME_SPLIT_RE = /^(.+?)(?:\s*[—–-]\s+|\s*\|\s+|\s*:\s+|\s*,\s+)(.+)$/;
-
-function escapeRe(s: string): string {
-  return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-}
-
-// Copy often drops the spaces in the brand ("TankBlaster" vs "Tank Blaster").
-// The lookahead below stops this from matching inside longer words.
-function looseRe(name: string): string {
-  return name.split(/\s+/).map(escapeRe).join("\\s*");
-}
-
-function cleanText(input: string | null | undefined): string {
-  if (!input) return "";
-  return String(input)
-    .replace(/\[([^\]]*)\]\([^)]*\)/g, "$1")
-    .replace(/<[^>]+>/g, " ")
-    .replace(/&nbsp;/gi, " ")
-    .replace(/&amp;/gi, "&")
-    .replace(/&lt;/gi, "<")
-    .replace(/&gt;/gi, ">")
-    .replace(/&quot;/gi, '"')
-    .replace(/&#(?:3[49]|x27);/gi, "'")
-    .replace(/https?:\/\/\S+/gi, " ")
-    .replace(EMOJI_RE, " ")
-    .replace(/\*\*|__|`/g, "")
-    .replace(/(?<!\w)[*_](?=\S)|(?=\S)[*_](?!\w)|(?<=\S)[*_](?!\w)/g, "")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
-const letterCount = (s: string) => s.replace(/[^\p{L}\p{N}]/gu, "").length;
-
-const trimTail = (s: string) =>
-  s.replace(/[.!?]+\s*$/, "").replace(/[\s,;:.\-–—]+$/, "").trim();
-
-function stripName(src: string, name: string): string {
-  if (!name) return src;
-  const loose = looseRe(name);
-  const possessive = new RegExp(
-    `([^\\p{L}\\p{N}])${loose}['’]s(?=$|[^\\p{L}\\p{N}])`,
-    "giu",
-  );
-  const plain = new RegExp(
-    `(^|[^\\p{L}\\p{N}])${loose}['’]?(?:s|re)?[?!:;.,]?(?=$|[^\\p{L}\\p{N}])`,
-    "giu",
-  );
-  let out = src.replace(possessive, "$1its").replace(plain, "$1");
-  for (let i = 0; i < 2; i++) {
-    const next = out.replace(plain, "$1");
-    if (next === out) break;
-    out = next;
-  }
-  out = out
-    .replace(/\s+([,.;:!?])/g, "$1")
-    .replace(/\s{2,}/g, " ")
-    .replace(/^[\s,;:.\-–—'"’]+/, "")
-    .trim();
-  // "Take your eye test online" -> "Take your for free" reads broken; keep the original.
-  if (GAP_RE.test(out) && !GAP_RE.test(src)) return src;
-  return out;
-}
-
-function prepareHint(sentence: string, name: string): string {
-  const labeled = sentence.replace(
-    /^(?:what it is|what it does|about|overview|features?|description)\s*[:\-—–]?\s*/i,
-    "",
-  );
-  const nameLed =
-    !!name && !!labeled.trim().match(new RegExp(`^${looseRe(name)}`, "i"));
-
-  const segments = labeled
-    .split(/\s+[—–]\s+|\s+-\s+/)
-    .map((p) => stripName(p, name))
-    .filter((p) => letterCount(p) >= 12);
-  const pool = segments.length ? segments.join(". ") : labeled;
-
-  // Brand glued to extra letters in the copy: "Chatterbox Turbo", "SajuGPTAI는".
-  let base = pool;
-  if (name.length >= 4) {
-    const lead = pool.match(new RegExp(`^${looseRe(name)}`, "i"));
-    const glued = lead && pool.charAt(lead[0].length);
-    if (lead && glued && /[\p{L}\p{N}]/u.test(glued)) {
-      base = pool.slice(lead[0].length).replace(/^[^\p{L}\p{N}]+/u, "").trim();
-    }
-  }
-  base = stripName(base, name).replace(LEAD_PREP_RE, "").trim();
-
-  let hint = base;
-  let strippedVerb = false;
-  for (let i = 0; i < 3; i++) {
-    const m = hint.match(nameLed ? COPULA_RE : VERB_RE);
-    if (!m) break;
-    const rest = hint.slice(m[0].length);
-    if (!COPULA_RE.test(m[0]) && DETERMINER_RE.test(rest)) break;
-    hint = rest.trim();
-    strippedVerb = true;
-  }
-  if (strippedVerb) hint = hint.replace(LEAD_ARTICLE_RE, "").trim();
-  for (let i = 0; i < 2; i++) {
-    const next = hint.replace(DANGLING_RE, "").trimEnd();
-    if (next === hint) break;
-    hint = next;
-  }
-  return trimTail(hint);
-}
-
-function clampHint(hint: string, budget: number, name: string): string {
-  hint = trimTail(hint);
-  if (hint.length <= budget) return hint;
-  const cut = hint.slice(0, budget - 1);
-  const lastSpace = cut.lastIndexOf(" ");
-  let out = (lastSpace > budget * 0.6 ? cut.slice(0, lastSpace) : cut).trimEnd();
-  for (let i = 0; i < 3; i++) {
-    const withoutName = name
-      ? out.replace(new RegExp(`\\s+${escapeRe(name)}['’]?$`, "i"), "")
-      : out;
-    const next = withoutName.replace(DANGLING_RE, "").trimEnd();
-    if (next === out) break;
-    out = next;
-  }
-  return out + "…";
-}
-
-function deriveFunctionHint(tool: Tool, name: string, budget: number): string {
-  const src = cleanText(tool.tagline) || cleanText(tool.description);
-  if (!src) return cleanText(tool.sub) || "AI Tool";
-
-  const sentences = src.split(/(?<=[.!?])\s+/).filter(Boolean);
-  let hint = "";
-  for (const sentence of sentences.slice(0, 3)) {
-    const candidate = prepareHint(sentence, name);
-    // "Bored with scrolling?" is a marketing hook, not a description.
-    const isHook = candidate.length < 28 && /[?!]\s*$/.test(sentence);
-    if (letterCount(candidate) >= 12 && !isHook) {
-      hint = candidate;
-      break;
-    }
-    hint = hint || candidate;
-  }
-  if (letterCount(hint) < 12) hint = cleanText(tool.sub) || "AI Tool";
-  return clampHint(hint[0].toUpperCase() + hint.slice(1), budget, name);
-}
-
-function buildTitle(tool: Tool): string {
-  const full = cleanText(tool.name);
-  if (!full) {
-    const src = cleanText(tool.tagline) || cleanText(tool.description);
-    if (!src) return cleanText(tool.sub) || "aiknows.tools";
-    return clampHint(deriveFunctionHint(tool, "", TITLE_BUDGET), TITLE_BUDGET, "");
-  }
-
-  const split = full.match(NAME_SPLIT_RE);
-  const head =
-    split && letterCount(split[1]) >= 4 && letterCount(split[2]) >= 8
-      ? split[1].trim()
-      : full;
-  const tail = head === full ? "" : split![2].trim();
-
-  if (head.length + TITLE_SEP.length >= TITLE_BUDGET) return head;
-  const budget = TITLE_BUDGET - head.length - TITLE_SEP.length;
-
-  let hint = "";
-  if (tail) {
-    const clauses = stripName(tail, head).split(/\s+[—–|]\s+/);
-    const chosen = trimTail(clauses.find((c) => letterCount(c) >= 12) ?? clauses[0]);
-    if (chosen) {
-      const candidate = clampHint(
-        chosen[0].toUpperCase() + chosen.slice(1),
-        budget,
-        head,
-      );
-      if (letterCount(candidate.replace(/…$/, "")) >= 12) hint = candidate;
-    }
-  }
-  if (!hint) hint = deriveFunctionHint(tool, head, budget);
-  if (!hint || head.toLowerCase() === hint.toLowerCase()) return head;
-  return `${head}${TITLE_SEP}${hint}`;
-}
-
-function deriveMetaDescription(tool: Tool): string {
-  const trailing =
-    " Listed on aiknows.tools — see source, recorded evidence, and editorial notes.";
-  const budget = 158 - trailing.length;
-  const source =
-    cleanText(tool.tagline) || cleanText(tool.description) || cleanText(tool.sub);
-  if (!source) {
-    return `${tool.name} is recorded in the AIknows.tools index.`;
-  }
-  const head =
-    source.length <= budget
-      ? source
-      : source.slice(0, budget - 1).replace(DANGLING_RE, "").trimEnd() + "…";
-  return head + trailing;
-}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
@@ -357,11 +139,11 @@ export default async function ToolDetailPage({ params }: Props) {
     ],
     siteUrl,
   );
-  const faqs = [...deriveFAQs(tool, category, domain), ...editorialFaqs(tool)];
-  const editorial = getEditorial(slug);
+  const faqs = [...deriveFAQs(tool, category, domain), ...(tool.editorial?.faqs ?? [])];
+  const editorial = tool.editorial ?? null;
 
   return (
-    <div className="container mx-auto max-w-6xl px-4 py-8 md:py-12">
+    <div className="mx-auto w-full max-w-[1200px] px-5 py-10 sm:px-8 md:py-14">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -388,7 +170,7 @@ export default async function ToolDetailPage({ params }: Props) {
         />
         <Link
           href={`/categories/${tool.primary_category}`}
-          className="inline-flex items-center gap-1 rounded-md border border-border bg-card px-3 py-1.5 text-xs font-medium text-foreground transition-colors hover:border-accent/40 hover:text-accent"
+          className="inline-flex items-center gap-1 rounded-full border border-border bg-card px-3.5 py-2 text-xs font-medium text-foreground transition-colors hover:border-accent/30 hover:text-accent"
         >
           Browse {category}
           <ArrowUpRight className="h-3 w-3" />
@@ -396,9 +178,9 @@ export default async function ToolDetailPage({ params }: Props) {
       </div>
 
       {/* Header — text identity on left, screenshot evidence on right */}
-      <header className="mt-5 grid gap-6 border-b border-border pb-6 lg:grid-cols-[minmax(0,1fr)_18rem] lg:gap-10">
+      <header className="mt-10 grid items-center gap-8 border-b border-border pb-10 lg:grid-cols-[minmax(0,1fr)_25rem] lg:gap-16">
         <div className="min-w-0">
-          <div className="flex flex-wrap items-center gap-x-3 gap-y-1 font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground/80">
+          <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-xs text-muted-foreground">
             <Link
               href={`/categories/${tool.primary_category}`}
               className="text-accent transition-colors hover:text-foreground"
@@ -409,7 +191,7 @@ export default async function ToolDetailPage({ params }: Props) {
               <>
                 <span className="text-border">/</span>
                 <Link
-                  href={`/categories/${tool.sub}`}
+                  href={`/categories/${slugifySub(tool.sub)}`}
                   className="transition-colors hover:text-foreground"
                 >
                   {tool.sub}
@@ -425,7 +207,7 @@ export default async function ToolDetailPage({ params }: Props) {
             {tool.is_verified && (
               <>
                 <span className="text-border">·</span>
-                <span className="text-emerald-500">Verified</span>
+                <span className="text-accent">Verified</span>
               </>
             )}
             {tool.is_featured && (
@@ -436,22 +218,25 @@ export default async function ToolDetailPage({ params }: Props) {
             )}
           </div>
 
-          <h1 className="mt-2 text-balance text-3xl font-semibold tracking-[-0.03em] sm:text-4xl">
-            {tool.name}
-          </h1>
+          <div className="mt-5 flex min-w-0 items-center gap-4">
+            <ToolLogo name={tool.name} logoUrl={tool.logo_url} size="lg" />
+            <h1 className="min-w-0 text-balance text-4xl font-semibold tracking-[-0.045em] [overflow-wrap:anywhere] sm:text-5xl">
+              {tool.name}
+            </h1>
+          </div>
 
           {tool.tagline?.trim() ? (
-            <p className="mt-2 max-w-2xl text-balance text-base leading-6 text-muted-foreground">
+            <p className="mt-5 max-w-2xl text-pretty text-base leading-7 text-muted-foreground">
               {tool.tagline}
             </p>
           ) : null}
 
-          <div className="mt-4 flex flex-wrap items-center gap-3">
+          <div className="mt-7 flex flex-wrap items-center gap-5">
             <a
               href={tool.url}
               target="_blank"
               rel="noopener noreferrer"
-              className={cn(buttonVariants({ size: "sm" }), "gap-1.5")}
+              className="action-primary"
             >
               Visit website
               <ExternalLink className="h-3.5 w-3.5" />
@@ -467,17 +252,16 @@ export default async function ToolDetailPage({ params }: Props) {
         </div>
 
         {/* Screenshot — visual evidence next to the name */}
-        <figure className="min-w-0 self-start">
-          <div className="relative aspect-video w-full overflow-hidden border border-border bg-muted">
+        <figure className="min-w-0 rounded-2xl border border-border bg-card p-3">
+          <div className="relative aspect-[16/10] w-full overflow-hidden rounded-xl border border-border/60 bg-secondary">
             {tool.screenshot_url ? (
               tool.screenshot_url.includes(R2_HOST) ? (
                 <Image
                   src={tool.screenshot_url}
                   alt={`${tool.name} screenshot`}
                   fill
-                  priority
-                  fetchPriority="high"
-                  sizes="(max-width: 1024px) 100vw, 288px"
+                  preload
+                  sizes="(max-width: 1024px) 100vw, 400px"
                   className="object-cover object-top"
                 />
               ) : (
@@ -490,19 +274,20 @@ export default async function ToolDetailPage({ params }: Props) {
                 />
               )
             ) : (
-              <div className="flex h-full w-full items-center justify-center text-[10px] uppercase tracking-wider text-muted-foreground/60">
-                Screenshot not recorded
+              <div className="flex h-full w-full flex-col items-center justify-center gap-3 text-accent">
+                <span className="flex h-16 w-16 items-center justify-center rounded-2xl border border-accent/10 bg-card text-2xl font-semibold">{tool.name.slice(0, 1).toUpperCase()}</span>
+                <span className="text-xs text-muted-foreground">Preview unavailable</span>
               </div>
             )}
           </div>
-          <figcaption className="mt-1.5 font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground/70">
-            Recorded screenshot
+          <figcaption className="px-1 pb-1 pt-3 text-xs text-muted-foreground">
+            Website preview
           </figcaption>
         </figure>
       </header>
 
       {/* 2-col grid — article + sidebar */}
-      <div className="mt-8 grid gap-10 lg:grid-cols-[minmax(0,1fr)_18rem]">
+      <div className="mt-12 grid gap-12 lg:grid-cols-[minmax(0,1fr)_20rem] lg:gap-16">
         <article className="min-w-0 space-y-12">
           {/* About */}
           <section id="sec-about" className="scroll-mt-24">
@@ -514,11 +299,7 @@ export default async function ToolDetailPage({ params }: Props) {
                 <p className="whitespace-pre-line">{tool.description}</p>
               ) : (
                 <p className="text-muted-foreground">
-                  No long description has been recorded for {tool.name}. The
-                  entry carries the tagline
-                  {tool.tagline?.trim() ? ` "${tool.tagline}"` : ""} and the
-                  category placement, but no editorial body. Direct knowledge
-                  of this tool can be submitted to update the record.
+                  A detailed description hasn&apos;t been added yet. Visit the official website to learn more about {tool.name}.
                 </p>
               )}
             </div>
@@ -531,7 +312,7 @@ export default async function ToolDetailPage({ params }: Props) {
                 <h2 className="text-xl font-semibold tracking-[-0.02em]">
                   {editorial.comparison.heading}
                 </h2>
-                <span className="font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground/70">
+                <span className="text-xs text-muted-foreground">
                   Editorial
                 </span>
               </div>
@@ -548,7 +329,7 @@ export default async function ToolDetailPage({ params }: Props) {
                         key={pt.label}
                         className="flex flex-col gap-1 py-3.5 sm:flex-row sm:items-baseline sm:gap-6"
                       >
-                        <span className="shrink-0 font-mono text-[10px] uppercase tracking-[0.14em] text-accent sm:w-36">
+                        <span className="shrink-0 text-xs font-medium text-accent sm:w-36">
                           {pt.label}
                         </span>
                         <span className="text-sm leading-6 text-foreground/90">
@@ -561,7 +342,7 @@ export default async function ToolDetailPage({ params }: Props) {
               {editorial.externalLinks &&
                 editorial.externalLinks.length > 0 && (
                   <div className="mt-6">
-                    <p className="font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground">
+                    <p className="text-xs text-muted-foreground">
                       Related resources
                     </p>
                     <ul className="mt-2.5 space-y-1.5">
@@ -592,9 +373,9 @@ export default async function ToolDetailPage({ params }: Props) {
           <section id="sec-fields" className="scroll-mt-24">
             <div className="flex items-baseline justify-between gap-4">
               <h2 className="text-xl font-semibold tracking-[-0.02em]">
-                Recorded fields
+                Listing information
               </h2>
-              <span className="font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground/70">
+              <span className="text-xs text-muted-foreground">
                 {[
                   tool.is_featured && "feature",
                   tool.is_verified && "verify",
@@ -606,7 +387,7 @@ export default async function ToolDetailPage({ params }: Props) {
                   typeof tool.dr === "number" && "DR",
                   tool.screenshot_url && "screenshot",
                   tool.logo_url && "logo",
-                ].filter(Boolean).length} / 10 recorded
+                ].filter(Boolean).length} of 10 details available
               </span>
             </div>
             <dl className="mt-4 grid grid-cols-1 gap-x-8 border-y border-border sm:grid-cols-2">
@@ -663,7 +444,7 @@ export default async function ToolDetailPage({ params }: Props) {
                     <span>{faq.question}</span>
                     <span
                       aria-hidden
-                      className="shrink-0 font-mono text-xs text-muted-foreground/60 transition-transform group-open:rotate-45"
+                      className="shrink-0 text-base text-muted-foreground/60 transition-transform group-open:rotate-45"
                     >
                       +
                     </span>
@@ -679,9 +460,9 @@ export default async function ToolDetailPage({ params }: Props) {
 
         {/* Sticky sidebar — snapshot + related */}
         <aside className="lg:sticky lg:top-24 lg:self-start space-y-6">
-          <section className="border border-border bg-card p-5">
-            <p className="font-mono text-[10px] uppercase tracking-[0.16em] text-accent">
-              Snapshot
+          <section className="rounded-2xl border border-border bg-card p-6">
+            <p className="text-sm font-semibold text-foreground">
+              At a glance
             </p>
             <dl className="mt-4 space-y-2.5 text-sm">
               <SidebarField label="Domain" value={domain ?? "Not recorded"} mono />
@@ -698,7 +479,7 @@ export default async function ToolDetailPage({ params }: Props) {
               )}
               {tool.source && (
                 <div className="flex items-baseline justify-between gap-3">
-                  <dt className="font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground">
+                  <dt className="text-xs text-muted-foreground">
                     Source
                   </dt>
                   <dd className="truncate text-right text-sm text-foreground">
@@ -718,21 +499,21 @@ export default async function ToolDetailPage({ params }: Props) {
                 </div>
               )}
               {(() => {
-                const recorded = formatDate(tool.published_at || tool.created_at);
+                const recorded = formatDate(tool.published_at);
                 return recorded ? (
                   <SidebarField label="Recorded" value={recorded} mono />
                 ) : null;
               })()}
               {tool.tags.length > 0 && (
                 <div className="border-t border-border pt-2.5">
-                  <dt className="font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground">
+                  <dt className="text-xs text-muted-foreground">
                     Tags
                   </dt>
                   <dd className="mt-1.5 flex flex-wrap gap-1.5">
                     {tool.tags.map((tag) => (
                       <span
                         key={tag}
-                        className="border border-border px-1.5 py-0.5 font-mono text-[10px] uppercase tracking-[0.1em] text-muted-foreground"
+                        className="rounded-full border border-border bg-secondary/50 px-2.5 py-1 text-xs text-muted-foreground"
                       >
                         {tag}
                       </span>
@@ -744,8 +525,8 @@ export default async function ToolDetailPage({ params }: Props) {
           </section>
 
           {related.length > 0 && (
-            <section className="border border-border bg-card p-5">
-              <p className="font-mono text-[10px] uppercase tracking-[0.16em] text-accent">
+            <section className="rounded-2xl border border-border bg-card p-6">
+              <p className="text-sm font-semibold text-foreground">
                 More in {category}
               </p>
               <ul className="mt-3 divide-y divide-border">
@@ -759,7 +540,7 @@ export default async function ToolDetailPage({ params }: Props) {
                         {r.name}
                       </span>
                       {typeof r.dr === "number" && (
-                        <span className="shrink-0 font-mono text-[10px] tabular-nums text-muted-foreground/70">
+                        <span className="shrink-0 text-xs tabular-nums text-muted-foreground">
                           DR {r.dr}
                         </span>
                       )}
@@ -802,13 +583,13 @@ function FieldRow({
 }) {
   return (
     <div className="flex items-baseline justify-between gap-3 border-b border-border py-2.5 last:border-b-0">
-      <dt className="font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground">
+      <dt className="text-xs text-muted-foreground">
         {label}
       </dt>
-      <div className="flex min-w-0 items-baseline gap-1.5 text-right text-sm">
+      <dd className="flex min-w-0 items-baseline gap-1.5 text-right text-sm">
         {recorded ? (
           <>
-            <Check className="h-3 w-3 shrink-0 text-emerald-500" />
+            <Check className="h-3 w-3 shrink-0 text-accent" />
             <span className="truncate text-foreground">{value ?? "Recorded"}</span>
           </>
         ) : (
@@ -817,7 +598,7 @@ function FieldRow({
             <span className="text-muted-foreground">Not recorded</span>
           </>
         )}
-      </div>
+      </dd>
     </div>
   );
 }
@@ -833,13 +614,13 @@ function SidebarField({
 }) {
   return (
     <div className="flex items-baseline justify-between gap-3">
-      <dt className="font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground">
+      <dt className="text-xs text-muted-foreground">
         {label}
       </dt>
       <dd
         className={cn(
           "truncate text-right text-sm text-foreground",
-          mono && "font-mono tabular-nums",
+          mono && "tabular-nums",
         )}
       >
         {value}

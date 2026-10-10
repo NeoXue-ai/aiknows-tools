@@ -1,0 +1,21 @@
+{
+  "slug": "tabnine",
+  "name": "Tabnine",
+  "tagline": "AI code assistant",
+  "description": "Privacy-focused AI code completions and chat, deployable on-prem.",
+  "url": "https://tabnine.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=tabnine.com&sz=64",
+  "screenshot_url": "/screenshots/tabnine.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "completion",
+    "privacy"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-code-generator",
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

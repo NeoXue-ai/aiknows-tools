@@ -1,0 +1,18 @@
+{
+  "slug": "changetextimage",
+  "name": "ChangeTextImage",
+  "tagline": "AI-powered image text editor that replaces text inside images while preserving the original font, style, colors, and background",
+  "description": "AI-powered image text editor that replaces text inside images while preserving the original font, style, colors, and background. Upload JPG, PNG, WebP, photos, or screenshots to edit posters, product images, and social media graphics without Photoshop.",
+  "url": "https://changetextimage.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=changetextimage.com&sz=64",
+  "screenshot_url": "/screenshots/changetextimage.webp",
+  "primary_category": "seo-marketing",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "social-media",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

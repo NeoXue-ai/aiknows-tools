@@ -1,0 +1,18 @@
+{
+  "slug": "meigen",
+  "name": "Meigen",
+  "tagline": "Use Meigen AI video generator and prompt gallery to turn text or images into short videos, find proven prompts, and create publish-ready content…",
+  "description": "Use Meigen AI video generator and prompt gallery to turn text or images into short videos, find proven prompts, and create publish-ready content faster.",
+  "url": "https://meigen.cc",
+  "logo_url": "https://www.google.com/s2/favicons?domain=meigen.cc&sz=64",
+  "screenshot_url": "/screenshots/meigen.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 19,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

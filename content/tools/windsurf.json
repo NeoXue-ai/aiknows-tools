@@ -1,0 +1,21 @@
+{
+  "slug": "windsurf",
+  "name": "Windsurf",
+  "tagline": "Agentic IDE by Codeium",
+  "description": "AI IDE with flows that plan and apply multi-file changes.",
+  "url": "https://codeium.com/windsurf",
+  "logo_url": "https://www.google.com/s2/favicons?domain=codeium.com&sz=64",
+  "screenshot_url": "/screenshots/windsurf.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "ide",
+    "agent"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-agent",
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

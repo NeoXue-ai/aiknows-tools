@@ -1,0 +1,18 @@
+{
+  "slug": "dedalus-labs",
+  "name": "Dedalus Labs",
+  "tagline": "Dedalus Labs provides high-performance infrastructure designed specifically for the next generation of AI agents",
+  "description": "Dedalus Labs provides high-performance infrastructure designed specifically for the next generation of AI agents. The platform offers Dedalus Machines, which are recognized as the fastest persistent sandboxes available for hosting stateful agents. These virtual machines allow developers to spin up long-running environments in less than 50ms, ensuring that agents remain active and never sleep. Unified API and Model Access The platform simplifies the development process by providing a single gatew",
+  "url": "https://www.dedaluslabs.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=dedaluslabs.ai&sz=64",
+  "screenshot_url": "/screenshots/dedalus-labs.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 30,
+  "subcategory": "ai-agent",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

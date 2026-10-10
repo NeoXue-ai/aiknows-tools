@@ -1,0 +1,18 @@
+{
+  "slug": "pippin-overthinking-journal",
+  "name": "Pippin - Overthinking Journal",
+  "tagline": "Minimalist journal app for overthinkers. Quiet your mind: write it down, lock it away, and let it go.",
+  "description": "Minimalist journal app for overthinkers. Quiet your mind: write it down, lock it away, and let it go.",
+  "url": "https://getpippin.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=getpippin.app&sz=64",
+  "screenshot_url": "/screenshots/pippin-overthinking-journal.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 26,
+  "subcategory": "ai-note-taker",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

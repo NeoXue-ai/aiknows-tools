@@ -1,0 +1,18 @@
+{
+  "slug": "beard-remover",
+  "name": "Beard Remover",
+  "tagline": "Beardremover.com is a professional online beard remover site, offering a powerful beard remover filter and an app that removes beards from photos.",
+  "description": "Beardremover.com is a professional online beard remover site, offering a powerful beard remover filter and an app that removes beards from photos.",
+  "url": "https://beardremover.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=beardremover.com&sz=64",
+  "screenshot_url": "/screenshots/beard-remover.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 16,
+  "subcategory": "ai-photo-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

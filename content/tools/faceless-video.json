@@ -1,0 +1,18 @@
+{
+  "slug": "faceless-video",
+  "name": "Faceless Video",
+  "tagline": "Build a faceless video series for TikTok, YouTube Shorts, and Instagram Reels",
+  "description": "Build a faceless video series for TikTok, YouTube Shorts, and Instagram Reels. Pick a story family, choose your posting frequency, and let AI generate ready-to-post drafts on a schedule.",
+  "url": "https://faceless-video.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=faceless-video.com&sz=64",
+  "screenshot_url": "/screenshots/faceless-video.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 31,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

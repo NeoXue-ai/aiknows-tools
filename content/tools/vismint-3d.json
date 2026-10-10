@@ -1,0 +1,18 @@
+{
+  "slug": "vismint-3d",
+  "name": "Vismint 3D",
+  "tagline": "Vismint is an AI image to 3D model generator for creators",
+  "description": "Vismint is an AI image to 3D model generator for creators. Convert 2D pictures into production-ready 3D assets, export GLB, and use in Blender, Unity, and UE5.",
+  "url": "https://vismint.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=vismint.com&sz=64",
+  "screenshot_url": "/screenshots/vismint-3d.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 28,
+  "subcategory": "ai-3d-model-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

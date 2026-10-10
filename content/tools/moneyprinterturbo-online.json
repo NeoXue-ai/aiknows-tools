@@ -1,0 +1,18 @@
+{
+  "slug": "moneyprinterturbo-online",
+  "name": "MoneyPrinterTurbo Online",
+  "tagline": "**MoneyPrinterTurbo Online** is the hosted version of the open-source MoneyPrinterTurbo project — the same pipeline, but running in your browser…",
+  "description": "**MoneyPrinterTurbo Online** is the hosted version of the open-source MoneyPrinterTurbo project — the same pipeline, but running in your browser instead of behind a Python + FFmpeg + API-key setup. Enter a topic or paste a script and it handles the whole job: - Writes a hook-first short-video script - Matches HD stock footage from Pexels, Pixabay and Coverr - Generates an AI voiceover in multiple voices and languages - Burns in auto-generated subtitles for silent autoplay - Mixes in background m",
+  "url": "https://moneyprinterturbo.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=moneyprinterturbo.app&sz=64",
+  "screenshot_url": "/screenshots/moneyprinterturbo-online.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-voice-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

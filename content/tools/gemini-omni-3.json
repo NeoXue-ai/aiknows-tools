@@ -1,0 +1,18 @@
+{
+  "slug": "gemini-omni-3",
+  "name": "Gemini Omni",
+  "tagline": "Gemini Omni — Google&#x27;s unified multimodal video model",
+  "description": "Gemini Omni — Google&#x27;s unified multimodal video model. Generate, remix, and edit production-ready videos in chat with class-leading text rendering.",
+  "url": "https://gemini-omni.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=gemini-omni.ai&sz=64",
+  "screenshot_url": "/screenshots/gemini-omni-2.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 33,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

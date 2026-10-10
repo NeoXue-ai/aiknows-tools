@@ -1,0 +1,18 @@
+{
+  "slug": "facturwise",
+  "name": "Facturwise",
+  "tagline": "Facturwise is a specialized invoicing platform designed specifically for the European market, focusing on simplicity and regulatory compliance",
+  "description": "Facturwise is a specialized invoicing platform designed specifically for the European market, focusing on simplicity and regulatory compliance. Unlike general-purpose tools that attempt to serve as full ERP systems, Facturwise prioritizes core financial tasks such as creating quotes, invoices, and credit notes. It is built from the ground up to handle EU-specific requirements like VAT handling and SEPA payments without the need for complex configurations. Automated Compliance and E-Invoicing The",
+  "url": "https://www.facturwise.com/en",
+  "logo_url": "https://www.google.com/s2/favicons?domain=facturwise.com&sz=64",
+  "screenshot_url": "/screenshots/facturwise.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 17,
+  "subcategory": "ai-music-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

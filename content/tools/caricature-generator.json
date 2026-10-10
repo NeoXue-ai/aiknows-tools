@@ -1,0 +1,18 @@
+{
+  "slug": "caricature-generator",
+  "name": "Caricature Generator",
+  "tagline": "Turn photos into hilarious caricatures instantly with AI. Free trial, no skills needed. Create your cartoon portrait in seconds.",
+  "description": "Turn photos into hilarious caricatures instantly with AI. Free trial, no skills needed. Create your cartoon portrait in seconds.",
+  "url": "https://www.caricature-generator.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=caricature-generator.app&sz=64",
+  "screenshot_url": "/screenshots/caricature-generator.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 6,
+  "subcategory": "ai-avatar-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

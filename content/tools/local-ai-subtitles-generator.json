@@ -1,0 +1,18 @@
+{
+  "slug": "local-ai-subtitles-generator",
+  "name": "Local AI Subtitles Generator",
+  "tagline": "Create subtitles for YouTube videos, tutorials, podcasts & screen recordings with OpenAI Whisper models running locally",
+  "description": "Create subtitles for YouTube videos, tutorials, podcasts & screen recordings with OpenAI Whisper models running locally. 100% private Local AI. No usage limits, no data upload, runs in your browser. 90+ languages, completely free forever.",
+  "url": "https://localai.tools/srt-generator",
+  "logo_url": "https://www.google.com/s2/favicons?domain=localai.tools&sz=64",
+  "screenshot_url": "/screenshots/local-and-private-ai-subtitles-generator.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 12,
+  "subcategory": "speech-to-text-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

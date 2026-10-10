@@ -1,0 +1,18 @@
+{
+  "slug": "glanced",
+  "name": "Glanced",
+  "tagline": "Glanced is the unified reader for the news, blogs, newsletters, and podcasts you follow, all in one calm timeline",
+  "description": "Glanced is the unified reader for the news, blogs, newsletters, and podcasts you follow, all in one calm timeline. AI summaries cut through the noise so you decide in seconds what's worth reading. Stories cluster same-event coverage across sources so you see the news, not the duplicates. Instant full-text search spans your whole archive. Read anywhere on web, desktop, iOS, and Android, all synced in real time, with a browser extension that finds feeds as you browse. Free to start.",
+  "url": "https://www.glanced.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=glanced.io&sz=64",
+  "screenshot_url": "/screenshots/glanced.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "chrome-extensions",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

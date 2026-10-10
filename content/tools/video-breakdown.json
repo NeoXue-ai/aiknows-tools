@@ -1,0 +1,18 @@
+{
+  "slug": "video-breakdown",
+  "name": "Video Breakdown",
+  "tagline": "Video Breakdown is an online video-to-prompt tool for AI video creators",
+  "description": "Video Breakdown is an online video-to-prompt tool for AI video creators. It solves a simple problem: when users find or own a reference video and want to recreate its subject, setting, camera movement, lighting, rhythm, style, and mood, manually pausing, screenshotting, rewatching, and writing notes is slow and often misses important details. Video Breakdown turns the video into a structured prompt pack that users can copy into video generation tools such as Veo, Runway, Kling, Sora, and Seedanc",
+  "url": "https://videobreakdown.net",
+  "logo_url": "https://www.google.com/s2/favicons?domain=videobreakdown.net&sz=64",
+  "screenshot_url": "/screenshots/video-breakdown.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

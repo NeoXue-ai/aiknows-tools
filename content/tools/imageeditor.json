@@ -1,0 +1,18 @@
+{
+  "slug": "imageeditor",
+  "name": "ImageEditor",
+  "tagline": "Use ImageEditor as your free AI image editor to remove backgrounds, upscale photos, replace objects, and generate new visuals from text online.",
+  "description": "Use ImageEditor as your free AI image editor to remove backgrounds, upscale photos, replace objects, and generate new visuals from text online.",
+  "url": "https://imageditor.net",
+  "logo_url": "https://www.google.com/s2/favicons?domain=imageditor.net&sz=64",
+  "screenshot_url": "/screenshots/imageeditor.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 23,
+  "subcategory": "ai-background-remover",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

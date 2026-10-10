@@ -1,0 +1,18 @@
+{
+  "slug": "shipixen",
+  "name": "Shipixen",
+  "tagline": "Ship Next.js 15 apps with an MDX blog in minutes",
+  "description": "Ship Next.js 15 apps with an MDX blog in minutes. TypeScript, Shadcn UI and all components you need to build for your app, website, product or blog. SEO optimized, responsive and performant.",
+  "url": "https://shipixen.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=shipixen.com&sz=64",
+  "screenshot_url": "/screenshots/shipixen.webp",
+  "primary_category": "seo-marketing",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 59,
+  "subcategory": "ai-seo-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

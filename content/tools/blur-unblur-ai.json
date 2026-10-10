@@ -1,0 +1,18 @@
+{
+  "slug": "blur-unblur-ai",
+  "name": "Blur & Unblur AI",
+  "tagline": "Blur & Unblur AI is a free private image editor built for fast face privacy workflows",
+  "description": "Blur & Unblur AI is a free private image editor built for fast face privacy workflows. Upload a photo locally in your browser, detect faces automatically, remove false detections, draw manual lasso masks when needed, blur selected faces, unblur selected face regions, or blur the entire image. The editor runs with browser Canvas and client-side JavaScript, so your source photo is not sent to an upload or processing server. When the result looks right, export a clean PNG without guide boxes or edi",
+  "url": "https://blur-unblur.github.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=blur-unblur.github.io&sz=64",
+  "screenshot_url": "/screenshots/blur-unblur-ai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-photo-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

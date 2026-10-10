@@ -1,0 +1,18 @@
+{
+  "slug": "readio",
+  "name": "Readio",
+  "tagline": "Readio is an AI-powered text-to-speech platform built for people who want a more natural and productive way to read online content, documents, and…",
+  "description": "Readio is an AI-powered text-to-speech platform built for people who want a more natural and productive way to read online content, documents, and ebooks. Similar to tools like Natural Readers and Speechify, Readio turns text into lifelike audio so users can listen to webpages, PDFs, EPUBs, DOCX files, and other common formats hands-free. It is designed for long-form reading and focused listening, with natural-sounding AI voices, multilingual support, real-time text highlighting, smart content f",
+  "url": "https://readiolabs.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=readiolabs.org&sz=64",
+  "screenshot_url": "/screenshots/readio.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 19,
+  "subcategory": "ai-voice-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

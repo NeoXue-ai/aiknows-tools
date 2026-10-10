@@ -1,0 +1,18 @@
+{
+  "slug": "betula-assistant",
+  "name": "Betula Assistant",
+  "tagline": "Your Second Brain That Gets Things Done Betula is an AI assistant you can simply call or text whenever something comes to mind",
+  "description": "Your Second Brain That Gets Things Done Betula is an AI assistant you can simply call or text whenever something comes to mind. It remembers what matters, communicates on your behalf, and follows through on tasks and commitments—bringing your calls, reminders, notes, meetings, and everyday requests into one continuous conversation. More Than a Phone Assistant Betula gives you a dedicated phone number that can answer calls, block spam, qualify leads, take messages, and text you live during import",
+  "url": "https://betula.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=betula.ai&sz=64",
+  "screenshot_url": "/screenshots/betula-assistant.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-assistant",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

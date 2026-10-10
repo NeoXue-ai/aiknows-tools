@@ -1,0 +1,18 @@
+{
+  "slug": "exodeui",
+  "name": "ExodeUI",
+  "tagline": "ExodeUI is the first Evolutionary Interface Engine—combining real-time physics, liquid aesthetics, and AI Brains into a single design runtime",
+  "description": "ExodeUI is the first Evolutionary Interface Engine—combining real-time physics, liquid aesthetics, and AI Brains into a single design runtime. The Unreal Engine for App UI.",
+  "url": "https://exodeui.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=exodeui.com&sz=64",
+  "screenshot_url": "/screenshots/exodeui.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 9,
+  "subcategory": "ai-graphic-design",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

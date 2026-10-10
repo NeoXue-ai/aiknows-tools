@@ -1,0 +1,18 @@
+{
+  "slug": "openhunts",
+  "name": "OpenHunts",
+  "tagline": "Discover and launch new tech products on OpenHunts—a Product Hunt alternative for makers and developers",
+  "description": "Discover and launch new tech products on OpenHunts—a Product Hunt alternative for makers and developers. Explore, upvote, and submit your startup today.",
+  "url": "https://openhunts.com",
+  "logo_url": "https://pub-459c6f6553344cc393826444731f5707.r2.dev/upload-1766543585216.png",
+  "screenshot_url": "/screenshots/openhunts.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": "https://findly.tools",
+  "dr": 67,
+  "subcategory": null,
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

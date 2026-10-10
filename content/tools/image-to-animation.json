@@ -1,0 +1,18 @@
+{
+  "slug": "image-to-animation",
+  "name": "Image to Animation",
+  "tagline": "Transform static images into dynamic animations in seconds. Professional quality, free to start, no watermarks.",
+  "description": "Transform static images into dynamic animations in seconds. Professional quality, free to start, no watermarks.",
+  "url": "https://imagetoanimation.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=imagetoanimation.com&sz=64",
+  "screenshot_url": "/screenshots/image-to-animation.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 27,
+  "subcategory": "image-to-video-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}
