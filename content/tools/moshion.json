@@ -1,0 +1,18 @@
+{
+  "slug": "moshion",
+  "name": "Moshion",
+  "tagline": "Discover AI products and directories in a curated, ranked index.",
+  "description": null,
+  "url": "https://moshion.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=moshion.app&sz=64",
+  "screenshot_url": "/screenshots/moshion.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 8,
+  "subcategory": "directories",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

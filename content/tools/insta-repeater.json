@@ -1,0 +1,18 @@
+{
+  "slug": "insta-repeater",
+  "name": "Insta Repeater",
+  "tagline": "Instantly repeat text up to 10,000 times with instarepeater.com",
+  "description": "Instantly repeat text up to 10,000 times with instarepeater.com. Perfect for generating 'I love you' 100 times, 'Sorry' 1000 times, crazy fonts, and emoji patterns. 100% private and fast.",
+  "url": "https://instarepeater.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=instarepeater.com&sz=64",
+  "screenshot_url": "/screenshots/insta-repeater.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 7,
+  "subcategory": "ai-graphic-design",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

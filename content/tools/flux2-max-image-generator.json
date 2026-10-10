@@ -1,0 +1,18 @@
+{
+  "slug": "flux2-max-image-generator",
+  "name": "FLUX.2 [max] Image Generator",
+  "tagline": "Generate high-quality AI images with FLUX.2 [max]. Explore prompts, image editing workflows, and curated examples for consistent results.",
+  "description": "Generate high-quality AI images with FLUX.2 [max]. Explore prompts, image editing workflows, and curated examples for consistent results.",
+  "url": "https://flux2max.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=flux2max.app&sz=64",
+  "screenshot_url": "/screenshots/flux-2-max-image-generator.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 16,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

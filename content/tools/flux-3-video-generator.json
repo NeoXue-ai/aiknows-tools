@@ -1,0 +1,18 @@
+{
+  "slug": "flux-3-video-generator",
+  "name": "FLUX 3 Video Generator",
+  "tagline": "What it does FLUX 3 Video Generator is a browser-based workspace for creating short videos with synchronized audio",
+  "description": "What it does FLUX 3 Video Generator is a browser-based workspace for creating short videos with synchronized audio. Start from a text prompt or guide the result with images, video references, first and last frames, dialogue, and sound direction. Key benefits - Generate video and audio together in one workflow - Use text, images, references, or keyframes for more control - Describe dialogue, ambience, and sound effects alongside the visuals - Iterate without installing local software It is built",
+  "url": "https://flux3-video.online",
+  "logo_url": "https://www.google.com/s2/favicons?domain=flux3-video.online&sz=64",
+  "screenshot_url": "/screenshots/flux-3-video-generator.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

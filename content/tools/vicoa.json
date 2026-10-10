@@ -1,0 +1,18 @@
+{
+  "slug": "vicoa",
+  "name": "Vicoa",
+  "tagline": "Vicoa lets you use Claude Code anywhere, on any device",
+  "description": "Vicoa lets you use Claude Code anywhere, on any device. Start coding on your laptop, switch easily to mobile or web, get alerts when your AI agent needs input, and approve changes with one tap.",
+  "url": "https://vicoa.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=vicoa.ai&sz=64",
+  "screenshot_url": "/screenshots/vicoa.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 26,
+  "subcategory": "ai-agent",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

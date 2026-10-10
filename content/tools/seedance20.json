@@ -1,0 +1,18 @@
+{
+  "slug": "seedance20",
+  "name": "Seedance2.0",
+  "tagline": "Seedance2.0 is an AI video generator that creates short videos from text or images",
+  "description": "Seedance2.0 is an AI video generator that creates short videos from text or images. It offers a simple workflow with smoother motion and stable results for content creation and idea testing.",
+  "url": "https://omnivideo.net/model/seedance-2",
+  "logo_url": "https://www.google.com/s2/favicons?domain=omnivideo.net&sz=64",
+  "screenshot_url": "/screenshots/seedance2-0-1.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 30,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

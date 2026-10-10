@@ -1,0 +1,18 @@
+{
+  "slug": "nativelaunch",
+  "name": "Nativelaunch",
+  "tagline": "Build production-ready React Native apps with NativeLaunch (formerly ExpoLaunch)",
+  "description": "Build production-ready React Native apps with NativeLaunch (formerly ExpoLaunch). Pre-configured with authentication, subscriptions, analytics, and beautiful onboarding.",
+  "url": "https://nativelaunch.dev/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=nativelaunch.dev&sz=64",
+  "screenshot_url": "/screenshots/nativelaunch.webp",
+  "primary_category": "seo-marketing",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 14,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

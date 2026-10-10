@@ -1,0 +1,18 @@
+{
+  "slug": "gpt-image-2-3",
+  "name": "GPT Image 2",
+  "tagline": "GPT Image is a prompt-first AI image generator and editor for creating, editing, upscaling, and refining visuals with reference images.",
+  "description": "GPT Image is a prompt-first AI image generator and editor for creating, editing, upscaling, and refining visuals with reference images.",
+  "url": "https://image-gpt.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=image-gpt.org&sz=64",
+  "screenshot_url": "/screenshots/gpt-image-2-15.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 26,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

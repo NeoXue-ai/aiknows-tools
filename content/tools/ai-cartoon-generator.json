@@ -1,0 +1,18 @@
+{
+  "slug": "ai-cartoon-generator",
+  "name": "AI Cartoon Generator",
+  "tagline": "Turn photos or prompts into cartoon avatars, characters, and social visuals with our AI cartoon generator. Convert images online with no watermark.",
+  "description": "Turn photos or prompts into cartoon avatars, characters, and social visuals with our AI cartoon generator. Convert images online with no watermark.",
+  "url": "https://aicartoongenerator.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=aicartoongenerator.io&sz=64",
+  "screenshot_url": "/screenshots/ai-cartoon-generator.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 28,
+  "subcategory": "ai-avatar-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

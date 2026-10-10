@@ -1,0 +1,18 @@
+{
+  "slug": "all-mcps",
+  "name": "All MCPs",
+  "tagline": "AllMCPs is the definitive public registry and ecosystem hub for Model Context Protocol (MCP) servers",
+  "description": "AllMCPs is the definitive public registry and ecosystem hub for Model Context Protocol (MCP) servers. It provides developers, AI engineers, and teams with instant access to hundreds of verified MCP servers for file management, database connectors, browser automation, search integrations, and API workflows. Features include deep semantic search, developer documentation, badge verification, automated config generation for Claude Desktop and Cursor, token cost calculators, and llms.txt standards fo",
+  "url": "https://allmcps.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=allmcps.com&sz=64",
+  "screenshot_url": "/screenshots/all-mcps.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-models",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

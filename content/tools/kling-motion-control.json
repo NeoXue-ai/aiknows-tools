@@ -1,0 +1,18 @@
+{
+  "slug": "kling-motion-control",
+  "name": "kling motion control",
+  "tagline": "Use Kling Motion Control to turn images into cinematic videos with precise AI motion control",
+  "description": "Use Kling Motion Control to turn images into cinematic videos with precise AI motion control. Upload an image and motion reference video to create frame-accurate motion transfer, stable character consistency, and controllable camera movement in minutes.",
+  "url": "https://motioncontrol.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=motioncontrol.app&sz=64",
+  "screenshot_url": "/screenshots/kling-motion-control.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 22,
+  "subcategory": "ai-avatar-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

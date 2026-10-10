@@ -1,0 +1,18 @@
+{
+  "slug": "launch-panda",
+  "name": "Launch Panda",
+  "tagline": "Find every directory that fits your tool, store your info once, copy it everywhere. The launch buddy for indie builders.",
+  "description": "Find every directory that fits your tool, store your info once, copy it everywhere. The launch buddy for indie builders.",
+  "url": "https://www.launchpanda.dev",
+  "logo_url": "https://pub-459c6f6553344cc393826444731f5707.r2.dev/upload-1776829545122.png",
+  "screenshot_url": "/screenshots/launch-panda.webp",
+  "primary_category": "seo-marketing",
+  "tags": [],
+  "pricing_detail": null,
+  "source": "https://findly.tools",
+  "dr": 50,
+  "subcategory": null,
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

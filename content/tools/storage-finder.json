@@ -1,0 +1,18 @@
+{
+  "slug": "storage-finder",
+  "name": "Storage finder",
+  "tagline": "Find the best self storage facilities near you. Compare prices, amenities, and book online.",
+  "description": "Find the best self storage facilities near you. Compare prices, amenities, and book online.",
+  "url": "https://www.storagefinder.uk/index.html",
+  "logo_url": "https://www.google.com/s2/favicons?domain=storagefinder.uk&sz=64",
+  "screenshot_url": "/screenshots/storage-finder.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 11,
+  "subcategory": "directories",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

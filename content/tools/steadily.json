@@ -1,0 +1,18 @@
+{
+  "slug": "steadily",
+  "name": "Steadily",
+  "tagline": "Steadily is an AI planning tool built by a working parent who had over 100 items on his to-do list, an hour each evening, and a growing sense that…",
+  "description": "Steadily is an AI planning tool built by a working parent who had over 100 items on his to-do list, an hour each evening, and a growing sense that the big things kept getting buried under the daily ones. Three things were broken: undated tasks never got done, task size was invisible (\"finish my certification\" sat next to \"drop off a package\"), and the list was written for a version of him with eight free hours. Steadily fixes all three. Tell it what you need to finish and it breaks it down into ",
+  "url": "https://www.plansteadily.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=plansteadily.com&sz=64",
+  "screenshot_url": "/screenshots/plan-steadily.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 2.9,
+  "subcategory": "productivity-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

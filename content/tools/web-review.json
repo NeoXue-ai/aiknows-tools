@@ -1,0 +1,18 @@
+{
+  "slug": "web-review",
+  "name": "Web-Review",
+  "tagline": "Submit your website for an honest, AI-powered review. Get detailed feedback on design, performance, SEO, and user experience.",
+  "description": "Submit your website for an honest, AI-powered review. Get detailed feedback on design, performance, SEO, and user experience.",
+  "url": "https://web-review.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=web-review.com&sz=64",
+  "screenshot_url": "/screenshots/web-review.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 40,
+  "subcategory": "directories",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "smartlearn",
+  "name": "SmartLearn",
+  "tagline": "Overview In today’s fast-paced digital age, learning efficiently is harder than ever",
+  "description": "Overview In today’s fast-paced digital age, learning efficiently is harder than ever. When trying to master a complex topic, learners often face severe information overload. SmartLearn solves this by acting as your personal AI tutor, generating highly structured, personalized learning roadmaps tailored specifically to your goals. Key Features * **Personalized Learning Roadmaps:** Input any topic, and our advanced AI engine instantly generates a comprehensive, step-by-step curriculum. * **Hybrid ",
+  "url": "https://smartlearnapp.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=smartlearnapp.com&sz=64",
+  "screenshot_url": "/screenshots/smartlearn.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 25,
+  "subcategory": "ai-tutor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

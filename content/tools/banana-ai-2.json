@@ -1,0 +1,18 @@
+{
+  "slug": "banana-ai-2",
+  "name": "Banana AI",
+  "tagline": "Banana AI is a free AI photo editor",
+  "description": "Banana AI is a free AI photo editor. Use text prompts for precise edits, style changes, and consistent, high-quality results in seconds. Try it online now.",
+  "url": "https://banana-ai.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=banana-ai.org&sz=64",
+  "screenshot_url": "/screenshots/banana-ai-2.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 32,
+  "subcategory": "ai-photo-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

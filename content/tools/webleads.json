@@ -1,0 +1,18 @@
+{
+  "slug": "webleads",
+  "name": "WebLeads",
+  "tagline": "WebLeads is a B2B lead generation tool that finds business data from Google Maps and then enrich it with Owner / manager names, roles and their…",
+  "description": "WebLeads is a B2B lead generation tool that finds business data from Google Maps and then enrich it with Owner / manager names, roles and their direct email addresses. Built for agencies, sales teams, and freelancers who need local B2B leads quickly.",
+  "url": "https://webleads.site",
+  "logo_url": "https://www.google.com/s2/favicons?domain=webleads.site&sz=64",
+  "screenshot_url": "/screenshots/webleads.webp",
+  "primary_category": "seo-marketing",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 26,
+  "subcategory": "ai-marketing",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "ai-aware",
+  "name": "AI Aware",
+  "tagline": "AI Aware, is a deep tech company that has built a new form of AI detection technology to allow people to check AI generated content including images,…",
+  "description": "AI Aware, is a deep tech company that has built a new form of AI detection technology to allow people to check AI generated content including images, text and video. Try for free to check: [AI Text Detection](https://aiaware.io/ai-text-detector) identifies content written by the likes of ChatGPT, Claude, Gemini, Grok, and other large language models. It spots AI-written essays, legal documents, job applications, and news articles. [Deepfake Video Detection](https://aiaware.io/) analyses facial i",
+  "url": "https://aiaware.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=aiaware.io&sz=64",
+  "screenshot_url": "/screenshots/ai-aware.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 17,
+  "subcategory": "ai-detector",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

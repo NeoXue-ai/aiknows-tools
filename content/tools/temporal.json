@@ -1,0 +1,18 @@
+{
+  "slug": "temporal",
+  "name": "Temporal",
+  "tagline": "What is Temporal? Temporal is an AI-powered calendar that schedules your tasks around your **energy and focus patterns** — not just your availability",
+  "description": "What is Temporal? Temporal is an AI-powered calendar that schedules your tasks around your **energy and focus patterns** — not just your availability. Most AI calendars find an open slot and fill it. Temporal finds the **right** slot: deep work lands in your peak focus window, meetings get batched in your natural social energy periods, admin fills the rest. Who it's for - **Product managers** drowning in meetings who need protected thinking time - **Developers** who need uninterrupted deep work ",
+  "url": "https://temporal.day",
+  "logo_url": "https://www.google.com/s2/favicons?domain=temporal.day&sz=64",
+  "screenshot_url": "/screenshots/temporal.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 12,
+  "subcategory": "productivity-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

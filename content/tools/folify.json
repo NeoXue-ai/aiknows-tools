@@ -1,0 +1,18 @@
+{
+  "slug": "folify",
+  "name": "Folify",
+  "tagline": "**Folify** is a drag-and-drop portfolio builder for developers, designers, students, freelancers, and creators",
+  "description": "**Folify** is a drag-and-drop portfolio builder for developers, designers, students, freelancers, and creators. Build a polished, professional portfolio website in minutes — no coding required. **Key Features:** - Drag-and-drop editor with 6+ block types (Header, Gallery, Cards, Links, Social Row, and more) - Responsive, SEO-ready pages with auto-generated metadata and sitemaps - Light & dark themes out of the box - Real-time preview across desktop, tablet, and mobile - Custom domain support (Pr",
+  "url": "https://folify.me/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=folify.me&sz=64",
+  "screenshot_url": "/screenshots/folify.webp",
+  "primary_category": "seo-marketing",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 12,
+  "subcategory": "ai-seo-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

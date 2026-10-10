@@ -1,0 +1,18 @@
+{
+  "slug": "skipsend-disposable-email-checker-validator",
+  "name": "SkipSend - Disposable Email Checker & Validator",
+  "tagline": "SkipSend helps you detect disposable and temporary email addresses to protect signups, trials, and forms.",
+  "description": "SkipSend helps you detect disposable and temporary email addresses to protect signups, trials, and forms.",
+  "url": "https://skipsend.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=skipsend.com&sz=64",
+  "screenshot_url": "/screenshots/skipsend-disposable-email-checker-validator.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 2.2,
+  "subcategory": "email",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "surfer-seo",
+  "name": "Surfer SEO",
+  "tagline": "Content optimization for SEO",
+  "description": "SERP-driven content briefs, audits, and an AI writer for ranking pages.",
+  "url": "https://surferseo.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=surferseo.com&sz=64",
+  "screenshot_url": "/screenshots/surfer-seo.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "seo",
+    "optimization"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-writer",
+  "is_featured": true,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

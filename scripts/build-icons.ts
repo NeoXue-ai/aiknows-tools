@@ -6,11 +6,11 @@
  *                          prefers-color-scheme to invert mark color
  *   - app/favicon.ico      legacy; 16/32/48 px multi-resolution, dark mark on
  *                          transparent (works on the most common light tab bar)
- *   - app/apple-icon.png   iOS home screen; 180 px, white mark on brand blue
+ *   - app/apple-icon.png   iOS home screen; 180 px, white mark on forest green
  *                          (home screen has no theme; solid bg = readable
  *                          everywhere)
- *   - app/icon-192.png     PWA / Android; 192 px, same brand-blue + white mark
- *   - app/icon-512.png     PWA / Android maskable; 512 px, same brand-blue +
+ *   - app/icon-192.png     PWA / Android; 192 px, same forest-green + white mark
+ *   - app/icon-512.png     PWA / Android maskable; 512 px, same forest-green +
  *                          white mark
  *
  * The SVG path mirrors components/logo.tsx so the favicon stays in lockstep
@@ -25,11 +25,11 @@ import sharp from "sharp";
 const APP_DIR = resolve(process.cwd(), "app");
 
 // ── Colors (kept in sync with app/globals.css tokens) ─────────────────
-//   light mode fg #101725  (dark mark on light bg)
-//   dark  mode fg #edf2f7  (light mark on dark bg)
-const INK_LIGHT = "#101725";
-const INK_DARK = "#edf2f7";
-const BRAND = "#2578F8"; // accent (see app/globals.css --accent)
+//   light mode fg #2e5846  (dark mark on light bg)
+//   dark  mode fg #bdd6be  (light mark on dark bg)
+const INK_LIGHT = "#2e5846";
+const INK_DARK = "#bdd6be";
+const BRAND = "#2e5846"; // accent (see app/globals.css --accent)
 
 // ── Adaptive SVG (light + dark via prefers-color-scheme) ───────────────
 //
@@ -68,7 +68,7 @@ const MARK_SVG_DARK = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 3
   </g>
 </svg>`;
 
-// iOS home-screen + PWA: solid brand-blue background, white mark. The home
+// iOS home-screen + PWA: solid forest-green background, white mark. The home
 // screen has no light/dark concept of its own, so a self-contained tile
 // reads well on every wallpaper.
 const MARK_SVG_TILE = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
@@ -148,7 +148,7 @@ async function writeSvg() {
 }
 
 async function writeTiledRaster(out: string, size: number) {
-  // Tile surfaces (apple, PWA) use a brand-blue square with the mark inset
+  // Tile surfaces (apple, PWA) use a forest-green square with the mark inset
   // ~16% from each edge so the rounded corners read cleanly.
   const padding = Math.round(size * 0.12);
   const buf = await pngFromSvg(MARK_SVG_TILE, size, padding);
@@ -163,7 +163,7 @@ async function main() {
   await writeIco();
 
   console.log(
-    "Generated app/icon.svg (adaptive), app/favicon.ico (legacy, dark mark), app/apple-icon.png, app/icon-192.png, app/icon-512.png (all brand-blue tiles)",
+    "Generated app/icon.svg (adaptive), app/favicon.ico (legacy, dark mark), app/apple-icon.png, app/icon-192.png, app/icon-512.png (all forest-green tiles)",
   );
 }
 

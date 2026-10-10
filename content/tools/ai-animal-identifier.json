@@ -1,0 +1,18 @@
+{
+  "slug": "ai-animal-identifier",
+  "name": "AI Animal Identifier",
+  "tagline": "Use AI Animal Identifier to upload an animal photo, identify the likely species, review key visual clues, read safety reminders, and learn habitat,…",
+  "description": "Use AI Animal Identifier to upload an animal photo, identify the likely species, review key visual clues, read safety reminders, and learn habitat, diet, behavior, region, and fun facts.",
+  "url": "https://aianimalidentifier.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=aianimalidentifier.com&sz=64",
+  "screenshot_url": "/screenshots/ai-animal-identifier.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-tutor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

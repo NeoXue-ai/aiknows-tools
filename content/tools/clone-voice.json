@@ -1,0 +1,18 @@
+{
+  "slug": "clone-voice",
+  "name": "Clone Voice",
+  "tagline": "Clone your voice in seconds with CloneVoice",
+  "description": "Clone your voice in seconds with CloneVoice. Create your own digital voice clone — for content, education, or innovation. [Free to try TTS](https://clonevoice.org/text-to-speech) [Try Your Voice Clone](https://clonevoice.org/voice-cloning) How to Clone Voice with CloneVoice - Upload Voice Sample Record or upload at least 10 seconds of clear voice sample. Ensure good recording quality without background noise for best cloning results. - Train Voice Model Our AI algorithms will analyze your voice ",
+  "url": "https://clonevoice.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=clonevoice.org&sz=64",
+  "screenshot_url": "/screenshots/clone-voice.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 8,
+  "subcategory": "ai-voice-cloning",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

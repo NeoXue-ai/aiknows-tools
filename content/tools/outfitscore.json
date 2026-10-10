@@ -1,0 +1,18 @@
+{
+  "slug": "outfitscore",
+  "name": "OutfitScore",
+  "tagline": "Get instant AI-powered outfit scoring and makeup recommendations. Free fashion analysis with professional styling advice and beauty tips.",
+  "description": "Get instant AI-powered outfit scoring and makeup recommendations. Free fashion analysis with professional styling advice and beauty tips.",
+  "url": "https://outfitscore.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=outfitscore.com&sz=64",
+  "screenshot_url": "/screenshots/outfitscore.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 10,
+  "subcategory": "ai-photo-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

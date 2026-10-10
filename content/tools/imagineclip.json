@@ -1,0 +1,18 @@
+{
+  "slug": "imagineclip",
+  "name": "imagineclip",
+  "tagline": "ImagineClip is an AI creation platform for generating fun videos, avatar clips, stylized scenes, and shareable social content from prompts, images,…",
+  "description": "ImagineClip is an AI creation platform for generating fun videos, avatar clips, stylized scenes, and shareable social content from prompts, images, and effects. Users can start with a text idea, upload a portrait or reference image, or transform an existing visual into a short-form clip. The product combines text-to-video, image-to-video, video-to-video, and AI image editing in one place. It is especially useful for creators who want to make playful content quickly, test different visual directi",
+  "url": "https://imagineclip.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=imagineclip.com&sz=64",
+  "screenshot_url": "/screenshots/imagineclip.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 15,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

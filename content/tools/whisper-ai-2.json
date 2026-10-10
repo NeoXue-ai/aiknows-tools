@@ -1,0 +1,18 @@
+{
+  "slug": "whisper-ai-2",
+  "name": "Whisper AI",
+  "tagline": "Whisper AI is an online speech-to-text and AI transcription workspace that turns spoken audio and video into accurate, editable, searchable text",
+  "description": "Whisper AI is an online speech-to-text and AI transcription workspace that turns spoken audio and video into accurate, editable, searchable text. It is powered by OpenAI's open Whisper model, which handles accents, background noise, technical terms, and multilingual recordings far better than older dictation tools. Key features: - Upload an audio or video file, record live in the browser, or paste a media URL. - Auto-detect speech across 100+ languages, or pick a source language manually. - Spea",
+  "url": "https://whisper-ai.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=whisper-ai.app&sz=64",
+  "screenshot_url": "/screenshots/whisper-ai-1.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 30,
+  "subcategory": "speech-to-text-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "ptero",
+  "name": "Ptero",
+  "tagline": "Ptero is a free, open-source AI chat platform that gives developers, students, and creators instant access to multiple powerful language models…",
+  "description": "Ptero is a free, open-source AI chat platform that gives developers, students, and creators instant access to multiple powerful language models through a single, clean interface. No signup is required, making it instantly accessible to anyone with a web browser. The platform is designed with privacy in mind, storing all conversations locally in the browser. With Ptero, users can switch between models with one click, compare responses, debug code, brainstorm ideas, and organize chats into project",
+  "url": "https://ptero.pro",
+  "logo_url": "https://www.google.com/s2/favicons?domain=ptero.pro&sz=64",
+  "screenshot_url": "/screenshots/ptero.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-chatbot",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

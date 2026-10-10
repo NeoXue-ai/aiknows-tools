@@ -1,0 +1,18 @@
+{
+  "slug": "deepseek-v4",
+  "name": "deepseek v4",
+  "tagline": "DeepSeek V4 is the ultimate digital employee with native omni-modality and self-evolving memory",
+  "description": "DeepSeek V4 is the ultimate digital employee with native omni-modality and self-evolving memory. DeepSeek V4 enables autonomous thinking and execution for enterprises.",
+  "url": "https://deepseek-v4.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=deepseek-v4.io&sz=64",
+  "screenshot_url": "/screenshots/deepseek-v4.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 10,
+  "subcategory": "ai-agent",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

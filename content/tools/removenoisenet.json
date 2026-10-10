@@ -1,0 +1,18 @@
+{
+  "slug": "removenoisenet",
+  "name": "removenoise.net",
+  "tagline": "Remove background noise from audio and video online for free. Reduce wind, echo, traffic, hum, hiss, fans, and chatter with AI—no sign-up required.",
+  "description": "Remove background noise from audio and video online for free. Reduce wind, echo, traffic, hum, hiss, fans, and chatter with AI—no sign-up required.",
+  "url": "https://removenoise.net/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=removenoise.net&sz=64",
+  "screenshot_url": "/screenshots/removenoise-net.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-background-remover",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

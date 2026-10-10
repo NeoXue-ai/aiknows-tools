@@ -1,0 +1,18 @@
+{
+  "slug": "chatcx-every-ai-chat-in-one-panel",
+  "name": "chat.cx | Every AI chat in one panel",
+  "tagline": "What it does chat.cx is a Chrome/Edge extension that puts ChatGPT, Claude, Gemini, Grok, DeepSeek, Perplexity, and more side by side in one panel —…",
+  "description": "What it does chat.cx is a Chrome/Edge extension that puts ChatGPT, Claude, Gemini, Grok, DeepSeek, Perplexity, and more side by side in one panel — the real sites, on your own accounts. No new signup, no proxy: it has no servers, and chats go straight from your browser to each provider. Key features - Real tabs that keep their state — switch, pin, reorder, or open a service twice to compare prompts - Five surfaces: side panel, popup, full-page tab, new window, or standalone app window - Send a s",
+  "url": "https://chat.cx",
+  "logo_url": "https://www.google.com/s2/favicons?domain=chat.cx&sz=64",
+  "screenshot_url": "/screenshots/chat-cx-every-ai-chat-in-one-panel.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-chatbot",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

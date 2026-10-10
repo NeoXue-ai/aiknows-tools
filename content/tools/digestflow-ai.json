@@ -1,0 +1,18 @@
+{
+  "slug": "digestflow-ai",
+  "name": "DigestFlow AI",
+  "tagline": "Turn RSS feeds into polished newsletters in under 2 minutes. Generate titles, subject lines, and full drafts for your email workflow.",
+  "description": "Turn RSS feeds into polished newsletters in under 2 minutes. Generate titles, subject lines, and full drafts for your email workflow.",
+  "url": "https://www.digestflowai.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=digestflowai.com&sz=64",
+  "screenshot_url": "/screenshots/digestflow-ai.webp",
+  "primary_category": "writing-content",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 14,
+  "subcategory": "ai-content-creator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

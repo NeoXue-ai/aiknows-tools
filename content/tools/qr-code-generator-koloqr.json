@@ -1,0 +1,18 @@
+{
+  "slug": "qr-code-generator-koloqr",
+  "name": "QR Code Generator - KoloQR",
+  "tagline": "KoloQR is a free QR code generator with no registration required, unlimited QR codes, no watermark, and free high-resolution downloads",
+  "description": "KoloQR is a free QR code generator with no registration required, unlimited QR codes, no watermark, and free high-resolution downloads. Built for anyone who wants their QR codes to look as good as they work, instead of a plain black and white square, you can generate codes in circle, square, triangle, or hexagon shapes, fully customized with your own colors and a logo placed right in the center. Every code stays 100% scannable no matter which shape or color combination you choose. The tool is de",
+  "url": "https://koloqr.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=koloqr.com&sz=64",
+  "screenshot_url": "/screenshots/kolo-qr.webp",
+  "primary_category": "code-development",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-code-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

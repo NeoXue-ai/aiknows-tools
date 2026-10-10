@@ -1,0 +1,18 @@
+{
+  "slug": "meshrefinery",
+  "name": "MeshRefinery",
+  "tagline": "Repair broken 3D models free in your browser — fix open edges, holes and non-manifold meshes so your slicer accepts them",
+  "description": "Repair broken 3D models free in your browser — fix open edges, holes and non-manifold meshes so your slicer accepts them. Plus AI image-to-3D generation.",
+  "url": "https://meshrefinery.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=meshrefinery.com&sz=64",
+  "screenshot_url": "/screenshots/meshrefinery.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-3d-model-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

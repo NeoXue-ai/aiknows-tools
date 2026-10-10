@@ -1,0 +1,18 @@
+{
+  "slug": "seed-3dorg",
+  "name": "seed-3d.org",
+  "tagline": "Transform images into physics-ready 3D models with razor-sharp geometry, true PBR, and 6K detail—optimized for simulators, games, and XR.",
+  "description": "Transform images into physics-ready 3D models with razor-sharp geometry, true PBR, and 6K detail—optimized for simulators, games, and XR.",
+  "url": "https://seed-3d.org/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=seed-3d.org&sz=64",
+  "screenshot_url": "/screenshots/seed-3d-org.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 20,
+  "subcategory": "ai-3d-model-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

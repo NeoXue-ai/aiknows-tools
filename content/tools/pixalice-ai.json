@@ -1,0 +1,18 @@
+{
+  "slug": "pixalice-ai",
+  "name": "Pixalice AI",
+  "tagline": "Generate high-quality AI images and videos from text or photos in seconds",
+  "description": "Generate high-quality AI images and videos from text or photos in seconds. 4K support, fast rendering, multiple formats, and easy online creation with Pixalice.",
+  "url": "https://pixalice.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=pixalice.com&sz=64",
+  "screenshot_url": "/screenshots/pixalice-ai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 22,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

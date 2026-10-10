@@ -1,0 +1,18 @@
+{
+  "slug": "magihuman",
+  "name": "MagiHuman",
+  "tagline": "daVinci-MagiHuman turns prompts and images into lifelike AI videos with natural motion, expressive faces, and fast browser-based generation.",
+  "description": "daVinci-MagiHuman turns prompts and images into lifelike AI videos with natural motion, expressive faces, and fast browser-based generation.",
+  "url": "https://magihuman.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=magihuman.app&sz=64",
+  "screenshot_url": "/screenshots/magihuman.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 7,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

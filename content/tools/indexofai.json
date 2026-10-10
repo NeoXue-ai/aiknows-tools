@@ -1,0 +1,18 @@
+{
+  "slug": "indexofai",
+  "name": "IndexOf.AI",
+  "tagline": "IndexOf.AI is an AI tool discovery and navigation platform designed for both users and developers",
+  "description": "IndexOf.AI is an AI tool discovery and navigation platform designed for both users and developers. Users can freely browse and discover AI tools organized across every major category — from productivity and writing to image generation and developer tools. Each listing includes detailed descriptions, screenshots, pricing info, and direct links. For AI tool developers and makers, IndexOf.AI offers a simple submission flow: submit for free to get a basic listing, or choose the Pro plan ($2.99 one-t",
+  "url": "https://indexof.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=indexof.ai&sz=64",
+  "screenshot_url": "/screenshots/indexof-ai.webp",
+  "primary_category": "code-development",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 27,
+  "subcategory": "ai-image-api",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

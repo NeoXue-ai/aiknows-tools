@@ -1,0 +1,18 @@
+{
+  "slug": "cognlay",
+  "name": "Cognlay",
+  "tagline": "Cognlay is an adaptive, governed AI SDR platform for B2B teams",
+  "description": "Cognlay is an adaptive, governed AI SDR platform for B2B teams. It replaces the patchwork of lead tools, enrichment workflows, routing spreadsheets, and rigid sequencers with one intelligent outbound engine. Teams define their target persona and campaign goal, and Cognlay helps source leads, enrich accounts, draft adaptive sequences, classify replies, route warm conversations, protect sender health, and learn from campaign outcomes. Unlike traditional sequencers, Cognlay does not push every pros",
+  "url": "https://cognlay.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=cognlay.com&sz=64",
+  "screenshot_url": "/screenshots/cognlay.webp",
+  "primary_category": "seo-marketing",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 6,
+  "subcategory": "ai-ad-creative",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "photo-animate",
+  "name": "Photo Animate",
+  "tagline": "Photo Animate is a Photo to Video AI tool that helps you animate photos to video, create moving portraits, and turn still images into lifelike clips…",
+  "description": "Photo Animate is a Photo to Video AI tool that helps you animate photos to video, create moving portraits, and turn still images into lifelike clips with practical controls and respectful motion.",
+  "url": "https://photoanimate.org/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=photoanimate.org&sz=64",
+  "screenshot_url": "/screenshots/photo-animate.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "image-to-video-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

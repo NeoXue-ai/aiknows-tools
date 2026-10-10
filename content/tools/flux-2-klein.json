@@ -1,0 +1,18 @@
+{
+  "slug": "flux-2-klein",
+  "name": "Flux 2 Klein",
+  "tagline": "Generate stunning AI images in under 1 second with FLUX.2 Klein",
+  "description": "Generate stunning AI images in under 1 second with FLUX.2 Klein. The fastest open-source image model from Black Forest Labs. Available in 4B (Apache 2.0) and 9B variants. Runs on consumer GPUs.",
+  "url": "https://flux2klein.co/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=flux2klein.co&sz=64",
+  "screenshot_url": "/screenshots/flux-2-klein.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 14,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

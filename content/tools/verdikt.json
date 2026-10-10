@@ -1,0 +1,18 @@
+{
+  "slug": "verdikt",
+  "name": "Verdikt",
+  "tagline": "Vibe-research for vibe coders and solo founders",
+  "description": "Vibe-research for vibe coders and solo founders. Verdikt generates cited digital reports with named risks and a Verdikt Score on startup ideas, before you spend weekends building.",
+  "url": "https://tryverdikt.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=tryverdikt.app&sz=64",
+  "screenshot_url": "/screenshots/verdikt.webp",
+  "primary_category": "business-analytics",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 16,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

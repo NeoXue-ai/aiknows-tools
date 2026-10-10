@@ -1,0 +1,18 @@
+{
+  "slug": "temp-mail-generator",
+  "name": "Temp Mail Generator",
+  "tagline": "Temp Mail Generator provides a streamlined solution for users needing instant disposable email addresses",
+  "description": "Temp Mail Generator provides a streamlined solution for users needing instant disposable email addresses. The platform allows you to create a throwaway inbox in a single click, ensuring your primary email remains private and free from unwanted spam. By using a temporary address, you can receive real emails in seconds without the need for a traditional sign-up process. Privacy and Security This service is designed for anonymity, allowing you to skip providing personal details when accessing onlin",
+  "url": "https://tempmail.bot/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=tempmail.bot&sz=64",
+  "screenshot_url": "/screenshots/temp-mail-generator.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 9,
+  "subcategory": "email",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

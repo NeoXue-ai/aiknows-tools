@@ -1,0 +1,18 @@
+{
+  "slug": "tagmybeat",
+  "name": "TagMyBeat",
+  "tagline": "**TagMyBeat** is the ultimate AI-powered producer tag and vocal tag generator designed specifically for music producers and beatmakers",
+  "description": "**TagMyBeat** is the ultimate AI-powered producer tag and vocal tag generator designed specifically for music producers and beatmakers. It eliminates the need to hire voice actors or wait for vocal deliveries by allowing users to generate professional, studio-quality audio tags instantly from text. Powered by advanced neural networks trained on human intonation, TagMyBeat offers over 20 premium AI voice models across multiple languages (English, Spanish, French, Japanese) and distinct styles—inc",
+  "url": "https://tagmybeat.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=tagmybeat.com&sz=64",
+  "screenshot_url": "/screenshots/tagmybeat.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 11,
+  "subcategory": "ai-voice-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

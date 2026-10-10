@@ -1,0 +1,18 @@
+{
+  "slug": "happyhorseaime",
+  "name": "happyhorseai.me",
+  "tagline": "Create AI videos with Happy Horse from text, images, or reference clips",
+  "description": "Create AI videos with Happy Horse from text, images, or reference clips. Generate cinema-grade videos with intelligent soundtracks, multi-modal control, and fast production workflows.",
+  "url": "https://happyhorseai.me/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=happyhorseai.me&sz=64",
+  "screenshot_url": "/screenshots/happyhorseai-me.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 8,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

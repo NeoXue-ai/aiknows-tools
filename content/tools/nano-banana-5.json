@@ -1,0 +1,18 @@
+{
+  "slug": "nano-banana-5",
+  "name": "Nano Banana",
+  "tagline": "Nano Banana is an intelligent image generation and editing platform based on Google's latest AI technology",
+  "description": "Nano Banana is an intelligent image generation and editing platform based on Google's latest AI technology. Nano Banana offers revolutionary features like character consistency, natural language editing, and multi-image fusion. Whether it's changing outfits, transforming scenes, or precise local editing, Nano Banana retains original characteristics, unlocking limitless creative possibilities.",
+  "url": "https://usenanobanana.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=usenanobanana.com&sz=64",
+  "screenshot_url": "/screenshots/nano-banana.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 6,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

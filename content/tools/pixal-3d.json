@@ -1,0 +1,18 @@
+{
+  "slug": "pixal-3d",
+  "name": "Pixal 3D",
+  "tagline": "Transform single or multi-view images into stunning, high-fidelity 3D assets",
+  "description": "Transform single or multi-view images into stunning, high-fidelity 3D assets. Pixal3D uses a breakthrough pixel-aligned back-projection paradigm to generate detailed geometry and PBR textures with reconstruction-level faithfulness.",
+  "url": "https://pixal-3d.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=pixal-3d.com&sz=64",
+  "screenshot_url": "/screenshots/pixal-3d.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 17,
+  "subcategory": "ai-3d-model-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

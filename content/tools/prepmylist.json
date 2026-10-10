@@ -1,0 +1,18 @@
+{
+  "slug": "prepmylist",
+  "name": "PrepMyList",
+  "tagline": "Create printable checklists online. Customize items, add notes, share links or QR codes, and export as PDF or CSV — free and without signup.",
+  "description": "Create printable checklists online. Customize items, add notes, share links or QR codes, and export as PDF or CSV — free and without signup.",
+  "url": "https://prepmylist.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=prepmylist.com&sz=64",
+  "screenshot_url": "/screenshots/prepmylist.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 7,
+  "subcategory": "ai-pdf",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

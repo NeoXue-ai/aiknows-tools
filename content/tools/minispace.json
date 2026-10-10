@@ -1,0 +1,18 @@
+{
+  "slug": "minispace",
+  "name": "Minispace",
+  "tagline": "Describe your idea. Minispace builds a beautiful, personal website in minutes — no templates, no wrangling.",
+  "description": "Describe your idea. Minispace builds a beautiful, personal website in minutes — no templates, no wrangling.",
+  "url": "https://minispace.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=minispace.ai&sz=64",
+  "screenshot_url": "/screenshots/minispace.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 9,
+  "subcategory": "boilerplates",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

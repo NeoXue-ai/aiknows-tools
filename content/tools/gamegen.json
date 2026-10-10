@@ -1,0 +1,18 @@
+{
+  "slug": "gamegen",
+  "name": "GameGen",
+  "tagline": "AI creative tools for indie devs and web drama producers: pixel & HD characters, asset packs, BGM, SFX, emojis, maps, world docs, storyboards,…",
+  "description": "AI creative tools for indie devs and web drama producers: pixel & HD characters, asset packs, BGM, SFX, emojis, maps, world docs, storyboards, turnarounds, and expression sheets.",
+  "url": "https://www.gamegen.fun/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=gamegen.fun&sz=64",
+  "screenshot_url": "/screenshots/gamegen.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-avatar-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

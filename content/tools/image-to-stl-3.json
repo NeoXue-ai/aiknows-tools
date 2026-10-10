@@ -1,0 +1,18 @@
+{
+  "slug": "image-to-stl-3",
+  "name": "IMAGE TO STL",
+  "tagline": "Convert image to STL files for 3D printing",
+  "description": "Convert image to STL files for 3D printing. AI-powered image to 3D converter creates printable models in minutes. Export to STL, GLB, OBJ. Free to try.",
+  "url": "https://imagetostl.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=imagetostl.io&sz=64",
+  "screenshot_url": "/screenshots/image-to-stl.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 32,
+  "subcategory": "image-to-3d-model",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

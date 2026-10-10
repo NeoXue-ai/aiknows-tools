@@ -1,0 +1,18 @@
+{
+  "slug": "getbirthchart",
+  "name": "GetBirthChart",
+  "tagline": "GetBirthChart is a web-based birth chart calculation and interpretation platform designed for people who want to understand a natal chart without…",
+  "description": "GetBirthChart is a web-based birth chart calculation and interpretation platform designed for people who want to understand a natal chart without treating astrology as a collection of isolated personality labels. The platform calculates planetary positions, houses, chart angles, and major aspects from birth data first. That calculated chart is then used as structured input for interpretation, so AI is applied after the chart has been computed rather than being asked to invent planetary positions",
+  "url": "https://getbirthchart.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=getbirthchart.com&sz=64",
+  "screenshot_url": "/screenshots/getbirthchart.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-entertainment",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

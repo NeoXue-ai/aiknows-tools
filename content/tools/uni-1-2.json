@@ -1,0 +1,18 @@
+{
+  "slug": "uni-1-2",
+  "name": "Uni-1",
+  "tagline": "Generate intelligent AI images and videos with Luma Uni-1 online. Multi-reference control, native 2K resolution, and 76+ art styles.",
+  "description": "Generate intelligent AI images and videos with Luma Uni-1 online. Multi-reference control, native 2K resolution, and 76+ art styles.",
+  "url": "https://uni1ai.org/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=uni1ai.org&sz=64",
+  "screenshot_url": "/screenshots/uni-1-1.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 8,
+  "subcategory": "ai-art-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

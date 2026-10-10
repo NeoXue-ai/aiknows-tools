@@ -1,0 +1,18 @@
+{
+  "slug": "ai-wedding-photo-generator",
+  "name": "AI Wedding Photo Generator",
+  "tagline": "Create stunning AI wedding photos from your selfies in seconds. Multiple romantic styles available – no photoshoot needed. Try it free now!",
+  "description": "Create stunning AI wedding photos from your selfies in seconds. Multiple romantic styles available – no photoshoot needed. Try it free now!",
+  "url": "https://ai-wedding.art",
+  "logo_url": "https://www.google.com/s2/favicons?domain=ai-wedding.art&sz=64",
+  "screenshot_url": "/screenshots/ai-wedding-photo-generator.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 13,
+  "subcategory": "ai-photo-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

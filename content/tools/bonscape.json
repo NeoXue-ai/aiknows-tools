@@ -1,0 +1,18 @@
+{
+  "slug": "bonscape",
+  "name": "Bonscape",
+  "tagline": "Bonscape is visual canvas for interacting with AI chats, designed for visual thinkers",
+  "description": "Bonscape is visual canvas for interacting with AI chats, designed for visual thinkers. It allows users to brainstorm naturally by creating a branching conversation flow on an infinite canvas. Users can seamlessly switch between them without losing context. The platform supports side-by-side comparison of outputs from different AI models, enabling users to identify the most effective and cost-efficient AI for specific tasks. Key features include a visual branching canvas, model-agnostic support,",
+  "url": "https://bonscape.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=bonscape.com&sz=64",
+  "screenshot_url": "/screenshots/bonscape.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-models",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

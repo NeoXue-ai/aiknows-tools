@@ -1,0 +1,18 @@
+{
+  "slug": "whatisthismovie",
+  "name": "WhatIsThisMovie",
+  "tagline": "What Is This Movie helps you identify a film from a remembered scene, quote, plot detail, or visual clue",
+  "description": "What Is This Movie helps you identify a film from a remembered scene, quote, plot detail, or visual clue. It&#x27;s a simple way to narrow things down when the title is on the tip of your tongue. [Contact Raxskle](https://cal.com/raxskle)",
+  "url": "https://whatisthismovie.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=whatisthismovie.com&sz=64",
+  "screenshot_url": "/screenshots/whatisthismovie.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 30,
+  "subcategory": "ai-agent",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

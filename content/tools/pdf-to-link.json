@@ -1,0 +1,18 @@
+{
+  "slug": "pdf-to-link",
+  "name": "PDF to Link",
+  "tagline": "Upload your PDF and instantly generate shareable links",
+  "description": "Upload your PDF and instantly generate shareable links. Features include online preview, expiration settings, download limits, password protection, and access statistics.",
+  "url": "https://pdftolink.net",
+  "logo_url": "https://www.google.com/s2/favicons?domain=pdftolink.net&sz=64",
+  "screenshot_url": "/screenshots/pdf-to-link-1.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 14,
+  "subcategory": "ai-pdf",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "glow-video",
+  "name": "Glow Video",
+  "tagline": "Transform text and images into stunning videos with GlowVideo's free AI video generator",
+  "description": "Transform text and images into stunning videos with GlowVideo's free AI video generator. Access top AI models including Kling, Runway, and Sora. Create professional 4K videos instantly — no editing skills required.",
+  "url": "https://glowvideo.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=glowvideo.ai&sz=64",
+  "screenshot_url": "/screenshots/glow-video.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 8,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

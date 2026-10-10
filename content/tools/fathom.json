@@ -1,0 +1,21 @@
+{
+  "slug": "fathom",
+  "name": "Fathom",
+  "tagline": "AI meeting notes",
+  "description": "Free AI notetaker that records, transcribes, and summarizes meetings.",
+  "url": "https://fathom.video",
+  "logo_url": "https://www.google.com/s2/favicons?domain=fathom.video&sz=64",
+  "screenshot_url": "/screenshots/fathom.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "meetings",
+    "notes"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-note-taker",
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

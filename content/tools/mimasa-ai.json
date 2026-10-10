@@ -1,0 +1,18 @@
+{
+  "slug": "mimasa-ai",
+  "name": "Mimasa AI",
+  "tagline": "End-to-end Agentic Automation for enterprises. Unify data, reason with AI agents, and execute work across 180+ systems — from a single platform.",
+  "description": "End-to-end Agentic Automation for enterprises. Unify data, reason with AI agents, and execute work across 180+ systems — from a single platform.",
+  "url": "https://mimasa.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=mimasa.ai&sz=64",
+  "screenshot_url": "/screenshots/mimasa-ai.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-agent",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

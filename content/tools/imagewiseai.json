@@ -1,0 +1,18 @@
+{
+  "slug": "imagewiseai",
+  "name": "ImageWise.ai",
+  "tagline": "ImageWise.ai is an all-in-one AI image workspace built around visual translation",
+  "description": "ImageWise.ai is an all-in-one AI image workspace built around visual translation. Upload an image and translate the text while preserving its original layout and visual context. It works with screenshots, product images, menus, posters, manga, documents, and other visuals where design matters as much as the words. You can also describe images, chat with images, extract prompts, generate and edit visuals, remove backgrounds, extend images, and use practical browser-based tools for cropping, resiz",
+  "url": "https://imagewise.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=imagewise.ai&sz=64",
+  "screenshot_url": "/screenshots/imagewise-ai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-background-remover",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

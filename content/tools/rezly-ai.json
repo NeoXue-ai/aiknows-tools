@@ -1,0 +1,18 @@
+{
+  "slug": "rezly-ai",
+  "name": "Rezly AI",
+  "tagline": "Create a professional resume in minutes with our free AI-powered resume builder",
+  "description": "Create a professional resume in minutes with our free AI-powered resume builder. Generate ATS-friendly, job-winning resumes with smart templates and real-time optimization.",
+  "url": "https://www.rezly.ai/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=rezly.ai&sz=64",
+  "screenshot_url": "/screenshots/rezly-ai.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 25,
+  "subcategory": "ai-resume-builder",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

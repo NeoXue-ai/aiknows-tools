@@ -1,0 +1,18 @@
+{
+  "slug": "figviz",
+  "name": "figviz",
+  "tagline": "Figviz is a free AI diagram generator for STEM teachers and students",
+  "description": "Figviz is a free AI diagram generator for STEM teachers and students. Make labeled science diagrams in seconds, then export print-ready PNGs. No subscription; 3 free credits to start.",
+  "url": "https://figviz.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=figviz.com&sz=64",
+  "screenshot_url": "/screenshots/figviz.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 10,
+  "subcategory": "ai-graphic-design",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

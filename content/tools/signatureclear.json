@@ -1,0 +1,18 @@
+{
+  "slug": "signatureclear",
+  "name": "SignatureClear",
+  "tagline": "SignatureClear is an AI-powered signature background remover",
+  "description": "SignatureClear is an AI-powered signature background remover. Extract clear handwritten signatures and convert scans to transparent background PNG in seconds",
+  "url": "https://www.signatureclear.online/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=signatureclear.online&sz=64",
+  "screenshot_url": "/screenshots/signatureclear.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-background-remover",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

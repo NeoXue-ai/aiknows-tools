@@ -1,0 +1,18 @@
+{
+  "slug": "amabrik",
+  "name": "Amabrik",
+  "tagline": "Run a free website health check that finds security holes and AI-search blind spots, then get a copy-paste fix for each",
+  "description": "Run a free website health check that finds security holes and AI-search blind spots, then get a copy-paste fix for each. Plus the widgets your site needs.",
+  "url": "https://amabrik.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=amabrik.com&sz=64",
+  "screenshot_url": "/screenshots/amabrik.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "productivity-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

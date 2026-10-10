@@ -1,0 +1,18 @@
+{
+  "slug": "pixfy",
+  "name": "Pixfy",
+  "tagline": "Use Pixfy, the revolutionary AI image editor, to enhance photos, remove backgrounds, erase objects, swap faces, and more",
+  "description": "Use Pixfy, the revolutionary AI image editor, to enhance photos, remove backgrounds, erase objects, swap faces, and more. Describe your edit in plain words and get professional results in seconds. Try Pixfy AI for free.",
+  "url": "https://pixfy.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=pixfy.io&sz=64",
+  "screenshot_url": "/screenshots/pixfy.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 29,
+  "subcategory": "ai-background-remover",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

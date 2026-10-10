@@ -1,0 +1,18 @@
+{
+  "slug": "happyhorse-3",
+  "name": "HappyHorse",
+  "tagline": "HappyHorse is an advanced AI video generation platform designed to transform text descriptions and static images into cinematic video content",
+  "description": "HappyHorse is an advanced AI video generation platform designed to transform text descriptions and static images into cinematic video content. By leveraging sophisticated AI models, the platform enables users to produce high-quality motion and professional-grade video output directly from their browser. The tool focuses on providing creative control over the generation process, ensuring that the final results meet specific visual requirements. Core Video Generation Capabilities The platform offe",
+  "url": "https://happyhorse.cv/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=happyhorse.cv&sz=64",
+  "screenshot_url": "/screenshots/happyhorse-4.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 17,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "ai-video-generator",
+  "name": "Ai video generator",
+  "tagline": "Generate professional AI videos in minutes",
+  "description": "Generate professional AI videos in minutes. Access Sora 2, Veo 3, and Kling on one platform. Transform text, images, and references into 4K cinematic content. Try for free!",
+  "url": "https://motionifyai.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=motionifyai.io&sz=64",
+  "screenshot_url": "/screenshots/ai-video-generator-1.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 14,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

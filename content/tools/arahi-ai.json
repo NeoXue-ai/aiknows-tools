@@ -1,0 +1,18 @@
+{
+  "slug": "arahi-ai",
+  "name": "Arahi AI",
+  "tagline": "Transform your business with AI agents that handle customer support, sales, operations, and more",
+  "description": "Transform your business with AI agents that handle customer support, sales, operations, and more. Cut costs, boost productivity, and grow faster without hiring.",
+  "url": "https://arahi.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=arahi.ai&sz=64",
+  "screenshot_url": "/screenshots/arahi-ai.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 36,
+  "subcategory": "ai-agent",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

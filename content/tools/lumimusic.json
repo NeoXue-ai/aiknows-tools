@@ -1,0 +1,18 @@
+{
+  "slug": "lumimusic",
+  "name": "LumiMusic",
+  "tagline": "LumiMusic is an all-in-one AI music creation platform that transforms your ideas, text prompts, or lyrics into complete vocal and instrumental…",
+  "description": "LumiMusic is an all-in-one AI music creation platform that transforms your ideas, text prompts, or lyrics into complete vocal and instrumental tracks—no production experience required. Beyond generation, LumiMusic offers a full suite of editing tools to remix, extend, add or remove vocals, separate stems, analyze audio, and convert tracks into editable MIDI. You can organize your creations in a personal library, play them in a sleek web player, or share dedicated listening pages. Eligible plans",
+  "url": "https://lumimusic.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=lumimusic.ai&sz=64",
+  "screenshot_url": "/screenshots/lumimusic.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-music-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

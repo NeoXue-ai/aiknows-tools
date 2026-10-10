@@ -1,0 +1,18 @@
+{
+  "slug": "lootent",
+  "name": "Lootent",
+  "tagline": "Lootent is an AI-generated content workspace for creators to discover prompts, generate visuals, remix ideas, and save creative directions in one…",
+  "description": "Lootent is an AI-generated content workspace for creators to discover prompts, generate visuals, remix ideas, and save creative directions in one organized place. Built for workflows around GPT Image 2, Nano Banana, and other modern image-generation models, Lootent helps creators explore ideas, test styles, build moodboards, and turn inspiration into reusable creative assets faster.",
+  "url": "https://lootent.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=lootent.com&sz=64",
+  "screenshot_url": "/screenshots/lootent.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 15,
+  "subcategory": "ai-models",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

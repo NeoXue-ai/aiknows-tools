@@ -1,0 +1,18 @@
+{
+  "slug": "audio-to-text-ai-converter",
+  "name": "Audio to Text AI Converter",
+  "tagline": "Convert audio to text online for free with advanced AI",
+  "description": "Convert audio to text online for free with advanced AI. Fast, accurate, and secure transcription supporting multiple formats and languages. No registration required – instantly transcribe podcasts, meetings, interviews, lectures, and more with audio2textai.com.",
+  "url": "https://audio2textai.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=audio2textai.com&sz=64",
+  "screenshot_url": "/screenshots/audio-to-text-ai-converter.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 19,
+  "subcategory": "speech-to-text-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

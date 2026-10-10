@@ -1,0 +1,18 @@
+{
+  "slug": "webinspoo",
+  "name": "Webinspoo",
+  "tagline": "Browse 1,200+ curated SaaS websites and filter by category, font, color palette, tech stack, and page type. Updated daily.",
+  "description": "Browse 1,200+ curated SaaS websites and filter by category, font, color palette, tech stack, and page type. Updated daily.",
+  "url": "https://webinspoo.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=webinspoo.com&sz=64",
+  "screenshot_url": "/screenshots/webinspoo.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 13,
+  "subcategory": "ai-graphic-design",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

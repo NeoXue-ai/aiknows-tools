@@ -1,0 +1,18 @@
+{
+  "slug": "ai-image-tools",
+  "name": "AI Image Tools",
+  "tagline": "Remove image backgrounds instantly with Bg Remover. Studio-quality, hair-precise, one-click transparent PNGs for eCommerce, marketing, and creators.",
+  "description": "Remove image backgrounds instantly with Bg Remover. Studio-quality, hair-precise, one-click transparent PNGs for eCommerce, marketing, and creators.",
+  "url": "https://mybgremover.vercel.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=mybgremover.vercel.app&sz=64",
+  "screenshot_url": "/screenshots/ai-image-tools.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-background-remover",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

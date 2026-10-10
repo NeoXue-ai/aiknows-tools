@@ -1,0 +1,18 @@
+{
+  "slug": "kane-ai",
+  "name": "Kane AI",
+  "tagline": "KaneAI is a GenAI-Native testing agent for high speed Quality Engineering teams",
+  "description": "KaneAI is a GenAI-Native testing agent for high speed Quality Engineering teams. Allowing them to plan, author, and evolve tests using natural language. Try now!",
+  "url": "https://www.testmuai.com/kane-ai/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=testmuai.com&sz=64",
+  "screenshot_url": "/screenshots/kane-ai.webp",
+  "primary_category": "writing-content",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 80,
+  "subcategory": "ai-writer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

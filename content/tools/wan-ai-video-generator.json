@@ -1,0 +1,18 @@
+{
+  "slug": "wan-ai-video-generator",
+  "name": "Wan AI Video Generator",
+  "tagline": "Create stunning videos with Wan AI (include Wan 2.1 and Wan 2.2), the leading open-source AI video generation framework",
+  "description": "Create stunning videos with Wan AI (include Wan 2.1 and Wan 2.2), the leading open-source AI video generation framework. Enjoy AI tools for text-to-video and more! Perfect for developers and creators, optimized for Alibaba Cloud.",
+  "url": "https://wan2-1.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=wan2-1.com&sz=64",
+  "screenshot_url": "/screenshots/wan-ai-video-generator.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 32,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

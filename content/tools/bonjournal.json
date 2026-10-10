@@ -1,0 +1,18 @@
+{
+  "slug": "bonjournal",
+  "name": "Bonjournal",
+  "tagline": "Combine language learning with journaling. Get AI-powered corrections and coaching to improve your foreign language writing skills.",
+  "description": "Combine language learning with journaling. Get AI-powered corrections and coaching to improve your foreign language writing skills.",
+  "url": "https://www.bonjournal.app/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=bonjournal.app&sz=64",
+  "screenshot_url": "/screenshots/bonjournal.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 22,
+  "subcategory": "ai-education",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

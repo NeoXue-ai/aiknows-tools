@@ -1,0 +1,18 @@
+{
+  "slug": "xuanseal-bazi-calculator",
+  "name": "XuanSeal Bazi Calculator",
+  "tagline": "XuanSeal helps users generate a deterministic Bazi (Four Pillars) chart and translate it into practical yearly decisions",
+  "description": "XuanSeal helps users generate a deterministic Bazi (Four Pillars) chart and translate it into practical yearly decisions. Users can start with a free preview, then unlock a one-time full report with annual theme, seasonal rhythm, and action modules for work, relationship, and daily planning.",
+  "url": "https://xuanseal.com/bazi",
+  "logo_url": "https://pub-459c6f6553344cc393826444731f5707.r2.dev/upload-1773195797256.png",
+  "screenshot_url": "/screenshots/xuanseal-bazi-calculator.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": "https://findly.tools",
+  "dr": 12,
+  "subcategory": null,
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

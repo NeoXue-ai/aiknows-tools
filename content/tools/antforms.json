@@ -1,0 +1,18 @@
+{
+  "slug": "antforms",
+  "name": "AntForms",
+  "tagline": "No 10-response caps. No $39/mo for analytics. Our free form builder includes unlimited submissions, logic & branching, and real insights—from day one.",
+  "description": "No 10-response caps. No $39/mo for analytics. Our free form builder includes unlimited submissions, logic & branching, and real insights—from day one.",
+  "url": "https://antforms.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=antforms.com&sz=64",
+  "screenshot_url": "/screenshots/antforms.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 31,
+  "subcategory": "ai-document-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

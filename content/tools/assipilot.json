@@ -1,0 +1,18 @@
+{
+  "slug": "assipilot",
+  "name": "AssiPilot",
+  "tagline": "AssiPilot is your all-in-one AI creative assistant. Transform ideas into professional images, videos, voiceovers, and music with simple chat commands.",
+  "description": "AssiPilot is your all-in-one AI creative assistant. Transform ideas into professional images, videos, voiceovers, and music with simple chat commands.",
+  "url": "https://assipilot.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=assipilot.com&sz=64",
+  "screenshot_url": "/screenshots/assipilot.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 21,
+  "subcategory": "ai-models",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

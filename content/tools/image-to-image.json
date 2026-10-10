@@ -1,0 +1,18 @@
+{
+  "slug": "image-to-image",
+  "name": "Image To Image",
+  "tagline": "What it does Image To Image is a browser-based AI photo editor that transforms an uploaded photo into a new 4K version",
+  "description": "What it does Image To Image is a browser-based AI photo editor that transforms an uploaded photo into a new 4K version. Upload a source image, describe the change in plain English, and the image-to-image engine returns a transformed result while keeping the subject and composition intact. Key benefits - Image-to-image style transfer: repaint a photo as an oil painting, anime cel, or 3D render - Plain-English editing: object removal, background swap, and localized inpainting without manual masks",
+  "url": "https://image2image.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=image2image.app&sz=64",
+  "screenshot_url": "/screenshots/image-to-image.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-photo-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

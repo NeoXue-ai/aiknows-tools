@@ -1,0 +1,18 @@
+{
+  "slug": "hands-off",
+  "name": "Hands Off",
+  "tagline": "Hands Off detects when your hand moves toward your mouth and instantly displays a screen overlay to interrupt the habit before it happens",
+  "description": "Hands Off detects when your hand moves toward your mouth and instantly displays a screen overlay to interrupt the habit before it happens. Nail biting occurs unconsciously during stress or focus, so traditional solutions like bitter polish or fidget toys fail. Hands Off catches you in the act with real-time AI detection while you work or study, breaking the habit loop automatically. No willpower required, no manual tracking needed.",
+  "url": "https://handsoffapp.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=handsoffapp.com&sz=64",
+  "screenshot_url": "/screenshots/hands-off.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 22,
+  "subcategory": "ai-detector",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

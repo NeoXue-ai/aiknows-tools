@@ -1,0 +1,18 @@
+{
+  "slug": "brandgene",
+  "name": "brandgene",
+  "tagline": "AI-powered brand ad and image generator",
+  "description": "AI-powered brand ad and image generator. Enter your website URL, extract brand DNA automatically, and create professional on-brand ads, product photos, and social media graphics in seconds. Try free.",
+  "url": "https://brandgene.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=brandgene.io&sz=64",
+  "screenshot_url": "/screenshots/brandgene.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 20,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

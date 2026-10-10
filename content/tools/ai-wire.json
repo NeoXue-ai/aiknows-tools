@@ -1,0 +1,18 @@
+{
+  "slug": "ai-wire",
+  "name": "AI Wire",
+  "tagline": "AIWire is a free, no-signup news aggregator that pulls the day's AI and developer news onto one page — then uses AI to tell you what actually matters",
+  "description": "AIWire is a free, no-signup news aggregator that pulls the day's AI and developer news onto one page — then uses AI to tell you what actually matters. Every two hours it scans 80+ sources — AI research labs (OpenAI, Anthropic, Google DeepMind), tech press, and developer blogs — and a Gemini-powered curator groups the noise into 8 ranked story clusters, each with a two-sentence summary and an importance score. An older-but-important story can still outrank a trivial fresh one, so you get signal i",
+  "url": "https://aiwire.dev",
+  "logo_url": "https://www.google.com/s2/favicons?domain=aiwire.dev&sz=64",
+  "screenshot_url": "/screenshots/ai-wire.webp",
+  "primary_category": "business-analytics",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 6,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "nano-banana",
+  "name": "Nano Banana",
+  "tagline": "Nano Banana creates stunning AI-generated images with identity-consistent editing, multi-image blending, and precise text-guided transformations.",
+  "description": "Nano Banana creates stunning AI-generated images with identity-consistent editing, multi-image blending, and precise text-guided transformations.",
+  "url": "https://nanobananana.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=nanobananana.com&sz=64",
+  "screenshot_url": "/screenshots/nano-banana-9.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 26,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

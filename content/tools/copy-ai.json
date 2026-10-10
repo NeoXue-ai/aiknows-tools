@@ -1,0 +1,22 @@
+{
+  "slug": "copy-ai",
+  "name": "Copy.ai",
+  "tagline": "Go-to-market AI platform",
+  "description": "Workflows and agents for sales, marketing, and ops. Built for revenue teams.",
+  "url": "https://copy.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=copy.ai&sz=64",
+  "screenshot_url": "/screenshots/copy-ai.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "copywriting",
+    "workflows",
+    "gtm"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-marketing",
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "report-maker-ai",
+  "name": "Report Maker Ai",
+  "tagline": "Create reports automatically using AI",
+  "description": "Create reports automatically using AI. Free online report maker with PDF export, formatted report output, and ready templates for students and professionals.",
+  "url": "https://reportmaker.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=reportmaker.ai&sz=64",
+  "screenshot_url": "/screenshots/report-maker-ai.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 9,
+  "subcategory": "ai-pdf",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

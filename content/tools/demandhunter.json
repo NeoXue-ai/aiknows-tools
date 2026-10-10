@@ -1,0 +1,18 @@
+{
+  "slug": "demandhunter",
+  "name": "demandhunter",
+  "tagline": "DemandHunter helps indie hackers and solo founders validate product ideas before building",
+  "description": "DemandHunter helps indie hackers and solo founders validate product ideas before building. Enter a keyword, niche, or startup idea, and DemandHunter scans real discussions from Web, Reddit, Hacker News, GitHub, X, YouTube, TikTok, Instagram, and Polymarket. It analyzes user complaints, pain points, market signals, existing solution gaps, and possible MVP opportunities. Instead of guessing what people need, you get a structured demand validation report with real evidence from online discussions. ",
+  "url": "https://demandhunter.app",
+  "logo_url": "https://pub-459c6f6553344cc393826444731f5707.r2.dev/upload-1782885507767.png",
+  "screenshot_url": "/screenshots/demandhunter.webp",
+  "primary_category": "code-development",
+  "tags": [],
+  "pricing_detail": null,
+  "source": "https://findly.tools",
+  "dr": 2.5,
+  "subcategory": null,
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

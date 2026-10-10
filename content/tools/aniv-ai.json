@@ -1,0 +1,18 @@
+{
+  "slug": "aniv-ai",
+  "name": "Aniv AI",
+  "tagline": "Aniv is an all in one AI story generator for creating complete series",
+  "description": "Aniv is an all in one AI story generator for creating complete series. From story creation and consistent characters to storyboards, scenes, and videos, Aniv transforms ideas into fully produced visual stories.",
+  "url": "https://aniv.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=aniv.ai&sz=64",
+  "screenshot_url": "/screenshots/aniv-ai.webp",
+  "primary_category": "writing-content",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 35,
+  "subcategory": "ai-writer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

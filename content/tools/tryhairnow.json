@@ -1,0 +1,18 @@
+{
+  "slug": "tryhairnow",
+  "name": "TryHairNow",
+  "tagline": "TryHairNow is an AI hairstyle try-on tool that helps users preview different haircuts and hair colors using their own photo",
+  "description": "TryHairNow is an AI hairstyle try-on tool that helps users preview different haircuts and hair colors using their own photo. Users can explore short hair, long hair, bangs, bob cuts, curls, layered styles, and different color options before visiting a salon or making a real change. The tool creates realistic hairstyle previews, making it easier to compare looks, reduce uncertainty, and choose a style with more confidence. TryHairNow is simple to use and does not require professional photo-editin",
+  "url": "https://tryhairnow.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=tryhairnow.com&sz=64",
+  "screenshot_url": "/screenshots/tryhairnow.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 36,
+  "subcategory": "ai-photo-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "fluidforms",
+  "name": "FluidForms",
+  "tagline": "Static web forms result in incomplete submissions and wasted billable hours",
+  "description": "Static web forms result in incomplete submissions and wasted billable hours. **FluidForms is the Intelligent Intake Engine that fixes this.** It acts as a 24/7 automated screener, interviewing clients and candidates for you. How It Works * **Reads Documents Instantly:** Users upload unstructured files like resumes, case reports, or voice notes. FluidForms extracts critical info and auto-fills the data. * **Asks Follow-Ups:** Unlike rigid forms, the AI dynamically asks natural follow-up questions",
+  "url": "https://fluidforms.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=fluidforms.ai&sz=64",
+  "screenshot_url": "/screenshots/fluidforms.webp",
+  "primary_category": "seo-marketing",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 11,
+  "subcategory": "ai-ad-creative",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

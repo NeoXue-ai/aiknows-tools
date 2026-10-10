@@ -20,16 +20,16 @@ export default function AboutPage() {
   };
 
   return (
-    <div className="container mx-auto max-w-3xl px-4 py-12 md:py-16">
+    <div className="mx-auto w-full max-w-[768px] px-5 py-12 sm:px-8 md:py-16">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
       />
-      <header className="mb-10 border-b border-border pb-6">
-        <p className="font-mono text-[10px] uppercase tracking-[0.16em] text-muted-foreground">
+      <header className="mb-10">
+        <p className="text-sm font-medium text-accent">
           About / what this index is
         </p>
-        <h1 className="mt-3 text-balance text-3xl font-semibold tracking-[-0.03em] sm:text-4xl">
+        <h1 className="mt-3 text-balance text-4xl font-semibold tracking-[-0.045em] sm:text-5xl">
           An evidence-led index, not a popularity ranking.
         </h1>
         <p className="mt-3 text-pretty leading-7 text-muted-foreground">
@@ -41,7 +41,7 @@ export default function AboutPage() {
 
       <section className="space-y-12">
         <article>
-          <p className="font-mono text-[10px] uppercase tracking-[0.14em] text-accent">
+          <p className="text-sm font-medium text-accent">
             01 / Positioning
           </p>
           <h2 className="mt-3 text-2xl font-semibold tracking-[-0.025em]">
@@ -62,7 +62,7 @@ export default function AboutPage() {
         </article>
 
         <article>
-          <p className="font-mono text-[10px] uppercase tracking-[0.14em] text-accent">
+          <p className="text-sm font-medium text-accent">
             02 / Data sources
           </p>
           <h2 className="mt-3 text-2xl font-semibold tracking-[-0.025em]">
@@ -72,8 +72,8 @@ export default function AboutPage() {
             The catalogue has two contributing paths:
           </p>
           <dl className="mt-4 divide-y divide-border border-y border-border">
-            <div className="grid grid-cols-[10rem_minmax(0,1fr)] gap-4 py-4 sm:gap-6">
-              <dt className="font-mono text-[11px] uppercase tracking-[0.14em] text-muted-foreground">
+            <div className="grid gap-2 py-4 sm:grid-cols-[10rem_minmax(0,1fr)] sm:gap-6">
+              <dt className="text-sm font-medium text-muted-foreground">
                 Public submission
               </dt>
               <dd className="text-sm leading-6 text-foreground/85">
@@ -86,8 +86,8 @@ export default function AboutPage() {
                 matching category).
               </dd>
             </div>
-            <div className="grid grid-cols-[10rem_minmax(0,1fr)] gap-4 py-4 sm:gap-6">
-              <dt className="font-mono text-[11px] uppercase tracking-[0.14em] text-muted-foreground">
+            <div className="grid gap-2 py-4 sm:grid-cols-[10rem_minmax(0,1fr)] sm:gap-6">
+              <dt className="text-sm font-medium text-muted-foreground">
                 Editor import
               </dt>
               <dd className="text-sm leading-6 text-foreground/85">
@@ -97,16 +97,15 @@ export default function AboutPage() {
                 and are marked with a recorded source when one is available.
               </dd>
             </div>
-            <div className="grid grid-cols-[10rem_minmax(0,1fr)] gap-4 py-4 sm:gap-6">
-              <dt className="font-mono text-[11px] uppercase tracking-[0.14em] text-muted-foreground">
+            <div className="grid gap-2 py-4 sm:grid-cols-[10rem_minmax(0,1fr)] sm:gap-6">
+              <dt className="text-sm font-medium text-muted-foreground">
                 Directory records
               </dt>
               <dd className="text-sm leading-6 text-foreground/85">
-                Submission facts for tool directories — submission URL,
-                required fields, turnaround, listing type — are recorded
-                alongside the tool catalogue at{" "}
-                <Link href="/directories" className="underline underline-offset-4 hover:text-accent">
-                  /directories
+                Tool and resource directories are grouped with their recorded
+                product details at{" "}
+                <Link href="/categories/directories" className="underline underline-offset-4 hover:text-accent">
+                  /categories/directories
                 </Link>
                 .
               </dd>
@@ -115,7 +114,7 @@ export default function AboutPage() {
         </article>
 
         <article>
-          <p className="font-mono text-[10px] uppercase tracking-[0.14em] text-accent">
+          <p className="text-sm font-medium text-accent">
             03 / Limitations
           </p>
           <h2 className="mt-3 text-2xl font-semibold tracking-[-0.025em]">
@@ -151,9 +150,9 @@ export default function AboutPage() {
             ].map((row) => (
               <div
                 key={row.label}
-                className="grid grid-cols-[8rem_minmax(0,1fr)] gap-4 py-4 sm:grid-cols-[10rem_minmax(0,1fr)] sm:gap-6"
+                className="grid gap-2 py-4 sm:grid-cols-[10rem_minmax(0,1fr)] sm:gap-6"
               >
-                <dt className="font-mono text-[11px] uppercase tracking-[0.14em] text-muted-foreground">
+                <dt className="text-sm font-medium text-muted-foreground">
                   {row.label}
                 </dt>
                 <dd className="text-sm leading-6 text-foreground/85">{row.detail}</dd>
@@ -163,7 +162,7 @@ export default function AboutPage() {
         </article>
 
         <article className="border-t border-border pt-8">
-          <p className="font-mono text-[10px] uppercase tracking-[0.14em] text-accent">
+          <p className="text-sm font-medium text-accent">
             04 / Get involved
           </p>
           <h2 className="mt-3 text-2xl font-semibold tracking-[-0.025em]">
@@ -177,7 +176,7 @@ export default function AboutPage() {
           <div className="mt-6 flex flex-wrap items-center gap-3">
             <Link
               href="/submit"
-              className="inline-flex h-11 items-center gap-2 bg-foreground px-5 text-sm font-medium text-background transition-colors hover:bg-foreground/90"
+              className="action-primary"
             >
               Submit a tool or directory
               <ArrowRight className="h-4 w-4" />

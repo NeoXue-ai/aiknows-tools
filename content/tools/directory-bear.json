@@ -1,0 +1,18 @@
+{
+  "slug": "directory-bear",
+  "name": "Directory Bear",
+  "tagline": "The world's largest AI-curated web directory",
+  "description": "The world's largest AI-curated web directory. Explore over 1 million websites ranked by Bear Rank (BR) — a transparent, quality-first ranking algorithm.",
+  "url": "https://dirbear.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=dirbear.com&sz=64",
+  "screenshot_url": "/screenshots/directory-bear.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 14,
+  "subcategory": "directories",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

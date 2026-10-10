@@ -1,0 +1,18 @@
+{
+  "slug": "sqlite-hub",
+  "name": "SQLite Hub",
+  "tagline": "SQLite Hub is a local-first SQLite manager and CLI designed for people who work directly with SQLite files as products, research sources, operational…",
+  "description": "SQLite Hub is a local-first SQLite manager and CLI designed for people who work directly with SQLite files as products, research sources, operational datasets, prototypes, or evidence. The project aims to make SQLite databases easier to inspect, edit, understand, document, visualize, and export without forcing users into a cloud platform or a heavyweight enterprise database client. The core idea behind SQLite Hub is simple: many useful applications, internal tools, research projects, AI workflow",
+  "url": "https://oliverjessner.at/sqlite-hub/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=oliverjessner.at&sz=64",
+  "screenshot_url": "/screenshots/sqlite-hub.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 6,
+  "subcategory": "ai-workflow",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

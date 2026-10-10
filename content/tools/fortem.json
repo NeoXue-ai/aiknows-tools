@@ -1,0 +1,18 @@
+{
+  "slug": "fortem",
+  "name": "Fortem",
+  "tagline": "Control plane for teams running 10+ AWS ECS Fargate environments",
+  "description": "Control plane for teams running 10+ AWS ECS Fargate environments. - **Schedule** non-prod environments to stop outside business hours — cut dev/staging compute 60–70% - **Clone** any environment to another region in ~30 seconds - **Monitor** per-environment cost in real time - **Fix** task failures with AI that reads CloudWatch and proposes the fix Runs in your own AWS account. No Terraform changes.",
+  "url": "https://fortem.dev",
+  "logo_url": "https://www.google.com/s2/favicons?domain=fortem.dev&sz=64",
+  "screenshot_url": "/screenshots/fortem.webp",
+  "primary_category": "seo-marketing",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 4.2,
+  "subcategory": "ai-ad-creative",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

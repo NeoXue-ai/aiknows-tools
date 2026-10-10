@@ -1,0 +1,18 @@
+{
+  "slug": "body-visualizer",
+  "name": "Body Visualizer",
+  "tagline": "Free 3D body visualizer",
+  "description": "Free 3D body visualizer. Enter height, weight, and measurements to preview your body shape and compare current vs goal silhouettes. No signup, no photos.",
+  "url": "https://body-visualizer.net/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=body-visualizer.net&sz=64",
+  "screenshot_url": "/screenshots/body-visualizer.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 7,
+  "subcategory": "ai-agent",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "git-lrc",
+  "name": "git-lrc",
+  "tagline": "GenAI is like a race car without brakes",
+  "description": "GenAI is like a race car without brakes. It accelerates fast — you describe something, and large blocks of code appear instantly. But AI agents silently break things. They remove logic. Relax constraints. Introduce expensive cloud calls. Leak credentials. Change behavior without telling you. git-lrc is your braking system. It hooks into git commit and runs an AI review on every diff before it lands.",
+  "url": "https://hexmos.com/livereview/git-lrc/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=hexmos.com&sz=64",
+  "screenshot_url": "/screenshots/git-lrc.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 44,
+  "subcategory": "ai-agent",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

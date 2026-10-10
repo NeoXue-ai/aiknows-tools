@@ -1,0 +1,18 @@
+{
+  "slug": "ugc-maker",
+  "name": "UGC Maker",
+  "tagline": "[UGC Maker](https://ugcmaker.io/) is a specialized AI studio designed to transform standard product images into high-converting User-Generated…",
+  "description": "[UGC Maker](https://ugcmaker.io/) is a specialized AI studio designed to transform standard product images into high-converting User-Generated Content (UGC) visuals. By utilizing advanced AI compositing, the platform allows e-commerce sellers to place their products into the hands of photorealistic virtual models without the need for expensive photoshoots or physical studios. The tool focuses on creating lifelike interactions between the model and the product, ensuring natural skin textures and",
+  "url": "https://ugcmaker.io/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=ugcmaker.io&sz=64",
+  "screenshot_url": "/screenshots/ugc-maker.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

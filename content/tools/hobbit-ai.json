@@ -1,0 +1,18 @@
+{
+  "slug": "hobbit-ai",
+  "name": "Hobbit AI",
+  "tagline": "What it does Hobbit AI is an AI coaching assistant for youth soccer",
+  "description": "What it does Hobbit AI is an AI coaching assistant for youth soccer. It writes age-appropriate training sessions, designs game-based drills, and answers coaching questions, all grounded in the DGC dynamic training method from the published book \"Starting with Game Intelligence.\" Key benefits - Generate a full, structured training session in seconds, tuned to age group and skill level - Game-based drills built on the DGC method, not isolated repetition - Draw and share drill diagrams with a built",
+  "url": "https://hobbit.football/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=hobbit.football&sz=64",
+  "screenshot_url": "/screenshots/hobbit-ai.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 15,
+  "subcategory": "ai-tutor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

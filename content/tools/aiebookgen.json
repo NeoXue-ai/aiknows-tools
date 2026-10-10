@@ -1,0 +1,18 @@
+{
+  "slug": "aiebookgen",
+  "name": "AIeBookGen",
+  "tagline": "Use AIeBookGen as your AI ebook generator to turn ideas, notes, or drafts into structured chapters, metadata, and EPUB/PDF exports. Start free.",
+  "description": "Use AIeBookGen as your AI ebook generator to turn ideas, notes, or drafts into structured chapters, metadata, and EPUB/PDF exports. Start free.",
+  "url": "https://aiebookgen.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=aiebookgen.com&sz=64",
+  "screenshot_url": "/screenshots/aiebookgen.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 8,
+  "subcategory": "ai-note-taker",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

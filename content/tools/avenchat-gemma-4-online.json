@@ -1,0 +1,18 @@
+{
+  "slug": "avenchat-gemma-4-online",
+  "name": "AvenChat Gemma 4 Online",
+  "tagline": "AvenChat **AvenChat** is a free online **Gemma 4 chat** and research hub that helps users try Gemma 4 in the browser, compare model variants,…",
+  "description": "AvenChat **AvenChat** is a free online **Gemma 4 chat** and research hub that helps users try Gemma 4 in the browser, compare model variants, understand hardware requirements, and explore local setup guides. What is AvenChat? AvenChat is built for people who want to understand and use **Gemma 4** faster. Instead of only offering a simple chat demo, AvenChat combines: - Free browser-based Gemma 4 chat - Gemma 4 model comparisons - Hardware requirement guides - Local setup tutorials for tools like",
+  "url": "https://avenchat.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=avenchat.com&sz=64",
+  "screenshot_url": "/screenshots/avenchat-gemma-4-online.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 38,
+  "subcategory": "ai-models",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

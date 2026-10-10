@@ -1,0 +1,18 @@
+{
+  "slug": "whisk-ai",
+  "name": "whisk ai",
+  "tagline": "Whisk AI Image Generator revolutionizes AI image creation by blending three visual inputs - subject, scene, and style",
+  "description": "Whisk AI Image Generator revolutionizes AI image creation by blending three visual inputs - subject, scene, and style. Upload images or use text prompts to generate professional 4K quality images instantly. Experience the power of Whisk AI Google Labs' advanced image-to-image technology. Try Whisk AI free online today.",
+  "url": "https://www.whisk-ai.co",
+  "logo_url": "https://www.google.com/s2/favicons?domain=whisk-ai.co&sz=64",
+  "screenshot_url": "/screenshots/whisk-ai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 29,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

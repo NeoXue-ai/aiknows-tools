@@ -1,0 +1,77 @@
+{
+  "slug": "pxlify",
+  "name": "Pxlify",
+  "tagline": "Pxlify is your all-in-one visual workspace",
+  "description": "Pxlify is your all-in-one visual workspace. Capture pixel-perfect screenshots and zero-lag recordings from your browser, then push them directly to our web engine for AI-powered transcription and translation in 20+ languages.",
+  "url": "https://www.pxlify.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=pxlify.com&sz=64",
+  "screenshot_url": "/screenshots/pxlify.webp",
+  "primary_category": "writing-content",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 2.2,
+  "subcategory": "ai-translator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null,
+  "editorial": {
+    "comparison": {
+      "eyebrow": "Editorial",
+      "heading": "How Pxlify compares",
+      "paragraphs": [
+        "Pxlify bundles three jobs that teams usually run through separate tools: browser-native screenshots and screen recording, AI transcription with speaker separation, and subtitle translation into 20+ languages. Capture happens in a Chrome extension, then the recording lands in a web studio where transcripts are generated at a claimed 99.8% accuracy and exported as SRT or VTT. The practical alternative path is CleanShot X for capture plus a dedicated transcription service, moving files between two products by hand.",
+        "The comparison worth making is with single-purpose incumbents. CleanShot X remains the stronger pure screenshot tool on macOS — more annotation options, better scrolling capture — but it records and stops there. Otter.ai is the deeper transcription product for meetings, with searchable archives and integrations Pxlify lacks. And for text translation alone, DeepL is still the quality bar. Pxlify's bet is that one capture-to-caption pipeline beats three best-in-class tools for creators who publish subtitled video regularly; if you only need one of those steps, the specialist is still the better buy."
+      ],
+      "points": [
+        {
+          "label": "vs CleanShot X",
+          "text": "CleanShot X is a paid macOS desktop app with best-in-class annotation and scrolling capture. Pxlify runs in the browser cross-platform and hands the recording straight to its transcription engine — fewer moving parts if subtitles are the end goal."
+        },
+        {
+          "label": "vs Otter.ai",
+          "text": "Otter targets meeting transcription with archives, search, and calendar integrations. Pxlify targets video content: speaker-separated transcripts synced to the millisecond and exported as subtitle files, which Otter does not do."
+        },
+        {
+          "label": "vs DeepL",
+          "text": "DeepL is the reference quality for plain text translation but handles no video or timing. Pxlify translates subtitle tracks while preserving timestamps, accepting some quality loss for the pipeline convenience."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Is Pxlify free to use?",
+        "answer": "The Chrome extension and a starting tier of the web studio are free, with paid plans covering heavier transcription and translation volume. Check the pricing page on pxlify.com for current limits."
+      },
+      {
+        "question": "Does Pxlify work on Mac and Windows?",
+        "answer": "Yes. Because capture runs through a Chrome extension and transcription runs in the browser, Pxlify works anywhere Chrome does — unlike desktop-only recorders such as CleanShot X."
+      },
+      {
+        "question": "Which languages can Pxlify translate subtitles into?",
+        "answer": "20+ languages including Spanish, French, Japanese, German, and Arabic. Transcripts keep their timestamps through translation, so exported SRT/VTT files stay in sync."
+      },
+      {
+        "question": "Can Pxlify replace Otter.ai for meeting notes?",
+        "answer": "It can transcribe recordings with speaker separation, but Otter is purpose-built for meetings with live transcription, searchable archives, and calendar integrations. Pxlify is stronger when the recording is video content that needs subtitles."
+      }
+    ],
+    "externalLinks": [
+      {
+        "label": "CleanShot X",
+        "url": "https://cleanshot.com",
+        "context": "the macOS reference for annotated screenshots and screen recording"
+      },
+      {
+        "label": "Otter.ai",
+        "url": "https://otter.ai",
+        "context": "meeting-focused AI transcription with searchable archives"
+      },
+      {
+        "label": "DeepL",
+        "url": "https://www.deepl.com",
+        "context": "the translation quality benchmark for text-level work"
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "redactfile",
+  "name": "redactfile",
+  "tagline": "Extract text, redact sensitive data, and convert PDFs, scans, and images into structured JSON, CSV, Markdown, and review-ready outputs online.",
+  "description": "Extract text, redact sensitive data, and convert PDFs, scans, and images into structured JSON, CSV, Markdown, and review-ready outputs online.",
+  "url": "https://redactfile.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=redactfile.com&sz=64",
+  "screenshot_url": "/screenshots/redactfile.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 6,
+  "subcategory": "ai-ocr",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

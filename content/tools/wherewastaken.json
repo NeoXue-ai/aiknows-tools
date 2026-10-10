@@ -1,0 +1,18 @@
+{
+  "slug": "wherewastaken",
+  "name": "WhereWasTaken",
+  "tagline": "WhereWasTaken is an AI-powered image geolocation engine that identifies where photos were taken using visual clues instead of GPS metadata",
+  "description": "WhereWasTaken is an AI-powered image geolocation engine that identifies where photos were taken using visual clues instead of GPS metadata. Upload any image or GeoGuessr screenshot to receive a comprehensive location analysis, including the most likely location, confidence score, interactive map, geographic evidence, and alternative location candidates. Perfect for travelers, investigators, researchers, and GeoGuessr players.",
+  "url": "https://wherewastaken.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=wherewastaken.com&sz=64",
+  "screenshot_url": "/screenshots/wherewastaken.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-entertainment",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

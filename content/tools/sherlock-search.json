@@ -1,0 +1,18 @@
+{
+  "slug": "sherlock-search",
+  "name": "Sherlock Search",
+  "tagline": "Reverse Face Search for Public Web Sources Sherlock Search is a specialized AI tool designed to trace where a specific face appears across the public…",
+  "description": "Reverse Face Search for Public Web Sources Sherlock Search is a specialized AI tool designed to trace where a specific face appears across the public web. By uploading a single clear photo, users can initiate a comprehensive scan of public source links to identify potential visual matches. The platform operates on a straightforward, single-use model that prioritizes immediate results without the need for long-term commitments. How the Search Process Works The workflow is built around three prima",
+  "url": "https://sherlocksearch.net",
+  "logo_url": "https://www.google.com/s2/favicons?domain=sherlocksearch.net&sz=64",
+  "screenshot_url": "/screenshots/sherlock-search.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-workflow",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

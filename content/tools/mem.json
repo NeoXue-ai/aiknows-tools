@@ -1,0 +1,20 @@
+{
+  "slug": "mem",
+  "name": "Mem",
+  "tagline": "AI notes that organize themselves",
+  "description": "Self-organizing workspace with AI search, smart write, and chat.",
+  "url": "https://mem.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=mem.ai&sz=64",
+  "screenshot_url": "/screenshots/mem.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "notes"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-note-taker",
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

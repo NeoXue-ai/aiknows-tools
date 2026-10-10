@@ -1,0 +1,21 @@
+{
+  "slug": "zapier",
+  "name": "Zapier",
+  "tagline": "Workflow automation",
+  "description": "Connect 7,000+ apps to automate workflows, now with AI actions.",
+  "url": "https://zapier.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=zapier.com&sz=64",
+  "screenshot_url": "/screenshots/zapier.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "automation",
+    "integration"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-workflow",
+  "is_featured": true,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

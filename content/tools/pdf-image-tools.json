@@ -1,0 +1,18 @@
+{
+  "slug": "pdf-image-tools",
+  "name": "PDF & Image Tools",
+  "tagline": "PDF & Image Tools is a free suite of PDF and image tools that run entirely in your browser",
+  "description": "PDF & Image Tools is a free suite of PDF and image tools that run entirely in your browser. Nothing is ever uploaded: every task runs locally on your device, so your files never touch a server (you can verify it by opening your browser's Network tab, or by turning off Wi-Fi after the page loads). It includes PDF merge, split, compress to an exact size, convert, organize, rotate, sign, watermark and OCR, plus image compress, resize and convert across about 20 formats, and an on-device AI backgrou",
+  "url": "https://pdfandimagetools.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=pdfandimagetools.com&sz=64",
+  "screenshot_url": "/screenshots/pdf-image-tools.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 13,
+  "subcategory": "ai-pdf",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

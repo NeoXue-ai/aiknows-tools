@@ -1,0 +1,18 @@
+{
+  "slug": "grok-images",
+  "name": "grok images",
+  "tagline": "Create high-quality AI images from text prompts with Grok Image Generator",
+  "description": "Create high-quality AI images from text prompts with Grok Image Generator. Control style, composition, aspect ratio, and resolution for marketing, design, and product visuals.",
+  "url": "https://grokimages.org/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=grokimages.org&sz=64",
+  "screenshot_url": "/screenshots/grok-images.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 10,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "invideo-ai",
+  "name": "InVideo AI",
+  "tagline": "AI video generator",
+  "description": "Turn a prompt into a publish-ready video with script, scenes, and voice.",
+  "url": "https://invideo.io/ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=invideo.io&sz=64",
+  "screenshot_url": "/screenshots/invideo-ai.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "video"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

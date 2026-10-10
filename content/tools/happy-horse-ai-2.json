@@ -1,0 +1,18 @@
+{
+  "slug": "happy-horse-ai-2",
+  "name": "Happy Horse AI",
+  "tagline": "HappyHorse AI is a browser-based AI video platform for HappyHorse 1.0 text-to-video and image-to-video creation, with HD downloads and flexible…",
+  "description": "HappyHorse AI is a browser-based AI video platform for HappyHorse 1.0 text-to-video and image-to-video creation, with HD downloads and flexible credits.",
+  "url": "https://happy-horse.tech",
+  "logo_url": "https://www.google.com/s2/favicons?domain=happy-horse.tech&sz=64",
+  "screenshot_url": "/screenshots/happy-horse-ai-3.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 5,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

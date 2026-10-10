@@ -1,0 +1,18 @@
+{
+  "slug": "lurner",
+  "name": "Lurner",
+  "tagline": "Lurner is an interactive study app that turns boring coursework - lectures, slides, PDFs, and videos into short, step-by-step courses with fun,…",
+  "description": "Lurner is an interactive study app that turns boring coursework - lectures, slides, PDFs, and videos into short, step-by-step courses with fun, interactive exercises. Get top grades by practicing active recall instead of reading passive outlines. Don't have study materials? Just Ask Lurner to build a personalized micro-course on any topic from scratch. Includes a grounded AI study companion citing exact textbook page numbers and timestamps. Ace your exams today!",
+  "url": "https://www.lurner.in",
+  "logo_url": "https://www.google.com/s2/favicons?domain=lurner.in&sz=64",
+  "screenshot_url": "/screenshots/lurner.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 25,
+  "subcategory": "ai-education",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

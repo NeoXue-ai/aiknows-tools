@@ -1,0 +1,18 @@
+{
+  "slug": "heartmula-2",
+  "name": "HeartMula",
+  "tagline": "HeartMuLa is the leading open source AI music generator",
+  "description": "HeartMuLa is the leading open source AI music generator. Create professional songs with lyrics in seconds. Free, Apache 2.0 licensed. Better Suno alternative for local deployment.",
+  "url": "https://heart-mula.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=heart-mula.com&sz=64",
+  "screenshot_url": "/screenshots/heartmula.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 21,
+  "subcategory": "ai-music-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

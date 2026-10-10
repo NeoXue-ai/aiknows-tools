@@ -1,0 +1,18 @@
+{
+  "slug": "cursive-generators",
+  "name": "Cursive Generators",
+  "tagline": "Cursive Generators is a free online cursive text and font generator designed for users who want to turn plain text into beautiful handwriting-style…",
+  "description": "Cursive Generators is a free online cursive text and font generator designed for users who want to turn plain text into beautiful handwriting-style designs instantly. Users can enter any name, word, quote, brand phrase, classroom label, or personal message, then preview it in multiple cursive, handwritten, calligraphy, elegant, decorative, and signature-style fonts. Unlike basic cursive copy-paste tools, Cursive Generators supports both Unicode cursive text and real-font image generation. Users ",
+  "url": "https://cursivegenerators.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=cursivegenerators.org&sz=64",
+  "screenshot_url": "/screenshots/cursive-generators.webp",
+  "primary_category": "code-development",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 23,
+  "subcategory": "ai-image-api",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

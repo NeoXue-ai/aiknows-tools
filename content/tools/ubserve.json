@@ -1,0 +1,18 @@
+{
+  "slug": "ubserve",
+  "name": "Ubserve",
+  "tagline": "Paste your URL and find all security issues in 30 seconds",
+  "description": "Paste your URL and find all security issues in 30 seconds. What it does Ubserve runs attacker-style security scans against live AI-built apps — the ones shipped with Cursor, Lovable, Bolt.new, Windsurf, v0, and Supabase. Unlike a code review, it tests the deployed app, so it catches the runtime access-control flaws static analysis can't see: exposed API keys, missing Supabase RLS, public storage buckets, unauthenticated endpoints, IDOR, leaked env vars, and header/SSL gaps. Every finding comes w",
+  "url": "https://ubserve.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=ubserve.com&sz=64",
+  "screenshot_url": "/screenshots/ubserve.webp",
+  "primary_category": "code-development",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "developer-apis",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

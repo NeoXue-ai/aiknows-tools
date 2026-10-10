@@ -1,0 +1,18 @@
+{
+  "slug": "banana-editor",
+  "name": "Banana Editor",
+  "tagline": "Edit images with natural language using Gemini 3.0 Pro. Start free with 3 credits + earn 100 more through daily check-ins. No credit card required.",
+  "description": "Edit images with natural language using Gemini 3.0 Pro. Start free with 3 credits + earn 100 more through daily check-ins. No credit card required.",
+  "url": "https://bananaeditor.art/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=bananaeditor.art&sz=64",
+  "screenshot_url": "/screenshots/banana-editor.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 19,
+  "subcategory": "ai-photo-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

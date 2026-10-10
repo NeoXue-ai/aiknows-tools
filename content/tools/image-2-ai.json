@@ -1,0 +1,18 @@
+{
+  "slug": "image-2-ai",
+  "name": "Image 2 AI",
+  "tagline": "Image 2 AI is a free online AI image generator and editor",
+  "description": "Image 2 AI is a free online AI image generator and editor. Create photorealistic images, edit visuals from prompts or reference images, and generate posters, UI mockups, product shots, social graphics, and infographics in seconds.",
+  "url": "https://image2ai.net",
+  "logo_url": "https://www.google.com/s2/favicons?domain=image2ai.net&sz=64",
+  "screenshot_url": "/screenshots/image-2-ai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 37,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

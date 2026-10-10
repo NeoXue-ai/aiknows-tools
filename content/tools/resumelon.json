@@ -1,0 +1,18 @@
+{
+  "slug": "resumelon",
+  "name": "Resumelon",
+  "tagline": "The AI resume builder that tailors your resume and cover letter to every job. Paste a job description, get a recruiter-ready application in minutes.",
+  "description": "The AI resume builder that tailors your resume and cover letter to every job. Paste a job description, get a recruiter-ready application in minutes.",
+  "url": "https://www.resumelon.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=resumelon.com&sz=64",
+  "screenshot_url": "/screenshots/resumelon.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-resume-builder",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

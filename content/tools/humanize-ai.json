@@ -1,0 +1,18 @@
+{
+  "slug": "humanize-ai",
+  "name": "Humanize AI",
+  "tagline": "Humanize AI converts AI-generated text into natural human writing in seconds",
+  "description": "Humanize AI converts AI-generated text into natural human writing in seconds. 100% free, no signup required. Supports 3000+ words, 18 languages, and bypasses all major AI detectors including GPTZero, Turnitin, Copyleaks, and Originality.ai with 97%+ successrate.",
+  "url": "https://humanize-ai.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=humanize-ai.io&sz=64",
+  "screenshot_url": "/screenshots/humanize-ai.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 12,
+  "subcategory": "ai-detector",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

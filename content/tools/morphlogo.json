@@ -1,0 +1,18 @@
+{
+  "slug": "morphlogo",
+  "name": "MorphLogo",
+  "tagline": "MorphLogo transforms your static logo into a short, looping animated video clip — a ready-to-use branded asset for video intros, outros, social…",
+  "description": "MorphLogo transforms your static logo into a short, looping animated video clip — a ready-to-use branded asset for video intros, outros, social posts, and ads. Built for small business owners and content creators who produce video but don't want to hire a designer or wrestle with animation software, MorphLogo solves the one thing general-purpose AI tools get wrong: it adds motion to your logo without distorting its shape, colors, or recognizability. No redesigns, no endless trial and error. Uplo",
+  "url": "https://morphlogo.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=morphlogo.com&sz=64",
+  "screenshot_url": "/screenshots/morphlogo.webp",
+  "primary_category": "writing-content",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 2.5,
+  "subcategory": "ai-content-creator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

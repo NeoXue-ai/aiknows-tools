@@ -1,0 +1,18 @@
+{
+  "slug": "image3d-ai",
+  "name": "Image3D AI",
+  "tagline": "Image3D AI is a comprehensive online platform designed to transform 2D images into high-quality 3D models and STL files",
+  "description": "Image3D AI is a comprehensive online platform designed to transform 2D images into high-quality 3D models and STL files. By leveraging advanced AI technologies like Hunyuan 3D, Tripo, and Meshy, the tool provides a fast and efficient way to generate digital assets from simple uploads. The system supports multiple input formats including PNG, JPEG, and WEBP, with a maximum file size of 10MB per upload. Versatile 3D Generation Capabilities The platform serves as an all-in-one generator capable of",
+  "url": "https://www.aiImageto3d.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=aiimageto3d.com&sz=64",
+  "screenshot_url": "/screenshots/image3d-ai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-3d-model-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

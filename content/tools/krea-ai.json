@@ -1,0 +1,21 @@
+{
+  "slug": "krea-ai",
+  "name": "Krea AI",
+  "tagline": "AI design and video",
+  "description": "Real-time image and video generation with fine-grained control.",
+  "url": "https://krea.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=krea.ai&sz=64",
+  "screenshot_url": "/screenshots/krea-ai.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "image",
+    "video"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "moxie-docs",
+  "name": "Moxie Docs",
+  "tagline": "Connect a GitHub repo and Moxie writes the documentation, flags drift when code changes, and serves your conventions to AI agents over MCP",
+  "description": "Connect a GitHub repo and Moxie writes the documentation, flags drift when code changes, and serves your conventions to AI agents over MCP. What you get: - Living documentation. Generated from source, searchable alongside your existing Markdown, rewritten when the code moves. - Drift detection. Each merge is compared against the docs it affects. No more guides describing code that shipped differently six months ago. - MCP context for AI agents. Cursor, Claude Code, and Codex pull your convention",
+  "url": "https://moxiedocs.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=moxiedocs.com&sz=64",
+  "screenshot_url": "/screenshots/moxie-docs.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-agent",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

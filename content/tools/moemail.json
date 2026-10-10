@@ -1,0 +1,18 @@
+{
+  "slug": "moemail",
+  "name": "MoeMail",
+  "tagline": "MoeMail is a free, open-source temporary email service built on Next.js and Cloudflare (Workers, D1, Email Routing)",
+  "description": "MoeMail is a free, open-source temporary email service built on Next.js and Cloudflare (Workers, D1, Email Routing). What it does - Create a disposable inbox in one click and receive mail in real time - Mailbox lifetimes of 1 hour, 24 hours, 3 days or permanent; expired mail is cleaned up automatically - Share a single email or a whole inbox with a link For developers - Webhook notifications when new mail arrives - Public OpenAPI so test suites and AI agents can create mailboxes and read message",
+  "url": "https://moemail.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=moemail.app&sz=64",
+  "screenshot_url": "/screenshots/moemail.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "email",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

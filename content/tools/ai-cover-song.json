@@ -1,0 +1,18 @@
+{
+  "slug": "ai-cover-song",
+  "name": "AI Cover Song",
+  "tagline": "Create high-quality AI song covers with your favorite voices in seconds. Transform any song using advanced AI vocal technology.",
+  "description": "Create high-quality AI song covers with your favorite voices in seconds. Transform any song using advanced AI vocal technology.",
+  "url": "https://aicoversong.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=aicoversong.com&sz=64",
+  "screenshot_url": "/screenshots/ai-cover-song.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 25,
+  "subcategory": "monitoring",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "viralmint",
+  "name": "ViralMint",
+  "tagline": "Open-source creator pipeline — scout trends, clip long-form into shorts, generate AI videos &#38; motion graphics. No subscription, no watermark.",
+  "description": "Open-source creator pipeline — scout trends, clip long-form into shorts, generate AI videos &#38; motion graphics. No subscription, no watermark.",
+  "url": "https://viralmint.net",
+  "logo_url": "https://www.google.com/s2/favicons?domain=viralmint.net&sz=64",
+  "screenshot_url": "/screenshots/viralmint.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 4.2,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

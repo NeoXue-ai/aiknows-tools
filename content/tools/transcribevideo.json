@@ -1,0 +1,18 @@
+{
+  "slug": "transcribevideo",
+  "name": "TranscribeVideo",
+  "tagline": "Get the TikTok transcript of any public video in seconds. Paste a URL and get the full spoken text instantly. Free, no account required.",
+  "description": "Get the TikTok transcript of any public video in seconds. Paste a URL and get the full spoken text instantly. Free, no account required.",
+  "url": "https://transcribevideo.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=transcribevideo.ai&sz=64",
+  "screenshot_url": "/screenshots/transcribevideo.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "speech-to-text-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "nano-banana-lite",
+  "name": "Nano Banana Lite",
+  "tagline": "Nano Banana 2 Lite is an AI image generator and editor powered by GPT Image 2",
+  "description": "Nano Banana 2 Lite is an AI image generator and editor powered by GPT Image 2. Create images from text, edit photos, generate product shots, posters, characters, and marketing visuals in one workspace.",
+  "url": "https://nanobananalite.app/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=nanobananalite.app&sz=64",
+  "screenshot_url": "/screenshots/nano-banana-lite-1.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 6,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

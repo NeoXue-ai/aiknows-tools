@@ -1,0 +1,18 @@
+{
+  "slug": "photo-extender",
+  "name": "Photo Extender",
+  "tagline": "Free online photo extender powered by real AI. Extend any photo to any aspect ratio in about a minute — no signup, no watermark, no account needed.",
+  "description": "Free online photo extender powered by real AI. Extend any photo to any aspect ratio in about a minute — no signup, no watermark, no account needed.",
+  "url": "https://photo-extender.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=photo-extender.com&sz=64",
+  "screenshot_url": "/screenshots/photo-extender.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-image-enhancer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

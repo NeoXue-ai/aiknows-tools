@@ -1,0 +1,18 @@
+{
+  "slug": "resumeypro",
+  "name": "Resumey.Pro",
+  "tagline": "Create a Markdown resume with professional templates",
+  "description": "Create a Markdown resume with professional templates. Convert your Markdown resume to PDF easily with ATS-friendly formatting and a clean, modern design",
+  "url": "https://resumey.pro",
+  "logo_url": "https://www.google.com/s2/favicons?domain=resumey.pro&sz=64",
+  "screenshot_url": "/screenshots/resumey-pro.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 50,
+  "subcategory": "ai-pdf",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

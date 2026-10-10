@@ -1,0 +1,18 @@
+{
+  "slug": "plotox",
+  "name": "plotox",
+  "tagline": "Create interactive charts from CSV data instantly",
+  "description": "Create interactive charts from CSV data instantly. Free online chart generator with line, bar, pie, scatter, area charts & histograms. 100% private, no signup.",
+  "url": "https://plotox.vercel.app/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=plotox.vercel.app&sz=64",
+  "screenshot_url": "/screenshots/plotox.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 93,
+  "subcategory": "ai-art-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

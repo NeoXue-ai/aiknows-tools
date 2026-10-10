@@ -1,0 +1,18 @@
+{
+  "slug": "chatflowchart",
+  "name": "ChatFlowchart",
+  "tagline": "Diagram AI that turns plain English into flowcharts, tree diagrams, probability trees, ERDs and more",
+  "description": "Diagram AI that turns plain English into flowcharts, tree diagrams, probability trees, ERDs and more. ChatFlowchart is an AI diagram generator and AI flowchart maker that lets you chat to generate, edit, and export diagrams. Create diagrams online, free to try, no signup.",
+  "url": "https://chatflowchart.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=chatflowchart.com&sz=64",
+  "screenshot_url": "/screenshots/chatflowchart.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 30,
+  "subcategory": "ai-graphic-design",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "voicenote",
+  "name": "VoiceNote",
+  "tagline": "VoiceNote is a private dictation tool for Windows and Mac that runs entirely on your own computer",
+  "description": "VoiceNote is a private dictation tool for Windows and Mac that runs entirely on your own computer. Hold one hotkey, speak naturally, release — finished, cleaned-up text appears wherever your cursor is: email, Slack, documents, code editors, any app, no plugins. Audio is transcribed locally and deleted immediately; nothing is ever uploaded — switch on airplane mode and it keeps working. Every correction you make becomes a permanent rule, so your names, jargon, and phrasing come out right and keep",
+  "url": "https://voicenote.au",
+  "logo_url": "https://www.google.com/s2/favicons?domain=voicenote.au&sz=64",
+  "screenshot_url": "/screenshots/voicenote.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "email",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

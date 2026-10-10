@@ -1,0 +1,18 @@
+{
+  "slug": "gpt-image2",
+  "name": "GPT Image2",
+  "tagline": "Create high-quality AI images from text with GPT Image2",
+  "description": "Create high-quality AI images from text with GPT Image2. Choose an aspect ratio, generate online, and download your result with transparent credit pricing.",
+  "url": "https://gpt-image2.im/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=gpt-image2.im&sz=64",
+  "screenshot_url": "/screenshots/gpt-image2.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-models",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

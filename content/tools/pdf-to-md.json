@@ -1,0 +1,18 @@
+{
+  "slug": "pdf-to-md",
+  "name": "PDF to MD",
+  "tagline": "Convert PDF to Markdown instantly with AI",
+  "description": "Convert PDF to Markdown instantly with AI. Perfectly preserves tables, equations, and layouts. The best PDF to md tool for personal knowledge management users and researchers.",
+  "url": "https://pdftomd.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=pdftomd.org&sz=64",
+  "screenshot_url": "/screenshots/pdf-to-md.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 26,
+  "subcategory": "ai-pdf",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

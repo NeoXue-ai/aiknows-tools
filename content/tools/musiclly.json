@@ -1,0 +1,18 @@
+{
+  "slug": "musiclly",
+  "name": "Musiclly",
+  "tagline": "Create complete songs with Musiclly&#x27;s free AI music generator, write lyrics with leading AI models, extend existing tracks, and unlock…",
+  "description": "Create complete songs with Musiclly&#x27;s free AI music generator, write lyrics with leading AI models, extend existing tracks, and unlock commercial use.",
+  "url": "https://musiclly.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=musiclly.com&sz=64",
+  "screenshot_url": "/screenshots/musiclly.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-music-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

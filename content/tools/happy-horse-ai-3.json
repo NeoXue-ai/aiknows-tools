@@ -1,0 +1,18 @@
+{
+  "slug": "happy-horse-ai-3",
+  "name": "Happy Horse AI",
+  "tagline": "Happy Horse AI is a high-performance video generation platform powered by the HappyHorse 1.0 model",
+  "description": "Happy Horse AI is a high-performance video generation platform powered by the HappyHorse 1.0 model. It enables users to transform text prompts and static images into cinematic videos with synchronized audio. The platform is recognized for its output quality, having achieved a #1 ranking on Artificial Analysis for its video generation capabilities. Professional Video Creation The tool supports high-definition 1080p quality, ensuring that generated content meets professional standards. Users can l",
+  "url": "https://happyhorseai.online/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=happyhorseai.online&sz=64",
+  "screenshot_url": "/screenshots/happy-horse-ai-2.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 2.5,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

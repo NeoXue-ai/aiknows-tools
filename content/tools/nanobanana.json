@@ -1,0 +1,18 @@
+{
+  "slug": "nanobanana",
+  "name": "nanobanana",
+  "tagline": "Design flash sets, sleeves, and custom body art with the make.ink AI tattoo generator",
+  "description": "Design flash sets, sleeves, and custom body art with the make.ink AI tattoo generator. Blend prompts, references, and compliance guardrails into print-ready tattoos.",
+  "url": "https://make.ink",
+  "logo_url": "https://www.google.com/s2/favicons?domain=make.ink&sz=64",
+  "screenshot_url": "/screenshots/nanobanana.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 14,
+  "subcategory": "ai-art-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

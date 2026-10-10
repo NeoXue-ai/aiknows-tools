@@ -21,16 +21,16 @@ export default function CollectionsPage() {
     url: `${process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"}/collections`,
   };
   return (
-    <div className="container mx-auto max-w-7xl px-4 py-12 md:py-16">
+    <div className="mx-auto w-full max-w-[1200px] px-5 py-12 sm:px-8 md:py-16">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
       />
-      <header className="mb-10 max-w-3xl border-b border-border pb-6">
-        <p className="font-mono text-[10px] uppercase tracking-[0.16em] text-accent">
+      <header className="mb-10 max-w-3xl">
+        <p className="text-sm font-medium text-accent">
           Routes / {String(ROUTES.length).padStart(2, "0")} entries · config v{ROUTE_VERSION}
         </p>
-        <h1 className="mt-3 text-balance text-3xl font-semibold tracking-[-0.03em] sm:text-4xl">
+        <h1 className="mt-3 text-balance text-4xl font-semibold tracking-[-0.045em] sm:text-5xl">
           Numbered taxonomy routes
         </h1>
         <p className="mt-3 max-w-2xl text-pretty leading-7 text-muted-foreground">
@@ -42,7 +42,7 @@ export default function CollectionsPage() {
 
       <ExploreByGoal />
 
-      <nav className="mt-12 flex items-center justify-between border-t border-border pt-6 text-sm">
+      <nav className="mt-12 flex flex-wrap items-center justify-between gap-3 border-t border-border pt-6 text-sm">
         <Link
           href="/tools"
           className="inline-flex items-center gap-1.5 text-muted-foreground transition-colors hover:text-accent"

@@ -1,0 +1,18 @@
+{
+  "slug": "age-challenge-arena",
+  "name": "Age Challenge Arena",
+  "tagline": "Challenge friends to the ultimate Age Challenge! Our AI scans faces to reveal who looks younger",
+  "description": "Challenge friends to the ultimate Age Challenge! Our AI scans faces to reveal who looks younger. Create your battle link, share with opponents, and crown the champion!",
+  "url": "https://agechallenge.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=agechallenge.app&sz=64",
+  "screenshot_url": "/screenshots/age-challenge-arena.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 12,
+  "subcategory": "ai-entertainment",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

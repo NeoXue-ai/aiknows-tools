@@ -1,0 +1,18 @@
+{
+  "slug": "bold-pilot",
+  "name": "Bold Pilot",
+  "tagline": "An AI agent that runs your SEO on autopilot: it checks every keyword against its live results page, writes articles for the ones a website your size…",
+  "description": "An AI agent that runs your SEO on autopilot: it checks every keyword against its live results page, writes articles for the ones a website your size can win, and publishes them — week after week.",
+  "url": "https://boldpilot.club",
+  "logo_url": "https://www.google.com/s2/favicons?domain=boldpilot.club&sz=64",
+  "screenshot_url": "/screenshots/bold-pilot.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-agent",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

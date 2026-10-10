@@ -1,0 +1,18 @@
+{
+  "slug": "socialrails",
+  "name": "SocialRails",
+  "tagline": "SocialRails is your all-in-one social media management platform",
+  "description": "SocialRails is your all-in-one social media management platform. Schedule posts to 9 platforms and generate short-form content to promote your product easily.",
+  "url": "https://socialrails.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=socialrails.com&sz=64",
+  "screenshot_url": "/screenshots/socialrails.webp",
+  "primary_category": "seo-marketing",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 60,
+  "subcategory": "social-media",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

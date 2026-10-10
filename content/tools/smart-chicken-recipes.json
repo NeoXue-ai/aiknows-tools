@@ -1,0 +1,18 @@
+{
+  "slug": "smart-chicken-recipes",
+  "name": "Smart Chicken Recipes",
+  "tagline": "The #1 free AI recipe generator and ingredient recipe maker",
+  "description": "The #1 free AI recipe generator and ingredient recipe maker. Enter ingredients you have, get a complete recipe instantly. Free recipe creator with no sign-up needed.",
+  "url": "https://smartchickenrecipes.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=smartchickenrecipes.com&sz=64",
+  "screenshot_url": "/screenshots/smart-chicken-recipes.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-food-nutrition",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

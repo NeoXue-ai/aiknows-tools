@@ -1,0 +1,18 @@
+{
+  "slug": "magic-eraser-2",
+  "name": "Magic Eraser",
+  "tagline": "What it does Magic Eraser is an AI photo editor that removes unwanted objects, people, and watermarks, erases or replaces backgrounds, and enhances…",
+  "description": "What it does Magic Eraser is an AI photo editor that removes unwanted objects, people, and watermarks, erases or replaces backgrounds, and enhances image quality in a few clicks. Available on Web, iOS, and Android. Key benefits - One-tap AI object removal with natural background reconstruction - Background remover for clean, transparent, or replaced backgrounds - AI Enhance to upscale and sharpen low-resolution images - Generative fill, AI Expand (outpainting), and AI filters - Text-to-image gen",
+  "url": "https://magiceraser.live",
+  "logo_url": "https://www.google.com/s2/favicons?domain=magiceraser.live&sz=64",
+  "screenshot_url": "/screenshots/magic-eraser.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 22,
+  "subcategory": "ai-photo-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

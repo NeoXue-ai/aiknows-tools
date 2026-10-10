@@ -1,0 +1,18 @@
+{
+  "slug": "youtube-comments-downloader",
+  "name": "YouTube Comments Downloader",
+  "tagline": "Enter YouTube Video URL,then extract comments from the video.You can extract this youtube video comments to excel or JSON format.",
+  "description": "Enter YouTube Video URL,then extract comments from the video.You can extract this youtube video comments to excel or JSON format.",
+  "url": "https://youtubecommentsdownloader.app/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=youtubecommentsdownloader.app&sz=64",
+  "screenshot_url": "/screenshots/youtube-comments-downloader.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 18,
+  "subcategory": "ai-ocr",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

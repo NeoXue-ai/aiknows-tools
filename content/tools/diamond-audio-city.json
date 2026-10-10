@@ -1,0 +1,18 @@
+{
+  "slug": "diamond-audio-city",
+  "name": "Diamond Audio City",
+  "tagline": "Free online audio tools including BPM calculator, pitch detector, metronome, spectrum analyzer, and more",
+  "description": "Free online audio tools including BPM calculator, pitch detector, metronome, spectrum analyzer, and more. No installation required - works in your browser.",
+  "url": "https://diamondaudiocity.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=diamondaudiocity.com&sz=64",
+  "screenshot_url": "/screenshots/diamond-audio-city.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 21,
+  "subcategory": "ai-detector",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

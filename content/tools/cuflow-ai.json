@@ -1,0 +1,18 @@
+{
+  "slug": "cuflow-ai",
+  "name": "Cuflow AI",
+  "tagline": "Upload any document, PDF, or YouTube video and get instant AI summaries, flashcards, mind maps & quizzes. Learn faster with Cuflow.",
+  "description": "Upload any document, PDF, or YouTube video and get instant AI summaries, flashcards, mind maps & quizzes. Learn faster with Cuflow.",
+  "url": "https://cuflow.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=cuflow.ai&sz=64",
+  "screenshot_url": "/screenshots/cuflow-ai.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 8,
+  "subcategory": "ai-tutor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

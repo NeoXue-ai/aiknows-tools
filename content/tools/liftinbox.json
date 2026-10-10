@@ -1,0 +1,18 @@
+{
+  "slug": "liftinbox",
+  "name": "Liftinbox",
+  "tagline": "**LiftInbox** is an automated email warmup service built to fix poor email deliverability and repair damaged sender reputation",
+  "description": "**LiftInbox** is an automated email warmup service built to fix poor email deliverability and repair damaged sender reputation. The platform addresses one of the most common problems in email marketing: well-crafted emails that never reach the inbox because of low sender trust or missing authentication records. How It Works LiftInbox performs a complete **domain warm up** over a 30-day cycle, gradually increasing the volume of emails sent from a connected account to a network of real, high-reput",
+  "url": "https://liftinbox.email",
+  "logo_url": "https://www.google.com/s2/favicons?domain=liftinbox.email&sz=64",
+  "screenshot_url": "/screenshots/liftinbox.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 2.3,
+  "subcategory": "email",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

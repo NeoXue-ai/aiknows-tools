@@ -1,0 +1,18 @@
+{
+  "slug": "gta-ai",
+  "name": "gta ai",
+  "tagline": "Transform photos into Grand Theft Auto artwork instantly",
+  "description": "Transform photos into Grand Theft Auto artwork instantly. Create GTA-style characters with AI. Free trial, 6 game styles, Pro & Max quality modes available.",
+  "url": "https://gtaai.org/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=gtaai.org&sz=64",
+  "screenshot_url": "/screenshots/gta-ai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 6,
+  "subcategory": "ai-art-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

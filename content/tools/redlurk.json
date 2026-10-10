@@ -1,0 +1,18 @@
+{
+  "slug": "redlurk",
+  "name": "RedLurk",
+  "tagline": "RedLurk helps founders, indie hackers, and app developers find potential customers on Reddit - without spamming or getting banned",
+  "description": "RedLurk helps founders, indie hackers, and app developers find potential customers on Reddit - without spamming or getting banned. You describe your product, and RedLurk identifies the most relevant subreddits where your target audience is already talking. It then scrapes the last 7 days of posts across up to 10 communities and surfaces the 8–10 threads where someone is actively describing the exact problem your product solves. Every matched thread comes with a contextually written draft reply, ",
+  "url": "https://redlurk.online",
+  "logo_url": "https://www.google.com/s2/favicons?domain=redlurk.online&sz=64",
+  "screenshot_url": "/screenshots/redlurk.webp",
+  "primary_category": "seo-marketing",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 12,
+  "subcategory": "ai-ad-creative",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

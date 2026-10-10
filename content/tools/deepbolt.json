@@ -1,0 +1,18 @@
+{
+  "slug": "deepbolt",
+  "name": "DeepBolt",
+  "tagline": "DeepBolt organizes AI tools and products into focused categories so you can search, compare, and decide with less friction.",
+  "description": "DeepBolt organizes AI tools and products into focused categories so you can search, compare, and decide with less friction.",
+  "url": "https://deepbolt.xyz/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=deepbolt.xyz&sz=64",
+  "screenshot_url": "/screenshots/deepbolt.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 32,
+  "subcategory": "productivity-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

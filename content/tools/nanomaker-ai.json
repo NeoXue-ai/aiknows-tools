@@ -1,0 +1,18 @@
+{
+  "slug": "nanomaker-ai",
+  "name": "NanoMaker AI",
+  "tagline": "[NanoMaker AI](https://nanomaker.im) includes Nano Banana Pro, bringing you the world's top AI models for image, video, music and audio in just one…",
+  "description": "[NanoMaker AI](https://nanomaker.im) includes Nano Banana Pro, bringing you the world's top AI models for image, video, music and audio in just one subscription. NanoMaker was founded on a simple principle: creators deserve access to the best AI technology without the complexity and cost of managing multiple subscriptions. We partner exclusively with industry leaders—Google, OpenAI, ByteDance, ElevenLabs, and more—to bring you only top-tier, production-ready AI models. Our rigorous selection pro",
+  "url": "https://nanomaker.im",
+  "logo_url": "https://www.google.com/s2/favicons?domain=nanomaker.im&sz=64",
+  "screenshot_url": "/screenshots/nanomaker-ai.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 30,
+  "subcategory": "ai-models",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

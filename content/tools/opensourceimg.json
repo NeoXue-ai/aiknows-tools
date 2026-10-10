@@ -1,0 +1,18 @@
+{
+  "slug": "opensourceimg",
+  "name": "Opensourceimg",
+  "tagline": "Create photorealistic images with Z-Image Turbo in seconds",
+  "description": "Create photorealistic images with Z-Image Turbo in seconds. Open-source AI image generator with virtual try-on, clothes changer, background remover, and photo restoration — runs in your browser.",
+  "url": "https://opensourceimg.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=opensourceimg.com&sz=64",
+  "screenshot_url": "/screenshots/opensourceimg.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 14,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

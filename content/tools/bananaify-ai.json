@@ -1,0 +1,18 @@
+{
+  "slug": "bananaify-ai",
+  "name": "Bananaify AI",
+  "tagline": "What it does Bananaify is an all-in-one AI platform for image and video creation",
+  "description": "What it does Bananaify is an all-in-one AI platform for image and video creation. Generate stunning visuals from text prompts, edit photos with AI, and create AI videos — all in one place. Powered by top AI models including Flux, GPT-Image, Kling, and Wan. Key benefits - Access multiple AI models in one platform — no need to switch between tools - Generate images from text with Flux, GPT-Image, and more - Create AI videos with Kling and Wan models - AI photo editing: remove backgrounds, upscale,",
+  "url": "https://bananaify.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=bananaify.com&sz=64",
+  "screenshot_url": "/screenshots/bananaify-ai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 21,
+  "subcategory": "ai-photo-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

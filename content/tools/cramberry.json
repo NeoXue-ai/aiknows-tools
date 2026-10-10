@@ -1,0 +1,18 @@
+{
+  "slug": "cramberry",
+  "name": "Cramberry",
+  "tagline": "Turn anything into study tools with AI Cramberry helps students turn notes, PDFs, slides, videos, and more into flashcards, quizzes, summaries, and…",
+  "description": "Turn anything into study tools with AI Cramberry helps students turn notes, PDFs, slides, videos, and more into flashcards, quizzes, summaries, and even audio lessons — instantly. No more rewriting notes or wasting hours studying passively. What you can do - Upload notes, PDFs, slides, images, audio, or YouTube videos - Generate flashcards with spaced repetition - Create practice quizzes and tests - Get clean summaries from messy content - Ask an AI tutor questions based on your material - Conve",
+  "url": "https://cramberry.study",
+  "logo_url": "https://www.google.com/s2/favicons?domain=cramberry.study&sz=64",
+  "screenshot_url": "/screenshots/cramberry.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 29,
+  "subcategory": "ai-tutor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "my9games",
+  "name": "my9games",
+  "tagline": "my9games is a free tool for picking the nine games that define you, arranging them on a 3×3 grid, and sharing a permanent link. 300k+ IGDB titles.",
+  "description": "my9games is a free tool for picking the nine games that define you, arranging them on a 3×3 grid, and sharing a permanent link. 300k+ IGDB titles.",
+  "url": "https://my9games.io/en",
+  "logo_url": "https://www.google.com/s2/favicons?domain=my9games.io&sz=64",
+  "screenshot_url": "/screenshots/my9games.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 4.3,
+  "subcategory": "ai-entertainment",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

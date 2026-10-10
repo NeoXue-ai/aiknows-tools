@@ -1,0 +1,21 @@
+{
+  "slug": "recraft",
+  "name": "Recraft",
+  "tagline": "AI design for brand work",
+  "description": "Vector-first AI image and design tool for brand assets.",
+  "url": "https://recraft.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=recraft.ai&sz=64",
+  "screenshot_url": "/screenshots/recraft.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "vector",
+    "design"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

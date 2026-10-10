@@ -1,0 +1,18 @@
+{
+  "slug": "remove-ai-metadata",
+  "name": "Remove AI Metadata",
+  "tagline": "RemoveAIMetadata.com is a free online tool for removing hidden metadata from images, especially AI-generated image files",
+  "description": "RemoveAIMetadata.com is a free online tool for removing hidden metadata from images, especially AI-generated image files. Many images contain invisible information such as EXIF data, GPS location, camera details, timestamps, editing history, XMP, IPTC, PNG text chunks, C2PA credentials, software names, prompts, model hints, seeds, and AI generation tags. This hidden data may expose private information or reveal how an image was created. With RemoveAIMetadata.com, users can quickly inspect image",
+  "url": "https://removeaimetadata.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=removeaimetadata.com&sz=64",
+  "screenshot_url": "/screenshots/remove-ai-metadata.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-humanizer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

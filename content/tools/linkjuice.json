@@ -1,0 +1,18 @@
+{
+  "slug": "linkjuice",
+  "name": "LinkJuice",
+  "tagline": "SEO backlink building in one browser side panel. Manage targets, autofill supported forms with AI, track follow-ups, and verify live backlinks.",
+  "description": "SEO backlink building in one browser side panel. Manage targets, autofill supported forms with AI, track follow-ups, and verify live backlinks.",
+  "url": "https://linkjuice.dev/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=linkjuice.dev&sz=64",
+  "screenshot_url": "/screenshots/linkjuice.webp",
+  "primary_category": "seo-marketing",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-seo-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

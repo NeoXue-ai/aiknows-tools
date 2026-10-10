@@ -1,0 +1,18 @@
+{
+  "slug": "faceswaply",
+  "name": "FaceSwaply",
+  "tagline": "Swap faces in photos online with FaceSwaply",
+  "description": "Swap faces in photos online with FaceSwaply. Upload a source face and target photo, generate a realistic AI face swap, then preview and download the result.",
+  "url": "https://faceswaply.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=faceswaply.com&sz=64",
+  "screenshot_url": "/screenshots/faceswaply.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 25,
+  "subcategory": "ai-photo-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

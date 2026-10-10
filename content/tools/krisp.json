@@ -1,0 +1,21 @@
+{
+  "slug": "krisp",
+  "name": "Krisp",
+  "tagline": "AI noise, voice, and meeting assistant",
+  "description": "Remove background noise, transcribe, and summarize meetings.",
+  "url": "https://krisp.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=krisp.ai&sz=64",
+  "screenshot_url": "/screenshots/krisp.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "meetings",
+    "audio"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-background-remover",
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

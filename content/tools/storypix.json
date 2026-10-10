@@ -1,0 +1,18 @@
+{
+  "slug": "storypix",
+  "name": "StoryPix",
+  "tagline": "Create personalized illustrated storybooks with AI",
+  "description": "Create personalized illustrated storybooks with AI",
+  "url": "https://storypix.art",
+  "logo_url": "https://www.google.com/s2/favicons?domain=storypix.art&sz=64",
+  "screenshot_url": "/screenshots/storypix.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 6,
+  "subcategory": "ai-art-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -4,7 +4,7 @@ import { siteUrl } from "@/lib/site";
 const AI_BOTS = [
   // search-augmented citation crawlers — these power Google AI Overviews,
   // Perplexity, Apple Intelligence. Allow by default so AI engines can
-  // cite our 2,359 cataloged entries.
+  // cite our published catalog entries.
   "OAI-SearchBot",
   "ChatGPT-User",
   "PerplexityBot",

@@ -1,0 +1,18 @@
+{
+  "slug": "gpt-uncensored",
+  "name": "GPT Uncensored",
+  "tagline": "The #1 uncensored AI platform. Chat, generate images, and create without filters or restrictions. Free to use.",
+  "description": "The #1 uncensored AI platform. Chat, generate images, and create without filters or restrictions. Free to use.",
+  "url": "https://gptuncensored.ai/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=gptuncensored.ai&sz=64",
+  "screenshot_url": "/screenshots/gpt-uncensored.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 28,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

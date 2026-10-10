@@ -1,0 +1,18 @@
+{
+  "slug": "image2prompt",
+  "name": "image2prompt",
+  "tagline": "Transform any image into detailed AI prompts instantly",
+  "description": "Transform any image into detailed AI prompts instantly. Generate perfect prompts for Midjourney, DALL-E, Stable Diffusion with smart entity detection and one-click customization.",
+  "url": "https://www.image2prompt.art/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=image2prompt.art&sz=64",
+  "screenshot_url": "/screenshots/image2prompt.webp",
+  "primary_category": "code-development",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 8,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

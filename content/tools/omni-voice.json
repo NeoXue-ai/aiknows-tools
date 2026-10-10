@@ -1,0 +1,18 @@
+{
+  "slug": "omni-voice",
+  "name": "Omni Voice",
+  "tagline": "Omni Voice is a browser-based AI voice generator that turns written scripts into natural text to speech, with consent-based voice cloning and voice…",
+  "description": "Omni Voice is a browser-based AI voice generator that turns written scripts into natural text to speech, with consent-based voice cloning and voice design in the same workspace. Key features - Script-driven delivery: punctuation, line breaks, and sentence length act as controls for rhythm, emphasis, and pauses. - Voice library auditions: compare public voice profiles on a real line before rendering the full script. - Consent-based cloning: build account-only private voice models from audio you o",
+  "url": "https://omni-voice.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=omni-voice.app&sz=64",
+  "screenshot_url": "/screenshots/omni-voice.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-voice-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

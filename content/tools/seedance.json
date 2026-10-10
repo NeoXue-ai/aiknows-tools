@@ -1,0 +1,18 @@
+{
+  "slug": "seedance",
+  "name": "Seedance",
+  "tagline": "Create stunning videos with Seedance AI",
+  "description": "Create stunning videos with Seedance AI. Generate professional videos from text prompts or images with cinematic camera movements and multi-shot storytelling.",
+  "url": "https://seedanceai.net/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=seedanceai.net&sz=64",
+  "screenshot_url": "/screenshots/seedance.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 28,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

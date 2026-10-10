@@ -1,0 +1,18 @@
+{
+  "slug": "happy-horse-ai",
+  "name": "Happy horse AI",
+  "tagline": "Happy Horse is an open-source AI video model for text-to-video and image-to-video creation",
+  "description": "Happy Horse is an open-source AI video model for text-to-video and image-to-video creation. Explore Happy Horse 1.0 with joint audio-video generation, multilingual lip-sync, and fast 1080p output.",
+  "url": "https://happyhourse.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=happyhourse.com&sz=64",
+  "screenshot_url": "/screenshots/happy-horse-ai-5.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 18,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

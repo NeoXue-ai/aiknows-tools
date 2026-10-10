@@ -1,0 +1,18 @@
+{
+  "slug": "happy-oyster",
+  "name": "Happy Oyster",
+  "tagline": "Happy Oyster is an open-ended world model for real-time world creation and interaction",
+  "description": "Happy Oyster is an open-ended world model for real-time world creation and interaction. Built on a natively multimodal architecture, supporting multimodal understanding with joint audio-video generation.",
+  "url": "https://happyoyster-ai.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=happyoyster-ai.com&sz=64",
+  "screenshot_url": "/screenshots/happy-oyster.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 13,
+  "subcategory": "ai-3d-model-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

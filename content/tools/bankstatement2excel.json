@@ -1,0 +1,18 @@
+{
+  "slug": "bankstatement2excel",
+  "name": "BankStatement2Excel",
+  "tagline": "Instantly convert PDF bank statements to Excel/CSV",
+  "description": "Instantly convert PDF bank statements to Excel/CSV. Supports 10,000+ banks. No login required - just upload and convert. Handles scanned PDFs & images.",
+  "url": "https://bankstatement2excel.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=bankstatement2excel.com&sz=64",
+  "screenshot_url": "/screenshots/bankstatement2excel.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 2.4,
+  "subcategory": "ai-pdf",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

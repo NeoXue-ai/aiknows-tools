@@ -1,0 +1,18 @@
+{
+  "slug": "avyn-ai",
+  "name": "Avyn AI",
+  "tagline": "Use Avyn AI as a free AI image generator and editor. Create images from text, edit photos, replace backgrounds, and download product-ready visuals.",
+  "description": "Use Avyn AI as a free AI image generator and editor. Create images from text, edit photos, replace backgrounds, and download product-ready visuals.",
+  "url": "https://avynai.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=avynai.com&sz=64",
+  "screenshot_url": "/screenshots/avyn-ai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 2.8,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

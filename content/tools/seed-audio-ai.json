@@ -1,0 +1,18 @@
+{
+  "slug": "seed-audio-ai",
+  "name": "Seed Audio AI",
+  "tagline": "What it does Seed Audio AI turns text prompts into complete audio scenes with dialogue, music, ambience, and sound effects",
+  "description": "What it does Seed Audio AI turns text prompts into complete audio scenes with dialogue, music, ambience, and sound effects. It helps creators, marketers, podcasters, game builders, and product teams prototype audio ideas faster. Key benefits - Generate dialogue, background music, ambience, and SFX from one prompt - Useful for videos, podcasts, games, ads, product demos, and creative briefs - Free starter credits with paid credit plans for recurring generation",
+  "url": "https://seedaudio-ai.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=seedaudio-ai.org&sz=64",
+  "screenshot_url": "/screenshots/seed-audio-ai-1.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 6,
+  "subcategory": "ai-music-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

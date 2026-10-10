@@ -1,0 +1,18 @@
+{
+  "slug": "getfit-app",
+  "name": "GetFIT App",
+  "tagline": "Build muscle, lose fat and stay consistent with simple workout plans, calorie tracking and high-protein recipes. Everything you need in one app.",
+  "description": "Build muscle, lose fat and stay consistent with simple workout plans, calorie tracking and high-protein recipes. Everything you need in one app.",
+  "url": "https://joingetfitapp.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=joingetfitapp.com&sz=64",
+  "screenshot_url": "/screenshots/getfit-app.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 34,
+  "subcategory": "ai-food-nutrition",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

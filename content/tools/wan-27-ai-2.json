@@ -1,0 +1,18 @@
+{
+  "slug": "wan-27-ai-2",
+  "name": "Wan 2.7 AI",
+  "tagline": "Wan 2.7 AI is Alibaba&#x27;s free open-source AI video generator",
+  "description": "Wan 2.7 AI is Alibaba&#x27;s free open-source AI video generator. Create 1080P HD videos from text or images — multi-shot storytelling, audio sync, no watermark. Start free.",
+  "url": "https://wan27ai.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=wan27ai.org&sz=64",
+  "screenshot_url": "/screenshots/wan-2-7-ai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 11,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "featureimg",
+  "name": "FeatureImg",
+  "tagline": "[FeatureImg ](https://featureimg.com)is a browser-based featured image maker for creators, bloggers, marketers, and small teams",
+  "description": "[FeatureImg ](https://featureimg.com)is a browser-based featured image maker for creators, bloggers, marketers, and small teams. It helps users turn a simple title, template, or format into clean visual assets for blog covers, Open Graph images, social preview graphics, YouTube thumbnails, LinkedIn posts, and X posts. Instead of starting from a blank canvas or using a complex design app, users can choose a ready-made format, apply a polished template, edit the copy, preview the result, and expor",
+  "url": "https://featureimg.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=featureimg.com&sz=64",
+  "screenshot_url": "/screenshots/featureimg.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 17,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

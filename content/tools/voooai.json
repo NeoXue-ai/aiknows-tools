@@ -1,0 +1,18 @@
+{
+  "slug": "voooai",
+  "name": "VoooAI",
+  "tagline": "VoooAI is a multimedia workflow platform designed to transform natural language prompts into complete creative pipelines",
+  "description": "VoooAI is a multimedia workflow platform designed to transform natural language prompts into complete creative pipelines. By utilizing a visual node-based workflow canvas, users can automate the production of videos, images, music, and digital humans. The platform aims to accelerate the creative process by up to 10 times through end-to-end automation. From AI script to video generation You can complete the entire process from script to video generation in one sentence, while also customizing you",
+  "url": "https://voooai.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=voooai.com&sz=64",
+  "screenshot_url": "/screenshots/voooai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 15,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

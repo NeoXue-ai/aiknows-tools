@@ -1,0 +1,18 @@
+{
+  "slug": "montoyer-ai-for-eu",
+  "name": "Montoyer AI for EU",
+  "tagline": "AI agents that know how the EU quarter works. Multi-agent framework for EU policy, law, and institutional procedure.",
+  "description": "AI agents that know how the EU quarter works. Multi-agent framework for EU policy, law, and institutional procedure.",
+  "url": "https://www.montoyer.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=montoyer.com&sz=64",
+  "screenshot_url": "/screenshots/montoyer-ai-for-eu.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 29,
+  "subcategory": "ai-agent",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

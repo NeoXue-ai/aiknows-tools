@@ -1,0 +1,18 @@
+{
+  "slug": "consistent-character-ai-2",
+  "name": "Consistent Character AI",
+  "tagline": "A service tool providing consistent character image and video generation.",
+  "description": "A service tool providing consistent character image and video generation.",
+  "url": "https://www.consistentcharacterai.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=consistentcharacterai.org&sz=64",
+  "screenshot_url": "/screenshots/consistent-character-ai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 23,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

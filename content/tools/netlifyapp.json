@@ -1,0 +1,18 @@
+{
+  "slug": "netlifyapp",
+  "name": "NetlifyAPP",
+  "tagline": "Explore 5000+ creative products built with Vibe Coding and AI. Your destination for discovering innovative, opinionated applications.",
+  "description": "Explore 5000+ creative products built with Vibe Coding and AI. Your destination for discovering innovative, opinionated applications.",
+  "url": "https://netlifyapp.org/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=netlifyapp.org&sz=64",
+  "screenshot_url": "/screenshots/netlifyapp.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 32,
+  "subcategory": "directories",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

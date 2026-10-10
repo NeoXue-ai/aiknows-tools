@@ -1,0 +1,18 @@
+{
+  "slug": "pixal3d",
+  "name": "Pixal3D",
+  "tagline": "Create pixel-aligned GLB models with Pixal3D back-projection and PBR textures, compare Trellis 2, then generate FBX motion with Hunyuan Motion on…",
+  "description": "Create pixel-aligned GLB models with Pixal3D back-projection and PBR textures, compare Trellis 2, then generate FBX motion with Hunyuan Motion on pixal3d.ai.",
+  "url": "https://pixal3d.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=pixal3d.ai&sz=64",
+  "screenshot_url": "/screenshots/pixal3d.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 26,
+  "subcategory": "productivity-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

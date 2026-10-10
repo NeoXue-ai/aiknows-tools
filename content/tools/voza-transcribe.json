@@ -1,0 +1,18 @@
+{
+  "slug": "voza-transcribe",
+  "name": "Voza Transcribe",
+  "tagline": "Convert MP3 to text instantly with our free AI transcription tool. 99 languages, no sign-up required. Upload and get a transcript in minutes.",
+  "description": "Convert MP3 to text instantly with our free AI transcription tool. 99 languages, no sign-up required. Upload and get a transcript in minutes.",
+  "url": "https://mp3totranscript.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=mp3totranscript.app&sz=64",
+  "screenshot_url": "/screenshots/voza-transcribe.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "speech-to-text-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

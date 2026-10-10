@@ -1,3 +1,6 @@
+import { CatalogFallback } from "@/features/catalog/components/catalog-fallback";
+import { getCatalogPage, getCatalogVersion } from "@/features/catalog/server";
+import { DEFAULT_QUERY } from "@/features/catalog/query";
 import { pageMetadata } from "@/lib/seo/metadata";
 import type { Metadata } from "next";
 import { Suspense } from "react";
@@ -7,20 +10,23 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 import { ToolDiscovery } from "@/components/tool-discovery";
 import { BreadcrumbNav } from "@/components/breadcrumb-nav";
 import { categoryIcon } from "@/lib/category-icons";
-import { breadcrumbJsonLd, directoryItemListJsonLd } from "@/lib/seo/tool-schema";
+import {
+  breadcrumbJsonLd,
+  directoryItemListJsonLd,
+} from "@/lib/seo/tool-schema";
 import { siteUrl } from "@/lib/site";
 import {
   countSubs,
   getPublicCategories,
   getPublicTools,
-} from "@/lib/public-catalog";
+} from "@/features/catalog/server";
 import {
   SUBCATEGORIES,
   subBySlug,
   subsForLegacy,
   type Subcategory,
 } from "@/lib/subcategories";
-import type { Category, Tool } from "@/lib/supabase/types";
+import type { Category, Tool } from "@/features/catalog/types";
 import { cn } from "@/lib/utils";
 
 export async function generateStaticParams() {
@@ -56,7 +62,10 @@ async function resolve(slug: string): Promise<Resolved | null> {
 // "Best AI {Category} Tools 2026 — {count} {Variants} Apps" and a
 // "Find the best ... Compare {count}+ ..." description with category-
 // specific variants.
-const CATEGORY_TDK: Record<string, { titleTemplate: string; descTemplate: string }> = {
+const CATEGORY_TDK: Record<
+  string,
+  { titleTemplate: string; descTemplate: string }
+> = {
   "writing-content": {
     titleTemplate:
       "Best AI Writing & Content Tools 2026 — {count} AI Writer & Content Generator Apps",
@@ -169,8 +178,8 @@ function SubChips({
 }) {
   return (
     <div className="mt-6">
-      <p className="font-mono text-[11px] uppercase tracking-[0.14em] text-muted-foreground">
-        Sub-categories
+      <p className="text-sm font-medium text-muted-foreground">
+        Explore a specific task
       </p>
       <div className="mt-3 flex flex-wrap gap-2">
         {subs.map((sub) => {
@@ -181,16 +190,16 @@ function SubChips({
               href={`/categories/${sub.slug}`}
               aria-current={active ? "location" : undefined}
               className={cn(
-                "inline-flex items-baseline gap-2 rounded-md border px-3.5 py-2 text-sm transition-colors",
+                "inline-flex items-baseline gap-2 rounded-full border px-4 py-2 text-[13px] transition-colors",
                 active
                   ? "border-accent/40 bg-accent/10 font-medium text-accent"
-                  : "border-border text-foreground hover:border-accent/40 hover:text-accent",
+                  : "border-border bg-card text-foreground hover:border-accent/30 hover:text-accent",
               )}
             >
               <span>{sub.name}</span>
               {typeof sub.count === "number" && (
                 <span className="text-xs tabular-nums text-muted-foreground">
-                  {String(sub.count).padStart(2, "0")}
+                  {sub.count}
                 </span>
               )}
             </Link>
@@ -213,7 +222,13 @@ export default async function CategoryDetailPage({ params }: Props) {
   if (resolved.kind === "category") {
     return <CategoryHub category={resolved.category} allTools={allTools} />;
   }
-  return <SubCategoryPage sub={resolved.sub} parent={resolved.parent} allTools={allTools} />;
+  return (
+    <SubCategoryPage
+      sub={resolved.sub}
+      parent={resolved.parent}
+      allTools={allTools}
+    />
+  );
 }
 
 async function CategoryHub({
@@ -223,30 +238,37 @@ async function CategoryHub({
   category: Category;
   allTools: Tool[];
 }) {
-  const tools = allTools.filter((tool) => tool.primary_category === category.slug);
-  const subCounts = countSubs(allTools);
+  const tools = allTools.filter(
+    (tool) => tool.primary_category === category.slug,
+  );
+  const initialPage = await getCatalogPage({
+    ...DEFAULT_QUERY,
+    category: category.slug,
+  });
+  const subCounts = countSubs(tools);
   const Icon = categoryIcon(category.slug);
   const subs = subsForLegacy(category.slug)
-    .map((s) => ({ slug: s.slug, name: s.name, count: subCounts.get(s.name) ?? 0 }))
+    .map((s) => ({
+      slug: s.slug,
+      name: s.name,
+      count: subCounts.get(s.name) ?? 0,
+    }))
     .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
   const description = category.description ?? null;
 
   const hubListJsonLd = directoryItemListJsonLd({
-    tools,
+    tools: initialPage.items,
     siteUrl,
     name: `${category.name} — aiknows.tools`,
     description: description ?? `Recorded AI tool entries in ${category.name}.`,
   });
   const hubBreadcrumbJsonLd = breadcrumbJsonLd(
-    [
-      { label: "Categories", href: "/categories" },
-      { label: category.name },
-    ],
+    [{ label: "Categories", href: "/categories" }, { label: category.name }],
     siteUrl,
   );
 
   return (
-    <div className="container mx-auto max-w-7xl px-4 py-12 md:py-16">
+    <div className="mx-auto w-full max-w-[1200px] px-5 py-10 sm:px-8 md:py-14">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -267,28 +289,35 @@ async function CategoryHub({
         ]}
       />
 
-      <header className="border-b border-border py-10 md:py-12">
-        <p className="font-mono text-[10px] uppercase tracking-[0.16em] text-accent">
-          Category
-        </p>
-        <div className="mt-4 flex items-center gap-3">
-          <Icon className="h-7 w-7 shrink-0 text-accent" />
-          <h1 className="text-balance text-3xl font-semibold tracking-[-0.03em] sm:text-4xl md:text-5xl">
+      <header className="border-b border-border pb-10 pt-8 md:pb-12 md:pt-10">
+        <p className="text-sm font-medium text-accent">Category</p>
+        <div className="mt-4 flex items-center gap-4">
+          <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-accent/8">
+            <Icon className="h-6 w-6 text-accent" />
+          </div>
+          <h1 className="text-balance text-3xl font-semibold tracking-[-0.045em] sm:text-4xl md:text-5xl">
             {category.name}
           </h1>
         </div>
         {description ? (
-          <p className="mt-3 max-w-3xl text-pretty leading-7 text-muted-foreground">{description}</p>
+          <p className="mt-5 max-w-3xl text-pretty text-base leading-7 text-muted-foreground">
+            {description}
+          </p>
         ) : null}
 
         <SubChips subs={subs} />
-
       </header>
 
       <div className="grid gap-10 py-10">
         <div className="min-w-0">
-          <Suspense fallback={<ToolDiscoveryFallback count={tools.length} />}>
-            <ToolDiscovery tools={tools} variant="scoped" />
+          <Suspense fallback={<CatalogFallback page={initialPage} />}>
+            <ToolDiscovery
+              key={getCatalogVersion()}
+              initialPage={initialPage}
+              indexBase={getCatalogVersion()}
+              scope={{ category: category.slug }}
+              variant="scoped"
+            />
           </Suspense>
         </div>
 
@@ -323,13 +352,21 @@ async function SubCategoryPage({
   allTools: Tool[];
 }) {
   const tools = allTools.filter((tool) => tool.sub === sub.name);
+  const initialPage = await getCatalogPage({
+    ...DEFAULT_QUERY,
+    subcategory: sub.slug,
+  });
   const subCounts = countSubs(allTools);
   const siblings = subsForLegacy(sub.legacySlug)
-    .map((s) => ({ slug: s.slug, name: s.name, count: subCounts.get(s.name) ?? 0 }))
+    .map((s) => ({
+      slug: s.slug,
+      name: s.name,
+      count: subCounts.get(s.name) ?? 0,
+    }))
     .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
 
   const subListJsonLd = directoryItemListJsonLd({
-    tools,
+    tools: initialPage.items,
     siteUrl,
     name: `${sub.name} — aiknows.tools`,
     description: sub.description,
@@ -346,7 +383,7 @@ async function SubCategoryPage({
   );
 
   return (
-    <div className="container mx-auto max-w-7xl px-4 py-12 md:py-16">
+    <div className="mx-auto w-full max-w-[1200px] px-5 py-10 sm:px-8 md:py-14">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -370,25 +407,28 @@ async function SubCategoryPage({
         ]}
       />
 
-      <header className="border-b border-border py-10 md:py-12">
-        <p className="font-mono text-[10px] uppercase tracking-[0.16em] text-accent">
-          Sub-category
-        </p>
-        <h1 className="mt-4 text-balance font-heading text-3xl font-semibold tracking-[-0.02em] sm:text-4xl md:text-5xl">
+      <header className="border-b border-border pb-10 pt-8 md:pb-12 md:pt-10">
+        <p className="text-sm font-medium text-accent">Explore by task</p>
+        <h1 className="mt-4 text-balance text-4xl font-semibold tracking-[-0.045em] md:text-5xl">
           {sub.name}
         </h1>
-        <p className="mt-3 max-w-3xl text-pretty leading-7 text-muted-foreground">
+        <p className="mt-5 max-w-3xl text-pretty text-base leading-7 text-muted-foreground">
           {sub.description}
         </p>
 
         <SubChips subs={siblings} activeSlug={sub.slug} />
-
       </header>
 
       <div className="grid gap-10 py-10">
         <div className="min-w-0">
-          <Suspense fallback={<ToolDiscoveryFallback count={tools.length} />}>
-            <ToolDiscovery tools={tools} variant="scoped" />
+          <Suspense fallback={<CatalogFallback page={initialPage} />}>
+            <ToolDiscovery
+              key={getCatalogVersion()}
+              initialPage={initialPage}
+              indexBase={getCatalogVersion()}
+              scope={{ subcategory: sub.slug }}
+              variant="scoped"
+            />
           </Suspense>
         </div>
 
@@ -408,24 +448,6 @@ async function SubCategoryPage({
             <ArrowRight className="h-3.5 w-3.5" />
           </Link>
         </nav>
-      </div>
-    </div>
-  );
-}
-
-function ToolDiscoveryFallback({ count }: { count: number }) {
-  return (
-    <div className="space-y-6" aria-hidden>
-      <div className="rounded-2xl border border-border bg-card p-1.5">
-        <div className="h-12 animate-pulse rounded-xl bg-secondary" />
-      </div>
-      <div className="font-mono text-xs tabular-nums text-muted-foreground">
-        {count} results
-      </div>
-      <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-        {Array.from({ length: 6 }).map((_, i) => (
-          <div key={i} className="h-44 animate-pulse rounded-xl border border-border bg-card" />
-        ))}
       </div>
     </div>
   );

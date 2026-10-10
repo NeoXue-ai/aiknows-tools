@@ -1,0 +1,18 @@
+{
+  "slug": "free-resumenet",
+  "name": "free-resume.net",
+  "tagline": "Build your resume in minutes with our easy-to-use resume builder",
+  "description": "Build your resume in minutes with our easy-to-use resume builder. No sign-up required. Download your resume in PDF format. Perfect for job seekers and professionals.",
+  "url": "https://free-resume.net",
+  "logo_url": "https://www.google.com/s2/favicons?domain=free-resume.net&sz=64",
+  "screenshot_url": "/screenshots/free-resume-net.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 12,
+  "subcategory": "ai-pdf",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

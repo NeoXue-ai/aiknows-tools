@@ -1,6 +1,27 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  distDir: process.env.NEXT_DIST_DIR || ".next",
+  outputFileTracingIncludes: { "/*": ["./.catalog/catalog.json"] },
+  async redirects() {
+    return [
+      { source: "/login", destination: "/submit", permanent: true },
+      { source: "/admin/:path*", destination: "/submit", permanent: true },
+    ];
+  },
+  async headers() {
+    return [
+      {
+        source: "/catalog/:path*",
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "public, max-age=31536000, immutable",
+          },
+        ],
+      },
+    ];
+  },
   // Silence "multiple lockfiles" warning — this project is a single package, not a workspace.
   turbopack: {
     root: __dirname,
@@ -22,12 +43,6 @@ const nextConfig: NextConfig = {
         pathname: "/**",
       },
     ],
-  },
-  // Cloudflare Pages compatibility
-  experimental: {
-    serverActions: {
-      allowedOrigins: ["aiknows-tools.pages.dev", "aiknows.tools"],
-    },
   },
 };
 

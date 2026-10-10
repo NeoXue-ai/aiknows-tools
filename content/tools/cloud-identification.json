@@ -1,0 +1,18 @@
+{
+  "slug": "cloud-identification",
+  "name": "Cloud Identification",
+  "tagline": "Upload a sky photo for instant cloud identification and classification with AI",
+  "description": "Upload a sky photo for instant cloud identification and classification with AI. Learn cloud types (cumulus, stratus, cirrus, and more), typical weather, altitude, and formation—perfect for students, photographers, and weather enthusiasts.",
+  "url": "https://whatisthiscloud.org/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=whatisthiscloud.org&sz=64",
+  "screenshot_url": "/screenshots/cloud-identification.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 8,
+  "subcategory": "ai-education",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "votefirst",
+  "name": "VoteFirst",
+  "tagline": "VoteFirst is a feature voting, public roadmap, and changelog tool for B2B SaaS",
+  "description": "VoteFirst is a feature voting, public roadmap, and changelog tool for B2B SaaS. It connects to Stripe and weights every vote by the customer's monthly recurring revenue, so your roadmap reflects revenue impact, not raw vote counts. Flat pricing ($9/mo Lite, $39/mo Pro), no per-seat fees, no AI features by design, GDPR compliant. 30-day free trial and an open live demo at demo.votefirst.app.",
+  "url": "https://votefirst.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=votefirst.app&sz=64",
+  "screenshot_url": "/screenshots/votefirst.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "monitoring",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

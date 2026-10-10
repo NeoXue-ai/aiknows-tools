@@ -1,0 +1,18 @@
+{
+  "slug": "happy-horse-submission",
+  "name": "Happy Horse Submission",
+  "tagline": "Happy Horse is an AI video generator for turning prompts, images, and clips into engaging videos with fast iteration and flexible creative control.",
+  "description": "Happy Horse is an AI video generator for turning prompts, images, and clips into engaging videos with fast iteration and flexible creative control.",
+  "url": "https://happy-horse.pro/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=happy-horse.pro&sz=64",
+  "screenshot_url": "/screenshots/happy-horse-submission.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 18,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "notebooklm",
+  "name": "NotebookLM",
+  "tagline": "AI research notebook",
+  "description": "Google's research notebook with grounded answers and audio overviews.",
+  "url": "https://notebooklm.google.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=notebooklm.google.com&sz=64",
+  "screenshot_url": "/screenshots/notebooklm.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "notebook",
+    "google"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

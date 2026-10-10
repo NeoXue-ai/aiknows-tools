@@ -1,0 +1,18 @@
+{
+  "slug": "ai-happy-horses",
+  "name": "AI Happy Horses",
+  "tagline": "Generate high-quality AI videos using HappyHorse-1.0, the #1 ranked AI video model for text-to-video and image-to-video generation with multilingual…",
+  "description": "Generate high-quality AI videos using HappyHorse-1.0, the #1 ranked AI video model for text-to-video and image-to-video generation with multilingual audio support.",
+  "url": "https://aihappyhorses.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=aihappyhorses.com&sz=64",
+  "screenshot_url": "/screenshots/ai-happy-horses.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 20,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

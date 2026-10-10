@@ -1,0 +1,18 @@
+{
+  "slug": "aecharts",
+  "name": "AECharts",
+  "tagline": "Create animated chart videos without After Effects",
+  "description": "Create animated chart videos without After Effects",
+  "url": "https://aecharts.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=aecharts.com&sz=64",
+  "screenshot_url": "/screenshots/aecharts.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 18,
+  "subcategory": "image-to-video-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

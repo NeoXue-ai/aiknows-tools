@@ -1,0 +1,18 @@
+{
+  "slug": "imagine-grok",
+  "name": "Imagine Grok",
+  "tagline": "Imagine Grok is a comprehensive AI generation platform powered by xAI's Aurora engine, designed to transform text prompts into high-quality visual…",
+  "description": "Imagine Grok is a comprehensive AI generation platform powered by xAI's Aurora engine, designed to transform text prompts into high-quality visual media. The tool offers a versatile suite of features including text-to-image, text-to-video, and image-to-video capabilities. Users can leverage the platform to create photorealistic assets with creative freedom through its specialized Spicy Mode. Advanced Video and Audio Integration Beyond static imagery, Imagine Grok provides sophisticated video gen",
+  "url": "https://imagine-grok.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=imagine-grok.com&sz=64",
+  "screenshot_url": "/screenshots/imagine-grok.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 27,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

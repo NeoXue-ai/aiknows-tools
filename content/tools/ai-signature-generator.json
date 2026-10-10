@@ -1,0 +1,18 @@
+{
+  "slug": "ai-signature-generator",
+  "name": "AI Signature Generator",
+  "tagline": "Need a professional signature for Word, PDF, or important documents? Let our AI design a unique handwritten or typed e-signature for you, for free.",
+  "description": "Need a professional signature for Word, PDF, or important documents? Let our AI design a unique handwritten or typed e-signature for you, for free.",
+  "url": "https://signaturegen.ai/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=signaturegen.ai&sz=64",
+  "screenshot_url": "/screenshots/ai-signature-generator.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 24,
+  "subcategory": "ai-document-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

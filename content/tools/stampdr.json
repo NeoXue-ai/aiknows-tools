@@ -1,0 +1,18 @@
+{
+  "slug": "stampdr",
+  "name": "stampdr",
+  "tagline": "Design custom stamps online in minutes. Create business, signature, and logo stamps with our easy stamp maker. No download needed.",
+  "description": "Design custom stamps online in minutes. Create business, signature, and logo stamps with our easy stamp maker. No download needed.",
+  "url": "https://stampdr.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=stampdr.com&sz=64",
+  "screenshot_url": "/screenshots/stampdr.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 11,
+  "subcategory": "ai-document-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

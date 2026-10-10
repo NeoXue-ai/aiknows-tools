@@ -1,0 +1,18 @@
+{
+  "slug": "lumenai",
+  "name": "LumenAI",
+  "tagline": "Transform Your Research into Conversations LumenAI serves as a conversational research library designed for users who need to interact deeply with…",
+  "description": "Transform Your Research into Conversations LumenAI serves as a conversational research library designed for users who need to interact deeply with their documents. By uploading PDFs and other files, you can engage in continuous multi-threaded conversations to extract insights and synthesize information efficiently. It functions as a robust alternative to NotebookLM, offering a more flexible chat-driven experience. Advanced Control and Model Selection This platform provides granular control over ",
+  "url": "https://lumenai.chat",
+  "logo_url": "https://www.google.com/s2/favicons?domain=lumenai.chat&sz=64",
+  "screenshot_url": "/screenshots/lumenai.webp",
+  "primary_category": "business-analytics",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 16,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

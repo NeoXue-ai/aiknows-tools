@@ -1,0 +1,18 @@
+{
+  "slug": "rilavek",
+  "name": "Rilavek",
+  "tagline": "Rilavek is a managed file transfer bridge for solo developers and indie builders",
+  "description": "Rilavek is a managed file transfer bridge for solo developers and indie builders. Accept files via HTTP/TUS (resumable browser & mobile uploads) or legacy protocols like FTP/FTPS/SFTP, and stream them directly into any S3-compatible storage (AWS S3, Cloudflare R2, Backblaze B2, Wasabi, MinIO, etc.). Files never touch our servers (true zero-knowledge pass-through), no extra storage costs or privacy risks. Set up resumable uploads in minutes with no backend code, no presigned URLs, and no servers.",
+  "url": "https://rilavek.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=rilavek.com&sz=64",
+  "screenshot_url": "/screenshots/rilavek.webp",
+  "primary_category": "seo-marketing",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 4.4,
+  "subcategory": "ai-ad-creative",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

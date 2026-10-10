@@ -1,0 +1,18 @@
+{
+  "slug": "scream-ai",
+  "name": "Scream AI",
+  "tagline": "Turn selfies into Ghostface-inspired horror portraits with Scream AI",
+  "description": "Turn selfies into Ghostface-inspired horror portraits with Scream AI. Create cinematic slasher posters, viral Halloween content, and Ghostface AI artwork in seconds. No design skills required—just upload, generate, and unleash the fear.",
+  "url": "https://screamai.pics",
+  "logo_url": "https://www.google.com/s2/favicons?domain=screamai.pics&sz=64",
+  "screenshot_url": "/screenshots/scream-ai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 12,
+  "subcategory": "ai-art-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "joobee",
+  "name": "Joobee",
+  "tagline": "Track applications, scan job offers in one click, and create ATS-optimized resumes tailored to each role.",
+  "description": "Track applications, scan job offers in one click, and create ATS-optimized resumes tailored to each role.",
+  "url": "https://www.joobee.app/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=joobee.app&sz=64",
+  "screenshot_url": "/screenshots/joobee.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 21,
+  "subcategory": "ai-resume-builder",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

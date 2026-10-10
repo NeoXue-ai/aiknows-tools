@@ -1,0 +1,18 @@
+{
+  "slug": "miso-one",
+  "name": "Miso One",
+  "tagline": "Miso One AI voice generation demo Miso One is a focused guide and demo for Miso TTS 8B, the open-weights English text-to-speech model from Miso Labs",
+  "description": "Miso One AI voice generation demo Miso One is a focused guide and demo for Miso TTS 8B, the open-weights English text-to-speech model from Miso Labs. It helps creators, developers, and researchers understand the model before running it locally or adding it to a voice workflow. Use Miso One to explore realistic English AI voice generation, expressive conversation-style speech, voice continuation behavior, and low-latency voice agent research. The site keeps the key model facts clear: Miso TTS 8B ",
+  "url": "https://miso-one.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=miso-one.com&sz=64",
+  "screenshot_url": "/screenshots/miso-one-1.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 26,
+  "subcategory": "ai-voice-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

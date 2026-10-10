@@ -1,0 +1,21 @@
+{
+  "slug": "lindy",
+  "name": "Lindy",
+  "tagline": "Build AI agents in minutes",
+  "description": "No-code AI agents for sales, support, and ops with native integrations.",
+  "url": "https://lindy.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=lindy.ai&sz=64",
+  "screenshot_url": "/screenshots/lindy.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "agents",
+    "no-code"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-agent",
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

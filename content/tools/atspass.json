@@ -1,0 +1,18 @@
+{
+  "slug": "atspass",
+  "name": "ATSPass",
+  "tagline": "What it does AtsPass is a free AI-powered ATS resume checker that scans your resume against Applicant Tracking System filters in seconds",
+  "description": "What it does AtsPass is a free AI-powered ATS resume checker that scans your resume against Applicant Tracking System filters in seconds. Upload your resume and job description, get an instant ATS compatibility score, and receive actionable suggestions to optimize your resume — so it actually reaches a human recruiter. Key benefits - **Instant ATS Score** — See how well your resume passes automated screening in one click - **Keyword Gap Analysis** — Identify missing keywords and skills from the",
+  "url": "https://atspass.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=atspass.io&sz=64",
+  "screenshot_url": "/screenshots/atspass.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 7,
+  "subcategory": "ai-resume-builder",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "mikesullytools",
+  "name": "MikeSullyTools",
+  "tagline": "Enter the MikeSullyTools portal for photo fixes, video cleanup, AI image generation, PDF tools, and creator workflows.",
+  "description": "Enter the MikeSullyTools portal for photo fixes, video cleanup, AI image generation, PDF tools, and creator workflows.",
+  "url": "https://mikesullytools.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=mikesullytools.com&sz=64",
+  "screenshot_url": "/screenshots/mikesullytools.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

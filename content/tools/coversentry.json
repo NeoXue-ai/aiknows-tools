@@ -1,0 +1,18 @@
+{
+  "slug": "coversentry",
+  "name": "CoverSentry",
+  "tagline": "Use our scanner and tools to ensure that your cover letter avoids recruiter red flags.",
+  "description": "Use our scanner and tools to ensure that your cover letter avoids recruiter red flags.",
+  "url": "https://www.coversentry.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=coversentry.com&sz=64",
+  "screenshot_url": "/screenshots/coversentry.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 53,
+  "subcategory": "ai-resume-builder",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

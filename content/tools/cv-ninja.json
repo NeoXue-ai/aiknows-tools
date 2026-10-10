@@ -1,0 +1,18 @@
+{
+  "slug": "cv-ninja",
+  "name": "CV Ninja",
+  "tagline": "CV Ninja is a free ATS resume checker and AI-powered job-search toolkit built specifically for Indian job seekers",
+  "description": "CV Ninja is a free ATS resume checker and AI-powered job-search toolkit built specifically for Indian job seekers. What it does - **ATS Score** — checks your resume against any job description, section by section - **Naukri Profile Optimizer** — generates headline, summary, and key skills for better recruiter visibility - **Cover Letter Generator** — tailored letters, cold emails, and LinkedIn messages from your resume + JD - **Interview Prep** — HR, technical, and behavioral questions matched t",
+  "url": "https://www.cvninja.in",
+  "logo_url": "https://www.google.com/s2/favicons?domain=cvninja.in&sz=64",
+  "screenshot_url": "/screenshots/cvninja.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-resume-builder",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

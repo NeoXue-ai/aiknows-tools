@@ -1,0 +1,18 @@
+{
+  "slug": "musicgpt-ai",
+  "name": "MusicGPT AI",
+  "tagline": "Transform your creative ideas into professional music using advanced AI technology. Generate original songs, lyrics, and melodies instantly.",
+  "description": "Transform your creative ideas into professional music using advanced AI technology. Generate original songs, lyrics, and melodies instantly.",
+  "url": "https://musicgpt.pro",
+  "logo_url": "https://www.google.com/s2/favicons?domain=musicgpt.pro&sz=64",
+  "screenshot_url": "/screenshots/musicgpt-ai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 18,
+  "subcategory": "ai-music-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "get-img-ai",
+  "name": "Get Img AI",
+  "tagline": "What it does Get Img AI is a free, all-in-one AI image generator and AI photo editor that runs text-to-image generation, natural-language photo…",
+  "description": "What it does Get Img AI is a free, all-in-one AI image generator and AI photo editor that runs text-to-image generation, natural-language photo editing, and multi-reference fusion in one browser workspace. Key benefits - Text-to-image up to 4K with control over composition, lens, lighting, and art style - An AI photo editor you instruct in plain English: object removal, background swap, restyle, canvas extension - no manual masks - Fuse up to nine reference images in one prompt and keep characte",
+  "url": "https://getimgai.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=getimgai.org&sz=64",
+  "screenshot_url": "/screenshots/get-img-ai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

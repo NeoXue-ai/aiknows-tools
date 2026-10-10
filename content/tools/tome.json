@@ -1,0 +1,18 @@
+{
+  "slug": "tome",
+  "name": "Tome",
+  "tagline": "[Tome](https://tomeapp.ai) is an AI-powered presentation generator designed to transform text prompts into professional PowerPoint slides in minutes",
+  "description": "[Tome](https://tomeapp.ai) is an AI-powered presentation generator designed to transform text prompts into professional PowerPoint slides in minutes. By leveraging advanced models like Claude, the platform automates the design, layout, and content structuring processes, allowing users to focus on their ideas rather than manual formatting. It serves as a comprehensive workspace for creating, beautifying, and enhancing presentations through intelligent automation. Core AI Capabilities [Tome App](h",
+  "url": "https://tomeapp.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=tomeapp.ai&sz=64",
+  "screenshot_url": "/screenshots/tome.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 30,
+  "subcategory": "ai-presentation-maker",
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

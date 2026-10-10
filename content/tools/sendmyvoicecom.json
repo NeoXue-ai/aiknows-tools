@@ -1,0 +1,18 @@
+{
+  "slug": "sendmyvoicecom",
+  "name": "SendMyVoice.com",
+  "tagline": "SendMyVoice turns voice notes into structured data — automatically",
+  "description": "SendMyVoice turns voice notes into structured data — automatically. Record a voice note, AI transcribes and organizes it, then delivers the result to Notion, Google Docs, Google Sheets, or Email. No typing, no forms. How it works: Set up a workflow, hit record, speak naturally. AI extracts key details (amounts, dates, names, action items) and sends structured data to your chosen destination. Key features: AI transcription in 100+ languages Smart field extraction, not just raw text Custom reusabl",
+  "url": "https://sendmyvoice.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=sendmyvoice.com&sz=64",
+  "screenshot_url": "/screenshots/sendmyvoice-com.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 28,
+  "subcategory": "speech-to-text-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

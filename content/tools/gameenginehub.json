@@ -1,0 +1,18 @@
+{
+  "slug": "gameenginehub",
+  "name": "GameEngineHub",
+  "tagline": "GameEngineHub helps you find, compare, and choose the best game engine for your next project",
+  "description": "GameEngineHub helps you find, compare, and choose the best game engine for your next project. Browse detailed reviews, feature comparisons, and expert insights to select the right engine — whether for indie or AAA development.",
+  "url": "https://gameenginehub.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=gameenginehub.com&sz=64",
+  "screenshot_url": "/screenshots/gameenginehub.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 10,
+  "subcategory": "ai-entertainment",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

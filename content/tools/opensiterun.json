@@ -1,0 +1,18 @@
+{
+  "slug": "opensiterun",
+  "name": "OpenSite.run",
+  "tagline": "Free [HTML hosting](https://www.opensite.run) to turn HTML into a website",
+  "description": "Free [HTML hosting](https://www.opensite.run) to turn HTML into a website. Host HTML files online free, publish an HTML-to-link URL in minutes, and track visitors with built-in analytics.",
+  "url": "https://www.opensite.run",
+  "logo_url": "https://www.google.com/s2/favicons?domain=opensite.run&sz=64",
+  "screenshot_url": "/screenshots/opensite-run.webp",
+  "primary_category": "seo-marketing",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 8,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

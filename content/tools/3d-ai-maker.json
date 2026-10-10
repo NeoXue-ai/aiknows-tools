@@ -1,0 +1,18 @@
+{
+  "slug": "3d-ai-maker",
+  "name": "3D ai maker",
+  "tagline": "Start AI 3D model workflows from text prompts or reference images. Compare text to 3D, image to 3D, GLB export, and STL preparation paths.",
+  "description": "Start AI 3D model workflows from text prompts or reference images. Compare text to 3D, image to 3D, GLB export, and STL preparation paths.",
+  "url": "https://3daimaker.org/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=3daimaker.org&sz=64",
+  "screenshot_url": "/screenshots/3d-ai-maker-1.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 4.6,
+  "subcategory": "ai-3d-model-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

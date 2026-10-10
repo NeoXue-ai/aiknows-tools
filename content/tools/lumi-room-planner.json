@@ -1,0 +1,18 @@
+{
+  "slug": "lumi-room-planner",
+  "name": "LUMI room planner",
+  "tagline": "Use LUMIs AI room planner online to turn any room photo or floorplan into a realistic design concept",
+  "description": "Use LUMIs AI room planner online to turn any room photo or floorplan into a realistic design concept. Upload an image, pick a style, and get layouts in seconds.",
+  "url": "https://raumplaner.io/en/room-planner-online",
+  "logo_url": "https://www.google.com/s2/favicons?domain=raumplaner.io&sz=64",
+  "screenshot_url": "/screenshots/lumi-room-planner.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 7,
+  "subcategory": "productivity-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

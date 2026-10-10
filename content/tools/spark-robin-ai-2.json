@@ -1,0 +1,18 @@
+{
+  "slug": "spark-robin-ai-2",
+  "name": "Spark Robin AI",
+  "tagline": "SparkRobin.art is an AI video generation platform built to help users create short, high-quality videos directly in the browser using the latest…",
+  "description": "SparkRobin.art is an AI video generation platform built to help users create short, high-quality videos directly in the browser using the latest Spark Robin model. It is designed for creators, marketers, designers, and businesses that want a faster way to produce engaging video content without relying on traditional editing software. Instead of using complex timelines, manual animation, or advanced motion tools, users can generate polished video clips simply by describing what they want in natur",
+  "url": "https://sparkrobin.art",
+  "logo_url": "https://www.google.com/s2/favicons?domain=sparkrobin.art&sz=64",
+  "screenshot_url": "/screenshots/spark-robin-ai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 16,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

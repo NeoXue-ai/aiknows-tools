@@ -1,0 +1,18 @@
+{
+  "slug": "happyhorsevideo-2",
+  "name": "HappyHorseVideo",
+  "tagline": "Turn prompts and images into 1080p AI videos with cinematic motion, social-ready creative, and fast generation workflows.",
+  "description": "Turn prompts and images into 1080p AI videos with cinematic motion, social-ready creative, and fast generation workflows.",
+  "url": "https://happyhorsevideo.online",
+  "logo_url": "https://www.google.com/s2/favicons?domain=happyhorsevideo.online&sz=64",
+  "screenshot_url": "/screenshots/happyhorsevideo.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 8,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

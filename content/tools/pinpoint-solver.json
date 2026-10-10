@@ -1,0 +1,18 @@
+{
+  "slug": "pinpoint-solver",
+  "name": "Pinpoint Solver",
+  "tagline": "Never lose your streak! Get today&#x27;s LinkedIn Pinpoint answer & expert logic",
+  "description": "Never lose your streak! Get today&#x27;s LinkedIn Pinpoint answer & expert logic. Replay past puzzles in our interactive practice lab to master every semantic trap.",
+  "url": "https://pinpointsolver.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=pinpointsolver.com&sz=64",
+  "screenshot_url": "/screenshots/pinpoint-solver.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 26,
+  "subcategory": "ai-tutor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

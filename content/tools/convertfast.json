@@ -1,0 +1,18 @@
+{
+  "slug": "convertfast",
+  "name": "Convert.FAST",
+  "tagline": "Free bulk file converter. Batch convert up to 1000 files securely. PDF, HEIC, JPG, Word, MP3 & 50+ formats. Encrypted EU processing.",
+  "description": "Free bulk file converter. Batch convert up to 1000 files securely. PDF, HEIC, JPG, Word, MP3 & 50+ formats. Encrypted EU processing.",
+  "url": "https://convert.fast",
+  "logo_url": "https://www.google.com/s2/favicons?domain=convert.fast&sz=64",
+  "screenshot_url": "/screenshots/convert-fast.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 32,
+  "subcategory": "ai-photo-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

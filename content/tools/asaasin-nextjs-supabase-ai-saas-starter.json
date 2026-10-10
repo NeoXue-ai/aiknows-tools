@@ -1,0 +1,18 @@
+{
+  "slug": "asaasin-nextjs-supabase-ai-saas-starter",
+  "name": "aSaaSin - Next.js, Supabase & AI SaaS Starter",
+  "tagline": "aSaaSin is a production-grade SaaS starter kit featuring login, pricing, changelog, blog, and docs. Everything you need to launch your product today.",
+  "description": "aSaaSin is a production-grade SaaS starter kit featuring login, pricing, changelog, blog, and docs. Everything you need to launch your product today.",
+  "url": "https://www.asaasin.dev/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=asaasin.dev&sz=64",
+  "screenshot_url": "/screenshots/asaasin-next-js-supabase-ai-saas-starter.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 14,
+  "subcategory": "boilerplates",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

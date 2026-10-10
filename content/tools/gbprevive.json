@@ -1,0 +1,18 @@
+{
+  "slug": "gbprevive",
+  "name": "GBPRevive",
+  "tagline": "GBPRevive is an AI-powered Google Business Profile recovery and protection tool for local businesses and agencies",
+  "description": "GBPRevive is an AI-powered Google Business Profile recovery and protection tool for local businesses and agencies. It scans Google Business Profiles and websites for common suspension-risk signals, including: - NAP mismatches - Duplicate listing risk - Wrong website URLs - Phone inconsistencies - Address and service-area issues - Missing business information - Noindex and canonical website problems Users get a clear risk score and practical fixes to improve appeal readiness, verification readine",
+  "url": "https://gbprevive.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=gbprevive.com&sz=64",
+  "screenshot_url": "/screenshots/gbprevive.webp",
+  "primary_category": "seo-marketing",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 5,
+  "subcategory": "ai-seo-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "shipboard",
+  "name": "Shipboard",
+  "tagline": "Shipboard is a free, no-account showcase for people building in public",
+  "description": "Shipboard is a free, no-account showcase for people building in public. Post a shipped site in under a minute and it goes live with an auto-generated preview alongside everything else builders have launched recently. Browse by category (SaaS, AI, developer tools, design, games and more) and sort by newest, most voted, most visited, or recently shipped. Every builder gets a profile collecting their submissions, with optional X linking so people can follow the work. Built for indie developers and",
+  "url": "https://shipboard.live",
+  "logo_url": "https://www.google.com/s2/favicons?domain=shipboard.live&sz=64",
+  "screenshot_url": "/screenshots/shipboard.webp",
+  "primary_category": "code-development",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

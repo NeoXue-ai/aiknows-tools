@@ -1,0 +1,18 @@
+{
+  "slug": "vrchat-avatar-maker",
+  "name": "VRChat Avatar Maker",
+  "tagline": "Create custom VRChat avatars online from text, images",
+  "description": "Create custom VRChat avatars online from text, images. Generate 3D models, add textures, auto rig, preview results, with our your VRChat avatar workflow.",
+  "url": "https://vrchatavatarmaker.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=vrchatavatarmaker.com&sz=64",
+  "screenshot_url": "/screenshots/vrchat-avatar-maker.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 27,
+  "subcategory": "ai-avatar-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

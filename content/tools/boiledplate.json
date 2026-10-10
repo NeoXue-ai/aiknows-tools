@@ -1,0 +1,18 @@
+{
+  "slug": "boiledplate",
+  "name": "BoiledPlate",
+  "tagline": "BoiledPlate is the AI-native Nuxt + Supabase starter whose setup runs itself: your coding agent interviews you, then provisions Stripe, Supabase, and…",
+  "description": "BoiledPlate is the AI-native Nuxt + Supabase starter whose setup runs itself: your coding agent interviews you, then provisions Stripe, Supabase, and Google sign-in for you. Buy once, ship product instead of plumbing.",
+  "url": "https://boiledplate.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=boiledplate.ai&sz=64",
+  "screenshot_url": "/screenshots/boiledplate.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 4.7,
+  "subcategory": "boilerplates",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

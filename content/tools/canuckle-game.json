@@ -1,0 +1,18 @@
+{
+  "slug": "canuckle-game",
+  "name": "Canuckle game",
+  "tagline": "Play the ultimate Canadian Wordle game! Guess the 5-letter Canada-themed word in 6 tries",
+  "description": "Play the ultimate Canadian Wordle game! Guess the 5-letter Canada-themed word in 6 tries. Challenge yourself with the Daily puzzle or play infinite rounds in Unlimited Mode for free!",
+  "url": "https://canucklegames.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=canucklegames.com&sz=64",
+  "screenshot_url": "/screenshots/canuckle-game.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 7,
+  "subcategory": "ai-entertainment",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

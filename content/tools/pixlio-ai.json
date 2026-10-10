@@ -1,0 +1,18 @@
+{
+  "slug": "pixlio-ai",
+  "name": "Pixlio AI",
+  "tagline": "Pixlio AI is a comprehensive AI-powered image editing and generation platform designed to streamline creative workflows",
+  "description": "Pixlio AI is a comprehensive AI-powered image editing and generation platform designed to streamline creative workflows. It allows users to generate original visuals from text descriptions or transform existing photos using a suite of intelligent tools. The platform is powered by advanced models including Nano Banana 2, GPT Image 1.5, Grok Imagine, Seedream 5, and Seedream 4.5, ensuring high-quality outputs for various creative use cases. Advanced AI Models and Tools Users can access a variety o",
+  "url": "https://pixlio.net",
+  "logo_url": "https://www.google.com/s2/favicons?domain=pixlio.net&sz=64",
+  "screenshot_url": "/screenshots/pixlio-ai.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 40,
+  "subcategory": "ai-models",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

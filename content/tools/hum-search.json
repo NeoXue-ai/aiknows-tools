@@ -1,0 +1,18 @@
+{
+  "slug": "hum-search",
+  "name": "hum search",
+  "tagline": "Find any song by humming with HumSearch. Search a song by humming, singing, or whistling. Answer 'what is this song' instantly.",
+  "description": "Find any song by humming with HumSearch. Search a song by humming, singing, or whistling. Answer 'what is this song' instantly.",
+  "url": "https://humsearch.org/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=humsearch.org&sz=64",
+  "screenshot_url": "/screenshots/hum-search.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 4.5,
+  "subcategory": "ai-music-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

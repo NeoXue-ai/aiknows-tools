@@ -1,0 +1,18 @@
+{
+  "slug": "psynex",
+  "name": "psynex",
+  "tagline": "Psynex is documentation software for psychotherapists",
+  "description": "Psynex is documentation software for psychotherapists. Record a session on any device, and Psynex transcribes it and drafts a structured clinical note: summary, session content, progress over time. You edit, approve and export. Everything runs on EU infrastructure. Each user's data is encrypted with their own key, and a data processing agreement is available. Built for practices in German-speaking Europe and now available in English. There is a free plan without a credit card, paid plans start a",
+  "url": "https://psynex.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=psynex.io&sz=64",
+  "screenshot_url": "/screenshots/psynex.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-tutor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

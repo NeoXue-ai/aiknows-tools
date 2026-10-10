@@ -1,0 +1,18 @@
+{
+  "slug": "omni-video-gen",
+  "name": "Omni Video Gen",
+  "tagline": "Omni Video Gen is a Gemini Omni-focused AI Video Generator for turning text prompts, reference images, and video ideas into cinematic clips",
+  "description": "Omni Video Gen is a Gemini Omni-focused AI Video Generator for turning text prompts, reference images, and video ideas into cinematic clips. It supports text-to-video, image-to-video, video remixing, templates, and natural-language editing workflows for creators exploring Gemini Omni style AI video generation.",
+  "url": "https://omnivideogen.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=omnivideogen.ai&sz=64",
+  "screenshot_url": "/screenshots/omni-video-gen.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 3.2,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

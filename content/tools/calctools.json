@@ -1,0 +1,18 @@
+{
+  "slug": "calctools",
+  "name": "CalcTools",
+  "tagline": "Free online calculators for students. Grade, GPA, Ez Grader, and more.",
+  "description": "Free online calculators for students. Grade, GPA, Ez Grader, and more.",
+  "url": "https://calctools.pro/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=calctools.pro&sz=64",
+  "screenshot_url": "/screenshots/calctools.webp",
+  "primary_category": "research-data",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 13,
+  "subcategory": "ai-education",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "dirshunt-ext",
+  "name": "DirsHunt Ext",
+  "tagline": "Auto Scrawl/Analyze your product, help you quickly submit to any website, like ProductHunt, etc.",
+  "description": "Auto Scrawl/Analyze your product, help you quickly submit to any website, like ProductHunt, etc.",
+  "url": "https://dirshunt.com/ext",
+  "logo_url": "https://pub-459c6f6553344cc393826444731f5707.r2.dev/upload-1752542645252.png",
+  "screenshot_url": "/screenshots/dirshunt-ext.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": "https://findly.tools",
+  "dr": 20,
+  "subcategory": null,
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

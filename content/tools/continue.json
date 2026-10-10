@@ -1,0 +1,21 @@
+{
+  "slug": "continue",
+  "name": "Continue",
+  "tagline": "Open-source AI code assistant",
+  "description": "Open-source AI assistant for VS Code and JetBrains with any model.",
+  "url": "https://continue.dev",
+  "logo_url": "https://www.google.com/s2/favicons?domain=continue.dev&sz=64",
+  "screenshot_url": "/screenshots/continue.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "oss",
+    "vscode"
+  ],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-code-generator",
+  "is_featured": false,
+  "is_verified": true,
+  "published_at": "2026-06-14T16:13:16.801+00:00"
+}

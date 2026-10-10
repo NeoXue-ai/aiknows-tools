@@ -1,0 +1,18 @@
+{
+  "slug": "neatmail",
+  "name": "NeatMail",
+  "tagline": "NeatMail is an AI email assistant that works inside your existing Gmail or Outlook",
+  "description": "NeatMail is an AI email assistant that works inside your existing Gmail or Outlook. It auto-labels every message, drafts replies in your voice, archives dead threads on a schedule you set, and lets you ask your inbox questions in plain English. Built for people who get 50 to 200 emails a day and want inbox zero without an hour of triage. Source-available and self-hostable. Start free; paid plans from $19/mo with a 7-day trial and 14-day money-back guarantee.",
+  "url": "https://www.neatmail.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=neatmail.app&sz=64",
+  "screenshot_url": "/screenshots/neatmail.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "email",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "rejectless",
+  "name": "Rejectless",
+  "tagline": "Jake's Resume Builder & Line-by-Line Resume Auditing Rejectless is a resume tool built specifically for software engineers",
+  "description": "Jake's Resume Builder & Line-by-Line Resume Auditing Rejectless is a resume tool built specifically for software engineers. It combines a pixel-perfect **Jake's Resume builder** with a line-by-line resume linting engine — so your formatting and your content are both interview-ready. Unlike AI tools that rewrite your resume for you, Rejectless audits what you've already written. It flags vague claims, missing metrics, and weak framing bullet by bullet — and gives you concrete next actions instead",
+  "url": "https://rejectless.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=rejectless.app&sz=64",
+  "screenshot_url": "/screenshots/rejectless.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 21,
+  "subcategory": "ai-resume-builder",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

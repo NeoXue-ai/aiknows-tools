@@ -1,0 +1,18 @@
+{
+  "slug": "happyhorse-4",
+  "name": "Happyhorse",
+  "tagline": "A frontier text-to-video platform dominating the Artificial Analysis Video Arena with a 1357 ELO rating",
+  "description": "A frontier text-to-video platform dominating the Artificial Analysis Video Arena with a 1357 ELO rating. Generate cinematic, physically consistent content using the HappyHorse 1.0 architecture.",
+  "url": "https://happyhorseapp.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=happyhorseapp.com&sz=64",
+  "screenshot_url": "/screenshots/happyhorse-3.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 13,
+  "subcategory": "text-to-video-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "latch",
+  "name": "Latch",
+  "tagline": "Latch is a native macOS menu-bar app that keeps your Mac awake for long-running AI agent and dev jobs — even with the lid closed (Pro) — then lets it…",
+  "description": "Latch is a native macOS menu-bar app that keeps your Mac awake for long-running AI agent and dev jobs — even with the lid closed (Pro) — then lets it sleep automatically when the work is done. It tracks real process activity (CPU/disk, including child processes) instead of guessing with timers, with battery and thermal guardrails, a self-healing watchdog, per-session cost reports, and remote control via Telegram and the latchctl CLI. One-time purchase, no subscription.",
+  "url": "https://latchmac.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=latchmac.com&sz=64",
+  "screenshot_url": "/screenshots/latch.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-agent",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

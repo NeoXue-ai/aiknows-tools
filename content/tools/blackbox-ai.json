@@ -1,0 +1,18 @@
+{
+  "slug": "blackbox-ai",
+  "name": "Blackbox AI",
+  "tagline": "Blackbox AI is a free dual-purpose platform combining an AI-powered coding assistant with autonomous agents.",
+  "description": "Blackbox AI is a free dual-purpose platform combining an AI-powered coding assistant with autonomous agents.",
+  "url": "https://blackbox.ink",
+  "logo_url": "https://www.google.com/s2/favicons?domain=blackbox.ink&sz=64",
+  "screenshot_url": "/screenshots/blackbox-ai.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 33,
+  "subcategory": "ai-agent",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

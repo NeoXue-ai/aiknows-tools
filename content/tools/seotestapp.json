@@ -1,0 +1,18 @@
+{
+  "slug": "seotestapp",
+  "name": "SEOtest.app",
+  "tagline": "Analyze your website on-page SEO for free",
+  "description": "Analyze your website on-page SEO for free. Get detailed insights on meta tags, headings structure, internal/external links, images, sitemap, robots.txt, and more.",
+  "url": "https://seotest.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=seotest.app&sz=64",
+  "screenshot_url": "/screenshots/seotest-app.webp",
+  "primary_category": "seo-marketing",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 26,
+  "subcategory": "ai-seo-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

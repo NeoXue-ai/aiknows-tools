@@ -1,0 +1,18 @@
+{
+  "slug": "girlgeneratorai",
+  "name": "GirlGeneratorAI",
+  "tagline": "Generate stunning AI girl images from text prompts in seconds",
+  "description": "Generate stunning AI girl images from text prompts in seconds. Create anime, realistic, chibi, cyberpunk, and more styles — no signup, free credits on arrival.",
+  "url": "https://girlgenerator.app/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=girlgenerator.app&sz=64",
+  "screenshot_url": "/screenshots/girlgeneratorai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 31,
+  "subcategory": "ai-avatar-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

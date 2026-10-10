@@ -1,0 +1,18 @@
+{
+  "slug": "seedancetwo20",
+  "name": "seedancetwo2.0",
+  "tagline": "Seedance 2.0 is ByteDance's AI video generation model, converting text or images into cinematic videos with multi-shot storytelling and audio sync.",
+  "description": "Seedance 2.0 is ByteDance's AI video generation model, converting text or images into cinematic videos with multi-shot storytelling and audio sync.",
+  "url": "https://www.seedancetwo.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=seedancetwo.com&sz=64",
+  "screenshot_url": "/screenshots/seedancetwo2-0.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 32,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "seed-audio-10-ai",
+  "name": "Seed Audio 1.0 AI",
+  "tagline": "Generate dialogue, emotion, ambience, BGM, and foley-style sound effects from one prompt with Seed Audio 1.0.",
+  "description": "Generate dialogue, emotion, ambience, BGM, and foley-style sound effects from one prompt with Seed Audio 1.0.",
+  "url": "https://seedaudio.co",
+  "logo_url": "https://www.google.com/s2/favicons?domain=seedaudio.co&sz=64",
+  "screenshot_url": "/screenshots/seed-audio-1-0-ai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 26,
+  "subcategory": "ai-music-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

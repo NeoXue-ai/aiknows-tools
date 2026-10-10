@@ -1,6 +1,5 @@
 import { pageMetadata } from "@/lib/seo/metadata";
 import Link from "next/link";
-import { redirect } from "next/navigation";
 import {
   ArrowRight,
   CalendarClock,
@@ -9,11 +8,7 @@ import {
   Send,
   ShieldCheck,
 } from "lucide-react";
-import { createClient } from "@/lib/supabase/server";
-import { getCurrentUser } from "@/lib/auth/session";
-import { SubmitForm } from "@/components/SubmitForm";
-import { Toaster } from "@/components/ui/sonner";
-import type { Category } from "@/lib/supabase/types";
+import { submissionUrl, correctionsUrl, submissionAction } from "@/features/submissions/config";
 
 export const metadata = pageMetadata({
   title: "Submit your AI tool",
@@ -22,31 +17,7 @@ export const metadata = pageMetadata({
   path: "/submit",
 });
 
-export const dynamic = "force-dynamic";
-
 export default async function SubmitPage() {
-  const user = await getCurrentUser();
-  if (!user) {
-    redirect("/login?next=/submit");
-  }
-
-  const supabase = await createClient();
-  let categories: Category[] = [];
-  try {
-    const { data, error } = await supabase
-      .from("categories")
-      .select("slug, name, description, display_order, created_at")
-      .order("display_order", { ascending: true });
-
-    if (error) {
-      console.error("[submit] failed to load categories:", error);
-    } else {
-      categories = (data ?? []) as Category[];
-    }
-  } catch (err) {
-    console.error("[submit] categories fetch threw:", err);
-  }
-
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -56,40 +27,31 @@ export default async function SubmitPage() {
     url: `${process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"}/submit`,
   };
   return (
-    <div className="container mx-auto max-w-6xl px-4 py-12 md:py-16">
+    <div className="mx-auto w-full max-w-[1200px] px-5 py-12 sm:px-8 md:py-16">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
       />
       {/* HERO ======================================================== */}
-      <section className="relative isolate overflow-hidden rounded-2xl border border-border/60 bg-gradient-to-b from-card/60 to-card/20 px-6 py-12 md:px-10 md:py-14">
-        <span
-          aria-hidden
-          className="pointer-events-none absolute -right-24 -top-24 h-64 w-64 rounded-full bg-accent/10 blur-3xl"
-        />
-        <span
-          aria-hidden
-          className="pointer-events-none absolute -bottom-32 -left-20 h-64 w-64 rounded-full bg-primary/10 blur-3xl"
-        />
-
-        <div className="relative mx-auto max-w-2xl text-center">
+      <section className="rounded-2xl border border-border bg-card px-6 py-10 md:px-10 md:py-12">
+        <div className="mx-auto max-w-2xl text-center">
           <p className="mb-5 inline-flex items-center gap-2 rounded-full border border-border bg-secondary/40 px-3 py-1 text-xs font-medium text-muted-foreground">
             <Send className="h-3.5 w-3.5 text-accent" />
             Free to submit
           </p>
-          <h1 className="text-balance text-3xl font-semibold tracking-tight sm:text-4xl md:text-5xl">
+          <h1 className="text-balance text-4xl font-semibold tracking-[-0.045em] md:text-5xl">
             Submit your AI tool
           </h1>
-          <p className="mx-auto mt-3 max-w-xl text-pretty text-base text-muted-foreground sm:text-lg">
+          <p className="mx-auto mt-4 max-w-xl text-pretty text-base leading-7 text-muted-foreground">
             We curate the best AI tools for SaaS builders, indie hackers, and
-            founders. Tell us about your product and we&apos;ll review it within
-            2 business days.
+            founders. Share your product through our submission channel. An editor
+            reviews each listing before it appears in the directory.
           </p>
         </div>
 
         {/* Trust signals */}
         <div className="relative mx-auto mt-8 grid max-w-2xl gap-3 sm:grid-cols-3">
-          <TrustItem icon={CalendarClock} label="Reviewed in 2 business days" />
+          <TrustItem icon={CalendarClock} label="Editorial review" />
           <TrustItem icon={ShieldCheck} label="No payment, ever" />
           <TrustItem icon={CheckCheck} label="Human-reviewed by editors" />
         </div>
@@ -98,13 +60,17 @@ export default async function SubmitPage() {
       <div className="mt-12 grid gap-10 lg:grid-cols-[1fr_320px]">
         {/* Form */}
         <div className="min-w-0">
-          <SubmitForm categories={categories} />
+          <div className="rounded-2xl border border-border bg-card p-8">
+            <h2 className="text-2xl font-semibold tracking-tight">Tell us about your product</h2>
+            <p className="mt-4 text-sm leading-7 text-muted-foreground">Have your product name, official website, category, and a short description ready. You can track the review through the submission channel.</p>
+            <a href={submissionUrl} className="action-primary mt-6" target="_blank" rel="noopener noreferrer">{submissionAction} <ArrowRight aria-hidden className="h-4 w-4" /></a>
+          </div>
         </div>
 
         {/* Sidebar: process + criteria */}
         <aside className="space-y-4 md:sticky md:top-24 md:self-start">
-          <div className="rounded-xl border border-border/60 bg-card/40 p-5">
-            <p className="mb-4 text-xs font-medium uppercase tracking-[0.18em] text-muted-foreground">
+          <div className="rounded-2xl border border-border bg-card p-6">
+            <p className="mb-4 text-sm font-semibold text-foreground">
               What we look for
             </p>
             <ul className="space-y-3 text-sm">
@@ -119,20 +85,20 @@ export default async function SubmitPage() {
                 A clear access story (public sign-up, free tier, or trial).
               </Criterion>
               <Criterion>
-                A working homepage — broken links get auto-rejected.
+                A working official homepage with clear product information.
               </Criterion>
             </ul>
           </div>
 
-          <div className="rounded-xl border border-border/60 bg-card/40 p-5">
-            <p className="mb-4 text-xs font-medium uppercase tracking-[0.18em] text-muted-foreground">
+          <div className="rounded-2xl border border-border bg-card p-6">
+            <p className="mb-4 text-sm font-semibold text-foreground">
               How it works
             </p>
             <ol className="space-y-3 text-sm text-foreground/80">
-              <Step n={1}>You submit. We email you a confirmation.</Step>
-              <Step n={2}>An editor reviews the listing within 2 business days.</Step>
+              <Step n={1}>You submit your product and supporting details.</Step>
+              <Step n={2}>An editor checks the details and category.</Step>
               <Step n={3}>
-                If approved, you&apos;ll get a live link and a share badge.
+                Approved records appear after the next site publication.
               </Step>
             </ol>
           </div>
@@ -140,16 +106,15 @@ export default async function SubmitPage() {
           <p className="px-1 text-xs text-muted-foreground/80">
             Need to update an existing listing?{" "}
             <Link
-              href="/login"
+              href={correctionsUrl}
               className="text-foreground underline-offset-2 hover:underline"
             >
-              Sign in
+              Suggest a correction
             </Link>{" "}
-            and reach out.
+            through the review channel.
           </p>
         </aside>
       </div>
-      <Toaster richColors position="top-right" />
     </div>
   );
 }
@@ -162,7 +127,7 @@ function TrustItem({
   label: string;
 }) {
   return (
-    <div className="inline-flex items-center justify-center gap-2 rounded-lg border border-border/60 bg-card/40 px-3 py-2 text-xs text-foreground/80">
+    <div className="inline-flex items-center justify-center gap-2 rounded-xl border border-border bg-background px-3 py-3 text-xs text-muted-foreground">
       <Icon className="h-3.5 w-3.5 text-accent" />
       <span>{label}</span>
     </div>
@@ -187,7 +152,7 @@ function Step({
 }) {
   return (
     <li className="flex gap-3">
-      <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full border border-border/60 bg-secondary/40 font-mono text-[10px] text-foreground/80">
+      <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-accent/8 text-xs font-medium text-accent">
         {n}
       </span>
       <span className="text-sm leading-relaxed">{children}</span>

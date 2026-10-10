@@ -1,0 +1,18 @@
+{
+  "slug": "seed-audio-ai-2",
+  "name": "Seed Audio AI",
+  "tagline": "Turn words into rich soundscapes with Seed Audio. Generate lifelike dialogue, emotion, BGM, ambience, and foley effects from just one text prompt.",
+  "description": "Turn words into rich soundscapes with Seed Audio. Generate lifelike dialogue, emotion, BGM, ambience, and foley effects from just one text prompt.",
+  "url": "https://seedaudio.today/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=seedaudio.today&sz=64",
+  "screenshot_url": "/screenshots/seed-audio-ai.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 2.2,
+  "subcategory": "monitoring",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

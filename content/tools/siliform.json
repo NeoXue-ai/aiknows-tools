@@ -1,0 +1,18 @@
+{
+  "slug": "siliform",
+  "name": "Siliform",
+  "tagline": "SiliForm is an AI-powered conversational form and survey builder",
+  "description": "SiliForm is an AI-powered conversational form and survey builder. Instead of a wall of fields, respondents answer one question at a time in a chat-like flow that adapts to earlier answers — later questions even greet them by name. The responses are flagged if they are suspicious/invalid. Describe your form in plain language and AI generates the full structure, with branching logic, scoring, and real-time answer validation built in.",
+  "url": "https://www.siliform.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=siliform.ai&sz=64",
+  "screenshot_url": "/screenshots/siliform.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 13,
+  "subcategory": "monitoring",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

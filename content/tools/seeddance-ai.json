@@ -1,0 +1,18 @@
+{
+  "slug": "seeddance-ai",
+  "name": "Seeddance AI",
+  "tagline": "Cinematic AI Video Generation Seeddance AI is a comprehensive video generation platform that leverages the Seedance model family to transform text…",
+  "description": "Cinematic AI Video Generation Seeddance AI is a comprehensive video generation platform that leverages the Seedance model family to transform text and images into high-quality cinematic clips. By utilizing advanced workflows like Seedance 2.0 and 2.5, the tool enables creators to produce content with smooth motion and character consistency. The platform is designed to eliminate common friction points in AI production by offering a no-queue, no-waitlist experience. Advanced Model Integration User",
+  "url": "https://www.seeddance.io/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=seeddance.io&sz=64",
+  "screenshot_url": "/screenshots/seeddance-ai.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

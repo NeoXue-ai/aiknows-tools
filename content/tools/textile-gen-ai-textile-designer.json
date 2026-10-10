@@ -1,0 +1,18 @@
+{
+  "slug": "textile-gen-ai-textile-designer",
+  "name": "textile gen AI Textile Designer",
+  "tagline": "TextileGen is an AI textile designer for creating fabric patterns from text, sketches, and images",
+  "description": "TextileGen is an AI textile designer for creating fabric patterns from text, sketches, and images. Extract artwork, make seamless repeats, develop colorways, and preview designs on products.",
+  "url": "https://textilegen.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=textilegen.com&sz=64",
+  "screenshot_url": "/screenshots/textile-gen-ai-textile-designer.webp",
+  "primary_category": "image-video",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-art-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

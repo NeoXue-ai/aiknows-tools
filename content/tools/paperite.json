@@ -1,0 +1,18 @@
+{
+  "slug": "paperite",
+  "name": "Paperite",
+  "tagline": "Write academic papers with AI that cites and reasons from scholarly sources. Research, analyze, and draft articles in Markdown, LaTeX, or rich text.",
+  "description": "Write academic papers with AI that cites and reasons from scholarly sources. Research, analyze, and draft articles in Markdown, LaTeX, or rich text.",
+  "url": "https://paperite.us",
+  "logo_url": "https://www.google.com/s2/favicons?domain=paperite.us&sz=64",
+  "screenshot_url": "/screenshots/paperite.webp",
+  "primary_category": "business-analytics",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": null,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

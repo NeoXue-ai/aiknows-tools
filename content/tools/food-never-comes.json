@@ -1,0 +1,18 @@
+{
+  "slug": "food-never-comes",
+  "name": "Food Never Comes",
+  "tagline": "A fake food delivery simulator for cravings, no-spend days, and dopamine without regret.",
+  "description": "A fake food delivery simulator for cravings, no-spend days, and dopamine without regret.",
+  "url": "https://foodnevercome.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=foodnevercome.com&sz=64",
+  "screenshot_url": "/screenshots/food-never-comes.webp",
+  "primary_category": "writing-content",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 13,
+  "subcategory": "ai-content-creator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

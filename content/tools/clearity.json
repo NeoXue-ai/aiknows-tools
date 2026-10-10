@@ -1,0 +1,18 @@
+{
+  "slug": "clearity",
+  "name": "Clearity",
+  "tagline": "Clearity is a visual negative thoughts tracker with a dot-per-day timeline inspired by activity trackers",
+  "description": "Clearity is a visual negative thoughts tracker with a dot-per-day timeline inspired by activity trackers. Each day becomes a visual representation of mental activity so users can log thoughts, detect patterns, and build awareness over time.",
+  "url": "https://clearity.nxgntools.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=clearity.nxgntools.com&sz=64",
+  "screenshot_url": "/screenshots/clearity.webp",
+  "primary_category": "productivity",
+  "tags": [],
+  "pricing_detail": null,
+  "source": null,
+  "dr": 68,
+  "subcategory": "ai-presentation-maker",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}
