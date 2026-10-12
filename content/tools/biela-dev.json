@@ -5,7 +5,7 @@
   "description": "Biela.dev is an AI app builder that generates a fully functional web application from a plain-language description, with no coding knowledge required. Non-technical founders and product managers use it to go from idea to a working product they can actually test with users, without waiting for a developer. It handles the full stack from frontend to database, focusing on getting something live quickly rather than giving users granular control over every architectural choice.",
   "url": "https://biela.dev",
   "logo_url": "https://www.google.com/s2/favicons?domain=biela.dev&sz=64",
-  "screenshot_url": null,
+  "screenshot_url": "/screenshots/biela-dev.webp",
   "primary_category": "code-development",
   "tags": [
     "code_generation",

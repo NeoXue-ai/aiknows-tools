@@ -5,7 +5,7 @@
   "description": "Zety is an AI-powered resume and cover letter builder with a large library of professionally designed templates and a real-time resume scorer. Its AI content analyser checks your resume against the requirements of your target role and suggests stronger action verbs, quantified achievements, and relevant skills. Job seekers use Zety to create multiple tailored application documents quickly during an active job search.",
   "url": "https://zety.com",
   "logo_url": "https://www.google.com/s2/favicons?domain=zety.com&sz=64",
-  "screenshot_url": null,
+  "screenshot_url": "/screenshots/zety.webp",
   "primary_category": "productivity",
   "tags": [
     "resume",

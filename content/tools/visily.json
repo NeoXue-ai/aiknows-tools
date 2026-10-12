@@ -5,7 +5,7 @@
   "description": "Visily is an AI-powered wireframing and prototyping tool that can convert a screenshot or sketch into an editable UI design in seconds. It includes 1,500+ templates, component libraries, and an AI assistant that generates screens from text descriptions. Design and product teams use it to go from idea to prototype in minutes.",
   "url": "https://visily.ai",
   "logo_url": "https://www.google.com/s2/favicons?domain=visily.ai&sz=64",
-  "screenshot_url": null,
+  "screenshot_url": "/screenshots/visily.webp",
   "primary_category": "image-video",
   "tags": [
     "design",

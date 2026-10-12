@@ -5,7 +5,7 @@
   "description": "Document360 is a SaaS knowledge base platform that helps companies create, manage, and publish product documentation, FAQs, and user manuals. Its AI features include semantic search, auto-tagging, content suggestions, and an AI chatbot that answers user questions from the knowledge base.",
   "url": "https://document360.com",
   "logo_url": "https://www.google.com/s2/favicons?domain=document360.com&sz=64",
-  "screenshot_url": null,
+  "screenshot_url": "/screenshots/document360.webp",
   "primary_category": "productivity",
   "tags": [
     "knowledge_base",

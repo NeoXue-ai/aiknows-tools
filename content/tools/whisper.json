@@ -5,7 +5,7 @@
   "description": "Whisper is OpenAI's open-source automatic speech recognition model, trained on a large enough mix of multilingual audio that it handles accents, background noise, and technical vocabulary noticeably better than the transcription tools that came before it. Because it's free to download and run locally, it's become the engine underneath a huge number of transcription apps and meeting-notes tools rather than something people use directly. Developers who need transcription baked into their own product default to it before looking at paid APIs.",
   "url": "https://openai.com/research/whisper",
   "logo_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-  "screenshot_url": null,
+  "screenshot_url": "/screenshots/whisper.webp",
   "primary_category": "image-video",
   "tags": [
     "transcription",

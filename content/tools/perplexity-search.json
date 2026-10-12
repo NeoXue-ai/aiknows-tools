@@ -5,7 +5,7 @@
   "description": "Perplexity AI is a conversational search engine that combines real-time web search with large language model reasoning to answer complex questions accurately and transparently. Every answer includes numbered source citations, so users can instantly verify the provenance of each claim. It's gaining rapid adoption among professionals who want the speed of AI but can't afford hallucinated facts.",
   "url": "https://perplexity.ai",
   "logo_url": "https://www.google.com/s2/favicons?domain=perplexity.ai&sz=64",
-  "screenshot_url": null,
+  "screenshot_url": "/screenshots/perplexity-search.webp",
   "primary_category": "productivity",
   "tags": [
     "search",

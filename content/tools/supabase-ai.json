@@ -3,9 +3,9 @@
   "name": "Supabase AI",
   "tagline": "Supabase has integrated AI deeply into its open-source Firebase alternative, offering pgvector support for storing and querying embeddings directly in Postgres, a built-in AI assistant in the dashboard that writes SQL and explains queries, and Edge Functions with AI capabilities. Developers building RAG applications can store embeddings alongside their application data in the same Postgres database, eliminating a separate vector database. Supabase's AI features let full-stack developers add vector search and LLM integration without adding new infrastructure.",
   "description": "Supabase has integrated AI deeply into its open-source Firebase alternative, offering pgvector support for storing and querying embeddings directly in Postgres, a built-in AI assistant in the dashboard that writes SQL and explains queries, and Edge Functions with AI capabilities. Developers building RAG applications can store embeddings alongside their application data in the same Postgres database, eliminating a separate vector database. Supabase's AI features let full-stack developers add vector search and LLM integration without adding new infrastructure.",
-  "url": "https://supabase.com/ai",
+  "url": "https://supabase.com/features",
   "logo_url": "https://www.google.com/s2/favicons?domain=supabase.com&sz=64",
-  "screenshot_url": null,
+  "screenshot_url": "/screenshots/supabase-ai.webp",
   "primary_category": "code-development",
   "tags": [
     "developer_tools",

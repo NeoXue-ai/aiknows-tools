@@ -3,9 +3,9 @@
   "name": "Reaxys",
   "tagline": "Reaxys searches a database of chemical reactions, substances, and properties drawn from journals and patents, and suggests plausible synthesis routes for a target compound. Chemists and pharma researchers use it to check whether a reaction has been tried before and to plan a synthesis route without manually combing through decades of literature.",
   "description": "Reaxys searches a database of chemical reactions, substances, and properties drawn from journals and patents, and suggests plausible synthesis routes for a target compound. Chemists and pharma researchers use it to check whether a reaction has been tried before and to plan a synthesis route without manually combing through decades of literature.",
-  "url": "https://reaxys.com",
+  "url": "https://www.elsevier.com/products/reaxys",
   "logo_url": "https://www.google.com/s2/favicons?domain=reaxys.com&sz=64",
-  "screenshot_url": null,
+  "screenshot_url": "/screenshots/reaxys.webp",
   "primary_category": "research-data",
   "tags": [
     "research",

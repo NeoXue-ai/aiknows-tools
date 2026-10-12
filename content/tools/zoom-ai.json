@@ -3,9 +3,9 @@
   "name": "Zoom AI Companion",
   "tagline": "Zoom AI Companion is Zoom's native AI assistant, available at no additional cost to paid subscribers, that provides real-time meeting transcription, post-meeting summaries, and action-item lists directly in the Zoom interface. It can draft chat replies, compose emails based on meeting context, and summarise long Zoom Chat threads. With hundreds of millions of Zoom users globally, it's the most widely accessible AI meeting assistant by sheer install base.",
   "description": "Zoom AI Companion is Zoom's native AI assistant, available at no additional cost to paid subscribers, that provides real-time meeting transcription, post-meeting summaries, and action-item lists directly in the Zoom interface. It can draft chat replies, compose emails based on meeting context, and summarise long Zoom Chat threads. With hundreds of millions of Zoom users globally, it's the most widely accessible AI meeting assistant by sheer install base.",
-  "url": "https://zoom.us/ai-assistant",
+  "url": "https://www.zoom.com/en/products/ai-assistant/",
   "logo_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-  "screenshot_url": null,
+  "screenshot_url": "/screenshots/zoom-ai.webp",
   "primary_category": "productivity",
   "tags": [
     "meeting",

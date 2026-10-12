@@ -5,7 +5,7 @@
   "description": "Content at Scale generates long-form, research-backed blog posts from a keyword, URL, or YouTube video that are designed to pass AI detection tools. It synthesises information from multiple web sources, structures articles with proper headings, and delivers SEO-optimised drafts. Agencies use it to produce hundreds of articles per month.",
   "url": "https://contentatscale.ai",
   "logo_url": "https://www.google.com/s2/favicons?domain=contentatscale.ai&sz=64",
-  "screenshot_url": null,
+  "screenshot_url": "/screenshots/content-at-scale.webp",
   "primary_category": "writing-content",
   "tags": [
     "writing",

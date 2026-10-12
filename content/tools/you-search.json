@@ -5,7 +5,7 @@
   "description": "You.com is a privacy-focused AI search engine with a conversational interface that searches the web and synthesises answers with source citations. Its YouCode assistant is specifically optimised for technical search and coding questions, and YouWrite helps draft content directly in the search interface. Users who want an ad-free, AI-native search experience without sending queries to Google use You.com as their default.",
   "url": "https://you.com",
   "logo_url": "https://www.google.com/s2/favicons?domain=you.com&sz=64",
-  "screenshot_url": null,
+  "screenshot_url": "/screenshots/you-search.webp",
   "primary_category": "productivity",
   "tags": [
     "search",

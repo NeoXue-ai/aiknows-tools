@@ -5,7 +5,7 @@
   "description": "Chorus.ai by ZoomInfo is a conversation intelligence platform that records, transcribes, and analyses sales calls and meetings. Its AI surfaces deal risks, competitor mentions, and coaching opportunities. Sales managers use it to identify winning behaviours and replicate them across their team.",
   "url": "https://chorus.ai",
   "logo_url": "https://www.google.com/s2/favicons?domain=chorus.ai&sz=64",
-  "screenshot_url": null,
+  "screenshot_url": "/screenshots/chorus-ai.webp",
   "primary_category": "ecommerce-sales",
   "tags": [
     "sales",

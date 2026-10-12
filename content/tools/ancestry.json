@@ -5,7 +5,7 @@
   "description": "Ancestry searches billions of historical records and DNA profiles to surface likely family connections, and uses AI to transcribe handwritten documents like census forms and ship manifests.",
   "url": "https://ancestry.com",
   "logo_url": "https://www.google.com/s2/favicons?domain=ancestry.com&sz=64",
-  "screenshot_url": null,
+  "screenshot_url": "/screenshots/ancestry.webp",
   "primary_category": "research-data",
   "tags": [
     "research",

@@ -5,7 +5,7 @@
   "description": "Fellow is an AI meeting assistant and team management platform that helps managers run effective meetings. It provides AI-generated meeting agendas, real-time transcription, automated action items, and a performance feedback system. Over 3,000 companies including Shopify and HubSpot use it to make meetings more productive.",
   "url": "https://fellow.app",
   "logo_url": "https://www.google.com/s2/favicons?domain=fellow.app&sz=64",
-  "screenshot_url": null,
+  "screenshot_url": "/screenshots/fellow-ai.webp",
   "primary_category": "productivity",
   "tags": [
     "meeting",

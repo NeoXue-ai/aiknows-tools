@@ -5,7 +5,7 @@
   "description": "Palette.fm automatically colorizes black-and-white photographs using AI. Archivists, historians, and photo enthusiasts use it to bring historical images to life without manual editing. Several color style presets let you try different tonal interpretations of the same photo.",
   "url": "https://palette.fm",
   "logo_url": "https://www.google.com/s2/favicons?domain=palette.fm&sz=64",
-  "screenshot_url": null,
+  "screenshot_url": "/screenshots/palette-fm.webp",
   "primary_category": "image-video",
   "tags": [
     "image_editing",

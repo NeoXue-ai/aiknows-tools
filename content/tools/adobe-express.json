@@ -3,9 +3,9 @@
   "name": "Adobe Express",
   "tagline": "Adobe Express is Adobe's fast, template-driven content creation tool for social media graphics, short videos, PDFs, and web pages, with AI features including text-to-image, background removal, text effects, and one-click resize. It's designed for marketers and communicators who need branded content quickly without Photoshop expertise. Tight integration with Creative Cloud means brand assets, fonts, and colours are always one click away.",
   "description": "Adobe Express is Adobe's fast, template-driven content creation tool for social media graphics, short videos, PDFs, and web pages, with AI features including text-to-image, background removal, text effects, and one-click resize. It's designed for marketers and communicators who need branded content quickly without Photoshop expertise. Tight integration with Creative Cloud means brand assets, fonts, and colours are always one click away.",
-  "url": "https://express.adobe.com",
+  "url": "https://www.adobe.com/express/",
   "logo_url": "https://www.google.com/s2/favicons?domain=express.adobe.com&sz=64",
-  "screenshot_url": null,
+  "screenshot_url": "/screenshots/adobe-express.webp",
   "primary_category": "image-video",
   "tags": [
     "design",
