@@ -1,0 +1,29 @@
+{
+  "slug": "jetbrains-ai",
+  "name": "JetBrains AI Assistant",
+  "tagline": "JetBrains AI Assistant integrates AI-powered code completion, generation, explanation, and refactoring directly into the full JetBrains IDE family — IntelliJ IDEA, PyCharm, WebStorm, GoLand, and more. It understands the full project context through deep IDE integration and can explain compiler errors, write test suites, and refactor code with awareness of the entire codebase. JetBrains users prefer it over standalone tools because it works inside the IDE they already live in.",
+  "description": "JetBrains AI Assistant integrates AI-powered code completion, generation, explanation, and refactoring directly into the full JetBrains IDE family — IntelliJ IDEA, PyCharm, WebStorm, GoLand, and more. It understands the full project context through deep IDE integration and can explain compiler errors, write test suites, and refactor code with awareness of the entire codebase. JetBrains users prefer it over standalone tools because it works inside the IDE they already live in.",
+  "url": "https://jetbrains.com/ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=jetbrains.com&sz=64",
+  "screenshot_url": "/screenshots/jetbrains-ai.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "code_generation",
+    "developer_tools",
+    "productivity",
+    "coding",
+    "programming",
+    "autocomplete",
+    "debugging",
+    "refactoring",
+    "ide",
+    "integrations"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 91,
+  "subcategory": "ai-code-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "calendly",
+  "name": "Calendly",
+  "tagline": "Calendly is the most widely used scheduling automation tool, letting recipients book meetings directly into your calendar based on your real availability. It eliminates the back-and-forth of finding a time by sharing a booking link, and AI-powered features now suggest meeting slots and draft follow-up emails. Integrated with Zoom, Google Meet, Salesforce, and dozens of other tools.",
+  "description": "Calendly is the most widely used scheduling automation tool, letting recipients book meetings directly into your calendar based on your real availability. It eliminates the back-and-forth of finding a time by sharing a booking link, and AI-powered features now suggest meeting slots and draft follow-up emails. Integrated with Zoom, Google Meet, Salesforce, and dozens of other tools.",
+  "url": "https://calendly.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=calendly.com&sz=64",
+  "screenshot_url": "/screenshots/calendly.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "scheduling",
+    "productivity",
+    "calendar",
+    "time_management",
+    "meetings",
+    "appointments",
+    "booking",
+    "availability",
+    "planning"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 95,
+  "subcategory": "productivity-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

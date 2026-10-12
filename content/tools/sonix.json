@@ -1,0 +1,29 @@
+{
+  "slug": "sonix",
+  "name": "Sonix",
+  "tagline": "Sonix is an automated transcription service that converts audio and video files to text in over 40 languages with high accuracy. It includes an in-browser editor for correcting transcripts, automated translation, and subtitle export. Journalists, researchers, and podcasters use it to process hours of audio in minutes.",
+  "description": "Sonix is an automated transcription service that converts audio and video files to text in over 40 languages with high accuracy. It includes an in-browser editor for correcting transcripts, automated translation, and subtitle export. Journalists, researchers, and podcasters use it to process hours of audio in minutes.",
+  "url": "https://sonix.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=sonix.ai&sz=64",
+  "screenshot_url": "/screenshots/sonix.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "transcription",
+    "speech_to_text",
+    "audio",
+    "text",
+    "conversion",
+    "captions",
+    "subtitles",
+    "accuracy",
+    "real_time",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 74,
+  "subcategory": "speech-to-text-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

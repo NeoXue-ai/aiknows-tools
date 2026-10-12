@@ -1,0 +1,30 @@
+{
+  "slug": "hirevue",
+  "name": "HireVue",
+  "tagline": "HireVue is a video interviewing platform that allows candidates to complete structured interviews asynchronously, with AI analysing responses for job-relevant competencies and communication skills. Its game-based assessments measure cognitive ability and problem-solving without traditional aptitude tests. Enterprises with high-volume hiring — retail, financial services, healthcare — use HireVue to screen thousands of candidates efficiently and reduce time-to-hire dramatically.",
+  "description": "HireVue is a video interviewing platform that allows candidates to complete structured interviews asynchronously, with AI analysing responses for job-relevant competencies and communication skills. Its game-based assessments measure cognitive ability and problem-solving without traditional aptitude tests. Enterprises with high-volume hiring — retail, financial services, healthcare — use HireVue to screen thousands of candidates efficiently and reduce time-to-hire dramatically.",
+  "url": "https://hirevue.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=hirevue.com&sz=64",
+  "screenshot_url": "/screenshots/hirevue.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "hr",
+    "business",
+    "recruitment",
+    "employees",
+    "human_resources",
+    "onboarding",
+    "performance",
+    "payroll",
+    "talent",
+    "enterprise",
+    "fast"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 77,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

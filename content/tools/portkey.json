@@ -1,0 +1,30 @@
+{
+  "slug": "portkey",
+  "name": "Portkey",
+  "tagline": "Portkey is an AI gateway and control plane that routes requests to 200+ LLMs with a unified API, providing load balancing, fallbacks, caching, and rate-limit management. It adds observability, guardrails, and access controls on top of any LLM provider.",
+  "description": "Portkey is an AI gateway and control plane that routes requests to 200+ LLMs with a unified API, providing load balancing, fallbacks, caching, and rate-limit management. It adds observability, guardrails, and access controls on top of any LLM provider.",
+  "url": "https://portkey.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=portkey.ai&sz=64",
+  "screenshot_url": "/screenshots/portkey.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "api_available",
+    "model_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 74,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

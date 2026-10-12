@@ -1,0 +1,28 @@
+{
+  "slug": "floify",
+  "name": "Floify",
+  "tagline": "Floify gives mortgage brokers a branded borrower portal for collecting documents, e-signatures, and loan status updates, with automated reminders that chase down missing paperwork. It cuts the back-and-forth that normally slows a loan file down between application and closing.",
+  "description": "Floify gives mortgage brokers a branded borrower portal for collecting documents, e-signatures, and loan status updates, with automated reminders that chase down missing paperwork. It cuts the back-and-forth that normally slows a loan file down between application and closing.",
+  "url": "https://floify.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=floify.com&sz=64",
+  "screenshot_url": "/screenshots/floify.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "finance",
+    "business",
+    "analytics",
+    "accounting",
+    "investment",
+    "financial_planning",
+    "budgeting",
+    "fintech",
+    "reporting"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 78,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

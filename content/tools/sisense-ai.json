@@ -1,0 +1,30 @@
+{
+  "slug": "sisense-ai",
+  "name": "Sisense",
+  "tagline": "Sisense is a business intelligence and embedded analytics platform with deep AI capabilities including natural language querying, predictive analytics, and anomaly detection. Its Compose SDK lets developers embed interactive analytics directly into SaaS products, making it popular among ISVs and digital-native companies.",
+  "description": "Sisense is a business intelligence and embedded analytics platform with deep AI capabilities including natural language querying, predictive analytics, and anomaly detection. Its Compose SDK lets developers embed interactive analytics directly into SaaS products, making it popular among ISVs and digital-native companies.",
+  "url": "https://sisense.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=sisense.com&sz=64",
+  "screenshot_url": "/screenshots/sisense-ai.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "data_analysis",
+    "analytics",
+    "business",
+    "insights",
+    "visualization",
+    "data_science",
+    "reporting",
+    "dashboards",
+    "sql",
+    "cloud_based",
+    "nlp"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 78,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

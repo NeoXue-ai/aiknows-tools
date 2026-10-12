@@ -1,0 +1,31 @@
+{
+  "slug": "planable",
+  "name": "Planable",
+  "tagline": "Planable is a social media collaboration and scheduling platform where marketing teams draft, review, and approve posts before they go live. It lets clients and stakeholders leave comments directly on posts in a visual feed view, cutting down approval email threads. AI content generation helps teams draft captions and variations faster across multiple platforms.",
+  "description": "Planable is a social media collaboration and scheduling platform where marketing teams draft, review, and approve posts before they go live. It lets clients and stakeholders leave comments directly on posts in a visual feed view, cutting down approval email threads. AI content generation helps teams draft captions and variations faster across multiple platforms.",
+  "url": "https://planable.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=planable.io&sz=64",
+  "screenshot_url": "/screenshots/planable.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "social_media",
+    "marketing",
+    "content_creation",
+    "engagement",
+    "posting",
+    "scheduling",
+    "analytics",
+    "audience",
+    "platform",
+    "collaboration",
+    "image_based",
+    "fast"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 78,
+  "subcategory": "social-media",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

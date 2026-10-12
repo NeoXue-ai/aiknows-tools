@@ -1,21 +1,29 @@
 {
   "slug": "descript",
   "name": "Descript",
-  "tagline": "AI video and podcast editor",
-  "description": "Edit video and podcasts by editing the transcript, with AI tools for filler words, voice, and more.",
+  "tagline": "Descript is an audio and video editor that turns recordings into editable text documents: you edit the media by editing the words. Its AI features include Overdub (voice cloning for corrections), Studio Sound (one-click noise removal), and automatic filler-word removal. Podcasters, YouTubers, and online course creators use it to slash post-production time.",
+  "description": "Descript is an audio and video editor that turns recordings into editable text documents: you edit the media by editing the words. Its AI features include Overdub (voice cloning for corrections), Studio Sound (one-click noise removal), and automatic filler-word removal. Podcasters, YouTubers, and online course creators use it to slash post-production time.",
   "url": "https://descript.com",
   "logo_url": "https://www.google.com/s2/favicons?domain=descript.com&sz=64",
   "screenshot_url": "/screenshots/descript.webp",
-  "primary_category": "ecommerce-sales",
+  "primary_category": "image-video",
   "tags": [
-    "video",
-    "podcast"
+    "audio",
+    "creative",
+    "sound",
+    "music",
+    "recording",
+    "audio_editing",
+    "sound_design",
+    "mixing",
+    "production",
+    "voice_enabled"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
-  "subcategory": "ai-video-editor",
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 86,
+  "subcategory": "ai-voice-generator",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

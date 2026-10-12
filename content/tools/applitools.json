@@ -1,0 +1,27 @@
+{
+  "slug": "applitools",
+  "name": "Applitools",
+  "tagline": "Applitools is a visual AI testing platform that automates UI validation by comparing screenshots intelligently rather than checking pixel-by-pixel differences that would generate noise from minor rendering variations. QA engineers use it to run visual tests across browsers, devices, and screen sizes and catch layout regressions that functional tests miss. Its Eyes SDK integrates with Selenium, Cypress, WebdriverIO, and other testing frameworks so visual checks can be added to existing automated test suites.",
+  "description": "Applitools is a visual AI testing platform that automates UI validation by comparing screenshots intelligently rather than checking pixel-by-pixel differences that would generate noise from minor rendering variations. QA engineers use it to run visual tests across browsers, devices, and screen sizes and catch layout regressions that functional tests miss. Its Eyes SDK integrates with Selenium, Cypress, WebdriverIO, and other testing frameworks so visual checks can be added to existing automated test suites.",
+  "url": "https://applitools.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=applitools.com&sz=64",
+  "screenshot_url": "/screenshots/applitools.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "integrations",
+    "image_based",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool",
+    "service",
+    "solution"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 74,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

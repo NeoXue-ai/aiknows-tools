@@ -1,0 +1,31 @@
+{
+  "slug": "minimax-ai",
+  "name": "Minimax",
+  "tagline": "Minimax is a Chinese AI company that offers video generation, image generation, and multimodal foundation models through a consumer app and developer APIs. Its Hailuo video model competes with tools like Kling and Sora for text-to-video generation, producing high-motion, photorealistic clips. Models are available to developers internationally through the Minimax API.",
+  "description": "Minimax is a Chinese AI company that offers video generation, image generation, and multimodal foundation models through a consumer app and developer APIs. Its Hailuo video model competes with tools like Kling and Sora for text-to-video generation, producing high-motion, photorealistic clips. Models are available to developers internationally through the Minimax API.",
+  "url": "https://minimax.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=minimax.io&sz=64",
+  "screenshot_url": "/screenshots/minimax-ai.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "video_generation",
+    "creative",
+    "text_to_video",
+    "animation",
+    "production",
+    "ai_video",
+    "generative",
+    "short_form",
+    "clips",
+    "api_available",
+    "multimodal",
+    "image_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 80,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,21 +1,29 @@
 {
   "slug": "chatgpt",
   "name": "ChatGPT",
-  "tagline": "AI assistant from OpenAI",
-  "description": "General-purpose conversational AI with plugins, GPTs, and tools.",
-  "url": "https://chatgpt.com",
-  "logo_url": "https://www.google.com/s2/favicons?domain=chatgpt.com&sz=64",
+  "tagline": "ChatGPT is OpenAI's flagship conversational AI, capable of answering questions, drafting documents, writing and explaining code, analysing data, and generating images. Powered by GPT-4o, it remembers context across a conversation and can read files, browse the web, and run code inside a sandbox. With over 200 million weekly active users, it's the most widely used AI assistant in the world.",
+  "description": "ChatGPT is OpenAI's flagship conversational AI, capable of answering questions, drafting documents, writing and explaining code, analysing data, and generating images. Powered by GPT-4o, it remembers context across a conversation and can read files, browse the web, and run code inside a sandbox. With over 200 million weekly active users, it's the most widely used AI assistant in the world.",
+  "url": "https://chat.openai.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=chat.openai.com&sz=64",
   "screenshot_url": "/screenshots/chatgpt.webp",
   "primary_category": "productivity",
   "tags": [
-    "assistant",
-    "openai"
+    "chatbot",
+    "text_generation",
+    "ai_assistant",
+    "conversational",
+    "nlp",
+    "dialogue",
+    "llm",
+    "general_ai",
+    "question_answering",
+    "image_based"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
-  "subcategory": "ai-assistant",
-  "is_featured": true,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 93,
+  "subcategory": "ai-chatbot",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
 }

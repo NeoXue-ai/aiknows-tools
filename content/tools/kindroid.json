@@ -1,0 +1,31 @@
+{
+  "slug": "kindroid",
+  "name": "Kindroid",
+  "tagline": "Kindroid is an AI companion app focused on building a persistent, deeply personalised relationship with an AI character you define — with long-term memory, a custom backstory, and consistent personality across conversations. It supports voice calls, image sharing, and journaling features that make interactions feel ongoing rather than session-based. Users seeking a thoughtful, relationship-oriented AI experience choose Kindroid over more entertainment-focused alternatives.",
+  "description": "Kindroid is an AI companion app focused on building a persistent, deeply personalised relationship with an AI character you define — with long-term memory, a custom backstory, and consistent personality across conversations. It supports voice calls, image sharing, and journaling features that make interactions feel ongoing rather than session-based. Users seeking a thoughtful, relationship-oriented AI experience choose Kindroid over more entertainment-focused alternatives.",
+  "url": "https://kindroid.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=kindroid.ai&sz=64",
+  "screenshot_url": "/screenshots/kindroid.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "ai_companion",
+    "chatbot",
+    "conversation",
+    "ai_assistant",
+    "chat",
+    "companionship",
+    "emotional_support",
+    "roleplay",
+    "personal",
+    "customizable",
+    "image_based",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 63,
+  "subcategory": "ai-entertainment",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

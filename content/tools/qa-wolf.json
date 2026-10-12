@@ -1,0 +1,27 @@
+{
+  "slug": "qa-wolf",
+  "name": "QA Wolf",
+  "tagline": "QA Wolf builds and maintains end-to-end test suites for web apps, pairing AI-generated tests with a human review team that keeps them passing as the product changes. Engineering teams hand off their flaky manual QA work and get parallel test runs on every pull request, with 24-hour triage on failures so a red build doesn't block a release.",
+  "description": "QA Wolf builds and maintains end-to-end test suites for web apps, pairing AI-generated tests with a human review team that keeps them passing as the product changes. Engineering teams hand off their flaky manual QA work and get parallel test runs on every pull request, with 24-hour triage on failures so a red build doesn't block a release.",
+  "url": "https://qawolf.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=qawolf.com&sz=64",
+  "screenshot_url": "/screenshots/qa-wolf.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "collaboration",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool",
+    "service",
+    "solution",
+    "saas"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 66,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

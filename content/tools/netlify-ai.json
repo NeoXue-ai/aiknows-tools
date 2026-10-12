@@ -1,0 +1,29 @@
+{
+  "slug": "netlify-ai",
+  "name": "Netlify",
+  "tagline": "Netlify is a web development platform that automates the deployment of modern web apps with features including CI/CD, serverless functions, edge computing, and form handling. Its AI features include AI-assisted local development guidance, intelligent build caching, and integration with the Netlify AI assistant for configuration help.",
+  "description": "Netlify is a web development platform that automates the deployment of modern web apps with features including CI/CD, serverless functions, edge computing, and form handling. Its AI features include AI-assisted local development guidance, intelligent build caching, and integration with the Netlify AI assistant for configuration help.",
+  "url": "https://netlify.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=netlify.com&sz=64",
+  "screenshot_url": "/screenshots/netlify-ai.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "integrations"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 91,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

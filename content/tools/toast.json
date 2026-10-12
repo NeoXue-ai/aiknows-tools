@@ -1,0 +1,29 @@
+{
+  "slug": "toast",
+  "name": "Toast",
+  "tagline": "Toast is a point-of-sale and operations platform built for restaurants, cafes, and bars, running orders, payments, and back-of-house tasks from one system. Its sales forecasting and menu analytics help operators predict busy shifts, cut food waste, and see which menu items actually make money versus just selling well. Tens of thousands of food and beverage businesses run on Toast instead of stitching together separate POS, payroll, and inventory tools.",
+  "description": "Toast is a point-of-sale and operations platform built for restaurants, cafes, and bars, running orders, payments, and back-of-house tasks from one system. Its sales forecasting and menu analytics help operators predict busy shifts, cut food waste, and see which menu items actually make money versus just selling well. Tens of thousands of food and beverage businesses run on Toast instead of stitching together separate POS, payroll, and inventory tools.",
+  "url": "https://pos.toasttab.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=pos.toasttab.com&sz=64",
+  "screenshot_url": "/screenshots/toast.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "business",
+    "productivity",
+    "enterprise",
+    "operations",
+    "management",
+    "documents",
+    "contracts",
+    "proposals",
+    "workflow",
+    "analytics"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 92,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

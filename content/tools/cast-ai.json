@@ -1,0 +1,27 @@
+{
+  "slug": "cast-ai",
+  "name": "CAST AI",
+  "tagline": "CAST AI watches a Kubernetes cluster and automatically resizes nodes, switches to cheaper spot instances, and rightsizes workloads to cut cloud spend without a human tuning each setting by hand. Cloud architects use it to keep a multi-cloud Kubernetes bill under control without turning cost optimization into a full-time job.",
+  "description": "CAST AI watches a Kubernetes cluster and automatically resizes nodes, switches to cheaper spot instances, and rightsizes workloads to cut cloud spend without a human tuning each setting by hand. Cloud architects use it to keep a multi-cloud Kubernetes bill under control without turning cost optimization into a full-time job.",
+  "url": "https://cast.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=cast.ai&sz=64",
+  "screenshot_url": "/screenshots/cast-ai.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "cloud_based",
+    "affordable",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool",
+    "service",
+    "solution"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 72,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

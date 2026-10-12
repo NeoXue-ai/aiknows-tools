@@ -1,0 +1,27 @@
+{
+  "slug": "confluence-ai",
+  "name": "Confluence AI",
+  "tagline": "Confluence is Atlassian's team wiki and documentation platform for organizing knowledge, meeting notes, and project documentation. Engineering, product, and operations teams use it as a central place to write and maintain internal documentation, linked to Jira issues and other Atlassian tools. Atlassian Intelligence adds AI features for summarizing pages, drafting content, and answering questions across the knowledge base.",
+  "description": "Confluence is Atlassian's team wiki and documentation platform for organizing knowledge, meeting notes, and project documentation. Engineering, product, and operations teams use it as a central place to write and maintain internal documentation, linked to Jira issues and other Atlassian tools. Atlassian Intelligence adds AI features for summarizing pages, drafting content, and answering questions across the knowledge base.",
+  "url": "https://atlassian.com/software/confluence",
+  "logo_url": "https://www.google.com/s2/favicons?domain=atlassian.com&sz=64",
+  "screenshot_url": "/screenshots/confluence-ai.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "collaboration",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool",
+    "service",
+    "solution",
+    "saas"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 92,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

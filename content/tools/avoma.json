@@ -1,0 +1,31 @@
+{
+  "slug": "avoma",
+  "name": "Avoma",
+  "tagline": "Avoma is an AI meeting lifecycle platform that records, transcribes, and analyses customer-facing meetings for sales and customer success teams. Beyond transcription, it identifies talk ratios, monologue lengths, question rates, and topic patterns to give managers data-driven coaching insights. It integrates with Salesforce, HubSpot, and other CRMs to auto-populate call notes, and its revenue intelligence features surface deals at risk before they churn. Teams use it to reduce manual CRM data entry and improve rep performance through objective conversation analysis.",
+  "description": "Avoma is an AI meeting lifecycle platform that records, transcribes, and analyses customer-facing meetings for sales and customer success teams. Beyond transcription, it identifies talk ratios, monologue lengths, question rates, and topic patterns to give managers data-driven coaching insights. It integrates with Salesforce, HubSpot, and other CRMs to auto-populate call notes, and its revenue intelligence features surface deals at risk before they churn. Teams use it to reduce manual CRM data entry and improve rep performance through objective conversation analysis.",
+  "url": "https://avoma.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=avoma.com&sz=64",
+  "screenshot_url": "/screenshots/avoma.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "meeting",
+    "productivity",
+    "transcription",
+    "collaboration",
+    "notes",
+    "summaries",
+    "action_items",
+    "video_calls",
+    "recap",
+    "mobile_app",
+    "customizable",
+    "integrations"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 72,
+  "subcategory": "ai-note-taker",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

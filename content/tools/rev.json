@@ -1,0 +1,31 @@
+{
+  "slug": "rev",
+  "name": "Rev",
+  "tagline": "Rev is a transcription and captioning service that combines AI-powered automated transcription (with fast turnaround and low cost) and human-reviewed transcription (with 99%+ accuracy) for when stakes are highest. It's the default caption provider for many media companies, law firms, and market research agencies. The AI transcription service now handles millions of minutes of audio per month.",
+  "description": "Rev is a transcription and captioning service that combines AI-powered automated transcription (with fast turnaround and low cost) and human-reviewed transcription (with 99%+ accuracy) for when stakes are highest. It's the default caption provider for many media companies, law firms, and market research agencies. The AI transcription service now handles millions of minutes of audio per month.",
+  "url": "https://rev.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=rev.com&sz=64",
+  "screenshot_url": "/screenshots/rev.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "video_editing",
+    "transcription",
+    "subtitle",
+    "accessibility",
+    "video",
+    "captions",
+    "multilingual",
+    "auto_subtitle",
+    "srt",
+    "voice_enabled",
+    "fast",
+    "affordable"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 83,
+  "subcategory": "ai-video-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

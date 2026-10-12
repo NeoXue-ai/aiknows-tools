@@ -1,0 +1,27 @@
+{
+  "slug": "planetscale",
+  "name": "PlanetScale",
+  "tagline": "PlanetScale is a serverless MySQL-compatible database with database branching workflows and AI-powered query insights. Development teams use its branching feature to make schema changes safely by testing on a branch before merging to production, similar to how Git handles code. It scales automatically and has become a common choice for high-growth web applications that need MySQL without managing a database server.",
+  "description": "PlanetScale is a serverless MySQL-compatible database with database branching workflows and AI-powered query insights. Development teams use its branching feature to make schema changes safely by testing on a branch before merging to production, similar to how Git handles code. It scales automatically and has become a common choice for high-growth web applications that need MySQL without managing a database server.",
+  "url": "https://planetscale.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=planetscale.com&sz=64",
+  "screenshot_url": "/screenshots/planetscale.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "collaboration",
+    "analytics",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool",
+    "service",
+    "solution"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 79,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

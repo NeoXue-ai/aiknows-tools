@@ -1,0 +1,29 @@
+{
+  "slug": "gladly-ai",
+  "name": "Gladly",
+  "tagline": "Gladly is a customer service platform that treats each customer as a person with a lifetime conversation history across every channel — phone, email, chat, SMS, and social media. Its AI features include Sidekick (an AI agent for self-service) and AI-suggested responses with full customer context displayed to human agents.",
+  "description": "Gladly is a customer service platform that treats each customer as a person with a lifetime conversation history across every channel — phone, email, chat, SMS, and social media. Its AI features include Sidekick (an AI agent for self-service) and AI-suggested responses with full customer context displayed to human agents.",
+  "url": "https://gladly.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=gladly.com&sz=64",
+  "screenshot_url": "/screenshots/gladly-ai.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "customer_support",
+    "chatbot",
+    "business",
+    "help_desk",
+    "support",
+    "ticketing",
+    "live_chat",
+    "service",
+    "resolution",
+    "customizable"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "customer-support",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

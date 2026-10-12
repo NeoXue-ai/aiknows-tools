@@ -1,0 +1,30 @@
+{
+  "slug": "reducto",
+  "name": "Reducto",
+  "tagline": "Reducto is an AI-powered document parsing API that accurately extracts text, tables, and structured data from complex PDFs, scanned documents, and handwritten forms. It is designed for developer teams building RAG pipelines, data extraction workflows, and document automation.",
+  "description": "Reducto is an AI-powered document parsing API that accurately extracts text, tables, and structured data from complex PDFs, scanned documents, and handwritten forms. It is designed for developer teams building RAG pipelines, data extraction workflows, and document automation.",
+  "url": "https://reducto.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=reducto.ai&sz=64",
+  "screenshot_url": "/screenshots/reducto.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "document_ai",
+    "pdf",
+    "productivity",
+    "extraction",
+    "documents",
+    "ocr",
+    "summarization",
+    "document_processing",
+    "parsing",
+    "api_available",
+    "collaboration"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 67,
+  "subcategory": "ai-pdf",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

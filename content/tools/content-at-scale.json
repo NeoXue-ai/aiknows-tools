@@ -1,0 +1,28 @@
+{
+  "slug": "content-at-scale",
+  "name": "Content at Scale",
+  "tagline": "Content at Scale generates long-form, research-backed blog posts from a keyword, URL, or YouTube video that are designed to pass AI detection tools. It synthesises information from multiple web sources, structures articles with proper headings, and delivers SEO-optimised drafts. Agencies use it to produce hundreds of articles per month.",
+  "description": "Content at Scale generates long-form, research-backed blog posts from a keyword, URL, or YouTube video that are designed to pass AI detection tools. It synthesises information from multiple web sources, structures articles with proper headings, and delivers SEO-optimised drafts. Agencies use it to produce hundreds of articles per month.",
+  "url": "https://contentatscale.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=contentatscale.ai&sz=64",
+  "screenshot_url": null,
+  "primary_category": "writing-content",
+  "tags": [
+    "writing",
+    "text_generation",
+    "productivity",
+    "content",
+    "editing",
+    "grammar",
+    "paraphrasing",
+    "ai_writing",
+    "drafting"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 72,
+  "subcategory": "ai-writer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

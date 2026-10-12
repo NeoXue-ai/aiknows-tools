@@ -1,0 +1,31 @@
+{
+  "slug": "smartling",
+  "name": "Smartling",
+  "tagline": "Smartling is a translation management platform that combines neural machine translation with human review workflows for localizing digital content. Marketing and product teams use it to translate websites, apps, and documents into multiple languages simultaneously, with automated content ingestion, translator routing, and publishing back to the source system. It integrates with WordPress, Contentful, HubSpot, and other CMS platforms.",
+  "description": "Smartling is a translation management platform that combines neural machine translation with human review workflows for localizing digital content. Marketing and product teams use it to translate websites, apps, and documents into multiple languages simultaneously, with automated content ingestion, translator routing, and publishing back to the source system. It integrates with WordPress, Contentful, HubSpot, and other CMS platforms.",
+  "url": "https://smartling.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=smartling.com&sz=64",
+  "screenshot_url": "/screenshots/smartling.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "translation",
+    "language",
+    "multilingual",
+    "communication",
+    "localization",
+    "globalization",
+    "language_ai",
+    "interpretation",
+    "text",
+    "collaboration",
+    "integrations",
+    "machine_learning"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 75,
+  "subcategory": "ai-translator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

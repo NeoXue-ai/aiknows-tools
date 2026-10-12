@@ -1,0 +1,31 @@
+{
+  "slug": "webflow",
+  "name": "Webflow",
+  "tagline": "Webflow is a visual web development platform that lets designers build production-ready, custom-coded websites through a visual editor — without writing HTML, CSS, or JavaScript directly. Its AI Diffing feature and component-based design system support enterprise-scale design ops workflows. Agencies and marketing teams choose Webflow for the creative freedom of a custom build with the speed of a no-code tool.",
+  "description": "Webflow is a visual web development platform that lets designers build production-ready, custom-coded websites through a visual editor — without writing HTML, CSS, or JavaScript directly. Its AI Diffing feature and component-based design system support enterprise-scale design ops workflows. Agencies and marketing teams choose Webflow for the creative freedom of a custom build with the speed of a no-code tool.",
+  "url": "https://webflow.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=webflow.com&sz=64",
+  "screenshot_url": "/screenshots/webflow.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "no_code",
+    "automation",
+    "app_builder",
+    "lowcode",
+    "visual",
+    "drag_and_drop",
+    "workflow",
+    "builder",
+    "citizen_developer",
+    "collaboration",
+    "enterprise",
+    "free_tier"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 92,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

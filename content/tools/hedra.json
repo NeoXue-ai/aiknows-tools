@@ -1,0 +1,30 @@
+{
+  "slug": "hedra",
+  "name": "Hedra",
+  "tagline": "Hedra is an AI creative platform that generates expressive talking-head videos by combining a portrait image with audio input. It enables creators to bring characters to life for storytelling, marketing, and social media content without filming real actors.",
+  "description": "Hedra is an AI creative platform that generates expressive talking-head videos by combining a portrait image with audio input. It enables creators to bring characters to life for storytelling, marketing, and social media content without filming real actors.",
+  "url": "https://hedra.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=hedra.com&sz=64",
+  "screenshot_url": "/screenshots/hedra.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "avatar",
+    "video_generation",
+    "creative",
+    "video",
+    "animation",
+    "digital_human",
+    "lip_sync",
+    "presenter",
+    "synthetic_media",
+    "image_based",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 70,
+  "subcategory": "ai-avatar-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "vic-ai",
+  "name": "Vic.ai",
+  "tagline": "Vic.ai is an AI accounting platform that automates accounts payable processing from invoice capture to payment approval. Its deep-learning models handle GL coding, approval routing, and anomaly detection, eliminating manual data entry and reducing invoice processing costs.",
+  "description": "Vic.ai is an AI accounting platform that automates accounts payable processing from invoice capture to payment approval. Its deep-learning models handle GL coding, approval routing, and anomaly detection, eliminating manual data entry and reducing invoice processing costs.",
+  "url": "https://vic.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=vic.ai&sz=64",
+  "screenshot_url": "/screenshots/vic-ai.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "finance",
+    "business",
+    "analytics",
+    "accounting",
+    "investment",
+    "financial_planning",
+    "budgeting",
+    "fintech",
+    "reporting",
+    "voice_enabled",
+    "model_based"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 67,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

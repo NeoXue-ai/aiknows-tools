@@ -1,0 +1,30 @@
+{
+  "slug": "klevu",
+  "name": "Klevu",
+  "tagline": "Klevu is an AI-powered search and product discovery platform for e-commerce stores. Its natural language search engine understands shopper intent, returns relevant results, and personalizes product rankings to improve conversion rates and reduce zero-result searches.",
+  "description": "Klevu is an AI-powered search and product discovery platform for e-commerce stores. Its natural language search engine understands shopper intent, returns relevant results, and personalizes product rankings to improve conversion rates and reduce zero-result searches.",
+  "url": "https://klevu.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=klevu.com&sz=64",
+  "screenshot_url": "/screenshots/klevu.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "ecommerce",
+    "business",
+    "marketing",
+    "retail",
+    "shopping",
+    "online_store",
+    "product_catalog",
+    "checkout",
+    "conversions",
+    "customizable",
+    "nlp"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 71,
+  "subcategory": "ecommerce",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "poolside",
+  "name": "Poolside",
+  "tagline": "Poolside is an AI company developing frontier-scale foundation models purpose-built for software engineering tasks. Its models are trained using reinforcement learning on code execution feedback to achieve deep understanding of software systems and developer intent.",
+  "description": "Poolside is an AI company developing frontier-scale foundation models purpose-built for software engineering tasks. Its models are trained using reinforcement learning on code execution feedback to achieve deep understanding of software systems and developer intent.",
+  "url": "https://poolside.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=poolside.ai&sz=64",
+  "screenshot_url": "/screenshots/poolside.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "code_generation",
+    "developer_tools",
+    "productivity",
+    "coding",
+    "programming",
+    "autocomplete",
+    "debugging",
+    "refactoring",
+    "ide",
+    "training",
+    "model_based"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "ai-code-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

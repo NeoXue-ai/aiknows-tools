@@ -1,0 +1,30 @@
+{
+  "slug": "dimensions-ai",
+  "name": "Dimensions",
+  "tagline": "Dimensions is a research intelligence platform that links publications, citations, grants, patents, clinical trials, and policy documents in one database. Its AI analytics surface research trends, collaboration networks, and translation from research to policy impact. Universities and funding agencies use it to assess research portfolios.",
+  "description": "Dimensions is a research intelligence platform that links publications, citations, grants, patents, clinical trials, and policy documents in one database. Its AI analytics surface research trends, collaboration networks, and translation from research to policy impact. Universities and funding agencies use it to assess research portfolios.",
+  "url": "https://dimensions.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=dimensions.ai&sz=64",
+  "screenshot_url": "/screenshots/dimensions-ai.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "research",
+    "analytics",
+    "academic",
+    "studies",
+    "investigation",
+    "literature_review",
+    "citations",
+    "discovery",
+    "synthesis",
+    "mobile_app",
+    "collaboration"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 79,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

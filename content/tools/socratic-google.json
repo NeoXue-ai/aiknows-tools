@@ -1,0 +1,29 @@
+{
+  "slug": "socratic-google",
+  "name": "Socratic by Google",
+  "tagline": "Socratic is Google's AI-powered learning app for students that uses AI and augmented reality to help with homework. Students photograph a question and the app explains the concept step-by-step with visual aids, curated web resources, and video explanations. It covers maths, science, literature, and social studies.",
+  "description": "Socratic is Google's AI-powered learning app for students that uses AI and augmented reality to help with homework. Students photograph a question and the app explains the concept step-by-step with visual aids, curated web resources, and video explanations. It covers maths, science, literature, and social studies.",
+  "url": "https://socratic.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=socratic.org&sz=64",
+  "screenshot_url": "/screenshots/socratic-google.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "education",
+    "learning",
+    "teaching",
+    "courses",
+    "training",
+    "tutoring",
+    "study",
+    "assessment",
+    "e_learning",
+    "image_based"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 71,
+  "subcategory": "ai-education",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

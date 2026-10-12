@@ -1,0 +1,28 @@
+{
+  "slug": "docebo",
+  "name": "Docebo",
+  "tagline": "Docebo is a learning management system that uses AI to auto-tag content, recommend courses to employees, and generate training material from existing documents. Corporate trainers use it to run onboarding, compliance, and skills programs across large, distributed workforces.",
+  "description": "Docebo is a learning management system that uses AI to auto-tag content, recommend courses to employees, and generate training material from existing documents. Corporate trainers use it to run onboarding, compliance, and skills programs across large, distributed workforces.",
+  "url": "https://docebo.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=docebo.com&sz=64",
+  "screenshot_url": "/screenshots/docebo.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "education",
+    "learning",
+    "teaching",
+    "courses",
+    "training",
+    "tutoring",
+    "study",
+    "assessment",
+    "e_learning"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 78,
+  "subcategory": "ai-education",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "convertkit",
+  "name": "ConvertKit",
+  "tagline": "ConvertKit is an email marketing platform built for creators including writers, podcasters, and course sellers. It handles subscriber management, automated email sequences, and a commerce layer for selling digital products directly to your list. AI writing tools help draft newsletters and subject lines, and the free plan covers up to 10,000 subscribers.",
+  "description": "ConvertKit is an email marketing platform built for creators including writers, podcasters, and course sellers. It handles subscriber management, automated email sequences, and a commerce layer for selling digital products directly to your list. AI writing tools help draft newsletters and subject lines, and the free plan covers up to 10,000 subscribers.",
+  "url": "https://convertkit.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=convertkit.com&sz=64",
+  "screenshot_url": "/screenshots/convertkit.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "email",
+    "productivity",
+    "writing",
+    "communication",
+    "inbox",
+    "email_management",
+    "drafting",
+    "scheduling",
+    "follow_up",
+    "free_tier"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 87,
+  "subcategory": "email",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

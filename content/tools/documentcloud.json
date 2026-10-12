@@ -1,0 +1,29 @@
+{
+  "slug": "documentcloud",
+  "name": "DocumentCloud",
+  "tagline": "DocumentCloud lets journalists upload, OCR, and annotate primary-source documents, with AI-assisted entity extraction that surfaces names, places, and organizations across large document sets. Investigative reporters use it to organize leaked or FOIA documents and publish annotated source material alongside their stories.",
+  "description": "DocumentCloud lets journalists upload, OCR, and annotate primary-source documents, with AI-assisted entity extraction that surfaces names, places, and organizations across large document sets. Investigative reporters use it to organize leaked or FOIA documents and publish annotated source material alongside their stories.",
+  "url": "https://documentcloud.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=documentcloud.org&sz=64",
+  "screenshot_url": "/screenshots/documentcloud.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "document_ai",
+    "pdf",
+    "productivity",
+    "extraction",
+    "documents",
+    "ocr",
+    "summarization",
+    "document_processing",
+    "parsing",
+    "cloud_based"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 87,
+  "subcategory": "ai-pdf",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

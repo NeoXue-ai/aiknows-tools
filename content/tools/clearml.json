@@ -1,0 +1,31 @@
+{
+  "slug": "clearml",
+  "name": "ClearML",
+  "tagline": "ClearML is an open-source MLOps suite that covers the full machine learning lifecycle from experiment tracking and data management to model deployment and pipeline orchestration. It integrates with popular ML frameworks and provides a self-hosted or cloud-managed control plane for AI teams.",
+  "description": "ClearML is an open-source MLOps suite that covers the full machine learning lifecycle from experiment tracking and data management to model deployment and pipeline orchestration. It integrates with popular ML frameworks and provides a self-hosted or cloud-managed control plane for AI teams.",
+  "url": "https://clear.ml",
+  "logo_url": "https://www.google.com/s2/favicons?domain=clear.ml&sz=64",
+  "screenshot_url": "/screenshots/clearml.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "open_source",
+    "collaboration",
+    "integrations"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 65,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

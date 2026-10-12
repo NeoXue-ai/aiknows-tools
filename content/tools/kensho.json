@@ -1,0 +1,30 @@
+{
+  "slug": "kensho",
+  "name": "Kensho",
+  "tagline": "Kensho (acquired by S&P Global) is an AI analytics platform purpose-built for financial markets and macroeconomic research. Its NLP models extract structured data from earnings transcripts, SEC filings, and news feeds, and its event-study tools quantify how markets historically react to specific macro triggers. Quantitative analysts and investment researchers use Kensho to find signals that traditional data providers miss.",
+  "description": "Kensho (acquired by S&P Global) is an AI analytics platform purpose-built for financial markets and macroeconomic research. Its NLP models extract structured data from earnings transcripts, SEC filings, and news feeds, and its event-study tools quantify how markets historically react to specific macro triggers. Quantitative analysts and investment researchers use Kensho to find signals that traditional data providers miss.",
+  "url": "https://kensho.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=kensho.com&sz=64",
+  "screenshot_url": "/screenshots/kensho.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "finance",
+    "business",
+    "analytics",
+    "accounting",
+    "investment",
+    "financial_planning",
+    "budgeting",
+    "fintech",
+    "reporting",
+    "nlp",
+    "model_based"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 70,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

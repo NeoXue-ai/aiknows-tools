@@ -1,0 +1,31 @@
+{
+  "slug": "biteable-ai",
+  "name": "Biteable",
+  "tagline": "Biteable is an online video maker designed for business teams to create professional-looking videos quickly. Its AI tools include automated scene suggestions for scripts, smart resizing for different platforms, and a library of 1.8 million clips and animations. HR, marketing, and sales teams use it for internal and external communications.",
+  "description": "Biteable is an online video maker designed for business teams to create professional-looking videos quickly. Its AI tools include automated scene suggestions for scripts, smart resizing for different platforms, and a library of 1.8 million clips and animations. HR, marketing, and sales teams use it for internal and external communications.",
+  "url": "https://biteable.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=biteable.com&sz=64",
+  "screenshot_url": "/screenshots/biteable-ai.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "video_generation",
+    "creative",
+    "text_to_video",
+    "animation",
+    "production",
+    "ai_video",
+    "generative",
+    "short_form",
+    "clips",
+    "collaboration",
+    "fast",
+    "powerful"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 80,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

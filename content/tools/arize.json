@@ -1,0 +1,31 @@
+{
+  "slug": "arize",
+  "name": "Arize AI",
+  "tagline": "Arize AI is a machine learning observability platform that helps teams monitor, debug, and improve AI models in production. It provides real-time performance tracking, drift detection, and a visual interface for evaluating LLM outputs and embedding quality.",
+  "description": "Arize AI is a machine learning observability platform that helps teams monitor, debug, and improve AI models in production. It provides real-time performance tracking, drift detection, and a visual interface for evaluating LLM outputs and embedding quality.",
+  "url": "https://arize.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=arize.com&sz=64",
+  "screenshot_url": "/screenshots/arize.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "real_time",
+    "collaboration",
+    "machine_learning"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 78,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

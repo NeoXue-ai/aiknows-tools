@@ -1,0 +1,31 @@
+{
+  "slug": "novelai",
+  "name": "NovelAI",
+  "tagline": "NovelAI is a subscription platform for AI-assisted creative writing and image generation, focused on anime-style art and interactive narrative fiction. Its language model is fine-tuned on a curated corpus of literary fiction to produce prose that's more stylistically varied than general-purpose LLMs, and its image generator specialises in consistent character art for visual novels. Writers and artists in the anime and light-novel community use it as an all-in-one creative sandbox.",
+  "description": "NovelAI is a subscription platform for AI-assisted creative writing and image generation, focused on anime-style art and interactive narrative fiction. Its language model is fine-tuned on a curated corpus of literary fiction to produce prose that's more stylistically varied than general-purpose LLMs, and its image generator specialises in consistent character art for visual novels. Writers and artists in the anime and light-novel community use it as an all-in-one creative sandbox.",
+  "url": "https://novelai.net",
+  "logo_url": "https://www.google.com/s2/favicons?domain=novelai.net&sz=64",
+  "screenshot_url": "/screenshots/novelai.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "writing",
+    "text_generation",
+    "productivity",
+    "content",
+    "editing",
+    "grammar",
+    "paraphrasing",
+    "ai_writing",
+    "drafting",
+    "nlp",
+    "image_based",
+    "training"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 71,
+  "subcategory": "ai-writer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

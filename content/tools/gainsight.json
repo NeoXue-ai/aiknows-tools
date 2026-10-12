@@ -1,0 +1,30 @@
+{
+  "slug": "gainsight",
+  "name": "Gainsight",
+  "tagline": "Gainsight is a customer success platform that uses AI to score account health, flag churn risk, and identify expansion opportunities. Customer success teams use it to manage their entire portfolio from a single view, triggering automated playbooks when accounts show early warning signs. It connects to CRM, product usage data, and support tickets to build a complete picture of each customer.",
+  "description": "Gainsight is a customer success platform that uses AI to score account health, flag churn risk, and identify expansion opportunities. Customer success teams use it to manage their entire portfolio from a single view, triggering automated playbooks when accounts show early warning signs. It connects to CRM, product usage data, and support tickets to build a complete picture of each customer.",
+  "url": "https://gainsight.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=gainsight.com&sz=64",
+  "screenshot_url": "/screenshots/gainsight.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "crm",
+    "sales",
+    "business",
+    "customers",
+    "relationships",
+    "pipeline",
+    "contacts",
+    "deals",
+    "customer_data",
+    "collaboration",
+    "customizable"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 80,
+  "subcategory": "sales",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

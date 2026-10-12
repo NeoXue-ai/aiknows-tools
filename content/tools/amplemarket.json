@@ -1,0 +1,30 @@
+{
+  "slug": "amplemarket",
+  "name": "Amplemarket",
+  "tagline": "Amplemarket automates outreach, lead research, and pipeline generation for B2B sales teams. It enriches prospect data, writes personalized email sequences, and tracks engagement signals to prioritize follow-up. Teams use it to cut the manual work of building and working a pipeline so reps spend more time in actual conversations.",
+  "description": "Amplemarket automates outreach, lead research, and pipeline generation for B2B sales teams. It enriches prospect data, writes personalized email sequences, and tracks engagement signals to prioritize follow-up. Teams use it to cut the manual work of building and working a pipeline so reps spend more time in actual conversations.",
+  "url": "https://amplemarket.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=amplemarket.com&sz=64",
+  "screenshot_url": "/screenshots/amplemarket.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "sales",
+    "business",
+    "crm",
+    "revenue",
+    "conversion",
+    "pipeline",
+    "prospecting",
+    "closing",
+    "forecasting",
+    "collaboration",
+    "customizable"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 69,
+  "subcategory": "sales",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

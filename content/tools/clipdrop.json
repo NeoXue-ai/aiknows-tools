@@ -1,0 +1,31 @@
+{
+  "slug": "clipdrop",
+  "name": "ClipDrop",
+  "tagline": "ClipDrop is a suite of AI-powered image tools by Stability AI covering background removal, image upscaling, relighting, uncropping, and text-to-image generation via Stable Diffusion. Its most popular standalone tool lets you photograph an object on any background and instantly extract it as a clean cutout. Designers and marketing teams use ClipDrop as a lightweight, fast alternative to running Photoshop for routine image tasks.",
+  "description": "ClipDrop is a suite of AI-powered image tools by Stability AI covering background removal, image upscaling, relighting, uncropping, and text-to-image generation via Stable Diffusion. Its most popular standalone tool lets you photograph an object on any background and instantly extract it as a clean cutout. Designers and marketing teams use ClipDrop as a lightweight, fast alternative to running Photoshop for routine image tasks.",
+  "url": "https://clipdrop.co",
+  "logo_url": "https://www.google.com/s2/favicons?domain=clipdrop.co&sz=64",
+  "screenshot_url": "/screenshots/clipdrop.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "image_editing",
+    "design",
+    "creative",
+    "background",
+    "image_processing",
+    "cutout",
+    "transparency",
+    "photo_editing",
+    "visual",
+    "collaboration",
+    "image_based",
+    "fast"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 75,
+  "subcategory": "ai-background-remover",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

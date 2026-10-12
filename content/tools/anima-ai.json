@@ -1,0 +1,30 @@
+{
+  "slug": "anima-ai",
+  "name": "Anima",
+  "tagline": "Anima converts Figma and Sketch designs into clean, responsive React, Vue, or HTML code. It also generates prototypes directly from design files for user testing. Development teams use it to accelerate design-to-code handoff and keep developers focused on logic rather than layout.",
+  "description": "Anima converts Figma and Sketch designs into clean, responsive React, Vue, or HTML code. It also generates prototypes directly from design files for user testing. Development teams use it to accelerate design-to-code handoff and keep developers focused on logic rather than layout.",
+  "url": "https://animaapp.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=animaapp.com&sz=64",
+  "screenshot_url": "/screenshots/anima-ai.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "collaboration",
+    "machine_learning"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "figma-make",
+  "name": "Figma Make",
+  "tagline": "Figma Make is Figma's AI-driven prompt-to-app tool for turning a prompt or existing Figma designs into functional prototypes, interactive UI, and web apps. It combines AI chat with a visual canvas and code editor, so teams can iterate on generated experiences while retaining their design-system context.",
+  "description": "Figma Make is Figma's AI-driven prompt-to-app tool for turning a prompt or existing Figma designs into functional prototypes, interactive UI, and web apps. It combines AI chat with a visual canvas and code editor, so teams can iterate on generated experiences while retaining their design-system context.",
+  "url": "https://figma.com/make",
+  "logo_url": "https://www.google.com/s2/favicons?domain=figma.com&sz=64",
+  "screenshot_url": "/screenshots/figma-make.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "code_generation",
+    "developer_tools",
+    "productivity",
+    "coding",
+    "programming",
+    "autocomplete",
+    "debugging",
+    "refactoring",
+    "ide",
+    "collaboration",
+    "image_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 92,
+  "subcategory": "ai-code-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

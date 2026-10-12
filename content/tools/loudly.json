@@ -1,0 +1,31 @@
+{
+  "slug": "loudly",
+  "name": "Loudly",
+  "tagline": "Loudly is an AI music generation platform with a library of over 170,000 AI-generated tracks across 50 genres. Its AI music generator lets creators customise tempo, mood, and instrumentation to produce unique royalty-free music. Brands, advertisers, and social media creators use it for consistent audio branding.",
+  "description": "Loudly is an AI music generation platform with a library of over 170,000 AI-generated tracks across 50 genres. Its AI music generator lets creators customise tempo, mood, and instrumentation to produce unique royalty-free music. Brands, advertisers, and social media creators use it for consistent audio branding.",
+  "url": "https://loudly.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=loudly.com&sz=64",
+  "screenshot_url": "/screenshots/loudly.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "music_generation",
+    "audio",
+    "creative",
+    "music",
+    "composition",
+    "ai_music",
+    "beats",
+    "melody",
+    "soundtrack",
+    "free_tier",
+    "customizable",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 63,
+  "subcategory": "ai-music-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

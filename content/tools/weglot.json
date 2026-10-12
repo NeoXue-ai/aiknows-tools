@@ -1,0 +1,27 @@
+{
+  "slug": "weglot",
+  "name": "Weglot",
+  "tagline": "Weglot is a website translation solution that automatically detects and translates web content into 110+ languages with a single line of code. Marketing teams and e-commerce businesses use it to launch multilingual versions of their website quickly, with machine-translated content that can be reviewed and corrected by professional translators directly in the Weglot interface. It handles SEO requirements like hreflang tags and translated URL slugs automatically, which purpose-built localization platforms often require manual configuration to achieve.",
+  "description": "Weglot is a website translation solution that automatically detects and translates web content into 110+ languages with a single line of code. Marketing teams and e-commerce businesses use it to launch multilingual versions of their website quickly, with machine-translated content that can be reviewed and corrected by professional translators directly in the Weglot interface. It handles SEO requirements like hreflang tags and translated URL slugs automatically, which purpose-built localization platforms often require manual configuration to achieve.",
+  "url": "https://weglot.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=weglot.com&sz=64",
+  "screenshot_url": "/screenshots/weglot.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "collaboration",
+    "fast",
+    "powerful",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool",
+    "service"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 85,
+  "subcategory": "ai-translator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

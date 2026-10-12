@@ -1,0 +1,31 @@
+{
+  "slug": "seaart",
+  "name": "SeaArt",
+  "tagline": "SeaArt is a web-based AI image generation platform powered by Stable Diffusion with advanced features including ControlNet, LoRA models, and an AI canvas. It hosts thousands of community-shared models and workflows. Its generous free tier and professional tools attract both casual users and serious digital artists.",
+  "description": "SeaArt is a web-based AI image generation platform powered by Stable Diffusion with advanced features including ControlNet, LoRA models, and an AI canvas. It hosts thousands of community-shared models and workflows. Its generous free tier and professional tools attract both casual users and serious digital artists.",
+  "url": "https://seaart.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=seaart.ai&sz=64",
+  "screenshot_url": "/screenshots/seaart.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "image_generation",
+    "creative",
+    "text_to_image",
+    "visual",
+    "graphics",
+    "generative_ai",
+    "art",
+    "diffusion",
+    "prompting",
+    "free_tier",
+    "image_based",
+    "model_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 71,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

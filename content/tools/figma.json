@@ -1,0 +1,30 @@
+{
+  "slug": "figma",
+  "name": "Figma",
+  "tagline": "Figma is the dominant collaborative design tool used by product teams worldwide for UI/UX design, prototyping, and design system management. Its AI features, including First Draft (layout generation), Auto Layout, and plugin-based AI tools, accelerate the path from idea to interactive prototype. Designers, product managers, and engineers all work inside Figma, making it the single source of design truth.",
+  "description": "Figma is the dominant collaborative design tool used by product teams worldwide for UI/UX design, prototyping, and design system management. Its AI features, including First Draft (layout generation), Auto Layout, and plugin-based AI tools, accelerate the path from idea to interactive prototype. Designers, product managers, and engineers all work inside Figma, making it the single source of design truth.",
+  "url": "https://figma.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=figma.com&sz=64",
+  "screenshot_url": "/screenshots/figma.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "design",
+    "image_editing",
+    "creative",
+    "visual",
+    "branding",
+    "typography",
+    "layouts",
+    "ui_design",
+    "illustration",
+    "collaboration",
+    "extensible"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 92,
+  "subcategory": "ai-graphic-design",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

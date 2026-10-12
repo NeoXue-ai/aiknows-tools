@@ -1,0 +1,31 @@
+{
+  "slug": "persado",
+  "name": "Persado",
+  "tagline": "Persado is an AI platform that uses machine learning to optimise the specific words, phrases, and emotional triggers in marketing communications — emails, push notifications, ads — to maximise engagement. Its models are trained on billions of consumer responses and can predict which language variant will perform best for a given audience segment. Enterprise brands in retail, banking, and travel use Persado to lift conversion rates on campaigns at scale.",
+  "description": "Persado is an AI platform that uses machine learning to optimise the specific words, phrases, and emotional triggers in marketing communications — emails, push notifications, ads — to maximise engagement. Its models are trained on billions of consumer responses and can predict which language variant will perform best for a given audience segment. Enterprise brands in retail, banking, and travel use Persado to lift conversion rates on campaigns at scale.",
+  "url": "https://persado.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=persado.com&sz=64",
+  "screenshot_url": "/screenshots/persado.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "marketing",
+    "business",
+    "campaigns",
+    "growth",
+    "promotion",
+    "demand_generation",
+    "brand",
+    "digital_marketing",
+    "roi",
+    "enterprise",
+    "machine_learning",
+    "training"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "ai-marketing",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

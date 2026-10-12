@@ -1,0 +1,31 @@
+{
+  "slug": "landbot",
+  "name": "Landbot",
+  "tagline": "Landbot is a no-code chatbot builder for creating conversational flows on websites, WhatsApp, and landing pages. Marketing and customer success teams use it to collect leads, qualify visitors, and route inquiries through interactive conversation trees without writing code. It handles conditional logic, CRM integrations, and handoff to live agents when a conversation needs a human.",
+  "description": "Landbot is a no-code chatbot builder for creating conversational flows on websites, WhatsApp, and landing pages. Marketing and customer success teams use it to collect leads, qualify visitors, and route inquiries through interactive conversation trees without writing code. It handles conditional logic, CRM integrations, and handoff to live agents when a conversation needs a human.",
+  "url": "https://landbot.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=landbot.io&sz=64",
+  "screenshot_url": "/screenshots/landbot.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "chatbot",
+    "text_generation",
+    "ai_assistant",
+    "conversational",
+    "nlp",
+    "dialogue",
+    "llm",
+    "general_ai",
+    "question_answering",
+    "collaboration",
+    "customizable",
+    "integrations"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 77,
+  "subcategory": "ai-chatbot",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

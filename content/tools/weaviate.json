@@ -1,0 +1,31 @@
+{
+  "slug": "weaviate",
+  "name": "Weaviate",
+  "tagline": "Weaviate is an open-source vector database that enables semantic search, hybrid search, and generative AI queries over large datasets. It supports text, image, and multimodal embeddings, and provides built-in integrations with OpenAI, Cohere, and Hugging Face for vectorization.",
+  "description": "Weaviate is an open-source vector database that enables semantic search, hybrid search, and generative AI queries over large datasets. It supports text, image, and multimodal embeddings, and provides built-in integrations with OpenAI, Cohere, and Hugging Face for vectorization.",
+  "url": "https://weaviate.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=weaviate.io&sz=64",
+  "screenshot_url": "/screenshots/weaviate.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "open_source",
+    "multimodal",
+    "integrations"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 78,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

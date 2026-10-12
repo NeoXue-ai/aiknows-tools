@@ -1,0 +1,30 @@
+{
+  "slug": "qwilr-ai",
+  "name": "Qwilr",
+  "tagline": "Qwilr turns sales proposals into interactive, web-based pages with embedded pricing calculators, video, and e-signatures. Its AI writing assistant generates proposal content from deal notes and templates, while analytics show exactly which sections prospects viewed and for how long.",
+  "description": "Qwilr turns sales proposals into interactive, web-based pages with embedded pricing calculators, video, and e-signatures. Its AI writing assistant generates proposal content from deal notes and templates, while analytics show exactly which sections prospects viewed and for how long.",
+  "url": "https://qwilr.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=qwilr.com&sz=64",
+  "screenshot_url": "/screenshots/qwilr-ai.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "business",
+    "productivity",
+    "enterprise",
+    "operations",
+    "management",
+    "documents",
+    "contracts",
+    "proposals",
+    "workflow",
+    "templates",
+    "analytics"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 77,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "bloomfire",
+  "name": "Bloomfire",
+  "tagline": "Bloomfire centralizes company knowledge into a searchable hub. Teams use it to cut down on repeated questions by surfacing answers from documentation, past support tickets, and internal wikis through natural language search. It fits customer support, sales enablement, and onboarding workflows well.",
+  "description": "Bloomfire centralizes company knowledge into a searchable hub. Teams use it to cut down on repeated questions by surfacing answers from documentation, past support tickets, and internal wikis through natural language search. It fits customer support, sales enablement, and onboarding workflows well.",
+  "url": "https://bloomfire.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=bloomfire.com&sz=64",
+  "screenshot_url": "/screenshots/bloomfire.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "knowledge_base",
+    "productivity",
+    "note_taking",
+    "organization",
+    "information",
+    "second_brain",
+    "wiki",
+    "search",
+    "retrieval",
+    "collaboration",
+    "customizable",
+    "nlp"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 72,
+  "subcategory": "ai-assistant",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

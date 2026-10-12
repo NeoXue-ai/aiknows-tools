@@ -1,0 +1,29 @@
+{
+  "slug": "mailerlite",
+  "name": "MailerLite",
+  "tagline": "MailerLite is an email marketing platform for creating campaigns, building automations, and publishing landing pages and newsletters. Small businesses and creators use it for its generous free plan, which covers up to 1,000 subscribers with most core features included. AI writing assistance helps draft email copy and subject lines, and A/B testing is available on paid plans.",
+  "description": "MailerLite is an email marketing platform for creating campaigns, building automations, and publishing landing pages and newsletters. Small businesses and creators use it for its generous free plan, which covers up to 1,000 subscribers with most core features included. AI writing assistance helps draft email copy and subject lines, and A/B testing is available on paid plans.",
+  "url": "https://mailerlite.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=mailerlite.com&sz=64",
+  "screenshot_url": "/screenshots/mailerlite.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "email",
+    "productivity",
+    "writing",
+    "communication",
+    "inbox",
+    "email_management",
+    "drafting",
+    "scheduling",
+    "follow_up",
+    "free_tier"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 91,
+  "subcategory": "email",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

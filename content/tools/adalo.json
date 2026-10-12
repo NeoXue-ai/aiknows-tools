@@ -1,0 +1,31 @@
+{
+  "slug": "adalo",
+  "name": "Adalo",
+  "tagline": "Adalo is a no-code platform for building native iOS and Android apps visually. You drag components onto a canvas, connect them to a database, and publish directly to app stores — no programming required. It's popular with entrepreneurs and small teams who need functional mobile apps without a development budget.",
+  "description": "Adalo is a no-code platform for building native iOS and Android apps visually. You drag components onto a canvas, connect them to a database, and publish directly to app stores — no programming required. It's popular with entrepreneurs and small teams who need functional mobile apps without a development budget.",
+  "url": "https://adalo.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=adalo.com&sz=64",
+  "screenshot_url": "/screenshots/adalo.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "no_code",
+    "app_builder",
+    "developer_tools",
+    "app_development",
+    "lowcode",
+    "rapid_prototyping",
+    "mobile_apps",
+    "web_apps",
+    "deployment",
+    "mobile_app",
+    "collaboration",
+    "image_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 78,
+  "subcategory": "ai-app-builder",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

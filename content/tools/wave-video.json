@@ -1,0 +1,28 @@
+{
+  "slug": "wave-video",
+  "name": "Wave.video",
+  "tagline": "Wave.video is a video marketing platform that combines a video editor, live streaming, screen recorder, and video hosting. Its AI features include automatic video resizing for different platforms, auto-subtitles, and a text-to-video creator from blog posts. Marketers use it to repurpose content across every channel.",
+  "description": "Wave.video is a video marketing platform that combines a video editor, live streaming, screen recorder, and video hosting. Its AI features include automatic video resizing for different platforms, auto-subtitles, and a text-to-video creator from blog posts. Marketers use it to repurpose content across every channel.",
+  "url": "https://wave.video",
+  "logo_url": "https://www.google.com/s2/favicons?domain=wave.video&sz=64",
+  "screenshot_url": "/screenshots/wave-video.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "video_editing",
+    "creative",
+    "video",
+    "production",
+    "media",
+    "cutting",
+    "transitions",
+    "effects",
+    "export"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 76,
+  "subcategory": "ai-video-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

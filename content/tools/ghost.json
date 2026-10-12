@@ -1,0 +1,31 @@
+{
+  "slug": "ghost",
+  "name": "Ghost",
+  "tagline": "Ghost is an open-source publishing platform for professional creators building newsletters, memberships, and paid subscription products. Writers and independent publishers use it to run a media business on their own infrastructure, with built-in email newsletters, subscription payment processing, SEO optimization, and analytics without depending on third-party platforms that can change terms or take a larger revenue cut. AI writing assistance helps draft and edit content directly in the editor without switching to a separate writing tool.",
+  "description": "Ghost is an open-source publishing platform for professional creators building newsletters, memberships, and paid subscription products. Writers and independent publishers use it to run a media business on their own infrastructure, with built-in email newsletters, subscription payment processing, SEO optimization, and analytics without depending on third-party platforms that can change terms or take a larger revenue cut. AI writing assistance helps draft and edit content directly in the editor without switching to a separate writing tool.",
+  "url": "https://ghost.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=ghost.org&sz=64",
+  "screenshot_url": "/screenshots/ghost.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "writing",
+    "text_generation",
+    "productivity",
+    "content",
+    "editing",
+    "grammar",
+    "paraphrasing",
+    "ai_writing",
+    "drafting",
+    "open_source",
+    "analytics",
+    "powerful"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 92,
+  "subcategory": "ai-writer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

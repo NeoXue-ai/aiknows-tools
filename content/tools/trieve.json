@@ -1,0 +1,31 @@
+{
+  "slug": "trieve",
+  "name": "Trieve",
+  "tagline": "Trieve is an open-source infrastructure platform for building search, recommendation, and RAG applications with hybrid full-text and vector search capabilities. Teams self-host or use the managed cloud to build retrieval systems with filters, reranking, and analytics built in.",
+  "description": "Trieve is an open-source infrastructure platform for building search, recommendation, and RAG applications with hybrid full-text and vector search capabilities. Teams self-host or use the managed cloud to build retrieval systems with filters, reranking, and analytics built in.",
+  "url": "https://trieve.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=trieve.ai&sz=64",
+  "screenshot_url": null,
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "open_source",
+    "collaboration",
+    "cloud_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 61,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

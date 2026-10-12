@@ -1,21 +1,29 @@
 {
   "slug": "consensus",
   "name": "Consensus",
-  "tagline": "AI search across peer-reviewed papers",
-  "description": "Find scientific answers sourced from peer-reviewed studies.",
+  "tagline": "Consensus is an AI-powered academic search engine that extracts key findings directly from peer-reviewed papers. Instead of returning a list of links, it synthesises what the science actually says on a question and cites the specific studies. Researchers, students, and evidence-curious professionals use it to get reliable answers grounded in published literature.",
+  "description": "Consensus is an AI-powered academic search engine that extracts key findings directly from peer-reviewed papers. Instead of returning a list of links, it synthesises what the science actually says on a question and cites the specific studies. Researchers, students, and evidence-curious professionals use it to get reliable answers grounded in published literature.",
   "url": "https://consensus.app",
   "logo_url": "https://www.google.com/s2/favicons?domain=consensus.app&sz=64",
   "screenshot_url": "/screenshots/consensus.webp",
   "primary_category": "research-data",
   "tags": [
     "research",
-    "science"
+    "education",
+    "academic",
+    "papers",
+    "scholars",
+    "literature",
+    "citations",
+    "peer_review",
+    "university",
+    "powerful"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
-  "subcategory": "ai-search-engine",
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 80,
+  "subcategory": "ai-education",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

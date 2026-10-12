@@ -1,0 +1,29 @@
+{
+  "slug": "fellow-ai",
+  "name": "Fellow",
+  "tagline": "Fellow is an AI meeting assistant and team management platform that helps managers run effective meetings. It provides AI-generated meeting agendas, real-time transcription, automated action items, and a performance feedback system. Over 3,000 companies including Shopify and HubSpot use it to make meetings more productive.",
+  "description": "Fellow is an AI meeting assistant and team management platform that helps managers run effective meetings. It provides AI-generated meeting agendas, real-time transcription, automated action items, and a performance feedback system. Over 3,000 companies including Shopify and HubSpot use it to make meetings more productive.",
+  "url": "https://fellow.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=fellow.app&sz=64",
+  "screenshot_url": null,
+  "primary_category": "productivity",
+  "tags": [
+    "meeting",
+    "productivity",
+    "transcription",
+    "collaboration",
+    "notes",
+    "summaries",
+    "action_items",
+    "video_calls",
+    "recap",
+    "real_time"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 75,
+  "subcategory": "ai-note-taker",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

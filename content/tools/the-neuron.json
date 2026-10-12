@@ -1,0 +1,27 @@
+{
+  "slug": "the-neuron",
+  "name": "The Neuron",
+  "tagline": "The Neuron is a daily newsletter covering new AI models, tools, and research in plain language without hype. It goes out every weekday and covers what actually matters across labs and products, with short summaries that take a few minutes to read. A good starting point if you want to stay current without spending hours on AI Twitter.",
+  "description": "The Neuron is a daily newsletter covering new AI models, tools, and research in plain language without hype. It goes out every weekday and covers what actually matters across labs and products, with short summaries that take a few minutes to read. A good starting point if you want to stay current without spending hours on AI Twitter.",
+  "url": "https://theneurondaily.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=theneurondaily.com&sz=64",
+  "screenshot_url": "/screenshots/the-neuron.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "model_based",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool",
+    "service",
+    "solution",
+    "saas"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 68,
+  "subcategory": "ai-content-creator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

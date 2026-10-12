@@ -1,0 +1,31 @@
+{
+  "slug": "helpshift-ai",
+  "name": "Helpshift",
+  "tagline": "Helpshift is a digital customer service platform built for mobile apps and games, with AI chatbots, in-app messaging, and smart intent detection. Its AI classifies incoming issues and routes them to the right team or resolves them automatically. Top game studios and mobile-first brands use it for 24/7 automated support.",
+  "description": "Helpshift is a digital customer service platform built for mobile apps and games, with AI chatbots, in-app messaging, and smart intent detection. Its AI classifies incoming issues and routes them to the right team or resolves them automatically. Top game studios and mobile-first brands use it for 24/7 automated support.",
+  "url": "https://helpshift.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=helpshift.com&sz=64",
+  "screenshot_url": null,
+  "primary_category": "productivity",
+  "tags": [
+    "customer_support",
+    "chatbot",
+    "business",
+    "help_desk",
+    "support",
+    "ticketing",
+    "live_chat",
+    "service",
+    "resolution",
+    "mobile_app",
+    "collaboration",
+    "customizable"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 83,
+  "subcategory": "customer-support",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

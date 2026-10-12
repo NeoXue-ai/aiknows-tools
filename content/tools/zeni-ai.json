@@ -1,0 +1,29 @@
+{
+  "slug": "zeni-ai",
+  "name": "Zeni",
+  "tagline": "Zeni is an AI-first finance operations platform offering real-time bookkeeping, monthly financial reports, and a finance dashboard for startups. It uses AI to categorise transactions, identify anomalies, and deliver financial insights. Venture-backed startups use it as a modern alternative to traditional accounting services.",
+  "description": "Zeni is an AI-first finance operations platform offering real-time bookkeeping, monthly financial reports, and a finance dashboard for startups. It uses AI to categorise transactions, identify anomalies, and deliver financial insights. Venture-backed startups use it as a modern alternative to traditional accounting services.",
+  "url": "https://zeni.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=zeni.ai&sz=64",
+  "screenshot_url": "/screenshots/zeni-ai.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "finance",
+    "business",
+    "analytics",
+    "accounting",
+    "investment",
+    "financial_planning",
+    "budgeting",
+    "fintech",
+    "reporting",
+    "real_time"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 60,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

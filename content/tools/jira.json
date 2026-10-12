@@ -1,0 +1,28 @@
+{
+  "slug": "jira",
+  "name": "Jira",
+  "tagline": "Jira is Atlassian's widely used project management and issue tracking platform for software development teams. Its AI features, powered by Atlassian Intelligence, help teams auto-generate ticket summaries, create subtasks, suggest sprint goals, and surface relevant work items.",
+  "description": "Jira is Atlassian's widely used project management and issue tracking platform for software development teams. Its AI features, powered by Atlassian Intelligence, help teams auto-generate ticket summaries, create subtasks, suggest sprint goals, and surface relevant work items.",
+  "url": "https://atlassian.com/software/jira",
+  "logo_url": "https://www.google.com/s2/favicons?domain=atlassian.com&sz=64",
+  "screenshot_url": "/screenshots/jira.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "project_management",
+    "productivity",
+    "team",
+    "collaboration",
+    "planning",
+    "tasks",
+    "milestones",
+    "tracking",
+    "agile"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 92,
+  "subcategory": "project-management",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

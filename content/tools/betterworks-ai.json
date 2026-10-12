@@ -1,0 +1,31 @@
+{
+  "slug": "betterworks-ai",
+  "name": "Betterworks",
+  "tagline": "Betterworks is an enterprise performance enablement platform that uses AI to align OKRs, streamline performance reviews, and generate coaching insights. Its AI writing assistant helps managers and employees write effective goals and feedback, while analytics identify which performance signals predict employee success and retention.",
+  "description": "Betterworks is an enterprise performance enablement platform that uses AI to align OKRs, streamline performance reviews, and generate coaching insights. Its AI writing assistant helps managers and employees write effective goals and feedback, while analytics identify which performance signals predict employee success and retention.",
+  "url": "https://betterworks.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=betterworks.com&sz=64",
+  "screenshot_url": "/screenshots/betterworks-ai.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "hr",
+    "business",
+    "recruitment",
+    "employees",
+    "human_resources",
+    "onboarding",
+    "performance",
+    "payroll",
+    "talent",
+    "enterprise",
+    "machine_learning",
+    "analytics"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 74,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

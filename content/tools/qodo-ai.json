@@ -1,0 +1,29 @@
+{
+  "slug": "qodo-ai",
+  "name": "Qodo AI",
+  "tagline": "Qodo AI (formerly CodiumAI) analyses your code and automatically generates meaningful unit tests, integration tests, and test plans. It understands code behaviour and edge cases, not just code structure. Unlike other AI tools that write tests on demand, Qodo continuously monitors code changes and suggests tests that actually catch bugs.",
+  "description": "Qodo AI (formerly CodiumAI) analyses your code and automatically generates meaningful unit tests, integration tests, and test plans. It understands code behaviour and edge cases, not just code structure. Unlike other AI tools that write tests on demand, Qodo continuously monitors code changes and suggests tests that actually catch bugs.",
+  "url": "https://qodo.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=qodo.ai&sz=64",
+  "screenshot_url": "/screenshots/qodo-ai.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "code_generation",
+    "developer_tools",
+    "productivity",
+    "coding",
+    "programming",
+    "autocomplete",
+    "debugging",
+    "refactoring",
+    "ide",
+    "integrations"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 76,
+  "subcategory": "ai-code-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

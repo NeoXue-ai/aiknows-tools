@@ -1,0 +1,31 @@
+{
+  "slug": "front",
+  "name": "Front",
+  "tagline": "Front is a customer operations platform that centralizes email, chat, SMS, and social messages in shared inboxes for customer-facing teams. Its AI features include automated ticket routing, summarization, and suggested replies to help support and account management teams respond faster.",
+  "description": "Front is a customer operations platform that centralizes email, chat, SMS, and social messages in shared inboxes for customer-facing teams. Its AI features include automated ticket routing, summarization, and suggested replies to help support and account management teams respond faster.",
+  "url": "https://front.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=front.com&sz=64",
+  "screenshot_url": "/screenshots/front.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "customer_support",
+    "chatbot",
+    "business",
+    "help_desk",
+    "support",
+    "ticketing",
+    "live_chat",
+    "service",
+    "resolution",
+    "collaboration",
+    "customizable",
+    "fast"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 81,
+  "subcategory": "customer-support",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

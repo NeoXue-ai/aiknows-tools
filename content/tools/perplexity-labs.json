@@ -1,0 +1,31 @@
+{
+  "slug": "perplexity-labs",
+  "name": "Perplexity Labs",
+  "tagline": "Perplexity Labs is the experimental arm of Perplexity AI, where the company ships its most advanced features before broader rollout. It includes Deep Research — an autonomous agent that conducts multi-step web research over several minutes and produces comprehensive reports — as well as Perplexity's own R1-style reasoning models. Pro subscribers get early access to Labs features, making it a destination for power users who want the cutting edge of AI-assisted research before it becomes mainstream.",
+  "description": "Perplexity Labs is the experimental arm of Perplexity AI, where the company ships its most advanced features before broader rollout. It includes Deep Research — an autonomous agent that conducts multi-step web research over several minutes and produces comprehensive reports — as well as Perplexity's own R1-style reasoning models. Pro subscribers get early access to Labs features, making it a destination for power users who want the cutting edge of AI-assisted research before it becomes mainstream.",
+  "url": "https://labs.perplexity.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=labs.perplexity.ai&sz=64",
+  "screenshot_url": null,
+  "primary_category": "research-data",
+  "tags": [
+    "research",
+    "analytics",
+    "academic",
+    "studies",
+    "investigation",
+    "literature_review",
+    "citations",
+    "discovery",
+    "synthesis",
+    "autonomous",
+    "model_based",
+    "powerful"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 91,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "alli-ai",
+  "name": "Alli AI",
+  "tagline": "Alli AI pushes on-page SEO optimizations directly to live websites at scale, without manual developer deployments. Teams use it to run title tag, meta description, and schema changes across thousands of pages from a single dashboard. It connects via a JavaScript snippet and applies changes in real time, bypassing the usual content management bottleneck.",
+  "description": "Alli AI pushes on-page SEO optimizations directly to live websites at scale, without manual developer deployments. Teams use it to run title tag, meta description, and schema changes across thousands of pages from a single dashboard. It connects via a JavaScript snippet and applies changes in real time, bypassing the usual content management bottleneck.",
+  "url": "https://alliai.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=alliai.com&sz=64",
+  "screenshot_url": "/screenshots/alli-ai.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "seo",
+    "marketing",
+    "analytics",
+    "ranking",
+    "optimization",
+    "keywords",
+    "content_seo",
+    "backlinks",
+    "serp",
+    "collaboration"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 68,
+  "subcategory": "ai-seo-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

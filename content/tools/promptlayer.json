@@ -1,0 +1,31 @@
+{
+  "slug": "promptlayer",
+  "name": "PromptLayer",
+  "tagline": "PromptLayer is a middleware platform for managing, versioning, and monitoring LLM prompts used in production applications. It logs every API call with full request and response metadata, enabling teams to track costs, compare prompt versions, and replay requests for debugging.",
+  "description": "PromptLayer is a middleware platform for managing, versioning, and monitoring LLM prompts used in production applications. It logs every API call with full request and response metadata, enabling teams to track costs, compare prompt versions, and replay requests for debugging.",
+  "url": "https://promptlayer.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=promptlayer.com&sz=64",
+  "screenshot_url": "/screenshots/promptlayer.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "api_available",
+    "collaboration",
+    "model_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 68,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

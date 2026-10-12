@@ -1,0 +1,28 @@
+{
+  "slug": "otter-ai",
+  "name": "Otter.ai",
+  "tagline": "Otter.ai is an AI meeting assistant that records and transcribes calls in real time, generating a searchable transcript with speaker labels, a condensed summary, and action items. It integrates natively with Zoom, Google Meet, and Teams, and syncs notes to Slack and Notion automatically. Teams in sales, research, and media use Otter to capture institutional knowledge from every conversation.",
+  "description": "Otter.ai is an AI meeting assistant that records and transcribes calls in real time, generating a searchable transcript with speaker labels, a condensed summary, and action items. It integrates natively with Zoom, Google Meet, and Teams, and syncs notes to Slack and Notion automatically. Teams in sales, research, and media use Otter to capture institutional knowledge from every conversation.",
+  "url": "https://otter.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=otter.ai&sz=64",
+  "screenshot_url": "/screenshots/otter-ai.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "meeting",
+    "productivity",
+    "transcription",
+    "collaboration",
+    "notes",
+    "summaries",
+    "action_items",
+    "video_calls",
+    "recap"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 86,
+  "subcategory": "ai-note-taker",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

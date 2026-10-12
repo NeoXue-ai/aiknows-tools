@@ -1,0 +1,30 @@
+{
+  "slug": "bigcommerce",
+  "name": "BigCommerce",
+  "tagline": "BigCommerce is an enterprise ecommerce platform powering thousands of online stores, offering built-in SEO tools, multi-channel selling, and headless commerce capabilities. Its AI features assist with product descriptions, personalised recommendations, and conversion optimisation. It's a strong choice for high-growth brands that have outgrown Shopify and need more native flexibility.",
+  "description": "BigCommerce is an enterprise ecommerce platform powering thousands of online stores, offering built-in SEO tools, multi-channel selling, and headless commerce capabilities. Its AI features assist with product descriptions, personalised recommendations, and conversion optimisation. It's a strong choice for high-growth brands that have outgrown Shopify and need more native flexibility.",
+  "url": "https://bigcommerce.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=bigcommerce.com&sz=64",
+  "screenshot_url": "/screenshots/bigcommerce.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "ecommerce",
+    "business",
+    "marketing",
+    "retail",
+    "shopping",
+    "online_store",
+    "product_catalog",
+    "checkout",
+    "conversions",
+    "enterprise",
+    "customizable"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 92,
+  "subcategory": "ecommerce",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

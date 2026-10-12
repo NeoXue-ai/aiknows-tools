@@ -1,0 +1,28 @@
+{
+  "slug": "quantilope",
+  "name": "Quantilope",
+  "tagline": "Quantilope is an intelligent consumer research platform that automates the setup, fielding, and analysis of market research surveys. Its AI guides researchers through methodology selection, processes responses in real time, and generates automated insight reports to reduce research timelines.",
+  "description": "Quantilope is an intelligent consumer research platform that automates the setup, fielding, and analysis of market research surveys. Its AI guides researchers through methodology selection, processes responses in real time, and generates automated insight reports to reduce research timelines.",
+  "url": "https://quantilope.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=quantilope.com&sz=64",
+  "screenshot_url": "/screenshots/quantilope.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "market_research",
+    "business",
+    "analytics",
+    "consumer",
+    "insights",
+    "surveys",
+    "competitive_analysis",
+    "trends",
+    "intelligence"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 64,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

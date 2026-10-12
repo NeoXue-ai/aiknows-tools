@@ -1,0 +1,29 @@
+{
+  "slug": "sora",
+  "name": "Sora",
+  "tagline": "Sora is OpenAI's text-to-video generation model, first shown in early 2024 as a leap over anything else available at the time and later shipped as a standalone app. It could produce coherent, minute-long clips with consistent characters and camera movement from a single prompt, which was well ahead of most competitors on release. OpenAI has since folded video generation into its broader model lineup and is sunsetting Sora as a separate product through 2026, so new projects are better off building on whatever replaces it.",
+  "description": "Sora is OpenAI's text-to-video generation model, first shown in early 2024 as a leap over anything else available at the time and later shipped as a standalone app. It could produce coherent, minute-long clips with consistent characters and camera movement from a single prompt, which was well ahead of most competitors on release. OpenAI has since folded video generation into its broader model lineup and is sunsetting Sora as a separate product through 2026, so new projects are better off building on whatever replaces it.",
+  "url": "https://openai.com/sora",
+  "logo_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+  "screenshot_url": null,
+  "primary_category": "image-video",
+  "tags": [
+    "video_generation",
+    "creative",
+    "text_to_video",
+    "animation",
+    "production",
+    "ai_video",
+    "generative",
+    "short_form",
+    "clips",
+    "model_based"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 93,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

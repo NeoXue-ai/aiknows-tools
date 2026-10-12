@@ -1,0 +1,31 @@
+{
+  "slug": "h2o-ai",
+  "name": "H2O.ai",
+  "tagline": "H2O.ai is an open-source machine learning platform that makes it fast to build and deploy predictive models at scale. Its AutoML capabilities automatically explore dozens of algorithms and select the best performer for your dataset — no ML expertise required. Data science teams in banking, insurance, and healthcare use H2O.ai to put production-grade models into operation quickly.",
+  "description": "H2O.ai is an open-source machine learning platform that makes it fast to build and deploy predictive models at scale. Its AutoML capabilities automatically explore dozens of algorithms and select the best performer for your dataset — no ML expertise required. Data science teams in banking, insurance, and healthcare use H2O.ai to put production-grade models into operation quickly.",
+  "url": "https://h2o.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=h2o.ai&sz=64",
+  "screenshot_url": "/screenshots/h2o-ai.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "data_analysis",
+    "analytics",
+    "business",
+    "insights",
+    "visualization",
+    "data_science",
+    "reporting",
+    "dashboards",
+    "sql",
+    "open_source",
+    "collaboration",
+    "machine_learning"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 77,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

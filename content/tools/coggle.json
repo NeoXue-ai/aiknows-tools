@@ -1,0 +1,27 @@
+{
+  "slug": "coggle",
+  "name": "Coggle",
+  "tagline": "Coggle is a collaborative mind mapping and flowchart tool for creating visual notes and diagrams together in real time. Students, researchers, and teams use it to brainstorm, plan projects, and structure complex information in a branching format that is easy to share and edit with others. Its interface is simple enough to start without training, and diagrams can be exported as PDFs, images, or Markdown outlines for use in documents and presentations.",
+  "description": "Coggle is a collaborative mind mapping and flowchart tool for creating visual notes and diagrams together in real time. Students, researchers, and teams use it to brainstorm, plan projects, and structure complex information in a branching format that is easy to share and edit with others. Its interface is simple enough to start without training, and diagrams can be exported as PDFs, images, or Markdown outlines for use in documents and presentations.",
+  "url": "https://coggle.it",
+  "logo_url": "https://www.google.com/s2/favicons?domain=coggle.it&sz=64",
+  "screenshot_url": "/screenshots/coggle.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "collaboration",
+    "image_based",
+    "training",
+    "easy_to_use",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 76,
+  "subcategory": "productivity-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

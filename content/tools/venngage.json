@@ -1,0 +1,31 @@
+{
+  "slug": "venngage",
+  "name": "Venngage",
+  "tagline": "Venngage is an online visual communication platform for creating infographics, reports, presentations, and data visualisations with minimal design experience. Its AI generator creates complete infographics and reports from a topic or data file, applying professional design principles automatically. Marketers, HR teams, and educators use Venngage to produce polished visual content without hiring a graphic designer.",
+  "description": "Venngage is an online visual communication platform for creating infographics, reports, presentations, and data visualisations with minimal design experience. Its AI generator creates complete infographics and reports from a topic or data file, applying professional design principles automatically. Marketers, HR teams, and educators use Venngage to produce polished visual content without hiring a graphic designer.",
+  "url": "https://venngage.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=venngage.com&sz=64",
+  "screenshot_url": "/screenshots/venngage.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "design",
+    "data_visualization",
+    "marketing",
+    "visual",
+    "creative",
+    "charts",
+    "diagrams",
+    "storytelling",
+    "communication",
+    "collaboration",
+    "image_based",
+    "powerful"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 84,
+  "subcategory": "ai-graphic-design",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

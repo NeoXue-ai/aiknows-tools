@@ -1,0 +1,31 @@
+{
+  "slug": "flutterflow",
+  "name": "FlutterFlow",
+  "tagline": "FlutterFlow is a visual app builder on top of Google's Flutter framework, letting teams design and ship production-grade iOS, Android, and web apps without writing most of the code. Its AI assistant can generate full pages from a text description and suggests components as you build. It's popular with agencies and startups that need native-quality apps but don't have a mobile dev on staff.",
+  "description": "FlutterFlow is a visual app builder on top of Google's Flutter framework, letting teams design and ship production-grade iOS, Android, and web apps without writing most of the code. Its AI assistant can generate full pages from a text description and suggests components as you build. It's popular with agencies and startups that need native-quality apps but don't have a mobile dev on staff.",
+  "url": "https://flutterflow.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=flutterflow.io&sz=64",
+  "screenshot_url": "/screenshots/flutterflow.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "no_code",
+    "app_builder",
+    "developer_tools",
+    "app_development",
+    "lowcode",
+    "rapid_prototyping",
+    "mobile_apps",
+    "web_apps",
+    "deployment",
+    "mobile_app",
+    "collaboration",
+    "image_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 76,
+  "subcategory": "ai-app-builder",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

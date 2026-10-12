@@ -1,21 +1,31 @@
 {
   "slug": "claude",
   "name": "Claude",
-  "tagline": "AI assistant from Anthropic",
-  "description": "Helpful, harmless, honest assistant for writing, code, and analysis.",
+  "tagline": "Claude is Anthropic's AI assistant, known for being thoughtful, nuanced, and safe for sensitive tasks. It excels at long-form writing, detailed analysis, coding assistance, and reasoning through complex problems, with a famously large context window that can process entire books or codebases. Claude is available on the web, via API, and through enterprise integrations for teams.",
+  "description": "Claude is Anthropic's AI assistant, known for being thoughtful, nuanced, and safe for sensitive tasks. It excels at long-form writing, detailed analysis, coding assistance, and reasoning through complex problems, with a famously large context window that can process entire books or codebases. Claude is available on the web, via API, and through enterprise integrations for teams.",
   "url": "https://claude.ai",
   "logo_url": "https://www.google.com/s2/favicons?domain=claude.ai&sz=64",
   "screenshot_url": "/screenshots/claude.webp",
   "primary_category": "productivity",
   "tags": [
-    "assistant",
-    "anthropic"
+    "chatbot",
+    "text_generation",
+    "ai_assistant",
+    "conversational",
+    "nlp",
+    "dialogue",
+    "llm",
+    "general_ai",
+    "question_answering",
+    "api_available",
+    "collaboration",
+    "enterprise"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
-  "subcategory": "ai-assistant",
-  "is_featured": true,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 92,
+  "subcategory": "ai-chatbot",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
 }

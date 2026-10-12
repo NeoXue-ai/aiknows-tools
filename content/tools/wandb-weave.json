@@ -1,0 +1,31 @@
+{
+  "slug": "wandb-weave",
+  "name": "W&B Weave",
+  "tagline": "Weave is Weights & Biases' platform for tracking, evaluating, and iterating on LLM applications. It automatically logs every LLM call — inputs, outputs, latency, cost, and model version — and provides tools to build evaluation datasets, run automated evals, and compare model versions side by side. Teams building production AI applications use Weave to catch regressions when switching models, measure hallucination rates, and systematically improve prompt quality over time. It integrates with any LLM provider via a lightweight SDK wrapper.",
+  "description": "Weave is Weights & Biases' platform for tracking, evaluating, and iterating on LLM applications. It automatically logs every LLM call — inputs, outputs, latency, cost, and model version — and provides tools to build evaluation datasets, run automated evals, and compare model versions side by side. Teams building production AI applications use Weave to catch regressions when switching models, measure hallucination rates, and systematically improve prompt quality over time. It integrates with any LLM provider via a lightweight SDK wrapper.",
+  "url": "https://weave.wandb.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=weave.wandb.ai&sz=64",
+  "screenshot_url": "/screenshots/wandb-weave.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "collaboration",
+    "integrations",
+    "model_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 81,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "replika",
+  "name": "Replika",
+  "tagline": "Replika is an AI companion app where users build a personalised relationship with an AI avatar that learns their personality, interests, and communication style over time. It's designed for emotional support, self-reflection, and companionship, and has found a loyal audience among people experiencing loneliness, social anxiety, or grief. Replika adapts its tone and topics to each user through continuous conversation.",
+  "description": "Replika is an AI companion app where users build a personalised relationship with an AI avatar that learns their personality, interests, and communication style over time. It's designed for emotional support, self-reflection, and companionship, and has found a loyal audience among people experiencing loneliness, social anxiety, or grief. Replika adapts its tone and topics to each user through continuous conversation.",
+  "url": "https://replika.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=replika.ai&sz=64",
+  "screenshot_url": "/screenshots/replika.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "ai_assistant",
+    "productivity",
+    "chatbot",
+    "support",
+    "helpful",
+    "personal",
+    "tasks",
+    "reminders",
+    "smart",
+    "customizable"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 71,
+  "subcategory": "ai-assistant",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

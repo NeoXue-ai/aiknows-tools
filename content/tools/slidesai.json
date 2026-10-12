@@ -1,0 +1,28 @@
+{
+  "slug": "slidesai",
+  "name": "SlidesAI",
+  "tagline": "SlidesAI is a Google Workspace add-on that converts any text, document, or topic into a presentation in Google Slides automatically. It selects themes, layouts, and summarises content into concise slide points. Educators and business users use it to transform long documents into presentation-ready decks in seconds.",
+  "description": "SlidesAI is a Google Workspace add-on that converts any text, document, or topic into a presentation in Google Slides automatically. It selects themes, layouts, and summarises content into concise slide points. Educators and business users use it to transform long documents into presentation-ready decks in seconds.",
+  "url": "https://slidesai.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=slidesai.io&sz=64",
+  "screenshot_url": "/screenshots/slidesai.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "presentation",
+    "productivity",
+    "design",
+    "slides",
+    "communication",
+    "pitch_deck",
+    "storytelling",
+    "visual",
+    "templates"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 71,
+  "subcategory": "ai-presentation-maker",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

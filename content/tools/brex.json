@@ -1,0 +1,27 @@
+{
+  "slug": "brex",
+  "name": "Brex",
+  "tagline": "Brex is a financial technology company offering corporate credit cards, expense management, and business banking designed for startups and growth-stage companies. Its AI features automate expense coding, enforce spend policies, and provide real-time financial insights.",
+  "description": "Brex is a financial technology company offering corporate credit cards, expense management, and business banking designed for startups and growth-stage companies. Its AI features automate expense coding, enforce spend policies, and provide real-time financial insights.",
+  "url": "https://brex.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=brex.com&sz=64",
+  "screenshot_url": "/screenshots/brex.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "real_time",
+    "analytics",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool",
+    "service",
+    "solution"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 80,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

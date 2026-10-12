@@ -1,0 +1,31 @@
+{
+  "slug": "moovly",
+  "name": "Moovly",
+  "tagline": "Moovly is an enterprise video creation and automation platform that enables organisations to produce personalised videos at scale. Its API allows dynamic video generation by injecting data into templates — used for personalised customer communications, product videos, and automated reporting videos.",
+  "description": "Moovly is an enterprise video creation and automation platform that enables organisations to produce personalised videos at scale. Its API allows dynamic video generation by injecting data into templates — used for personalised customer communications, product videos, and automated reporting videos.",
+  "url": "https://moovly.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=moovly.com&sz=64",
+  "screenshot_url": null,
+  "primary_category": "image-video",
+  "tags": [
+    "video_generation",
+    "creative",
+    "text_to_video",
+    "animation",
+    "production",
+    "ai_video",
+    "generative",
+    "short_form",
+    "clips",
+    "api_available",
+    "enterprise",
+    "customizable"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 71,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

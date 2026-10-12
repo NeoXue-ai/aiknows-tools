@@ -1,0 +1,31 @@
+{
+  "slug": "speechmatics",
+  "name": "Speechmatics",
+  "tagline": "Speechmatics is a speech recognition platform that provides highly accurate transcription APIs supporting over 50 languages, with particular strength in handling diverse accents and real-world audio quality that many speech engines struggle with. Enterprise development teams use it to add transcription and voice understanding to products in media, contact centers, healthcare, and legal sectors where accuracy on specialized vocabulary matters. It offers both batch and real-time transcription via API, with on-premises deployment options for organizations with data residency requirements.",
+  "description": "Speechmatics is a speech recognition platform that provides highly accurate transcription APIs supporting over 50 languages, with particular strength in handling diverse accents and real-world audio quality that many speech engines struggle with. Enterprise development teams use it to add transcription and voice understanding to products in media, contact centers, healthcare, and legal sectors where accuracy on specialized vocabulary matters. It offers both batch and real-time transcription via API, with on-premises deployment options for organizations with data residency requirements.",
+  "url": "https://speechmatics.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=speechmatics.com&sz=64",
+  "screenshot_url": "/screenshots/speechmatics.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "transcription",
+    "speech_to_text",
+    "audio",
+    "text",
+    "conversion",
+    "captions",
+    "subtitles",
+    "accuracy",
+    "real_time",
+    "api_available",
+    "collaboration",
+    "enterprise"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 74,
+  "subcategory": "speech-to-text-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

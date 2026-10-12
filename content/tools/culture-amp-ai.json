@@ -1,0 +1,31 @@
+{
+  "slug": "culture-amp-ai",
+  "name": "Culture Amp",
+  "tagline": "Culture Amp is an employee experience platform with advanced AI analytics for engagement surveys, performance reviews, and DEI measurement. Its AI provides actionable recommendations for managers, predicts flight risk, and benchmarks teams against industry data from 6,500+ organisations.",
+  "description": "Culture Amp is an employee experience platform with advanced AI analytics for engagement surveys, performance reviews, and DEI measurement. Its AI provides actionable recommendations for managers, predicts flight risk, and benchmarks teams against industry data from 6,500+ organisations.",
+  "url": "https://cultureamp.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=cultureamp.com&sz=64",
+  "screenshot_url": "/screenshots/culture-amp-ai.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "hr",
+    "business",
+    "recruitment",
+    "employees",
+    "human_resources",
+    "onboarding",
+    "performance",
+    "payroll",
+    "talent",
+    "collaboration",
+    "analytics",
+    "powerful"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 80,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

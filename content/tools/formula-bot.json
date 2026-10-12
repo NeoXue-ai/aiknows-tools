@@ -1,0 +1,29 @@
+{
+  "slug": "formula-bot",
+  "name": "Formula Bot",
+  "tagline": "Formula Bot is an AI tool that generates Excel and Google Sheets formulas from a plain-English description of what you want to calculate. You type something like 'sum all cells in column B where column A says Approved' and Formula Bot produces the correct formula instantly. It also explains existing formulas in plain language, making it invaluable for non-technical spreadsheet users.",
+  "description": "Formula Bot is an AI tool that generates Excel and Google Sheets formulas from a plain-English description of what you want to calculate. You type something like 'sum all cells in column B where column A says Approved' and Formula Bot produces the correct formula instantly. It also explains existing formulas in plain language, making it invaluable for non-technical spreadsheet users.",
+  "url": "https://formulabot.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=formulabot.com&sz=64",
+  "screenshot_url": "/screenshots/formula-bot.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "spreadsheet",
+    "data_analysis",
+    "productivity",
+    "data",
+    "sheets",
+    "formulas",
+    "excel",
+    "automation",
+    "calculations",
+    "fast"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 64,
+  "subcategory": "ai-spreadsheet",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

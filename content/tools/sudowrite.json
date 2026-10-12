@@ -1,21 +1,29 @@
 {
   "slug": "sudowrite",
   "name": "Sudowrite",
-  "tagline": "AI for fiction writers",
-  "description": "Story engine that helps novelists brainstorm, draft, and revise fiction.",
+  "tagline": "Sudowrite is an AI creative writing assistant purpose-built for novelists and screenwriters, offering tools specifically designed for fiction — including a Story Engine that builds full narrative arcs, a Describe tool that generates multi-sensory scene details, and a Brainstorm mode for developing characters and plot points. Unlike general writing AI, Sudowrite is trained with literary fiction in mind and avoids the generic marketing-copy tone of other tools. Published authors and writing teachers have become vocal advocates.",
+  "description": "Sudowrite is an AI creative writing assistant purpose-built for novelists and screenwriters, offering tools specifically designed for fiction — including a Story Engine that builds full narrative arcs, a Describe tool that generates multi-sensory scene details, and a Brainstorm mode for developing characters and plot points. Unlike general writing AI, Sudowrite is trained with literary fiction in mind and avoids the generic marketing-copy tone of other tools. Published authors and writing teachers have become vocal advocates.",
   "url": "https://sudowrite.com",
   "logo_url": "https://www.google.com/s2/favicons?domain=sudowrite.com&sz=64",
   "screenshot_url": "/screenshots/sudowrite.webp",
   "primary_category": "writing-content",
   "tags": [
-    "fiction",
-    "creative"
+    "writing",
+    "text_generation",
+    "productivity",
+    "content",
+    "editing",
+    "grammar",
+    "paraphrasing",
+    "ai_writing",
+    "drafting",
+    "training"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 74,
   "subcategory": "ai-writer",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

@@ -1,0 +1,31 @@
+{
+  "slug": "gem",
+  "name": "Gem",
+  "tagline": "Gem is a talent acquisition platform that combines AI-powered sourcing, CRM, and analytics for recruiting teams. It helps recruiters find and engage candidates across LinkedIn and other channels, track relationship history, and measure pipeline health with advanced reporting.",
+  "description": "Gem is a talent acquisition platform that combines AI-powered sourcing, CRM, and analytics for recruiting teams. It helps recruiters find and engage candidates across LinkedIn and other channels, track relationship history, and measure pipeline health with advanced reporting.",
+  "url": "https://gem.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=gem.com&sz=64",
+  "screenshot_url": "/screenshots/gem.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "hr",
+    "business",
+    "recruitment",
+    "employees",
+    "human_resources",
+    "onboarding",
+    "performance",
+    "payroll",
+    "talent",
+    "collaboration",
+    "analytics",
+    "powerful"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 80,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

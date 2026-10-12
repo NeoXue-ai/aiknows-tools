@@ -1,0 +1,31 @@
+{
+  "slug": "meshy-ai",
+  "name": "Meshy",
+  "tagline": "Meshy is an AI 3D generation platform that converts text descriptions or reference images into fully textured, production-ready 3D models in minutes. It supports direct export to OBJ, FBX, GLB, and USDZ for use in game engines, AR, and 3D printing, and an API enables batch generation for large-scale asset pipelines. Game developers, product designers, and XR creators use Meshy to dramatically cut the cost and time of 3D asset production.",
+  "description": "Meshy is an AI 3D generation platform that converts text descriptions or reference images into fully textured, production-ready 3D models in minutes. It supports direct export to OBJ, FBX, GLB, and USDZ for use in game engines, AR, and 3D printing, and an API enables batch generation for large-scale asset pipelines. Game developers, product designers, and XR creators use Meshy to dramatically cut the cost and time of 3D asset production.",
+  "url": "https://meshy.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=meshy.ai&sz=64",
+  "screenshot_url": "/screenshots/meshy-ai.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "3d",
+    "design",
+    "creative",
+    "modeling",
+    "rendering",
+    "visualization",
+    "3d_art",
+    "digital_art",
+    "sculpting",
+    "api_available",
+    "image_based",
+    "model_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 76,
+  "subcategory": "ai-3d-model-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

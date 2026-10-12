@@ -1,0 +1,31 @@
+{
+  "slug": "amd-rocm",
+  "name": "AMD ROCm",
+  "tagline": "AMD ROCm is an open software platform for building and deploying AI and high-performance computing workloads on AMD GPUs. It provides GPU drivers, compilers, libraries, and frameworks that let developers train and run machine learning models on AMD hardware.",
+  "description": "AMD ROCm is an open software platform for building and deploying AI and high-performance computing workloads on AMD GPUs. It provides GPU drivers, compilers, libraries, and frameworks that let developers train and run machine learning models on AMD hardware.",
+  "url": "https://rocm.docs.amd.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=rocm.docs.amd.com&sz=64",
+  "screenshot_url": "/screenshots/amd-rocm.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "machine_learning",
+    "training",
+    "model_based"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 90,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

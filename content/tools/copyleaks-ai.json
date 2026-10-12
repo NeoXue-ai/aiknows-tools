@@ -1,0 +1,29 @@
+{
+  "slug": "copyleaks-ai",
+  "name": "Copyleaks",
+  "tagline": "Copyleaks is a plagiarism detection and AI content identification platform that scans text for both traditional plagiarism and AI-generated content. It supports 100+ languages and integrates with Moodle, Canvas, and major LMS platforms. Educational institutions use it to maintain academic integrity in the age of generative AI.",
+  "description": "Copyleaks is a plagiarism detection and AI content identification platform that scans text for both traditional plagiarism and AI-generated content. It supports 100+ languages and integrates with Moodle, Canvas, and major LMS platforms. Educational institutions use it to maintain academic integrity in the age of generative AI.",
+  "url": "https://copyleaks.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=copyleaks.com&sz=64",
+  "screenshot_url": "/screenshots/copyleaks-ai.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "education",
+    "learning",
+    "teaching",
+    "courses",
+    "training",
+    "tutoring",
+    "study",
+    "assessment",
+    "e_learning",
+    "integrations"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 76,
+  "subcategory": "ai-education",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

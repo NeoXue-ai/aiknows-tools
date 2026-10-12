@@ -1,0 +1,31 @@
+{
+  "slug": "vercel-ai-platform",
+  "name": "Vercel AI",
+  "tagline": "Vercel is a cloud platform for frontend development with first-class AI capabilities including the Vercel AI SDK (open-source TypeScript toolkit for building AI-powered UIs), instant serverless deployment, and edge AI inference. It powers Next.js applications with AI features at the edge, used by over 1 million developers.",
+  "description": "Vercel is a cloud platform for frontend development with first-class AI capabilities including the Vercel AI SDK (open-source TypeScript toolkit for building AI-powered UIs), instant serverless deployment, and edge AI inference. It powers Next.js applications with AI features at the edge, used by over 1 million developers.",
+  "url": "https://vercel.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=vercel.com&sz=64",
+  "screenshot_url": "/screenshots/vercel-ai-platform.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "open_source",
+    "cloud_based",
+    "fast"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 92,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

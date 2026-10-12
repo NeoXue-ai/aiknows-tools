@@ -1,0 +1,31 @@
+{
+  "slug": "nous-research",
+  "name": "Nous Research",
+  "tagline": "Nous Research is an open-source AI research collective known for fine-tuning and releasing high-performance language models such as Hermes and Nous Capybara. It focuses on improving open-weight models through instruction tuning, RLHF, and community-driven benchmarking.",
+  "description": "Nous Research is an open-source AI research collective known for fine-tuning and releasing high-performance language models such as Hermes and Nous Capybara. It focuses on improving open-weight models through instruction tuning, RLHF, and community-driven benchmarking.",
+  "url": "https://nousresearch.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=nousresearch.com&sz=64",
+  "screenshot_url": "/screenshots/nous-research.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "llm",
+    "foundation_model",
+    "ai_model",
+    "machine_learning",
+    "neural",
+    "inference",
+    "fine_tuning",
+    "api",
+    "open_source",
+    "nlp",
+    "model_based",
+    "community_driven"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 83,
+  "subcategory": "ai-models",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

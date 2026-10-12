@@ -1,0 +1,27 @@
+{
+  "slug": "personetics",
+  "name": "Personetics",
+  "tagline": "Personetics reads a bank customer's transaction history to surface personalized insights, like flagging unusual spending, predicting a cash shortfall, or suggesting a savings move, directly inside the bank's own app. Its self-driving finance engine can even carry out savings actions automatically once a customer opts in. Several large retail banks use Personetics to turn raw transaction data into proactive advice instead of a static monthly statement.",
+  "description": "Personetics reads a bank customer's transaction history to surface personalized insights, like flagging unusual spending, predicting a cash shortfall, or suggesting a savings move, directly inside the bank's own app. Its self-driving finance engine can even carry out savings actions automatically once a customer opts in. Several large retail banks use Personetics to turn raw transaction data into proactive advice instead of a static monthly statement.",
+  "url": "https://personetics.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=personetics.com&sz=64",
+  "screenshot_url": "/screenshots/personetics.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "customizable",
+    "analytics",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool",
+    "service",
+    "solution"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 61,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "veo2",
+  "name": "Veo 2",
+  "tagline": "Veo 2 was Google DeepMind's video generation model before Veo 3 replaced it, notable at launch for realistic physics and camera motion that held together better than most competing video models at the time. It lacked native audio generation, which Veo 3 later added, and Google has since moved most of its video features over to the newer model. It's kept here mainly for reference since some integrations and older workflows still point to it.",
+  "description": "Veo 2 was Google DeepMind's video generation model before Veo 3 replaced it, notable at launch for realistic physics and camera motion that held together better than most competing video models at the time. It lacked native audio generation, which Veo 3 later added, and Google has since moved most of its video features over to the newer model. It's kept here mainly for reference since some integrations and older workflows still point to it.",
+  "url": "https://deepmind.google/technologies/veo/veo-2",
+  "logo_url": "https://www.google.com/s2/favicons?domain=deepmind.google&sz=64",
+  "screenshot_url": "/screenshots/veo2.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "video_generation",
+    "creative",
+    "text_to_video",
+    "animation",
+    "production",
+    "ai_video",
+    "generative",
+    "short_form",
+    "clips",
+    "integrations",
+    "voice_enabled",
+    "model_based"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 90,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

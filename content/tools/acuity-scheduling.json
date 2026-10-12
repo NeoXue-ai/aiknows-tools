@@ -1,0 +1,28 @@
+{
+  "slug": "acuity-scheduling",
+  "name": "Acuity Scheduling",
+  "tagline": "Acuity Scheduling is an online appointment scheduling tool that lets clients book time with you 24/7. It syncs with your calendar, sends automatic reminders, collects intake forms, and processes payments — eliminating back-and-forth emails. Widely used by coaches, therapists, photographers, and other service businesses.",
+  "description": "Acuity Scheduling is an online appointment scheduling tool that lets clients book time with you 24/7. It syncs with your calendar, sends automatic reminders, collects intake forms, and processes payments — eliminating back-and-forth emails. Widely used by coaches, therapists, photographers, and other service businesses.",
+  "url": "https://acuityscheduling.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=acuityscheduling.com&sz=64",
+  "screenshot_url": "/screenshots/acuity-scheduling.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "scheduling",
+    "productivity",
+    "calendar",
+    "time_management",
+    "meetings",
+    "appointments",
+    "booking",
+    "availability",
+    "planning"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 92,
+  "subcategory": "productivity-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

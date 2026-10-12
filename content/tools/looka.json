@@ -1,0 +1,29 @@
+{
+  "slug": "looka",
+  "name": "Looka",
+  "tagline": "Looka is an AI-powered logo maker and brand identity platform that lets anyone create a professional logo in minutes. After generating dozens of options from your name and style inputs, it packages everything into a Brand Kit — logo files in every format, a matching colour palette, fonts, and social media assets. It's a go-to for founders who need a complete brand identity before their launch.",
+  "description": "Looka is an AI-powered logo maker and brand identity platform that lets anyone create a professional logo in minutes. After generating dozens of options from your name and style inputs, it packages everything into a Brand Kit — logo files in every format, a matching colour palette, fonts, and social media assets. It's a go-to for founders who need a complete brand identity before their launch.",
+  "url": "https://looka.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=looka.com&sz=64",
+  "screenshot_url": "/screenshots/looka.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "design",
+    "image_generation",
+    "branding",
+    "logo",
+    "identity",
+    "brand_assets",
+    "visual_identity",
+    "symbols",
+    "creative",
+    "powerful"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 81,
+  "subcategory": "ai-logo-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

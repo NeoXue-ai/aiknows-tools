@@ -1,0 +1,27 @@
+{
+  "slug": "botpress",
+  "name": "Botpress",
+  "tagline": "Botpress is an open-source conversational AI platform for building, deploying, and managing chatbots and virtual agents. It combines a visual flow builder with LLM integration, allowing developers and non-technical users to create sophisticated bots for customer support, sales, and internal automation.",
+  "description": "Botpress is an open-source conversational AI platform for building, deploying, and managing chatbots and virtual agents. It combines a visual flow builder with LLM integration, allowing developers and non-technical users to create sophisticated bots for customer support, sales, and internal automation.",
+  "url": "https://botpress.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=botpress.com&sz=64",
+  "screenshot_url": "/screenshots/botpress.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "open_source",
+    "customizable",
+    "integrations",
+    "image_based",
+    "model_based",
+    "community_driven",
+    "ai_powered",
+    "intelligent"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 77,
+  "subcategory": "chatbots",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

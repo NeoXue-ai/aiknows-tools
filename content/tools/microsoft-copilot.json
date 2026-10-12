@@ -1,0 +1,31 @@
+{
+  "slug": "microsoft-copilot",
+  "name": "Microsoft Copilot",
+  "tagline": "Microsoft Copilot is the AI assistant integrated throughout Microsoft's product ecosystem — Windows, Edge, Bing, Word, Excel, PowerPoint, Teams, and Outlook. Powered by GPT-4o and Bing's real-time search index, it drafts documents, analyses spreadsheets, summarises emails, generates images, and answers questions across all Microsoft 365 apps. For the hundreds of millions of Microsoft 365 users, Copilot is the AI assistant with the deepest integration into their existing workflow.",
+  "description": "Microsoft Copilot is the AI assistant integrated throughout Microsoft's product ecosystem — Windows, Edge, Bing, Word, Excel, PowerPoint, Teams, and Outlook. Powered by GPT-4o and Bing's real-time search index, it drafts documents, analyses spreadsheets, summarises emails, generates images, and answers questions across all Microsoft 365 apps. For the hundreds of millions of Microsoft 365 users, Copilot is the AI assistant with the deepest integration into their existing workflow.",
+  "url": "https://copilot.microsoft.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=copilot.microsoft.com&sz=64",
+  "screenshot_url": null,
+  "primary_category": "productivity",
+  "tags": [
+    "chatbot",
+    "text_generation",
+    "ai_assistant",
+    "conversational",
+    "nlp",
+    "dialogue",
+    "llm",
+    "general_ai",
+    "question_answering",
+    "real_time",
+    "collaboration",
+    "integrations"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 96,
+  "subcategory": "ai-chatbot",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

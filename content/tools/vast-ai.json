@@ -1,0 +1,30 @@
+{
+  "slug": "vast-ai",
+  "name": "Vast.ai",
+  "tagline": "Vast.ai is a decentralized GPU marketplace where users can rent idle GPU capacity from hosts around the world at prices significantly below hyperscaler rates. AI researchers, indie developers, and startups use it to run training jobs and inference workloads affordably on a wide range of NVIDIA GPU models.",
+  "description": "Vast.ai is a decentralized GPU marketplace where users can rent idle GPU capacity from hosts around the world at prices significantly below hyperscaler rates. AI researchers, indie developers, and startups use it to run training jobs and inference workloads affordably on a wide range of NVIDIA GPU models.",
+  "url": "https://vast.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=vast.ai&sz=64",
+  "screenshot_url": "/screenshots/vast-ai.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "llm",
+    "foundation_model",
+    "ai_model",
+    "machine_learning",
+    "neural",
+    "inference",
+    "fine_tuning",
+    "api",
+    "open_source",
+    "training",
+    "model_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "ai-models",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

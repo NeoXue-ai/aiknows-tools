@@ -1,0 +1,31 @@
+{
+  "slug": "mixmax",
+  "name": "Mixmax",
+  "tagline": "Mixmax is an email productivity and sales engagement extension for Gmail that adds scheduling, email tracking, sequences, and AI-assisted writing. Its AI draft assistant suggests replies and generates email templates based on context, and one-click polls and scheduling links reduce friction in every conversation. Sales development reps and customer success teams use it to send more personalised outreach at higher volume.",
+  "description": "Mixmax is an email productivity and sales engagement extension for Gmail that adds scheduling, email tracking, sequences, and AI-assisted writing. Its AI draft assistant suggests replies and generates email templates based on context, and one-click polls and scheduling links reduce friction in every conversation. Sales development reps and customer success teams use it to send more personalised outreach at higher volume.",
+  "url": "https://mixmax.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=mixmax.com&sz=64",
+  "screenshot_url": "/screenshots/mixmax.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "email",
+    "productivity",
+    "writing",
+    "communication",
+    "inbox",
+    "email_management",
+    "drafting",
+    "scheduling",
+    "follow_up",
+    "collaboration",
+    "customizable",
+    "templates"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 76,
+  "subcategory": "email",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

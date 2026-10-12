@@ -1,0 +1,27 @@
+{
+  "slug": "crowdin",
+  "name": "Crowdin",
+  "tagline": "Crowdin is a localization management platform used by software teams to translate apps, websites, and documentation while keeping content in sync with continuous deployment workflows. It connects to GitHub, GitLab, and Figma so new strings are automatically pulled into translation queues and pushed back when complete. AI translation and machine translation integrations speed up the process, with human reviewers handling accuracy checks.",
+  "description": "Crowdin is a localization management platform used by software teams to translate apps, websites, and documentation while keeping content in sync with continuous deployment workflows. It connects to GitHub, GitLab, and Figma so new strings are automatically pulled into translation queues and pushed back when complete. AI translation and machine translation integrations speed up the process, with human reviewers handling accuracy checks.",
+  "url": "https://crowdin.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=crowdin.com&sz=64",
+  "screenshot_url": "/screenshots/crowdin.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "collaboration",
+    "integrations",
+    "fast",
+    "community_driven",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 84,
+  "subcategory": "ai-translator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

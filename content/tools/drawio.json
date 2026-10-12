@@ -1,0 +1,27 @@
+{
+  "slug": "drawio",
+  "name": "Draw.io",
+  "tagline": "Draw.io is a free, open-source diagramming tool for creating flowcharts, network diagrams, UML, and system architecture diagrams in the browser. Developers, architects, and business analysts use it because there is no account required and diagrams can be saved locally or to Google Drive, GitHub, and OneDrive. It integrates with Confluence and VS Code and supports XML-based diagram files that work well in version control.",
+  "description": "Draw.io is a free, open-source diagramming tool for creating flowcharts, network diagrams, UML, and system architecture diagrams in the browser. Developers, architects, and business analysts use it because there is no account required and diagrams can be saved locally or to Google Drive, GitHub, and OneDrive. It integrates with Confluence and VS Code and supports XML-based diagram files that work well in version control.",
+  "url": "https://drawio.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=drawio.com&sz=64",
+  "screenshot_url": "/screenshots/drawio.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "open_source",
+    "free_tier",
+    "integrations",
+    "machine_learning",
+    "community_driven",
+    "ai_powered",
+    "intelligent",
+    "platform"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 77,
+  "subcategory": "productivity-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

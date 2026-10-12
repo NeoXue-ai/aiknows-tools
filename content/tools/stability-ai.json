@@ -1,21 +1,31 @@
 {
   "slug": "stability-ai",
   "name": "Stability AI",
-  "tagline": "Open-source generative models",
-  "description": "Stable Diffusion, Stable Video, and APIs for image and video generation.",
+  "tagline": "Stability AI is the company that created Stable Diffusion and has been one of the most influential forces in open-source generative AI. Beyond image generation, it has released Stable Video Diffusion, Stable Audio, and Stable LM models, and its API platform gives developers programmatic access to all its models. Its decision to open-source Stable Diffusion fundamentally changed the AI image generation landscape by enabling the entire ecosystem of local tools, LoRAs, ControlNets, and community models that exist today.",
+  "description": "Stability AI is the company that created Stable Diffusion and has been one of the most influential forces in open-source generative AI. Beyond image generation, it has released Stable Video Diffusion, Stable Audio, and Stable LM models, and its API platform gives developers programmatic access to all its models. Its decision to open-source Stable Diffusion fundamentally changed the AI image generation landscape by enabling the entire ecosystem of local tools, LoRAs, ControlNets, and community models that exist today.",
   "url": "https://stability.ai",
   "logo_url": "https://www.google.com/s2/favicons?domain=stability.ai&sz=64",
   "screenshot_url": "/screenshots/stability-ai.webp",
-  "primary_category": "image-video",
+  "primary_category": "productivity",
   "tags": [
-    "oss",
-    "image"
+    "llm",
+    "foundation_model",
+    "ai_model",
+    "machine_learning",
+    "neural",
+    "inference",
+    "fine_tuning",
+    "api",
+    "open_source",
+    "api_available",
+    "image_based",
+    "voice_enabled"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
-  "subcategory": "ai-video-generator",
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 84,
+  "subcategory": "ai-models",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

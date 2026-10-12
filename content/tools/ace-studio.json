@@ -1,0 +1,29 @@
+{
+  "slug": "ace-studio",
+  "name": "ACE Studio",
+  "tagline": "ACE Studio is an AI singing voice synthesizer that lets producers and musicians create realistic vocal performances from text lyrics and melodies. It offers a library of AI singer voices with expressive rendering for pop, classical, and other genres.",
+  "description": "ACE Studio is an AI singing voice synthesizer that lets producers and musicians create realistic vocal performances from text lyrics and melodies. It offers a library of AI singer voices with expressive rendering for pop, classical, and other genres.",
+  "url": "https://acestudio.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=acestudio.ai&sz=64",
+  "screenshot_url": "/screenshots/ace-studio.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "audio",
+    "creative",
+    "sound",
+    "music",
+    "recording",
+    "audio_editing",
+    "sound_design",
+    "mixing",
+    "production",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 60,
+  "subcategory": "ai-voice-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

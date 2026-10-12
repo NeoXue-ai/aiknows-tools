@@ -1,0 +1,31 @@
+{
+  "slug": "smartcat-ai",
+  "name": "Smartcat",
+  "tagline": "Smartcat is a translation and localisation platform that combines AI translation with a marketplace of professional translators. Its AI engine provides instant machine translation, while the built-in editor lets human translators review and refine output. Enterprises use it for large-scale, high-quality multilingual content.",
+  "description": "Smartcat is a translation and localisation platform that combines AI translation with a marketplace of professional translators. Its AI engine provides instant machine translation, while the built-in editor lets human translators review and refine output. Enterprises use it for large-scale, high-quality multilingual content.",
+  "url": "https://smartcat.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=smartcat.com&sz=64",
+  "screenshot_url": "/screenshots/smartcat-ai.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "translation",
+    "language",
+    "multilingual",
+    "communication",
+    "localization",
+    "globalization",
+    "language_ai",
+    "interpretation",
+    "text",
+    "enterprise",
+    "fast",
+    "powerful"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 72,
+  "subcategory": "ai-translator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

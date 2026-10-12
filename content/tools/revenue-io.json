@@ -1,0 +1,30 @@
+{
+  "slug": "revenue-io",
+  "name": "Revenue.io",
+  "tagline": "Revenue.io is a revenue intelligence platform that provides AI-powered real-time coaching during live sales calls and post-call analysis. It gives reps instant talk track guidance, objection responses, and battle cards in the moment, while giving managers visibility into conversation quality.",
+  "description": "Revenue.io is a revenue intelligence platform that provides AI-powered real-time coaching during live sales calls and post-call analysis. It gives reps instant talk track guidance, objection responses, and battle cards in the moment, while giving managers visibility into conversation quality.",
+  "url": "https://revenue.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=revenue.io&sz=64",
+  "screenshot_url": "/screenshots/revenue-io.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "sales",
+    "business",
+    "crm",
+    "revenue",
+    "conversion",
+    "pipeline",
+    "prospecting",
+    "closing",
+    "forecasting",
+    "real_time",
+    "fast"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 72,
+  "subcategory": "sales",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

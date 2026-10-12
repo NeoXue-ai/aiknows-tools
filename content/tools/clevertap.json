@@ -1,0 +1,31 @@
+{
+  "slug": "clevertap",
+  "name": "CleverTap",
+  "tagline": "CleverTap is a customer engagement and retention platform that uses AI to analyze user behavior and automate personalized campaigns across mobile, web, and messaging channels. Its TesseractDB stores years of user data at scale to power real-time segmentation and predictive analytics.",
+  "description": "CleverTap is a customer engagement and retention platform that uses AI to analyze user behavior and automate personalized campaigns across mobile, web, and messaging channels. Its TesseractDB stores years of user data at scale to power real-time segmentation and predictive analytics.",
+  "url": "https://clevertap.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=clevertap.com&sz=64",
+  "screenshot_url": "/screenshots/clevertap.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "marketing",
+    "business",
+    "campaigns",
+    "growth",
+    "promotion",
+    "demand_generation",
+    "brand",
+    "digital_marketing",
+    "roi",
+    "real_time",
+    "customizable",
+    "analytics"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 85,
+  "subcategory": "ai-marketing",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "deepgram",
+  "name": "Deepgram",
+  "tagline": "Deepgram is a speech recognition platform engineered for high-volume, low-latency production use cases, offering real-time and batch transcription through a simple API. Its Nova models rank among the most accurate available and its infrastructure delivers transcripts in under 300ms for live audio streams. Call centre platforms, meeting tools, and voice AI products use Deepgram as the transcription layer behind their services.",
+  "description": "Deepgram is a speech recognition platform engineered for high-volume, low-latency production use cases, offering real-time and batch transcription through a simple API. Its Nova models rank among the most accurate available and its infrastructure delivers transcripts in under 300ms for live audio streams. Call centre platforms, meeting tools, and voice AI products use Deepgram as the transcription layer behind their services.",
+  "url": "https://deepgram.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=deepgram.com&sz=64",
+  "screenshot_url": "/screenshots/deepgram.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "transcription",
+    "speech_to_text",
+    "audio",
+    "text",
+    "conversion",
+    "captions",
+    "subtitles",
+    "accuracy",
+    "real_time",
+    "api_available",
+    "voice_enabled",
+    "model_based"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 80,
+  "subcategory": "speech-to-text-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

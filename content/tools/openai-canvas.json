@@ -1,0 +1,29 @@
+{
+  "slug": "openai-canvas",
+  "name": "ChatGPT Canvas",
+  "tagline": "Canvas is a collaborative workspace inside ChatGPT that opens a side-by-side editor for writing and coding projects. Instead of getting a code block in the chat, Canvas gives you a full editor where ChatGPT can make targeted edits, add comments, suggest rewrites for specific sections, and adjust length or reading level — all without regenerating the entire document. For code, it adds inline debugging, unit test generation, and language translation. Canvas represents a shift from ChatGPT as a chatbot to ChatGPT as a collaborative working environment.",
+  "description": "Canvas is a collaborative workspace inside ChatGPT that opens a side-by-side editor for writing and coding projects. Instead of getting a code block in the chat, Canvas gives you a full editor where ChatGPT can make targeted edits, add comments, suggest rewrites for specific sections, and adjust length or reading level — all without regenerating the entire document. For code, it adds inline debugging, unit test generation, and language translation. Canvas represents a shift from ChatGPT as a chatbot to ChatGPT as a collaborative working environment.",
+  "url": "https://openai.com/index/introducing-canvas",
+  "logo_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+  "screenshot_url": null,
+  "primary_category": "writing-content",
+  "tags": [
+    "writing",
+    "text_generation",
+    "productivity",
+    "content",
+    "editing",
+    "grammar",
+    "paraphrasing",
+    "ai_writing",
+    "drafting",
+    "collaboration"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 93,
+  "subcategory": "ai-writer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "carnegie-learning",
+  "name": "Carnegie Learning",
+  "tagline": "Carnegie Learning develops AI-powered maths curricula grounded in cognitive science research. Its MATHia software provides one-on-one intelligent tutoring that models each student's knowledge, identifies misconceptions, and delivers targeted instruction. Used in thousands of schools across the US, it has been shown to significantly improve maths outcomes.",
+  "description": "Carnegie Learning develops AI-powered maths curricula grounded in cognitive science research. Its MATHia software provides one-on-one intelligent tutoring that models each student's knowledge, identifies misconceptions, and delivers targeted instruction. Used in thousands of schools across the US, it has been shown to significantly improve maths outcomes.",
+  "url": "https://carnegielearning.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=carnegielearning.com&sz=64",
+  "screenshot_url": "/screenshots/carnegie-learning.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "education",
+    "learning",
+    "teaching",
+    "courses",
+    "training",
+    "tutoring",
+    "study",
+    "assessment",
+    "e_learning",
+    "model_based"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 71,
+  "subcategory": "ai-education",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

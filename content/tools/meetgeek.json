@@ -1,0 +1,29 @@
+{
+  "slug": "meetgeek",
+  "name": "MeetGeek",
+  "tagline": "MeetGeek automatically records and transcribes meetings, then uses AI to generate summaries, extract highlights, and track topics across time. It integrates with Slack, Notion, HubSpot, and 2,000+ apps via Zapier. Sales teams, recruiters, and managers use it to keep stakeholders informed without attending every call.",
+  "description": "MeetGeek automatically records and transcribes meetings, then uses AI to generate summaries, extract highlights, and track topics across time. It integrates with Slack, Notion, HubSpot, and 2,000+ apps via Zapier. Sales teams, recruiters, and managers use it to keep stakeholders informed without attending every call.",
+  "url": "https://meetgeek.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=meetgeek.ai&sz=64",
+  "screenshot_url": "/screenshots/meetgeek.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "meeting",
+    "productivity",
+    "transcription",
+    "collaboration",
+    "notes",
+    "summaries",
+    "action_items",
+    "video_calls",
+    "recap",
+    "integrations"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 71,
+  "subcategory": "ai-note-taker",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

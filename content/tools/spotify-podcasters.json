@@ -1,0 +1,31 @@
+{
+  "slug": "spotify-podcasters",
+  "name": "Spotify for Podcasters",
+  "tagline": "Spotify for Podcasters (now part of Spotify's creator tools) provides free podcast hosting, distribution, and analytics alongside AI-powered features like automatic transcripts, clip suggestions, and audience Q&A. Podcasters publish to Spotify's 600-million-user platform directly and monetise through Spotify's subscription and ad programs. It's the largest podcast platform globally and the most straightforward path to a broad audience.",
+  "description": "Spotify for Podcasters (now part of Spotify's creator tools) provides free podcast hosting, distribution, and analytics alongside AI-powered features like automatic transcripts, clip suggestions, and audience Q&A. Podcasters publish to Spotify's 600-million-user platform directly and monetise through Spotify's subscription and ad programs. It's the largest podcast platform globally and the most straightforward path to a broad audience.",
+  "url": "https://podcasters.spotify.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=podcasters.spotify.com&sz=64",
+  "screenshot_url": "/screenshots/spotify-podcasters.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "podcast",
+    "audio",
+    "content_creation",
+    "media",
+    "broadcasting",
+    "episodes",
+    "hosting",
+    "editing",
+    "distribution",
+    "free_tier",
+    "analytics",
+    "easy_to_use"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 96,
+  "subcategory": "ai-voice-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

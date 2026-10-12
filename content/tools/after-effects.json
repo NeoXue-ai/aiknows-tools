@@ -1,0 +1,29 @@
+{
+  "slug": "after-effects",
+  "name": "Adobe After Effects",
+  "tagline": "Adobe After Effects is the industry-standard motion graphics and visual effects application, used for everything from title sequences to full compositing work. Recent AI features — including Content-Aware Fill for video and Rotobrush — dramatically reduce the manual work behind complex shots. It's a core tool for video editors, motion designers, and VFX artists.",
+  "description": "Adobe After Effects is the industry-standard motion graphics and visual effects application, used for everything from title sequences to full compositing work. Recent AI features — including Content-Aware Fill for video and Rotobrush — dramatically reduce the manual work behind complex shots. It's a core tool for video editors, motion designers, and VFX artists.",
+  "url": "https://adobe.com/aftereffects",
+  "logo_url": "https://www.google.com/s2/favicons?domain=adobe.com&sz=64",
+  "screenshot_url": null,
+  "primary_category": "image-video",
+  "tags": [
+    "animation",
+    "video",
+    "creative",
+    "motion",
+    "graphics",
+    "motion_design",
+    "2d_animation",
+    "3d_animation",
+    "visual_effects",
+    "image_based"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 96,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

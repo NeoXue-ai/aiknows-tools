@@ -1,21 +1,29 @@
 {
   "slug": "chorus-ai",
   "name": "Chorus.ai",
-  "tagline": "Conversation intelligence",
-  "description": "AI that records, transcribes, and analyzes sales calls for coaching.",
+  "tagline": "Chorus.ai by ZoomInfo is a conversation intelligence platform that records, transcribes, and analyses sales calls and meetings. Its AI surfaces deal risks, competitor mentions, and coaching opportunities. Sales managers use it to identify winning behaviours and replicate them across their team.",
+  "description": "Chorus.ai by ZoomInfo is a conversation intelligence platform that records, transcribes, and analyses sales calls and meetings. Its AI surfaces deal risks, competitor mentions, and coaching opportunities. Sales managers use it to identify winning behaviours and replicate them across their team.",
   "url": "https://chorus.ai",
   "logo_url": "https://www.google.com/s2/favicons?domain=chorus.ai&sz=64",
-  "screenshot_url": "/screenshots/chorus-ai.webp",
+  "screenshot_url": null,
   "primary_category": "ecommerce-sales",
   "tags": [
     "sales",
-    "calls"
+    "business",
+    "crm",
+    "revenue",
+    "conversion",
+    "pipeline",
+    "prospecting",
+    "closing",
+    "forecasting",
+    "collaboration"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 72,
   "subcategory": "sales",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

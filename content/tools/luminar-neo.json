@@ -1,0 +1,31 @@
+{
+  "slug": "luminar-neo",
+  "name": "Luminar Neo",
+  "tagline": "Luminar Neo is a desktop photo editing application from Skylum that uses AI to automate complex retouching tasks — sky replacement, portrait enhancement, object removal, and relighting — that would take hours in Photoshop. Its non-destructive editing workflow and Lightroom plugin integration make it accessible to hobbyist and professional photographers alike. It's particularly valued for landscape and portrait photographers who want dramatic edits without deep manual skill.",
+  "description": "Luminar Neo is a desktop photo editing application from Skylum that uses AI to automate complex retouching tasks — sky replacement, portrait enhancement, object removal, and relighting — that would take hours in Photoshop. Its non-destructive editing workflow and Lightroom plugin integration make it accessible to hobbyist and professional photographers alike. It's particularly valued for landscape and portrait photographers who want dramatic edits without deep manual skill.",
+  "url": "https://skylum.com/luminar-neo",
+  "logo_url": "https://www.google.com/s2/favicons?domain=skylum.com&sz=64",
+  "screenshot_url": "/screenshots/luminar-neo.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "image_editing",
+    "design",
+    "creative",
+    "photo",
+    "visual",
+    "retouching",
+    "filters",
+    "enhancement",
+    "manipulation",
+    "integrations",
+    "powerful",
+    "extensible"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 79,
+  "subcategory": "ai-photo-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

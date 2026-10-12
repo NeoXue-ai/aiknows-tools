@@ -1,0 +1,31 @@
+{
+  "slug": "nanonets",
+  "name": "Nanonets",
+  "tagline": "Nanonets is an AI platform for automating data extraction from invoices, receipts, ID documents, and other business forms. Its pre-built and custom ML models extract structured data with high accuracy, and automated workflows route the extracted information to downstream systems.",
+  "description": "Nanonets is an AI platform for automating data extraction from invoices, receipts, ID documents, and other business forms. Its pre-built and custom ML models extract structured data with high accuracy, and automated workflows route the extracted information to downstream systems.",
+  "url": "https://nanonets.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=nanonets.com&sz=64",
+  "screenshot_url": "/screenshots/nanonets.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "document_ai",
+    "pdf",
+    "productivity",
+    "extraction",
+    "documents",
+    "ocr",
+    "summarization",
+    "document_processing",
+    "parsing",
+    "customizable",
+    "machine_learning",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "ai-pdf",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

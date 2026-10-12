@@ -1,0 +1,29 @@
+{
+  "slug": "styleseat",
+  "name": "StyleSeat",
+  "tagline": "StyleSeat is a booking marketplace for hair stylists, colorists, and other beauty professionals that uses AI-driven recommendations to match clients with the right pro nearby. It handles scheduling, reminders, and payments, and gives stylists tools to track rebooking rates and fill gaps in their calendar.",
+  "description": "StyleSeat is a booking marketplace for hair stylists, colorists, and other beauty professionals that uses AI-driven recommendations to match clients with the right pro nearby. It handles scheduling, reminders, and payments, and gives stylists tools to track rebooking rates and fill gaps in their calendar.",
+  "url": "https://styleseat.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=styleseat.com&sz=64",
+  "screenshot_url": null,
+  "primary_category": "business-analytics",
+  "tags": [
+    "business",
+    "productivity",
+    "enterprise",
+    "operations",
+    "management",
+    "documents",
+    "contracts",
+    "proposals",
+    "workflow",
+    "powerful"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 82,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

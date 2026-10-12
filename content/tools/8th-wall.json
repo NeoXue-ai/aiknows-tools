@@ -1,0 +1,27 @@
+{
+  "slug": "8th-wall",
+  "name": "8th Wall",
+  "tagline": "8th Wall is a web-based augmented reality platform that lets brands and developers create AR experiences that run directly in the mobile browser without an app download. Marketing teams use it for product try-on experiences, interactive packaging, and location-based campaigns that users can access by scanning a QR code. Its SLAM-based world tracking works across iOS and Android without requiring ARKit or ARCore, making experiences accessible to a wider audience than native AR apps.",
+  "description": "8th Wall is a web-based augmented reality platform that lets brands and developers create AR experiences that run directly in the mobile browser without an app download. Marketing teams use it for product try-on experiences, interactive packaging, and location-based campaigns that users can access by scanning a QR code. Its SLAM-based world tracking works across iOS and Android without requiring ARKit or ARCore, making experiences accessible to a wider audience than native AR apps.",
+  "url": "https://8thwall.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=8thwall.com&sz=64",
+  "screenshot_url": "/screenshots/8th-wall.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "mobile_app",
+    "collaboration",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool",
+    "service",
+    "solution"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 72,
+  "subcategory": "ai-3d-model-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

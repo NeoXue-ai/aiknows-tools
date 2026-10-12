@@ -1,0 +1,31 @@
+{
+  "slug": "character-ai",
+  "name": "Character.ai",
+  "tagline": "Character.ai lets users create, customise, and chat with AI personas ranging from fictional characters and historical figures to custom AI companions. It's built on a proprietary large language model optimised for engaging, in-character conversation, and boasts one of the highest user engagement rates of any AI platform. With over 20 million daily active users, it's the dominant platform for AI roleplay and character interaction.",
+  "description": "Character.ai lets users create, customise, and chat with AI personas ranging from fictional characters and historical figures to custom AI companions. It's built on a proprietary large language model optimised for engaging, in-character conversation, and boasts one of the highest user engagement rates of any AI platform. With over 20 million daily active users, it's the dominant platform for AI roleplay and character interaction.",
+  "url": "https://character.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=character.ai&sz=64",
+  "screenshot_url": "/screenshots/character-ai.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "ai_companion",
+    "chatbot",
+    "conversation",
+    "ai_assistant",
+    "chat",
+    "companionship",
+    "emotional_support",
+    "roleplay",
+    "personal",
+    "customizable",
+    "nlp",
+    "model_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 80,
+  "subcategory": "ai-entertainment",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

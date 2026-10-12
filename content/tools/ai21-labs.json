@@ -1,0 +1,31 @@
+{
+  "slug": "ai21-labs",
+  "name": "AI21 Labs",
+  "tagline": "AI21 Labs is an Israeli AI company known for its Jamba series of models — hybrid architectures combining Mamba state-space layers with transformers for exceptional speed and long-context performance. Its enterprise platform offers document intelligence, text analysis, and custom fine-tuning, with a strong focus on factual accuracy and reduced hallucination. AI21's Wordtune product (the writing assistant) is its most consumer-facing offering, while its API and enterprise deployments serve industries where reliability and grounded outputs are paramount.",
+  "description": "AI21 Labs is an Israeli AI company known for its Jamba series of models — hybrid architectures combining Mamba state-space layers with transformers for exceptional speed and long-context performance. Its enterprise platform offers document intelligence, text analysis, and custom fine-tuning, with a strong focus on factual accuracy and reduced hallucination. AI21's Wordtune product (the writing assistant) is its most consumer-facing offering, while its API and enterprise deployments serve industries where reliability and grounded outputs are paramount.",
+  "url": "https://ai21.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=ai21.com&sz=64",
+  "screenshot_url": "/screenshots/ai21-labs.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "llm",
+    "foundation_model",
+    "ai_model",
+    "machine_learning",
+    "neural",
+    "inference",
+    "fine_tuning",
+    "api",
+    "open_source",
+    "api_available",
+    "enterprise",
+    "customizable"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 75,
+  "subcategory": "ai-models",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

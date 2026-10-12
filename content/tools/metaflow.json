@@ -1,0 +1,31 @@
+{
+  "slug": "metaflow",
+  "name": "Metaflow",
+  "tagline": "Metaflow is an open-source Python framework originally developed at Netflix for building and managing real-life data science and ML projects. It handles versioning, parallelism, and deployment of ML workflows from a laptop to the cloud with minimal infrastructure changes.",
+  "description": "Metaflow is an open-source Python framework originally developed at Netflix for building and managing real-life data science and ML projects. It handles versioning, parallelism, and deployment of ML workflows from a laptop to the cloud with minimal infrastructure changes.",
+  "url": "https://metaflow.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=metaflow.org&sz=64",
+  "screenshot_url": "/screenshots/metaflow.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "open_source",
+    "cloud_based",
+    "machine_learning"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 68,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

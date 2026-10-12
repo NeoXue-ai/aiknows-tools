@@ -1,0 +1,29 @@
+{
+  "slug": "dream-wombo",
+  "name": "Dream by WOMBO",
+  "tagline": "Dream by WOMBO is a consumer AI art app that generates colourful, stylised images from text prompts. It offers dozens of art styles ranging from oil painting to neon to anime, with new styles added regularly. Its simplicity and mobile-first design have made it one of the most downloaded AI art apps.",
+  "description": "Dream by WOMBO is a consumer AI art app that generates colourful, stylised images from text prompts. It offers dozens of art styles ranging from oil painting to neon to anime, with new styles added regularly. Its simplicity and mobile-first design have made it one of the most downloaded AI art apps.",
+  "url": "https://dream.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=dream.ai&sz=64",
+  "screenshot_url": "/screenshots/dream-wombo.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "image_generation",
+    "creative",
+    "text_to_image",
+    "visual",
+    "graphics",
+    "generative_ai",
+    "art",
+    "diffusion",
+    "prompting",
+    "image_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 71,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

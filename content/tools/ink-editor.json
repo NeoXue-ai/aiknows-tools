@@ -1,0 +1,29 @@
+{
+  "slug": "ink-editor",
+  "name": "INK Editor",
+  "tagline": "INK Editor combines AI writing assistance with real-time SEO optimisation. As users write, the AI scores content against top-ranking pages and suggests keywords, structure, and length improvements. It also includes an AI co-writer for generating paragraphs, headlines, and meta descriptions.",
+  "description": "INK Editor combines AI writing assistance with real-time SEO optimisation. As users write, the AI scores content against top-ranking pages and suggests keywords, structure, and length improvements. It also includes an AI co-writer for generating paragraphs, headlines, and meta descriptions.",
+  "url": "https://inkforall.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=inkforall.com&sz=64",
+  "screenshot_url": "/screenshots/ink-editor.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "writing",
+    "text_generation",
+    "productivity",
+    "content",
+    "editing",
+    "grammar",
+    "paraphrasing",
+    "ai_writing",
+    "drafting",
+    "real_time"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 70,
+  "subcategory": "ai-writer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

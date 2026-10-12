@@ -1,0 +1,27 @@
+{
+  "slug": "character-creator",
+  "name": "Character Creator",
+  "tagline": "Character Creator by Reallusion is a professional 3D character design tool for building fully rigged, customizable digital humans and avatars. Game developers, animators, and VTubers use it to create realistic or stylized characters that export to Unity, Unreal Engine, Blender, and other production tools with full animation rigs included. It includes a marketplace of clothing, hair, and skin assets, and integrates with iClone for real-time animation.",
+  "description": "Character Creator by Reallusion is a professional 3D character design tool for building fully rigged, customizable digital humans and avatars. Game developers, animators, and VTubers use it to create realistic or stylized characters that export to Unity, Unreal Engine, Blender, and other production tools with full animation rigs included. It includes a marketplace of clothing, hair, and skin assets, and integrates with iClone for real-time animation.",
+  "url": "https://reallusion.com/character-creator",
+  "logo_url": "https://www.google.com/s2/favicons?domain=reallusion.com&sz=64",
+  "screenshot_url": "/screenshots/character-creator.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "real_time",
+    "customizable",
+    "integrations",
+    "powerful",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "ai-art-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

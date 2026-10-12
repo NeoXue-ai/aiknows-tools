@@ -1,0 +1,28 @@
+{
+  "slug": "articulate-360",
+  "name": "Articulate 360",
+  "tagline": "Articulate 360 bundles course-authoring tools, including Rise and Storyline, that let instructional designers build interactive eLearning courses without writing code. Newer releases add AI features for drafting course outlines, quiz questions, and narration scripts from source material. Courses export in SCORM and xAPI formats, so they run in any LMS, and the suite is a standard in corporate training.",
+  "description": "Articulate 360 bundles course-authoring tools, including Rise and Storyline, that let instructional designers build interactive eLearning courses without writing code. Newer releases add AI features for drafting course outlines, quiz questions, and narration scripts from source material. Courses export in SCORM and xAPI formats, so they run in any LMS, and the suite is a standard in corporate training.",
+  "url": "https://articulate.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=articulate.com&sz=64",
+  "screenshot_url": "/screenshots/articulate-360.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "education",
+    "learning",
+    "teaching",
+    "courses",
+    "training",
+    "tutoring",
+    "study",
+    "assessment",
+    "e_learning"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 88,
+  "subcategory": "ai-education",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

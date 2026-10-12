@@ -1,0 +1,31 @@
+{
+  "slug": "vyond",
+  "name": "Vyond",
+  "tagline": "Vyond is an AI-powered animated video creation platform that lets teams produce professional cartoon and character-based explainer videos without animation expertise. Its library of characters, scenes, and actions covers business, education, and healthcare scenarios, and an AI script-to-video feature generates a complete animated video from a script. Corporate L&D teams and marketing departments use Vyond to make training and communication content more engaging.",
+  "description": "Vyond is an AI-powered animated video creation platform that lets teams produce professional cartoon and character-based explainer videos without animation expertise. Its library of characters, scenes, and actions covers business, education, and healthcare scenarios, and an AI script-to-video feature generates a complete animated video from a script. Corporate L&D teams and marketing departments use Vyond to make training and communication content more engaging.",
+  "url": "https://vyond.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=vyond.com&sz=64",
+  "screenshot_url": "/screenshots/vyond.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "animation",
+    "video",
+    "creative",
+    "motion",
+    "graphics",
+    "motion_design",
+    "2d_animation",
+    "3d_animation",
+    "visual_effects",
+    "mobile_app",
+    "collaboration",
+    "training"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 77,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

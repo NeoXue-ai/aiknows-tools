@@ -1,0 +1,31 @@
+{
+  "slug": "pipedream",
+  "name": "Pipedream",
+  "tagline": "Pipedream is a developer-focused workflow automation platform where every step can be written in Node.js, Python, Go, or Bash — making it far more powerful than Zapier for technical use cases. It connects to 1,000+ APIs with pre-built auth and can be triggered by HTTP requests, schedules, events, or queues. Engineering teams use Pipedream to build production-grade integrations and internal tools without standing up dedicated microservices.",
+  "description": "Pipedream is a developer-focused workflow automation platform where every step can be written in Node.js, Python, Go, or Bash — making it far more powerful than Zapier for technical use cases. It connects to 1,000+ APIs with pre-built auth and can be triggered by HTTP requests, schedules, events, or queues. Engineering teams use Pipedream to build production-grade integrations and internal tools without standing up dedicated microservices.",
+  "url": "https://pipedream.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=pipedream.com&sz=64",
+  "screenshot_url": "/screenshots/pipedream.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "automation",
+    "workflow",
+    "productivity",
+    "repetitive_tasks",
+    "efficiency",
+    "process_automation",
+    "triggers",
+    "scheduling",
+    "bots",
+    "collaboration",
+    "integrations",
+    "powerful"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 84,
+  "subcategory": "automation",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "fourkites",
+  "name": "FourKites",
+  "tagline": "FourKites tracks shipments across truck, rail, ocean, and air in real time and uses machine learning to predict arrival times and flag disruptions before they hit a schedule. Logistics teams use it to cut down on manual check-calls and respond to delays while there is still time to act.",
+  "description": "FourKites tracks shipments across truck, rail, ocean, and air in real time and uses machine learning to predict arrival times and flag disruptions before they hit a schedule. Logistics teams use it to cut down on manual check-calls and respond to delays while there is still time to act.",
+  "url": "https://fourkites.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=fourkites.com&sz=64",
+  "screenshot_url": "/screenshots/fourkites.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "supply_chain",
+    "logistics",
+    "business",
+    "inventory",
+    "management",
+    "procurement",
+    "distribution",
+    "forecasting",
+    "operations",
+    "collaboration",
+    "machine_learning"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 71,
+  "subcategory": "ecommerce",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

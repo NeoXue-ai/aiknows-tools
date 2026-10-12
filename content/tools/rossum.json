@@ -1,0 +1,29 @@
+{
+  "slug": "rossum",
+  "name": "Rossum",
+  "tagline": "Rossum is an AI document processing platform that automates data extraction from invoices, purchase orders, and other transactional documents. Its cognitive data capture engine learns document layouts and handles exceptions, integrating with ERP and AP automation workflows.",
+  "description": "Rossum is an AI document processing platform that automates data extraction from invoices, purchase orders, and other transactional documents. Its cognitive data capture engine learns document layouts and handles exceptions, integrating with ERP and AP automation workflows.",
+  "url": "https://rossum.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=rossum.ai&sz=64",
+  "screenshot_url": "/screenshots/rossum.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "document_ai",
+    "pdf",
+    "productivity",
+    "extraction",
+    "documents",
+    "ocr",
+    "summarization",
+    "document_processing",
+    "parsing",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 66,
+  "subcategory": "ai-pdf",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

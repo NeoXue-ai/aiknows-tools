@@ -1,0 +1,31 @@
+{
+  "slug": "deepseek",
+  "name": "DeepSeek",
+  "tagline": "DeepSeek is the model family and API platform behind DeepSeek-V3 and the R1 reasoning line, released as open weights by the Chinese AI lab of the same name. R1 matches or beats several closed frontier models on math and coding benchmarks while costing a fraction to run, which is what got the rest of the industry paying attention. Because the weights are open, researchers and companies can self-host, fine-tune, or build on top of it instead of depending on a single vendor's API.",
+  "description": "DeepSeek is the model family and API platform behind DeepSeek-V3 and the R1 reasoning line, released as open weights by the Chinese AI lab of the same name. R1 matches or beats several closed frontier models on math and coding benchmarks while costing a fraction to run, which is what got the rest of the industry paying attention. Because the weights are open, researchers and companies can self-host, fine-tune, or build on top of it instead of depending on a single vendor's API.",
+  "url": "https://deepseek.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=deepseek.com&sz=64",
+  "screenshot_url": "/screenshots/deepseek.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "chatbot",
+    "text_generation",
+    "ai_assistant",
+    "conversational",
+    "nlp",
+    "dialogue",
+    "llm",
+    "general_ai",
+    "question_answering",
+    "api_available",
+    "training",
+    "model_based"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 90,
+  "subcategory": "ai-chatbot",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

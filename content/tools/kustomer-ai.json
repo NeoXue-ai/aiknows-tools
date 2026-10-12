@@ -1,0 +1,30 @@
+{
+  "slug": "kustomer-ai",
+  "name": "Kustomer AI",
+  "tagline": "Kustomer is a CRM-powered customer service platform with AI capabilities including KIQ AI agent, which handles tier-1 support automatically, and AI-suggested responses for agents. It unifies customer data across all channels into a single timeline, helping agents resolve complex issues faster.",
+  "description": "Kustomer is a CRM-powered customer service platform with AI capabilities including KIQ AI agent, which handles tier-1 support automatically, and AI-suggested responses for agents. It unifies customer data across all channels into a single timeline, helping agents resolve complex issues faster.",
+  "url": "https://kustomer.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=kustomer.com&sz=64",
+  "screenshot_url": "/screenshots/kustomer-ai.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "customer_support",
+    "chatbot",
+    "business",
+    "help_desk",
+    "support",
+    "ticketing",
+    "live_chat",
+    "service",
+    "resolution",
+    "customizable",
+    "fast"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 79,
+  "subcategory": "customer-support",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

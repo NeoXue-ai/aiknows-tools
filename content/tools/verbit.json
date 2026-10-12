@@ -1,0 +1,30 @@
+{
+  "slug": "verbit",
+  "name": "Verbit",
+  "tagline": "Verbit is a professional transcription and captioning service that combines AI with human editors to deliver highly accurate results for media companies, courts, universities, and enterprises. It supports live captions, post-production subtitles, and multilingual transcription workflows.",
+  "description": "Verbit is a professional transcription and captioning service that combines AI with human editors to deliver highly accurate results for media companies, courts, universities, and enterprises. It supports live captions, post-production subtitles, and multilingual transcription workflows.",
+  "url": "https://verbit.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=verbit.ai&sz=64",
+  "screenshot_url": "/screenshots/verbit.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "transcription",
+    "speech_to_text",
+    "audio",
+    "text",
+    "conversion",
+    "captions",
+    "subtitles",
+    "accuracy",
+    "real_time",
+    "enterprise",
+    "powerful"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 74,
+  "subcategory": "speech-to-text-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

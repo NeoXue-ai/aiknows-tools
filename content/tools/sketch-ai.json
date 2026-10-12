@@ -1,0 +1,29 @@
+{
+  "slug": "sketch-ai",
+  "name": "Sketch",
+  "tagline": "Sketch is a native Mac application for UI and UX design, product design, and prototyping. Its AI features include an AI design assistant for generating content and assets, smart layout suggestions, and an increasingly powerful web companion for viewing and collaborating on designs without a Mac.",
+  "description": "Sketch is a native Mac application for UI and UX design, product design, and prototyping. Its AI features include an AI design assistant for generating content and assets, smart layout suggestions, and an increasingly powerful web companion for viewing and collaborating on designs without a Mac.",
+  "url": "https://sketch.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=sketch.com&sz=64",
+  "screenshot_url": "/screenshots/sketch-ai.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "design",
+    "image_editing",
+    "creative",
+    "visual",
+    "branding",
+    "typography",
+    "layouts",
+    "ui_design",
+    "illustration",
+    "powerful"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 85,
+  "subcategory": "ai-graphic-design",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

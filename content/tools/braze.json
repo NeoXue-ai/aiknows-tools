@@ -1,0 +1,30 @@
+{
+  "slug": "braze",
+  "name": "Braze",
+  "tagline": "Braze is a leading customer engagement platform that uses AI to deliver personalized messaging across email, push, SMS, in-app, and web channels. Its Sage AI layer powers predictive analytics, intelligent timing, and content personalization to boost conversion and retention.",
+  "description": "Braze is a leading customer engagement platform that uses AI to deliver personalized messaging across email, push, SMS, in-app, and web channels. Its Sage AI layer powers predictive analytics, intelligent timing, and content personalization to boost conversion and retention.",
+  "url": "https://braze.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=braze.com&sz=64",
+  "screenshot_url": "/screenshots/braze.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "marketing",
+    "business",
+    "campaigns",
+    "growth",
+    "promotion",
+    "demand_generation",
+    "brand",
+    "digital_marketing",
+    "roi",
+    "customizable",
+    "analytics"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 83,
+  "subcategory": "ai-marketing",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

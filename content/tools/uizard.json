@@ -1,0 +1,29 @@
+{
+  "slug": "uizard",
+  "name": "Uizard",
+  "tagline": "Uizard transforms hand-drawn wireframe sketches, screenshots, or text descriptions into interactive app prototypes in minutes. Its AI can generate a multi-screen app mockup from a plain-language brief, which designers then refine and share with stakeholders for feedback. Product managers and non-designers use Uizard to communicate product ideas visually before any engineering work begins.",
+  "description": "Uizard transforms hand-drawn wireframe sketches, screenshots, or text descriptions into interactive app prototypes in minutes. Its AI can generate a multi-screen app mockup from a plain-language brief, which designers then refine and share with stakeholders for feedback. Product managers and non-designers use Uizard to communicate product ideas visually before any engineering work begins.",
+  "url": "https://uizard.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=uizard.io&sz=64",
+  "screenshot_url": "/screenshots/uizard.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "design",
+    "image_editing",
+    "creative",
+    "visual",
+    "branding",
+    "typography",
+    "layouts",
+    "ui_design",
+    "illustration",
+    "image_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 75,
+  "subcategory": "ai-graphic-design",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

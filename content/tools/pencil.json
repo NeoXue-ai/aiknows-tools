@@ -1,0 +1,29 @@
+{
+  "slug": "pencil",
+  "name": "Pencil",
+  "tagline": "Pencil is an AI ad generator built specifically for ecommerce brands that need a constant supply of high-performing video and static ad creatives. It trains on your existing top-performing ads and generates new variations aligned with your brand guidelines and proven formulas. DTC brands and performance marketing agencies use Pencil to reduce creative production time while improving ad efficiency.",
+  "description": "Pencil is an AI ad generator built specifically for ecommerce brands that need a constant supply of high-performing video and static ad creatives. It trains on your existing top-performing ads and generates new variations aligned with your brand guidelines and proven formulas. DTC brands and performance marketing agencies use Pencil to reduce creative production time while improving ad efficiency.",
+  "url": "https://trypencil.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=trypencil.com&sz=64",
+  "screenshot_url": "/screenshots/pencil.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "advertising",
+    "marketing",
+    "creative",
+    "ads",
+    "campaigns",
+    "ad_copy",
+    "digital_ads",
+    "performance",
+    "targeting",
+    "training"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 64,
+  "subcategory": "ai-ad-creative",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

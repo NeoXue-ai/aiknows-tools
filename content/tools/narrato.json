@@ -1,0 +1,29 @@
+{
+  "slug": "narrato",
+  "name": "Narrato",
+  "tagline": "Narrato is an AI content creation and workflow platform for content teams. It combines an AI writer with content briefs, SEO tools, plagiarism checks, and a project management workflow. Content marketers and agencies use it to manage the entire content lifecycle from brief to published post.",
+  "description": "Narrato is an AI content creation and workflow platform for content teams. It combines an AI writer with content briefs, SEO tools, plagiarism checks, and a project management workflow. Content marketers and agencies use it to manage the entire content lifecycle from brief to published post.",
+  "url": "https://narrato.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=narrato.io&sz=64",
+  "screenshot_url": "/screenshots/narrato.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "writing",
+    "text_generation",
+    "productivity",
+    "content",
+    "editing",
+    "grammar",
+    "paraphrasing",
+    "ai_writing",
+    "drafting",
+    "collaboration"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "ai-writer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

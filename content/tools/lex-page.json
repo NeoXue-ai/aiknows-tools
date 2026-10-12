@@ -1,0 +1,28 @@
+{
+  "slug": "lex-page",
+  "name": "Lex",
+  "tagline": "Lex is a minimalist AI writing tool designed around the experience of thinking and writing together. When you get stuck, pressing a button summons GPT-powered suggestions directly in your document. It also supports AI feedback, document sharing, and comment threads, making it popular among essayists and newsletter writers.",
+  "description": "Lex is a minimalist AI writing tool designed around the experience of thinking and writing together. When you get stuck, pressing a button summons GPT-powered suggestions directly in your document. It also supports AI feedback, document sharing, and comment threads, making it popular among essayists and newsletter writers.",
+  "url": "https://lex.page",
+  "logo_url": "https://www.google.com/s2/favicons?domain=lex.page&sz=64",
+  "screenshot_url": "/screenshots/lex-page.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "writing",
+    "text_generation",
+    "productivity",
+    "content",
+    "editing",
+    "grammar",
+    "paraphrasing",
+    "ai_writing",
+    "drafting"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 62,
+  "subcategory": "ai-writer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

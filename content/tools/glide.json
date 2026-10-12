@@ -1,0 +1,29 @@
+{
+  "slug": "glide",
+  "name": "Glide",
+  "tagline": "Glide is a no-code app builder that transforms Google Sheets, Excel, or Airtable data into a polished mobile or web app in minutes. Its AI assistant can generate app structures from a description of your workflow, and apps update in real time as the underlying spreadsheet changes. Operations teams and field workers use Glide to build internal tools without waiting for engineering resources.",
+  "description": "Glide is a no-code app builder that transforms Google Sheets, Excel, or Airtable data into a polished mobile or web app in minutes. Its AI assistant can generate app structures from a description of your workflow, and apps update in real time as the underlying spreadsheet changes. Operations teams and field workers use Glide to build internal tools without waiting for engineering resources.",
+  "url": "https://glideapps.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=glideapps.com&sz=64",
+  "screenshot_url": "/screenshots/glide.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "no_code",
+    "app_builder",
+    "developer_tools",
+    "app_development",
+    "lowcode",
+    "rapid_prototyping",
+    "mobile_apps",
+    "web_apps",
+    "deployment",
+    "collaboration"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 77,
+  "subcategory": "ai-app-builder",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

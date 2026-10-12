@@ -1,21 +1,29 @@
 {
   "slug": "lovable",
   "name": "Lovable",
-  "tagline": "AI app builder",
-  "description": "Prompt to production web app with React + Tailwind + Supabase.",
+  "tagline": "Lovable is an AI-powered web app builder that turns a text description into a fully functional, deployable application, handling React frontend, Supabase backend, and authentication in one flow. You chat with the AI to iterate on features, fix bugs, and extend the app without writing code directly. It became one of the fastest-growing developer tools in 2024-25, used by non-technical founders and designers to ship real products.",
+  "description": "Lovable is an AI-powered web app builder that turns a text description into a fully functional, deployable application, handling React frontend, Supabase backend, and authentication in one flow. You chat with the AI to iterate on features, fix bugs, and extend the app without writing code directly. It became one of the fastest-growing developer tools in 2024-25, used by non-technical founders and designers to ship real products.",
   "url": "https://lovable.dev",
   "logo_url": "https://www.google.com/s2/favicons?domain=lovable.dev&sz=64",
   "screenshot_url": "/screenshots/lovable.webp",
   "primary_category": "code-development",
   "tags": [
-    "fullstack",
-    "supabase"
+    "code_generation",
+    "developer_tools",
+    "productivity",
+    "coding",
+    "programming",
+    "autocomplete",
+    "debugging",
+    "refactoring",
+    "ide",
+    "fast"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
-  "subcategory": "ai-app-builder",
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 91,
+  "subcategory": "ai-code-generator",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

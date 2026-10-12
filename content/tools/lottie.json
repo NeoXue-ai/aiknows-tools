@@ -1,0 +1,30 @@
+{
+  "slug": "lottie",
+  "name": "Lottie",
+  "tagline": "LottieFiles is an ecosystem for Lottie animations — lightweight, JSON-based vector animations that play at any resolution without file bloat. Designers create animations in After Effects and export them via the Bodymovin plugin, then share or embed them with a single link. Product teams and web developers use LottieFiles to add smooth, performant micro-animations to apps and websites.",
+  "description": "LottieFiles is an ecosystem for Lottie animations — lightweight, JSON-based vector animations that play at any resolution without file bloat. Designers create animations in After Effects and export them via the Bodymovin plugin, then share or embed them with a single link. Product teams and web developers use LottieFiles to add smooth, performant micro-animations to apps and websites.",
+  "url": "https://lottiefiles.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=lottiefiles.com&sz=64",
+  "screenshot_url": "/screenshots/lottie.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "animation",
+    "video",
+    "creative",
+    "motion",
+    "graphics",
+    "motion_design",
+    "2d_animation",
+    "3d_animation",
+    "visual_effects",
+    "collaboration",
+    "extensible"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 83,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

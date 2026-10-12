@@ -1,0 +1,30 @@
+{
+  "slug": "moz-ai",
+  "name": "Moz Pro",
+  "tagline": "Moz Pro is a comprehensive SEO toolkit that combines keyword research, site audits, rank tracking, and backlink analysis with AI-powered recommendations. Its MozBar Chrome extension shows SEO metrics on any page. Moz's Domain Authority metric is one of the most widely referenced SEO benchmarks in the industry.",
+  "description": "Moz Pro is a comprehensive SEO toolkit that combines keyword research, site audits, rank tracking, and backlink analysis with AI-powered recommendations. Its MozBar Chrome extension shows SEO metrics on any page. Moz's Domain Authority metric is one of the most widely referenced SEO benchmarks in the industry.",
+  "url": "https://moz.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=moz.com&sz=64",
+  "screenshot_url": "/screenshots/moz-ai.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "seo",
+    "marketing",
+    "analytics",
+    "ranking",
+    "optimization",
+    "keywords",
+    "content_seo",
+    "backlinks",
+    "serp",
+    "browser_extension",
+    "extensible"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 91,
+  "subcategory": "ai-seo-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

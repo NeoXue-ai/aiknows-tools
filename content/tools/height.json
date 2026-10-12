@@ -1,0 +1,29 @@
+{
+  "slug": "height",
+  "name": "Height",
+  "tagline": "Height is an AI-first project management tool where the AI assistant actively participates in your workflow — automatically triaging tickets, writing subtasks, updating statuses, and generating summaries of where a project stands. Unlike traditional PM tools that bolt AI on as a feature, Height's AI is designed to run in the background handling routine management work autonomously.",
+  "description": "Height is an AI-first project management tool where the AI assistant actively participates in your workflow — automatically triaging tickets, writing subtasks, updating statuses, and generating summaries of where a project stands. Unlike traditional PM tools that bolt AI on as a feature, Height's AI is designed to run in the background handling routine management work autonomously.",
+  "url": "https://height.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=height.app&sz=64",
+  "screenshot_url": null,
+  "primary_category": "productivity",
+  "tags": [
+    "project_management",
+    "productivity",
+    "team",
+    "collaboration",
+    "planning",
+    "tasks",
+    "milestones",
+    "tracking",
+    "agile",
+    "autonomous"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 65,
+  "subcategory": "project-management",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

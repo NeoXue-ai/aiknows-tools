@@ -1,0 +1,29 @@
+{
+  "slug": "contentstudio-ai",
+  "name": "ContentStudio",
+  "tagline": "ContentStudio is an all-in-one content marketing platform that discovers trending content, helps plan and create posts with AI, and schedules across social media and blogs. Its AI writer generates captions, hashtags, and blog posts. Agencies use it to manage multiple client accounts efficiently.",
+  "description": "ContentStudio is an all-in-one content marketing platform that discovers trending content, helps plan and create posts with AI, and schedules across social media and blogs. Its AI writer generates captions, hashtags, and blog posts. Agencies use it to manage multiple client accounts efficiently.",
+  "url": "https://contentstudio.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=contentstudio.io&sz=64",
+  "screenshot_url": "/screenshots/contentstudio-ai.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "social_media",
+    "marketing",
+    "content_creation",
+    "engagement",
+    "posting",
+    "scheduling",
+    "analytics",
+    "audience",
+    "platform",
+    "fast"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 75,
+  "subcategory": "social-media",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

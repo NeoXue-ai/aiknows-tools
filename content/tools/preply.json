@@ -1,0 +1,29 @@
+{
+  "slug": "preply",
+  "name": "Preply",
+  "tagline": "Preply is an online tutoring marketplace connecting language learners with certified tutors for live video lessons in over 50 languages. Its AI features include speaking practice simulations, vocabulary tracking, and personalized lesson recommendations to complement live tutoring.",
+  "description": "Preply is an online tutoring marketplace connecting language learners with certified tutors for live video lessons in over 50 languages. Its AI features include speaking practice simulations, vocabulary tracking, and personalized lesson recommendations to complement live tutoring.",
+  "url": "https://preply.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=preply.com&sz=64",
+  "screenshot_url": "/screenshots/preply.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "language_learning",
+    "education",
+    "languages",
+    "learning",
+    "multilingual",
+    "vocabulary",
+    "grammar",
+    "speaking",
+    "immersion",
+    "customizable"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 83,
+  "subcategory": "ai-tutor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

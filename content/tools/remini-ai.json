@@ -1,0 +1,29 @@
+{
+  "slug": "remini-ai",
+  "name": "Remini",
+  "tagline": "Remini is a mobile AI app that restores and enhances old, blurry, or low-resolution photos using advanced face restoration AI. It can sharpen facial details in degraded photos and transform selfies into AI-generated portraits in various artistic styles. With over 100 million downloads, it is one of the most popular AI photo apps.",
+  "description": "Remini is a mobile AI app that restores and enhances old, blurry, or low-resolution photos using advanced face restoration AI. It can sharpen facial details in degraded photos and transform selfies into AI-generated portraits in various artistic styles. With over 100 million downloads, it is one of the most popular AI photo apps.",
+  "url": "https://remini.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=remini.ai&sz=64",
+  "screenshot_url": "/screenshots/remini-ai.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "image_editing",
+    "design",
+    "creative",
+    "photo",
+    "visual",
+    "retouching",
+    "filters",
+    "enhancement",
+    "manipulation",
+    "powerful"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 70,
+  "subcategory": "ai-photo-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

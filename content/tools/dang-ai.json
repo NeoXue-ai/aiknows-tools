@@ -1,0 +1,30 @@
+{
+  "slug": "dang-ai",
+  "name": "Dang.ai",
+  "tagline": "Dang.ai runs like a Product Hunt spinoff dedicated entirely to AI: makers submit tools for community upvotes, and the homepage surfaces whatever is trending that week. Categories cover the usual writing, image, and coding tools, plus a running feed of the newest submissions. It doubles as a launch platform, with a paid option for makers who want faster review and a featured spot.",
+  "description": "Dang.ai runs like a Product Hunt spinoff dedicated entirely to AI: makers submit tools for community upvotes, and the homepage surfaces whatever is trending that week. Categories cover the usual writing, image, and coding tools, plus a running feed of the newest submissions. It doubles as a launch platform, with a paid option for makers who want faster review and a featured spot.",
+  "url": "https://dang.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=dang.ai&sz=64",
+  "screenshot_url": "/screenshots/dang-ai.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "directory",
+    "reference",
+    "tools",
+    "discovery",
+    "listing",
+    "ai_tools",
+    "catalog",
+    "collection",
+    "curation",
+    "image_based",
+    "fast"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 82,
+  "subcategory": "directories",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "zilliz",
+  "name": "Zilliz",
+  "tagline": "Zilliz is a managed vector database service built on Milvus, designed for AI-native similarity search at scale. ML and engineering teams use it to store and query billions of vector embeddings for recommendation systems, semantic search, and RAG applications without running their own Milvus clusters. It is the fully managed cloud version from the team that built and maintains the open-source Milvus project.",
+  "description": "Zilliz is a managed vector database service built on Milvus, designed for AI-native similarity search at scale. ML and engineering teams use it to store and query billions of vector embeddings for recommendation systems, semantic search, and RAG applications without running their own Milvus clusters. It is the fully managed cloud version from the team that built and maintains the open-source Milvus project.",
+  "url": "https://zilliz.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=zilliz.com&sz=64",
+  "screenshot_url": "/screenshots/zilliz.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "open_source",
+    "collaboration",
+    "cloud_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 72,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

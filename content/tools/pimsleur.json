@@ -1,0 +1,29 @@
+{
+  "slug": "pimsleur",
+  "name": "Pimsleur",
+  "tagline": "Pimsleur is a language learning program based on the scientifically developed Pimsleur method, which uses spaced repetition audio lessons to build conversational fluency. Its app delivers 30-minute daily spoken language sessions for over 50 languages with AI-driven pronunciation feedback.",
+  "description": "Pimsleur is a language learning program based on the scientifically developed Pimsleur method, which uses spaced repetition audio lessons to build conversational fluency. Its app delivers 30-minute daily spoken language sessions for over 50 languages with AI-driven pronunciation feedback.",
+  "url": "https://pimsleur.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=pimsleur.com&sz=64",
+  "screenshot_url": "/screenshots/pimsleur.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "language_learning",
+    "education",
+    "languages",
+    "learning",
+    "multilingual",
+    "vocabulary",
+    "grammar",
+    "speaking",
+    "immersion",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 70,
+  "subcategory": "ai-tutor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

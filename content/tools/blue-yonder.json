@@ -1,0 +1,30 @@
+{
+  "slug": "blue-yonder",
+  "name": "Blue Yonder",
+  "tagline": "Blue Yonder (now part of Panasonic) is an AI-driven supply chain platform that covers demand forecasting, inventory optimisation, transportation management, and warehouse automation. Its machine-learning models analyse thousands of variables to help retailers and manufacturers reduce stock-outs, cut carrying costs, and improve on-time delivery. Customers include major global retailers and CPG companies.",
+  "description": "Blue Yonder (now part of Panasonic) is an AI-driven supply chain platform that covers demand forecasting, inventory optimisation, transportation management, and warehouse automation. Its machine-learning models analyse thousands of variables to help retailers and manufacturers reduce stock-outs, cut carrying costs, and improve on-time delivery. Customers include major global retailers and CPG companies.",
+  "url": "https://blueyonder.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=blueyonder.com&sz=64",
+  "screenshot_url": "/screenshots/blue-yonder.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "supply_chain",
+    "logistics",
+    "business",
+    "inventory",
+    "management",
+    "procurement",
+    "distribution",
+    "forecasting",
+    "operations",
+    "customizable",
+    "model_based"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 77,
+  "subcategory": "ecommerce",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

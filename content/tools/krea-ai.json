@@ -1,21 +1,31 @@
 {
   "slug": "krea-ai",
   "name": "Krea AI",
-  "tagline": "AI design and video",
-  "description": "Real-time image and video generation with fine-grained control.",
+  "tagline": "Krea AI is a creative platform focused on real-time AI generation: you see images update live as you type or draw, enabling an intuitive visual exploration process. Its upscaler, enhancer, and style-transfer tools let creators refine AI-generated and real photographs with exceptional quality. Designers and visual artists use Krea for its unique real-time feedback loop that makes iterating on visual ideas feel like sketching.",
+  "description": "Krea AI is a creative platform focused on real-time AI generation: you see images update live as you type or draw, enabling an intuitive visual exploration process. Its upscaler, enhancer, and style-transfer tools let creators refine AI-generated and real photographs with exceptional quality. Designers and visual artists use Krea for its unique real-time feedback loop that makes iterating on visual ideas feel like sketching.",
   "url": "https://krea.ai",
   "logo_url": "https://www.google.com/s2/favicons?domain=krea.ai&sz=64",
   "screenshot_url": "/screenshots/krea-ai.webp",
   "primary_category": "image-video",
   "tags": [
-    "image",
-    "video"
+    "image_generation",
+    "creative",
+    "text_to_image",
+    "visual",
+    "graphics",
+    "generative_ai",
+    "art",
+    "diffusion",
+    "prompting",
+    "real_time",
+    "image_based",
+    "easy_to_use"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
-  "subcategory": "ai-video-generator",
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 77,
+  "subcategory": "ai-image-generator",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

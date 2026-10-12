@@ -1,0 +1,29 @@
+{
+  "slug": "tana-ai",
+  "name": "Tana",
+  "tagline": "Tana is a next-generation note-taking and knowledge management tool centred on its Supertag system — a way to create rich, typed nodes that behave as structured data. Its AI features include AI command pipelines that transform notes, extract data, and generate content using custom prompts attached to node types.",
+  "description": "Tana is a next-generation note-taking and knowledge management tool centred on its Supertag system — a way to create rich, typed nodes that behave as structured data. Its AI features include AI command pipelines that transform notes, extract data, and generate content using custom prompts attached to node types.",
+  "url": "https://tana.inc",
+  "logo_url": "https://www.google.com/s2/favicons?domain=tana.inc&sz=64",
+  "screenshot_url": "/screenshots/tana-ai.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "note_taking",
+    "productivity",
+    "knowledge_base",
+    "organization",
+    "documentation",
+    "markdown",
+    "journaling",
+    "tasks",
+    "sync",
+    "customizable"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 63,
+  "subcategory": "ai-note-taker",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

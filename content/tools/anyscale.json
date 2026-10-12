@@ -1,0 +1,31 @@
+{
+  "slug": "anyscale",
+  "name": "Anyscale",
+  "tagline": "Anyscale is a managed platform for building, fine-tuning, and serving AI models at scale, built on the Ray distributed computing framework. ML teams use it to run large training jobs and serve inference workloads without managing cluster infrastructure. It also provides a hosted API for running open-source models like Llama and Mistral in production.",
+  "description": "Anyscale is a managed platform for building, fine-tuning, and serving AI models at scale, built on the Ray distributed computing framework. ML teams use it to run large training jobs and serve inference workloads without managing cluster infrastructure. It also provides a hosted API for running open-source models like Llama and Mistral in production.",
+  "url": "https://anyscale.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=anyscale.com&sz=64",
+  "screenshot_url": "/screenshots/anyscale.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "open_source",
+    "api_available",
+    "collaboration"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 75,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

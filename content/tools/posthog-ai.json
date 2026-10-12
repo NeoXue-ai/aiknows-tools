@@ -1,0 +1,30 @@
+{
+  "slug": "posthog-ai",
+  "name": "PostHog AI",
+  "tagline": "PostHog is an open-source product analytics platform combining event tracking, session recording, feature flags, A/B testing, and surveys. Its Max AI assistant answers product questions using your data, generates SQL queries, and summarises user sessions automatically.",
+  "description": "PostHog is an open-source product analytics platform combining event tracking, session recording, feature flags, A/B testing, and surveys. Its Max AI assistant answers product questions using your data, generates SQL queries, and summarises user sessions automatically.",
+  "url": "https://posthog.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=posthog.com&sz=64",
+  "screenshot_url": "/screenshots/posthog-ai.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "data_analysis",
+    "analytics",
+    "business",
+    "insights",
+    "visualization",
+    "data_science",
+    "reporting",
+    "dashboards",
+    "sql",
+    "open_source",
+    "community_driven"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 90,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "ready-player-me",
+  "name": "Ready Player Me",
+  "tagline": "Ready Player Me is a cross-app avatar platform that lets users create personalized 3D avatars from a photo or from scratch, then use them across hundreds of games, social apps, and virtual worlds. Developers integrate it via SDK so their users can import an existing avatar rather than starting from zero in each new app. The platform is used by metaverse apps, fitness games, virtual meeting tools, and social platforms that want avatar customization without building the system themselves.",
+  "description": "Ready Player Me is a cross-app avatar platform that lets users create personalized 3D avatars from a photo or from scratch, then use them across hundreds of games, social apps, and virtual worlds. Developers integrate it via SDK so their users can import an existing avatar rather than starting from zero in each new app. The platform is used by metaverse apps, fitness games, virtual meeting tools, and social platforms that want avatar customization without building the system themselves.",
+  "url": "https://readyplayer.me",
+  "logo_url": "https://www.google.com/s2/favicons?domain=readyplayer.me&sz=64",
+  "screenshot_url": null,
+  "primary_category": "image-video",
+  "tags": [
+    "customizable",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool",
+    "service",
+    "solution",
+    "saas"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 72,
+  "subcategory": "ai-art-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

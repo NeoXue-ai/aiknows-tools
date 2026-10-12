@@ -1,0 +1,30 @@
+{
+  "slug": "adobe-sensei",
+  "name": "Adobe Sensei",
+  "tagline": "Adobe Sensei is the AI and machine learning platform embedded across Adobe's entire product suite — Photoshop, Premiere Pro, After Effects, Lightroom, InDesign, and more. It powers features like Generative Fill, Neural Filters, Auto Reframe, Speech to Text, and Content-Aware Fill that have become standard tools in creative workflows. With Sensei, Adobe has integrated generative AI into the tools professionals already use rather than building a separate product, making it the AI platform with the most working creative professionals as daily users.",
+  "description": "Adobe Sensei is the AI and machine learning platform embedded across Adobe's entire product suite — Photoshop, Premiere Pro, After Effects, Lightroom, InDesign, and more. It powers features like Generative Fill, Neural Filters, Auto Reframe, Speech to Text, and Content-Aware Fill that have become standard tools in creative workflows. With Sensei, Adobe has integrated generative AI into the tools professionals already use rather than building a separate product, making it the AI platform with the most working creative professionals as daily users.",
+  "url": "https://adobe.com/sensei.html",
+  "logo_url": "https://www.google.com/s2/favicons?domain=adobe.com&sz=64",
+  "screenshot_url": null,
+  "primary_category": "image-video",
+  "tags": [
+    "design",
+    "image_editing",
+    "creative",
+    "visual",
+    "branding",
+    "typography",
+    "layouts",
+    "ui_design",
+    "illustration",
+    "machine_learning",
+    "powerful"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 96,
+  "subcategory": "ai-graphic-design",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

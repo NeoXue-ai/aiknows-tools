@@ -1,0 +1,31 @@
+{
+  "slug": "lancedb",
+  "name": "LanceDB",
+  "tagline": "LanceDB is an open-source, embedded vector database built on the Lance columnar data format for fast similarity search over large multimodal datasets. It offers zero-copy data access, disk-based storage for cost efficiency, and native integration with Python ML libraries.",
+  "description": "LanceDB is an open-source, embedded vector database built on the Lance columnar data format for fast similarity search over large multimodal datasets. It offers zero-copy data access, disk-based storage for cost efficiency, and native integration with Python ML libraries.",
+  "url": "https://lancedb.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=lancedb.com&sz=64",
+  "screenshot_url": "/screenshots/lancedb.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "open_source",
+    "multimodal",
+    "integrations"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 71,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

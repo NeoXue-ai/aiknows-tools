@@ -1,0 +1,31 @@
+{
+  "slug": "civitai",
+  "name": "Civitai",
+  "tagline": "Civitai is the largest community platform for sharing and discovering Stable Diffusion models, LoRAs, embeddings, and AI-generated art. Users upload fine-tuned models trained on specific styles, characters, or subjects, and the community rates and reviews them. With millions of models and tens of millions of generated images, it has become the primary destination for anyone looking to customise their local image generation setup. Civitai also runs a cloud generation service for those who prefer not to run models locally.",
+  "description": "Civitai is the largest community platform for sharing and discovering Stable Diffusion models, LoRAs, embeddings, and AI-generated art. Users upload fine-tuned models trained on specific styles, characters, or subjects, and the community rates and reviews them. With millions of models and tens of millions of generated images, it has become the primary destination for anyone looking to customise their local image generation setup. Civitai also runs a cloud generation service for those who prefer not to run models locally.",
+  "url": "https://civitai.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=civitai.com&sz=64",
+  "screenshot_url": "/screenshots/civitai.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "image_generation",
+    "creative",
+    "text_to_image",
+    "visual",
+    "graphics",
+    "generative_ai",
+    "art",
+    "diffusion",
+    "prompting",
+    "customizable",
+    "cloud_based",
+    "image_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 81,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

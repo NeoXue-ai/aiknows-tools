@@ -1,21 +1,29 @@
 {
   "slug": "wordtune",
   "name": "Wordtune",
-  "tagline": "Rewrite and rephrase with AI",
-  "description": "Rewrite sentences, change tone, and summarize content.",
+  "tagline": "Wordtune is an AI writing tool that rewrites sentences and paragraphs to be clearer, more concise, or more engaging, offering multiple alternative phrasings for any selected text. Its Spices feature adds supporting facts, examples, and counterarguments to help writers develop thin arguments. Over 10 million users use Wordtune daily to improve email drafts, reports, and academic writing without losing their own voice.",
+  "description": "Wordtune is an AI writing tool that rewrites sentences and paragraphs to be clearer, more concise, or more engaging, offering multiple alternative phrasings for any selected text. Its Spices feature adds supporting facts, examples, and counterarguments to help writers develop thin arguments. Over 10 million users use Wordtune daily to improve email drafts, reports, and academic writing without losing their own voice.",
   "url": "https://wordtune.com",
   "logo_url": "https://www.google.com/s2/favicons?domain=wordtune.com&sz=64",
   "screenshot_url": "/screenshots/wordtune.webp",
   "primary_category": "writing-content",
   "tags": [
-    "rewriting",
-    "summarize"
+    "writing",
+    "text_generation",
+    "productivity",
+    "content",
+    "editing",
+    "grammar",
+    "paraphrasing",
+    "ai_writing",
+    "drafting",
+    "voice_enabled"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
-  "subcategory": "ai-summarizer",
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 77,
+  "subcategory": "ai-writer",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

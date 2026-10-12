@@ -1,0 +1,29 @@
+{
+  "slug": "automateed",
+  "name": "Automateed",
+  "tagline": "Automateed is an AI ebook creation tool that speeds up the writing and publishing process for self-published authors and content creators. Users generate full-length ebooks with AI assistance, then format and export them ready for publishing on platforms like Amazon Kindle Direct Publishing, reducing the production timeline from weeks to hours. It is designed for people who want to publish frequently across multiple topics rather than working on a single long-form project over months.",
+  "description": "Automateed is an AI ebook creation tool that speeds up the writing and publishing process for self-published authors and content creators. Users generate full-length ebooks with AI assistance, then format and export them ready for publishing on platforms like Amazon Kindle Direct Publishing, reducing the production timeline from weeks to hours. It is designed for people who want to publish frequently across multiple topics rather than working on a single long-form project over months.",
+  "url": "https://automateed.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=automateed.com&sz=64",
+  "screenshot_url": "/screenshots/automateed.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "writing",
+    "text_generation",
+    "productivity",
+    "content",
+    "editing",
+    "grammar",
+    "paraphrasing",
+    "ai_writing",
+    "drafting",
+    "fast"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 63,
+  "subcategory": "ai-writer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

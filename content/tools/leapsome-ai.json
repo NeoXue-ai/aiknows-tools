@@ -1,0 +1,28 @@
+{
+  "slug": "leapsome-ai",
+  "name": "Leapsome",
+  "tagline": "Leapsome is a people enablement platform combining performance reviews, OKRs, employee engagement surveys, learning, and compensation management. Its AI features include AI-generated review summaries, sentiment analysis of open-text feedback, and skills gap analysis that recommends learning content to employees.",
+  "description": "Leapsome is a people enablement platform combining performance reviews, OKRs, employee engagement surveys, learning, and compensation management. Its AI features include AI-generated review summaries, sentiment analysis of open-text feedback, and skills gap analysis that recommends learning content to employees.",
+  "url": "https://leapsome.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=leapsome.com&sz=64",
+  "screenshot_url": "/screenshots/leapsome-ai.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "hr",
+    "business",
+    "recruitment",
+    "employees",
+    "human_resources",
+    "onboarding",
+    "performance",
+    "payroll",
+    "talent"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 72,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

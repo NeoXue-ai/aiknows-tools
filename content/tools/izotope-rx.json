@@ -1,0 +1,30 @@
+{
+  "slug": "izotope-rx",
+  "name": "iZotope RX",
+  "tagline": "iZotope RX is the industry-standard audio restoration and repair suite used by film studios, broadcasters, and musicians. Its AI modules remove noise, hum, clicks, reverb, and breath sounds with remarkable precision. RX's Dialogue Isolation AI separates speech from background noise in settings where re-recording is impossible.",
+  "description": "iZotope RX is the industry-standard audio restoration and repair suite used by film studios, broadcasters, and musicians. Its AI modules remove noise, hum, clicks, reverb, and breath sounds with remarkable precision. RX's Dialogue Isolation AI separates speech from background noise in settings where re-recording is impossible.",
+  "url": "https://izotope.com/rx",
+  "logo_url": "https://www.google.com/s2/favicons?domain=izotope.com&sz=64",
+  "screenshot_url": "/screenshots/izotope-rx.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "audio",
+    "creative",
+    "sound",
+    "music",
+    "recording",
+    "audio_editing",
+    "sound_design",
+    "mixing",
+    "production",
+    "mobile_app",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 78,
+  "subcategory": "ai-voice-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

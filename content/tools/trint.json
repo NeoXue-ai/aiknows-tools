@@ -1,0 +1,31 @@
+{
+  "slug": "trint",
+  "name": "Trint",
+  "tagline": "Trint is an AI-powered transcription and content platform used by journalists, media companies, and enterprises to turn audio and video into searchable, editable text. Its collaborative editor lets teams highlight quotes, add comments, and publish stories directly from transcripts.",
+  "description": "Trint is an AI-powered transcription and content platform used by journalists, media companies, and enterprises to turn audio and video into searchable, editable text. Its collaborative editor lets teams highlight quotes, add comments, and publish stories directly from transcripts.",
+  "url": "https://trint.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=trint.com&sz=64",
+  "screenshot_url": "/screenshots/trint.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "transcription",
+    "speech_to_text",
+    "audio",
+    "text",
+    "conversion",
+    "captions",
+    "subtitles",
+    "accuracy",
+    "real_time",
+    "collaboration",
+    "enterprise",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "speech-to-text-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

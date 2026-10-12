@@ -1,0 +1,31 @@
+{
+  "slug": "topaz-video-ai",
+  "name": "Topaz Video AI",
+  "tagline": "Topaz Video AI is a professional video enhancement application that uses deep-learning models to upscale, deinterlace, stabilise, and increase the frame rate of video footage. It runs entirely locally on your GPU, making it a privacy-friendly choice for restoring archival footage, upscaling home videos to 4K, and preparing content for large-screen delivery. Professional video editors use it as a finishing step when source quality falls short.",
+  "description": "Topaz Video AI is a professional video enhancement application that uses deep-learning models to upscale, deinterlace, stabilise, and increase the frame rate of video footage. It runs entirely locally on your GPU, making it a privacy-friendly choice for restoring archival footage, upscaling home videos to 4K, and preparing content for large-screen delivery. Professional video editors use it as a finishing step when source quality falls short.",
+  "url": "https://topazlabs.com/video-ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=topazlabs.com&sz=64",
+  "screenshot_url": "/screenshots/topaz-video-ai.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "video_editing",
+    "upscaling",
+    "creative",
+    "quality",
+    "enhancement",
+    "restoration",
+    "sharpening",
+    "resolution",
+    "denoising",
+    "secure",
+    "model_based",
+    "powerful"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 78,
+  "subcategory": "ai-video-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

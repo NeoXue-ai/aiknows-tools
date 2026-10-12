@@ -1,0 +1,31 @@
+{
+  "slug": "wellsaid-labs",
+  "name": "WellSaid Labs",
+  "tagline": "WellSaid Labs provides enterprise-grade text-to-speech with AI voices that sound indistinguishable from human voice actors. It integrates into eLearning platforms, product UIs, and content pipelines. Businesses can create custom brand voices and maintain consistent audio branding across all content without recurring voice-actor costs.",
+  "description": "WellSaid Labs provides enterprise-grade text-to-speech with AI voices that sound indistinguishable from human voice actors. It integrates into eLearning platforms, product UIs, and content pipelines. Businesses can create custom brand voices and maintain consistent audio branding across all content without recurring voice-actor costs.",
+  "url": "https://wellsaidlabs.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=wellsaidlabs.com&sz=64",
+  "screenshot_url": "/screenshots/wellsaid-labs.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "text_to_speech",
+    "audio",
+    "voice",
+    "narration",
+    "accessibility",
+    "tts",
+    "speech_synthesis",
+    "voiceover",
+    "reading",
+    "enterprise",
+    "customizable",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 62,
+  "subcategory": "text-to-speech-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

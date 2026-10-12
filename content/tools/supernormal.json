@@ -1,0 +1,30 @@
+{
+  "slug": "supernormal",
+  "name": "Supernormal",
+  "tagline": "Supernormal joins Google Meet, Zoom, and Teams meetings to take notes automatically, producing structured summaries with action items in real time. It allows teams to create custom note templates for different meeting types — standups, 1-on-1s, and sales calls — ensuring consistent documentation.",
+  "description": "Supernormal joins Google Meet, Zoom, and Teams meetings to take notes automatically, producing structured summaries with action items in real time. It allows teams to create custom note templates for different meeting types — standups, 1-on-1s, and sales calls — ensuring consistent documentation.",
+  "url": "https://supernormal.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=supernormal.com&sz=64",
+  "screenshot_url": "/screenshots/supernormal.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "meeting",
+    "productivity",
+    "transcription",
+    "collaboration",
+    "notes",
+    "summaries",
+    "action_items",
+    "video_calls",
+    "recap",
+    "customizable",
+    "templates"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 66,
+  "subcategory": "ai-note-taker",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

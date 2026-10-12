@@ -1,21 +1,29 @@
 {
   "slug": "adcreative-ai",
   "name": "AdCreative.ai",
-  "tagline": "AI ad creative generator",
-  "description": "Generate conversion-focused ad creatives and social posts in seconds.",
+  "tagline": "AdCreative.ai uses generative AI to produce high-converting ad creatives — banners, social ads, and display assets — in seconds. It analyses performance data to learn which visual styles and copy angles drive clicks for your audience. Marketers connect their ad accounts and get a steady stream of on-brand creatives ready to launch.",
+  "description": "AdCreative.ai uses generative AI to produce high-converting ad creatives — banners, social ads, and display assets — in seconds. It analyses performance data to learn which visual styles and copy angles drive clicks for your audience. Marketers connect their ad accounts and get a steady stream of on-brand creatives ready to launch.",
   "url": "https://adcreative.ai",
   "logo_url": "https://www.google.com/s2/favicons?domain=adcreative.ai&sz=64",
   "screenshot_url": "/screenshots/adcreative-ai.webp",
   "primary_category": "seo-marketing",
   "tags": [
+    "advertising",
+    "marketing",
+    "creative",
     "ads",
-    "creative"
+    "campaigns",
+    "ad_copy",
+    "digital_ads",
+    "performance",
+    "targeting",
+    "image_based"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 77,
   "subcategory": "ai-ad-creative",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

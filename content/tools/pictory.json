@@ -1,0 +1,30 @@
+{
+  "slug": "pictory",
+  "name": "Pictory",
+  "tagline": "Pictory is an AI video creation platform that turns blog posts, scripts, or text prompts into polished short videos automatically. It matches relevant stock footage from a library of millions of clips to your words, adds subtitles, background music, and a voiceover, then exports a shareable video. Content marketers and eLearning teams use Pictory to repurpose written content into video without any editing skills.",
+  "description": "Pictory is an AI video creation platform that turns blog posts, scripts, or text prompts into polished short videos automatically. It matches relevant stock footage from a library of millions of clips to your words, adds subtitles, background music, and a voiceover, then exports a shareable video. Content marketers and eLearning teams use Pictory to repurpose written content into video without any editing skills.",
+  "url": "https://pictory.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=pictory.ai&sz=64",
+  "screenshot_url": "/screenshots/pictory.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "video_editing",
+    "creative",
+    "video",
+    "production",
+    "media",
+    "cutting",
+    "transitions",
+    "effects",
+    "export",
+    "collaboration",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 80,
+  "subcategory": "ai-video-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

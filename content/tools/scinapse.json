@@ -1,0 +1,29 @@
+{
+  "slug": "scinapse",
+  "name": "Scinapse",
+  "tagline": "Scinapse is a free academic search engine covering 250 million papers across all scientific disciplines, powered by AI relevance ranking. It provides paper summaries, citation networks, author profiles, and journal rankings. Researchers prefer it over Google Scholar for its cleaner interface and AI-curated recommendations.",
+  "description": "Scinapse is a free academic search engine covering 250 million papers across all scientific disciplines, powered by AI relevance ranking. It provides paper summaries, citation networks, author profiles, and journal rankings. Researchers prefer it over Google Scholar for its cleaner interface and AI-curated recommendations.",
+  "url": "https://scinapse.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=scinapse.io&sz=64",
+  "screenshot_url": "/screenshots/scinapse.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "research",
+    "analytics",
+    "academic",
+    "studies",
+    "investigation",
+    "literature_review",
+    "citations",
+    "discovery",
+    "synthesis",
+    "free_tier"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 70,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

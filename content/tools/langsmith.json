@@ -1,0 +1,29 @@
+{
+  "slug": "langsmith",
+  "name": "LangSmith",
+  "tagline": "LangSmith is LangChain's platform for debugging, testing, and monitoring LLM applications built with LangChain or any other framework. It provides detailed run traces, a dataset management system for evaluation, and a UI for comparing prompt and model performance over time.",
+  "description": "LangSmith is LangChain's platform for debugging, testing, and monitoring LLM applications built with LangChain or any other framework. It provides detailed run traces, a dataset management system for evaluation, and a UI for comparing prompt and model performance over time.",
+  "url": "https://smith.langchain.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=smith.langchain.com&sz=64",
+  "screenshot_url": "/screenshots/langsmith.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "model_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 87,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,21 +1,30 @@
 {
   "slug": "surfer-seo",
   "name": "Surfer SEO",
-  "tagline": "Content optimization for SEO",
-  "description": "SERP-driven content briefs, audits, and an AI writer for ranking pages.",
+  "tagline": "Surfer SEO is a content optimisation platform that analyses the top-ranking pages for a keyword and gives writers a real-time content score showing how well their draft covers the topic. Its AI outline and article generation tools build a fully structured, SEO-optimised draft from scratch in seconds. Content teams at agencies and in-house SEO departments use Surfer to produce content that reliably ranks.",
+  "description": "Surfer SEO is a content optimisation platform that analyses the top-ranking pages for a keyword and gives writers a real-time content score showing how well their draft covers the topic. Its AI outline and article generation tools build a fully structured, SEO-optimised draft from scratch in seconds. Content teams at agencies and in-house SEO departments use Surfer to produce content that reliably ranks.",
   "url": "https://surferseo.com",
   "logo_url": "https://www.google.com/s2/favicons?domain=surferseo.com&sz=64",
   "screenshot_url": "/screenshots/surfer-seo.webp",
   "primary_category": "seo-marketing",
   "tags": [
     "seo",
-    "optimization"
+    "marketing",
+    "analytics",
+    "ranking",
+    "optimization",
+    "keywords",
+    "content_seo",
+    "backlinks",
+    "serp",
+    "real_time",
+    "collaboration"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
-  "subcategory": "ai-writer",
-  "is_featured": true,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 85,
+  "subcategory": "ai-seo-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
 }

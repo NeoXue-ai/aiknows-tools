@@ -1,0 +1,29 @@
+{
+  "slug": "productboard",
+  "name": "Productboard",
+  "tagline": "Productboard collects feature requests from sales calls, support tickets, and user interviews, then uses AI to cluster similar requests and score them against company goals. Product managers use it to build a roadmap backed by what customers actually asked for, instead of whoever argued loudest in the last planning meeting.",
+  "description": "Productboard collects feature requests from sales calls, support tickets, and user interviews, then uses AI to cluster similar requests and score them against company goals. Product managers use it to build a roadmap backed by what customers actually asked for, instead of whoever argued loudest in the last planning meeting.",
+  "url": "https://productboard.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=productboard.com&sz=64",
+  "screenshot_url": "/screenshots/productboard.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "project_management",
+    "productivity",
+    "team",
+    "collaboration",
+    "planning",
+    "tasks",
+    "milestones",
+    "tracking",
+    "agile",
+    "customizable"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 81,
+  "subcategory": "project-management",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

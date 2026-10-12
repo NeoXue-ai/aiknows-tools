@@ -1,0 +1,30 @@
+{
+  "slug": "canva",
+  "name": "Canva",
+  "tagline": "Canva is a browser-based design platform used by over 170 million people to create social media graphics, presentations, videos, and marketing materials. Its AI suite (Magic Write, Magic Edit, and Magic Design) lets you generate and edit visuals from text prompts inside the familiar drag-and-drop editor. No design experience is needed to produce polished, professional-grade output.",
+  "description": "Canva is a browser-based design platform used by over 170 million people to create social media graphics, presentations, videos, and marketing materials. Its AI suite (Magic Write, Magic Edit, and Magic Design) lets you generate and edit visuals from text prompts inside the familiar drag-and-drop editor. No design experience is needed to produce polished, professional-grade output.",
+  "url": "https://canva.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
+  "screenshot_url": "/screenshots/canva.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "design",
+    "image_editing",
+    "creative",
+    "visual",
+    "branding",
+    "typography",
+    "layouts",
+    "ui_design",
+    "illustration",
+    "image_based",
+    "powerful"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 93,
+  "subcategory": "ai-graphic-design",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

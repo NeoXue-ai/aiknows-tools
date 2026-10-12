@@ -1,0 +1,28 @@
+{
+  "slug": "roam-research",
+  "name": "Roam Research",
+  "tagline": "Roam Research is a note-taking tool built around bidirectional linking and outliner-style writing, designed to mirror how the mind associatively connects ideas. Every page can reference any other, building a dense knowledge graph that surfaces unexpected connections over time. Knowledge workers and writers use Roam as a 'second brain' for capturing and connecting ideas over years of continuous use.",
+  "description": "Roam Research is a note-taking tool built around bidirectional linking and outliner-style writing, designed to mirror how the mind associatively connects ideas. Every page can reference any other, building a dense knowledge graph that surfaces unexpected connections over time. Knowledge workers and writers use Roam as a 'second brain' for capturing and connecting ideas over years of continuous use.",
+  "url": "https://roamresearch.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=roamresearch.com&sz=64",
+  "screenshot_url": "/screenshots/roam-research.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "note_taking",
+    "productivity",
+    "knowledge_base",
+    "organization",
+    "documentation",
+    "markdown",
+    "journaling",
+    "tasks",
+    "sync"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "ai-note-taker",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

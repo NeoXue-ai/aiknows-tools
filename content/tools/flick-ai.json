@@ -1,0 +1,29 @@
+{
+  "slug": "flick-ai",
+  "name": "Flick AI",
+  "tagline": "Flick is an AI social media marketing tool that helps creators and brands plan content, generate captions, find relevant hashtags, and analyse performance. Its AI assistant brainstorms post ideas based on your niche and past content, then helps write captions in your brand voice.",
+  "description": "Flick is an AI social media marketing tool that helps creators and brands plan content, generate captions, find relevant hashtags, and analyse performance. Its AI assistant brainstorms post ideas based on your niche and past content, then helps write captions in your brand voice.",
+  "url": "https://flick.social",
+  "logo_url": "https://www.google.com/s2/favicons?domain=flick.social&sz=64",
+  "screenshot_url": "/screenshots/flick-ai.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "social_media",
+    "marketing",
+    "content_creation",
+    "engagement",
+    "posting",
+    "scheduling",
+    "analytics",
+    "audience",
+    "platform",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "social-media",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

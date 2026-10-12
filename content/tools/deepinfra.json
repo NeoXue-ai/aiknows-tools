@@ -1,0 +1,31 @@
+{
+  "slug": "deepinfra",
+  "name": "DeepInfra",
+  "tagline": "DeepInfra is a cloud inference platform for running open-source AI models through a simple API without managing GPU infrastructure. Developers use it to call models like Llama, Mistral, and Whisper at low cost, with pricing based on tokens consumed rather than reserved compute. It is a practical option for teams that want access to frontier open-source models without building their own serving stack.",
+  "description": "DeepInfra is a cloud inference platform for running open-source AI models through a simple API without managing GPU infrastructure. Developers use it to call models like Llama, Mistral, and Whisper at low cost, with pricing based on tokens consumed rather than reserved compute. It is a practical option for teams that want access to frontier open-source models without building their own serving stack.",
+  "url": "https://deepinfra.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=deepinfra.com&sz=64",
+  "screenshot_url": "/screenshots/deepinfra.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "open_source",
+    "api_available",
+    "collaboration"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 75,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

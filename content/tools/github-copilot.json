@@ -1,21 +1,29 @@
 {
   "slug": "github-copilot",
   "name": "GitHub Copilot",
-  "tagline": "AI pair programmer",
-  "description": "Inline code completions, chat, and agents inside your editor and GitHub.",
-  "url": "https://github.com/features/copilot",
+  "tagline": "GitHub Copilot is an AI pair programmer developed by GitHub and OpenAI that suggests code completions, entire functions, and boilerplate inline as you type. It understands the context of your file and project, making suggestions that fit your coding style. With over 1.8 million paid subscribers, it's the most widely adopted AI coding assistant across all major languages and editors.",
+  "description": "GitHub Copilot is an AI pair programmer developed by GitHub and OpenAI that suggests code completions, entire functions, and boilerplate inline as you type. It understands the context of your file and project, making suggestions that fit your coding style. With over 1.8 million paid subscribers, it's the most widely adopted AI coding assistant across all major languages and editors.",
+  "url": "https://github.com/copilot",
   "logo_url": "https://www.google.com/s2/favicons?domain=github.com&sz=64",
   "screenshot_url": "/screenshots/github-copilot.webp",
   "primary_category": "code-development",
   "tags": [
-    "coding",
-    "github"
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "community_driven"
   ],
-  "pricing_detail": null,
-  "source": null,
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
   "dr": 97,
-  "subcategory": "ai-code-generator",
-  "is_featured": true,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
 }

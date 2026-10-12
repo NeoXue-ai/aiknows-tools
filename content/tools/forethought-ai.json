@@ -1,0 +1,31 @@
+{
+  "slug": "forethought-ai",
+  "name": "Forethought AI",
+  "tagline": "Forethought is a generative AI platform for customer support that automates ticket triage, provides AI-powered response suggestions, and resolves common queries end-to-end. Its SupportGPT model is trained on support conversations, making it more accurate for customer service than general-purpose LLMs.",
+  "description": "Forethought is a generative AI platform for customer support that automates ticket triage, provides AI-powered response suggestions, and resolves common queries end-to-end. Its SupportGPT model is trained on support conversations, making it more accurate for customer service than general-purpose LLMs.",
+  "url": "https://forethought.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=forethought.ai&sz=64",
+  "screenshot_url": "/screenshots/forethought-ai.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "customer_support",
+    "chatbot",
+    "business",
+    "help_desk",
+    "support",
+    "ticketing",
+    "live_chat",
+    "service",
+    "resolution",
+    "customizable",
+    "training",
+    "model_based"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 72,
+  "subcategory": "customer-support",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

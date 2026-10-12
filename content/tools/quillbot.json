@@ -1,0 +1,29 @@
+{
+  "slug": "quillbot",
+  "name": "QuillBot",
+  "tagline": "QuillBot is an AI writing assistant used by over 35 million people primarily for paraphrasing, summarising, grammar checking, and citation generation. Its paraphraser rewrites text in multiple modes (Standard, Fluency, Formal, Creative), giving writers control over how aggressively the AI changes their prose. Students, ESL writers, and content professionals use it to improve clarity, avoid repetition, and adapt tone.",
+  "description": "QuillBot is an AI writing assistant used by over 35 million people primarily for paraphrasing, summarising, grammar checking, and citation generation. Its paraphraser rewrites text in multiple modes (Standard, Fluency, Formal, Creative), giving writers control over how aggressively the AI changes their prose. Students, ESL writers, and content professionals use it to improve clarity, avoid repetition, and adapt tone.",
+  "url": "https://quillbot.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=quillbot.com&sz=64",
+  "screenshot_url": "/screenshots/quillbot.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "writing",
+    "text_generation",
+    "productivity",
+    "content",
+    "editing",
+    "grammar",
+    "paraphrasing",
+    "ai_writing",
+    "drafting",
+    "powerful"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 83,
+  "subcategory": "ai-writer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

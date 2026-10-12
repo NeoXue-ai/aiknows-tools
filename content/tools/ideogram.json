@@ -1,21 +1,29 @@
 {
   "slug": "ideogram",
   "name": "Ideogram",
-  "tagline": "AI images with text",
-  "description": "Text-to-image model that handles legible text inside images.",
+  "tagline": "Ideogram is an AI image generation platform known for its ability to accurately render readable text inside images, a persistent weakness of other generators. Beyond typography, it produces photorealistic and artistic images with strong prompt adherence. Designers and marketers use Ideogram when they need visuals that include legible logos, posters, or typographic elements.",
+  "description": "Ideogram is an AI image generation platform known for its ability to accurately render readable text inside images, a persistent weakness of other generators. Beyond typography, it produces photorealistic and artistic images with strong prompt adherence. Designers and marketers use Ideogram when they need visuals that include legible logos, posters, or typographic elements.",
   "url": "https://ideogram.ai",
   "logo_url": "https://www.google.com/s2/favicons?domain=ideogram.ai&sz=64",
   "screenshot_url": "/screenshots/ideogram.webp",
   "primary_category": "image-video",
   "tags": [
-    "image",
-    "text"
+    "image_generation",
+    "creative",
+    "text_to_image",
+    "visual",
+    "graphics",
+    "generative_ai",
+    "art",
+    "diffusion",
+    "prompting",
+    "image_based"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 79,
   "subcategory": "ai-image-generator",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

@@ -1,0 +1,29 @@
+{
+  "slug": "scalenut",
+  "name": "Scalenut",
+  "tagline": "Scalenut is an AI content platform that combines SEO research with AI writing. It analyses top-ranking pages for any keyword, builds a content brief with NLP-extracted topics, then helps writers produce optimised articles. Its Cruise Mode generates a full 1,500-word blog post from a keyword in under five minutes.",
+  "description": "Scalenut is an AI content platform that combines SEO research with AI writing. It analyses top-ranking pages for any keyword, builds a content brief with NLP-extracted topics, then helps writers produce optimised articles. Its Cruise Mode generates a full 1,500-word blog post from a keyword in under five minutes.",
+  "url": "https://scalenut.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=scalenut.com&sz=64",
+  "screenshot_url": "/screenshots/scalenut.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "writing",
+    "text_generation",
+    "productivity",
+    "content",
+    "editing",
+    "grammar",
+    "paraphrasing",
+    "ai_writing",
+    "drafting",
+    "nlp"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 72,
+  "subcategory": "ai-writer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

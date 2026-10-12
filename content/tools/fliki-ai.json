@@ -1,0 +1,30 @@
+{
+  "slug": "fliki-ai",
+  "name": "Fliki",
+  "tagline": "Fliki converts blog posts, scripts, tweets, and text into engaging videos using AI-generated voiceovers in 75+ languages and 1,300+ voices. It automatically matches relevant stock footage and images to the narration. Content marketers and educators use it to repurpose written content into video format with minimal effort.",
+  "description": "Fliki converts blog posts, scripts, tweets, and text into engaging videos using AI-generated voiceovers in 75+ languages and 1,300+ voices. It automatically matches relevant stock footage and images to the narration. Content marketers and educators use it to repurpose written content into video format with minimal effort.",
+  "url": "https://fliki.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=fliki.ai&sz=64",
+  "screenshot_url": "/screenshots/fliki-ai.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "video_generation",
+    "creative",
+    "text_to_video",
+    "animation",
+    "production",
+    "ai_video",
+    "generative",
+    "short_form",
+    "clips",
+    "image_based",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 75,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

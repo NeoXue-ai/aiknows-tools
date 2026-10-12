@@ -1,0 +1,31 @@
+{
+  "slug": "dvc",
+  "name": "DVC",
+  "tagline": "DVC (Data Version Control) is an open-source tool for versioning machine learning datasets, models, and experiments alongside code in Git. It provides a Git-like interface for managing large data files stored in cloud storage and enables reproducible ML pipelines.",
+  "description": "DVC (Data Version Control) is an open-source tool for versioning machine learning datasets, models, and experiments alongside code in Git. It provides a Git-like interface for managing large data files stored in cloud storage and enables reproducible ML pipelines.",
+  "url": "https://dvc.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=dvc.org&sz=64",
+  "screenshot_url": "/screenshots/dvc.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "open_source",
+    "cloud_based",
+    "machine_learning"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 72,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

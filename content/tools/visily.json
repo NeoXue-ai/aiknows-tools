@@ -1,0 +1,30 @@
+{
+  "slug": "visily",
+  "name": "Visily",
+  "tagline": "Visily is an AI-powered wireframing and prototyping tool that can convert a screenshot or sketch into an editable UI design in seconds. It includes 1,500+ templates, component libraries, and an AI assistant that generates screens from text descriptions. Design and product teams use it to go from idea to prototype in minutes.",
+  "description": "Visily is an AI-powered wireframing and prototyping tool that can convert a screenshot or sketch into an editable UI design in seconds. It includes 1,500+ templates, component libraries, and an AI assistant that generates screens from text descriptions. Design and product teams use it to go from idea to prototype in minutes.",
+  "url": "https://visily.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=visily.ai&sz=64",
+  "screenshot_url": null,
+  "primary_category": "image-video",
+  "tags": [
+    "design",
+    "image_editing",
+    "creative",
+    "visual",
+    "branding",
+    "typography",
+    "layouts",
+    "ui_design",
+    "illustration",
+    "collaboration",
+    "templates"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 64,
+  "subcategory": "ai-graphic-design",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

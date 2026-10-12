@@ -1,0 +1,31 @@
+{
+  "slug": "mastra",
+  "name": "Mastra",
+  "tagline": "Mastra is an open-source TypeScript framework for building AI agents, workflows, and RAG pipelines. It provides integrations with LLMs, tools, and memory systems, and is designed to help developers build production-ready agentic applications with type safety.",
+  "description": "Mastra is an open-source TypeScript framework for building AI agents, workflows, and RAG pipelines. It provides integrations with LLMs, tools, and memory systems, and is designed to help developers build production-ready agentic applications with type safety.",
+  "url": "https://mastra.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=mastra.ai&sz=64",
+  "screenshot_url": "/screenshots/mastra.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "open_source",
+    "integrations",
+    "model_based"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 77,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

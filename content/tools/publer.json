@@ -1,0 +1,29 @@
+{
+  "slug": "publer",
+  "name": "Publer",
+  "tagline": "Publer is a social media management tool for scheduling, publishing, and analyzing posts across Facebook, Instagram, TikTok, Twitter, LinkedIn, and Pinterest. Its AI assistant generates captions and content ideas, while analytics help teams understand which posts drive the most engagement.",
+  "description": "Publer is a social media management tool for scheduling, publishing, and analyzing posts across Facebook, Instagram, TikTok, Twitter, LinkedIn, and Pinterest. Its AI assistant generates captions and content ideas, while analytics help teams understand which posts drive the most engagement.",
+  "url": "https://publer.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=publer.io&sz=64",
+  "screenshot_url": "/screenshots/publer.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "social_media",
+    "marketing",
+    "content_creation",
+    "engagement",
+    "posting",
+    "scheduling",
+    "analytics",
+    "audience",
+    "platform",
+    "collaboration"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "social-media",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

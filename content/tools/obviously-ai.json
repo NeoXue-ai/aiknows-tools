@@ -1,21 +1,31 @@
 {
   "slug": "obviously-ai",
   "name": "Obviously AI",
-  "tagline": "No-code AI for predictions",
-  "description": "Build and deploy predictive models from a spreadsheet in minutes.",
+  "tagline": "Obviously AI lets non-technical users build predictive machine learning models from spreadsheet data through a point-and-click interface — predicting churn, lead conversion, sales forecasts, or any other business outcome without writing code. It automatically selects the best algorithm, trains the model, and explains predictions in plain English. Operations managers and business analysts use it to add AI-driven forecasting to workflows that previously required a data scientist.",
+  "description": "Obviously AI lets non-technical users build predictive machine learning models from spreadsheet data through a point-and-click interface — predicting churn, lead conversion, sales forecasts, or any other business outcome without writing code. It automatically selects the best algorithm, trains the model, and explains predictions in plain English. Operations managers and business analysts use it to add AI-driven forecasting to workflows that previously required a data scientist.",
   "url": "https://obviously.ai",
   "logo_url": "https://www.google.com/s2/favicons?domain=obviously.ai&sz=64",
   "screenshot_url": "/screenshots/obviously-ai.webp",
-  "primary_category": "business-analytics",
+  "primary_category": "research-data",
   "tags": [
-    "predictive",
-    "spreadsheet"
+    "data_analysis",
+    "analytics",
+    "business",
+    "insights",
+    "visualization",
+    "data_science",
+    "reporting",
+    "dashboards",
+    "sql",
+    "machine_learning",
+    "training",
+    "model_based"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
-  "subcategory": "ai-ad-creative",
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 63,
+  "subcategory": "ai-research",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

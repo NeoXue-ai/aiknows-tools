@@ -1,0 +1,29 @@
+{
+  "slug": "stampli-ai",
+  "name": "Stampli",
+  "tagline": "Stampli is an AI-powered accounts payable platform that centralises invoice communication, approvals, and payments on top of existing ERP systems. Its Billy the Bot AI learns each company's unique AP patterns, automatically coding invoices and routing them for approval with over 80% touchless processing rates.",
+  "description": "Stampli is an AI-powered accounts payable platform that centralises invoice communication, approvals, and payments on top of existing ERP systems. Its Billy the Bot AI learns each company's unique AP patterns, automatically coding invoices and routing them for approval with over 80% touchless processing rates.",
+  "url": "https://stampli.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=stampli.com&sz=64",
+  "screenshot_url": "/screenshots/stampli-ai.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "finance",
+    "business",
+    "analytics",
+    "accounting",
+    "investment",
+    "financial_planning",
+    "budgeting",
+    "fintech",
+    "reporting",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 69,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

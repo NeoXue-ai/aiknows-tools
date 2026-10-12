@@ -1,0 +1,28 @@
+{
+  "slug": "prowritingaid",
+  "name": "ProWritingAid",
+  "tagline": "ProWritingAid is a comprehensive writing assistant that goes deeper than grammar checking — it analyses pacing, repeated words, sentence length variation, dialogue tags, readability, and over 25 other writing dimensions to help authors write cleaner, more compelling prose. Integrated with Scrivener, Google Docs, and Word, it's a favourite among fiction writers and self-published authors who want manuscript-level editing without hiring a human editor. Its AI rephrasing suggestions and genre-specific style checks make it particularly strong for long-form writing.",
+  "description": "ProWritingAid is a comprehensive writing assistant that goes deeper than grammar checking — it analyses pacing, repeated words, sentence length variation, dialogue tags, readability, and over 25 other writing dimensions to help authors write cleaner, more compelling prose. Integrated with Scrivener, Google Docs, and Word, it's a favourite among fiction writers and self-published authors who want manuscript-level editing without hiring a human editor. Its AI rephrasing suggestions and genre-specific style checks make it particularly strong for long-form writing.",
+  "url": "https://prowritingaid.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=prowritingaid.com&sz=64",
+  "screenshot_url": "/screenshots/prowritingaid.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "writing",
+    "text_generation",
+    "productivity",
+    "content",
+    "editing",
+    "grammar",
+    "paraphrasing",
+    "ai_writing",
+    "drafting"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 79,
+  "subcategory": "ai-writer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

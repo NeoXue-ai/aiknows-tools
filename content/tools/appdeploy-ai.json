@@ -1,0 +1,29 @@
+{
+  "slug": "appdeploy-ai",
+  "name": "AppDeploy",
+  "tagline": "AppDeploy bridges the gap between AI-generated code and production deployment by handling hosting and infrastructure automatically. Developers using AI coding tools like Cursor or Claude use it to publish applications without setting up servers, configuring cloud accounts, or managing deployment pipelines manually. It is aimed at the friction point where AI can generate working code but getting that code live still requires significant DevOps knowledge that many developers lack or find time-consuming.",
+  "description": "AppDeploy bridges the gap between AI-generated code and production deployment by handling hosting and infrastructure automatically. Developers using AI coding tools like Cursor or Claude use it to publish applications without setting up servers, configuring cloud accounts, or managing deployment pipelines manually. It is aimed at the friction point where AI can generate working code but getting that code live still requires significant DevOps knowledge that many developers lack or find time-consuming.",
+  "url": "https://appdeploy.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=appdeploy.ai&sz=64",
+  "screenshot_url": "/screenshots/appdeploy-ai.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "cloud_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 62,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

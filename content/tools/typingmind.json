@@ -1,0 +1,31 @@
+{
+  "slug": "typingmind",
+  "name": "TypingMind",
+  "tagline": "TypingMind is a third-party chat interface that connects directly to OpenAI, Anthropic, and other model APIs using your own key, skipping the per-seat subscription that ChatGPT Plus and Claude Pro charge. It adds folders, prompt templates, team sharing, and plugins on top of the raw API, and bills you only for the tokens you actually use.",
+  "description": "TypingMind is a third-party chat interface that connects directly to OpenAI, Anthropic, and other model APIs using your own key, skipping the per-seat subscription that ChatGPT Plus and Claude Pro charge. It adds folders, prompt templates, team sharing, and plugins on top of the raw API, and bills you only for the tokens you actually use.",
+  "url": "https://typingmind.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=typingmind.com&sz=64",
+  "screenshot_url": "/screenshots/typingmind.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "chatbot",
+    "text_generation",
+    "ai_assistant",
+    "conversational",
+    "nlp",
+    "dialogue",
+    "llm",
+    "general_ai",
+    "question_answering",
+    "api_available",
+    "collaboration",
+    "templates"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 70,
+  "subcategory": "ai-chatbot",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

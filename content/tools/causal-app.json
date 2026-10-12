@@ -1,0 +1,31 @@
+{
+  "slug": "causal-app",
+  "name": "Causal",
+  "tagline": "Causal is a financial modelling and planning tool that replaces complex spreadsheets with an intuitive visual interface. Its AI features let finance teams build models from natural language descriptions, auto-generate scenario analyses, and create interactive dashboards for board presentations.",
+  "description": "Causal is a financial modelling and planning tool that replaces complex spreadsheets with an intuitive visual interface. Its AI features let finance teams build models from natural language descriptions, auto-generate scenario analyses, and create interactive dashboards for board presentations.",
+  "url": "https://causal.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=causal.app&sz=64",
+  "screenshot_url": "/screenshots/causal-app.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "finance",
+    "business",
+    "analytics",
+    "accounting",
+    "investment",
+    "financial_planning",
+    "budgeting",
+    "fintech",
+    "reporting",
+    "collaboration",
+    "nlp",
+    "image_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 60,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

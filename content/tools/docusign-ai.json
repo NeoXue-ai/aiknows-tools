@@ -1,0 +1,29 @@
+{
+  "slug": "docusign-ai",
+  "name": "DocuSign AI",
+  "tagline": "DocuSign is the world's leading e-signature platform, now enhanced with IAM (Intelligent Agreement Management) AI capabilities. Its AI extracts and analyses data from agreements, flags unusual clauses, and automates obligation tracking. Over 1 million customers across 180 countries use DocuSign to manage their agreement processes.",
+  "description": "DocuSign is the world's leading e-signature platform, now enhanced with IAM (Intelligent Agreement Management) AI capabilities. Its AI extracts and analyses data from agreements, flags unusual clauses, and automates obligation tracking. Over 1 million customers across 180 countries use DocuSign to manage their agreement processes.",
+  "url": "https://docusign.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=docusign.com&sz=64",
+  "screenshot_url": "/screenshots/docusign-ai.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "business",
+    "productivity",
+    "enterprise",
+    "operations",
+    "management",
+    "documents",
+    "contracts",
+    "proposals",
+    "workflow",
+    "customizable"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 88,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

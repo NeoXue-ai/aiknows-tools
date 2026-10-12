@@ -1,0 +1,31 @@
+{
+  "slug": "roboflow",
+  "name": "Roboflow",
+  "tagline": "Roboflow is a computer vision platform that handles the full workflow from dataset annotation to model training to deployment. Users can label images, augment datasets, fine-tune models like YOLOv8 and SAM, and deploy them to the cloud, edge devices, or web browsers. Its Universe library hosts over 250,000 public datasets and pre-trained models, dramatically reducing the time needed to start a new vision project. Roboflow is used by manufacturers for quality inspection, retailers for shelf analytics, and developers building object detection applications.",
+  "description": "Roboflow is a computer vision platform that handles the full workflow from dataset annotation to model training to deployment. Users can label images, augment datasets, fine-tune models like YOLOv8 and SAM, and deploy them to the cloud, edge devices, or web browsers. Its Universe library hosts over 250,000 public datasets and pre-trained models, dramatically reducing the time needed to start a new vision project. Roboflow is used by manufacturers for quality inspection, retailers for shelf analytics, and developers building object detection applications.",
+  "url": "https://roboflow.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=roboflow.com&sz=64",
+  "screenshot_url": "/screenshots/roboflow.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "cloud_based",
+    "image_based",
+    "analytics"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 78,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

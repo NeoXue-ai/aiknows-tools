@@ -1,0 +1,29 @@
+{
+  "slug": "akiflow",
+  "name": "Akiflow",
+  "tagline": "Akiflow is a productivity platform that pulls tasks from Asana, Jira, Gmail, Slack, Notion, and 10+ other tools into a single daily planner, then helps you time-block them into your calendar. Its Command Bar lets you capture and schedule tasks from anywhere with a keyboard shortcut in under two seconds. High-output professionals use Akiflow as the missing layer between their project management tools and their actual daily schedule.",
+  "description": "Akiflow is a productivity platform that pulls tasks from Asana, Jira, Gmail, Slack, Notion, and 10+ other tools into a single daily planner, then helps you time-block them into your calendar. Its Command Bar lets you capture and schedule tasks from anywhere with a keyboard shortcut in under two seconds. High-output professionals use Akiflow as the missing layer between their project management tools and their actual daily schedule.",
+  "url": "https://akiflow.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=akiflow.com&sz=64",
+  "screenshot_url": "/screenshots/akiflow.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "productivity",
+    "ai_assistant",
+    "efficiency",
+    "workflow",
+    "organization",
+    "tasks",
+    "focus",
+    "time_management",
+    "collaboration",
+    "powerful"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "productivity-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

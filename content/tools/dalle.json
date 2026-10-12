@@ -1,0 +1,30 @@
+{
+  "slug": "dalle",
+  "name": "DALL-E 3",
+  "tagline": "DALL-E 3 is OpenAI's image generation model, natively integrated into ChatGPT. It interprets detailed prompts more accurately than its predecessors and produces high-quality, photorealistic or stylised images in seconds. Millions of ChatGPT users access it daily to visualise ideas, create illustrations, and generate marketing assets.",
+  "description": "DALL-E 3 is OpenAI's image generation model, natively integrated into ChatGPT. It interprets detailed prompts more accurately than its predecessors and produces high-quality, photorealistic or stylised images in seconds. Millions of ChatGPT users access it daily to visualise ideas, create illustrations, and generate marketing assets.",
+  "url": "https://openai.com/dall-e-3",
+  "logo_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+  "screenshot_url": "/screenshots/dalle.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "image_generation",
+    "creative",
+    "text_to_image",
+    "visual",
+    "graphics",
+    "generative_ai",
+    "art",
+    "diffusion",
+    "prompting",
+    "image_based",
+    "model_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 93,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

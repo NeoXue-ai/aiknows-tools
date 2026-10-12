@@ -1,20 +1,29 @@
 {
   "slug": "predis-ai",
   "name": "Predis.ai",
-  "tagline": "AI social media posts",
-  "description": "Generate branded social posts and carousels in seconds.",
+  "tagline": "Predis.ai generates complete social media posts — caption, hashtags, and matching visual — from a product description or brand URL in seconds. It supports posts for Instagram, TikTok, LinkedIn, Facebook, and YouTube Shorts, and produces reels, carousels, and static images. Small business owners and content managers use it to maintain a consistent multi-platform posting schedule without a dedicated design or copywriting resource.",
+  "description": "Predis.ai generates complete social media posts — caption, hashtags, and matching visual — from a product description or brand URL in seconds. It supports posts for Instagram, TikTok, LinkedIn, Facebook, and YouTube Shorts, and produces reels, carousels, and static images. Small business owners and content managers use it to maintain a consistent multi-platform posting schedule without a dedicated design or copywriting resource.",
   "url": "https://predis.ai",
   "logo_url": "https://www.google.com/s2/favicons?domain=predis.ai&sz=64",
   "screenshot_url": "/screenshots/predis-ai.webp",
   "primary_category": "seo-marketing",
   "tags": [
-    "social"
+    "social_media",
+    "marketing",
+    "content_creation",
+    "engagement",
+    "posting",
+    "scheduling",
+    "analytics",
+    "audience",
+    "platform",
+    "image_based"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 78,
   "subcategory": "social-media",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

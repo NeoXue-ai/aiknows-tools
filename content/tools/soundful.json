@@ -1,0 +1,30 @@
+{
+  "slug": "soundful",
+  "name": "Soundful",
+  "tagline": "Soundful generates royalty-free background music for videos, podcasts, and content using AI. Creators choose a genre and mood, and the platform produces unique tracks they can use commercially without attribution or licensing fees. Each generated track is unique, so the same creator will not end up using the same audio as thousands of other videos.",
+  "description": "Soundful generates royalty-free background music for videos, podcasts, and content using AI. Creators choose a genre and mood, and the platform produces unique tracks they can use commercially without attribution or licensing fees. Each generated track is unique, so the same creator will not end up using the same audio as thousands of other videos.",
+  "url": "https://soundful.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=soundful.com&sz=64",
+  "screenshot_url": "/screenshots/soundful.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "music_generation",
+    "audio",
+    "creative",
+    "music",
+    "composition",
+    "ai_music",
+    "beats",
+    "melody",
+    "soundtrack",
+    "free_tier",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 64,
+  "subcategory": "ai-music-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

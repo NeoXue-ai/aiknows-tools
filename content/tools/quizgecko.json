@@ -1,0 +1,28 @@
+{
+  "slug": "quizgecko",
+  "name": "Quizgecko",
+  "tagline": "Quizgecko turns text, documents, or URLs into multiple-choice, true/false, and short-answer quizzes using AI. Instructional designers and trainers use it to build knowledge checks for e-learning courses without writing questions by hand, then export the results to common LMS formats.",
+  "description": "Quizgecko turns text, documents, or URLs into multiple-choice, true/false, and short-answer quizzes using AI. Instructional designers and trainers use it to build knowledge checks for e-learning courses without writing questions by hand, then export the results to common LMS formats.",
+  "url": "https://quizgecko.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=quizgecko.com&sz=64",
+  "screenshot_url": "/screenshots/quizgecko.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "education",
+    "learning",
+    "teaching",
+    "courses",
+    "training",
+    "tutoring",
+    "study",
+    "assessment",
+    "e_learning"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 60,
+  "subcategory": "ai-education",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

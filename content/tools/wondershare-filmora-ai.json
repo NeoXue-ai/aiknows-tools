@@ -1,0 +1,29 @@
+{
+  "slug": "wondershare-filmora-ai",
+  "name": "Filmora AI",
+  "tagline": "Wondershare Filmora is a consumer video editor packed with AI tools including smart cutout, AI portrait, motion tracking, noise removal, and an AI text-based editor that edits video by editing its transcript. It targets YouTubers, vloggers, and social-media creators who want professional results without steep learning curves.",
+  "description": "Wondershare Filmora is a consumer video editor packed with AI tools including smart cutout, AI portrait, motion tracking, noise removal, and an AI text-based editor that edits video by editing its transcript. It targets YouTubers, vloggers, and social-media creators who want professional results without steep learning curves.",
+  "url": "https://filmora.wondershare.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=filmora.wondershare.com&sz=64",
+  "screenshot_url": "/screenshots/wondershare-filmora-ai.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "video_editing",
+    "creative",
+    "video",
+    "production",
+    "media",
+    "cutting",
+    "transitions",
+    "effects",
+    "export",
+    "powerful"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 85,
+  "subcategory": "ai-video-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "rookout",
+  "name": "Rookout",
+  "tagline": "Rookout is a cloud-native debugging platform that lets developers collect logs, metrics, and traces from production applications without deploying code changes. Engineering teams use it to set non-breaking breakpoints that capture variable state and execution context in live environments where traditional debuggers cannot be attached. It supports Python, Node.js, Java, and other runtimes and is designed for containerized and microservices architectures where reproducing bugs locally is often impractical.",
+  "description": "Rookout is a cloud-native debugging platform that lets developers collect logs, metrics, and traces from production applications without deploying code changes. Engineering teams use it to set non-breaking breakpoints that capture variable state and execution context in live environments where traditional debuggers cannot be attached. It supports Python, Node.js, Java, and other runtimes and is designed for containerized and microservices architectures where reproducing bugs locally is often impractical.",
+  "url": "https://rookout.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=rookout.com&sz=64",
+  "screenshot_url": "/screenshots/rookout.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "collaboration",
+    "cloud_based",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool",
+    "service",
+    "solution"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 68,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

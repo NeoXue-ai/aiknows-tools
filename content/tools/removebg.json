@@ -1,0 +1,31 @@
+{
+  "slug": "removebg",
+  "name": "Remove.bg",
+  "tagline": "Remove.bg pioneered instant AI background removal, processing any image in under five seconds with clean, precise edges around hair, fur, and complex subjects. It's available as a web app, desktop app, API, and plugins for Photoshop, Figma, and Canva. E-commerce businesses, photographers, and designers use it to produce clean product shots and cutouts at high volume without manual masking.",
+  "description": "Remove.bg pioneered instant AI background removal, processing any image in under five seconds with clean, precise edges around hair, fur, and complex subjects. It's available as a web app, desktop app, API, and plugins for Photoshop, Figma, and Canva. E-commerce businesses, photographers, and designers use it to produce clean product shots and cutouts at high volume without manual masking.",
+  "url": "https://remove.bg",
+  "logo_url": "https://www.google.com/s2/favicons?domain=remove.bg&sz=64",
+  "screenshot_url": "/screenshots/removebg.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "image_editing",
+    "design",
+    "creative",
+    "background",
+    "image_processing",
+    "cutout",
+    "transparency",
+    "photo_editing",
+    "visual",
+    "api_available",
+    "image_based",
+    "fast"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 83,
+  "subcategory": "ai-background-remover",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

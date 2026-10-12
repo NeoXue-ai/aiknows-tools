@@ -1,0 +1,30 @@
+{
+  "slug": "compose-ai",
+  "name": "Compose AI",
+  "tagline": "Compose AI is a Chrome extension that adds AI autocomplete to any text field on the web — email, Notion, Google Docs, LinkedIn, and more. It learns your writing style over time and offers inline completions, rephrase suggestions, and email reply drafts without switching apps.",
+  "description": "Compose AI is a Chrome extension that adds AI autocomplete to any text field on the web — email, Notion, Google Docs, LinkedIn, and more. It learns your writing style over time and offers inline completions, rephrase suggestions, and email reply drafts without switching apps.",
+  "url": "https://compose.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=compose.ai&sz=64",
+  "screenshot_url": "/screenshots/compose-ai.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "writing",
+    "text_generation",
+    "productivity",
+    "content",
+    "editing",
+    "grammar",
+    "paraphrasing",
+    "ai_writing",
+    "drafting",
+    "browser_extension",
+    "extensible"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 60,
+  "subcategory": "ai-writer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

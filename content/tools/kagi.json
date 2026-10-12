@@ -1,0 +1,31 @@
+{
+  "slug": "kagi",
+  "name": "Kagi",
+  "tagline": "Kagi is a paid, ad-free search engine that puts user experience above advertiser interests — results are never influenced by SEO manipulation or sponsored placement. Its AI features include Fast Answer (instant AI summaries at the top of results), Summarize (one-click summaries of any web page), and the Kagi Assistant, which combines search with GPT-4 and Claude for conversational research. Users who switch report significantly cleaner, more relevant results than Google, and the privacy-first business model has built a loyal subscriber base.",
+  "description": "Kagi is a paid, ad-free search engine that puts user experience above advertiser interests — results are never influenced by SEO manipulation or sponsored placement. Its AI features include Fast Answer (instant AI summaries at the top of results), Summarize (one-click summaries of any web page), and the Kagi Assistant, which combines search with GPT-4 and Claude for conversational research. Users who switch report significantly cleaner, more relevant results than Google, and the privacy-first business model has built a loyal subscriber base.",
+  "url": "https://kagi.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=kagi.com&sz=64",
+  "screenshot_url": "/screenshots/kagi.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "search",
+    "ai_assistant",
+    "discovery",
+    "information",
+    "query",
+    "web_search",
+    "answers",
+    "knowledge",
+    "retrieval",
+    "free_tier",
+    "secure",
+    "model_based"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 79,
+  "subcategory": "ai-search-engine",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

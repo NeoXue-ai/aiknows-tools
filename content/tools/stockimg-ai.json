@@ -1,0 +1,31 @@
+{
+  "slug": "stockimg-ai",
+  "name": "StockImg AI",
+  "tagline": "StockImg AI generates custom stock images, logos, book covers, posters, wallpapers, and UI designs from text prompts. Unlike standard stock photo sites, every image is unique and royalty-free. Teams use it to generate on-brand marketing visuals without paying per-image licensing fees.",
+  "description": "StockImg AI generates custom stock images, logos, book covers, posters, wallpapers, and UI designs from text prompts. Unlike standard stock photo sites, every image is unique and royalty-free. Teams use it to generate on-brand marketing visuals without paying per-image licensing fees.",
+  "url": "https://stockimg.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=stockimg.ai&sz=64",
+  "screenshot_url": "/screenshots/stockimg-ai.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "image_generation",
+    "creative",
+    "text_to_image",
+    "visual",
+    "graphics",
+    "generative_ai",
+    "art",
+    "diffusion",
+    "prompting",
+    "collaboration",
+    "free_tier",
+    "customizable"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 68,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

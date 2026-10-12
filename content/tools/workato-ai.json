@@ -1,0 +1,30 @@
+{
+  "slug": "workato-ai",
+  "name": "Workato",
+  "tagline": "Workato is an enterprise automation platform that connects apps and automates complex business workflows without code. Its AI features include a natural language recipe builder, intelligent document processing, and AI-powered bots. Over 17,000 enterprises use Workato to automate processes across HR, finance, and IT.",
+  "description": "Workato is an enterprise automation platform that connects apps and automates complex business workflows without code. Its AI features include a natural language recipe builder, intelligent document processing, and AI-powered bots. Over 17,000 enterprises use Workato to automate processes across HR, finance, and IT.",
+  "url": "https://workato.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=workato.com&sz=64",
+  "screenshot_url": "/screenshots/workato-ai.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "automation",
+    "workflow",
+    "productivity",
+    "efficiency",
+    "process",
+    "integration",
+    "triggers",
+    "bots",
+    "orchestration",
+    "enterprise",
+    "nlp"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 81,
+  "subcategory": "ai-workflow",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

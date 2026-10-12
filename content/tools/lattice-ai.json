@@ -1,0 +1,29 @@
+{
+  "slug": "lattice-ai",
+  "name": "Lattice AI",
+  "tagline": "Lattice is a people management platform that helps HR teams manage performance reviews, OKRs, and employee engagement. Its AI features include automated performance review writing assistance, engagement survey analysis, and an AI HR assistant for answering policy questions. Over 5,000 companies use it to build high-performing cultures.",
+  "description": "Lattice is a people management platform that helps HR teams manage performance reviews, OKRs, and employee engagement. Its AI features include automated performance review writing assistance, engagement survey analysis, and an AI HR assistant for answering policy questions. Over 5,000 companies use it to build high-performing cultures.",
+  "url": "https://lattice.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=lattice.com&sz=64",
+  "screenshot_url": "/screenshots/lattice-ai.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "hr",
+    "business",
+    "recruitment",
+    "employees",
+    "human_resources",
+    "onboarding",
+    "performance",
+    "payroll",
+    "talent",
+    "collaboration"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 79,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

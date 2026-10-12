@@ -1,0 +1,29 @@
+{
+  "slug": "smartly",
+  "name": "Smartly.io",
+  "tagline": "Smartly.io is an AI-powered social advertising platform that automates creative production, campaign management, and optimisation across Meta, TikTok, Snapchat, and Pinterest at scale. Its AI generates creative variations from brand assets and continuously shifts budget toward the combinations and audiences driving the best results. Performance-focused brands managing significant social ad spend use it to run hundreds of ad variants efficiently.",
+  "description": "Smartly.io is an AI-powered social advertising platform that automates creative production, campaign management, and optimisation across Meta, TikTok, Snapchat, and Pinterest at scale. Its AI generates creative variations from brand assets and continuously shifts budget toward the combinations and audiences driving the best results. Performance-focused brands managing significant social ad spend use it to run hundreds of ad variants efficiently.",
+  "url": "https://smartly.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=smartly.io&sz=64",
+  "screenshot_url": "/screenshots/smartly.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "advertising",
+    "marketing",
+    "creative",
+    "ads",
+    "campaigns",
+    "ad_copy",
+    "digital_ads",
+    "performance",
+    "targeting",
+    "fast"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 76,
+  "subcategory": "ai-ad-creative",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

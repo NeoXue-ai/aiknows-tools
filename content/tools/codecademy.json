@@ -1,0 +1,30 @@
+{
+  "slug": "codecademy",
+  "name": "Codecademy",
+  "tagline": "Codecademy is an interactive online learning platform offering courses in programming, data science, and web development. It uses AI to provide personalized learning paths, instant feedback on code exercises, and an AI coding assistant to help learners overcome challenges.",
+  "description": "Codecademy is an interactive online learning platform offering courses in programming, data science, and web development. It uses AI to provide personalized learning paths, instant feedback on code exercises, and an AI coding assistant to help learners overcome challenges.",
+  "url": "https://codecademy.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=codecademy.com&sz=64",
+  "screenshot_url": "/screenshots/codecademy.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "education",
+    "learning",
+    "teaching",
+    "courses",
+    "training",
+    "tutoring",
+    "study",
+    "assessment",
+    "e_learning",
+    "customizable",
+    "fast"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 87,
+  "subcategory": "ai-education",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

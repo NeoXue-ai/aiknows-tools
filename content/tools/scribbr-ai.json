@@ -1,0 +1,29 @@
+{
+  "slug": "scribbr-ai",
+  "name": "Scribbr",
+  "tagline": "Scribbr offers a suite of AI tools for academic writing including a citation generator supporting APA, MLA, Chicago, and Harvard styles, a paraphrasing tool, a grammar checker, and a plagiarism checker. It is trusted by millions of students worldwide for producing publication-quality academic work.",
+  "description": "Scribbr offers a suite of AI tools for academic writing including a citation generator supporting APA, MLA, Chicago, and Harvard styles, a paraphrasing tool, a grammar checker, and a plagiarism checker. It is trusted by millions of students worldwide for producing publication-quality academic work.",
+  "url": "https://scribbr.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=scribbr.com&sz=64",
+  "screenshot_url": "/screenshots/scribbr-ai.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "writing",
+    "text_generation",
+    "productivity",
+    "content",
+    "editing",
+    "grammar",
+    "paraphrasing",
+    "ai_writing",
+    "drafting",
+    "machine_learning"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 79,
+  "subcategory": "ai-writer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

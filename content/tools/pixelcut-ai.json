@@ -1,0 +1,31 @@
+{
+  "slug": "pixelcut-ai",
+  "name": "Pixelcut",
+  "tagline": "Pixelcut is an AI-powered photo editor built specifically for e-commerce product photography. It removes backgrounds, generates AI product backgrounds, upscales images, and batch-edits product photos to create consistent, professional listings for Shopify, Etsy, and Amazon. Its mobile app makes studio-quality photos possible from a smartphone.",
+  "description": "Pixelcut is an AI-powered photo editor built specifically for e-commerce product photography. It removes backgrounds, generates AI product backgrounds, upscales images, and batch-edits product photos to create consistent, professional listings for Shopify, Etsy, and Amazon. Its mobile app makes studio-quality photos possible from a smartphone.",
+  "url": "https://pixelcut.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=pixelcut.ai&sz=64",
+  "screenshot_url": "/screenshots/pixelcut-ai.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "image_editing",
+    "design",
+    "creative",
+    "photo",
+    "visual",
+    "retouching",
+    "filters",
+    "enhancement",
+    "manipulation",
+    "mobile_app",
+    "image_based",
+    "powerful"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "ai-photo-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

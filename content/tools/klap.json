@@ -1,0 +1,28 @@
+{
+  "slug": "klap",
+  "name": "Klap",
+  "tagline": "Klap is an AI tool that automatically identifies the most engaging moments in long-form videos and repurposes them into short clips optimized for TikTok, Reels, and YouTube Shorts. It adds dynamic captions and reframes the video for vertical format automatically.",
+  "description": "Klap is an AI tool that automatically identifies the most engaging moments in long-form videos and repurposes them into short clips optimized for TikTok, Reels, and YouTube Shorts. It adds dynamic captions and reframes the video for vertical format automatically.",
+  "url": "https://klap.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=klap.app&sz=64",
+  "screenshot_url": "/screenshots/klap.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "video_editing",
+    "creative",
+    "video",
+    "production",
+    "media",
+    "cutting",
+    "transitions",
+    "effects",
+    "export"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 63,
+  "subcategory": "ai-video-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

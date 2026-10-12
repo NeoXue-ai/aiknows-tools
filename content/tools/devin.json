@@ -1,0 +1,30 @@
+{
+  "slug": "devin",
+  "name": "Devin",
+  "tagline": "Devin is Cognition AI's autonomous software agent, marketed as the world's first AI software engineer. Given a task, Devin opens a terminal, writes and runs code, browses the web for documentation, and iterates until the problem is solved — without human hand-holding. It targets engineering teams who want to delegate complete, well-scoped tasks rather than just get code suggestions.",
+  "description": "Devin is Cognition AI's autonomous software agent, marketed as the world's first AI software engineer. Given a task, Devin opens a terminal, writes and runs code, browses the web for documentation, and iterates until the problem is solved — without human hand-holding. It targets engineering teams who want to delegate complete, well-scoped tasks rather than just get code suggestions.",
+  "url": "https://devin.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=devin.ai&sz=64",
+  "screenshot_url": "/screenshots/devin.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "code_generation",
+    "developer_tools",
+    "productivity",
+    "coding",
+    "programming",
+    "autocomplete",
+    "debugging",
+    "refactoring",
+    "ide",
+    "collaboration",
+    "autonomous"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 84,
+  "subcategory": "ai-code-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

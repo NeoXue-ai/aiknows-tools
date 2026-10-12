@@ -1,0 +1,31 @@
+{
+  "slug": "copysmith",
+  "name": "Copysmith",
+  "tagline": "Copysmith is an AI content generation platform specializing in e-commerce copy, including product descriptions, ad headlines, and email campaigns. It integrates with platforms like Shopify and Google Ads to help marketing teams produce and publish large volumes of product content efficiently.",
+  "description": "Copysmith is an AI content generation platform specializing in e-commerce copy, including product descriptions, ad headlines, and email campaigns. It integrates with platforms like Shopify and Google Ads to help marketing teams produce and publish large volumes of product content efficiently.",
+  "url": "https://copysmith.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=copysmith.ai&sz=64",
+  "screenshot_url": "/screenshots/copysmith.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "writing",
+    "marketing",
+    "text_generation",
+    "copy",
+    "content",
+    "ad_copy",
+    "seo_writing",
+    "brand_voice",
+    "persuasion",
+    "collaboration",
+    "integrations",
+    "fast"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 71,
+  "subcategory": "ai-writer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

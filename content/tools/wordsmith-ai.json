@@ -1,0 +1,31 @@
+{
+  "slug": "wordsmith-ai",
+  "name": "Wordsmith",
+  "tagline": "Wordsmith by Automated Insights is a natural language generation platform that converts structured data into written narratives at scale. Companies use it to generate thousands of personalised reports, product descriptions, and financial summaries automatically. The Associated Press uses Wordsmith to produce automated earnings reports.",
+  "description": "Wordsmith by Automated Insights is a natural language generation platform that converts structured data into written narratives at scale. Companies use it to generate thousands of personalised reports, product descriptions, and financial summaries automatically. The Associated Press uses Wordsmith to produce automated earnings reports.",
+  "url": "https://automatedinsights.com/wordsmith",
+  "logo_url": "https://www.google.com/s2/favicons?domain=automatedinsights.com&sz=64",
+  "screenshot_url": null,
+  "primary_category": "writing-content",
+  "tags": [
+    "writing",
+    "text_generation",
+    "productivity",
+    "content",
+    "editing",
+    "grammar",
+    "paraphrasing",
+    "ai_writing",
+    "drafting",
+    "customizable",
+    "nlp",
+    "analytics"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 69,
+  "subcategory": "ai-writer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

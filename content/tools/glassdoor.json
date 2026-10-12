@@ -1,0 +1,29 @@
+{
+  "slug": "glassdoor",
+  "name": "Glassdoor",
+  "tagline": "Glassdoor is a job search and company review platform where current and former employees post candid ratings on salary, culture, management, and interview experiences. Its AI surfaces personalised job recommendations based on your profile, and the salary data lets candidates negotiate from a position of knowledge. Job seekers use it to see through the polished surface of company career pages.",
+  "description": "Glassdoor is a job search and company review platform where current and former employees post candid ratings on salary, culture, management, and interview experiences. Its AI surfaces personalised job recommendations based on your profile, and the salary data lets candidates negotiate from a position of knowledge. Job seekers use it to see through the polished surface of company career pages.",
+  "url": "https://glassdoor.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=glassdoor.com&sz=64",
+  "screenshot_url": null,
+  "primary_category": "productivity",
+  "tags": [
+    "career",
+    "hr",
+    "recruitment",
+    "jobs",
+    "employment",
+    "job_search",
+    "resume",
+    "interview",
+    "hiring",
+    "customizable"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 91,
+  "subcategory": "productivity-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

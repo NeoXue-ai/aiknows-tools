@@ -1,0 +1,31 @@
+{
+  "slug": "befunky",
+  "name": "BeFunky",
+  "tagline": "BeFunky is an online photo editor and graphic design platform with AI-powered tools including AI photo enhancer, background remover, face retouching, and cartoonizer. It also includes a collage maker and hundreds of design templates, making it popular for quick social media graphics.",
+  "description": "BeFunky is an online photo editor and graphic design platform with AI-powered tools including AI photo enhancer, background remover, face retouching, and cartoonizer. It also includes a collage maker and hundreds of design templates, making it popular for quick social media graphics.",
+  "url": "https://befunky.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=befunky.com&sz=64",
+  "screenshot_url": "/screenshots/befunky.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "image_editing",
+    "design",
+    "creative",
+    "photo",
+    "visual",
+    "retouching",
+    "filters",
+    "enhancement",
+    "manipulation",
+    "templates",
+    "image_based",
+    "fast"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 80,
+  "subcategory": "ai-photo-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

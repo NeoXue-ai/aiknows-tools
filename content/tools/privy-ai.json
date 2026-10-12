@@ -1,0 +1,29 @@
+{
+  "slug": "privy-ai",
+  "name": "Privy",
+  "tagline": "Privy is an e-commerce marketing platform for Shopify and WooCommerce stores that combines pop-ups, email, and SMS marketing. Its AI helps create targeted campaigns based on cart abandonment, browsing behaviour, and purchase history, helping small e-commerce brands compete with enterprise marketing tools.",
+  "description": "Privy is an e-commerce marketing platform for Shopify and WooCommerce stores that combines pop-ups, email, and SMS marketing. Its AI helps create targeted campaigns based on cart abandonment, browsing behaviour, and purchase history, helping small e-commerce brands compete with enterprise marketing tools.",
+  "url": "https://privy.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=privy.com&sz=64",
+  "screenshot_url": "/screenshots/privy-ai.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "ecommerce",
+    "business",
+    "marketing",
+    "retail",
+    "shopping",
+    "online_store",
+    "product_catalog",
+    "checkout",
+    "conversions",
+    "enterprise"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 77,
+  "subcategory": "ecommerce",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

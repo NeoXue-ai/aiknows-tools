@@ -1,0 +1,29 @@
+{
+  "slug": "udio",
+  "name": "Udio",
+  "tagline": "Udio is an AI music generation platform that produces high-fidelity, studio-quality songs from text prompts, with strong handling of lyrics, structure, and genre specificity. It allows users to extend, remix, and refine generated tracks with fine-grained control over individual sections. Musicians and content creators use Udio when audio quality and musical accuracy are the priority.",
+  "description": "Udio is an AI music generation platform that produces high-fidelity, studio-quality songs from text prompts, with strong handling of lyrics, structure, and genre specificity. It allows users to extend, remix, and refine generated tracks with fine-grained control over individual sections. Musicians and content creators use Udio when audio quality and musical accuracy are the priority.",
+  "url": "https://udio.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=udio.com&sz=64",
+  "screenshot_url": "/screenshots/udio.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "music_generation",
+    "audio",
+    "creative",
+    "music",
+    "composition",
+    "ai_music",
+    "beats",
+    "melody",
+    "soundtrack",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 76,
+  "subcategory": "ai-music-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

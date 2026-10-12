@@ -1,0 +1,29 @@
+{
+  "slug": "synthesis",
+  "name": "Synthesis",
+  "tagline": "Synthesis is an AI-powered learning platform that teaches children maths and critical thinking through collaborative, game-like problem-solving challenges. Originally developed for students at SpaceX's Ad Astra school, it adapts difficulty in real time and focuses on the reasoning process rather than rote memorisation. Parents and schools use Synthesis as a supplement to traditional education for students who need more challenge or a more engaging format than standard curriculum.",
+  "description": "Synthesis is an AI-powered learning platform that teaches children maths and critical thinking through collaborative, game-like problem-solving challenges. Originally developed for students at SpaceX's Ad Astra school, it adapts difficulty in real time and focuses on the reasoning process rather than rote memorisation. Parents and schools use Synthesis as a supplement to traditional education for students who need more challenge or a more engaging format than standard curriculum.",
+  "url": "https://synthesis.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=synthesis.com&sz=64",
+  "screenshot_url": "/screenshots/synthesis.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "education",
+    "learning",
+    "teaching",
+    "courses",
+    "training",
+    "tutoring",
+    "study",
+    "assessment",
+    "e_learning",
+    "collaboration"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 60,
+  "subcategory": "ai-education",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

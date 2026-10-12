@@ -1,0 +1,29 @@
+{
+  "slug": "crunchbase-ai",
+  "name": "Crunchbase",
+  "tagline": "Crunchbase is the leading platform for discovering business information and investment activity, with AI powering its recommendation engine and predictive intelligence alerts. Its AI notifies investors and BD teams when companies in their target market raise funding, make hires, or hit growth signals.",
+  "description": "Crunchbase is the leading platform for discovering business information and investment activity, with AI powering its recommendation engine and predictive intelligence alerts. Its AI notifies investors and BD teams when companies in their target market raise funding, make hires, or hit growth signals.",
+  "url": "https://crunchbase.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=crunchbase.com&sz=64",
+  "screenshot_url": "/screenshots/crunchbase-ai.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "market_research",
+    "business",
+    "analytics",
+    "consumer",
+    "insights",
+    "surveys",
+    "competitive_analysis",
+    "trends",
+    "intelligence",
+    "collaboration"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 91,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

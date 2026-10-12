@@ -1,0 +1,29 @@
+{
+  "slug": "heptabase",
+  "name": "Heptabase",
+  "tagline": "Heptabase is a visual note-taking tool that lets users arrange cards (notes) on infinite whiteboards for spatial thinking. Its AI features include semantic search across all notes, AI-generated connections between related cards, and an AI assistant that synthesises your personal knowledge base to answer questions.",
+  "description": "Heptabase is a visual note-taking tool that lets users arrange cards (notes) on infinite whiteboards for spatial thinking. Its AI features include semantic search across all notes, AI-generated connections between related cards, and an AI assistant that synthesises your personal knowledge base to answer questions.",
+  "url": "https://heptabase.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=heptabase.com&sz=64",
+  "screenshot_url": "/screenshots/heptabase.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "note_taking",
+    "productivity",
+    "knowledge_base",
+    "organization",
+    "documentation",
+    "markdown",
+    "journaling",
+    "tasks",
+    "sync",
+    "image_based"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 61,
+  "subcategory": "ai-note-taker",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

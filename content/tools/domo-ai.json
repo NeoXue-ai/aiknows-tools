@@ -1,0 +1,31 @@
+{
+  "slug": "domo-ai",
+  "name": "Domo AI",
+  "tagline": "Domo is a cloud-based business intelligence and data platform that embeds AI throughout its product. Its AI features include predictive analytics, anomaly detection, and an AI assistant that answers business questions in plain language. Domo connects to 1,000+ data sources and visualises real-time data in executive dashboards.",
+  "description": "Domo is a cloud-based business intelligence and data platform that embeds AI throughout its product. Its AI features include predictive analytics, anomaly detection, and an AI assistant that answers business questions in plain language. Domo connects to 1,000+ data sources and visualises real-time data in executive dashboards.",
+  "url": "https://domo.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=domo.com&sz=64",
+  "screenshot_url": "/screenshots/domo-ai.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "data_analysis",
+    "analytics",
+    "business",
+    "insights",
+    "visualization",
+    "data_science",
+    "reporting",
+    "dashboards",
+    "sql",
+    "real_time",
+    "cloud_based",
+    "image_based"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 81,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

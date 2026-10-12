@@ -1,0 +1,29 @@
+{
+  "slug": "appsheet",
+  "name": "AppSheet",
+  "tagline": "AppSheet is Google's no-code platform for building mobile and web applications directly from spreadsheet and database data. Its AI-powered app creation assistant generates a functional app from a description, and automation rules can trigger actions based on data changes. Enterprises use it to replace manual processes with mobile workflows.",
+  "description": "AppSheet is Google's no-code platform for building mobile and web applications directly from spreadsheet and database data. Its AI-powered app creation assistant generates a functional app from a description, and automation rules can trigger actions based on data changes. Enterprises use it to replace manual processes with mobile workflows.",
+  "url": "https://appsheet.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=appsheet.com&sz=64",
+  "screenshot_url": "/screenshots/appsheet.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "no_code",
+    "app_builder",
+    "developer_tools",
+    "app_development",
+    "lowcode",
+    "rapid_prototyping",
+    "mobile_apps",
+    "web_apps",
+    "deployment",
+    "enterprise"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 80,
+  "subcategory": "ai-app-builder",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

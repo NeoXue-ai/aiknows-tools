@@ -1,0 +1,31 @@
+{
+  "slug": "salesloft",
+  "name": "SalesLoft",
+  "tagline": "Salesloft is a sales engagement platform that helps revenue teams orchestrate multi-channel outreach sequences and analyse what cadences, messaging, and timings produce the most meetings and pipeline. Its Rhythm AI engine surface prioritises the daily actions reps should take based on buyer engagement signals. Enterprise SDR teams and account executives use it to run disciplined, high-volume prospecting without losing personalisation.",
+  "description": "Salesloft is a sales engagement platform that helps revenue teams orchestrate multi-channel outreach sequences and analyse what cadences, messaging, and timings produce the most meetings and pipeline. Its Rhythm AI engine surface prioritises the daily actions reps should take based on buyer engagement signals. Enterprise SDR teams and account executives use it to run disciplined, high-volume prospecting without losing personalisation.",
+  "url": "https://salesloft.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=salesloft.com&sz=64",
+  "screenshot_url": "/screenshots/salesloft.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "sales",
+    "business",
+    "crm",
+    "revenue",
+    "conversion",
+    "pipeline",
+    "prospecting",
+    "closing",
+    "forecasting",
+    "collaboration",
+    "enterprise",
+    "customizable"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 83,
+  "subcategory": "sales",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

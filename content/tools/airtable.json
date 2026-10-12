@@ -1,0 +1,31 @@
+{
+  "slug": "airtable",
+  "name": "Airtable",
+  "tagline": "Airtable is a flexible no-code database and spreadsheet hybrid that powers everything from content calendars to product roadmaps. Its AI features can generate field formulas, summarise records, and classify data automatically. Teams appreciate how quickly a non-engineer can build a relational app without writing SQL.",
+  "description": "Airtable is a flexible no-code database and spreadsheet hybrid that powers everything from content calendars to product roadmaps. Its AI features can generate field formulas, summarise records, and classify data automatically. Teams appreciate how quickly a non-engineer can build a relational app without writing SQL.",
+  "url": "https://airtable.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=airtable.com&sz=64",
+  "screenshot_url": "/screenshots/airtable.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "no_code",
+    "automation",
+    "app_builder",
+    "lowcode",
+    "visual",
+    "drag_and_drop",
+    "workflow",
+    "builder",
+    "citizen_developer",
+    "collaboration",
+    "fast",
+    "versatile"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 91,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "hugging-face",
+  "name": "Hugging Face",
+  "tagline": "Hugging Face is the central hub of the open-source AI ecosystem, hosting over 900,000 models, 200,000 datasets, and 300,000 interactive demo Spaces. It provides the Transformers library, the Inference API, and a social platform where researchers share new models the day they drop. From BERT and Stable Diffusion to Llama and Mistral, virtually every major open model ships to Hugging Face first, making it the essential destination for anyone working with or exploring AI.",
+  "description": "Hugging Face is the central hub of the open-source AI ecosystem, hosting over 900,000 models, 200,000 datasets, and 300,000 interactive demo Spaces. It provides the Transformers library, the Inference API, and a social platform where researchers share new models the day they drop. From BERT and Stable Diffusion to Llama and Mistral, virtually every major open model ships to Hugging Face first, making it the essential destination for anyone working with or exploring AI.",
+  "url": "https://huggingface.co",
+  "logo_url": "https://www.google.com/s2/favicons?domain=huggingface.co&sz=64",
+  "screenshot_url": "/screenshots/hugging-face.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "llm",
+    "foundation_model",
+    "ai_model",
+    "machine_learning",
+    "neural",
+    "inference",
+    "fine_tuning",
+    "api",
+    "open_source",
+    "api_available",
+    "model_based",
+    "community_driven"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 92,
+  "subcategory": "ai-models",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

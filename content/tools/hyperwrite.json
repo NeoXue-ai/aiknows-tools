@@ -1,0 +1,30 @@
+{
+  "slug": "hyperwrite",
+  "name": "HyperWrite",
+  "tagline": "HyperWrite is an AI writing assistant that helps users research topics, draft documents, and rewrite existing content. It offers a Chrome extension, document editor, and AI agent that can browse the web and perform tasks on the user's behalf.",
+  "description": "HyperWrite is an AI writing assistant that helps users research topics, draft documents, and rewrite existing content. It offers a Chrome extension, document editor, and AI agent that can browse the web and perform tasks on the user's behalf.",
+  "url": "https://hyperwriteai.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=hyperwriteai.com&sz=64",
+  "screenshot_url": "/screenshots/hyperwrite.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "writing",
+    "text_generation",
+    "productivity",
+    "content",
+    "editing",
+    "grammar",
+    "paraphrasing",
+    "ai_writing",
+    "drafting",
+    "browser_extension",
+    "extensible"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 71,
+  "subcategory": "ai-writer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "vidiq",
+  "name": "VidIQ",
+  "tagline": "VidIQ is a YouTube optimization toolkit that uses AI to suggest titles, thumbnails, and tags based on what is trending in a creator niche. It scores video SEO before publishing and tracks competitor channels so creators can see which topics are gaining traction. YouTubers and video-first influencers use it to plan content and improve discoverability.",
+  "description": "VidIQ is a YouTube optimization toolkit that uses AI to suggest titles, thumbnails, and tags based on what is trending in a creator niche. It scores video SEO before publishing and tracks competitor channels so creators can see which topics are gaining traction. YouTubers and video-first influencers use it to plan content and improve discoverability.",
+  "url": "https://vidiq.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=vidiq.com&sz=64",
+  "screenshot_url": "/screenshots/vidiq.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "social_media",
+    "marketing",
+    "content_creation",
+    "engagement",
+    "posting",
+    "scheduling",
+    "analytics",
+    "audience",
+    "platform"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 80,
+  "subcategory": "social-media",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

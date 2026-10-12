@@ -1,0 +1,29 @@
+{
+  "slug": "visier",
+  "name": "Visier",
+  "tagline": "Visier combines HR, payroll, and talent data into a single analytics platform that uses AI to flag attrition risk, pay equity gaps, and skills shortfalls before they become a crisis. HR business partners use it to back up people decisions with data instead of gut feel.",
+  "description": "Visier combines HR, payroll, and talent data into a single analytics platform that uses AI to flag attrition risk, pay equity gaps, and skills shortfalls before they become a crisis. HR business partners use it to back up people decisions with data instead of gut feel.",
+  "url": "https://visier.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=visier.com&sz=64",
+  "screenshot_url": "/screenshots/visier.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "hr",
+    "business",
+    "recruitment",
+    "employees",
+    "human_resources",
+    "onboarding",
+    "performance",
+    "payroll",
+    "talent",
+    "analytics"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 76,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

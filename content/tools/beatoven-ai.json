@@ -1,0 +1,30 @@
+{
+  "slug": "beatoven-ai",
+  "name": "Beatoven.ai",
+  "tagline": "Beatoven.ai generates unique, royalty-free background music customised to the mood and pace of your video or podcast. Users select a genre, mood, and duration, and the AI composes original tracks that adapt dynamically to content sections. YouTubers, filmmakers, and game developers use it to avoid copyright issues.",
+  "description": "Beatoven.ai generates unique, royalty-free background music customised to the mood and pace of your video or podcast. Users select a genre, mood, and duration, and the AI composes original tracks that adapt dynamically to content sections. YouTubers, filmmakers, and game developers use it to avoid copyright issues.",
+  "url": "https://beatoven.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=beatoven.ai&sz=64",
+  "screenshot_url": "/screenshots/beatoven-ai.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "music_generation",
+    "audio",
+    "creative",
+    "music",
+    "composition",
+    "ai_music",
+    "beats",
+    "melody",
+    "soundtrack",
+    "free_tier",
+    "customizable"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 70,
+  "subcategory": "ai-music-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

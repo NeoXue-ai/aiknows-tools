@@ -1,0 +1,30 @@
+{
+  "slug": "hotjar-ai",
+  "name": "Hotjar AI",
+  "tagline": "Hotjar reveals user behaviour through heatmaps, session recordings, and feedback surveys. Its AI features include automatic insight summaries from session recordings and survey responses, helping product and UX teams quickly understand why users behave the way they do without manual analysis.",
+  "description": "Hotjar reveals user behaviour through heatmaps, session recordings, and feedback surveys. Its AI features include automatic insight summaries from session recordings and survey responses, helping product and UX teams quickly understand why users behave the way they do without manual analysis.",
+  "url": "https://hotjar.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=hotjar.com&sz=64",
+  "screenshot_url": "/screenshots/hotjar-ai.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "market_research",
+    "business",
+    "analytics",
+    "consumer",
+    "insights",
+    "surveys",
+    "competitive_analysis",
+    "trends",
+    "intelligence",
+    "collaboration",
+    "fast"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 92,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

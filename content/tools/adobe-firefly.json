@@ -1,0 +1,31 @@
+{
+  "slug": "adobe-firefly",
+  "name": "Adobe Firefly",
+  "tagline": "Adobe Firefly is Adobe's family of generative AI models built directly into Creative Cloud apps like Photoshop, Illustrator, and Premiere Pro. It lets creators generate images from text, extend photos with Generative Fill, recolour vector artwork, and produce video effects, all trained on licensed content for commercial safety. Firefly is designed for professional creatives who need AI that fits inside their existing workflow.",
+  "description": "Adobe Firefly is Adobe's family of generative AI models built directly into Creative Cloud apps like Photoshop, Illustrator, and Premiere Pro. It lets creators generate images from text, extend photos with Generative Fill, recolour vector artwork, and produce video effects, all trained on licensed content for commercial safety. Firefly is designed for professional creatives who need AI that fits inside their existing workflow.",
+  "url": "https://firefly.adobe.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=firefly.adobe.com&sz=64",
+  "screenshot_url": "/screenshots/adobe-firefly.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "design",
+    "image_editing",
+    "creative",
+    "visual",
+    "branding",
+    "typography",
+    "layouts",
+    "ui_design",
+    "illustration",
+    "cloud_based",
+    "image_based",
+    "training"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 96,
+  "subcategory": "ai-graphic-design",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

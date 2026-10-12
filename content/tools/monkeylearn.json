@@ -1,0 +1,27 @@
+{
+  "slug": "monkeylearn",
+  "name": "MonkeyLearn",
+  "tagline": "MonkeyLearn is a no-code text analysis platform that lets teams build custom sentiment analysis, topic classification, and intent detection models without writing code. Customer success and operations teams use it to automatically categorize support tickets, analyze survey responses, and extract structured insights from large volumes of unstructured text. Models can be trained on a company's own examples and connected to tools like Zapier, Google Sheets, and Zendesk through pre-built integrations.",
+  "description": "MonkeyLearn is a no-code text analysis platform that lets teams build custom sentiment analysis, topic classification, and intent detection models without writing code. Customer success and operations teams use it to automatically categorize support tickets, analyze survey responses, and extract structured insights from large volumes of unstructured text. Models can be trained on a company's own examples and connected to tools like Zapier, Google Sheets, and Zendesk through pre-built integrations.",
+  "url": "https://monkeylearn.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=monkeylearn.com&sz=64",
+  "screenshot_url": "/screenshots/monkeylearn.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "collaboration",
+    "customizable",
+    "integrations",
+    "analytics",
+    "training",
+    "model_based",
+    "ai_powered",
+    "intelligent"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 75,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

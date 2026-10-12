@@ -1,0 +1,29 @@
+{
+  "slug": "indeed",
+  "name": "Indeed",
+  "tagline": "Indeed is the world's largest job site, aggregating listings from thousands of sources alongside jobs posted directly on the platform. Its AI matching engine surfaces relevant openings based on your resume, search history, and stated preferences, and sends proactive job alerts. Employers use Indeed Sponsored Jobs and AI-assisted screening to get qualified candidates in front of hiring managers faster.",
+  "description": "Indeed is the world's largest job site, aggregating listings from thousands of sources alongside jobs posted directly on the platform. Its AI matching engine surfaces relevant openings based on your resume, search history, and stated preferences, and sends proactive job alerts. Employers use Indeed Sponsored Jobs and AI-assisted screening to get qualified candidates in front of hiring managers faster.",
+  "url": "https://indeed.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=indeed.com&sz=64",
+  "screenshot_url": "/screenshots/indeed.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "career",
+    "hr",
+    "recruitment",
+    "jobs",
+    "employment",
+    "job_search",
+    "resume",
+    "interview",
+    "hiring",
+    "fast"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 92,
+  "subcategory": "productivity-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

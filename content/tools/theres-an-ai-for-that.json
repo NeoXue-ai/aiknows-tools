@@ -1,0 +1,30 @@
+{
+  "slug": "theres-an-ai-for-that",
+  "name": "There's An AI For That",
+  "tagline": "There's An AI For That (TAAFT) is one of the largest AI tools directories on the web, letting people search by the task they want done rather than by category alone. It tracks tens of thousands of tools, ranks them by daily traffic and saves, and publishes a regular newsletter covering new launches. A dedicated GPT and API section covers ChatGPT plugins and OpenAI-based tools specifically.",
+  "description": "There's An AI For That (TAAFT) is one of the largest AI tools directories on the web, letting people search by the task they want done rather than by category alone. It tracks tens of thousands of tools, ranks them by daily traffic and saves, and publishes a regular newsletter covering new launches. A dedicated GPT and API section covers ChatGPT plugins and OpenAI-based tools specifically.",
+  "url": "https://theresanaiforthat.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=theresanaiforthat.com&sz=64",
+  "screenshot_url": "/screenshots/theres-an-ai-for-that.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "directory",
+    "reference",
+    "tools",
+    "discovery",
+    "listing",
+    "ai_tools",
+    "catalog",
+    "collection",
+    "curation",
+    "api_available",
+    "extensible"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 78,
+  "subcategory": "directories",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "folk",
+  "name": "Folk",
+  "tagline": "Folk is a lightweight, AI-native CRM that helps individuals and small teams manage contacts, track relationships, and run personalized email outreach. Its AI enrichment automatically fills in contact details, and AI message drafting helps craft personalized emails at scale.",
+  "description": "Folk is a lightweight, AI-native CRM that helps individuals and small teams manage contacts, track relationships, and run personalized email outreach. Its AI enrichment automatically fills in contact details, and AI message drafting helps craft personalized emails at scale.",
+  "url": "https://folk.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=folk.app&sz=64",
+  "screenshot_url": "/screenshots/folk.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "crm",
+    "sales",
+    "business",
+    "customers",
+    "relationships",
+    "pipeline",
+    "contacts",
+    "deals",
+    "customer_data",
+    "collaboration",
+    "customizable"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 72,
+  "subcategory": "sales",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

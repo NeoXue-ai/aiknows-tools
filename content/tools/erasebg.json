@@ -1,0 +1,31 @@
+{
+  "slug": "erasebg",
+  "name": "Erase.bg",
+  "tagline": "Erase.bg is an AI background removal tool that handles both static images and video frames, delivering clean cutouts in seconds. Its batch processing feature and high-resolution output make it practical for e-commerce teams processing large product catalogues. It also offers a background replacement studio where removed backgrounds can be swapped for solid colours, custom images, or gradients.",
+  "description": "Erase.bg is an AI background removal tool that handles both static images and video frames, delivering clean cutouts in seconds. Its batch processing feature and high-resolution output make it practical for e-commerce teams processing large product catalogues. It also offers a background replacement studio where removed backgrounds can be swapped for solid colours, custom images, or gradients.",
+  "url": "https://erase.bg",
+  "logo_url": "https://www.google.com/s2/favicons?domain=erase.bg&sz=64",
+  "screenshot_url": "/screenshots/erasebg.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "image_editing",
+    "design",
+    "creative",
+    "background",
+    "image_processing",
+    "cutout",
+    "transparency",
+    "photo_editing",
+    "visual",
+    "collaboration",
+    "customizable",
+    "image_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 62,
+  "subcategory": "ai-background-remover",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

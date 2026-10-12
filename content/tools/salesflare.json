@@ -1,0 +1,28 @@
+{
+  "slug": "salesflare",
+  "name": "Salesflare",
+  "tagline": "Salesflare is an intelligent CRM built for small B2B businesses that automatically logs emails, meetings, and calls to keep contact records up to date. Its AI surfaces follow-up reminders and opportunities, reducing the manual data entry burden that makes many CRMs hard to maintain.",
+  "description": "Salesflare is an intelligent CRM built for small B2B businesses that automatically logs emails, meetings, and calls to keep contact records up to date. Its AI surfaces follow-up reminders and opportunities, reducing the manual data entry burden that makes many CRMs hard to maintain.",
+  "url": "https://salesflare.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=salesflare.com&sz=64",
+  "screenshot_url": "/screenshots/salesflare.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "crm",
+    "sales",
+    "business",
+    "customers",
+    "relationships",
+    "pipeline",
+    "contacts",
+    "deals",
+    "customer_data"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 75,
+  "subcategory": "sales",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "mercury",
+  "name": "Mercury",
+  "tagline": "Mercury is an open-source framework that turns Jupyter notebooks into interactive web apps, dashboards, and reports without writing frontend code. Data scientists define input widgets using notebook cells and Mercury handles the web server, scheduling, and user authentication.",
+  "description": "Mercury is an open-source framework that turns Jupyter notebooks into interactive web apps, dashboards, and reports without writing frontend code. Data scientists define input widgets using notebook cells and Mercury handles the web server, scheduling, and user authentication.",
+  "url": "https://mercury.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=mercury.com&sz=64",
+  "screenshot_url": "/screenshots/mercury.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "open_source",
+    "analytics",
+    "community_driven",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool",
+    "service"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 79,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

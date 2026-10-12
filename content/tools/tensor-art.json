@@ -1,0 +1,31 @@
+{
+  "slug": "tensor-art",
+  "name": "Tensor.Art",
+  "tagline": "Tensor Art is a cloud-based AI image generation platform that offers access to thousands of community-trained Stable Diffusion models. Users can generate, remix, and share AI artwork, train custom LoRA models, and explore a marketplace of fine-tuned models for various art styles.",
+  "description": "Tensor Art is a cloud-based AI image generation platform that offers access to thousands of community-trained Stable Diffusion models. Users can generate, remix, and share AI artwork, train custom LoRA models, and explore a marketplace of fine-tuned models for various art styles.",
+  "url": "https://tensor.art",
+  "logo_url": "https://www.google.com/s2/favicons?domain=tensor.art&sz=64",
+  "screenshot_url": "/screenshots/tensor-art.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "image_generation",
+    "creative",
+    "text_to_image",
+    "visual",
+    "graphics",
+    "generative_ai",
+    "art",
+    "diffusion",
+    "prompting",
+    "customizable",
+    "cloud_based",
+    "image_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 66,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

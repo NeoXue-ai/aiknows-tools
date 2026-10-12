@@ -1,0 +1,29 @@
+{
+  "slug": "zowie-ai",
+  "name": "Zowie",
+  "tagline": "Zowie is an AI customer service platform built specifically for e-commerce brands. It automatically resolves common customer queries about orders, returns, and shipping, and escalates complex issues to human agents. It integrates natively with Shopify, Zendesk, and Gorgias.",
+  "description": "Zowie is an AI customer service platform built specifically for e-commerce brands. It automatically resolves common customer queries about orders, returns, and shipping, and escalates complex issues to human agents. It integrates natively with Shopify, Zendesk, and Gorgias.",
+  "url": "https://getzowie.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=getzowie.com&sz=64",
+  "screenshot_url": "/screenshots/zowie-ai.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "customer_support",
+    "chatbot",
+    "business",
+    "help_desk",
+    "support",
+    "ticketing",
+    "live_chat",
+    "service",
+    "resolution",
+    "customizable"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 65,
+  "subcategory": "customer-support",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "smartsheet-ai",
+  "name": "Smartsheet AI",
+  "tagline": "Smartsheet is a work management platform that blends spreadsheet familiarity with project management power. Its AI capabilities include formula generation from natural language, automated status summaries, risk prediction for projects, and an AI assistant that answers questions about your data.",
+  "description": "Smartsheet is a work management platform that blends spreadsheet familiarity with project management power. Its AI capabilities include formula generation from natural language, automated status summaries, risk prediction for projects, and an AI assistant that answers questions about your data.",
+  "url": "https://smartsheet.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=smartsheet.com&sz=64",
+  "screenshot_url": "/screenshots/smartsheet-ai.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "project_management",
+    "productivity",
+    "team",
+    "collaboration",
+    "planning",
+    "tasks",
+    "milestones",
+    "tracking",
+    "agile",
+    "nlp"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 90,
+  "subcategory": "project-management",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

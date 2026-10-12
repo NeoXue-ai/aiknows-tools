@@ -1,0 +1,27 @@
+{
+  "slug": "momentic-mo",
+  "name": "Mo",
+  "tagline": "Mo is an agentic testing product from Momentic that takes an app's URL and test credentials, then sends agents to click buttons, fill in fields, and try edge cases across the app the way a real user would, instead of running a fixed script. It reports failures with reproduction steps and video evidence attached, which Momentic calls the first agentic quality platform. It launched on September 28, 2026, with Notion, Superpower, and Boundless among its early customers.",
+  "description": "Mo is an agentic testing product from Momentic that takes an app's URL and test credentials, then sends agents to click buttons, fill in fields, and try edge cases across the app the way a real user would, instead of running a fixed script. It reports failures with reproduction steps and video evidence attached, which Momentic calls the first agentic quality platform. It launched on September 28, 2026, with Notion, Superpower, and Boundless among its early customers.",
+  "url": "https://momentic.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=momentic.ai&sz=64",
+  "screenshot_url": "/screenshots/momentic-mo.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "customizable",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool",
+    "service",
+    "solution",
+    "saas"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 68,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

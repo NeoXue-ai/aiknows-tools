@@ -1,0 +1,28 @@
+{
+  "slug": "inngest",
+  "name": "Inngest",
+  "tagline": "Inngest is a developer platform for writing reliable background jobs, scheduled tasks, and multi-step workflows in serverless environments. It handles retries, concurrency, event fan-out, and step functions without requiring separate infrastructure like queues or cron servers.",
+  "description": "Inngest is a developer platform for writing reliable background jobs, scheduled tasks, and multi-step workflows in serverless environments. It handles retries, concurrency, event fan-out, and step functions without requiring separate infrastructure like queues or cron servers.",
+  "url": "https://inngest.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=inngest.com&sz=64",
+  "screenshot_url": "/screenshots/inngest.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 74,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

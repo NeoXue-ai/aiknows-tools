@@ -1,0 +1,30 @@
+{
+  "slug": "metabase-ai",
+  "name": "Metabase",
+  "tagline": "Metabase is an open-source business intelligence tool that lets anyone ask questions about company data without SQL. Its AI assistant helps users build queries and charts using plain English. With over 50,000 organisations using it, Metabase is one of the most popular self-hosted analytics solutions.",
+  "description": "Metabase is an open-source business intelligence tool that lets anyone ask questions about company data without SQL. Its AI assistant helps users build queries and charts using plain English. With over 50,000 organisations using it, Metabase is one of the most popular self-hosted analytics solutions.",
+  "url": "https://metabase.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=metabase.com&sz=64",
+  "screenshot_url": "/screenshots/metabase-ai.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "data_analysis",
+    "analytics",
+    "business",
+    "insights",
+    "visualization",
+    "data_science",
+    "reporting",
+    "dashboards",
+    "sql",
+    "open_source",
+    "community_driven"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 79,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

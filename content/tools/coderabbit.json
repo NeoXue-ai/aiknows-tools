@@ -1,0 +1,31 @@
+{
+  "slug": "coderabbit",
+  "name": "CodeRabbit",
+  "tagline": "CodeRabbit is an AI code review tool that automatically analyses every pull request and posts line-by-line feedback on bugs, security issues, performance problems, and style violations. It integrates with GitHub and GitLab, summarises what a PR changes in plain English, and learns from developer feedback over time. Engineering teams use it to catch issues before human reviewers see the PR, reducing back-and-forth and speeding up the review cycle significantly.",
+  "description": "CodeRabbit is an AI code review tool that automatically analyses every pull request and posts line-by-line feedback on bugs, security issues, performance problems, and style violations. It integrates with GitHub and GitLab, summarises what a PR changes in plain English, and learns from developer feedback over time. Engineering teams use it to catch issues before human reviewers see the PR, reducing back-and-forth and speeding up the review cycle significantly.",
+  "url": "https://coderabbit.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=coderabbit.ai&sz=64",
+  "screenshot_url": "/screenshots/coderabbit.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "code_generation",
+    "developer_tools",
+    "productivity",
+    "coding",
+    "programming",
+    "autocomplete",
+    "debugging",
+    "refactoring",
+    "ide",
+    "collaboration",
+    "integrations",
+    "secure"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 80,
+  "subcategory": "ai-code-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "perplexity-search",
+  "name": "Perplexity",
+  "tagline": "Perplexity AI is a conversational search engine that combines real-time web search with large language model reasoning to answer complex questions accurately and transparently. Every answer includes numbered source citations, so users can instantly verify the provenance of each claim. It's gaining rapid adoption among professionals who want the speed of AI but can't afford hallucinated facts.",
+  "description": "Perplexity AI is a conversational search engine that combines real-time web search with large language model reasoning to answer complex questions accurately and transparently. Every answer includes numbered source citations, so users can instantly verify the provenance of each claim. It's gaining rapid adoption among professionals who want the speed of AI but can't afford hallucinated facts.",
+  "url": "https://perplexity.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=perplexity.ai&sz=64",
+  "screenshot_url": null,
+  "primary_category": "productivity",
+  "tags": [
+    "search",
+    "ai_assistant",
+    "discovery",
+    "information",
+    "query",
+    "web_search",
+    "answers",
+    "knowledge",
+    "retrieval",
+    "real_time",
+    "nlp",
+    "model_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 91,
+  "subcategory": "ai-search-engine",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

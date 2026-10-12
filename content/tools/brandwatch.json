@@ -1,0 +1,31 @@
+{
+  "slug": "brandwatch",
+  "name": "Brandwatch",
+  "tagline": "Brandwatch is an enterprise social intelligence platform that uses AI to monitor billions of online conversations for brand mentions, sentiment trends, and emerging topics. Its analytics suite lets marketers compare brand health against competitors and detect crises early. PR teams, CMOs, and consumer insights analysts rely on it for real-time audience understanding.",
+  "description": "Brandwatch is an enterprise social intelligence platform that uses AI to monitor billions of online conversations for brand mentions, sentiment trends, and emerging topics. Its analytics suite lets marketers compare brand health against competitors and detect crises early. PR teams, CMOs, and consumer insights analysts rely on it for real-time audience understanding.",
+  "url": "https://brandwatch.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=brandwatch.com&sz=64",
+  "screenshot_url": "/screenshots/brandwatch.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "market_research",
+    "business",
+    "analytics",
+    "consumer",
+    "insights",
+    "surveys",
+    "competitive_analysis",
+    "trends",
+    "intelligence",
+    "real_time",
+    "collaboration",
+    "enterprise"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 85,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

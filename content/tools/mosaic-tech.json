@@ -1,0 +1,31 @@
+{
+  "slug": "mosaic-tech",
+  "name": "Mosaic",
+  "tagline": "Mosaic is a strategic finance platform that connects to ERPs, CRMs, and data warehouses to provide real-time financial dashboards, rolling forecasts, and scenario modelling. Its AI features include natural language metric querying and automated variance analysis that explains why numbers changed.",
+  "description": "Mosaic is a strategic finance platform that connects to ERPs, CRMs, and data warehouses to provide real-time financial dashboards, rolling forecasts, and scenario modelling. Its AI features include natural language metric querying and automated variance analysis that explains why numbers changed.",
+  "url": "https://mosaic.tech",
+  "logo_url": "https://www.google.com/s2/favicons?domain=mosaic.tech&sz=64",
+  "screenshot_url": "/screenshots/mosaic-tech.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "finance",
+    "business",
+    "analytics",
+    "accounting",
+    "investment",
+    "financial_planning",
+    "budgeting",
+    "fintech",
+    "reporting",
+    "real_time",
+    "nlp",
+    "model_based"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 70,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

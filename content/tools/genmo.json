@@ -1,0 +1,31 @@
+{
+  "slug": "genmo",
+  "name": "Genmo",
+  "tagline": "Genmo is an AI video generation platform and the team behind Mochi 1, an open-source video generation model known for high-motion clips and fluid character movement. Researchers and creators can run Mochi 1 locally from the open-source weights, or use Genmo's consumer app to generate videos from text prompts without any setup. It is one of the more technically capable open-source video models available.",
+  "description": "Genmo is an AI video generation platform and the team behind Mochi 1, an open-source video generation model known for high-motion clips and fluid character movement. Researchers and creators can run Mochi 1 locally from the open-source weights, or use Genmo's consumer app to generate videos from text prompts without any setup. It is one of the more technically capable open-source video models available.",
+  "url": "https://genmo.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=genmo.ai&sz=64",
+  "screenshot_url": "/screenshots/genmo.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "video_generation",
+    "creative",
+    "text_to_video",
+    "animation",
+    "production",
+    "ai_video",
+    "generative",
+    "short_form",
+    "clips",
+    "open_source",
+    "collaboration",
+    "model_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 63,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

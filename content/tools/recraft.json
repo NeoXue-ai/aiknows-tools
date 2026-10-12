@@ -1,21 +1,30 @@
 {
   "slug": "recraft",
   "name": "Recraft",
-  "tagline": "AI design for brand work",
-  "description": "Vector-first AI image and design tool for brand assets.",
+  "tagline": "Recraft is a professional AI design tool for generating and editing high-quality images, vector illustrations, icons, and brand assets. It offers precise style controls, brand kit management, and vector export, making it popular with designers who need consistent, on-brand AI visuals.",
+  "description": "Recraft is a professional AI design tool for generating and editing high-quality images, vector illustrations, icons, and brand assets. It offers precise style controls, brand kit management, and vector export, making it popular with designers who need consistent, on-brand AI visuals.",
   "url": "https://recraft.ai",
   "logo_url": "https://www.google.com/s2/favicons?domain=recraft.ai&sz=64",
   "screenshot_url": "/screenshots/recraft.webp",
   "primary_category": "image-video",
   "tags": [
-    "vector",
-    "design"
+    "image_generation",
+    "creative",
+    "text_to_image",
+    "visual",
+    "graphics",
+    "generative_ai",
+    "art",
+    "diffusion",
+    "prompting",
+    "image_based",
+    "powerful"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 75,
   "subcategory": "ai-image-generator",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

@@ -1,0 +1,28 @@
+{
+  "slug": "submit-ai-tools",
+  "name": "Submit AI Tools",
+  "tagline": "Submit AI Tools is a directory for discovering and evaluating AI tools, chatbots, and content generation apps across dozens of categories. Users browse or search the catalog to find tools for specific tasks, compare options in a category, and submit new tools for listing. It serves as a reference point for people tracking the AI tool landscape who want a structured index rather than relying on social media recommendations or search results.",
+  "description": "Submit AI Tools is a directory for discovering and evaluating AI tools, chatbots, and content generation apps across dozens of categories. Users browse or search the catalog to find tools for specific tasks, compare options in a category, and submit new tools for listing. It serves as a reference point for people tracking the AI tool landscape who want a structured index rather than relying on social media recommendations or search results.",
+  "url": "https://submitaitools.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=submitaitools.org&sz=64",
+  "screenshot_url": "/screenshots/submit-ai-tools.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "search",
+    "ai_assistant",
+    "discovery",
+    "information",
+    "query",
+    "web_search",
+    "answers",
+    "knowledge",
+    "retrieval"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 76,
+  "subcategory": "ai-search-engine",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

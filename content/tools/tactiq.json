@@ -1,21 +1,31 @@
 {
   "slug": "tactiq",
   "name": "Tactiq",
-  "tagline": "AI meeting transcripts",
-  "description": "Real-time transcripts, summaries, and action items for Zoom/Meet/Teams.",
+  "tagline": "Tactiq is a Chrome extension that transcribes meetings in real time on Google Meet, Zoom, and Microsoft Teams, then uses AI to generate summaries and action items. Unlike recording-based tools, Tactiq captures captions as they appear without recording the meeting, making it useful in privacy-sensitive organisations.",
+  "description": "Tactiq is a Chrome extension that transcribes meetings in real time on Google Meet, Zoom, and Microsoft Teams, then uses AI to generate summaries and action items. Unlike recording-based tools, Tactiq captures captions as they appear without recording the meeting, making it useful in privacy-sensitive organisations.",
   "url": "https://tactiq.io",
   "logo_url": "https://www.google.com/s2/favicons?domain=tactiq.io&sz=64",
   "screenshot_url": "/screenshots/tactiq.webp",
   "primary_category": "productivity",
   "tags": [
-    "meetings",
-    "transcripts"
+    "meeting",
+    "productivity",
+    "transcription",
+    "collaboration",
+    "notes",
+    "summaries",
+    "action_items",
+    "video_calls",
+    "recap",
+    "browser_extension",
+    "secure",
+    "extensible"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
-  "subcategory": "speech-to-text-ai",
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "ai-note-taker",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

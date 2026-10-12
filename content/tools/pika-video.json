@@ -1,0 +1,31 @@
+{
+  "slug": "pika-video",
+  "name": "Pika",
+  "tagline": "Pika is an AI video generation platform that creates and edits videos from text prompts, images, or existing video clips. Its Pika 1.5 model supports dynamic camera movements, character consistency, and photorealistic output, pushing the frontier of what AI video generation can produce in seconds. Filmmakers, advertisers, and social media creators use Pika to concept and produce motion content at unprecedented speed.",
+  "description": "Pika is an AI video generation platform that creates and edits videos from text prompts, images, or existing video clips. Its Pika 1.5 model supports dynamic camera movements, character consistency, and photorealistic output, pushing the frontier of what AI video generation can produce in seconds. Filmmakers, advertisers, and social media creators use Pika to concept and produce motion content at unprecedented speed.",
+  "url": "https://pika.art",
+  "logo_url": "https://www.google.com/s2/favicons?domain=pika.art&sz=64",
+  "screenshot_url": "/screenshots/pika-video.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "video_generation",
+    "creative",
+    "text_to_video",
+    "animation",
+    "production",
+    "ai_video",
+    "generative",
+    "short_form",
+    "clips",
+    "image_based",
+    "model_based",
+    "fast"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 78,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

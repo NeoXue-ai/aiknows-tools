@@ -1,0 +1,31 @@
+{
+  "slug": "dataiku",
+  "name": "Dataiku",
+  "tagline": "Dataiku is an enterprise AI platform for preparing data, building AI applications and agents, governing deployments, and measuring business impact. Its visual and code-based tools help organizations develop and manage AI systems across teams and model providers.",
+  "description": "Dataiku is an enterprise AI platform for preparing data, building AI applications and agents, governing deployments, and measuring business impact. Its visual and code-based tools help organizations develop and manage AI systems across teams and model providers.",
+  "url": "https://dataiku.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=dataiku.com&sz=64",
+  "screenshot_url": "/screenshots/dataiku.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "data_analysis",
+    "analytics",
+    "business",
+    "insights",
+    "visualization",
+    "data_science",
+    "reporting",
+    "dashboards",
+    "sql",
+    "collaboration",
+    "enterprise",
+    "image_based"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 78,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

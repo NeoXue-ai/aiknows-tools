@@ -1,0 +1,31 @@
+{
+  "slug": "unstructured",
+  "name": "Unstructured",
+  "tagline": "Unstructured is an open-source Python library and cloud platform that extracts and pre-processes text from diverse document formats—PDFs, Word documents, HTML, images—for use in LLM and RAG pipelines. It handles complex layouts, tables, and images to make unstructured data LLM-ready.",
+  "description": "Unstructured is an open-source Python library and cloud platform that extracts and pre-processes text from diverse document formats—PDFs, Word documents, HTML, images—for use in LLM and RAG pipelines. It handles complex layouts, tables, and images to make unstructured data LLM-ready.",
+  "url": "https://unstructured.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=unstructured.io&sz=64",
+  "screenshot_url": "/screenshots/unstructured.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "open_source",
+    "cloud_based",
+    "machine_learning"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 72,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

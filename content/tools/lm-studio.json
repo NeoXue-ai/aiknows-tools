@@ -1,0 +1,31 @@
+{
+  "slug": "lm-studio",
+  "name": "LM Studio",
+  "tagline": "LM Studio is a desktop application for Mac, Windows, and Linux that lets anyone browse, download, and run open-source language models locally without touching the command line. Its built-in chat interface works out of the box, and it also serves a local OpenAI-compatible API so existing tools like Continue, Cursor, or custom scripts can use local models. It supports the full range of GGUF-quantised models from Hugging Face, making state-of-the-art AI accessible on consumer laptops.",
+  "description": "LM Studio is a desktop application for Mac, Windows, and Linux that lets anyone browse, download, and run open-source language models locally without touching the command line. Its built-in chat interface works out of the box, and it also serves a local OpenAI-compatible API so existing tools like Continue, Cursor, or custom scripts can use local models. It supports the full range of GGUF-quantised models from Hugging Face, making state-of-the-art AI accessible on consumer laptops.",
+  "url": "https://lmstudio.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=lmstudio.ai&sz=64",
+  "screenshot_url": "/screenshots/lm-studio.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "open_source",
+    "api_available",
+    "customizable"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 82,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

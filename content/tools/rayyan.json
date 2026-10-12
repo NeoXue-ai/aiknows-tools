@@ -1,0 +1,29 @@
+{
+  "slug": "rayyan",
+  "name": "Rayyan",
+  "tagline": "Rayyan ranks and filters search results during a systematic review, learning from the papers a reviewer includes or excludes to prioritize the ones left to screen. Clinical researchers and academic teams use it to get through thousands of abstracts for a meta-analysis without missing the handful that actually matter.",
+  "description": "Rayyan ranks and filters search results during a systematic review, learning from the papers a reviewer includes or excludes to prioritize the ones left to screen. Clinical researchers and academic teams use it to get through thousands of abstracts for a meta-analysis without missing the handful that actually matter.",
+  "url": "https://rayyan.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=rayyan.ai&sz=64",
+  "screenshot_url": "/screenshots/rayyan.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "research",
+    "analytics",
+    "academic",
+    "studies",
+    "investigation",
+    "literature_review",
+    "citations",
+    "discovery",
+    "synthesis",
+    "collaboration"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 68,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "fish-audio",
+  "name": "Fish Audio",
+  "tagline": "Fish Audio is an AI platform offering high-quality text-to-speech and voice cloning with support for multiple languages. Users can create clones of their own voice or choose from a library of community-shared voices, and deploy them via a simple API.",
+  "description": "Fish Audio is an AI platform offering high-quality text-to-speech and voice cloning with support for multiple languages. Users can create clones of their own voice or choose from a library of community-shared voices, and deploy them via a simple API.",
+  "url": "https://fish.audio",
+  "logo_url": "https://www.google.com/s2/favicons?domain=fish.audio&sz=64",
+  "screenshot_url": "/screenshots/fish-audio.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "text_to_speech",
+    "audio",
+    "voice",
+    "narration",
+    "accessibility",
+    "tts",
+    "speech_synthesis",
+    "voiceover",
+    "reading",
+    "api_available",
+    "voice_enabled",
+    "easy_to_use"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "text-to-speech-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "lensa-ai",
+  "name": "Lensa AI",
+  "tagline": "Lensa AI is a photo editing app by Prisma Labs that went viral for its Magic Avatars feature, which generates artistic AI portraits from selfies. Beyond avatars, it offers real-time face retouching, background blur, and a suite of AI photo enhancement filters. Available on iOS and Android.",
+  "description": "Lensa AI is a photo editing app by Prisma Labs that went viral for its Magic Avatars feature, which generates artistic AI portraits from selfies. Beyond avatars, it offers real-time face retouching, background blur, and a suite of AI photo enhancement filters. Available on iOS and Android.",
+  "url": "https://prisma-ai.com/lensa",
+  "logo_url": "https://www.google.com/s2/favicons?domain=prisma-ai.com&sz=64",
+  "screenshot_url": null,
+  "primary_category": "image-video",
+  "tags": [
+    "image_editing",
+    "design",
+    "creative",
+    "photo",
+    "visual",
+    "retouching",
+    "filters",
+    "enhancement",
+    "manipulation",
+    "mobile_app",
+    "real_time"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 71,
+  "subcategory": "ai-photo-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

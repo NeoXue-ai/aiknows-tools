@@ -1,0 +1,28 @@
+{
+  "slug": "teal",
+  "name": "Teal",
+  "tagline": "Teal is a job search platform that combines an application tracker, AI resume builder, and job matcher in one tool. Job seekers use it to keep track of every application in one place, tailor their resume to specific job descriptions, and find roles that match their experience. The AI highlights which skills and keywords are missing from a resume compared to a target job posting.",
+  "description": "Teal is a job search platform that combines an application tracker, AI resume builder, and job matcher in one tool. Job seekers use it to keep track of every application in one place, tailor their resume to specific job descriptions, and find roles that match their experience. The AI highlights which skills and keywords are missing from a resume compared to a target job posting.",
+  "url": "https://tealhq.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=tealhq.com&sz=64",
+  "screenshot_url": "/screenshots/teal.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "career",
+    "hr",
+    "recruitment",
+    "jobs",
+    "employment",
+    "job_search",
+    "resume",
+    "interview",
+    "hiring"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 74,
+  "subcategory": "productivity-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

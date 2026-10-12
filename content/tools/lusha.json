@@ -1,0 +1,31 @@
+{
+  "slug": "lusha",
+  "name": "Lusha",
+  "tagline": "Lusha is a B2B sales intelligence tool for finding verified phone numbers, email addresses, and company data for prospect lists. Sales reps use its browser extension to pull contact details directly from LinkedIn profiles, while the API supports bulk prospecting and CRM enrichment workflows. Data is sourced from a mix of public records and a community-driven user network.",
+  "description": "Lusha is a B2B sales intelligence tool for finding verified phone numbers, email addresses, and company data for prospect lists. Sales reps use its browser extension to pull contact details directly from LinkedIn profiles, while the API supports bulk prospecting and CRM enrichment workflows. Data is sourced from a mix of public records and a community-driven user network.",
+  "url": "https://lusha.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=lusha.com&sz=64",
+  "screenshot_url": "/screenshots/lusha.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "sales",
+    "marketing",
+    "business",
+    "leads",
+    "prospecting",
+    "outreach",
+    "pipeline",
+    "b2b",
+    "conversion",
+    "api_available",
+    "browser_extension",
+    "extensible"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 76,
+  "subcategory": "ai-marketing",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

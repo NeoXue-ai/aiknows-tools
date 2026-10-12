@@ -1,0 +1,31 @@
+{
+  "slug": "jan-ai",
+  "name": "Jan",
+  "tagline": "Jan is an open-source, privacy-first desktop application for running AI models entirely on your own machine. It supports GGUF models from Hugging Face, provides a clean ChatGPT-style interface, and exposes a local API server compatible with the OpenAI format. All conversations and data stay on your device — nothing is sent to the cloud. Jan is particularly popular with privacy-conscious users and developers who want a polished alternative to the command line for running local LLMs.",
+  "description": "Jan is an open-source, privacy-first desktop application for running AI models entirely on your own machine. It supports GGUF models from Hugging Face, provides a clean ChatGPT-style interface, and exposes a local API server compatible with the OpenAI format. All conversations and data stay on your device — nothing is sent to the cloud. Jan is particularly popular with privacy-conscious users and developers who want a polished alternative to the command line for running local LLMs.",
+  "url": "https://jan.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=jan.ai&sz=64",
+  "screenshot_url": "/screenshots/jan-ai.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "open_source",
+    "api_available",
+    "cloud_based"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 71,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

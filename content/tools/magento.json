@@ -1,0 +1,31 @@
+{
+  "slug": "magento",
+  "name": "Magento",
+  "tagline": "Magento (now Adobe Commerce) is an open-source ecommerce platform used by large retailers and B2B companies for highly customised online stores. Its AI-powered features — product recommendations, predictive search, and customer segment analysis — are built into the Adobe Sensei engine. Merchants with complex catalogue management needs and deep customisation requirements choose Magento over more constrained SaaS alternatives.",
+  "description": "Magento (now Adobe Commerce) is an open-source ecommerce platform used by large retailers and B2B companies for highly customised online stores. Its AI-powered features — product recommendations, predictive search, and customer segment analysis — are built into the Adobe Sensei engine. Merchants with complex catalogue management needs and deep customisation requirements choose Magento over more constrained SaaS alternatives.",
+  "url": "https://magento.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=magento.com&sz=64",
+  "screenshot_url": null,
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "ecommerce",
+    "business",
+    "marketing",
+    "retail",
+    "shopping",
+    "online_store",
+    "product_catalog",
+    "checkout",
+    "conversions",
+    "open_source",
+    "customizable",
+    "cloud_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 89,
+  "subcategory": "ecommerce",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

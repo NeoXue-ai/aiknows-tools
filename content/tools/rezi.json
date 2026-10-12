@@ -1,0 +1,29 @@
+{
+  "slug": "rezi",
+  "name": "Rezi",
+  "tagline": "Rezi is an AI resume builder specifically engineered to score well with applicant tracking systems (ATS) — the software that filters most resumes before a human sees them. Its AI analyses your content against ATS criteria and provides a real-time score with specific suggestions for improvement. Job seekers frustrated by sending applications into the void use Rezi to ensure their resume clears the algorithmic gatekeeper.",
+  "description": "Rezi is an AI resume builder specifically engineered to score well with applicant tracking systems (ATS) — the software that filters most resumes before a human sees them. Its AI analyses your content against ATS criteria and provides a real-time score with specific suggestions for improvement. Job seekers frustrated by sending applications into the void use Rezi to ensure their resume clears the algorithmic gatekeeper.",
+  "url": "https://rezi.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=rezi.ai&sz=64",
+  "screenshot_url": "/screenshots/rezi.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "resume",
+    "career",
+    "writing",
+    "job_search",
+    "cv",
+    "cover_letter",
+    "ats",
+    "interview",
+    "professional",
+    "real_time"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 72,
+  "subcategory": "ai-resume-builder",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

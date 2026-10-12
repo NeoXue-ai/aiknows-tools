@@ -1,0 +1,31 @@
+{
+  "slug": "soundraw",
+  "name": "Soundraw",
+  "tagline": "Soundraw is an AI music platform that generates royalty-free tracks tailored to video content — you set the mood, genre, length, and energy level, and Soundraw produces a customisable track you own. Its editor lets creators adjust the arrangement bar by bar to match their video's pacing. YouTubers, filmmakers, and social media creators use it to add original music without copyright concerns.",
+  "description": "Soundraw is an AI music platform that generates royalty-free tracks tailored to video content — you set the mood, genre, length, and energy level, and Soundraw produces a customisable track you own. Its editor lets creators adjust the arrangement bar by bar to match their video's pacing. YouTubers, filmmakers, and social media creators use it to add original music without copyright concerns.",
+  "url": "https://soundraw.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=soundraw.io&sz=64",
+  "screenshot_url": "/screenshots/soundraw.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "music_generation",
+    "audio",
+    "creative",
+    "music",
+    "composition",
+    "ai_music",
+    "beats",
+    "melody",
+    "soundtrack",
+    "free_tier",
+    "customizable",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 74,
+  "subcategory": "ai-music-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

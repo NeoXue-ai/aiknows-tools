@@ -1,0 +1,31 @@
+{
+  "slug": "real-esrgan",
+  "name": "Real-ESRGAN",
+  "tagline": "Real-ESRGAN is an open-source AI model for image and video super-resolution — it upscales low-resolution content up to 4× while sharpening detail and reducing noise using deep convolutional networks. Originally developed for upscaling anime, it handles photographic content equally well. Video creators, archivists, and photographers use it to restore or enhance footage that was captured at insufficient resolution.",
+  "description": "Real-ESRGAN is an open-source AI model for image and video super-resolution — it upscales low-resolution content up to 4× while sharpening detail and reducing noise using deep convolutional networks. Originally developed for upscaling anime, it handles photographic content equally well. Video creators, archivists, and photographers use it to restore or enhance footage that was captured at insufficient resolution.",
+  "url": "https://github.com/xinntao/Real-ESRGAN",
+  "logo_url": "https://www.google.com/s2/favicons?domain=github.com&sz=64",
+  "screenshot_url": "/screenshots/real-esrgan.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "video_editing",
+    "upscaling",
+    "creative",
+    "quality",
+    "enhancement",
+    "restoration",
+    "sharpening",
+    "resolution",
+    "denoising",
+    "open_source",
+    "image_based",
+    "model_based"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 97,
+  "subcategory": "ai-video-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

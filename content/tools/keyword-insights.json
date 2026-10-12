@@ -1,0 +1,29 @@
+{
+  "slug": "keyword-insights",
+  "name": "Keyword Insights",
+  "tagline": "Keyword Insights is an AI keyword research and content clustering tool that groups keywords by search intent and topic to help sites build topical authority. SEO teams use it to plan content calendars around clusters of related terms rather than targeting individual keywords in isolation. It also generates content briefs and identifies which existing pages should be consolidated or expanded.",
+  "description": "Keyword Insights is an AI keyword research and content clustering tool that groups keywords by search intent and topic to help sites build topical authority. SEO teams use it to plan content calendars around clusters of related terms rather than targeting individual keywords in isolation. It also generates content briefs and identifies which existing pages should be consolidated or expanded.",
+  "url": "https://keywordinsights.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=keywordinsights.ai&sz=64",
+  "screenshot_url": "/screenshots/keyword-insights.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "seo",
+    "marketing",
+    "analytics",
+    "ranking",
+    "optimization",
+    "keywords",
+    "content_seo",
+    "backlinks",
+    "serp",
+    "collaboration"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 72,
+  "subcategory": "ai-seo-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

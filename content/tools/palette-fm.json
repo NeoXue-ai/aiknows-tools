@@ -1,0 +1,30 @@
+{
+  "slug": "palette-fm",
+  "name": "Palette.fm",
+  "tagline": "Palette.fm automatically colorizes black-and-white photographs using AI. Archivists, historians, and photo enthusiasts use it to bring historical images to life without manual editing. Several color style presets let you try different tonal interpretations of the same photo.",
+  "description": "Palette.fm automatically colorizes black-and-white photographs using AI. Archivists, historians, and photo enthusiasts use it to bring historical images to life without manual editing. Several color style presets let you try different tonal interpretations of the same photo.",
+  "url": "https://palette.fm",
+  "logo_url": "https://www.google.com/s2/favicons?domain=palette.fm&sz=64",
+  "screenshot_url": null,
+  "primary_category": "image-video",
+  "tags": [
+    "image_editing",
+    "design",
+    "creative",
+    "photo",
+    "visual",
+    "retouching",
+    "filters",
+    "enhancement",
+    "manipulation",
+    "templates",
+    "image_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 60,
+  "subcategory": "ai-photo-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

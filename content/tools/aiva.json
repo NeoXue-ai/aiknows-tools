@@ -1,0 +1,31 @@
+{
+  "slug": "aiva",
+  "name": "AIVA",
+  "tagline": "AIVA (Artificial Intelligence Virtual Artist) is an AI music composition platform trained on classical works to generate original soundtracks for films, video games, and commercials. Users can specify the mood, instrumentation, key, and tempo, then download royalty-free tracks. It is officially recognised as a composer by SACEM.",
+  "description": "AIVA (Artificial Intelligence Virtual Artist) is an AI music composition platform trained on classical works to generate original soundtracks for films, video games, and commercials. Users can specify the mood, instrumentation, key, and tempo, then download royalty-free tracks. It is officially recognised as a composer by SACEM.",
+  "url": "https://aiva.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=aiva.ai&sz=64",
+  "screenshot_url": "/screenshots/aiva.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "music_generation",
+    "audio",
+    "creative",
+    "music",
+    "composition",
+    "ai_music",
+    "beats",
+    "melody",
+    "soundtrack",
+    "free_tier",
+    "voice_enabled",
+    "training"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 74,
+  "subcategory": "ai-music-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

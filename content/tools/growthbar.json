@@ -1,0 +1,30 @@
+{
+  "slug": "growthbar",
+  "name": "GrowthBar",
+  "tagline": "GrowthBar is an AI SEO tool that combines keyword research, competitive intelligence, and AI content generation. Users can see competitor rankings, generate AI-written blog outlines, and track keyword positions. Its Chrome extension surfaces SEO data directly on Google search results pages.",
+  "description": "GrowthBar is an AI SEO tool that combines keyword research, competitive intelligence, and AI content generation. Users can see competitor rankings, generate AI-written blog outlines, and track keyword positions. Its Chrome extension surfaces SEO data directly on Google search results pages.",
+  "url": "https://growthbarseo.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=growthbarseo.com&sz=64",
+  "screenshot_url": "/screenshots/growthbar.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "seo",
+    "marketing",
+    "analytics",
+    "ranking",
+    "optimization",
+    "keywords",
+    "content_seo",
+    "backlinks",
+    "serp",
+    "browser_extension",
+    "extensible"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 69,
+  "subcategory": "ai-seo-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

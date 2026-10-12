@@ -1,0 +1,30 @@
+{
+  "slug": "modal-ai",
+  "name": "Modal",
+  "tagline": "Modal is a serverless cloud platform for running Python code — especially AI/ML workloads — at scale with no infrastructure management. Developers define GPU functions in Python and Modal handles scaling, cold starts, and orchestration. It is widely used for running fine-tuning jobs, batch inference, and AI model serving.",
+  "description": "Modal is a serverless cloud platform for running Python code — especially AI/ML workloads — at scale with no infrastructure management. Developers define GPU functions in Python and Modal handles scaling, cold starts, and orchestration. It is widely used for running fine-tuning jobs, batch inference, and AI model serving.",
+  "url": "https://modal.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=modal.com&sz=64",
+  "screenshot_url": "/screenshots/modal-ai.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "llm",
+    "foundation_model",
+    "ai_model",
+    "machine_learning",
+    "neural",
+    "inference",
+    "fine_tuning",
+    "api",
+    "open_source",
+    "cloud_based",
+    "model_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 80,
+  "subcategory": "ai-models",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

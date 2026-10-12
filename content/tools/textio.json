@@ -1,0 +1,29 @@
+{
+  "slug": "textio",
+  "name": "Textio",
+  "tagline": "Textio analyses and improves workplace writing — job postings, performance reviews, and HR communications — using AI trained on language and hiring outcome data. It flags biased language, predicts how diverse candidates will respond to job postings, and suggests neutral alternatives to help organisations build more inclusive hiring practices.",
+  "description": "Textio analyses and improves workplace writing — job postings, performance reviews, and HR communications — using AI trained on language and hiring outcome data. It flags biased language, predicts how diverse candidates will respond to job postings, and suggests neutral alternatives to help organisations build more inclusive hiring practices.",
+  "url": "https://textio.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=textio.com&sz=64",
+  "screenshot_url": "/screenshots/textio.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "writing",
+    "text_generation",
+    "productivity",
+    "content",
+    "editing",
+    "grammar",
+    "paraphrasing",
+    "ai_writing",
+    "drafting",
+    "training"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 77,
+  "subcategory": "ai-writer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

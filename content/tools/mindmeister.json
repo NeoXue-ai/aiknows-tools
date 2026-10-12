@@ -1,0 +1,27 @@
+{
+  "slug": "mindmeister",
+  "name": "MindMeister",
+  "tagline": "MindMeister is an online mind mapping tool for brainstorming, project planning, and visual knowledge management. Teams use it to capture ideas in a branching structure during meetings and workshops, then share and refine maps collaboratively in real time. It integrates with MeisterTask for turning mind map nodes into actionable project tasks, making the transition from ideation to execution straightforward.",
+  "description": "MindMeister is an online mind mapping tool for brainstorming, project planning, and visual knowledge management. Teams use it to capture ideas in a branching structure during meetings and workshops, then share and refine maps collaboratively in real time. It integrates with MeisterTask for turning mind map nodes into actionable project tasks, making the transition from ideation to execution straightforward.",
+  "url": "https://mindmeister.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=mindmeister.com&sz=64",
+  "screenshot_url": "/screenshots/mindmeister.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "collaboration",
+    "integrations",
+    "image_based",
+    "easy_to_use",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 82,
+  "subcategory": "productivity-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "iris-ai",
+  "name": "Iris.ai",
+  "tagline": "Iris.ai is an enterprise AI research platform that helps R&D teams systematically explore large bodies of scientific literature — filtering, mapping, and summarising thousands of papers to find prior art, identify white spaces, and monitor competitor research. It's designed for patent analysis, systematic reviews, and technology scouting at a scale that a human team cannot match. Life sciences, energy, and deep tech companies use Iris.ai to accelerate the earliest stages of innovation.",
+  "description": "Iris.ai is an enterprise AI research platform that helps R&D teams systematically explore large bodies of scientific literature — filtering, mapping, and summarising thousands of papers to find prior art, identify white spaces, and monitor competitor research. It's designed for patent analysis, systematic reviews, and technology scouting at a scale that a human team cannot match. Life sciences, energy, and deep tech companies use Iris.ai to accelerate the earliest stages of innovation.",
+  "url": "https://iris.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=iris.ai&sz=64",
+  "screenshot_url": "/screenshots/iris-ai.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "research",
+    "analytics",
+    "academic",
+    "studies",
+    "investigation",
+    "literature_review",
+    "citations",
+    "discovery",
+    "synthesis",
+    "collaboration",
+    "enterprise"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 61,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

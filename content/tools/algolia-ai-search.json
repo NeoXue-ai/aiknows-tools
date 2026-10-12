@@ -1,0 +1,31 @@
+{
+  "slug": "algolia-ai-search",
+  "name": "Algolia AI Search",
+  "tagline": "Algolia AI Search is an API-first search and retrieval platform combining semantic and keyword search, vector embeddings, relevance tuning, personalization, and ranking controls. Teams use it to build fast search, conversational discovery, and agent-driven experiences on their own content and product data.",
+  "description": "Algolia AI Search is an API-first search and retrieval platform combining semantic and keyword search, vector embeddings, relevance tuning, personalization, and ranking controls. Teams use it to build fast search, conversational discovery, and agent-driven experiences on their own content and product data.",
+  "url": "https://algolia.com/products/ai-search",
+  "logo_url": "https://www.google.com/s2/favicons?domain=algolia.com&sz=64",
+  "screenshot_url": "/screenshots/algolia-ai-search.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "search",
+    "ai_assistant",
+    "discovery",
+    "information",
+    "query",
+    "web_search",
+    "answers",
+    "knowledge",
+    "retrieval",
+    "api_available",
+    "collaboration",
+    "customizable"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 88,
+  "subcategory": "ai-search-engine",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

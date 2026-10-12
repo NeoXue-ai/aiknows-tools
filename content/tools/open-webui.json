@@ -1,0 +1,31 @@
+{
+  "slug": "open-webui",
+  "name": "Open WebUI",
+  "tagline": "Open WebUI (formerly Ollama WebUI) is an open-source, self-hosted web interface that brings a polished ChatGPT-like experience to local AI models running via Ollama, LM Studio, or any OpenAI-compatible endpoint. It supports multiple users, conversation history, document uploads, web search integration, image generation, and a growing plugin ecosystem. IT teams and AI enthusiasts deploy it on their own servers to give their organisation a private, self-hosted AI assistant with no data leaving their infrastructure.",
+  "description": "Open WebUI (formerly Ollama WebUI) is an open-source, self-hosted web interface that brings a polished ChatGPT-like experience to local AI models running via Ollama, LM Studio, or any OpenAI-compatible endpoint. It supports multiple users, conversation history, document uploads, web search integration, image generation, and a growing plugin ecosystem. IT teams and AI enthusiasts deploy it on their own servers to give their organisation a private, self-hosted AI assistant with no data leaving their infrastructure.",
+  "url": "https://openwebui.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=openwebui.com&sz=64",
+  "screenshot_url": "/screenshots/open-webui.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "open_source",
+    "collaboration",
+    "integrations"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 78,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

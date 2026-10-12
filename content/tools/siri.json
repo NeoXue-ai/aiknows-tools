@@ -1,0 +1,31 @@
+{
+  "slug": "siri",
+  "name": "Siri",
+  "tagline": "Siri is Apple's AI voice assistant, built into every iPhone, iPad, Mac, Apple Watch, and HomePod. It handles voice-activated device control, calendar management, messaging, web search, and app interactions entirely on-device for privacy. With iOS 18 and Apple Intelligence, Siri gained deeper app integration and the ability to perform complex, cross-app actions on your behalf.",
+  "description": "Siri is Apple's AI voice assistant, built into every iPhone, iPad, Mac, Apple Watch, and HomePod. It handles voice-activated device control, calendar management, messaging, web search, and app interactions entirely on-device for privacy. With iOS 18 and Apple Intelligence, Siri gained deeper app integration and the ability to perform complex, cross-app actions on your behalf.",
+  "url": "https://apple.com/siri",
+  "logo_url": "https://www.google.com/s2/favicons?domain=apple.com&sz=64",
+  "screenshot_url": "/screenshots/siri.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "ai_assistant",
+    "productivity",
+    "chatbot",
+    "support",
+    "helpful",
+    "personal",
+    "tasks",
+    "reminders",
+    "smart",
+    "mobile_app",
+    "integrations",
+    "secure"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 97,
+  "subcategory": "ai-assistant",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

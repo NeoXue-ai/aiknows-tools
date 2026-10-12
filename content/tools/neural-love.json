@@ -1,0 +1,30 @@
+{
+  "slug": "neural-love",
+  "name": "Neural.love",
+  "tagline": "Neural.love is an AI toolkit for image upscaling, restoration, enhancement, and generation. It can restore old photos, remove noise, upscale images up to 4x, and generate new artwork from text prompts. It is widely used for enhancing low-resolution photos and animating historical images.",
+  "description": "Neural.love is an AI toolkit for image upscaling, restoration, enhancement, and generation. It can restore old photos, remove noise, upscale images up to 4x, and generate new artwork from text prompts. It is widely used for enhancing low-resolution photos and animating historical images.",
+  "url": "https://neural.love",
+  "logo_url": "https://www.google.com/s2/favicons?domain=neural.love&sz=64",
+  "screenshot_url": "/screenshots/neural-love.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "image_editing",
+    "design",
+    "creative",
+    "photo",
+    "visual",
+    "retouching",
+    "filters",
+    "enhancement",
+    "manipulation",
+    "machine_learning",
+    "image_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 62,
+  "subcategory": "ai-photo-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

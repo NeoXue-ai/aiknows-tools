@@ -1,0 +1,30 @@
+{
+  "slug": "fly-io",
+  "name": "Fly.io",
+  "tagline": "Fly.io is a platform for running full-stack applications and databases close to users at the edge in 30+ regions worldwide. It is particularly popular for deploying AI inference workloads, LLM applications, and latency-sensitive apps. Its simple deployment model (flyctl deploy) appeals to developers who want Heroku simplicity with global scale.",
+  "description": "Fly.io is a platform for running full-stack applications and databases close to users at the edge in 30+ regions worldwide. It is particularly popular for deploying AI inference workloads, LLM applications, and latency-sensitive apps. Its simple deployment model (flyctl deploy) appeals to developers who want Heroku simplicity with global scale.",
+  "url": "https://fly.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=fly.io&sz=64",
+  "screenshot_url": "/screenshots/fly-io.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "model_based",
+    "easy_to_use"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 84,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

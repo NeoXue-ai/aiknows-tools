@@ -1,21 +1,29 @@
 {
   "slug": "fathom",
   "name": "Fathom",
-  "tagline": "AI meeting notes",
-  "description": "Free AI notetaker that records, transcribes, and summarizes meetings.",
+  "tagline": "Fathom is an AI meeting assistant for Zoom, Google Meet, and Teams that records, transcribes, and instantly generates a shareable summary with action items. It highlights the most important moments of each call and syncs key takeaways to your CRM automatically. Sales teams and managers use it to capture every commitment without having to take notes during a conversation.",
+  "description": "Fathom is an AI meeting assistant for Zoom, Google Meet, and Teams that records, transcribes, and instantly generates a shareable summary with action items. It highlights the most important moments of each call and syncs key takeaways to your CRM automatically. Sales teams and managers use it to capture every commitment without having to take notes during a conversation.",
   "url": "https://fathom.video",
   "logo_url": "https://www.google.com/s2/favicons?domain=fathom.video&sz=64",
   "screenshot_url": "/screenshots/fathom.webp",
   "primary_category": "productivity",
   "tags": [
-    "meetings",
-    "notes"
+    "meeting",
+    "productivity",
+    "transcription",
+    "collaboration",
+    "notes",
+    "summaries",
+    "action_items",
+    "video_calls",
+    "recap",
+    "fast"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 77,
   "subcategory": "ai-note-taker",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

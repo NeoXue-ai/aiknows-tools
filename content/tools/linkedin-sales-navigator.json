@@ -1,0 +1,31 @@
+{
+  "slug": "linkedin-sales-navigator",
+  "name": "LinkedIn Sales Navigator",
+  "tagline": "LinkedIn Sales Navigator is the premium B2B prospecting tool that sits on top of LinkedIn's 950+ million member network. AI-powered lead recommendations surface contacts that match your ideal customer profile, and InMail credits let you reach anyone outside your network. Enterprise sales teams use it as their primary source of account intelligence and warm outreach.",
+  "description": "LinkedIn Sales Navigator is the premium B2B prospecting tool that sits on top of LinkedIn's 950+ million member network. AI-powered lead recommendations surface contacts that match your ideal customer profile, and InMail credits let you reach anyone outside your network. Enterprise sales teams use it as their primary source of account intelligence and warm outreach.",
+  "url": "https://business.linkedin.com/sales-solutions",
+  "logo_url": "https://www.google.com/s2/favicons?domain=business.linkedin.com&sz=64",
+  "screenshot_url": "/screenshots/linkedin-sales-navigator.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "sales",
+    "marketing",
+    "business",
+    "leads",
+    "prospecting",
+    "outreach",
+    "pipeline",
+    "b2b",
+    "conversion",
+    "collaboration",
+    "enterprise",
+    "customizable"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 99,
+  "subcategory": "ai-marketing",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

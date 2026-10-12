@@ -1,0 +1,29 @@
+{
+  "slug": "charlie-hr",
+  "name": "CharlieHR",
+  "tagline": "CharlieHR is HR software designed for small companies that simplifies leave management, onboarding, document storage, and performance reviews. Its AI HR advisor answers HR policy questions and helps managers write job descriptions, review templates, and difficult conversation scripts with confidence.",
+  "description": "CharlieHR is HR software designed for small companies that simplifies leave management, onboarding, document storage, and performance reviews. Its AI HR advisor answers HR policy questions and helps managers write job descriptions, review templates, and difficult conversation scripts with confidence.",
+  "url": "https://charliehr.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=charliehr.com&sz=64",
+  "screenshot_url": "/screenshots/charlie-hr.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "hr",
+    "business",
+    "recruitment",
+    "employees",
+    "human_resources",
+    "onboarding",
+    "performance",
+    "payroll",
+    "talent",
+    "templates"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 70,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "stockcake",
+  "name": "Stockcake",
+  "tagline": "Stockcake is a free library of AI-generated stock photos spanning diverse categories including food, travel, business, and lifestyle. Creators and marketers use it to find royalty-free images for blogs, social posts, and presentations without the licensing restrictions of traditional stock photo sites. The library is searchable by keyword and all images are free to use commercially.",
+  "description": "Stockcake is a free library of AI-generated stock photos spanning diverse categories including food, travel, business, and lifestyle. Creators and marketers use it to find royalty-free images for blogs, social posts, and presentations without the licensing restrictions of traditional stock photo sites. The library is searchable by keyword and all images are free to use commercially.",
+  "url": "https://stockcake.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=stockcake.com&sz=64",
+  "screenshot_url": "/screenshots/stockcake.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "image_generation",
+    "creative",
+    "text_to_image",
+    "visual",
+    "graphics",
+    "generative_ai",
+    "art",
+    "diffusion",
+    "prompting",
+    "free_tier",
+    "image_based"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 70,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

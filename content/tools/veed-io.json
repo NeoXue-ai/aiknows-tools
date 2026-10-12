@@ -1,0 +1,30 @@
+{
+  "slug": "veed-io",
+  "name": "VEED.io",
+  "tagline": "VEED.io is a browser-based video editor with powerful AI features including auto-subtitle generation, AI avatars for spokesperson videos, background removal, and noise cancellation. It requires no software installation and supports collaboration, making it popular with content creators, educators, and marketing teams.",
+  "description": "VEED.io is a browser-based video editor with powerful AI features including auto-subtitle generation, AI avatars for spokesperson videos, background removal, and noise cancellation. It requires no software installation and supports collaboration, making it popular with content creators, educators, and marketing teams.",
+  "url": "https://veed.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=veed.io&sz=64",
+  "screenshot_url": "/screenshots/veed-io.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "video_editing",
+    "creative",
+    "video",
+    "production",
+    "media",
+    "cutting",
+    "transitions",
+    "effects",
+    "export",
+    "collaboration",
+    "powerful"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 86,
+  "subcategory": "ai-video-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

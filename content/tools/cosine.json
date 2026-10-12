@@ -1,0 +1,28 @@
+{
+  "slug": "cosine",
+  "name": "Cosine",
+  "tagline": "Cosine is an AI software engineer that builds a deep understanding of an entire codebase to answer questions, debug issues, and implement features. It goes beyond autocomplete to reason about architecture, dependencies, and patterns across thousands of files.",
+  "description": "Cosine is an AI software engineer that builds a deep understanding of an entire codebase to answer questions, debug issues, and implement features. It goes beyond autocomplete to reason about architecture, dependencies, and patterns across thousands of files.",
+  "url": "https://cosine.sh",
+  "logo_url": "https://www.google.com/s2/favicons?domain=cosine.sh&sz=64",
+  "screenshot_url": "/screenshots/cosine.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "code_generation",
+    "developer_tools",
+    "productivity",
+    "coding",
+    "programming",
+    "autocomplete",
+    "debugging",
+    "refactoring",
+    "ide"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 65,
+  "subcategory": "ai-code-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

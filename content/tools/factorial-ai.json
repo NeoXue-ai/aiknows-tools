@@ -1,0 +1,28 @@
+{
+  "slug": "factorial-ai",
+  "name": "Factorial",
+  "tagline": "Factorial is an all-in-one HR platform for small and medium businesses covering time tracking, payroll, documents, performance reviews, and recruitment. Its AI features include automated payroll processing, AI-powered offer letter generation, and employee sentiment analysis from pulse surveys.",
+  "description": "Factorial is an all-in-one HR platform for small and medium businesses covering time tracking, payroll, documents, performance reviews, and recruitment. Its AI features include automated payroll processing, AI-powered offer letter generation, and employee sentiment analysis from pulse surveys.",
+  "url": "https://factorialhr.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=factorialhr.com&sz=64",
+  "screenshot_url": "/screenshots/factorial-ai.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "hr",
+    "business",
+    "recruitment",
+    "employees",
+    "human_resources",
+    "onboarding",
+    "performance",
+    "payroll",
+    "talent"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 77,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

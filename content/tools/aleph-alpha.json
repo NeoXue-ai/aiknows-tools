@@ -1,0 +1,31 @@
+{
+  "slug": "aleph-alpha",
+  "name": "Aleph Alpha",
+  "tagline": "Aleph Alpha is a German AI company that develops Luminous, a family of multimodal large language models designed for European data sovereignty requirements. It focuses on explainability, data privacy, and on-premises deployment for regulated industries and public sector organizations.",
+  "description": "Aleph Alpha is a German AI company that develops Luminous, a family of multimodal large language models designed for European data sovereignty requirements. It focuses on explainability, data privacy, and on-premises deployment for regulated industries and public sector organizations.",
+  "url": "https://aleph-alpha.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=aleph-alpha.com&sz=64",
+  "screenshot_url": "/screenshots/aleph-alpha.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "llm",
+    "foundation_model",
+    "ai_model",
+    "machine_learning",
+    "neural",
+    "inference",
+    "fine_tuning",
+    "api",
+    "open_source",
+    "multimodal",
+    "secure",
+    "nlp"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 71,
+  "subcategory": "ai-models",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

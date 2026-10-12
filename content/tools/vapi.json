@@ -1,0 +1,31 @@
+{
+  "slug": "vapi",
+  "name": "Vapi",
+  "tagline": "Vapi is a developer platform for building voice AI agents that can make and receive phone calls. It handles the complex infrastructure of telephony, speech-to-text, LLM integration, and text-to-speech — letting developers focus on the conversation logic. Vapi supports custom voices via ElevenLabs and Cartesia, pluggable LLMs including GPT-4 and Claude, and function calling for taking actions during calls. Companies use it for AI receptionists, appointment booking, outbound sales calls, and customer support automation.",
+  "description": "Vapi is a developer platform for building voice AI agents that can make and receive phone calls. It handles the complex infrastructure of telephony, speech-to-text, LLM integration, and text-to-speech — letting developers focus on the conversation logic. Vapi supports custom voices via ElevenLabs and Cartesia, pluggable LLMs including GPT-4 and Claude, and function calling for taking actions during calls. Companies use it for AI receptionists, appointment booking, outbound sales calls, and customer support automation.",
+  "url": "https://vapi.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=vapi.ai&sz=64",
+  "screenshot_url": "/screenshots/vapi.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "customizable",
+    "integrations",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 78,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

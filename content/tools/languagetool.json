@@ -1,0 +1,31 @@
+{
+  "slug": "languagetool",
+  "name": "LanguageTool",
+  "tagline": "LanguageTool is an open-source grammar, style, and spell checker that supports over 30 languages — far more than its competitors. Its browser extension and desktop app check writing in real time across any website or application, catching grammar errors, awkward phrasing, redundancies, and register mismatches. Unlike Grammarly, it can be self-hosted for privacy-sensitive environments, making it popular in European enterprises with strict data governance requirements. Its premium tier adds an AI-powered rephrasing assistant for clearer, more concise writing.",
+  "description": "LanguageTool is an open-source grammar, style, and spell checker that supports over 30 languages — far more than its competitors. Its browser extension and desktop app check writing in real time across any website or application, catching grammar errors, awkward phrasing, redundancies, and register mismatches. Unlike Grammarly, it can be self-hosted for privacy-sensitive environments, making it popular in European enterprises with strict data governance requirements. Its premium tier adds an AI-powered rephrasing assistant for clearer, more concise writing.",
+  "url": "https://languagetool.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=languagetool.org&sz=64",
+  "screenshot_url": "/screenshots/languagetool.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "writing",
+    "text_generation",
+    "productivity",
+    "content",
+    "editing",
+    "grammar",
+    "paraphrasing",
+    "ai_writing",
+    "drafting",
+    "open_source",
+    "browser_extension",
+    "enterprise"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 80,
+  "subcategory": "ai-writer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

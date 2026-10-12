@@ -1,0 +1,30 @@
+{
+  "slug": "google-assistant",
+  "name": "Google Assistant",
+  "tagline": "Google Assistant is Google's AI voice assistant, available on Android phones, smart speakers, smart displays, and Nest devices. It understands natural-language commands for setting reminders, answering questions, controlling smart home devices, and managing your Google calendar. It's gradually being superseded by Gemini on newer Android devices as Google migrates its AI experiences.",
+  "description": "Google Assistant is Google's AI voice assistant, available on Android phones, smart speakers, smart displays, and Nest devices. It understands natural-language commands for setting reminders, answering questions, controlling smart home devices, and managing your Google calendar. It's gradually being superseded by Gemini on newer Android devices as Google migrates its AI experiences.",
+  "url": "https://assistant.google.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=assistant.google.com&sz=64",
+  "screenshot_url": "/screenshots/google-assistant.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "ai_assistant",
+    "productivity",
+    "chatbot",
+    "support",
+    "helpful",
+    "personal",
+    "tasks",
+    "reminders",
+    "smart",
+    "mobile_app",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 100,
+  "subcategory": "ai-assistant",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

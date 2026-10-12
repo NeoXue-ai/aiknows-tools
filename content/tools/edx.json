@@ -1,0 +1,30 @@
+{
+  "slug": "edx",
+  "name": "edX",
+  "tagline": "edX is an online education platform offering courses, professional certificates, and degrees from top universities and companies worldwide. It features AI and machine learning courses from institutions like MIT and Harvard, as well as AI-powered learning tools to help students progress.",
+  "description": "edX is an online education platform offering courses, professional certificates, and degrees from top universities and companies worldwide. It features AI and machine learning courses from institutions like MIT and Harvard, as well as AI-powered learning tools to help students progress.",
+  "url": "https://edx.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=edx.org&sz=64",
+  "screenshot_url": "/screenshots/edx.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "education",
+    "learning",
+    "teaching",
+    "courses",
+    "training",
+    "tutoring",
+    "study",
+    "assessment",
+    "e_learning",
+    "machine_learning",
+    "powerful"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 90,
+  "subcategory": "ai-education",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

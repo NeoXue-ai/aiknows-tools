@@ -1,0 +1,28 @@
+{
+  "slug": "buffer",
+  "name": "Buffer",
+  "tagline": "Buffer is a social media management tool that lets you schedule posts across Instagram, X, LinkedIn, Facebook, and TikTok from one dashboard. Its AI assistant helps draft captions, suggests optimal posting times, and analyses which content formats drive the most engagement. Ideal for small businesses and solo creators who want consistent social presence without daily effort.",
+  "description": "Buffer is a social media management tool that lets you schedule posts across Instagram, X, LinkedIn, Facebook, and TikTok from one dashboard. Its AI assistant helps draft captions, suggests optimal posting times, and analyses which content formats drive the most engagement. Ideal for small businesses and solo creators who want consistent social presence without daily effort.",
+  "url": "https://buffer.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=buffer.com&sz=64",
+  "screenshot_url": "/screenshots/buffer.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "social_media",
+    "marketing",
+    "content_creation",
+    "engagement",
+    "posting",
+    "scheduling",
+    "analytics",
+    "audience",
+    "platform"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 91,
+  "subcategory": "social-media",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

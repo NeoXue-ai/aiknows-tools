@@ -1,0 +1,31 @@
+{
+  "slug": "cutout-pro",
+  "name": "Cutout.Pro",
+  "tagline": "Cutout.Pro is an AI image editing platform for background removal, photo retouching, and visual enhancement. Designers and e-commerce teams use it to batch-process product images and clean up visuals without desktop software. It handles complex edges like hair and fur well, and processes images through a web upload or API.",
+  "description": "Cutout.Pro is an AI image editing platform for background removal, photo retouching, and visual enhancement. Designers and e-commerce teams use it to batch-process product images and clean up visuals without desktop software. It handles complex edges like hair and fur well, and processes images through a web upload or API.",
+  "url": "https://cutout.pro",
+  "logo_url": "https://www.google.com/s2/favicons?domain=cutout.pro&sz=64",
+  "screenshot_url": "/screenshots/cutout-pro.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "image_editing",
+    "design",
+    "creative",
+    "background",
+    "image_processing",
+    "cutout",
+    "transparency",
+    "photo_editing",
+    "visual",
+    "api_available",
+    "collaboration",
+    "image_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 72,
+  "subcategory": "ai-background-remover",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

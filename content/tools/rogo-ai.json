@@ -1,0 +1,29 @@
+{
+  "slug": "rogo-ai",
+  "name": "Rogo",
+  "tagline": "Rogo is an AI copilot built for investment banks that answers questions over financial filings, comps, and internal deal documents. Junior bankers and analysts use it to speed up company research, pull comparable transactions, and draft parts of pitch materials.",
+  "description": "Rogo is an AI copilot built for investment banks that answers questions over financial filings, comps, and internal deal documents. Junior bankers and analysts use it to speed up company research, pull comparable transactions, and draft parts of pitch materials.",
+  "url": "https://rogo.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=rogo.ai&sz=64",
+  "screenshot_url": "/screenshots/rogo-ai.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "finance",
+    "business",
+    "analytics",
+    "accounting",
+    "investment",
+    "financial_planning",
+    "budgeting",
+    "fintech",
+    "reporting",
+    "fast"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 70,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

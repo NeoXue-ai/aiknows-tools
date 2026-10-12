@@ -1,0 +1,30 @@
+{
+  "slug": "galileo-ai",
+  "name": "Galileo AI",
+  "tagline": "Galileo AI generates detailed, editable UI designs from text descriptions — producing screens complete with layout, components, imagery, and copy in seconds. Output is directly importable into Figma for refinement, letting designers use AI-generated designs as a starting point rather than building from a blank canvas. Product teams and early-stage startups use it to rapidly prototype interface concepts before committing engineering resources.",
+  "description": "Galileo AI generates detailed, editable UI designs from text descriptions — producing screens complete with layout, components, imagery, and copy in seconds. Output is directly importable into Figma for refinement, letting designers use AI-generated designs as a starting point rather than building from a blank canvas. Product teams and early-stage startups use it to rapidly prototype interface concepts before committing engineering resources.",
+  "url": "https://usegalileo.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=usegalileo.ai&sz=64",
+  "screenshot_url": "/screenshots/galileo-ai.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "design",
+    "image_editing",
+    "creative",
+    "visual",
+    "branding",
+    "typography",
+    "layouts",
+    "ui_design",
+    "illustration",
+    "collaboration",
+    "image_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 66,
+  "subcategory": "ai-graphic-design",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "mubert",
+  "name": "Mubert",
+  "tagline": "Mubert is a generative AI music platform that streams infinitely long, non-repetitive music tailored to a mood or activity — and offers an API for developers to integrate adaptive background music into apps and games. Its Render tool lets creators generate tracks for content with specific duration and energy requirements. Developers and content platforms embed Mubert to provide dynamic, contextual audio without licensing complex libraries.",
+  "description": "Mubert is a generative AI music platform that streams infinitely long, non-repetitive music tailored to a mood or activity — and offers an API for developers to integrate adaptive background music into apps and games. Its Render tool lets creators generate tracks for content with specific duration and energy requirements. Developers and content platforms embed Mubert to provide dynamic, contextual audio without licensing complex libraries.",
+  "url": "https://mubert.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=mubert.com&sz=64",
+  "screenshot_url": "/screenshots/mubert.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "music_generation",
+    "audio",
+    "creative",
+    "music",
+    "composition",
+    "ai_music",
+    "beats",
+    "melody",
+    "soundtrack",
+    "api_available",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 72,
+  "subcategory": "ai-music-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

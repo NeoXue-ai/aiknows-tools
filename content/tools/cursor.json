@@ -1,21 +1,28 @@
 {
   "slug": "cursor",
   "name": "Cursor",
-  "tagline": "AI-first code editor",
-  "description": "VS Code fork built around agentic coding, multi-file edits, and chat.",
-  "url": "https://cursor.com",
-  "logo_url": "https://www.google.com/s2/favicons?domain=cursor.com&sz=64",
+  "tagline": "Cursor is an AI-first code editor (a fork of VS Code) that puts GPT-4 and Claude directly into the editing experience. It can rewrite entire functions from a description, explain unfamiliar codebases, generate tests, and apply multi-file edits with a single instruction. Developers describe it as the closest thing to having a senior engineer pair-programming with you full time.",
+  "description": "Cursor is an AI-first code editor (a fork of VS Code) that puts GPT-4 and Claude directly into the editing experience. It can rewrite entire functions from a description, explain unfamiliar codebases, generate tests, and apply multi-file edits with a single instruction. Developers describe it as the closest thing to having a senior engineer pair-programming with you full time.",
+  "url": "https://cursor.sh",
+  "logo_url": "https://www.google.com/s2/favicons?domain=cursor.sh&sz=64",
   "screenshot_url": "/screenshots/cursor.webp",
   "primary_category": "code-development",
   "tags": [
-    "editor",
-    "agent"
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
-  "subcategory": "ai-agent",
-  "is_featured": true,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 79,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
 }

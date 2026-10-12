@@ -1,0 +1,30 @@
+{
+  "slug": "generated-photos",
+  "name": "Generated Photos",
+  "tagline": "Generated Photos provides AI-generated human face images for use in design, research, and UI mockups where real people's photos cannot be used. All faces are 100% AI-generated and come with control over age, gender, ethnicity, and expression. Designers use them for user personas, app mockups, and training datasets.",
+  "description": "Generated Photos provides AI-generated human face images for use in design, research, and UI mockups where real people's photos cannot be used. All faces are 100% AI-generated and come with control over age, gender, ethnicity, and expression. Designers use them for user personas, app mockups, and training datasets.",
+  "url": "https://generated.photos",
+  "logo_url": "https://www.google.com/s2/favicons?domain=generated.photos&sz=64",
+  "screenshot_url": "/screenshots/generated-photos.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "image_generation",
+    "creative",
+    "text_to_image",
+    "visual",
+    "graphics",
+    "generative_ai",
+    "art",
+    "diffusion",
+    "prompting",
+    "image_based",
+    "training"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 72,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

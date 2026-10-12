@@ -1,0 +1,27 @@
+{
+  "slug": "bugsnag",
+  "name": "Bugsnag",
+  "tagline": "Bugsnag is an application stability monitoring platform that automatically captures, groups, and prioritizes software errors across web, mobile, and server applications. Engineering teams use it to triage which errors affect the most users or cause the most instability, rather than treating all errors as equal. It provides full stack traces with device, OS, and user context so developers can reproduce and fix crashes without back-and-forth investigation.",
+  "description": "Bugsnag is an application stability monitoring platform that automatically captures, groups, and prioritizes software errors across web, mobile, and server applications. Engineering teams use it to triage which errors affect the most users or cause the most instability, rather than treating all errors as equal. It provides full stack traces with device, OS, and user context so developers can reproduce and fix crashes without back-and-forth investigation.",
+  "url": "https://bugsnag.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=bugsnag.com&sz=64",
+  "screenshot_url": "/screenshots/bugsnag.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "collaboration",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool",
+    "service",
+    "solution",
+    "saas"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 79,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

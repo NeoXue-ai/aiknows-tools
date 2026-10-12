@@ -1,0 +1,31 @@
+{
+  "slug": "whimsical-ai",
+  "name": "Whimsical AI",
+  "tagline": "Whimsical is a collaborative visual workspace for wireframes, flowcharts, mind maps, and sticky notes. Its AI features include AI-generated mind maps and flowcharts from a text description, AI wireframe generation, and a cursor chat AI assistant. Product teams and educators use it to quickly visualise ideas and processes.",
+  "description": "Whimsical is a collaborative visual workspace for wireframes, flowcharts, mind maps, and sticky notes. Its AI features include AI-generated mind maps and flowcharts from a text description, AI wireframe generation, and a cursor chat AI assistant. Product teams and educators use it to quickly visualise ideas and processes.",
+  "url": "https://whimsical.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=whimsical.com&sz=64",
+  "screenshot_url": "/screenshots/whimsical-ai.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "design",
+    "image_editing",
+    "creative",
+    "visual",
+    "branding",
+    "typography",
+    "layouts",
+    "ui_design",
+    "illustration",
+    "collaboration",
+    "image_based",
+    "fast"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 79,
+  "subcategory": "ai-graphic-design",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

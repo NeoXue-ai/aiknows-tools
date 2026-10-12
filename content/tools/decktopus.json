@@ -1,0 +1,29 @@
+{
+  "slug": "decktopus",
+  "name": "Decktopus",
+  "tagline": "Decktopus is an AI-powered presentation tool that generates complete slide decks from a topic in seconds, including content, visuals, and speaker notes. Its AI tailors presentations to the specific audience and purpose, and includes a form builder for collecting audience feedback directly within slides.",
+  "description": "Decktopus is an AI-powered presentation tool that generates complete slide decks from a topic in seconds, including content, visuals, and speaker notes. Its AI tailors presentations to the specific audience and purpose, and includes a form builder for collecting audience feedback directly within slides.",
+  "url": "https://decktopus.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=decktopus.com&sz=64",
+  "screenshot_url": "/screenshots/decktopus.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "presentation",
+    "productivity",
+    "design",
+    "slides",
+    "communication",
+    "pitch_deck",
+    "storytelling",
+    "visual",
+    "templates",
+    "image_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "ai-presentation-maker",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

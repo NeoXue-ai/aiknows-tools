@@ -1,0 +1,31 @@
+{
+  "slug": "elai",
+  "name": "Elai.io",
+  "tagline": "Elai.io is an AI video generation platform that turns text scripts into polished presenter videos using realistic AI avatars. You choose from dozens of avatars, write or paste your script, and get a professional-quality video in minutes — without cameras, studios, or recording. It's widely used for corporate training, onboarding, and multilingual marketing content.",
+  "description": "Elai.io is an AI video generation platform that turns text scripts into polished presenter videos using realistic AI avatars. You choose from dozens of avatars, write or paste your script, and get a professional-quality video in minutes — without cameras, studios, or recording. It's widely used for corporate training, onboarding, and multilingual marketing content.",
+  "url": "https://elai.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=elai.io&sz=64",
+  "screenshot_url": "/screenshots/elai.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "avatar",
+    "video_generation",
+    "creative",
+    "video",
+    "animation",
+    "digital_human",
+    "lip_sync",
+    "presenter",
+    "synthetic_media",
+    "mobile_app",
+    "training",
+    "powerful"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 72,
+  "subcategory": "ai-avatar-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

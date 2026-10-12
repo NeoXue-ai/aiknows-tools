@@ -1,0 +1,29 @@
+{
+  "slug": "vectorizer-ai",
+  "name": "Vectorizer.ai",
+  "tagline": "Vectorizer.ai uses AI to convert JPEG and PNG images to high-quality SVG vector graphics with clean paths and accurate colour reproduction. It is designed for designers who need scalable versions of logos, illustrations, or icons for print and web use, producing far cleaner results than traditional threshold-based vectorisers.",
+  "description": "Vectorizer.ai uses AI to convert JPEG and PNG images to high-quality SVG vector graphics with clean paths and accurate colour reproduction. It is designed for designers who need scalable versions of logos, illustrations, or icons for print and web use, producing far cleaner results than traditional threshold-based vectorisers.",
+  "url": "https://vectorizer.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=vectorizer.ai&sz=64",
+  "screenshot_url": "/screenshots/vectorizer-ai.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "image_editing",
+    "design",
+    "creative",
+    "photo",
+    "visual",
+    "retouching",
+    "filters",
+    "enhancement",
+    "manipulation",
+    "image_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 69,
+  "subcategory": "ai-photo-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "dynamic-yield",
+  "name": "Dynamic Yield",
+  "tagline": "Dynamic Yield by Mastercard is an AI personalisation platform that optimises digital customer experiences across web, apps, email, and kiosks. Its machine learning algorithms test and personalise product recommendations, content, layouts, and offers for every individual visitor, used by brands like McDonald's, Urban Outfitters, and Sephora.",
+  "description": "Dynamic Yield by Mastercard is an AI personalisation platform that optimises digital customer experiences across web, apps, email, and kiosks. Its machine learning algorithms test and personalise product recommendations, content, layouts, and offers for every individual visitor, used by brands like McDonald's, Urban Outfitters, and Sephora.",
+  "url": "https://dynamicyield.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=dynamicyield.com&sz=64",
+  "screenshot_url": null,
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "ecommerce",
+    "business",
+    "marketing",
+    "retail",
+    "shopping",
+    "online_store",
+    "product_catalog",
+    "checkout",
+    "conversions",
+    "mobile_app",
+    "customizable",
+    "machine_learning"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 82,
+  "subcategory": "ecommerce",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

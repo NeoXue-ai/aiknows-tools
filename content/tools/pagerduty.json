@@ -1,0 +1,27 @@
+{
+  "slug": "pagerduty",
+  "name": "PagerDuty",
+  "tagline": "PagerDuty routes alerts from monitoring tools to the right on-call engineer and tracks an incident from first page to resolution. Its AI layer summarizes what changed, suggests likely causes based on similar past incidents, and drafts the status updates that would otherwise eat into the time a team spends actually fixing the problem. Most SRE and DevOps teams running production services at any real scale have it, or something like it, wired into their alerting.",
+  "description": "PagerDuty routes alerts from monitoring tools to the right on-call engineer and tracks an incident from first page to resolution. Its AI layer summarizes what changed, suggests likely causes based on similar past incidents, and drafts the status updates that would otherwise eat into the time a team spends actually fixing the problem. Most SRE and DevOps teams running production services at any real scale have it, or something like it, wired into their alerting.",
+  "url": "https://pagerduty.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=pagerduty.com&sz=64",
+  "screenshot_url": "/screenshots/pagerduty.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "collaboration",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool",
+    "service",
+    "solution",
+    "saas"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 84,
+  "subcategory": "monitoring",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

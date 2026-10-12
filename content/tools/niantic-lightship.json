@@ -1,0 +1,27 @@
+{
+  "slug": "niantic-lightship",
+  "name": "Niantic Lightship",
+  "tagline": "Niantic Lightship is an AR developer platform built on the infrastructure behind Pokémon GO that provides real-world mapping, Visual Positioning System, and shared AR capabilities. Game developers and location-based app teams use it to build experiences where digital objects appear precisely anchored to real-world locations and persist across sessions for multiple users. The Lightship VPS uses crowdsourced scan data to recognize thousands of real-world locations and position AR content accurately within them.",
+  "description": "Niantic Lightship is an AR developer platform built on the infrastructure behind Pokémon GO that provides real-world mapping, Visual Positioning System, and shared AR capabilities. Game developers and location-based app teams use it to build experiences where digital objects appear precisely anchored to real-world locations and persist across sessions for multiple users. The Lightship VPS uses crowdsourced scan data to recognize thousands of real-world locations and position AR content accurately within them.",
+  "url": "https://lightship.dev",
+  "logo_url": "https://www.google.com/s2/favicons?domain=lightship.dev&sz=64",
+  "screenshot_url": "/screenshots/niantic-lightship.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "collaboration",
+    "image_based",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool",
+    "service",
+    "solution"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 62,
+  "subcategory": "ai-3d-model-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

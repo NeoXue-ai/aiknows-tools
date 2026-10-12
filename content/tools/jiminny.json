@@ -1,0 +1,29 @@
+{
+  "slug": "jiminny",
+  "name": "Jiminny",
+  "tagline": "Jiminny is a sales intelligence platform that records, transcribes, and analyzes sales calls and video meetings with AI. It provides automated coaching feedback, deal risk alerts, and CRM auto-updates to help sales managers develop their teams and improve win rates.",
+  "description": "Jiminny is a sales intelligence platform that records, transcribes, and analyzes sales calls and video meetings with AI. It provides automated coaching feedback, deal risk alerts, and CRM auto-updates to help sales managers develop their teams and improve win rates.",
+  "url": "https://jiminny.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=jiminny.com&sz=64",
+  "screenshot_url": "/screenshots/jiminny.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "sales",
+    "business",
+    "crm",
+    "revenue",
+    "conversion",
+    "pipeline",
+    "prospecting",
+    "closing",
+    "forecasting",
+    "collaboration"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 60,
+  "subcategory": "sales",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

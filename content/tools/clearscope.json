@@ -1,21 +1,31 @@
 {
   "slug": "clearscope",
   "name": "Clearscope",
-  "tagline": "Content optimization platform",
-  "description": "AI-powered content reports to help teams write for search intent.",
+  "tagline": "Clearscope analyses top-ranking pages for any keyword and generates a content report showing which terms, topics, and questions must appear in your article to be competitive. Writers draft or paste content and see a real-time grade update as they add the recommended terms. Content teams at enterprise media companies and agencies use Clearscope to ensure every piece is structured for search before it publishes.",
+  "description": "Clearscope analyses top-ranking pages for any keyword and generates a content report showing which terms, topics, and questions must appear in your article to be competitive. Writers draft or paste content and see a real-time grade update as they add the recommended terms. Content teams at enterprise media companies and agencies use Clearscope to ensure every piece is structured for search before it publishes.",
   "url": "https://clearscope.io",
   "logo_url": "https://www.google.com/s2/favicons?domain=clearscope.io&sz=64",
   "screenshot_url": "/screenshots/clearscope.webp",
   "primary_category": "seo-marketing",
   "tags": [
     "seo",
-    "content"
+    "marketing",
+    "analytics",
+    "ranking",
+    "optimization",
+    "keywords",
+    "content_seo",
+    "backlinks",
+    "serp",
+    "real_time",
+    "collaboration",
+    "enterprise"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
-  "subcategory": null,
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 79,
+  "subcategory": "ai-seo-tools",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

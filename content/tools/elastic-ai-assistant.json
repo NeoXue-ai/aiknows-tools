@@ -1,0 +1,30 @@
+{
+  "slug": "elastic-ai-assistant",
+  "name": "Elastic AI Assistant",
+  "tagline": "Elastic AI Assistant brings generative AI to Elastic search and security workflows. It helps teams investigate alerts, query and summarize data, and create context-aware responses using the information indexed in Elastic.",
+  "description": "Elastic AI Assistant brings generative AI to Elastic search and security workflows. It helps teams investigate alerts, query and summarize data, and create context-aware responses using the information indexed in Elastic.",
+  "url": "https://elastic.co",
+  "logo_url": "https://www.google.com/s2/favicons?domain=elastic.co&sz=64",
+  "screenshot_url": "/screenshots/elastic-ai-assistant.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "ai_assistant",
+    "productivity",
+    "chatbot",
+    "support",
+    "helpful",
+    "personal",
+    "tasks",
+    "reminders",
+    "smart",
+    "collaboration",
+    "secure"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 90,
+  "subcategory": "ai-assistant",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

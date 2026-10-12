@@ -1,0 +1,30 @@
+{
+  "slug": "alphasense",
+  "name": "AlphaSense",
+  "tagline": "AlphaSense is an AI-powered market intelligence platform used by finance professionals to search across earnings calls, SEC filings, broker research, and news in seconds. Its semantic search understands financial language and surfaces insights that keyword search would miss. Hedge funds, investment banks, and corporate strategy teams use it to compress research time.",
+  "description": "AlphaSense is an AI-powered market intelligence platform used by finance professionals to search across earnings calls, SEC filings, broker research, and news in seconds. Its semantic search understands financial language and surfaces insights that keyword search would miss. Hedge funds, investment banks, and corporate strategy teams use it to compress research time.",
+  "url": "https://alpha-sense.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=alpha-sense.com&sz=64",
+  "screenshot_url": "/screenshots/alphasense.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "finance",
+    "business",
+    "analytics",
+    "accounting",
+    "investment",
+    "financial_planning",
+    "budgeting",
+    "fintech",
+    "reporting",
+    "collaboration",
+    "powerful"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 74,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

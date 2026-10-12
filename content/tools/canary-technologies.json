@@ -1,0 +1,29 @@
+{
+  "slug": "canary-technologies",
+  "name": "Canary Technologies",
+  "tagline": "Canary Technologies gives hotels an AI guest messaging hub that automates check-in, upsells, and guest requests across text and other channels. Hospitality managers use it to cut front-desk workload and respond to guests faster without adding headcount.",
+  "description": "Canary Technologies gives hotels an AI guest messaging hub that automates check-in, upsells, and guest requests across text and other channels. Hospitality managers use it to cut front-desk workload and respond to guests faster without adding headcount.",
+  "url": "https://canarytechnologies.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=canarytechnologies.com&sz=64",
+  "screenshot_url": "/screenshots/canary-technologies.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "customer_support",
+    "chatbot",
+    "business",
+    "help_desk",
+    "support",
+    "ticketing",
+    "live_chat",
+    "service",
+    "resolution",
+    "fast"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 70,
+  "subcategory": "customer-support",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

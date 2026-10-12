@@ -1,0 +1,30 @@
+{
+  "slug": "you-search",
+  "name": "You.com",
+  "tagline": "You.com is a privacy-focused AI search engine with a conversational interface that searches the web and synthesises answers with source citations. Its YouCode assistant is specifically optimised for technical search and coding questions, and YouWrite helps draft content directly in the search interface. Users who want an ad-free, AI-native search experience without sending queries to Google use You.com as their default.",
+  "description": "You.com is a privacy-focused AI search engine with a conversational interface that searches the web and synthesises answers with source citations. Its YouCode assistant is specifically optimised for technical search and coding questions, and YouWrite helps draft content directly in the search interface. Users who want an ad-free, AI-native search experience without sending queries to Google use You.com as their default.",
+  "url": "https://you.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=you.com&sz=64",
+  "screenshot_url": null,
+  "primary_category": "productivity",
+  "tags": [
+    "search",
+    "ai_assistant",
+    "discovery",
+    "information",
+    "query",
+    "web_search",
+    "answers",
+    "knowledge",
+    "retrieval",
+    "free_tier",
+    "secure"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 79,
+  "subcategory": "ai-search-engine",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

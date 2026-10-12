@@ -1,0 +1,30 @@
+{
+  "slug": "hibob-ai",
+  "name": "HiBob",
+  "tagline": "HiBob (Bob) is a modern HRIS designed for mid-size companies with AI features including compensation benchmarking, workforce planning analytics, and an AI HR assistant. It supports flexible working patterns, performance management, and benefits administration with a consumer-grade interface.",
+  "description": "HiBob (Bob) is a modern HRIS designed for mid-size companies with AI features including compensation benchmarking, workforce planning analytics, and an AI HR assistant. It supports flexible working patterns, performance management, and benefits administration with a consumer-grade interface.",
+  "url": "https://hibob.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=hibob.com&sz=64",
+  "screenshot_url": "/screenshots/hibob-ai.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "hr",
+    "business",
+    "recruitment",
+    "employees",
+    "human_resources",
+    "onboarding",
+    "performance",
+    "payroll",
+    "talent",
+    "analytics",
+    "versatile"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 81,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

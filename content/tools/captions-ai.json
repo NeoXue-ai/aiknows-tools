@@ -1,0 +1,28 @@
+{
+  "slug": "captions-ai",
+  "name": "Captions AI",
+  "tagline": "Captions is an AI-powered video creation app that automatically generates subtitles, removes filler words, and edits eye contact in real time. Content creators use it to produce polished talking-head videos for social media without manual editing. Its AI avatar feature also lets users create videos without appearing on camera.",
+  "description": "Captions is an AI-powered video creation app that automatically generates subtitles, removes filler words, and edits eye contact in real time. Content creators use it to produce polished talking-head videos for social media without manual editing. Its AI avatar feature also lets users create videos without appearing on camera.",
+  "url": "https://captions.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=captions.ai&sz=64",
+  "screenshot_url": "/screenshots/captions-ai.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "video_editing",
+    "creative",
+    "video",
+    "production",
+    "media",
+    "cutting",
+    "transitions",
+    "effects",
+    "export"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "ai-video-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

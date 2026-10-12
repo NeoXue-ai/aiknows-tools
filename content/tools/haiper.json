@@ -1,0 +1,31 @@
+{
+  "slug": "haiper",
+  "name": "Haiper",
+  "tagline": "Haiper is an AI video generation platform that prioritises speed and creative iteration, producing 2–4 second clips from text or image prompts in seconds. Its Choreograph feature lets users direct camera movements and transitions, and a lip-sync tool synchronises AI avatars to any audio. Social media creators and digital marketers use Haiper when fast turnaround and volume matter more than maximum cinematic quality.",
+  "description": "Haiper is an AI video generation platform that prioritises speed and creative iteration, producing 2–4 second clips from text or image prompts in seconds. Its Choreograph feature lets users direct camera movements and transitions, and a lip-sync tool synchronises AI avatars to any audio. Social media creators and digital marketers use Haiper when fast turnaround and volume matter more than maximum cinematic quality.",
+  "url": "https://haiper.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=haiper.ai&sz=64",
+  "screenshot_url": null,
+  "primary_category": "image-video",
+  "tags": [
+    "video_generation",
+    "creative",
+    "text_to_video",
+    "animation",
+    "production",
+    "ai_video",
+    "generative",
+    "short_form",
+    "clips",
+    "image_based",
+    "voice_enabled",
+    "fast"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 64,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

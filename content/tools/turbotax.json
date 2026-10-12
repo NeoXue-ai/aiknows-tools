@@ -1,0 +1,27 @@
+{
+  "slug": "turbotax",
+  "name": "TurboTax",
+  "tagline": "TurboTax is a leading tax preparation platform that guides individuals and small business owners through filing federal and state tax returns with step-by-step questions and AI-powered guidance. It imports W-2s and 1099s by photo or direct connection to employers and financial institutions, reducing manual data entry and errors. Its AI tools identify deductions based on answers given throughout the interview and provide explanations for why specific tax rules apply to each user's situation.",
+  "description": "TurboTax is a leading tax preparation platform that guides individuals and small business owners through filing federal and state tax returns with step-by-step questions and AI-powered guidance. It imports W-2s and 1099s by photo or direct connection to employers and financial institutions, reducing manual data entry and errors. Its AI tools identify deductions based on answers given throughout the interview and provide explanations for why specific tax rules apply to each user's situation.",
+  "url": "https://turbotax.intuit.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=turbotax.intuit.com&sz=64",
+  "screenshot_url": "/screenshots/turbotax.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool",
+    "service",
+    "solution",
+    "saas",
+    "online"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 92,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

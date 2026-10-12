@@ -1,0 +1,30 @@
+{
+  "slug": "moveworks",
+  "name": "Moveworks",
+  "tagline": "Moveworks is an enterprise AI assistant that resolves common IT and HR support requests automatically, like password resets and software access, by understanding employee requests in plain language. IT managers and support teams use it to deflect routine tickets so staff can focus on harder issues.",
+  "description": "Moveworks is an enterprise AI assistant that resolves common IT and HR support requests automatically, like password resets and software access, by understanding employee requests in plain language. IT managers and support teams use it to deflect routine tickets so staff can focus on harder issues.",
+  "url": "https://moveworks.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=moveworks.com&sz=64",
+  "screenshot_url": "/screenshots/moveworks.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "customer_support",
+    "chatbot",
+    "business",
+    "help_desk",
+    "support",
+    "ticketing",
+    "live_chat",
+    "service",
+    "resolution",
+    "collaboration",
+    "enterprise"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 74,
+  "subcategory": "customer-support",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "gladia",
+  "name": "Gladia",
+  "tagline": "Gladia is a fast audio transcription API that uses AI to convert speech to text with speaker diarization, language detection, and translation across 100+ languages. It is optimized for real-time and batch processing of audio from meetings, calls, and media files.",
+  "description": "Gladia is a fast audio transcription API that uses AI to convert speech to text with speaker diarization, language detection, and translation across 100+ languages. It is optimized for real-time and batch processing of audio from meetings, calls, and media files.",
+  "url": "https://gladia.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=gladia.io&sz=64",
+  "screenshot_url": "/screenshots/gladia.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "transcription",
+    "speech_to_text",
+    "audio",
+    "text",
+    "conversion",
+    "captions",
+    "subtitles",
+    "accuracy",
+    "real_time",
+    "api_available",
+    "voice_enabled",
+    "fast"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 68,
+  "subcategory": "speech-to-text-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

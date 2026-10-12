@@ -1,0 +1,31 @@
+{
+  "slug": "evidently-ai",
+  "name": "Evidently AI",
+  "tagline": "Evidently AI is an open-source library and platform for evaluating, testing, and monitoring machine learning models and LLM applications. It generates visual reports on data drift, model performance, and LLM output quality, supporting both batch testing and production monitoring.",
+  "description": "Evidently AI is an open-source library and platform for evaluating, testing, and monitoring machine learning models and LLM applications. It generates visual reports on data drift, model performance, and LLM output quality, supporting both batch testing and production monitoring.",
+  "url": "https://evidentlyai.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=evidentlyai.com&sz=64",
+  "screenshot_url": "/screenshots/evidently-ai.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "open_source",
+    "machine_learning",
+    "image_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "diffbot",
+  "name": "Diffbot",
+  "tagline": "Diffbot is an AI platform that automatically extracts structured data from any web page and builds a continuously updated knowledge graph of the web. Enterprises use it for competitive intelligence, market research, and training AI models with fresh, structured web data.",
+  "description": "Diffbot is an AI platform that automatically extracts structured data from any web page and builds a continuously updated knowledge graph of the web. Enterprises use it for competitive intelligence, market research, and training AI models with fresh, structured web data.",
+  "url": "https://diffbot.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=diffbot.com&sz=64",
+  "screenshot_url": "/screenshots/diffbot.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "enterprise",
+    "training",
+    "model_based"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 71,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

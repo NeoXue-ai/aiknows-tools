@@ -1,0 +1,29 @@
+{
+  "slug": "beamery",
+  "name": "Beamery",
+  "tagline": "Beamery is a talent operating system that uses AI to attract, engage, and retain talent throughout the full recruitment lifecycle. It provides candidate relationship management, talent pooling, and workforce planning tools that help enterprises build proactive talent pipelines.",
+  "description": "Beamery is a talent operating system that uses AI to attract, engage, and retain talent throughout the full recruitment lifecycle. It provides candidate relationship management, talent pooling, and workforce planning tools that help enterprises build proactive talent pipelines.",
+  "url": "https://beamery.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=beamery.com&sz=64",
+  "screenshot_url": "/screenshots/beamery.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "hr",
+    "business",
+    "recruitment",
+    "employees",
+    "human_resources",
+    "onboarding",
+    "performance",
+    "payroll",
+    "talent",
+    "enterprise"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 76,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

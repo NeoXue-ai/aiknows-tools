@@ -1,0 +1,28 @@
+{
+  "slug": "ai-writer",
+  "name": "AI-Writer",
+  "tagline": "AI-Writer generates full-length blog articles from a headline with cited sources, SEO analysis, and a verifiable AI text indicator. Unlike many AI writers that hallucinate, AI-Writer grounds its content in real web sources and provides footnotes for every claim, making it suitable for factual content production.",
+  "description": "AI-Writer generates full-length blog articles from a headline with cited sources, SEO analysis, and a verifiable AI text indicator. Unlike many AI writers that hallucinate, AI-Writer grounds its content in real web sources and provides footnotes for every claim, making it suitable for factual content production.",
+  "url": "https://ai-writer.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=ai-writer.com&sz=64",
+  "screenshot_url": "/screenshots/ai-writer.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "writing",
+    "text_generation",
+    "productivity",
+    "content",
+    "editing",
+    "grammar",
+    "paraphrasing",
+    "ai_writing",
+    "drafting"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 68,
+  "subcategory": "ai-writer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

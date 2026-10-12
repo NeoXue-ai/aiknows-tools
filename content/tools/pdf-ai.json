@@ -1,0 +1,29 @@
+{
+  "slug": "pdf-ai",
+  "name": "PDF.ai",
+  "tagline": "PDF.ai is a document chat tool that lets you upload PDFs and ask questions, get summaries, and extract specific information through a conversational interface. Researchers, lawyers, and students use it to quickly pull facts from dense documents without reading them in full. It handles multi-document uploads so you can ask questions that span across several files at once.",
+  "description": "PDF.ai is a document chat tool that lets you upload PDFs and ask questions, get summaries, and extract specific information through a conversational interface. Researchers, lawyers, and students use it to quickly pull facts from dense documents without reading them in full. It handles multi-document uploads so you can ask questions that span across several files at once.",
+  "url": "https://pdf.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=pdf.ai&sz=64",
+  "screenshot_url": "/screenshots/pdf-ai.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "document_ai",
+    "pdf",
+    "productivity",
+    "extraction",
+    "documents",
+    "ocr",
+    "summarization",
+    "document_processing",
+    "parsing",
+    "fast"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 60,
+  "subcategory": "ai-pdf",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,21 +1,30 @@
 {
   "slug": "lavender",
   "name": "Lavender",
-  "tagline": "AI sales email coach",
-  "description": "Real-time coaching to help reps write better, more personalized sales emails.",
+  "tagline": "Lavender is an AI email assistant that scores your cold emails in real time and explains exactly what to change to increase reply rates — flagging sentences that are too long, openers that sound generic, and missing personalisation. It pulls prospect data from LinkedIn and CRM records and suggests personalised opening lines automatically. SDRs and sales reps at B2B companies use Lavender to improve email quality and book more meetings from the same number of sends.",
+  "description": "Lavender is an AI email assistant that scores your cold emails in real time and explains exactly what to change to increase reply rates — flagging sentences that are too long, openers that sound generic, and missing personalisation. It pulls prospect data from LinkedIn and CRM records and suggests personalised opening lines automatically. SDRs and sales reps at B2B companies use Lavender to improve email quality and book more meetings from the same number of sends.",
   "url": "https://lavender.ai",
   "logo_url": "https://www.google.com/s2/favicons?domain=lavender.ai&sz=64",
   "screenshot_url": "/screenshots/lavender.webp",
   "primary_category": "ecommerce-sales",
   "tags": [
-    "email",
-    "sales"
+    "sales",
+    "business",
+    "crm",
+    "revenue",
+    "conversion",
+    "pipeline",
+    "prospecting",
+    "closing",
+    "forecasting",
+    "customizable",
+    "voice_enabled"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 71,
   "subcategory": "sales",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

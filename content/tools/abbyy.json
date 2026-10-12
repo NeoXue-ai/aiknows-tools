@@ -1,0 +1,30 @@
+{
+  "slug": "abbyy",
+  "name": "ABBYY",
+  "tagline": "ABBYY is a leader in intelligent document processing, offering AI-powered OCR, data capture, and document understanding solutions for enterprise automation. Its platform extracts structured data from unstructured documents such as invoices, contracts, and forms at scale.",
+  "description": "ABBYY is a leader in intelligent document processing, offering AI-powered OCR, data capture, and document understanding solutions for enterprise automation. Its platform extracts structured data from unstructured documents such as invoices, contracts, and forms at scale.",
+  "url": "https://abbyy.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=abbyy.com&sz=64",
+  "screenshot_url": "/screenshots/abbyy.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "document_ai",
+    "pdf",
+    "productivity",
+    "extraction",
+    "documents",
+    "ocr",
+    "summarization",
+    "document_processing",
+    "parsing",
+    "enterprise",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 79,
+  "subcategory": "ai-pdf",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

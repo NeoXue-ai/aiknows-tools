@@ -1,0 +1,27 @@
+{
+  "slug": "stripe",
+  "name": "Stripe",
+  "tagline": "Stripe is a global payments and financial infrastructure platform that lets businesses accept online and in-person payments, manage subscriptions, handle payouts, and issue cards through a developer-first API. Startups and enterprises use it to go from zero to accepting payments in hours rather than weeks, with Stripe handling the complexity of card network integrations, currency conversion, and compliance. Its Radar fraud detection uses ML trained on data from millions of businesses to block fraudulent transactions while minimizing false positives for legitimate customers.",
+  "description": "Stripe is a global payments and financial infrastructure platform that lets businesses accept online and in-person payments, manage subscriptions, handle payouts, and issue cards through a developer-first API. Startups and enterprises use it to go from zero to accepting payments in hours rather than weeks, with Stripe handling the complexity of card network integrations, currency conversion, and compliance. Its Radar fraud detection uses ML trained on data from millions of businesses to block fraudulent transactions while minimizing false positives for legitimate customers.",
+  "url": "https://stripe.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=stripe.com&sz=64",
+  "screenshot_url": "/screenshots/stripe.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "api_available",
+    "enterprise",
+    "customizable",
+    "integrations",
+    "machine_learning",
+    "training",
+    "ai_powered",
+    "intelligent"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 95,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

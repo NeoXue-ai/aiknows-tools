@@ -1,0 +1,28 @@
+{
+  "slug": "pilot-ai",
+  "name": "Pilot",
+  "tagline": "Pilot provides AI-powered bookkeeping, tax, and CFO advisory services for startups and growing companies. Its software automatically categorises transactions, reconciles accounts, and generates financial statements, with human expert review for accuracy. Y Combinator, Sequoia-backed, and thousands of startups trust Pilot for their finances.",
+  "description": "Pilot provides AI-powered bookkeeping, tax, and CFO advisory services for startups and growing companies. Its software automatically categorises transactions, reconciles accounts, and generates financial statements, with human expert review for accuracy. Y Combinator, Sequoia-backed, and thousands of startups trust Pilot for their finances.",
+  "url": "https://pilot.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=pilot.com&sz=64",
+  "screenshot_url": "/screenshots/pilot-ai.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "finance",
+    "business",
+    "analytics",
+    "accounting",
+    "investment",
+    "financial_planning",
+    "budgeting",
+    "fintech",
+    "reporting"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 72,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

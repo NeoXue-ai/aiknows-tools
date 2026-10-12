@@ -1,0 +1,30 @@
+{
+  "slug": "perplexity-pages",
+  "name": "Perplexity Pages",
+  "tagline": "Perplexity Pages is a publishing feature that turns any Perplexity research session into a polished, shareable article with cited sources, images, and structured sections. Unlike a raw AI conversation, a Page looks like a real article — complete with an introduction, chapters, and a references list — and can be shared publicly or kept private. Researchers, educators, and content creators use Pages to quickly produce well-sourced reference documents on any topic, with the AI handling research, writing, and citation formatting simultaneously.",
+  "description": "Perplexity Pages is a publishing feature that turns any Perplexity research session into a polished, shareable article with cited sources, images, and structured sections. Unlike a raw AI conversation, a Page looks like a real article — complete with an introduction, chapters, and a references list — and can be shared publicly or kept private. Researchers, educators, and content creators use Pages to quickly produce well-sourced reference documents on any topic, with the AI handling research, writing, and citation formatting simultaneously.",
+  "url": "https://perplexity.ai/pages",
+  "logo_url": "https://www.google.com/s2/favicons?domain=perplexity.ai&sz=64",
+  "screenshot_url": null,
+  "primary_category": "research-data",
+  "tags": [
+    "research",
+    "analytics",
+    "academic",
+    "studies",
+    "investigation",
+    "literature_review",
+    "citations",
+    "discovery",
+    "synthesis",
+    "image_based",
+    "fast"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 91,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

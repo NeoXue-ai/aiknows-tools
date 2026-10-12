@@ -1,0 +1,31 @@
+{
+  "slug": "vellum",
+  "name": "Vellum",
+  "tagline": "Vellum is a platform for building, testing, and deploying LLM-powered applications with tools for prompt engineering, evaluation, and workflow orchestration. It provides a visual editor for chaining LLM calls, version-controlled prompt templates, and a test suite for validating AI outputs.",
+  "description": "Vellum is a platform for building, testing, and deploying LLM-powered applications with tools for prompt engineering, evaluation, and workflow orchestration. It provides a visual editor for chaining LLM calls, version-controlled prompt templates, and a test suite for validating AI outputs.",
+  "url": "https://vellum.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=vellum.ai&sz=64",
+  "screenshot_url": "/screenshots/vellum.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "templates",
+    "image_based",
+    "model_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 75,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "clay",
+  "name": "Clay",
+  "tagline": "Clay is a data enrichment and go-to-market platform that pulls contact and company data from 75+ sources, then uses AI to write personalised outreach at scale. Its AI Research Agent browses the web to find specific signals about a prospect — recent news, job changes, tech stack — and incorporates them into emails automatically. Outbound sales teams use Clay to build hyper-targeted prospect lists and personalise at a volume that was previously impossible.",
+  "description": "Clay is a data enrichment and go-to-market platform that pulls contact and company data from 75+ sources, then uses AI to write personalised outreach at scale. Its AI Research Agent browses the web to find specific signals about a prospect — recent news, job changes, tech stack — and incorporates them into emails automatically. Outbound sales teams use Clay to build hyper-targeted prospect lists and personalise at a volume that was previously impossible.",
+  "url": "https://clay.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=clay.com&sz=64",
+  "screenshot_url": "/screenshots/clay.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "sales",
+    "business",
+    "crm",
+    "revenue",
+    "conversion",
+    "pipeline",
+    "prospecting",
+    "closing",
+    "forecasting",
+    "collaboration",
+    "customizable"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 80,
+  "subcategory": "sales",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

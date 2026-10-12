@@ -1,0 +1,29 @@
+{
+  "slug": "khroma",
+  "name": "Khroma",
+  "tagline": "Khroma is a free AI colour tool that learns your personal colour preferences from a short selection exercise and then generates unlimited palettes, gradients, and colour combinations tailored to your taste. You can browse results as typography, poster, or gradient formats and export swatches directly to your design tools. Designers use it to break out of default colour habits and discover combinations they wouldn't have thought to try manually.",
+  "description": "Khroma is a free AI colour tool that learns your personal colour preferences from a short selection exercise and then generates unlimited palettes, gradients, and colour combinations tailored to your taste. You can browse results as typography, poster, or gradient formats and export swatches directly to your design tools. Designers use it to break out of default colour habits and discover combinations they wouldn't have thought to try manually.",
+  "url": "https://khroma.co",
+  "logo_url": "https://www.google.com/s2/favicons?domain=khroma.co&sz=64",
+  "screenshot_url": "/screenshots/khroma.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "design",
+    "image_editing",
+    "creative",
+    "visual",
+    "branding",
+    "typography",
+    "layouts",
+    "ui_design",
+    "illustration",
+    "free_tier"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 74,
+  "subcategory": "ai-graphic-design",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

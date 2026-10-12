@@ -1,0 +1,31 @@
+{
+  "slug": "cleanlab",
+  "name": "Cleanlab",
+  "tagline": "Cleanlab is a data-centric AI platform that automatically detects and fixes label errors, outliers, and data quality issues in training datasets. It uses algorithms to identify the most impactful data problems and helps teams curate high-quality datasets for more reliable models.",
+  "description": "Cleanlab is a data-centric AI platform that automatically detects and fixes label errors, outliers, and data quality issues in training datasets. It uses algorithms to identify the most impactful data problems and helps teams curate high-quality datasets for more reliable models.",
+  "url": "https://cleanlab.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=cleanlab.ai&sz=64",
+  "screenshot_url": "/screenshots/cleanlab.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "data_analysis",
+    "analytics",
+    "business",
+    "insights",
+    "visualization",
+    "data_science",
+    "reporting",
+    "dashboards",
+    "sql",
+    "collaboration",
+    "training",
+    "model_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 62,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

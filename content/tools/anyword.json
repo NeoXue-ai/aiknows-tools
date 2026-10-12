@@ -1,21 +1,30 @@
 {
   "slug": "anyword",
   "name": "Anyword",
-  "tagline": "AI copy with predictive scores",
-  "description": "Copy generation with performance scoring and audience targeting for marketers.",
+  "tagline": "Anyword is an AI copywriting platform built around performance prediction — it scores every headline, ad, and email subject line before you publish. The AI generates multiple copy variations and ranks them by predicted conversion rate based on training data from billions of ad impressions. Marketers and performance teams use it to ship copy that's already optimised.",
+  "description": "Anyword is an AI copywriting platform built around performance prediction — it scores every headline, ad, and email subject line before you publish. The AI generates multiple copy variations and ranks them by predicted conversion rate based on training data from billions of ad impressions. Marketers and performance teams use it to ship copy that's already optimised.",
   "url": "https://anyword.com",
   "logo_url": "https://www.google.com/s2/favicons?domain=anyword.com&sz=64",
   "screenshot_url": "/screenshots/anyword.webp",
   "primary_category": "writing-content",
   "tags": [
-    "copywriting",
-    "analytics"
+    "writing",
+    "marketing",
+    "text_generation",
+    "copy",
+    "content",
+    "ad_copy",
+    "seo_writing",
+    "brand_voice",
+    "persuasion",
+    "collaboration",
+    "training"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
-  "subcategory": null,
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 75,
+  "subcategory": "ai-writer",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

@@ -1,0 +1,31 @@
+{
+  "slug": "oracle-scm",
+  "name": "Oracle SCM",
+  "tagline": "Oracle Supply Chain Management (SCM) Cloud is an enterprise suite covering procurement, inventory, logistics, manufacturing, and order management. Its AI-driven demand sensing adjusts forecasts weekly using real-time signals — including point-of-sale data, weather, and social trends — to reduce excess inventory and prevent stock-outs. Global enterprises standardise on Oracle SCM to get a single, integrated view of their supply chain.",
+  "description": "Oracle Supply Chain Management (SCM) Cloud is an enterprise suite covering procurement, inventory, logistics, manufacturing, and order management. Its AI-driven demand sensing adjusts forecasts weekly using real-time signals — including point-of-sale data, weather, and social trends — to reduce excess inventory and prevent stock-outs. Global enterprises standardise on Oracle SCM to get a single, integrated view of their supply chain.",
+  "url": "https://oracle.com/scm",
+  "logo_url": "https://www.google.com/s2/favicons?domain=oracle.com&sz=64",
+  "screenshot_url": "/screenshots/oracle-scm.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "supply_chain",
+    "logistics",
+    "business",
+    "inventory",
+    "management",
+    "procurement",
+    "distribution",
+    "forecasting",
+    "operations",
+    "real_time",
+    "enterprise",
+    "cloud_based"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 93,
+  "subcategory": "ecommerce",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

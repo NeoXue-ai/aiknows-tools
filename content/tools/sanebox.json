@@ -1,0 +1,29 @@
+{
+  "slug": "sanebox",
+  "name": "SaneBox",
+  "tagline": "SaneBox is an AI email management service that analyses your email behaviour and automatically sorts incoming messages into folders — SaneLater, SaneBlackHole, SaneNews — so your inbox only contains what needs your attention today. It works with any email client via IMAP and takes less than a minute to set up. Professionals drowning in newsletters and FYI threads use SaneBox to regain inbox focus.",
+  "description": "SaneBox is an AI email management service that analyses your email behaviour and automatically sorts incoming messages into folders — SaneLater, SaneBlackHole, SaneNews — so your inbox only contains what needs your attention today. It works with any email client via IMAP and takes less than a minute to set up. Professionals drowning in newsletters and FYI threads use SaneBox to regain inbox focus.",
+  "url": "https://sanebox.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=sanebox.com&sz=64",
+  "screenshot_url": "/screenshots/sanebox.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "email",
+    "productivity",
+    "writing",
+    "communication",
+    "inbox",
+    "email_management",
+    "drafting",
+    "scheduling",
+    "follow_up",
+    "powerful"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 75,
+  "subcategory": "email",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

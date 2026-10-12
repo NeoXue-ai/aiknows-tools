@@ -1,0 +1,29 @@
+{
+  "slug": "pipedrive",
+  "name": "Pipedrive",
+  "tagline": "Pipedrive is a sales-focused CRM designed to keep deal pipeline visible and moving forward. Its AI Sales Assistant analyses your deal history and interaction patterns, then surfaces the next best action for each opportunity — whether that's following up, scheduling a demo, or re-engaging a stalled prospect. Sales teams at SMBs and mid-market companies choose Pipedrive for its clarity and low overhead compared to heavier CRMs.",
+  "description": "Pipedrive is a sales-focused CRM designed to keep deal pipeline visible and moving forward. Its AI Sales Assistant analyses your deal history and interaction patterns, then surfaces the next best action for each opportunity — whether that's following up, scheduling a demo, or re-engaging a stalled prospect. Sales teams at SMBs and mid-market companies choose Pipedrive for its clarity and low overhead compared to heavier CRMs.",
+  "url": "https://pipedrive.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=pipedrive.com&sz=64",
+  "screenshot_url": "/screenshots/pipedrive.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "crm",
+    "sales",
+    "business",
+    "customers",
+    "relationships",
+    "pipeline",
+    "contacts",
+    "deals",
+    "customer_data",
+    "collaboration"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 90,
+  "subcategory": "sales",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

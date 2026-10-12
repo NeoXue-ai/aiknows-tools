@@ -1,0 +1,31 @@
+{
+  "slug": "trigger-dev",
+  "name": "Trigger.dev",
+  "tagline": "Trigger.dev is an open-source platform for running background jobs, scheduled tasks, and long-running AI workflows in serverless environments. It provides a TypeScript SDK with automatic retries, step functions, and real-time execution monitoring for reliable async processing.",
+  "description": "Trigger.dev is an open-source platform for running background jobs, scheduled tasks, and long-running AI workflows in serverless environments. It provides a TypeScript SDK with automatic retries, step functions, and real-time execution monitoring for reliable async processing.",
+  "url": "https://trigger.dev",
+  "logo_url": "https://www.google.com/s2/favicons?domain=trigger.dev&sz=64",
+  "screenshot_url": "/screenshots/trigger-dev.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "open_source",
+    "real_time",
+    "community_driven"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

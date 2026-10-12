@@ -1,0 +1,29 @@
+{
+  "slug": "cb-insights-ai",
+  "name": "CB Insights",
+  "tagline": "CB Insights is a market intelligence platform that uses AI to analyse millions of data points across startups, investors, corporates, and technologies. Its AI surfaces emerging trends, maps competitive landscapes, and identifies potential acquisition targets, used by strategy teams at Fortune 500 companies.",
+  "description": "CB Insights is a market intelligence platform that uses AI to analyse millions of data points across startups, investors, corporates, and technologies. Its AI surfaces emerging trends, maps competitive landscapes, and identifies potential acquisition targets, used by strategy teams at Fortune 500 companies.",
+  "url": "https://cbinsights.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=cbinsights.com&sz=64",
+  "screenshot_url": "/screenshots/cb-insights-ai.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "market_research",
+    "business",
+    "analytics",
+    "consumer",
+    "insights",
+    "surveys",
+    "competitive_analysis",
+    "trends",
+    "intelligence",
+    "collaboration"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 87,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

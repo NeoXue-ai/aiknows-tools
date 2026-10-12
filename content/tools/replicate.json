@@ -1,0 +1,31 @@
+{
+  "slug": "replicate",
+  "name": "Replicate",
+  "tagline": "Replicate is a platform for running open-source AI models (image generators, LLMs, audio tools, video models) via a simple API without managing any infrastructure. Developers deploy their own models or call thousands of community-published models with a few lines of code and pay per second of compute. It's the fastest way to add any open-source AI capability to an application without standing up a GPU server.",
+  "description": "Replicate is a platform for running open-source AI models (image generators, LLMs, audio tools, video models) via a simple API without managing any infrastructure. Developers deploy their own models or call thousands of community-published models with a few lines of code and pay per second of compute. It's the fastest way to add any open-source AI capability to an application without standing up a GPU server.",
+  "url": "https://replicate.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=replicate.com&sz=64",
+  "screenshot_url": "/screenshots/replicate.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "open_source",
+    "api_available",
+    "image_based"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 83,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

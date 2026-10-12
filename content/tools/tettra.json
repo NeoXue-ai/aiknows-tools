@@ -1,0 +1,29 @@
+{
+  "slug": "tettra",
+  "name": "Tettra",
+  "tagline": "Tettra is a knowledge management tool that helps teams document and share internal knowledge in a searchable wiki. Its AI assistant, Kai, answers employee questions by searching the knowledge base and connected tools, and can create new articles from Slack conversations.",
+  "description": "Tettra is a knowledge management tool that helps teams document and share internal knowledge in a searchable wiki. Its AI assistant, Kai, answers employee questions by searching the knowledge base and connected tools, and can create new articles from Slack conversations.",
+  "url": "https://tettra.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=tettra.com&sz=64",
+  "screenshot_url": "/screenshots/tettra.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "knowledge_base",
+    "productivity",
+    "note_taking",
+    "organization",
+    "information",
+    "second_brain",
+    "wiki",
+    "search",
+    "retrieval",
+    "collaboration"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 72,
+  "subcategory": "ai-assistant",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

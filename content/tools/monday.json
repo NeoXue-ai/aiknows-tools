@@ -1,0 +1,31 @@
+{
+  "slug": "monday",
+  "name": "Monday.com",
+  "tagline": "Monday.com is a highly visual work management platform that adapts to virtually any team workflow — from sprint planning to event management — through customisable boards, automations, and dashboards. Its AI assistant can draft project plans, summarise updates, and predict project health based on historical delivery data. Over 225,000 customers rely on Monday.com as their central hub for cross-functional work.",
+  "description": "Monday.com is a highly visual work management platform that adapts to virtually any team workflow — from sprint planning to event management — through customisable boards, automations, and dashboards. Its AI assistant can draft project plans, summarise updates, and predict project health based on historical delivery data. Over 225,000 customers rely on Monday.com as their central hub for cross-functional work.",
+  "url": "https://monday.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=monday.com&sz=64",
+  "screenshot_url": "/screenshots/monday.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "project_management",
+    "productivity",
+    "team",
+    "collaboration",
+    "planning",
+    "tasks",
+    "milestones",
+    "tracking",
+    "agile",
+    "customizable",
+    "image_based",
+    "analytics"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 91,
+  "subcategory": "project-management",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

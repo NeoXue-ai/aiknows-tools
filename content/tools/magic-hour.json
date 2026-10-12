@@ -1,0 +1,30 @@
+{
+  "slug": "magic-hour",
+  "name": "Magic Hour",
+  "tagline": "Magic Hour is a web-based video toolkit that turns text, images, or existing footage into finished clips. It combines image-to-video generation, AI avatars, face swap, anime-style conversion, and lip sync in one app, so creators without editing experience can still produce usable video. Marketing and social teams use it mainly for short-form ads and content, since it skips the usual steps of shooting and editing footage.",
+  "description": "Magic Hour is a web-based video toolkit that turns text, images, or existing footage into finished clips. It combines image-to-video generation, AI avatars, face swap, anime-style conversion, and lip sync in one app, so creators without editing experience can still produce usable video. Marketing and social teams use it mainly for short-form ads and content, since it skips the usual steps of shooting and editing footage.",
+  "url": "https://magichour.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=magichour.ai&sz=64",
+  "screenshot_url": "/screenshots/magic-hour.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "video_generation",
+    "creative",
+    "text_to_video",
+    "animation",
+    "production",
+    "ai_video",
+    "generative",
+    "short_form",
+    "clips",
+    "collaboration",
+    "image_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 79,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

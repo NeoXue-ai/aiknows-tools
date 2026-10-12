@@ -1,0 +1,30 @@
+{
+  "slug": "lovo",
+  "name": "Lovo AI",
+  "tagline": "Lovo (also known as Genny) is an AI voice generation platform offering over 500 voices across 100 languages, covering a wide range of styles, ages, and emotions. Its Genny editor combines text-to-speech with a video editor, letting content creators produce narrated videos without recording their own voice. Broadcasters, e-learning creators, and marketers use Lovo for voiceovers, audiobooks, and podcast intros. Its voice cloning feature can replicate a custom voice from a short audio sample.",
+  "description": "Lovo (also known as Genny) is an AI voice generation platform offering over 500 voices across 100 languages, covering a wide range of styles, ages, and emotions. Its Genny editor combines text-to-speech with a video editor, letting content creators produce narrated videos without recording their own voice. Broadcasters, e-learning creators, and marketers use Lovo for voiceovers, audiobooks, and podcast intros. Its voice cloning feature can replicate a custom voice from a short audio sample.",
+  "url": "https://lovo.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=lovo.ai&sz=64",
+  "screenshot_url": null,
+  "primary_category": "image-video",
+  "tags": [
+    "text_to_speech",
+    "audio",
+    "voice",
+    "narration",
+    "accessibility",
+    "tts",
+    "speech_synthesis",
+    "voiceover",
+    "reading",
+    "customizable",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "text-to-speech-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}
