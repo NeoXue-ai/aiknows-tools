@@ -1,0 +1,27 @@
+{
+  "slug": "kentik",
+  "name": "Kentik",
+  "tagline": "Kentik is a network observability platform that analyzes traffic flow data, BGP routing, and cloud network performance to detect anomalies and diagnose outages. Its AI-driven analytics engine flags unusual traffic patterns and ties them to specific applications or peers. Network engineers use it to troubleshoot incidents faster across hybrid and multi-cloud networks.",
+  "description": "Kentik is a network observability platform that analyzes traffic flow data, BGP routing, and cloud network performance to detect anomalies and diagnose outages. Its AI-driven analytics engine flags unusual traffic patterns and ties them to specific applications or peers. Network engineers use it to troubleshoot incidents faster across hybrid and multi-cloud networks.",
+  "url": "https://kentik.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=kentik.com&sz=64",
+  "screenshot_url": "/screenshots/kentik.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "cloud_based",
+    "analytics",
+    "fast",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool",
+    "service"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "monitoring",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

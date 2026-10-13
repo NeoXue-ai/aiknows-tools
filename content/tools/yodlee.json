@@ -1,0 +1,29 @@
+{
+  "slug": "yodlee",
+  "name": "Yodlee",
+  "tagline": "Yodlee (part of Envestnet) is a financial data aggregation platform that connects securely to thousands of financial institutions to consolidate account, transaction, and investment data in one place. Its AI enrichment layer categorises and standardises transaction data so fintech developers can build personal finance, lending, and advisory applications without building banking connections from scratch. It powers the data layer behind many leading personal finance apps.",
+  "description": "Yodlee (part of Envestnet) is a financial data aggregation platform that connects securely to thousands of financial institutions to consolidate account, transaction, and investment data in one place. Its AI enrichment layer categorises and standardises transaction data so fintech developers can build personal finance, lending, and advisory applications without building banking connections from scratch. It powers the data layer behind many leading personal finance apps.",
+  "url": "https://yodlee.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=yodlee.com&sz=64",
+  "screenshot_url": "/screenshots/yodlee.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "finance",
+    "business",
+    "analytics",
+    "accounting",
+    "investment",
+    "financial_planning",
+    "budgeting",
+    "fintech",
+    "reporting",
+    "secure"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

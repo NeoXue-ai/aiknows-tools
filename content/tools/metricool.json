@@ -1,0 +1,29 @@
+{
+  "slug": "metricool",
+  "name": "Metricool",
+  "tagline": "Metricool is a social media management and analytics platform that supports all major networks, Google Ads, Meta Ads, and websites. Its AI features include caption generation, best-time-to-post recommendations, and competitor benchmarking. Marketing teams use it to manage all channels from a single dashboard.",
+  "description": "Metricool is a social media management and analytics platform that supports all major networks, Google Ads, Meta Ads, and websites. Its AI features include caption generation, best-time-to-post recommendations, and competitor benchmarking. Marketing teams use it to manage all channels from a single dashboard.",
+  "url": "https://metricool.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=metricool.com&sz=64",
+  "screenshot_url": "/screenshots/metricool.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "social_media",
+    "marketing",
+    "content_creation",
+    "engagement",
+    "posting",
+    "scheduling",
+    "analytics",
+    "audience",
+    "platform",
+    "collaboration"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 83,
+  "subcategory": "social-media",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

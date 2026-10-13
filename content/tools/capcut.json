@@ -1,0 +1,31 @@
+{
+  "slug": "capcut",
+  "name": "CapCut",
+  "tagline": "CapCut is ByteDance's free video editing app with a comprehensive suite of AI features — auto-captions, background removal, AI avatars, voice cloning, and text-to-video — packaged in an intuitive mobile and desktop interface. It's the most downloaded video editing app globally, with over 500 million users creating everything from TikTok clips to YouTube videos. Creators choose CapCut for the breadth of AI tools available without a subscription.",
+  "description": "CapCut is ByteDance's free video editing app with a comprehensive suite of AI features — auto-captions, background removal, AI avatars, voice cloning, and text-to-video — packaged in an intuitive mobile and desktop interface. It's the most downloaded video editing app globally, with over 500 million users creating everything from TikTok clips to YouTube videos. Creators choose CapCut for the breadth of AI tools available without a subscription.",
+  "url": "https://capcut.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=capcut.com&sz=64",
+  "screenshot_url": "/screenshots/capcut.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "video_editing",
+    "creative",
+    "video",
+    "production",
+    "media",
+    "cutting",
+    "transitions",
+    "effects",
+    "export",
+    "free_tier",
+    "voice_enabled",
+    "easy_to_use"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 87,
+  "subcategory": "ai-video-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

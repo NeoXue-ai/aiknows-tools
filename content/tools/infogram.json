@@ -1,0 +1,30 @@
+{
+  "slug": "infogram",
+  "name": "Infogram",
+  "tagline": "Infogram is a data visualisation and infographic tool designed for communicators who need clear, visual storytelling from complex data. Its AI suggests chart types based on your data structure and a smart layout engine keeps visuals consistent and professional. Journalists, marketers, and educators use it to turn spreadsheets into shareable, interactive graphics.",
+  "description": "Infogram is a data visualisation and infographic tool designed for communicators who need clear, visual storytelling from complex data. Its AI suggests chart types based on your data structure and a smart layout engine keeps visuals consistent and professional. Journalists, marketers, and educators use it to turn spreadsheets into shareable, interactive graphics.",
+  "url": "https://infogram.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=infogram.com&sz=64",
+  "screenshot_url": "/screenshots/infogram.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "design",
+    "data_visualization",
+    "marketing",
+    "visual",
+    "creative",
+    "charts",
+    "diagrams",
+    "storytelling",
+    "communication",
+    "image_based",
+    "powerful"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 86,
+  "subcategory": "ai-graphic-design",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

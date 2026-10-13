@@ -1,21 +1,29 @@
 {
   "slug": "bolt-new",
   "name": "Bolt.new",
-  "tagline": "AI full-stack in the browser",
-  "description": "Prompt, run, and deploy full-stack apps without leaving the browser.",
+  "tagline": "Bolt.new is StackBlitz's AI-powered full-stack development environment where you describe an app and the AI builds, runs, and deploys it entirely in the browser, with no local setup required. It handles both frontend and backend, installs dependencies, and fixes its own errors iteratively. Product teams and solo builders use it to go from idea to deployed app in minutes.",
+  "description": "Bolt.new is StackBlitz's AI-powered full-stack development environment where you describe an app and the AI builds, runs, and deploys it entirely in the browser, with no local setup required. It handles both frontend and backend, installs dependencies, and fixes its own errors iteratively. Product teams and solo builders use it to go from idea to deployed app in minutes.",
   "url": "https://bolt.new",
   "logo_url": "https://www.google.com/s2/favicons?domain=bolt.new&sz=64",
   "screenshot_url": "/screenshots/bolt-new.webp",
   "primary_category": "code-development",
   "tags": [
-    "fullstack",
-    "deploy"
+    "code_generation",
+    "developer_tools",
+    "productivity",
+    "coding",
+    "programming",
+    "autocomplete",
+    "debugging",
+    "refactoring",
+    "ide",
+    "collaboration"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
-  "subcategory": null,
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 87,
+  "subcategory": "ai-code-generator",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

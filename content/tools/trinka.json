@@ -1,0 +1,30 @@
+{
+  "slug": "trinka",
+  "name": "Trinka",
+  "tagline": "Trinka is an AI writing assistant built for academic and technical writing. It checks grammar, tone, and subject-specific terminology, and catches issues generic grammar checkers miss, such as inconsistent abbreviations or overuse of passive voice in scientific prose. Journals, universities, and research teams use it to prepare manuscripts for submission.",
+  "description": "Trinka is an AI writing assistant built for academic and technical writing. It checks grammar, tone, and subject-specific terminology, and catches issues generic grammar checkers miss, such as inconsistent abbreviations or overuse of passive voice in scientific prose. Journals, universities, and research teams use it to prepare manuscripts for submission.",
+  "url": "https://trinka.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=trinka.ai&sz=64",
+  "screenshot_url": "/screenshots/trinka.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "writing",
+    "text_generation",
+    "productivity",
+    "content",
+    "editing",
+    "grammar",
+    "paraphrasing",
+    "ai_writing",
+    "drafting",
+    "collaboration",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 65,
+  "subcategory": "ai-writer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "tailor-brands",
+  "name": "Tailor Brands",
+  "tagline": "Tailor Brands is an AI-driven brand identity platform that helps entrepreneurs and small businesses create logos, brand guidelines, and marketing materials. Users answer a few questions about their business and preferences, and the AI generates professional logo designs and a complete brand kit.",
+  "description": "Tailor Brands is an AI-driven brand identity platform that helps entrepreneurs and small businesses create logos, brand guidelines, and marketing materials. Users answer a few questions about their business and preferences, and the AI generates professional logo designs and a complete brand kit.",
+  "url": "https://tailorbrands.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=tailorbrands.com&sz=64",
+  "screenshot_url": "/screenshots/tailor-brands.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "design",
+    "image_generation",
+    "branding",
+    "logo",
+    "identity",
+    "brand_assets",
+    "visual_identity",
+    "symbols",
+    "creative",
+    "powerful"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 80,
+  "subcategory": "ai-logo-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

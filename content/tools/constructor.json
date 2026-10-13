@@ -1,0 +1,29 @@
+{
+  "slug": "constructor",
+  "name": "Constructor",
+  "tagline": "Constructor is an AI-native product discovery platform that provides search, browse, recommendations, and quizzes optimized for e-commerce revenue. Its models learn from shopper behavior and business metrics to continuously improve conversion rates and average order value.",
+  "description": "Constructor is an AI-native product discovery platform that provides search, browse, recommendations, and quizzes optimized for e-commerce revenue. Its models learn from shopper behavior and business metrics to continuously improve conversion rates and average order value.",
+  "url": "https://constructor.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=constructor.io&sz=64",
+  "screenshot_url": "/screenshots/constructor.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "ecommerce",
+    "business",
+    "marketing",
+    "retail",
+    "shopping",
+    "online_store",
+    "product_catalog",
+    "checkout",
+    "conversions",
+    "model_based"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 69,
+  "subcategory": "ecommerce",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

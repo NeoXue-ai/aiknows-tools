@@ -1,0 +1,29 @@
+{
+  "slug": "enhancv",
+  "name": "Enhancv",
+  "tagline": "Enhancv is a resume builder that helps job seekers write stronger resumes using AI suggestions grounded in real hiring data. It offers templates that format well in ATS systems and prompts users to add quantifiable achievements rather than generic job duties. The AI coach reviews each section and flags weak phrasing before the resume goes out.",
+  "description": "Enhancv is a resume builder that helps job seekers write stronger resumes using AI suggestions grounded in real hiring data. It offers templates that format well in ATS systems and prompts users to add quantifiable achievements rather than generic job duties. The AI coach reviews each section and flags weak phrasing before the resume goes out.",
+  "url": "https://enhancv.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=enhancv.com&sz=64",
+  "screenshot_url": "/screenshots/enhancv.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "resume",
+    "career",
+    "writing",
+    "job_search",
+    "cv",
+    "cover_letter",
+    "ats",
+    "interview",
+    "professional",
+    "templates"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 77,
+  "subcategory": "ai-resume-builder",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

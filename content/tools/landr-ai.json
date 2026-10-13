@@ -1,0 +1,31 @@
+{
+  "slug": "landr-ai",
+  "name": "LANDR",
+  "tagline": "LANDR provides AI-powered instant music mastering that analyses your track and applies professional-grade processing to prepare it for streaming platforms. Beyond mastering, it offers sample packs, plugin subscriptions, and direct distribution to Spotify, Apple Music, and 150+ platforms. Trusted by over 3 million musicians.",
+  "description": "LANDR provides AI-powered instant music mastering that analyses your track and applies professional-grade processing to prepare it for streaming platforms. Beyond mastering, it offers sample packs, plugin subscriptions, and direct distribution to Spotify, Apple Music, and 150+ platforms. Trusted by over 3 million musicians.",
+  "url": "https://landr.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=landr.com&sz=64",
+  "screenshot_url": "/screenshots/landr-ai.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "audio",
+    "creative",
+    "sound",
+    "music",
+    "recording",
+    "audio_editing",
+    "sound_design",
+    "mixing",
+    "production",
+    "fast",
+    "powerful",
+    "extensible"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 81,
+  "subcategory": "ai-voice-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

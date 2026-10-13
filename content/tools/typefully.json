@@ -1,0 +1,29 @@
+{
+  "slug": "typefully",
+  "name": "Typefully",
+  "tagline": "Typefully is a distraction-free writing and scheduling tool for X (Twitter) and LinkedIn, with AI features that rewrite threads, suggest continuations, and analyse which posts drive the most followers and engagement. Its clean editor is optimised for long-form threads, and the analytics dashboard identifies your best-performing content formats. Creators and thought leaders building audiences on X use Typefully to write more consistently and with better results.",
+  "description": "Typefully is a distraction-free writing and scheduling tool for X (Twitter) and LinkedIn, with AI features that rewrite threads, suggest continuations, and analyse which posts drive the most followers and engagement. Its clean editor is optimised for long-form threads, and the analytics dashboard identifies your best-performing content formats. Creators and thought leaders building audiences on X use Typefully to write more consistently and with better results.",
+  "url": "https://typefully.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=typefully.com&sz=64",
+  "screenshot_url": "/screenshots/typefully.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "social_media",
+    "marketing",
+    "content_creation",
+    "engagement",
+    "posting",
+    "scheduling",
+    "analytics",
+    "audience",
+    "platform",
+    "free_tier"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 74,
+  "subcategory": "social-media",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

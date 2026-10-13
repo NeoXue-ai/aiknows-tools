@@ -1,0 +1,28 @@
+{
+  "slug": "brevo-ai",
+  "name": "Brevo AI",
+  "tagline": "Brevo (formerly Sendinblue) is an all-in-one marketing platform with AI-driven email campaign generation, send-time optimisation, and a generative AI writing assistant. It offers email, SMS, WhatsApp marketing, and a built-in CRM, making it popular with SMBs managing marketing across multiple channels.",
+  "description": "Brevo (formerly Sendinblue) is an all-in-one marketing platform with AI-driven email campaign generation, send-time optimisation, and a generative AI writing assistant. It offers email, SMS, WhatsApp marketing, and a built-in CRM, making it popular with SMBs managing marketing across multiple channels.",
+  "url": "https://brevo.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=brevo.com&sz=64",
+  "screenshot_url": "/screenshots/brevo-ai.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "email",
+    "productivity",
+    "writing",
+    "communication",
+    "inbox",
+    "email_management",
+    "drafting",
+    "scheduling",
+    "follow_up"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 92,
+  "subcategory": "email",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "mage-space",
+  "name": "Mage.space",
+  "tagline": "Mage.space provides fast Stable Diffusion image generation with minimal restrictions. It supports multiple model checkpoints, ControlNet, image-to-image, and inpainting. Its straightforward interface and quick generation speeds make it popular with digital artists who need rapid iteration without complex setup.",
+  "description": "Mage.space provides fast Stable Diffusion image generation with minimal restrictions. It supports multiple model checkpoints, ControlNet, image-to-image, and inpainting. Its straightforward interface and quick generation speeds make it popular with digital artists who need rapid iteration without complex setup.",
+  "url": "https://mage.space",
+  "logo_url": "https://www.google.com/s2/favicons?domain=mage.space&sz=64",
+  "screenshot_url": "/screenshots/mage-space.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "image_generation",
+    "creative",
+    "text_to_image",
+    "visual",
+    "graphics",
+    "generative_ai",
+    "art",
+    "diffusion",
+    "prompting",
+    "image_based",
+    "model_based",
+    "fast"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 63,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

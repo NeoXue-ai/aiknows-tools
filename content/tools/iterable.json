@@ -1,0 +1,30 @@
+{
+  "slug": "iterable",
+  "name": "Iterable",
+  "tagline": "Iterable is a growth marketing platform that enables personalized lifecycle messaging across email, SMS, push notifications, and in-app channels. Its AI features include send-time optimization, content affinity modeling, and dynamic segmentation to improve engagement rates.",
+  "description": "Iterable is a growth marketing platform that enables personalized lifecycle messaging across email, SMS, push notifications, and in-app channels. Its AI features include send-time optimization, content affinity modeling, and dynamic segmentation to improve engagement rates.",
+  "url": "https://iterable.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=iterable.com&sz=64",
+  "screenshot_url": "/screenshots/iterable.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "marketing",
+    "business",
+    "campaigns",
+    "growth",
+    "promotion",
+    "demand_generation",
+    "brand",
+    "digital_marketing",
+    "roi",
+    "customizable",
+    "model_based"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 78,
+  "subcategory": "ai-marketing",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

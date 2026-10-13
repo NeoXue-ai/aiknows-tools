@@ -1,0 +1,28 @@
+{
+  "slug": "readwise-reader",
+  "name": "Readwise Reader",
+  "tagline": "Readwise Reader is a read-later app that captures articles, newsletters, PDFs, and YouTube transcripts and resurfaces your highlights via spaced repetition. Its Ghostreader AI feature lets you chat with any document, generate summaries, define terms, and create flashcards from content you've saved.",
+  "description": "Readwise Reader is a read-later app that captures articles, newsletters, PDFs, and YouTube transcripts and resurfaces your highlights via spaced repetition. Its Ghostreader AI feature lets you chat with any document, generate summaries, define terms, and create flashcards from content you've saved.",
+  "url": "https://readwise.io/reader",
+  "logo_url": "https://www.google.com/s2/favicons?domain=readwise.io&sz=64",
+  "screenshot_url": "/screenshots/readwise-reader.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "knowledge_base",
+    "productivity",
+    "note_taking",
+    "organization",
+    "information",
+    "second_brain",
+    "wiki",
+    "search",
+    "retrieval"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 75,
+  "subcategory": "ai-assistant",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

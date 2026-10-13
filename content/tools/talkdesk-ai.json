@@ -1,0 +1,31 @@
+{
+  "slug": "talkdesk-ai",
+  "name": "Talkdesk",
+  "tagline": "Talkdesk is a cloud contact centre platform with AI capabilities including virtual agents, real-time agent assistance, quality management AI, and workforce management optimisation. Its Talkdesk AI Trainer lets contact centres fine-tune NLP models for their specific industry vocabulary without machine learning expertise.",
+  "description": "Talkdesk is a cloud contact centre platform with AI capabilities including virtual agents, real-time agent assistance, quality management AI, and workforce management optimisation. Its Talkdesk AI Trainer lets contact centres fine-tune NLP models for their specific industry vocabulary without machine learning expertise.",
+  "url": "https://talkdesk.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=talkdesk.com&sz=64",
+  "screenshot_url": "/screenshots/talkdesk-ai.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "customer_support",
+    "chatbot",
+    "business",
+    "help_desk",
+    "support",
+    "ticketing",
+    "live_chat",
+    "service",
+    "resolution",
+    "real_time",
+    "cloud_based",
+    "machine_learning"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 78,
+  "subcategory": "customer-support",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

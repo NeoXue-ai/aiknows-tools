@@ -1,0 +1,31 @@
+{
+  "slug": "speechify",
+  "name": "Speechify",
+  "tagline": "Speechify is a text-to-speech app that converts any text — web pages, PDFs, emails, books — into natural-sounding audio you can listen to at up to 4.5× normal reading speed. Its AI voice cloning feature lets users create a personal AI voice that reads content in their own voice. Students, professionals with dyslexia, and busy commuters use Speechify to consume written content faster than reading allows.",
+  "description": "Speechify is a text-to-speech app that converts any text — web pages, PDFs, emails, books — into natural-sounding audio you can listen to at up to 4.5× normal reading speed. Its AI voice cloning feature lets users create a personal AI voice that reads content in their own voice. Students, professionals with dyslexia, and busy commuters use Speechify to consume written content faster than reading allows.",
+  "url": "https://speechify.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=speechify.com&sz=64",
+  "screenshot_url": "/screenshots/speechify.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "voice_cloning",
+    "audio",
+    "creative",
+    "voice",
+    "synthesis",
+    "tts",
+    "custom_voice",
+    "realistic",
+    "voice_ai",
+    "voice_enabled",
+    "fast",
+    "powerful"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 80,
+  "subcategory": "ai-voice-cloning",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,21 +1,28 @@
 {
   "slug": "suno",
   "name": "Suno",
-  "tagline": "AI music generator",
-  "description": "Generate original songs with vocals and instruments from a prompt.",
+  "tagline": "Suno is an AI music generation platform that creates complete songs (vocals, instruments, and production) from a short text description. You describe a genre, mood, and theme, and Suno produces a radio-ready track in seconds. With tens of millions of users, it's the most popular AI music tool and has introduced a new era of accessible music creation.",
+  "description": "Suno is an AI music generation platform that creates complete songs (vocals, instruments, and production) from a short text description. You describe a genre, mood, and theme, and Suno produces a radio-ready track in seconds. With tens of millions of users, it's the most popular AI music tool and has introduced a new era of accessible music creation.",
   "url": "https://suno.com",
   "logo_url": "https://www.google.com/s2/favicons?domain=suno.com&sz=64",
   "screenshot_url": "/screenshots/suno.webp",
   "primary_category": "image-video",
   "tags": [
+    "music_generation",
+    "audio",
+    "creative",
     "music",
-    "audio"
+    "composition",
+    "ai_music",
+    "beats",
+    "melody",
+    "soundtrack"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 86,
   "subcategory": "ai-music-generator",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

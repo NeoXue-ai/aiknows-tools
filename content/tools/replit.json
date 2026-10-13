@@ -1,21 +1,31 @@
 {
   "slug": "replit",
   "name": "Replit",
-  "tagline": "AI app builder in the browser",
-  "description": "Browser IDE with AI agent that builds and deploys apps from prompts.",
+  "tagline": "Replit is a cloud-based IDE and collaborative coding platform that runs code in the browser without any local setup. Its Replit AI assistant powers code completion, debugging, and the ability to describe an app in words and have Replit build and deploy it end-to-end. Students learning to code and professional developers prototyping quickly both use Replit because the friction from idea to running code is near zero.",
+  "description": "Replit is a cloud-based IDE and collaborative coding platform that runs code in the browser without any local setup. Its Replit AI assistant powers code completion, debugging, and the ability to describe an app in words and have Replit build and deploy it end-to-end. Students learning to code and professional developers prototyping quickly both use Replit because the friction from idea to running code is near zero.",
   "url": "https://replit.com",
   "logo_url": "https://www.google.com/s2/favicons?domain=replit.com&sz=64",
   "screenshot_url": "/screenshots/replit.webp",
   "primary_category": "code-development",
   "tags": [
-    "ide",
-    "deploy"
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "collaboration",
+    "cloud_based",
+    "fast"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
-  "subcategory": "ai-agent",
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 88,
+  "subcategory": "developer-tools",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

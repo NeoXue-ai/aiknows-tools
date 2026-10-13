@@ -1,0 +1,31 @@
+{
+  "slug": "riffusion",
+  "name": "Riffusion",
+  "tagline": "Riffusion is an AI music generation tool that creates unique musical clips from text prompts by applying image diffusion models to audio spectrograms. It was an early demonstration of using Stable Diffusion to generate audio and is available as an open-source model.",
+  "description": "Riffusion is an AI music generation tool that creates unique musical clips from text prompts by applying image diffusion models to audio spectrograms. It was an early demonstration of using Stable Diffusion to generate audio and is available as an open-source model.",
+  "url": "https://riffusion.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=riffusion.com&sz=64",
+  "screenshot_url": "/screenshots/riffusion.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "music_generation",
+    "audio",
+    "creative",
+    "music",
+    "composition",
+    "ai_music",
+    "beats",
+    "melody",
+    "soundtrack",
+    "open_source",
+    "image_based",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 68,
+  "subcategory": "ai-music-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

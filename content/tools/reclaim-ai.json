@@ -1,0 +1,29 @@
+{
+  "slug": "reclaim-ai",
+  "name": "Reclaim AI",
+  "tagline": "Reclaim AI automatically schedules tasks, habits, and one-on-one meetings into your Google Calendar by finding the optimal open slots — rescheduling them in real time as your calendar changes. It defends focus time against meeting sprawl by blocking out deep-work windows and syncing across team calendars to find shared availability instantly. Knowledge workers and managers use Reclaim to reclaim several hours of productive time per week without manual calendar management.",
+  "description": "Reclaim AI automatically schedules tasks, habits, and one-on-one meetings into your Google Calendar by finding the optimal open slots — rescheduling them in real time as your calendar changes. It defends focus time against meeting sprawl by blocking out deep-work windows and syncing across team calendars to find shared availability instantly. Knowledge workers and managers use Reclaim to reclaim several hours of productive time per week without manual calendar management.",
+  "url": "https://reclaim.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=reclaim.ai&sz=64",
+  "screenshot_url": "/screenshots/reclaim-ai.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "productivity",
+    "ai_assistant",
+    "efficiency",
+    "workflow",
+    "organization",
+    "tasks",
+    "focus",
+    "time_management",
+    "collaboration",
+    "fast"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 82,
+  "subcategory": "productivity-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "phrase-ai",
+  "name": "Phrase",
+  "tagline": "Phrase is an enterprise localisation platform that combines AI translation, translation memory, and glossary management in a unified workflow. It integrates with GitHub, Figma, and major CMS platforms, enabling continuous localisation alongside product development. Global companies use it to maintain consistent voice across dozens of languages.",
+  "description": "Phrase is an enterprise localisation platform that combines AI translation, translation memory, and glossary management in a unified workflow. It integrates with GitHub, Figma, and major CMS platforms, enabling continuous localisation alongside product development. Global companies use it to maintain consistent voice across dozens of languages.",
+  "url": "https://phrase.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=phrase.com&sz=64",
+  "screenshot_url": "/screenshots/phrase-ai.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "translation",
+    "language",
+    "multilingual",
+    "communication",
+    "localization",
+    "globalization",
+    "language_ai",
+    "interpretation",
+    "text",
+    "enterprise",
+    "integrations",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 77,
+  "subcategory": "ai-translator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

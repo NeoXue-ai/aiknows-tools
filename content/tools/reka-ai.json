@@ -1,0 +1,31 @@
+{
+  "slug": "reka-ai",
+  "name": "Reka AI",
+  "tagline": "Reka AI develops multimodal foundation models that process and reason across text, images, video, and audio. Its models, including Reka Core and Reka Flash, are competitive with top proprietary models and are designed for enterprise deployment with strong multimodal performance.",
+  "description": "Reka AI develops multimodal foundation models that process and reason across text, images, video, and audio. Its models, including Reka Core and Reka Flash, are competitive with top proprietary models and are designed for enterprise deployment with strong multimodal performance.",
+  "url": "https://reka.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=reka.ai&sz=64",
+  "screenshot_url": "/screenshots/reka-ai.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "llm",
+    "foundation_model",
+    "ai_model",
+    "machine_learning",
+    "neural",
+    "inference",
+    "fine_tuning",
+    "api",
+    "open_source",
+    "multimodal",
+    "enterprise",
+    "image_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 65,
+  "subcategory": "ai-models",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

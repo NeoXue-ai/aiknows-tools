@@ -1,0 +1,29 @@
+{
+  "slug": "fireflies-ai",
+  "name": "Fireflies.ai",
+  "tagline": "Fireflies.ai is an AI meeting intelligence platform that joins your calls as a silent participant, records and transcribes everything, and delivers searchable, summarised notes. Its AI surfaces key topics, questions, and sentiment, and integrates with Salesforce, HubSpot, Slack, and 50+ other tools to automatically log meeting outcomes. Remote and hybrid teams use it to ensure nothing falls through the cracks.",
+  "description": "Fireflies.ai is an AI meeting intelligence platform that joins your calls as a silent participant, records and transcribes everything, and delivers searchable, summarised notes. Its AI surfaces key topics, questions, and sentiment, and integrates with Salesforce, HubSpot, Slack, and 50+ other tools to automatically log meeting outcomes. Remote and hybrid teams use it to ensure nothing falls through the cracks.",
+  "url": "https://fireflies.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=fireflies.ai&sz=64",
+  "screenshot_url": "/screenshots/fireflies-ai.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "meeting",
+    "productivity",
+    "transcription",
+    "collaboration",
+    "notes",
+    "summaries",
+    "action_items",
+    "video_calls",
+    "recap",
+    "integrations"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 82,
+  "subcategory": "ai-note-taker",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

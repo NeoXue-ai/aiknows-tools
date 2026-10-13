@@ -1,0 +1,30 @@
+{
+  "slug": "agentops",
+  "name": "AgentOps",
+  "tagline": "AgentOps is an observability platform for AI agents that records session replays, tracks token costs, and surfaces errors across agent runs. Developers building multi-agent systems use it to understand why an agent failed, how long each step took, and how much a session cost. It integrates with frameworks like LangChain, CrewAI, and AutoGen through a simple SDK.",
+  "description": "AgentOps is an observability platform for AI agents that records session replays, tracks token costs, and surfaces errors across agent runs. Developers building multi-agent systems use it to understand why an agent failed, how long each step took, and how much a session cost. It integrates with frameworks like LangChain, CrewAI, and AutoGen through a simple SDK.",
+  "url": "https://agentops.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=agentops.ai&sz=64",
+  "screenshot_url": "/screenshots/agentops.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "integrations",
+    "easy_to_use"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 60,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

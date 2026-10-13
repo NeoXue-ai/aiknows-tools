@@ -1,0 +1,29 @@
+{
+  "slug": "dhiwise",
+  "name": "DhiWise",
+  "tagline": "DhiWise converts Figma designs into production-ready Flutter and React Native code, generating screens, navigation, and API bindings instead of static UI components. Mobile developers use it to skip repetitive screen-building work and get straight into business logic.",
+  "description": "DhiWise converts Figma designs into production-ready Flutter and React Native code, generating screens, navigation, and API bindings instead of static UI components. Mobile developers use it to skip repetitive screen-building work and get straight into business logic.",
+  "url": "https://dhiwise.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=dhiwise.com&sz=64",
+  "screenshot_url": "/screenshots/dhiwise.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "no_code",
+    "app_builder",
+    "developer_tools",
+    "app_development",
+    "lowcode",
+    "rapid_prototyping",
+    "mobile_apps",
+    "web_apps",
+    "deployment",
+    "api_available"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 66,
+  "subcategory": "ai-app-builder",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

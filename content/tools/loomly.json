@@ -1,0 +1,30 @@
+{
+  "slug": "loomly",
+  "name": "Loomly",
+  "tagline": "Loomly is a social media management platform that helps marketing teams plan, create, schedule, and analyze content across major social networks. It offers AI-powered post ideas, brand asset libraries, ad management, and approval workflows for collaborative teams.",
+  "description": "Loomly is a social media management platform that helps marketing teams plan, create, schedule, and analyze content across major social networks. It offers AI-powered post ideas, brand asset libraries, ad management, and approval workflows for collaborative teams.",
+  "url": "https://loomly.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=loomly.com&sz=64",
+  "screenshot_url": "/screenshots/loomly.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "social_media",
+    "marketing",
+    "content_creation",
+    "engagement",
+    "posting",
+    "scheduling",
+    "analytics",
+    "audience",
+    "platform",
+    "collaboration",
+    "machine_learning"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 75,
+  "subcategory": "social-media",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "pandadoc-ai",
+  "name": "PandaDoc AI",
+  "tagline": "PandaDoc is a document automation platform with AI capabilities for generating proposals, contracts, and quotes. Its AI assistant helps draft document content from templates and deal data, while its e-signature workflow accelerates the close process. Sales teams use it to reduce the time from verbal agreement to signed contract.",
+  "description": "PandaDoc is a document automation platform with AI capabilities for generating proposals, contracts, and quotes. Its AI assistant helps draft document content from templates and deal data, while its e-signature workflow accelerates the close process. Sales teams use it to reduce the time from verbal agreement to signed contract.",
+  "url": "https://pandadoc.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=pandadoc.com&sz=64",
+  "screenshot_url": "/screenshots/pandadoc-ai.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "business",
+    "productivity",
+    "enterprise",
+    "operations",
+    "management",
+    "documents",
+    "contracts",
+    "proposals",
+    "workflow",
+    "collaboration",
+    "templates"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 83,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

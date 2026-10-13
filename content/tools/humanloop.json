@@ -1,0 +1,30 @@
+{
+  "slug": "humanloop",
+  "name": "Humanloop",
+  "tagline": "Humanloop is a platform for building reliable LLM applications with prompt management, evaluation pipelines, and fine-tuning. Teams use it to manage and version prompts across environments, run automated and human evaluations, and improve model performance through targeted fine-tuning.",
+  "description": "Humanloop is a platform for building reliable LLM applications with prompt management, evaluation pipelines, and fine-tuning. Teams use it to manage and version prompts across environments, run automated and human evaluations, and improve model performance through targeted fine-tuning.",
+  "url": "https://humanloop.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=humanloop.com&sz=64",
+  "screenshot_url": "/screenshots/humanloop.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "collaboration",
+    "model_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 61,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

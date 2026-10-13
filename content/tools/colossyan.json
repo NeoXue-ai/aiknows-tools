@@ -1,0 +1,31 @@
+{
+  "slug": "colossyan",
+  "name": "Colossyan",
+  "tagline": "Colossyan is an AI video creation platform that generates professional-looking training and corporate videos using realistic AI avatars. It supports 70+ languages, script-to-video generation, and screen recording with AI presenter overlays. L&D teams use it to localise training content across global markets without reshooting.",
+  "description": "Colossyan is an AI video creation platform that generates professional-looking training and corporate videos using realistic AI avatars. It supports 70+ languages, script-to-video generation, and screen recording with AI presenter overlays. L&D teams use it to localise training content across global markets without reshooting.",
+  "url": "https://colossyan.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=colossyan.com&sz=64",
+  "screenshot_url": "/screenshots/colossyan.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "avatar",
+    "video_generation",
+    "creative",
+    "video",
+    "animation",
+    "digital_human",
+    "lip_sync",
+    "presenter",
+    "synthetic_media",
+    "collaboration",
+    "training",
+    "powerful"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "ai-avatar-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

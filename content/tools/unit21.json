@@ -1,0 +1,27 @@
+{
+  "slug": "unit21",
+  "name": "Unit21",
+  "tagline": "Unit21 watches transactions and user behavior for fraud and money-laundering patterns, using machine learning models that compliance teams can tune without writing code. Fintech developers use it to add fraud detection to a product without building and maintaining the underlying models themselves.",
+  "description": "Unit21 watches transactions and user behavior for fraud and money-laundering patterns, using machine learning models that compliance teams can tune without writing code. Fintech developers use it to add fraud detection to a product without building and maintaining the underlying models themselves.",
+  "url": "https://unit21.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=unit21.ai&sz=64",
+  "screenshot_url": "/screenshots/unit21.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "collaboration",
+    "machine_learning",
+    "model_based",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool",
+    "service"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 63,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

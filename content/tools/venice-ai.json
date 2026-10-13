@@ -1,0 +1,31 @@
+{
+  "slug": "venice-ai",
+  "name": "Venice AI",
+  "tagline": "Venice is an AI platform built around radical privacy — conversations are processed on-device where possible and never stored, logged, or used for training. It offers uncensored access to open-source models like Llama and Mistral for text, as well as image generation via Flux and Stable Diffusion, without the content restrictions found on mainstream platforms. Journalists, researchers, and privacy-conscious users choose Venice for sensitive queries and creative work that other AI services decline or record.",
+  "description": "Venice is an AI platform built around radical privacy — conversations are processed on-device where possible and never stored, logged, or used for training. It offers uncensored access to open-source models like Llama and Mistral for text, as well as image generation via Flux and Stable Diffusion, without the content restrictions found on mainstream platforms. Journalists, researchers, and privacy-conscious users choose Venice for sensitive queries and creative work that other AI services decline or record.",
+  "url": "https://venice.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=venice.ai&sz=64",
+  "screenshot_url": "/screenshots/venice-ai.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "chatbot",
+    "text_generation",
+    "ai_assistant",
+    "conversational",
+    "nlp",
+    "dialogue",
+    "llm",
+    "general_ai",
+    "question_answering",
+    "open_source",
+    "secure",
+    "image_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 74,
+  "subcategory": "ai-chatbot",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "clideo-ai",
+  "name": "Clideo",
+  "tagline": "Clideo is a suite of browser-based video tools including an editor, compressor, converter, merger, and subtitler. Its AI-powered auto subtitle feature transcribes video in 30+ languages and adds styled captions. No download required, making it the go-to for quick video tasks without installing software.",
+  "description": "Clideo is a suite of browser-based video tools including an editor, compressor, converter, merger, and subtitler. Its AI-powered auto subtitle feature transcribes video in 30+ languages and adds styled captions. No download required, making it the go-to for quick video tasks without installing software.",
+  "url": "https://clideo.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=clideo.com&sz=64",
+  "screenshot_url": "/screenshots/clideo-ai.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "video_editing",
+    "creative",
+    "video",
+    "production",
+    "media",
+    "cutting",
+    "transitions",
+    "effects",
+    "export",
+    "fast"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 77,
+  "subcategory": "ai-video-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

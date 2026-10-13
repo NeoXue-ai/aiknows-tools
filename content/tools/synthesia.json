@@ -1,21 +1,31 @@
 {
   "slug": "synthesia",
   "name": "Synthesia",
-  "tagline": "AI video for business",
-  "description": "Studio-quality videos with AI presenters, used by enterprise L&D and marketing.",
+  "tagline": "Synthesia is the leading AI video generation platform for creating professional presenter videos without cameras, studios, or actors. You type a script, choose from 160+ AI avatars in 120+ languages, and receive a polished video in minutes. Enterprise L&D teams, communications departments, and content marketers use Synthesia to produce training videos, product explainers, and multilingual corporate content at scale.",
+  "description": "Synthesia is the leading AI video generation platform for creating professional presenter videos without cameras, studios, or actors. You type a script, choose from 160+ AI avatars in 120+ languages, and receive a polished video in minutes. Enterprise L&D teams, communications departments, and content marketers use Synthesia to produce training videos, product explainers, and multilingual corporate content at scale.",
   "url": "https://synthesia.io",
   "logo_url": "https://www.google.com/s2/favicons?domain=synthesia.io&sz=64",
   "screenshot_url": "/screenshots/synthesia.webp",
   "primary_category": "image-video",
   "tags": [
     "video",
+    "creative",
+    "media",
+    "content",
+    "production",
+    "recording",
+    "streaming",
+    "publishing",
+    "video_creation",
+    "mobile_app",
+    "collaboration",
     "enterprise"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 85,
   "subcategory": "ai-video-generator",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

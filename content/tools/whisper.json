@@ -1,0 +1,44 @@
+{
+  "slug": "whisper",
+  "name": "Whisper",
+  "tagline": "Whisper is OpenAI's open-source automatic speech recognition model, trained on a large enough mix of multilingual audio that it handles accents, background noise, and technical vocabulary noticeably better than the transcription tools that came before it. Because it's free to download and run locally, it's become the engine underneath a huge number of transcription apps and meeting-notes tools rather than something people use directly. Developers who need transcription baked into their own product default to it before looking at paid APIs.",
+  "description": "Whisper is OpenAI's open-source automatic speech recognition model, trained on a large enough mix of multilingual audio that it handles accents, background noise, and technical vocabulary noticeably better than the transcription tools that came before it. Because it's free to download and run locally, it's become the engine underneath a huge number of transcription apps and meeting-notes tools rather than something people use directly. Developers who need transcription baked into their own product default to it before looking at paid APIs.",
+  "url": "https://openai.com/research/whisper",
+  "logo_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+  "screenshot_url": "/screenshots/whisper.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "transcription",
+    "speech_to_text",
+    "audio",
+    "text",
+    "conversion",
+    "captions",
+    "subtitles",
+    "accuracy",
+    "real_time",
+    "open_source",
+    "free_tier",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 93,
+  "subcategory": "speech-to-text-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null,
+  "editorial": {
+    "seo": {
+      "title": "Whisper: Open-Source Speech Recognition",
+      "description": "Whisper is OpenAI's open-source speech recognition model for transcription and translation. Explore the project, supported tasks and developer resources."
+    },
+    "externalLinks": [
+      {
+        "label": "Official product information",
+        "url": "https://openai.com/index/whisper/",
+        "context": "Explore current product information and supported workflows."
+      }
+    ]
+  }
+}

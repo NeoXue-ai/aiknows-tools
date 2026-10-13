@@ -1,0 +1,29 @@
+{
+  "slug": "c3-ai",
+  "name": "C3.ai",
+  "tagline": "C3.ai provides a suite of enterprise AI applications for industries like energy, manufacturing, financial services, and government. Organizations use it to deploy pre-built AI applications for predictive maintenance, fraud detection, and inventory optimization, or to build custom AI solutions on the C3 AI platform. It is designed for large enterprises with complex data environments and regulatory requirements.",
+  "description": "C3.ai provides a suite of enterprise AI applications for industries like energy, manufacturing, financial services, and government. Organizations use it to deploy pre-built AI applications for predictive maintenance, fraud detection, and inventory optimization, or to build custom AI solutions on the C3 AI platform. It is designed for large enterprises with complex data environments and regulatory requirements.",
+  "url": "https://c3.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=c3.ai&sz=64",
+  "screenshot_url": "/screenshots/c3-ai.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "business",
+    "productivity",
+    "enterprise",
+    "operations",
+    "management",
+    "documents",
+    "contracts",
+    "proposals",
+    "workflow",
+    "customizable"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 75,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

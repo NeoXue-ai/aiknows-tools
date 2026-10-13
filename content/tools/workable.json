@@ -1,0 +1,27 @@
+{
+  "slug": "workable",
+  "name": "Workable",
+  "tagline": "Workable is an all-in-one recruiting and HR platform that uses AI to source candidates, screen applications, and streamline the hiring process. Its AI Recruiter feature automatically suggests candidates from a database of 400 million+ profiles and helps evaluate applicants against job requirements.",
+  "description": "Workable is an all-in-one recruiting and HR platform that uses AI to source candidates, screen applications, and streamline the hiring process. Its AI Recruiter feature automatically suggests candidates from a database of 400 million+ profiles and helps evaluate applicants against job requirements.",
+  "url": "https://workable.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=workable.com&sz=64",
+  "screenshot_url": "/screenshots/workable.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "machine_learning",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool",
+    "service",
+    "solution",
+    "saas"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 90,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

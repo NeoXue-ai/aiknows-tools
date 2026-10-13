@@ -1,0 +1,30 @@
+{
+  "slug": "numerous",
+  "name": "Numerous",
+  "tagline": "Numerous is an AI layer for Google Sheets and Excel that adds AI-powered functions directly into spreadsheet cells. You can classify text, extract entities, translate content, or generate new data with a formula — no coding or API setup required. Analysts and operations teams use it to process large datasets with AI logic inside the spreadsheet tools they already use every day.",
+  "description": "Numerous is an AI layer for Google Sheets and Excel that adds AI-powered functions directly into spreadsheet cells. You can classify text, extract entities, translate content, or generate new data with a formula — no coding or API setup required. Analysts and operations teams use it to process large datasets with AI logic inside the spreadsheet tools they already use every day.",
+  "url": "https://numerous.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=numerous.ai&sz=64",
+  "screenshot_url": "/screenshots/numerous.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "spreadsheet",
+    "data_analysis",
+    "productivity",
+    "data",
+    "sheets",
+    "formulas",
+    "excel",
+    "automation",
+    "calculations",
+    "api_available",
+    "collaboration"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 64,
+  "subcategory": "ai-spreadsheet",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

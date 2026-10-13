@@ -1,0 +1,31 @@
+{
+  "slug": "spark-mail",
+  "name": "Spark Mail",
+  "tagline": "Spark is a smart email client for iOS, macOS, and Android with AI features including Smart Inbox that automatically prioritises important emails, AI reply suggestions, email scheduling, and a collaborative email drafting mode for teams. It connects to Gmail, Outlook, and iCloud accounts.",
+  "description": "Spark is a smart email client for iOS, macOS, and Android with AI features including Smart Inbox that automatically prioritises important emails, AI reply suggestions, email scheduling, and a collaborative email drafting mode for teams. It connects to Gmail, Outlook, and iCloud accounts.",
+  "url": "https://sparkmailapp.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=sparkmailapp.com&sz=64",
+  "screenshot_url": "/screenshots/spark-mail.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "email",
+    "productivity",
+    "writing",
+    "communication",
+    "inbox",
+    "email_management",
+    "drafting",
+    "scheduling",
+    "follow_up",
+    "mobile_app",
+    "collaboration",
+    "cloud_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 76,
+  "subcategory": "email",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

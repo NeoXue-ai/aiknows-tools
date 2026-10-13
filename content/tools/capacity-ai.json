@@ -1,0 +1,29 @@
+{
+  "slug": "capacity-ai",
+  "name": "Capacity",
+  "tagline": "Capacity is an AI-powered support automation platform that connects to your entire tech stack and uses AI to answer employee and customer questions automatically. It handles IT helpdesk tickets, HR inquiries, customer support queries, and internal knowledge base searches through a single conversational interface.",
+  "description": "Capacity is an AI-powered support automation platform that connects to your entire tech stack and uses AI to answer employee and customer questions automatically. It handles IT helpdesk tickets, HR inquiries, customer support queries, and internal knowledge base searches through a single conversational interface.",
+  "url": "https://capacity.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=capacity.com&sz=64",
+  "screenshot_url": "/screenshots/capacity-ai.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "customer_support",
+    "chatbot",
+    "business",
+    "help_desk",
+    "support",
+    "ticketing",
+    "live_chat",
+    "service",
+    "resolution",
+    "customizable"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 75,
+  "subcategory": "customer-support",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

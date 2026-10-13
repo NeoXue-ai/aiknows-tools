@@ -1,0 +1,29 @@
+{
+  "slug": "magic-patterns",
+  "name": "Magic Patterns",
+  "tagline": "Magic Patterns generates React component prototypes from text descriptions. Frontend developers and product designers use it to scaffold UI components quickly in their existing design system style, then copy the code directly into their codebase. It outputs working React and Tailwind code rather than just screenshots or static mockups.",
+  "description": "Magic Patterns generates React component prototypes from text descriptions. Frontend developers and product designers use it to scaffold UI components quickly in their existing design system style, then copy the code directly into their codebase. It outputs working React and Tailwind code rather than just screenshots or static mockups.",
+  "url": "https://magicpatterns.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=magicpatterns.com&sz=64",
+  "screenshot_url": "/screenshots/magic-patterns.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "design",
+    "image_editing",
+    "creative",
+    "visual",
+    "branding",
+    "typography",
+    "layouts",
+    "ui_design",
+    "illustration",
+    "fast"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 72,
+  "subcategory": "ai-graphic-design",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

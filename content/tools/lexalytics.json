@@ -1,0 +1,27 @@
+{
+  "slug": "lexalytics",
+  "name": "Lexalytics",
+  "tagline": "Lexalytics is an NLP and text analytics engine that provides sentiment analysis, intent detection, entity extraction, and theme identification for enterprise applications. Customer experience, market research, and voice-of-customer teams use it to analyze large volumes of survey responses, reviews, and social data to surface structured insights from unstructured text. It is available as an API and as an on-premises deployment for organizations with data residency requirements.",
+  "description": "Lexalytics is an NLP and text analytics engine that provides sentiment analysis, intent detection, entity extraction, and theme identification for enterprise applications. Customer experience, market research, and voice-of-customer teams use it to analyze large volumes of survey responses, reviews, and social data to surface structured insights from unstructured text. It is available as an API and as an on-premises deployment for organizations with data residency requirements.",
+  "url": "https://lexalytics.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=lexalytics.com&sz=64",
+  "screenshot_url": "/screenshots/lexalytics.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "api_available",
+    "collaboration",
+    "enterprise",
+    "customizable",
+    "nlp",
+    "voice_enabled",
+    "analytics",
+    "ai_powered"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 65,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

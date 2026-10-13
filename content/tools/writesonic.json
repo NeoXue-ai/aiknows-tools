@@ -1,22 +1,31 @@
 {
   "slug": "writesonic",
   "name": "Writesonic",
-  "tagline": "AI writer for SEO and content",
-  "description": "Generate SEO-optimized articles, ads, and product descriptions at scale.",
+  "tagline": "Writesonic is an AI writing platform covering blog posts, marketing copy, product descriptions, and long-form articles with a suite of content-specific templates. Its Chatsonic assistant can browse the web for real-time information and generate content grounded in current events. Content teams use Writesonic as a high-volume content engine that accelerates production without requiring a larger writing staff.",
+  "description": "Writesonic is an AI writing platform covering blog posts, marketing copy, product descriptions, and long-form articles with a suite of content-specific templates. Its Chatsonic assistant can browse the web for real-time information and generate content grounded in current events. Content teams use Writesonic as a high-volume content engine that accelerates production without requiring a larger writing staff.",
   "url": "https://writesonic.com",
   "logo_url": "https://www.google.com/s2/favicons?domain=writesonic.com&sz=64",
   "screenshot_url": "/screenshots/writesonic.webp",
   "primary_category": "writing-content",
   "tags": [
-    "seo",
-    "articles",
-    "ads"
+    "writing",
+    "text_generation",
+    "productivity",
+    "content",
+    "editing",
+    "grammar",
+    "paraphrasing",
+    "ai_writing",
+    "drafting",
+    "real_time",
+    "collaboration",
+    "templates"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 84,
   "subcategory": "ai-writer",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

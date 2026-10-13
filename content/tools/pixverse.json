@@ -1,0 +1,30 @@
+{
+  "slug": "pixverse",
+  "name": "PixVerse",
+  "tagline": "PixVerse is an AI video creation platform that generates high-quality cinematic videos, character animations, and creative content from text prompts and images. Content creators and filmmakers use it to produce stylized video clips with consistent characters and camera movements that would be technically difficult to achieve without a production team. It supports style-locked generation so characters maintain visual consistency across multiple shots rather than shifting appearance between clips.",
+  "description": "PixVerse is an AI video creation platform that generates high-quality cinematic videos, character animations, and creative content from text prompts and images. Content creators and filmmakers use it to produce stylized video clips with consistent characters and camera movements that would be technically difficult to achieve without a production team. It supports style-locked generation so characters maintain visual consistency across multiple shots rather than shifting appearance between clips.",
+  "url": "https://pixverse.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=pixverse.ai&sz=64",
+  "screenshot_url": "/screenshots/pixverse.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "video_generation",
+    "creative",
+    "text_to_video",
+    "animation",
+    "production",
+    "ai_video",
+    "generative",
+    "short_form",
+    "clips",
+    "collaboration",
+    "image_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 74,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

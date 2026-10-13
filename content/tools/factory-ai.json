@@ -1,0 +1,31 @@
+{
+  "slug": "factory-ai",
+  "name": "Factory AI",
+  "tagline": "Factory AI builds AI Droids—autonomous agents that handle software engineering tasks such as code review, bug fixes, and pull request generation. It integrates with GitHub and Jira to let engineering teams automate repetitive development work and accelerate delivery.",
+  "description": "Factory AI builds AI Droids—autonomous agents that handle software engineering tasks such as code review, bug fixes, and pull request generation. It integrates with GitHub and Jira to let engineering teams automate repetitive development work and accelerate delivery.",
+  "url": "https://factory.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=factory.ai&sz=64",
+  "screenshot_url": "/screenshots/factory-ai.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "code_generation",
+    "developer_tools",
+    "productivity",
+    "coding",
+    "programming",
+    "autocomplete",
+    "debugging",
+    "refactoring",
+    "ide",
+    "collaboration",
+    "integrations",
+    "autonomous"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 77,
+  "subcategory": "ai-code-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

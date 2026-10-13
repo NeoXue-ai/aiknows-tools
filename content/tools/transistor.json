@@ -1,0 +1,31 @@
+{
+  "slug": "transistor",
+  "name": "Transistor",
+  "tagline": "Transistor is a podcast hosting and analytics platform built for publishing and managing multiple shows under one account. Agencies, businesses, and independent creators use it to host audio files, distribute to all major directories, and track listener data. One subscription covers unlimited shows, making it practical for teams running several podcasts at once.",
+  "description": "Transistor is a podcast hosting and analytics platform built for publishing and managing multiple shows under one account. Agencies, businesses, and independent creators use it to host audio files, distribute to all major directories, and track listener data. One subscription covers unlimited shows, making it practical for teams running several podcasts at once.",
+  "url": "https://transistor.fm",
+  "logo_url": "https://www.google.com/s2/favicons?domain=transistor.fm&sz=64",
+  "screenshot_url": "/screenshots/transistor.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "podcast",
+    "audio",
+    "content_creation",
+    "media",
+    "broadcasting",
+    "episodes",
+    "hosting",
+    "editing",
+    "distribution",
+    "collaboration",
+    "voice_enabled",
+    "analytics"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 86,
+  "subcategory": "ai-voice-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "slack-ai",
+  "name": "Slack AI",
+  "tagline": "Slack AI adds native AI features to Slack workspaces — instantly summarising channels and threads you've missed, recapping unread conversations, and answering questions from your organisation's Slack history. Unlike third-party integrations, it runs within Slack's infrastructure, keeping data inside your existing security and compliance boundary. Teams on Slack Enterprise use it to reduce the time spent catching up on message backlogs.",
+  "description": "Slack AI adds native AI features to Slack workspaces — instantly summarising channels and threads you've missed, recapping unread conversations, and answering questions from your organisation's Slack history. Unlike third-party integrations, it runs within Slack's infrastructure, keeping data inside your existing security and compliance boundary. Teams on Slack Enterprise use it to reduce the time spent catching up on message backlogs.",
+  "url": "https://slack.com/features/ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+  "screenshot_url": "/screenshots/slack-ai.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "productivity",
+    "ai_assistant",
+    "efficiency",
+    "workflow",
+    "organization",
+    "tasks",
+    "focus",
+    "time_management",
+    "collaboration",
+    "enterprise",
+    "integrations",
+    "secure"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 92,
+  "subcategory": "productivity-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

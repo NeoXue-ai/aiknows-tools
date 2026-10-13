@@ -1,0 +1,31 @@
+{
+  "slug": "tray-io",
+  "name": "Tray.io",
+  "tagline": "Tray.io is a general automation platform for enterprises with a visual workflow builder and native AI capabilities. Its Merlin AI assistant helps users build automation workflows from natural language descriptions and recommends improvements to existing automations. It connects to 600+ apps with enterprise-grade security.",
+  "description": "Tray.io is a general automation platform for enterprises with a visual workflow builder and native AI capabilities. Its Merlin AI assistant helps users build automation workflows from natural language descriptions and recommends improvements to existing automations. It connects to 600+ apps with enterprise-grade security.",
+  "url": "https://tray.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=tray.io&sz=64",
+  "screenshot_url": "/screenshots/tray-io.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "automation",
+    "workflow",
+    "productivity",
+    "efficiency",
+    "process",
+    "integration",
+    "triggers",
+    "bots",
+    "orchestration",
+    "enterprise",
+    "secure",
+    "nlp"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 75,
+  "subcategory": "ai-workflow",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "woocommerce",
+  "name": "WooCommerce",
+  "tagline": "WooCommerce is the most popular ecommerce plugin for WordPress, powering over 36% of all online stores worldwide. Its AI extensions add product description generation, personalised recommendations, and smart coupon management on top of WordPress's flexible publishing engine. Established website owners on WordPress use WooCommerce to add ecommerce without migrating to a new platform.",
+  "description": "WooCommerce is the most popular ecommerce plugin for WordPress, powering over 36% of all online stores worldwide. Its AI extensions add product description generation, personalised recommendations, and smart coupon management on top of WordPress's flexible publishing engine. Established website owners on WordPress use WooCommerce to add ecommerce without migrating to a new platform.",
+  "url": "https://woocommerce.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=woocommerce.com&sz=64",
+  "screenshot_url": "/screenshots/woocommerce.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "ecommerce",
+    "business",
+    "marketing",
+    "retail",
+    "shopping",
+    "online_store",
+    "product_catalog",
+    "checkout",
+    "conversions",
+    "customizable",
+    "versatile",
+    "extensible"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 92,
+  "subcategory": "ecommerce",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

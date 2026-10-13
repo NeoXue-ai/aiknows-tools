@@ -1,0 +1,28 @@
+{
+  "slug": "vizard",
+  "name": "Vizard",
+  "tagline": "Vizard is an AI video editing tool that automatically identifies the most engaging segments of long-form video content and transforms them into short clips for social media. It adds AI-generated captions, resizes for different platforms, and enables batch content repurposing.",
+  "description": "Vizard is an AI video editing tool that automatically identifies the most engaging segments of long-form video content and transforms them into short clips for social media. It adds AI-generated captions, resizes for different platforms, and enables batch content repurposing.",
+  "url": "https://vizard.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=vizard.ai&sz=64",
+  "screenshot_url": "/screenshots/vizard.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "video_editing",
+    "creative",
+    "video",
+    "production",
+    "media",
+    "cutting",
+    "transitions",
+    "effects",
+    "export"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 68,
+  "subcategory": "ai-video-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "phenom",
+  "name": "Phenom",
+  "tagline": "Phenom is an AI-powered talent experience management platform that personalizes the talent journey for candidates, employees, recruiters, and HR managers. It provides an AI-driven career site, CRM, internal mobility tools, and manager analytics to improve talent acquisition and retention.",
+  "description": "Phenom is an AI-powered talent experience management platform that personalizes the talent journey for candidates, employees, recruiters, and HR managers. It provides an AI-driven career site, CRM, internal mobility tools, and manager analytics to improve talent acquisition and retention.",
+  "url": "https://phenom.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=phenom.com&sz=64",
+  "screenshot_url": "/screenshots/phenom.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "hr",
+    "business",
+    "recruitment",
+    "employees",
+    "human_resources",
+    "onboarding",
+    "performance",
+    "payroll",
+    "talent",
+    "customizable",
+    "analytics"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 74,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

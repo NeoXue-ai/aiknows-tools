@@ -1,0 +1,30 @@
+{
+  "slug": "ziprecruiter",
+  "name": "ZipRecruiter",
+  "tagline": "ZipRecruiter is an AI-powered job marketplace that distributes job postings to 100+ job boards simultaneously and uses machine learning to identify the most qualified candidates from applicants. Its 'Invite to Apply' feature proactively reaches passive candidates who match a role's requirements. Over 1.8 million businesses have used ZipRecruiter to fill positions faster than posting to a single job board.",
+  "description": "ZipRecruiter is an AI-powered job marketplace that distributes job postings to 100+ job boards simultaneously and uses machine learning to identify the most qualified candidates from applicants. Its 'Invite to Apply' feature proactively reaches passive candidates who match a role's requirements. Over 1.8 million businesses have used ZipRecruiter to fill positions faster than posting to a single job board.",
+  "url": "https://ziprecruiter.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=ziprecruiter.com&sz=64",
+  "screenshot_url": "/screenshots/ziprecruiter.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "career",
+    "hr",
+    "recruitment",
+    "jobs",
+    "employment",
+    "job_search",
+    "resume",
+    "interview",
+    "hiring",
+    "machine_learning",
+    "fast"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 87,
+  "subcategory": "productivity-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

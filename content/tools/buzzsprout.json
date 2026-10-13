@@ -1,0 +1,31 @@
+{
+  "slug": "buzzsprout",
+  "name": "Buzzsprout",
+  "tagline": "Buzzsprout is a podcast hosting platform designed to make publishing, distributing, and growing a podcast as simple as possible. It automatically optimises audio quality on upload, submits your feed to all major directories, and provides chapter markers and transcripts. Podcasters appreciate its clean analytics dashboard that shows downloads, listener locations, and episode performance.",
+  "description": "Buzzsprout is a podcast hosting platform designed to make publishing, distributing, and growing a podcast as simple as possible. It automatically optimises audio quality on upload, submits your feed to all major directories, and provides chapter markers and transcripts. Podcasters appreciate its clean analytics dashboard that shows downloads, listener locations, and episode performance.",
+  "url": "https://buzzsprout.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=buzzsprout.com&sz=64",
+  "screenshot_url": "/screenshots/buzzsprout.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "podcast",
+    "audio",
+    "content_creation",
+    "media",
+    "broadcasting",
+    "episodes",
+    "hosting",
+    "editing",
+    "distribution",
+    "voice_enabled",
+    "analytics",
+    "easy_to_use"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 91,
+  "subcategory": "ai-voice-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

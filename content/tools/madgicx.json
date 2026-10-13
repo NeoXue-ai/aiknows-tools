@@ -1,0 +1,29 @@
+{
+  "slug": "madgicx",
+  "name": "Madgicx",
+  "tagline": "Madgicx is an AI-powered advertising optimization platform for Meta (Facebook and Instagram) and Google Ads. It automates ad creative testing, audience targeting, and budget allocation to maximize ROAS, and provides an all-in-one analytics dashboard for performance monitoring.",
+  "description": "Madgicx is an AI-powered advertising optimization platform for Meta (Facebook and Instagram) and Google Ads. It automates ad creative testing, audience targeting, and budget allocation to maximize ROAS, and provides an all-in-one analytics dashboard for performance monitoring.",
+  "url": "https://madgicx.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=madgicx.com&sz=64",
+  "screenshot_url": "/screenshots/madgicx.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "advertising",
+    "marketing",
+    "creative",
+    "ads",
+    "campaigns",
+    "ad_copy",
+    "digital_ads",
+    "performance",
+    "targeting",
+    "analytics"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 72,
+  "subcategory": "ai-ad-creative",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "getresponse",
+  "name": "GetResponse",
+  "tagline": "GetResponse is an email marketing and automation platform that covers email campaigns, landing pages, webinars, and list building in one tool. Small businesses use it to build automated email sequences, run paid newsletter programs, and create opt-in pages without needing separate software for each function. An AI email generator helps write campaign copy and subject lines.",
+  "description": "GetResponse is an email marketing and automation platform that covers email campaigns, landing pages, webinars, and list building in one tool. Small businesses use it to build automated email sequences, run paid newsletter programs, and create opt-in pages without needing separate software for each function. An AI email generator helps write campaign copy and subject lines.",
+  "url": "https://getresponse.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=getresponse.com&sz=64",
+  "screenshot_url": "/screenshots/getresponse.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "email",
+    "productivity",
+    "writing",
+    "communication",
+    "inbox",
+    "email_management",
+    "drafting",
+    "scheduling",
+    "follow_up"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 89,
+  "subcategory": "email",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "mutiny",
+  "name": "Mutiny",
+  "tagline": "Mutiny is an AI-powered website personalization platform that helps B2B companies tailor their website content to different visitor segments without engineering work. It uses AI to recommend and implement personalization experiments that convert more visitors into pipeline.",
+  "description": "Mutiny is an AI-powered website personalization platform that helps B2B companies tailor their website content to different visitor segments without engineering work. It uses AI to recommend and implement personalization experiments that convert more visitors into pipeline.",
+  "url": "https://mutinyhq.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=mutinyhq.com&sz=64",
+  "screenshot_url": "/screenshots/mutiny.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "marketing",
+    "business",
+    "campaigns",
+    "growth",
+    "promotion",
+    "demand_generation",
+    "brand",
+    "digital_marketing",
+    "roi",
+    "customizable"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 72,
+  "subcategory": "ai-marketing",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

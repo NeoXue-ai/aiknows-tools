@@ -1,0 +1,31 @@
+{
+  "slug": "artbreeder",
+  "name": "Artbreeder",
+  "tagline": "Artbreeder lets users create and evolve images by blending existing ones using generative models. It supports portraits, landscapes, anime characters, and abstract art. Its 'genes' system lets anyone adjust style, colour, and composition sliders and share creations with a large collaborative community.",
+  "description": "Artbreeder lets users create and evolve images by blending existing ones using generative models. It supports portraits, landscapes, anime characters, and abstract art. Its 'genes' system lets anyone adjust style, colour, and composition sliders and share creations with a large collaborative community.",
+  "url": "https://artbreeder.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=artbreeder.com&sz=64",
+  "screenshot_url": "/screenshots/artbreeder.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "image_generation",
+    "creative",
+    "text_to_image",
+    "visual",
+    "graphics",
+    "generative_ai",
+    "art",
+    "diffusion",
+    "prompting",
+    "collaboration",
+    "image_based",
+    "model_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 74,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

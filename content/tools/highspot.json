@@ -1,0 +1,31 @@
+{
+  "slug": "highspot",
+  "name": "Highspot",
+  "tagline": "Highspot gives revenue teams a single place to manage content, train reps, and guide them through complex sales motions. Managers can ensure reps find the right asset at each deal stage, while analytics show which content actually moves pipeline. It integrates with Salesforce, Teams, and most major CRM systems.",
+  "description": "Highspot gives revenue teams a single place to manage content, train reps, and guide them through complex sales motions. Managers can ensure reps find the right asset at each deal stage, while analytics show which content actually moves pipeline. It integrates with Salesforce, Teams, and most major CRM systems.",
+  "url": "https://highspot.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=highspot.com&sz=64",
+  "screenshot_url": "/screenshots/highspot.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "sales",
+    "business",
+    "crm",
+    "revenue",
+    "conversion",
+    "pipeline",
+    "prospecting",
+    "closing",
+    "forecasting",
+    "collaboration",
+    "integrations",
+    "analytics"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 83,
+  "subcategory": "sales",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "andi-search",
+  "name": "Andi",
+  "tagline": "Andi is an ad-free, conversational AI search engine that answers questions directly instead of returning a list of links. It combines a generative AI model with live web search to provide summarised, cited answers. It also includes tools to summarise web pages and explain concepts.",
+  "description": "Andi is an ad-free, conversational AI search engine that answers questions directly instead of returning a list of links. It combines a generative AI model with live web search to provide summarised, cited answers. It also includes tools to summarise web pages and explain concepts.",
+  "url": "https://andisearch.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=andisearch.com&sz=64",
+  "screenshot_url": "/screenshots/andi-search.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "search",
+    "ai_assistant",
+    "discovery",
+    "information",
+    "query",
+    "web_search",
+    "answers",
+    "knowledge",
+    "retrieval",
+    "free_tier",
+    "model_based"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 63,
+  "subcategory": "ai-search-engine",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

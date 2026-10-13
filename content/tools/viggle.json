@@ -1,0 +1,29 @@
+{
+  "slug": "viggle",
+  "name": "Viggle",
+  "tagline": "Viggle is an AI video tool that animates characters by merging a subject image with a reference motion video. Creators use it to put any character or person into a dance, walk, or action sequence by combining a still photo with a motion clip as reference. It gained popularity on social media for making meme characters and fictional figures perform real choreography.",
+  "description": "Viggle is an AI video tool that animates characters by merging a subject image with a reference motion video. Creators use it to put any character or person into a dance, walk, or action sequence by combining a still photo with a motion clip as reference. It gained popularity on social media for making meme characters and fictional figures perform real choreography.",
+  "url": "https://viggle.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=viggle.ai&sz=64",
+  "screenshot_url": "/screenshots/viggle.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "video_generation",
+    "creative",
+    "text_to_video",
+    "animation",
+    "production",
+    "ai_video",
+    "generative",
+    "short_form",
+    "clips",
+    "image_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 68,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

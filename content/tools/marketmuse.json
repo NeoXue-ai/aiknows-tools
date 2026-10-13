@@ -1,21 +1,29 @@
 {
   "slug": "marketmuse",
   "name": "MarketMuse",
-  "tagline": "AI content intelligence",
-  "description": "Topic authority, content briefs, and audits to win in competitive SERPs.",
+  "tagline": "MarketMuse is an AI content strategy platform that analyses the topical authority of your website and identifies the content investments most likely to move rankings. It scores each piece against the depth and breadth of coverage on competing pages and generates detailed content briefs showing exactly what to cover. Content directors at media companies and enterprise brands use it to prioritise their editorial calendar.",
+  "description": "MarketMuse is an AI content strategy platform that analyses the topical authority of your website and identifies the content investments most likely to move rankings. It scores each piece against the depth and breadth of coverage on competing pages and generates detailed content briefs showing exactly what to cover. Content directors at media companies and enterprise brands use it to prioritise their editorial calendar.",
   "url": "https://marketmuse.com",
   "logo_url": "https://www.google.com/s2/favicons?domain=marketmuse.com&sz=64",
   "screenshot_url": "/screenshots/marketmuse.webp",
   "primary_category": "seo-marketing",
   "tags": [
-    "seo",
-    "content-strategy"
+    "marketing",
+    "business",
+    "campaigns",
+    "growth",
+    "promotion",
+    "demand_generation",
+    "brand",
+    "digital_marketing",
+    "roi",
+    "enterprise"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
-  "subcategory": "ai-content-creator",
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 77,
+  "subcategory": "ai-marketing",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

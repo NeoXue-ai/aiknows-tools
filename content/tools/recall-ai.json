@@ -1,0 +1,30 @@
+{
+  "slug": "recall-ai",
+  "name": "Recall",
+  "tagline": "Recall is an AI knowledge base that automatically summarizes and connects everything you save — articles, videos, podcasts, and PDFs — into a searchable personal knowledge library. Researchers, writers, and avid readers use it to surface connections between things they have read across different sources, and to query their saved knowledge in natural language rather than searching by filename or tag. It stores summaries rather than full content, making large knowledge bases fast to search without retrieval becoming unwieldy over time.",
+  "description": "Recall is an AI knowledge base that automatically summarizes and connects everything you save — articles, videos, podcasts, and PDFs — into a searchable personal knowledge library. Researchers, writers, and avid readers use it to surface connections between things they have read across different sources, and to query their saved knowledge in natural language rather than searching by filename or tag. It stores summaries rather than full content, making large knowledge bases fast to search without retrieval becoming unwieldy over time.",
+  "url": "https://getrecall.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=getrecall.ai&sz=64",
+  "screenshot_url": "/screenshots/recall-ai.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "knowledge_base",
+    "productivity",
+    "note_taking",
+    "organization",
+    "information",
+    "second_brain",
+    "wiki",
+    "search",
+    "retrieval",
+    "nlp",
+    "fast"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 61,
+  "subcategory": "ai-assistant",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

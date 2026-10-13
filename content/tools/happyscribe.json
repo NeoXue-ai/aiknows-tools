@@ -1,0 +1,30 @@
+{
+  "slug": "happyscribe",
+  "name": "Happy Scribe",
+  "tagline": "Happy Scribe is an AI transcription and subtitle platform that converts audio and video into accurate text in 60+ languages. It offers both automated transcription and a human proofreading service for higher-stakes content, along with a subtitle editor and direct export to SRT, VTT, and other formats. Journalists, researchers, and video teams use it to make their content searchable and accessible.",
+  "description": "Happy Scribe is an AI transcription and subtitle platform that converts audio and video into accurate text in 60+ languages. It offers both automated transcription and a human proofreading service for higher-stakes content, along with a subtitle editor and direct export to SRT, VTT, and other formats. Journalists, researchers, and video teams use it to make their content searchable and accessible.",
+  "url": "https://happyscribe.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=happyscribe.com&sz=64",
+  "screenshot_url": "/screenshots/happyscribe.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "video_editing",
+    "transcription",
+    "subtitle",
+    "accessibility",
+    "video",
+    "captions",
+    "multilingual",
+    "auto_subtitle",
+    "srt",
+    "collaboration",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 77,
+  "subcategory": "ai-video-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

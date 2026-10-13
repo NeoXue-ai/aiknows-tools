@@ -1,0 +1,29 @@
+{
+  "slug": "pi-ai",
+  "name": "Pi",
+  "tagline": "Pi is a personal AI assistant developed by Inflection AI, designed to be a thoughtful, emotionally intelligent conversational companion. Unlike task-focused assistants, Pi prioritises understanding your context and goals, and guides conversations with curiosity and empathy. It's available on the web, iOS, and Android for people who want an AI that listens and thinks alongside them.",
+  "description": "Pi is a personal AI assistant developed by Inflection AI, designed to be a thoughtful, emotionally intelligent conversational companion. Unlike task-focused assistants, Pi prioritises understanding your context and goals, and guides conversations with curiosity and empathy. It's available on the web, iOS, and Android for people who want an AI that listens and thinks alongside them.",
+  "url": "https://pi.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=pi.ai&sz=64",
+  "screenshot_url": "/screenshots/pi-ai.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "ai_assistant",
+    "productivity",
+    "chatbot",
+    "support",
+    "helpful",
+    "personal",
+    "tasks",
+    "reminders",
+    "smart",
+    "mobile_app"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "ai-assistant",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

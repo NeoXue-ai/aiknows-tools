@@ -1,0 +1,31 @@
+{
+  "slug": "anything-llm",
+  "name": "AnythingLLM",
+  "tagline": "AnythingLLM is an open-source, all-in-one desktop application and self-hostable server for building private AI workspaces. It connects to any LLM — local via Ollama or cloud via OpenAI, Anthropic, or others — and lets users chat with their own documents (PDFs, Word files, websites, YouTube videos) using RAG. Workspaces keep conversations and document contexts separate, making it suitable for managing multiple projects or clients. AnythingLLM requires no technical setup and runs entirely on the user's own hardware.",
+  "description": "AnythingLLM is an open-source, all-in-one desktop application and self-hostable server for building private AI workspaces. It connects to any LLM — local via Ollama or cloud via OpenAI, Anthropic, or others — and lets users chat with their own documents (PDFs, Word files, websites, YouTube videos) using RAG. Workspaces keep conversations and document contexts separate, making it suitable for managing multiple projects or clients. AnythingLLM requires no technical setup and runs entirely on the user's own hardware.",
+  "url": "https://anythingllm.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=anythingllm.com&sz=64",
+  "screenshot_url": "/screenshots/anything-llm.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "knowledge_base",
+    "productivity",
+    "note_taking",
+    "organization",
+    "information",
+    "second_brain",
+    "wiki",
+    "search",
+    "retrieval",
+    "open_source",
+    "cloud_based",
+    "model_based"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 72,
+  "subcategory": "ai-assistant",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

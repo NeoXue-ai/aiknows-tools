@@ -1,21 +1,30 @@
 {
   "slug": "gamma",
   "name": "Gamma",
-  "tagline": "AI presentations and websites",
-  "description": "Generate decks, docs, and websites from prompts — no design needed.",
+  "tagline": "Gamma is an AI-native presentation and document tool that generates a complete, designed deck from a topic or outline in seconds. Rather than starting from a blank slide, you describe what you need and Gamma produces structured content you can refine, including text, images, charts, and embeds. It's become a favourite for people who need compelling presentations quickly but don't enjoy building them in PowerPoint.",
+  "description": "Gamma is an AI-native presentation and document tool that generates a complete, designed deck from a topic or outline in seconds. Rather than starting from a blank slide, you describe what you need and Gamma produces structured content you can refine, including text, images, charts, and embeds. It's become a favourite for people who need compelling presentations quickly but don't enjoy building them in PowerPoint.",
   "url": "https://gamma.app",
   "logo_url": "https://www.google.com/s2/favicons?domain=gamma.app&sz=64",
   "screenshot_url": "/screenshots/gamma.webp",
-  "primary_category": "writing-content",
+  "primary_category": "productivity",
   "tags": [
-    "presentations",
-    "websites"
+    "presentation",
+    "productivity",
+    "design",
+    "slides",
+    "communication",
+    "pitch_deck",
+    "storytelling",
+    "visual",
+    "templates",
+    "image_based",
+    "fast"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 88,
   "subcategory": "ai-presentation-maker",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

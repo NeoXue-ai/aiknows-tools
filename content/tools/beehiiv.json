@@ -1,0 +1,30 @@
+{
+  "slug": "beehiiv",
+  "name": "Beehiiv",
+  "tagline": "Beehiiv is a newsletter and media platform built for creators and publishers to grow and monetize their audience. It offers AI writing assistance, subscriber analytics, ad network integration, and paid subscription tools in a single publishing environment.",
+  "description": "Beehiiv is a newsletter and media platform built for creators and publishers to grow and monetize their audience. It offers AI writing assistance, subscriber analytics, ad network integration, and paid subscription tools in a single publishing environment.",
+  "url": "https://beehiiv.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=beehiiv.com&sz=64",
+  "screenshot_url": "/screenshots/beehiiv.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "writing",
+    "text_generation",
+    "productivity",
+    "content",
+    "editing",
+    "grammar",
+    "paraphrasing",
+    "ai_writing",
+    "drafting",
+    "integrations",
+    "analytics"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 91,
+  "subcategory": "ai-writer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

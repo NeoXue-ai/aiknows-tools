@@ -1,0 +1,29 @@
+{
+  "slug": "cleanfeed-ai",
+  "name": "Cleanfeed",
+  "tagline": "Cleanfeed is a browser-based remote recording platform used by radio producers, podcasters, and audio engineers to capture studio-quality audio from guests anywhere in the world. Its AI noise gate and audio processing chain ensures clean, consistent recordings across different microphones and room acoustics.",
+  "description": "Cleanfeed is a browser-based remote recording platform used by radio producers, podcasters, and audio engineers to capture studio-quality audio from guests anywhere in the world. Its AI noise gate and audio processing chain ensures clean, consistent recordings across different microphones and room acoustics.",
+  "url": "https://cleanfeed.net",
+  "logo_url": "https://www.google.com/s2/favicons?domain=cleanfeed.net&sz=64",
+  "screenshot_url": "/screenshots/cleanfeed-ai.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "audio",
+    "creative",
+    "sound",
+    "music",
+    "recording",
+    "audio_editing",
+    "sound_design",
+    "mixing",
+    "production",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 62,
+  "subcategory": "ai-voice-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

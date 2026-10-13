@@ -1,0 +1,29 @@
+{
+  "slug": "copper",
+  "name": "Copper",
+  "tagline": "Copper is a CRM designed natively for Google Workspace that automatically captures contacts, emails, and activities from Gmail. Its AI features suggest next actions, automate data entry, and help sales teams track relationships without leaving their existing Google tools.",
+  "description": "Copper is a CRM designed natively for Google Workspace that automatically captures contacts, emails, and activities from Gmail. Its AI features suggest next actions, automate data entry, and help sales teams track relationships without leaving their existing Google tools.",
+  "url": "https://copper.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=copper.com&sz=64",
+  "screenshot_url": "/screenshots/copper.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "crm",
+    "sales",
+    "business",
+    "customers",
+    "relationships",
+    "pipeline",
+    "contacts",
+    "deals",
+    "customer_data",
+    "collaboration"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 76,
+  "subcategory": "sales",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

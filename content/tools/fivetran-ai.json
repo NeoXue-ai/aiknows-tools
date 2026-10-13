@@ -1,0 +1,29 @@
+{
+  "slug": "fivetran-ai",
+  "name": "Fivetran",
+  "tagline": "Fivetran is an automated data movement platform that syncs data from 500+ sources — SaaS apps, databases, files — into data warehouses like Snowflake and BigQuery. Its AI features include smart schema migration, anomaly detection in data pipelines, and AI-generated connector mapping.",
+  "description": "Fivetran is an automated data movement platform that syncs data from 500+ sources — SaaS apps, databases, files — into data warehouses like Snowflake and BigQuery. Its AI features include smart schema migration, anomaly detection in data pipelines, and AI-generated connector mapping.",
+  "url": "https://fivetran.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=fivetran.com&sz=64",
+  "screenshot_url": "/screenshots/fivetran-ai.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "data_analysis",
+    "analytics",
+    "business",
+    "insights",
+    "visualization",
+    "data_science",
+    "reporting",
+    "dashboards",
+    "sql",
+    "cloud_based"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 81,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

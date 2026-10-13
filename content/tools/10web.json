@@ -1,0 +1,31 @@
+{
+  "slug": "10web",
+  "name": "10Web",
+  "tagline": "10Web is an AI-powered website builder and managed WordPress hosting platform. It lets you generate a complete website from a brief description, then fine-tune every section with a visual editor — no coding needed. Ideal for agencies and freelancers who need polished sites launched fast.",
+  "description": "10Web is an AI-powered website builder and managed WordPress hosting platform. It lets you generate a complete website from a brief description, then fine-tune every section with a visual editor — no coding needed. Ideal for agencies and freelancers who need polished sites launched fast.",
+  "url": "https://10web.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=10web.io&sz=64",
+  "screenshot_url": "/screenshots/10web.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "website_builder",
+    "no_code",
+    "design",
+    "web",
+    "creation",
+    "cms",
+    "hosting",
+    "templates",
+    "publishing",
+    "free_tier",
+    "image_based",
+    "training"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 79,
+  "subcategory": "ai-website-builder",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

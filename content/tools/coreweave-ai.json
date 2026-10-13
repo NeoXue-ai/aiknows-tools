@@ -1,0 +1,31 @@
+{
+  "slug": "coreweave-ai",
+  "name": "CoreWeave",
+  "tagline": "CoreWeave is a specialized GPU cloud provider focused exclusively on AI, machine learning, and visual compute workloads. It offers NVIDIA H100, A100, and L40S GPUs with bare-metal performance and Kubernetes orchestration. AI companies, model providers, and research labs use CoreWeave for large-scale training and inference that requires predictable GPU capacity.",
+  "description": "CoreWeave is a specialized GPU cloud provider focused exclusively on AI, machine learning, and visual compute workloads. It offers NVIDIA H100, A100, and L40S GPUs with bare-metal performance and Kubernetes orchestration. AI companies, model providers, and research labs use CoreWeave for large-scale training and inference that requires predictable GPU capacity.",
+  "url": "https://coreweave.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=coreweave.com&sz=64",
+  "screenshot_url": "/screenshots/coreweave-ai.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "llm",
+    "foundation_model",
+    "ai_model",
+    "machine_learning",
+    "neural",
+    "inference",
+    "fine_tuning",
+    "api",
+    "open_source",
+    "cloud_based",
+    "image_based",
+    "training"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 76,
+  "subcategory": "ai-models",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

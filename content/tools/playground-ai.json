@@ -1,0 +1,31 @@
+{
+  "slug": "playground-ai",
+  "name": "Playground AI",
+  "tagline": "Playground AI is a web-based image generation platform that combines Stable Diffusion, DALL-E, and its own fine-tuned models in a single canvas editor. Its free tier is among the most generous in the space, offering daily image generations at high quality. The canvas editor lets users mix generated and uploaded images, apply filters, and iterate rapidly — making it popular with designers and creators who want a more interactive experience than a simple prompt box.",
+  "description": "Playground AI is a web-based image generation platform that combines Stable Diffusion, DALL-E, and its own fine-tuned models in a single canvas editor. Its free tier is among the most generous in the space, offering daily image generations at high quality. The canvas editor lets users mix generated and uploaded images, apply filters, and iterate rapidly — making it popular with designers and creators who want a more interactive experience than a simple prompt box.",
+  "url": "https://playground.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=playground.com&sz=64",
+  "screenshot_url": "/screenshots/playground-ai.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "image_generation",
+    "creative",
+    "text_to_image",
+    "visual",
+    "graphics",
+    "generative_ai",
+    "art",
+    "diffusion",
+    "prompting",
+    "free_tier",
+    "image_based",
+    "training"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 72,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "apollo",
+  "name": "Apollo",
+  "tagline": "Apollo.io is an all-in-one B2B sales intelligence and engagement platform with a database of over 275 million contacts. It combines prospecting, email sequencing, calling, and CRM enrichment so sales reps can build pipeline without switching tools. AI features suggest the best-fit prospects, personalise outreach, and surface timing signals like job changes and funding rounds.",
+  "description": "Apollo.io is an all-in-one B2B sales intelligence and engagement platform with a database of over 275 million contacts. It combines prospecting, email sequencing, calling, and CRM enrichment so sales reps can build pipeline without switching tools. AI features suggest the best-fit prospects, personalise outreach, and surface timing signals like job changes and funding rounds.",
+  "url": "https://apollo.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=apollo.io&sz=64",
+  "screenshot_url": "/screenshots/apollo.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "sales",
+    "business",
+    "crm",
+    "revenue",
+    "conversion",
+    "pipeline",
+    "prospecting",
+    "closing",
+    "forecasting",
+    "customizable"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 85,
+  "subcategory": "sales",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

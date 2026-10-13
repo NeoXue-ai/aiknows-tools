@@ -1,0 +1,29 @@
+{
+  "slug": "google-antigravity",
+  "name": "Google Antigravity",
+  "tagline": "Google Antigravity is an agentic IDE that lets AI agents operate directly across the editor, terminal, and browser instead of just answering prompts in a side panel. Version 2.0 added scheduled background tasks, a standalone CLI, and a public SDK, with support for Gemini 3 Pro alongside Claude Sonnet 4.5 and OpenAI models.",
+  "description": "Google Antigravity is an agentic IDE that lets AI agents operate directly across the editor, terminal, and browser instead of just answering prompts in a side panel. Version 2.0 added scheduled background tasks, a standalone CLI, and a public SDK, with support for Gemini 3 Pro alongside Claude Sonnet 4.5 and OpenAI models.",
+  "url": "https://antigravity.google",
+  "logo_url": "https://www.google.com/s2/favicons?domain=antigravity.google&sz=64",
+  "screenshot_url": "/screenshots/google-antigravity.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "code_generation",
+    "developer_tools",
+    "productivity",
+    "coding",
+    "programming",
+    "autocomplete",
+    "debugging",
+    "refactoring",
+    "ide",
+    "model_based"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 81,
+  "subcategory": "ai-code-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

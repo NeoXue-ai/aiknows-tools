@@ -1,0 +1,31 @@
+{
+  "slug": "jason-ai",
+  "name": "Jason AI",
+  "tagline": "Jason AI is a B2B sales assistant built into the Reply.io platform that handles outreach, personalizes messages at scale, and follows up with leads automatically. Sales teams use it to run multi-channel prospecting sequences across email, LinkedIn, and other channels, with AI personalizing each message based on prospect data rather than sending identical templates. It handles the high-volume prospecting work that takes significant time for human SDRs, letting them focus on conversations with interested prospects.",
+  "description": "Jason AI is a B2B sales assistant built into the Reply.io platform that handles outreach, personalizes messages at scale, and follows up with leads automatically. Sales teams use it to run multi-channel prospecting sequences across email, LinkedIn, and other channels, with AI personalizing each message based on prospect data rather than sending identical templates. It handles the high-volume prospecting work that takes significant time for human SDRs, letting them focus on conversations with interested prospects.",
+  "url": "https://reply.io/jason-ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=reply.io&sz=64",
+  "screenshot_url": "/screenshots/jason-ai.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "sales",
+    "business",
+    "crm",
+    "revenue",
+    "conversion",
+    "pipeline",
+    "prospecting",
+    "closing",
+    "forecasting",
+    "collaboration",
+    "customizable",
+    "templates"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 78,
+  "subcategory": "sales",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,21 +1,30 @@
 {
   "slug": "grok",
   "name": "Grok",
-  "tagline": "xAI conversational AI",
-  "description": "xAI's assistant with real-time X (Twitter) awareness and tools.",
-  "url": "https://grok.com",
-  "logo_url": "https://www.google.com/s2/favicons?domain=grok.com&sz=64",
+  "tagline": "Grok is the AI assistant from xAI, now part of Elon Musk's SpaceX, built directly into X (Twitter) and available as a standalone app. It has real-time access to posts and trending topics on X, giving it a unique ability to answer questions about current events as they unfold. Grok 4.5, xAI's first flagship release since the SpaceX merger, is competitive with frontier models on reasoning and coding benchmarks.",
+  "description": "Grok is the AI assistant from xAI, now part of Elon Musk's SpaceX, built directly into X (Twitter) and available as a standalone app. It has real-time access to posts and trending topics on X, giving it a unique ability to answer questions about current events as they unfold. Grok 4.5, xAI's first flagship release since the SpaceX merger, is competitive with frontier models on reasoning and coding benchmarks.",
+  "url": "https://x.ai/grok",
+  "logo_url": "https://www.google.com/s2/favicons?domain=x.ai&sz=64",
   "screenshot_url": "/screenshots/grok.webp",
   "primary_category": "productivity",
   "tags": [
-    "assistant",
-    "xai"
+    "chatbot",
+    "text_generation",
+    "ai_assistant",
+    "conversational",
+    "nlp",
+    "dialogue",
+    "llm",
+    "general_ai",
+    "question_answering",
+    "real_time",
+    "model_based"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 88,
   "subcategory": "ai-chatbot",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

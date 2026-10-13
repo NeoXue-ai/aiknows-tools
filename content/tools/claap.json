@@ -1,0 +1,29 @@
+{
+  "slug": "claap",
+  "name": "Claap",
+  "tagline": "Claap lets teams record short async video messages and meeting recordings, then uses AI to generate transcripts, summaries, and searchable indexes. It acts as a video knowledge base where teams can find decisions and discussions from past recordings using natural language search.",
+  "description": "Claap lets teams record short async video messages and meeting recordings, then uses AI to generate transcripts, summaries, and searchable indexes. It acts as a video knowledge base where teams can find decisions and discussions from past recordings using natural language search.",
+  "url": "https://claap.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=claap.io&sz=64",
+  "screenshot_url": "/screenshots/claap.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "meeting",
+    "productivity",
+    "transcription",
+    "collaboration",
+    "notes",
+    "summaries",
+    "action_items",
+    "video_calls",
+    "recap",
+    "nlp"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 67,
+  "subcategory": "ai-note-taker",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

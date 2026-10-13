@@ -1,0 +1,29 @@
+{
+  "slug": "koala-ai",
+  "name": "Koala AI",
+  "tagline": "Koala AI produces SEO-optimised articles with one click by combining GPT-4o with real-time SERP data. It analyses what's currently ranking for a keyword and generates structured articles with proper headings, FAQs, and internal linking suggestions. It also includes a chat interface for content brainstorming.",
+  "description": "Koala AI produces SEO-optimised articles with one click by combining GPT-4o with real-time SERP data. It analyses what's currently ranking for a keyword and generates structured articles with proper headings, FAQs, and internal linking suggestions. It also includes a chat interface for content brainstorming.",
+  "url": "https://koala.sh",
+  "logo_url": "https://www.google.com/s2/favicons?domain=koala.sh&sz=64",
+  "screenshot_url": "/screenshots/koala-ai.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "writing",
+    "text_generation",
+    "productivity",
+    "content",
+    "editing",
+    "grammar",
+    "paraphrasing",
+    "ai_writing",
+    "drafting",
+    "real_time"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 72,
+  "subcategory": "ai-writer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "descript-studio-sound",
+  "name": "Descript Studio Sound",
+  "tagline": "Descript Studio Sound is an AI audio enhancement feature within Descript that transforms voice recordings made in noisy environments into clean, studio-quality audio in one click. It removes echo, background noise, and mic quality inconsistencies, making it essential for podcast editors and video creators.",
+  "description": "Descript Studio Sound is an AI audio enhancement feature within Descript that transforms voice recordings made in noisy environments into clean, studio-quality audio in one click. It removes echo, background noise, and mic quality inconsistencies, making it essential for podcast editors and video creators.",
+  "url": "https://descript.com/studio-sound",
+  "logo_url": "https://www.google.com/s2/favicons?domain=descript.com&sz=64",
+  "screenshot_url": "/screenshots/descript-studio-sound.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "audio",
+    "creative",
+    "sound",
+    "music",
+    "recording",
+    "audio_editing",
+    "sound_design",
+    "mixing",
+    "production",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 86,
+  "subcategory": "ai-voice-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

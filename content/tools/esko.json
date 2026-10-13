@@ -1,0 +1,29 @@
+{
+  "slug": "esko",
+  "name": "Esko",
+  "tagline": "Esko builds the structural design and prepress tools much of the packaging industry runs on, including ArtiosCAD for dielines and ArtPro+ for prepress. Its AI-assisted automation checks artwork against brand and print specs and flags structural or color errors before a design goes to press, catching mistakes that would otherwise show up on a production run.",
+  "description": "Esko builds the structural design and prepress tools much of the packaging industry runs on, including ArtiosCAD for dielines and ArtPro+ for prepress. Its AI-assisted automation checks artwork against brand and print specs and flags structural or color errors before a design goes to press, catching mistakes that would otherwise show up on a production run.",
+  "url": "https://esko.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=esko.com&sz=64",
+  "screenshot_url": "/screenshots/esko.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "design",
+    "image_editing",
+    "creative",
+    "visual",
+    "branding",
+    "typography",
+    "layouts",
+    "ui_design",
+    "illustration",
+    "mobile_app"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 74,
+  "subcategory": "ai-graphic-design",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

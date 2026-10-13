@@ -1,0 +1,30 @@
+{
+  "slug": "01-ai",
+  "name": "01.AI",
+  "tagline": "01.AI is a Chinese AI startup founded by Kai-Fu Lee that develops and releases the Yi series of large language models. The Yi models are high-performance open-weight models competitive with leading proprietary models on standard benchmarks.",
+  "description": "01.AI is a Chinese AI startup founded by Kai-Fu Lee that develops and releases the Yi series of large language models. The Yi models are high-performance open-weight models competitive with leading proprietary models on standard benchmarks.",
+  "url": "https://01.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=01.ai&sz=64",
+  "screenshot_url": "/screenshots/01-ai.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "llm",
+    "foundation_model",
+    "ai_model",
+    "machine_learning",
+    "neural",
+    "inference",
+    "fine_tuning",
+    "api",
+    "open_source",
+    "nlp",
+    "model_based"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 64,
+  "subcategory": "ai-models",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

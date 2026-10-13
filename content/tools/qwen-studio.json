@@ -1,0 +1,31 @@
+{
+  "slug": "qwen-studio",
+  "name": "Qwen Studio",
+  "tagline": "Qwen Studio is Alibaba's AI assistant for chat, web search, document analysis, coding, and image and video generation. It uses the Qwen model family and supports multimodal inputs, long documents, and artifact-style creation in the conversation.",
+  "description": "Qwen Studio is Alibaba's AI assistant for chat, web search, document analysis, coding, and image and video generation. It uses the Qwen model family and supports multimodal inputs, long documents, and artifact-style creation in the conversation.",
+  "url": "https://qwen.ai/qwenchat",
+  "logo_url": "https://www.google.com/s2/favicons?domain=qwen.ai&sz=64",
+  "screenshot_url": "/screenshots/qwen-studio.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "chatbot",
+    "text_generation",
+    "ai_assistant",
+    "conversational",
+    "nlp",
+    "dialogue",
+    "llm",
+    "general_ai",
+    "question_answering",
+    "multimodal",
+    "image_based",
+    "model_based"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 81,
+  "subcategory": "ai-chatbot",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

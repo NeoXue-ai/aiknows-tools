@@ -1,0 +1,30 @@
+{
+  "slug": "picsart-ai",
+  "name": "Picsart AI",
+  "tagline": "Picsart is a popular mobile and web creative platform with powerful AI features including AI image generation, background removal, object removal, AI avatars, and style transfer. With over 150 million monthly active users it is one of the most widely used AI-powered creative apps in the world.",
+  "description": "Picsart is a popular mobile and web creative platform with powerful AI features including AI image generation, background removal, object removal, AI avatars, and style transfer. With over 150 million monthly active users it is one of the most widely used AI-powered creative apps in the world.",
+  "url": "https://picsart.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=picsart.com&sz=64",
+  "screenshot_url": "/screenshots/picsart-ai.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "image_editing",
+    "design",
+    "creative",
+    "photo",
+    "visual",
+    "retouching",
+    "filters",
+    "enhancement",
+    "manipulation",
+    "image_based",
+    "powerful"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 82,
+  "subcategory": "ai-photo-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

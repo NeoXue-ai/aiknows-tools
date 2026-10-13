@@ -1,0 +1,29 @@
+{
+  "slug": "duolingo",
+  "name": "Duolingo",
+  "tagline": "Duolingo is the world's most popular language learning app, teaching 40+ languages through short, gamified lessons that make daily practice habit-forming. Its AI personalises the lesson difficulty and review schedule based on what you're forgetting, and Duolingo Max introduces AI conversation practice and explanation features powered by GPT-4. Over 500 million people have used it to learn a new language.",
+  "description": "Duolingo is the world's most popular language learning app, teaching 40+ languages through short, gamified lessons that make daily practice habit-forming. Its AI personalises the lesson difficulty and review schedule based on what you're forgetting, and Duolingo Max introduces AI conversation practice and explanation features powered by GPT-4. Over 500 million people have used it to learn a new language.",
+  "url": "https://duolingo.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=duolingo.com&sz=64",
+  "screenshot_url": "/screenshots/duolingo.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "language_learning",
+    "education",
+    "languages",
+    "learning",
+    "multilingual",
+    "vocabulary",
+    "grammar",
+    "speaking",
+    "immersion",
+    "customizable"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 88,
+  "subcategory": "ai-tutor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

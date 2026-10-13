@@ -1,0 +1,28 @@
+{
+  "slug": "tipalti-ai",
+  "name": "Tipalti",
+  "tagline": "Tipalti is an AI-powered payables automation platform that handles the full AP workflow — onboarding suppliers, collecting tax forms, processing payments in 196 countries, and reconciling payments in the ERP. Its AI validates payment details, detects fraud patterns, and ensures regulatory compliance across global payment networks.",
+  "description": "Tipalti is an AI-powered payables automation platform that handles the full AP workflow — onboarding suppliers, collecting tax forms, processing payments in 196 countries, and reconciling payments in the ERP. Its AI validates payment details, detects fraud patterns, and ensures regulatory compliance across global payment networks.",
+  "url": "https://tipalti.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=tipalti.com&sz=64",
+  "screenshot_url": "/screenshots/tipalti-ai.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "finance",
+    "business",
+    "analytics",
+    "accounting",
+    "investment",
+    "financial_planning",
+    "budgeting",
+    "fintech",
+    "reporting"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 78,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

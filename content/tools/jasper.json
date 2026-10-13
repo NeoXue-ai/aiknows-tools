@@ -1,22 +1,31 @@
 {
   "slug": "jasper",
   "name": "Jasper",
-  "tagline": "AI co-pilot for marketing teams",
-  "description": "Enterprise-grade AI content platform for marketing, with brand voice, campaigns, and team workflows.",
+  "tagline": "Jasper is an enterprise AI writing platform designed for marketing teams, covering everything from blog posts and landing pages to ads and email sequences. Its Brand Voice feature trains the AI on your company's tone and style guidelines, ensuring consistent output across the team. Over 100,000 marketing teams use Jasper to increase content output without scaling headcount.",
+  "description": "Jasper is an enterprise AI writing platform designed for marketing teams, covering everything from blog posts and landing pages to ads and email sequences. Its Brand Voice feature trains the AI on your company's tone and style guidelines, ensuring consistent output across the team. Over 100,000 marketing teams use Jasper to increase content output without scaling headcount.",
   "url": "https://jasper.ai",
   "logo_url": "https://www.google.com/s2/favicons?domain=jasper.ai&sz=64",
   "screenshot_url": "/screenshots/jasper.webp",
   "primary_category": "writing-content",
   "tags": [
-    "copywriting",
-    "marketing",
-    "brand-voice"
+    "writing",
+    "text_generation",
+    "productivity",
+    "content",
+    "editing",
+    "grammar",
+    "paraphrasing",
+    "ai_writing",
+    "drafting",
+    "collaboration",
+    "enterprise",
+    "voice_enabled"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
-  "subcategory": "ai-content-creator",
-  "is_featured": true,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.8+00:00"
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 88,
+  "subcategory": "ai-writer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
 }

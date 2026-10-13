@@ -1,21 +1,29 @@
 {
   "slug": "humata",
   "name": "Humata",
-  "tagline": "AI for your documents",
-  "description": "Ask, summarize, and synthesize answers from PDFs and docs.",
+  "tagline": "Humata is an AI document intelligence platform that allows users to upload files and have a conversation about their content — asking for summaries, comparisons, or specific facts. It handles long technical documents, legal filings, and academic papers with high comprehension accuracy. Law firms, researchers, and financial analysts use it to extract structured insights from unstructured document libraries.",
+  "description": "Humata is an AI document intelligence platform that allows users to upload files and have a conversation about their content — asking for summaries, comparisons, or specific facts. It handles long technical documents, legal filings, and academic papers with high comprehension accuracy. Law firms, researchers, and financial analysts use it to extract structured insights from unstructured document libraries.",
   "url": "https://humata.ai",
   "logo_url": "https://www.google.com/s2/favicons?domain=humata.ai&sz=64",
   "screenshot_url": "/screenshots/humata.webp",
-  "primary_category": "research-data",
+  "primary_category": "productivity",
   "tags": [
+    "document_ai",
     "pdf",
-    "qa"
+    "productivity",
+    "extraction",
+    "documents",
+    "ocr",
+    "summarization",
+    "document_processing",
+    "parsing",
+    "analytics"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
-  "subcategory": "ai-summarizer",
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 65,
+  "subcategory": "ai-pdf",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

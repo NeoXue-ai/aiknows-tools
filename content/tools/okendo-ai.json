@@ -1,0 +1,30 @@
+{
+  "slug": "okendo-ai",
+  "name": "Okendo",
+  "tagline": "Okendo is a customer marketing platform for Shopify brands that collects and displays product reviews, surveys, and loyalty rewards. Its AI features include review sentiment analysis, AI-generated review response suggestions, and insights on which product attributes drive purchases and returns.",
+  "description": "Okendo is a customer marketing platform for Shopify brands that collects and displays product reviews, surveys, and loyalty rewards. Its AI features include review sentiment analysis, AI-generated review response suggestions, and insights on which product attributes drive purchases and returns.",
+  "url": "https://okendo.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=okendo.io&sz=64",
+  "screenshot_url": "/screenshots/okendo-ai.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "ecommerce",
+    "business",
+    "marketing",
+    "retail",
+    "shopping",
+    "online_store",
+    "product_catalog",
+    "checkout",
+    "conversions",
+    "customizable",
+    "analytics"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 83,
+  "subcategory": "ecommerce",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

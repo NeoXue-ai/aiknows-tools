@@ -1,0 +1,30 @@
+{
+  "slug": "cleanup-pictures",
+  "name": "Cleanup.pictures",
+  "tagline": "Cleanup.pictures uses AI inpainting to remove unwanted objects, people, text, and watermarks from photos with a simple brush tool. The AI fills the removed area with realistic background content. Photographers, real estate agents, and product marketers use it to clean up images without manual Photoshop work.",
+  "description": "Cleanup.pictures uses AI inpainting to remove unwanted objects, people, text, and watermarks from photos with a simple brush tool. The AI fills the removed area with realistic background content. Photographers, real estate agents, and product marketers use it to clean up images without manual Photoshop work.",
+  "url": "https://cleanup.pictures",
+  "logo_url": "https://www.google.com/s2/favicons?domain=cleanup.pictures&sz=64",
+  "screenshot_url": "/screenshots/cleanup-pictures.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "image_editing",
+    "design",
+    "creative",
+    "photo",
+    "visual",
+    "retouching",
+    "filters",
+    "enhancement",
+    "manipulation",
+    "image_based",
+    "easy_to_use"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 70,
+  "subcategory": "ai-photo-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,21 +1,31 @@
 {
   "slug": "n8n",
   "name": "n8n",
-  "tagline": "Source-available workflow automation",
-  "description": "Self-hostable workflow automation with AI agents and 400+ integrations.",
+  "tagline": "n8n is an open-source workflow automation platform that lets developers and technical teams build complex automations with full code access and self-hosting control. Unlike Zapier or Make, n8n runs on your own infrastructure, keeping data inside your environment, which matters for compliance-sensitive workflows. Its 350+ native integrations and AI-native nodes make it a favourite for technically minded teams building serious automation.",
+  "description": "n8n is an open-source workflow automation platform that lets developers and technical teams build complex automations with full code access and self-hosting control. Unlike Zapier or Make, n8n runs on your own infrastructure, keeping data inside your environment, which matters for compliance-sensitive workflows. Its 350+ native integrations and AI-native nodes make it a favourite for technically minded teams building serious automation.",
   "url": "https://n8n.io",
   "logo_url": "https://www.google.com/s2/favicons?domain=n8n.io&sz=64",
   "screenshot_url": "/screenshots/n8n.webp",
   "primary_category": "productivity",
   "tags": [
     "automation",
-    "self-host"
+    "workflow",
+    "productivity",
+    "repetitive_tasks",
+    "efficiency",
+    "process_automation",
+    "triggers",
+    "scheduling",
+    "bots",
+    "open_source",
+    "collaboration",
+    "integrations"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
-  "subcategory": "ai-workflow",
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 90,
+  "subcategory": "automation",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

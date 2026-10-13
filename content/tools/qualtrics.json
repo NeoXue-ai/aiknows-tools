@@ -1,0 +1,30 @@
+{
+  "slug": "qualtrics",
+  "name": "Qualtrics",
+  "tagline": "Qualtrics collects customer and employee feedback through surveys and other channels, then uses AI to summarize open-text responses, flag emerging issues, and predict churn risk. Customer experience teams use it to turn scattered feedback into prioritized action items.",
+  "description": "Qualtrics collects customer and employee feedback through surveys and other channels, then uses AI to summarize open-text responses, flag emerging issues, and predict churn risk. Customer experience teams use it to turn scattered feedback into prioritized action items.",
+  "url": "https://qualtrics.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=qualtrics.com&sz=64",
+  "screenshot_url": "/screenshots/qualtrics.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "market_research",
+    "business",
+    "analytics",
+    "consumer",
+    "insights",
+    "surveys",
+    "competitive_analysis",
+    "trends",
+    "intelligence",
+    "collaboration",
+    "customizable"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 91,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "unbounce-ai",
+  "name": "Unbounce AI",
+  "tagline": "Unbounce is a landing page builder with powerful AI features including a copy generator, Smart Traffic (which automatically routes visitors to the variant most likely to convert), and AI-powered recommendations for improving conversion rates. It integrates with HubSpot, Mailchimp, and Salesforce.",
+  "description": "Unbounce is a landing page builder with powerful AI features including a copy generator, Smart Traffic (which automatically routes visitors to the variant most likely to convert), and AI-powered recommendations for improving conversion rates. It integrates with HubSpot, Mailchimp, and Salesforce.",
+  "url": "https://unbounce.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=unbounce.com&sz=64",
+  "screenshot_url": "/screenshots/unbounce-ai.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "marketing",
+    "business",
+    "campaigns",
+    "growth",
+    "promotion",
+    "demand_generation",
+    "brand",
+    "digital_marketing",
+    "roi",
+    "integrations",
+    "powerful"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 88,
+  "subcategory": "ai-marketing",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null,
+  "editorial": {
+    "seo": {
+      "title": "Unbounce AI: Landing Pages & Traffic Optimization",
+      "description": "Unbounce combines landing page creation, A/B testing and AI traffic optimization. Explore its builder and Smart Traffic features for marketing campaigns."
+    },
+    "externalLinks": [
+      {
+        "label": "Official product information",
+        "url": "https://unbounce.com/",
+        "context": "Explore current product information and supported workflows."
+      }
+    ]
+  }
+}

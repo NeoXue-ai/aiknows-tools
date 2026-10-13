@@ -1,21 +1,29 @@
 {
   "slug": "kaiber",
   "name": "Kaiber",
-  "tagline": "AI music videos",
-  "description": "Generate stylized music videos and animations from audio or images.",
+  "tagline": "Kaiber is an AI creative platform that transforms images, text prompts, and music tracks into stylized AI-generated videos and animations. It is popular among musicians and visual artists for creating music videos, lyric videos, and short-form creative content.",
+  "description": "Kaiber is an AI creative platform that transforms images, text prompts, and music tracks into stylized AI-generated videos and animations. It is popular among musicians and visual artists for creating music videos, lyric videos, and short-form creative content.",
   "url": "https://kaiber.ai",
   "logo_url": "https://www.google.com/s2/favicons?domain=kaiber.ai&sz=64",
   "screenshot_url": "/screenshots/kaiber.webp",
   "primary_category": "image-video",
   "tags": [
-    "video",
-    "music"
+    "video_generation",
+    "creative",
+    "text_to_video",
+    "animation",
+    "production",
+    "ai_video",
+    "generative",
+    "short_form",
+    "clips",
+    "image_based"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
-  "subcategory": "ai-music-generator",
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 71,
+  "subcategory": "ai-video-generator",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

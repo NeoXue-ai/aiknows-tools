@@ -1,0 +1,29 @@
+{
+  "slug": "polycam-ai",
+  "name": "Polycam",
+  "tagline": "Polycam is a mobile and web app that captures real-world objects and spaces in 3D using a smartphone camera or LiDAR sensor. Its AI processing converts photos into accurate 3D models exportable to GLTF, OBJ, and CAD formats. Architects, game developers, and e-commerce brands use it to digitise physical objects.",
+  "description": "Polycam is a mobile and web app that captures real-world objects and spaces in 3D using a smartphone camera or LiDAR sensor. Its AI processing converts photos into accurate 3D models exportable to GLTF, OBJ, and CAD formats. Architects, game developers, and e-commerce brands use it to digitise physical objects.",
+  "url": "https://poly.cam",
+  "logo_url": "https://www.google.com/s2/favicons?domain=poly.cam&sz=64",
+  "screenshot_url": "/screenshots/polycam-ai.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "3d",
+    "design",
+    "creative",
+    "modeling",
+    "rendering",
+    "visualization",
+    "3d_art",
+    "digital_art",
+    "sculpting",
+    "model_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "ai-3d-model-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

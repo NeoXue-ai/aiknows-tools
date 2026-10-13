@@ -1,0 +1,29 @@
+{
+  "slug": "nightcafe",
+  "name": "NightCafe Studio",
+  "tagline": "NightCafe Studio is one of the longest-running AI art platforms, offering access to multiple generation models — Stable Diffusion, DALL-E, and proprietary models — through a credit-based web interface. Its built-in community allows creators to share, comment, and collaborate on AI art, and daily challenges keep the community engaged. It's a popular starting point for people exploring AI art who want variety and a supportive community without technical setup.",
+  "description": "NightCafe Studio is one of the longest-running AI art platforms, offering access to multiple generation models — Stable Diffusion, DALL-E, and proprietary models — through a credit-based web interface. Its built-in community allows creators to share, comment, and collaborate on AI art, and daily challenges keep the community engaged. It's a popular starting point for people exploring AI art who want variety and a supportive community without technical setup.",
+  "url": "https://creator.nightcafe.studio",
+  "logo_url": "https://www.google.com/s2/favicons?domain=creator.nightcafe.studio&sz=64",
+  "screenshot_url": "/screenshots/nightcafe.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "image_generation",
+    "creative",
+    "text_to_image",
+    "visual",
+    "graphics",
+    "generative_ai",
+    "art",
+    "diffusion",
+    "prompting",
+    "model_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 77,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

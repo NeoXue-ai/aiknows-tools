@@ -1,0 +1,31 @@
+{
+  "slug": "mlflow",
+  "name": "MLflow",
+  "tagline": "MLflow is an open-source platform for managing the machine learning lifecycle from experiment tracking to production deployment. Data scientists use it to log runs, compare parameters and metrics across experiments, and package models in a reproducible format. It works with any ML framework and integrates with Databricks, SageMaker, and most cloud ML platforms.",
+  "description": "MLflow is an open-source platform for managing the machine learning lifecycle from experiment tracking to production deployment. Data scientists use it to log runs, compare parameters and metrics across experiments, and package models in a reproducible format. It works with any ML framework and integrates with Databricks, SageMaker, and most cloud ML platforms.",
+  "url": "https://mlflow.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=mlflow.org&sz=64",
+  "screenshot_url": "/screenshots/mlflow.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "open_source",
+    "integrations",
+    "cloud_based"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 79,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

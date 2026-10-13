@@ -1,0 +1,29 @@
+{
+  "slug": "klaviyo-ai",
+  "name": "Klaviyo AI",
+  "tagline": "Klaviyo is the leading email and SMS marketing platform for e-commerce brands, now with extensive AI capabilities including predictive analytics, product recommendations, send-time optimisation, and an AI subject line generator. It integrates natively with Shopify, WooCommerce, and BigCommerce.",
+  "description": "Klaviyo is the leading email and SMS marketing platform for e-commerce brands, now with extensive AI capabilities including predictive analytics, product recommendations, send-time optimisation, and an AI subject line generator. It integrates natively with Shopify, WooCommerce, and BigCommerce.",
+  "url": "https://klaviyo.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=klaviyo.com&sz=64",
+  "screenshot_url": "/screenshots/klaviyo-ai.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "email",
+    "productivity",
+    "writing",
+    "communication",
+    "inbox",
+    "email_management",
+    "drafting",
+    "scheduling",
+    "follow_up",
+    "analytics"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 90,
+  "subcategory": "email",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

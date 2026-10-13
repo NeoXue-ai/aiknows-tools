@@ -1,0 +1,29 @@
+{
+  "slug": "submagic",
+  "name": "Submagic",
+  "tagline": "Submagic is an AI video editing tool that automatically generates animated captions, adds emojis, and creates B-roll for short-form video content. It is popular among content creators on TikTok and Instagram Reels who want to produce engaging captioned clips efficiently.",
+  "description": "Submagic is an AI video editing tool that automatically generates animated captions, adds emojis, and creates B-roll for short-form video content. It is popular among content creators on TikTok and Instagram Reels who want to produce engaging captioned clips efficiently.",
+  "url": "https://submagic.co",
+  "logo_url": "https://www.google.com/s2/favicons?domain=submagic.co&sz=64",
+  "screenshot_url": "/screenshots/submagic.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "video_editing",
+    "transcription",
+    "subtitle",
+    "accessibility",
+    "video",
+    "captions",
+    "multilingual",
+    "auto_subtitle",
+    "srt",
+    "fast"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "ai-video-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

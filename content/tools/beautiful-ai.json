@@ -1,20 +1,31 @@
 {
   "slug": "beautiful-ai",
   "name": "Beautiful.ai",
-  "tagline": "AI presentation maker",
-  "description": "Smart slides that auto-design themselves as you add content.",
+  "tagline": "Beautiful.ai is an AI-powered presentation tool that auto-formats slides as you add content, keeping designs consistently polished without manual tweaking. Smart slide templates adapt to your data: charts resize, images recrop, and layouts adjust automatically. It's popular with business teams who need professional-looking decks without a design background.",
+  "description": "Beautiful.ai is an AI-powered presentation tool that auto-formats slides as you add content, keeping designs consistently polished without manual tweaking. Smart slide templates adapt to your data: charts resize, images recrop, and layouts adjust automatically. It's popular with business teams who need professional-looking decks without a design background.",
   "url": "https://beautiful.ai",
   "logo_url": "https://www.google.com/s2/favicons?domain=beautiful.ai&sz=64",
   "screenshot_url": "/screenshots/beautiful-ai.webp",
-  "primary_category": "writing-content",
+  "primary_category": "productivity",
   "tags": [
-    "presentations"
+    "presentation",
+    "productivity",
+    "design",
+    "slides",
+    "communication",
+    "pitch_deck",
+    "storytelling",
+    "visual",
+    "templates",
+    "collaboration",
+    "image_based",
+    "powerful"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 80,
   "subcategory": "ai-presentation-maker",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

@@ -1,0 +1,31 @@
+{
+  "slug": "langfuse",
+  "name": "Langfuse",
+  "tagline": "Langfuse is an open-source LLM engineering platform that provides tracing, evaluation, prompt management, and dataset curation for AI applications. It captures detailed traces of LLM calls to help teams debug issues, measure quality, and iterate on prompts in production.",
+  "description": "Langfuse is an open-source LLM engineering platform that provides tracing, evaluation, prompt management, and dataset curation for AI applications. It captures detailed traces of LLM calls to help teams debug issues, measure quality, and iterate on prompts in production.",
+  "url": "https://langfuse.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=langfuse.com&sz=64",
+  "screenshot_url": "/screenshots/langfuse.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "open_source",
+    "collaboration",
+    "model_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 80,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "recharge-ai",
+  "name": "Recharge",
+  "tagline": "Recharge is the leading subscription management platform for e-commerce, used by 20,000+ merchants including Dr. Axe and Bulletproof. Its AI features include churn prediction models, smart dunning management, and personalised subscription offers that reduce cancellations and grow recurring revenue.",
+  "description": "Recharge is the leading subscription management platform for e-commerce, used by 20,000+ merchants including Dr. Axe and Bulletproof. Its AI features include churn prediction models, smart dunning management, and personalised subscription offers that reduce cancellations and grow recurring revenue.",
+  "url": "https://rechargepayments.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=rechargepayments.com&sz=64",
+  "screenshot_url": "/screenshots/recharge-ai.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "ecommerce",
+    "business",
+    "marketing",
+    "retail",
+    "shopping",
+    "online_store",
+    "product_catalog",
+    "checkout",
+    "conversions",
+    "customizable",
+    "model_based"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 80,
+  "subcategory": "ecommerce",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

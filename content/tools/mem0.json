@@ -1,0 +1,31 @@
+{
+  "slug": "mem0",
+  "name": "Mem0",
+  "tagline": "Mem0 is an open-source memory framework that adds persistent, adaptive memory to LLM-powered applications and agents. It stores and retrieves user preferences, conversation history, and facts across sessions, enabling AI assistants to remember context over long time horizons.",
+  "description": "Mem0 is an open-source memory framework that adds persistent, adaptive memory to LLM-powered applications and agents. It stores and retrieves user preferences, conversation history, and facts across sessions, enabling AI assistants to remember context over long time horizons.",
+  "url": "https://mem0.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=mem0.ai&sz=64",
+  "screenshot_url": "/screenshots/mem0.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "open_source",
+    "model_based",
+    "community_driven"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 75,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

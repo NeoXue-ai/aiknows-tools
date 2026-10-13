@@ -1,0 +1,29 @@
+{
+  "slug": "spectora",
+  "name": "Spectora",
+  "tagline": "Spectora turns a home inspector's photos and voice notes into a formatted report, using AI to help write defect summaries and suggest repair language. Inspectors use it to cut report writing time and deliver a polished PDF to clients the same day.",
+  "description": "Spectora turns a home inspector's photos and voice notes into a formatted report, using AI to help write defect summaries and suggest repair language. Inspectors use it to cut report writing time and deliver a polished PDF to clients the same day.",
+  "url": "https://spectora.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=spectora.com&sz=64",
+  "screenshot_url": "/screenshots/spectora.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "document_ai",
+    "pdf",
+    "productivity",
+    "extraction",
+    "documents",
+    "ocr",
+    "summarization",
+    "document_processing",
+    "parsing",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 84,
+  "subcategory": "ai-pdf",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

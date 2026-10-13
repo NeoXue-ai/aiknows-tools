@@ -1,0 +1,30 @@
+{
+  "slug": "hootsuite-social",
+  "name": "Hootsuite",
+  "tagline": "Hootsuite is a social media management platform that lets teams schedule content, monitor brand mentions, and analyse performance across all major social networks from one dashboard. Its AI-powered OwlyWriter generates captions and post ideas on demand, and bulk scheduling lets teams plan an entire month of content in an hour. It's the choice of enterprise brands managing multiple accounts and markets.",
+  "description": "Hootsuite is a social media management platform that lets teams schedule content, monitor brand mentions, and analyse performance across all major social networks from one dashboard. Its AI-powered OwlyWriter generates captions and post ideas on demand, and bulk scheduling lets teams plan an entire month of content in an hour. It's the choice of enterprise brands managing multiple accounts and markets.",
+  "url": "https://hootsuite.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=hootsuite.com&sz=64",
+  "screenshot_url": "/screenshots/hootsuite-social.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "social_media",
+    "marketing",
+    "content_creation",
+    "engagement",
+    "posting",
+    "scheduling",
+    "analytics",
+    "audience",
+    "platform",
+    "collaboration",
+    "enterprise"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 91,
+  "subcategory": "social-media",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

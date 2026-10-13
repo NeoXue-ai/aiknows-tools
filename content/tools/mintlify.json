@@ -1,0 +1,31 @@
+{
+  "slug": "mintlify",
+  "name": "Mintlify",
+  "tagline": "Mintlify is a documentation platform for developer products that uses AI to help write and maintain docs. Its Writer extension auto-generates docstrings from code context in any IDE, while its hosted docs platform supports MDX, API references, and versioning. Fast-growing API companies use it for beautiful, accurate documentation.",
+  "description": "Mintlify is a documentation platform for developer products that uses AI to help write and maintain docs. Its Writer extension auto-generates docstrings from code context in any IDE, while its hosted docs platform supports MDX, API references, and versioning. Fast-growing API companies use it for beautiful, accurate documentation.",
+  "url": "https://mintlify.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=mintlify.com&sz=64",
+  "screenshot_url": "/screenshots/mintlify.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "api_available",
+    "fast",
+    "extensible"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 91,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

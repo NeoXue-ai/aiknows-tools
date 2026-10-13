@@ -1,0 +1,30 @@
+{
+  "slug": "glassbox",
+  "name": "Glassbox",
+  "tagline": "Glassbox is a digital experience analytics platform that records session replays and generates heatmaps to show how users actually behave on websites and apps. Product and UX teams use it to find where customers drop off, struggle, or encounter errors, then prioritize fixes based on real usage data. AI surfaces patterns across thousands of sessions so analysts do not need to watch recordings manually.",
+  "description": "Glassbox is a digital experience analytics platform that records session replays and generates heatmaps to show how users actually behave on websites and apps. Product and UX teams use it to find where customers drop off, struggle, or encounter errors, then prioritize fixes based on real usage data. AI surfaces patterns across thousands of sessions so analysts do not need to watch recordings manually.",
+  "url": "https://glassbox.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=glassbox.com&sz=64",
+  "screenshot_url": "/screenshots/glassbox.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "market_research",
+    "business",
+    "analytics",
+    "consumer",
+    "insights",
+    "surveys",
+    "competitive_analysis",
+    "trends",
+    "intelligence",
+    "collaboration",
+    "customizable"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 75,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

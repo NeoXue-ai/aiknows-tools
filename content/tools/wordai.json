@@ -1,0 +1,29 @@
+{
+  "slug": "wordai",
+  "name": "WordAI",
+  "tagline": "WordAI is an AI article rewriter that rewrites existing content at the sentence and paragraph level to produce unique, human-quality variations. It understands meaning and rewrites with context rather than simple synonym substitution. Content agencies use it to create multiple versions of articles for different audiences or markets.",
+  "description": "WordAI is an AI article rewriter that rewrites existing content at the sentence and paragraph level to produce unique, human-quality variations. It understands meaning and rewrites with context rather than simple synonym substitution. Content agencies use it to create multiple versions of articles for different audiences or markets.",
+  "url": "https://wordai.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=wordai.com&sz=64",
+  "screenshot_url": "/screenshots/wordai.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "writing",
+    "text_generation",
+    "productivity",
+    "content",
+    "editing",
+    "grammar",
+    "paraphrasing",
+    "ai_writing",
+    "drafting",
+    "easy_to_use"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 66,
+  "subcategory": "ai-writer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "capacities",
+  "name": "Capacities",
+  "tagline": "Capacities is a personal knowledge management tool built around object types — notes, books, people, projects — rather than pages and folders, creating a richer, more structured knowledge graph. Its AI assistant writes, summarises, and generates connections between your objects. Researchers, writers, and students use Capacities to build a living knowledge base that goes beyond flat note-taking.",
+  "description": "Capacities is a personal knowledge management tool built around object types — notes, books, people, projects — rather than pages and folders, creating a richer, more structured knowledge graph. Its AI assistant writes, summarises, and generates connections between your objects. Researchers, writers, and students use Capacities to build a living knowledge base that goes beyond flat note-taking.",
+  "url": "https://capacities.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=capacities.io&sz=64",
+  "screenshot_url": "/screenshots/capacities.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "knowledge_base",
+    "productivity",
+    "note_taking",
+    "organization",
+    "information",
+    "second_brain",
+    "wiki",
+    "search",
+    "retrieval"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 62,
+  "subcategory": "ai-assistant",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

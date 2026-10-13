@@ -1,0 +1,27 @@
+{
+  "slug": "storychief",
+  "name": "StoryChief",
+  "tagline": "StoryChief is a content marketing platform that helps teams plan, create, collaborate on, and distribute content across multiple channels from a single workspace. Content teams use it to manage editorial calendars, write with AI assistance, run approval workflows, and publish to blogs, social media, and email newsletters without switching between tools. Its analytics track how content performs across channels so teams can see what is driving traffic and engagement without stitching together reports from separate platforms.",
+  "description": "StoryChief is a content marketing platform that helps teams plan, create, collaborate on, and distribute content across multiple channels from a single workspace. Content teams use it to manage editorial calendars, write with AI assistance, run approval workflows, and publish to blogs, social media, and email newsletters without switching between tools. Its analytics track how content performs across channels so teams can see what is driving traffic and engagement without stitching together reports from separate platforms.",
+  "url": "https://storychief.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=storychief.io&sz=64",
+  "screenshot_url": "/screenshots/storychief.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "collaboration",
+    "analytics",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool",
+    "service",
+    "solution"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 74,
+  "subcategory": "ai-content-creator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

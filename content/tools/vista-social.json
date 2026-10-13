@@ -1,0 +1,28 @@
+{
+  "slug": "vista-social",
+  "name": "Vista Social",
+  "tagline": "Vista Social is a comprehensive social media management platform for agencies and brands, offering scheduling, content libraries, and analytics across major social networks. Its AI assistant helps generate captions and post ideas, while white-label reporting tools support client management.",
+  "description": "Vista Social is a comprehensive social media management platform for agencies and brands, offering scheduling, content libraries, and analytics across major social networks. Its AI assistant helps generate captions and post ideas, while white-label reporting tools support client management.",
+  "url": "https://vistasocial.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=vistasocial.com&sz=64",
+  "screenshot_url": "/screenshots/vista-social.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "social_media",
+    "marketing",
+    "content_creation",
+    "engagement",
+    "posting",
+    "scheduling",
+    "analytics",
+    "audience",
+    "platform"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "social-media",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

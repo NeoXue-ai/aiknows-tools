@@ -1,0 +1,31 @@
+{
+  "slug": "cohere",
+  "name": "Cohere",
+  "tagline": "Cohere is an enterprise AI company offering large language models — Command R+ for reasoning and generation, Embed for semantic search, and Rerank for retrieval — optimised for deployment in private cloud and on-premises environments. Unlike OpenAI and Anthropic, Cohere's business model focuses exclusively on enterprise B2B use cases with strong data privacy guarantees and SLA commitments. Fortune 500 companies use Cohere's models when they need enterprise-grade LLM capabilities without sending data to a consumer AI provider.",
+  "description": "Cohere is an enterprise AI company offering large language models — Command R+ for reasoning and generation, Embed for semantic search, and Rerank for retrieval — optimised for deployment in private cloud and on-premises environments. Unlike OpenAI and Anthropic, Cohere's business model focuses exclusively on enterprise B2B use cases with strong data privacy guarantees and SLA commitments. Fortune 500 companies use Cohere's models when they need enterprise-grade LLM capabilities without sending data to a consumer AI provider.",
+  "url": "https://cohere.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=cohere.com&sz=64",
+  "screenshot_url": "/screenshots/cohere.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "llm",
+    "foundation_model",
+    "ai_model",
+    "machine_learning",
+    "neural",
+    "inference",
+    "fine_tuning",
+    "api",
+    "open_source",
+    "enterprise",
+    "cloud_based",
+    "secure"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 82,
+  "subcategory": "ai-models",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

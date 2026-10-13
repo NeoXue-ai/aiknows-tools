@@ -1,0 +1,29 @@
+{
+  "slug": "pieces-for-developers",
+  "name": "Pieces for Developers",
+  "tagline": "Pieces is an AI-enhanced developer productivity tool that acts as a long-term memory layer for your coding workflow. It automatically captures code snippets, terminal commands, screenshots, and files from any app, enriches them with AI-generated context and tags, and makes them instantly searchable and reusable. Its Pieces Copilot connects to your local snippet library, IDE history, and connected repositories to answer questions with direct references to your own past work. Developers use it to stop re-solving problems they have already solved.",
+  "description": "Pieces is an AI-enhanced developer productivity tool that acts as a long-term memory layer for your coding workflow. It automatically captures code snippets, terminal commands, screenshots, and files from any app, enriches them with AI-generated context and tags, and makes them instantly searchable and reusable. Its Pieces Copilot connects to your local snippet library, IDE history, and connected repositories to answer questions with direct references to your own past work. Developers use it to stop re-solving problems they have already solved.",
+  "url": "https://pieces.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=pieces.app&sz=64",
+  "screenshot_url": "/screenshots/pieces-for-developers.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "fast"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 67,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "meta-muse-code",
+  "name": "Muse Code",
+  "tagline": "Muse Code is Meta's first AI coding agent, a terminal tool that plans, writes, and tests changes across large codebases instead of working file by file. Mark Zuckerberg announced it in beta on August 5, 2026 alongside an updated Muse Spark 1.2 model, putting it up against Claude Code, Cursor, and Devin for full software engineering tasks rather than autocomplete.",
+  "description": "Muse Code is Meta's first AI coding agent, a terminal tool that plans, writes, and tests changes across large codebases instead of working file by file. Mark Zuckerberg announced it in beta on August 5, 2026 alongside an updated Muse Spark 1.2 model, putting it up against Claude Code, Cursor, and Devin for full software engineering tasks rather than autocomplete.",
+  "url": "https://ai.meta.com/muse",
+  "logo_url": "https://www.google.com/s2/favicons?domain=ai.meta.com&sz=64",
+  "screenshot_url": "/screenshots/meta-muse-code.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "code_generation",
+    "developer_tools",
+    "productivity",
+    "coding",
+    "programming",
+    "autocomplete",
+    "debugging",
+    "refactoring",
+    "ide",
+    "model_based"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 91,
+  "subcategory": "ai-code-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

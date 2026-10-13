@@ -1,0 +1,27 @@
+{
+  "slug": "gitbook",
+  "name": "GitBook",
+  "tagline": "GitBook is a documentation platform for teams to write, organize, and publish technical knowledge with AI-assisted writing and search. Engineering and product teams use it to create internal wikis, API references, and public-facing documentation in a format that is easy to navigate and search. Its AI can answer questions directly from the documentation content, and it syncs with GitHub so docs can be edited either in GitBook or as markdown files in the repository.",
+  "description": "GitBook is a documentation platform for teams to write, organize, and publish technical knowledge with AI-assisted writing and search. Engineering and product teams use it to create internal wikis, API references, and public-facing documentation in a format that is easy to navigate and search. Its AI can answer questions directly from the documentation content, and it syncs with GitHub so docs can be edited either in GitBook or as markdown files in the repository.",
+  "url": "https://gitbook.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=gitbook.com&sz=64",
+  "screenshot_url": "/screenshots/gitbook.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "api_available",
+    "collaboration",
+    "easy_to_use",
+    "community_driven",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 92,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

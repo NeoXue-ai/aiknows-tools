@@ -1,0 +1,31 @@
+{
+  "slug": "ada",
+  "name": "Ada",
+  "tagline": "Ada is an AI-powered customer service automation platform that helps businesses deflect support tickets at scale. Its no-code chatbot builder lets teams create intelligent conversational flows without engineering resources. Ada integrates with major CRMs and helpdesks, resolving a large majority of enquiries automatically.",
+  "description": "Ada is an AI-powered customer service automation platform that helps businesses deflect support tickets at scale. Its no-code chatbot builder lets teams create intelligent conversational flows without engineering resources. Ada integrates with major CRMs and helpdesks, resolving a large majority of enquiries automatically.",
+  "url": "https://ada.cx",
+  "logo_url": "https://www.google.com/s2/favicons?domain=ada.cx&sz=64",
+  "screenshot_url": "/screenshots/ada.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "customer_support",
+    "chatbot",
+    "business",
+    "help_desk",
+    "support",
+    "ticketing",
+    "live_chat",
+    "service",
+    "resolution",
+    "collaboration",
+    "customizable",
+    "integrations"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 76,
+  "subcategory": "customer-support",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

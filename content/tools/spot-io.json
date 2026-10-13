@@ -1,0 +1,27 @@
+{
+  "slug": "spot-io",
+  "name": "Spot.io",
+  "tagline": "Spot.io by NetApp is a cloud infrastructure optimization platform that cuts compute costs by automatically using spot and preemptible instances where workloads can tolerate interruption. DevOps and cloud engineering teams use it to run stateless applications, batch jobs, and Kubernetes clusters on spot capacity with automated fallback to on-demand when capacity is unavailable. It also provides rightsizing recommendations and reserved instance management to reduce costs across persistent workloads.",
+  "description": "Spot.io by NetApp is a cloud infrastructure optimization platform that cuts compute costs by automatically using spot and preemptible instances where workloads can tolerate interruption. DevOps and cloud engineering teams use it to run stateless applications, batch jobs, and Kubernetes clusters on spot capacity with automated fallback to on-demand when capacity is unavailable. It also provides rightsizing recommendations and reserved instance management to reduce costs across persistent workloads.",
+  "url": "https://spot.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=spot.io&sz=64",
+  "screenshot_url": "/screenshots/spot-io.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "collaboration",
+    "cloud_based",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool",
+    "service",
+    "solution"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 72,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

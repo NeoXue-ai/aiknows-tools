@@ -1,0 +1,31 @@
+{
+  "slug": "botkeeper",
+  "name": "Botkeeper",
+  "tagline": "Botkeeper uses AI and machine learning to automate bookkeeping tasks for accounting firms, including transaction categorisation, bank reconciliation, and month-end close. It integrates with QuickBooks, Xero, and major banking systems, allowing accounting firms to scale their bookkeeping capacity without hiring.",
+  "description": "Botkeeper uses AI and machine learning to automate bookkeeping tasks for accounting firms, including transaction categorisation, bank reconciliation, and month-end close. It integrates with QuickBooks, Xero, and major banking systems, allowing accounting firms to scale their bookkeeping capacity without hiring.",
+  "url": "https://botkeeper.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=botkeeper.com&sz=64",
+  "screenshot_url": "/screenshots/botkeeper.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "finance",
+    "business",
+    "analytics",
+    "accounting",
+    "investment",
+    "financial_planning",
+    "budgeting",
+    "fintech",
+    "reporting",
+    "integrations",
+    "machine_learning",
+    "fast"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 57,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

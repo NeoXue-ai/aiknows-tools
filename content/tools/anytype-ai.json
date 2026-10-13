@@ -1,0 +1,31 @@
+{
+  "slug": "anytype-ai",
+  "name": "Anytype",
+  "tagline": "Anytype is a local-first knowledge management and productivity tool that stores data encrypted on your device rather than in the cloud. It combines notes, tasks, databases, and wikis in a flexible block editor with AI features including AI writing assistance and semantic search. Designed as a privacy-respecting alternative to Notion.",
+  "description": "Anytype is a local-first knowledge management and productivity tool that stores data encrypted on your device rather than in the cloud. It combines notes, tasks, databases, and wikis in a flexible block editor with AI features including AI writing assistance and semantic search. Designed as a privacy-respecting alternative to Notion.",
+  "url": "https://anytype.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=anytype.io&sz=64",
+  "screenshot_url": "/screenshots/anytype-ai.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "knowledge_base",
+    "productivity",
+    "note_taking",
+    "organization",
+    "information",
+    "second_brain",
+    "wiki",
+    "search",
+    "retrieval",
+    "cloud_based",
+    "secure",
+    "versatile"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 68,
+  "subcategory": "ai-assistant",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

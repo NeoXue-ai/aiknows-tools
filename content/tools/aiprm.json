@@ -1,0 +1,30 @@
+{
+  "slug": "aiprm",
+  "name": "AIPRM",
+  "tagline": "AIPRM is a prompt management platform with a large community-curated library of prompts for SEO, marketing, coding, and other use cases. It runs as a Chrome extension that adds a prompt browser directly inside ChatGPT, so users can search and run proven prompts without copying and pasting. Teams can also save private prompt collections and share them across an organization.",
+  "description": "AIPRM is a prompt management platform with a large community-curated library of prompts for SEO, marketing, coding, and other use cases. It runs as a Chrome extension that adds a prompt browser directly inside ChatGPT, so users can search and run proven prompts without copying and pasting. Teams can also save private prompt collections and share them across an organization.",
+  "url": "https://aiprm.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=aiprm.com&sz=64",
+  "screenshot_url": "/screenshots/aiprm.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "productivity",
+    "ai_assistant",
+    "efficiency",
+    "workflow",
+    "organization",
+    "tasks",
+    "focus",
+    "time_management",
+    "collaboration",
+    "browser_extension",
+    "extensible"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 74,
+  "subcategory": "productivity-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

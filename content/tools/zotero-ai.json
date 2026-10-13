@@ -1,0 +1,31 @@
+{
+  "slug": "zotero-ai",
+  "name": "Zotero",
+  "tagline": "Zotero is a free, open-source reference management tool that helps researchers collect, organise, cite, and share research sources. Its AI features include automatic metadata extraction from PDFs and web pages, duplicate detection, and a growing ecosystem of plugins for AI-powered literature analysis and paper discovery.",
+  "description": "Zotero is a free, open-source reference management tool that helps researchers collect, organise, cite, and share research sources. Its AI features include automatic metadata extraction from PDFs and web pages, duplicate detection, and a growing ecosystem of plugins for AI-powered literature analysis and paper discovery.",
+  "url": "https://zotero.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=zotero.org&sz=64",
+  "screenshot_url": "/screenshots/zotero-ai.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "research",
+    "analytics",
+    "academic",
+    "studies",
+    "investigation",
+    "literature_review",
+    "citations",
+    "discovery",
+    "synthesis",
+    "open_source",
+    "free_tier",
+    "community_driven"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 85,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

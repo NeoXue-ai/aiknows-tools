@@ -1,0 +1,29 @@
+{
+  "slug": "magnific-ai",
+  "name": "Magnific AI",
+  "tagline": "Magnific AI is an AI-powered image upscaler that dramatically enhances image resolution while adding realistic detail guided by text prompts. Unlike standard upscalers, it can hallucinate new textures and details, making it popular among digital artists for creative enhancement.",
+  "description": "Magnific AI is an AI-powered image upscaler that dramatically enhances image resolution while adding realistic detail guided by text prompts. Unlike standard upscalers, it can hallucinate new textures and details, making it popular among digital artists for creative enhancement.",
+  "url": "https://magnific.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=magnific.ai&sz=64",
+  "screenshot_url": "/screenshots/magnific-ai.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "image_editing",
+    "design",
+    "creative",
+    "photo",
+    "visual",
+    "retouching",
+    "filters",
+    "enhancement",
+    "manipulation",
+    "image_based"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 72,
+  "subcategory": "ai-photo-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

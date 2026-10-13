@@ -1,0 +1,28 @@
+{
+  "slug": "noterro",
+  "name": "Noterro",
+  "tagline": "Noterro is a practice management platform for massage therapists, physiotherapists, and other manual-therapy clinics. It generates SOAP notes from a short set of prompts, handles online booking and intake forms, and processes payments, cutting into the paper charting that used to eat up appointment time.",
+  "description": "Noterro is a practice management platform for massage therapists, physiotherapists, and other manual-therapy clinics. It generates SOAP notes from a short set of prompts, handles online booking and intake forms, and processes payments, cutting into the paper charting that used to eat up appointment time.",
+  "url": "https://noterro.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=noterro.com&sz=64",
+  "screenshot_url": "/screenshots/noterro.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "business",
+    "productivity",
+    "enterprise",
+    "operations",
+    "management",
+    "documents",
+    "contracts",
+    "proposals",
+    "workflow"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 81,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

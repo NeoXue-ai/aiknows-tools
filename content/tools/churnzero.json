@@ -1,0 +1,31 @@
+{
+  "slug": "churnzero",
+  "name": "ChurnZero",
+  "tagline": "ChurnZero is a customer success platform for SaaS companies that uses AI to predict churn, score account health, and automate engagement tasks. Customer success teams use it to track product usage alongside support and CRM data, trigger playbooks when accounts show warning signs, and surface which customers are candidates for expansion. It integrates with Salesforce, HubSpot, and major CRM systems.",
+  "description": "ChurnZero is a customer success platform for SaaS companies that uses AI to predict churn, score account health, and automate engagement tasks. Customer success teams use it to track product usage alongside support and CRM data, trigger playbooks when accounts show warning signs, and surface which customers are candidates for expansion. It integrates with Salesforce, HubSpot, and major CRM systems.",
+  "url": "https://churnzero.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=churnzero.com&sz=64",
+  "screenshot_url": "/screenshots/churnzero.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "customer_support",
+    "chatbot",
+    "business",
+    "help_desk",
+    "support",
+    "ticketing",
+    "live_chat",
+    "service",
+    "resolution",
+    "collaboration",
+    "customizable",
+    "integrations"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 74,
+  "subcategory": "customer-support",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

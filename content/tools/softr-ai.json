@@ -1,0 +1,30 @@
+{
+  "slug": "softr-ai",
+  "name": "Softr",
+  "tagline": "Softr lets anyone build web apps, portals, and internal tools from Airtable or Google Sheets data without coding. Its AI app builder generates a working app from a text description in seconds. Businesses use it to build customer portals, directories, job boards, and CRM dashboards.",
+  "description": "Softr lets anyone build web apps, portals, and internal tools from Airtable or Google Sheets data without coding. Its AI app builder generates a working app from a text description in seconds. Businesses use it to build customer portals, directories, job boards, and CRM dashboards.",
+  "url": "https://softr.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=softr.io&sz=64",
+  "screenshot_url": "/screenshots/softr-ai.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "no_code",
+    "app_builder",
+    "developer_tools",
+    "app_development",
+    "lowcode",
+    "rapid_prototyping",
+    "mobile_apps",
+    "web_apps",
+    "deployment",
+    "customizable",
+    "analytics"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 84,
+  "subcategory": "ai-app-builder",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

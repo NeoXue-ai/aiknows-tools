@@ -1,0 +1,31 @@
+{
+  "slug": "activepieces",
+  "name": "Activepieces",
+  "tagline": "Activepieces is an open-source workflow automation platform that connects apps and automates tasks through a visual flow builder, with the option to self-host for complete data control. It supports 200+ integrations and allows teams to mix no-code steps with custom JavaScript or Python nodes for complex logic. Teams with privacy requirements or who want to avoid per-task Zapier pricing use Activepieces as a self-hosted automation backbone.",
+  "description": "Activepieces is an open-source workflow automation platform that connects apps and automates tasks through a visual flow builder, with the option to self-host for complete data control. It supports 200+ integrations and allows teams to mix no-code steps with custom JavaScript or Python nodes for complex logic. Teams with privacy requirements or who want to avoid per-task Zapier pricing use Activepieces as a self-hosted automation backbone.",
+  "url": "https://activepieces.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=activepieces.com&sz=64",
+  "screenshot_url": "/screenshots/activepieces.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "automation",
+    "workflow",
+    "productivity",
+    "repetitive_tasks",
+    "efficiency",
+    "process_automation",
+    "triggers",
+    "scheduling",
+    "bots",
+    "open_source",
+    "collaboration",
+    "customizable"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "automation",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

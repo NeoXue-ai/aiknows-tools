@@ -1,0 +1,31 @@
+{
+  "slug": "cerebras",
+  "name": "Cerebras",
+  "tagline": "Cerebras builds the world's largest AI chips — wafer-scale processors the size of a dinner plate — and uses them to deliver inference speeds up to 2,000+ tokens per second, making it the fastest publicly available AI inference platform. Its cloud service runs Llama and other open models at speeds that enable real-time applications previously impossible with GPU-based systems. Enterprises with ultra-low-latency requirements for voice AI, trading, and real-time analysis are its primary customers, and its inference API is available to developers.",
+  "description": "Cerebras builds the world's largest AI chips — wafer-scale processors the size of a dinner plate — and uses them to deliver inference speeds up to 2,000+ tokens per second, making it the fastest publicly available AI inference platform. Its cloud service runs Llama and other open models at speeds that enable real-time applications previously impossible with GPU-based systems. Enterprises with ultra-low-latency requirements for voice AI, trading, and real-time analysis are its primary customers, and its inference API is available to developers.",
+  "url": "https://cerebras.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=cerebras.ai&sz=64",
+  "screenshot_url": "/screenshots/cerebras.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "api_available",
+    "real_time",
+    "enterprise"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 79,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

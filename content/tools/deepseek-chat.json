@@ -1,0 +1,29 @@
+{
+  "slug": "deepseek-chat",
+  "name": "DeepSeek Chat",
+  "tagline": "DeepSeek Chat is DeepSeek's web-based AI assistant for answering questions, reasoning through problems, and helping with coding and writing. It provides conversational access to DeepSeek models through a consumer chat interface.",
+  "description": "DeepSeek Chat is DeepSeek's web-based AI assistant for answering questions, reasoning through problems, and helping with coding and writing. It provides conversational access to DeepSeek models through a consumer chat interface.",
+  "url": "https://chat.deepseek.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=chat.deepseek.com&sz=64",
+  "screenshot_url": "/screenshots/deepseek-chat.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "chatbot",
+    "text_generation",
+    "ai_assistant",
+    "conversational",
+    "nlp",
+    "dialogue",
+    "llm",
+    "general_ai",
+    "question_answering",
+    "model_based"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 90,
+  "subcategory": "ai-chatbot",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

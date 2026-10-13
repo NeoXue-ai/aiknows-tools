@@ -1,0 +1,29 @@
+{
+  "slug": "nintex",
+  "name": "Nintex",
+  "tagline": "Nintex is an enterprise process automation platform that combines workflow automation, document generation, and process mapping into one suite. Its AI-powered process discovery tool analyses how employees actually work and identifies automation opportunities across the organisation. Large enterprises in financial services, healthcare, and government use Nintex to standardise and accelerate complex, document-heavy processes.",
+  "description": "Nintex is an enterprise process automation platform that combines workflow automation, document generation, and process mapping into one suite. Its AI-powered process discovery tool analyses how employees actually work and identifies automation opportunities across the organisation. Large enterprises in financial services, healthcare, and government use Nintex to standardise and accelerate complex, document-heavy processes.",
+  "url": "https://nintex.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=nintex.com&sz=64",
+  "screenshot_url": "/screenshots/nintex.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "automation",
+    "workflow",
+    "productivity",
+    "efficiency",
+    "process",
+    "integration",
+    "triggers",
+    "bots",
+    "orchestration",
+    "enterprise"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 77,
+  "subcategory": "ai-workflow",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

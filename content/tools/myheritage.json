@@ -1,0 +1,28 @@
+{
+  "slug": "myheritage",
+  "name": "MyHeritage",
+  "tagline": "MyHeritage builds family trees and matches them against billions of historical records, with AI tools that colorize and animate old photos and search archival documents automatically.",
+  "description": "MyHeritage builds family trees and matches them against billions of historical records, with AI tools that colorize and animate old photos and search archival documents automatically.",
+  "url": "https://myheritage.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=myheritage.com&sz=64",
+  "screenshot_url": "/screenshots/myheritage.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "research",
+    "analytics",
+    "academic",
+    "studies",
+    "investigation",
+    "literature_review",
+    "citations",
+    "discovery",
+    "synthesis"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 81,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

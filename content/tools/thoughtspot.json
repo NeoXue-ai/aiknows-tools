@@ -1,21 +1,29 @@
 {
   "slug": "thoughtspot",
   "name": "ThoughtSpot",
-  "tagline": "AI analytics for everyone",
-  "description": "Natural-language search and AI-powered insights on your data.",
+  "tagline": "ThoughtSpot is an AI-driven business intelligence platform that lets anyone query data by typing questions in plain English. Its Spotter AI agent generates charts, dashboards, and insights automatically. It connects to Snowflake, BigQuery, Redshift, and other cloud warehouses, making self-service analytics accessible to non-technical users.",
+  "description": "ThoughtSpot is an AI-driven business intelligence platform that lets anyone query data by typing questions in plain English. Its Spotter AI agent generates charts, dashboards, and insights automatically. It connects to Snowflake, BigQuery, Redshift, and other cloud warehouses, making self-service analytics accessible to non-technical users.",
   "url": "https://thoughtspot.com",
   "logo_url": "https://www.google.com/s2/favicons?domain=thoughtspot.com&sz=64",
   "screenshot_url": "/screenshots/thoughtspot.webp",
-  "primary_category": "business-analytics",
+  "primary_category": "research-data",
   "tags": [
-    "bi",
-    "search"
+    "data_analysis",
+    "analytics",
+    "business",
+    "insights",
+    "visualization",
+    "data_science",
+    "reporting",
+    "dashboards",
+    "sql",
+    "cloud_based"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
-  "subcategory": "ai-analytics",
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 78,
+  "subcategory": "ai-research",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

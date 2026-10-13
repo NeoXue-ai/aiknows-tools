@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { siteName, siteDescription } from "@/lib/site";
 
 /**
  * PWA web app manifest. Next.js will serve this at /manifest.webmanifest
@@ -8,10 +9,9 @@ import type { MetadataRoute } from "next";
  */
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "aiknows.tools — AI Tools & Directories for SaaS Builders",
-    short_name: "aiknows",
-    description:
-      "Curated AI tools and AI directories for SaaS builders. Discover products, find directories, grow your SaaS.",
+    name: `${siteName} — AI Tools Directory`,
+    short_name: siteName,
+    description: siteDescription,
     start_url: "/",
     display: "standalone",
     orientation: "portrait",

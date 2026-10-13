@@ -1,0 +1,29 @@
+{
+  "slug": "clari-ai",
+  "name": "Clari",
+  "tagline": "Clari is an AI-powered revenue operations platform that analyses CRM data, activity signals, and conversation intelligence to provide accurate sales forecasts. Its AI identifies at-risk deals, prioritises accounts, and automates pipeline inspection. Enterprise sales organisations use it to reduce forecasting variance and increase win rates.",
+  "description": "Clari is an AI-powered revenue operations platform that analyses CRM data, activity signals, and conversation intelligence to provide accurate sales forecasts. Its AI identifies at-risk deals, prioritises accounts, and automates pipeline inspection. Enterprise sales organisations use it to reduce forecasting variance and increase win rates.",
+  "url": "https://clari.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=clari.com&sz=64",
+  "screenshot_url": "/screenshots/clari-ai.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "sales",
+    "business",
+    "crm",
+    "revenue",
+    "conversion",
+    "pipeline",
+    "prospecting",
+    "closing",
+    "forecasting",
+    "enterprise"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 77,
+  "subcategory": "sales",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

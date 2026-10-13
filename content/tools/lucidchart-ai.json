@@ -1,0 +1,31 @@
+{
+  "slug": "lucidchart-ai",
+  "name": "Lucidchart AI",
+  "tagline": "Lucidchart is a diagramming tool used to create flowcharts, org charts, network diagrams, and UML diagrams. Its AI features include AI-generated diagrams from text descriptions, automatic layout optimisation, and an AI assistant that answers questions about diagram content. Teams use it to document processes and systems visually.",
+  "description": "Lucidchart is a diagramming tool used to create flowcharts, org charts, network diagrams, and UML diagrams. Its AI features include AI-generated diagrams from text descriptions, automatic layout optimisation, and an AI assistant that answers questions about diagram content. Teams use it to document processes and systems visually.",
+  "url": "https://lucidchart.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=lucidchart.com&sz=64",
+  "screenshot_url": "/screenshots/lucidchart-ai.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "design",
+    "image_editing",
+    "creative",
+    "visual",
+    "branding",
+    "typography",
+    "layouts",
+    "ui_design",
+    "illustration",
+    "collaboration",
+    "machine_learning",
+    "image_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 83,
+  "subcategory": "ai-graphic-design",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "tldv",
+  "name": "tl;dv",
+  "tagline": "tl;dv (too long; didn't view) records, transcribes, and summarises meetings on Zoom, Google Meet, and Microsoft Teams. Its AI automatically identifies key moments, action items, and decisions, creating a searchable archive of everything discussed. Sales teams use it to review calls and coach reps, while product teams use it to capture customer interviews. Its clip-sharing feature lets anyone share the exact moment from a meeting that matters, eliminating the need to watch full recordings.",
+  "description": "tl;dv (too long; didn't view) records, transcribes, and summarises meetings on Zoom, Google Meet, and Microsoft Teams. Its AI automatically identifies key moments, action items, and decisions, creating a searchable archive of everything discussed. Sales teams use it to review calls and coach reps, while product teams use it to capture customer interviews. Its clip-sharing feature lets anyone share the exact moment from a meeting that matters, eliminating the need to watch full recordings.",
+  "url": "https://tldv.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=tldv.io&sz=64",
+  "screenshot_url": "/screenshots/tldv.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "meeting",
+    "productivity",
+    "transcription",
+    "collaboration",
+    "notes",
+    "summaries",
+    "action_items",
+    "video_calls",
+    "recap",
+    "customizable"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 76,
+  "subcategory": "ai-note-taker",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

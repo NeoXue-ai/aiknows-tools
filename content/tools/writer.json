@@ -1,0 +1,31 @@
+{
+  "slug": "writer",
+  "name": "Writer",
+  "tagline": "Writer is an enterprise AI writing platform that lets teams generate, edit, and publish content while staying within brand and style guidelines. Marketing, support, and legal teams use it to produce copy that passes compliance review without endless manual edits. It is trained on company-specific knowledge bases and enforces terminology, tone, and messaging rules across every output.",
+  "description": "Writer is an enterprise AI writing platform that lets teams generate, edit, and publish content while staying within brand and style guidelines. Marketing, support, and legal teams use it to produce copy that passes compliance review without endless manual edits. It is trained on company-specific knowledge bases and enforces terminology, tone, and messaging rules across every output.",
+  "url": "https://writer.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=writer.com&sz=64",
+  "screenshot_url": "/screenshots/writer.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "writing",
+    "text_generation",
+    "productivity",
+    "content",
+    "editing",
+    "grammar",
+    "paraphrasing",
+    "ai_writing",
+    "drafting",
+    "collaboration",
+    "enterprise",
+    "training"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 81,
+  "subcategory": "ai-writer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

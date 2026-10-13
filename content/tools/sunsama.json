@@ -1,0 +1,29 @@
+{
+  "slug": "sunsama",
+  "name": "Sunsama",
+  "tagline": "Sunsama is a daily planning tool that pulls tasks from Asana, Todoist, GitHub, Linear, and other tools into a single daily plan. Its AI suggests how to organise your day based on available time and priorities. It emphasises sustainable work rhythms with time-boxing and end-of-day shutdown rituals.",
+  "description": "Sunsama is a daily planning tool that pulls tasks from Asana, Todoist, GitHub, Linear, and other tools into a single daily plan. Its AI suggests how to organise your day based on available time and priorities. It emphasises sustainable work rhythms with time-boxing and end-of-day shutdown rituals.",
+  "url": "https://sunsama.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=sunsama.com&sz=64",
+  "screenshot_url": "/screenshots/sunsama.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "productivity",
+    "ai_assistant",
+    "efficiency",
+    "workflow",
+    "organization",
+    "tasks",
+    "focus",
+    "time_management",
+    "collaboration",
+    "community_driven"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "productivity-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "zest-ai",
+  "name": "Zest AI",
+  "tagline": "Zest AI builds machine learning underwriting models that help banks and credit unions make lending decisions faster. Its platform explains every automated score in plain language, which helps lenders meet fair-lending compliance rules while approving more borrowers that older scoring models would have turned down. Dozens of regional banks and credit unions use Zest AI to modernize legacy underwriting without replacing their core systems.",
+  "description": "Zest AI builds machine learning underwriting models that help banks and credit unions make lending decisions faster. Its platform explains every automated score in plain language, which helps lenders meet fair-lending compliance rules while approving more borrowers that older scoring models would have turned down. Dozens of regional banks and credit unions use Zest AI to modernize legacy underwriting without replacing their core systems.",
+  "url": "https://zest.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=zest.ai&sz=64",
+  "screenshot_url": "/screenshots/zest-ai.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "machine_learning",
+    "model_based",
+    "fast",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool",
+    "service"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 66,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "dovetail-ai",
+  "name": "Dovetail",
+  "tagline": "Dovetail is a customer insights platform that uses AI to organise and synthesise qualitative research — interviews, survey responses, support tickets, and reviews. Its AI Magic features automatically transcribe, tag, and cluster data into themes, reducing hours of manual analysis to minutes.",
+  "description": "Dovetail is a customer insights platform that uses AI to organise and synthesise qualitative research — interviews, survey responses, support tickets, and reviews. Its AI Magic features automatically transcribe, tag, and cluster data into themes, reducing hours of manual analysis to minutes.",
+  "url": "https://dovetailapp.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=dovetailapp.com&sz=64",
+  "screenshot_url": "/screenshots/dovetail-ai.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "research",
+    "analytics",
+    "academic",
+    "studies",
+    "investigation",
+    "literature_review",
+    "citations",
+    "discovery",
+    "synthesis",
+    "customizable"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 64,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

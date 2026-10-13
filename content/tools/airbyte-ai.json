@@ -1,0 +1,31 @@
+{
+  "slug": "airbyte-ai",
+  "name": "Airbyte",
+  "tagline": "Airbyte is an open-source data integration platform with 300+ pre-built connectors for syncing data from any source to any destination. Its AI assistant helps users build custom connectors from documentation and debug sync failures with natural language explanations.",
+  "description": "Airbyte is an open-source data integration platform with 300+ pre-built connectors for syncing data from any source to any destination. Its AI assistant helps users build custom connectors from documentation and debug sync failures with natural language explanations.",
+  "url": "https://airbyte.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=airbyte.com&sz=64",
+  "screenshot_url": "/screenshots/airbyte-ai.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "data_analysis",
+    "analytics",
+    "business",
+    "insights",
+    "visualization",
+    "data_science",
+    "reporting",
+    "dashboards",
+    "sql",
+    "open_source",
+    "customizable",
+    "integrations"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 78,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

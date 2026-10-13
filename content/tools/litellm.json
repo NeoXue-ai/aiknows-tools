@@ -1,0 +1,31 @@
+{
+  "slug": "litellm",
+  "name": "LiteLLM",
+  "tagline": "LiteLLM is an open-source Python library and proxy server that provides a single, standardized interface for calling over 100 LLM APIs including OpenAI, Anthropic, Google, and open-source models. It handles retries, load balancing, cost tracking, and fallbacks across providers.",
+  "description": "LiteLLM is an open-source Python library and proxy server that provides a single, standardized interface for calling over 100 LLM APIs including OpenAI, Anthropic, Google, and open-source models. It handles retries, load balancing, cost tracking, and fallbacks across providers.",
+  "url": "https://litellm.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=litellm.ai&sz=64",
+  "screenshot_url": "/screenshots/litellm.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "open_source",
+    "model_based",
+    "community_driven"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 80,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

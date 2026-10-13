@@ -1,0 +1,31 @@
+{
+  "slug": "luma-dream-machine",
+  "name": "Luma",
+  "tagline": "Luma Dream Machine is Luma AI's text-to-video and image-to-video model, producing smooth, photorealistic video clips with impressive lighting and motion quality. Unlike Luma's 3D capture products, Dream Machine is a pure video generation model accessible via a simple web interface. Creatives and agencies use it to produce high-quality video concepts and b-roll footage without a camera crew.",
+  "description": "Luma Dream Machine is Luma AI's text-to-video and image-to-video model, producing smooth, photorealistic video clips with impressive lighting and motion quality. Unlike Luma's 3D capture products, Dream Machine is a pure video generation model accessible via a simple web interface. Creatives and agencies use it to produce high-quality video concepts and b-roll footage without a camera crew.",
+  "url": "https://lumalabs.ai/dream-machine",
+  "logo_url": "https://www.google.com/s2/favicons?domain=lumalabs.ai&sz=64",
+  "screenshot_url": "/screenshots/luma-dream-machine.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "video_generation",
+    "creative",
+    "text_to_video",
+    "animation",
+    "production",
+    "ai_video",
+    "generative",
+    "short_form",
+    "clips",
+    "image_based",
+    "model_based",
+    "easy_to_use"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 80,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

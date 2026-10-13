@@ -1,0 +1,29 @@
+{
+  "slug": "quizlet-ai",
+  "name": "Quizlet AI",
+  "tagline": "Quizlet is the world's largest student learning platform with 700 million study sets. Its AI features include Q-Chat (an AI tutor that practises with students), Magic Notes (which auto-generates flashcards from uploaded notes), and personalised study plans that adapt to each student's weak areas.",
+  "description": "Quizlet is the world's largest student learning platform with 700 million study sets. Its AI features include Q-Chat (an AI tutor that practises with students), Magic Notes (which auto-generates flashcards from uploaded notes), and personalised study plans that adapt to each student's weak areas.",
+  "url": "https://quizlet.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=quizlet.com&sz=64",
+  "screenshot_url": "/screenshots/quizlet-ai.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "education",
+    "learning",
+    "teaching",
+    "courses",
+    "training",
+    "tutoring",
+    "study",
+    "assessment",
+    "e_learning",
+    "customizable"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 86,
+  "subcategory": "ai-education",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

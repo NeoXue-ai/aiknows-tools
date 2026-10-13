@@ -1,0 +1,28 @@
+{
+  "slug": "personio-ai",
+  "name": "Personio",
+  "tagline": "Personio is an all-in-one HR software platform designed for small and medium businesses across Europe. Its AI features include automated candidate screening, job description generation, and HR document creation. It covers the full employee lifecycle from recruiting and onboarding to payroll and offboarding.",
+  "description": "Personio is an all-in-one HR software platform designed for small and medium businesses across Europe. Its AI features include automated candidate screening, job description generation, and HR document creation. It covers the full employee lifecycle from recruiting and onboarding to payroll and offboarding.",
+  "url": "https://personio.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=personio.com&sz=64",
+  "screenshot_url": "/screenshots/personio-ai.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "hr",
+    "business",
+    "recruitment",
+    "employees",
+    "human_resources",
+    "onboarding",
+    "performance",
+    "payroll",
+    "talent"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 84,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

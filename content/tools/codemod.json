@@ -1,0 +1,30 @@
+{
+  "slug": "codemod",
+  "name": "Codemod",
+  "tagline": "Codemod is a platform for automating large-scale code migrations, refactoring, and dependency upgrades using AI and community-contributed codemods. Engineering teams use it to update frameworks, adopt breaking API changes, and apply consistent transformations across massive codebases that would take weeks of manual work to edit file by file. The community codemod library means common migrations like React version upgrades or TypeScript adoption often already have a tested transformation available rather than requiring teams to write their own.",
+  "description": "Codemod is a platform for automating large-scale code migrations, refactoring, and dependency upgrades using AI and community-contributed codemods. Engineering teams use it to update frameworks, adopt breaking API changes, and apply consistent transformations across massive codebases that would take weeks of manual work to edit file by file. The community codemod library means common migrations like React version upgrades or TypeScript adoption often already have a tested transformation available rather than requiring teams to write their own.",
+  "url": "https://codemod.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=codemod.com&sz=64",
+  "screenshot_url": "/screenshots/codemod.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "api_available",
+    "collaboration"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 71,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "lexica",
+  "name": "Lexica",
+  "tagline": "Lexica is a search engine and art platform for AI-generated images created with Stable Diffusion. Users can search a vast library of community-generated images and their prompts, or generate their own images using the Aperture model directly on the platform.",
+  "description": "Lexica is a search engine and art platform for AI-generated images created with Stable Diffusion. Users can search a vast library of community-generated images and their prompts, or generate their own images using the Aperture model directly on the platform.",
+  "url": "https://lexica.art",
+  "logo_url": "https://www.google.com/s2/favicons?domain=lexica.art&sz=64",
+  "screenshot_url": "/screenshots/lexica.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "image_generation",
+    "creative",
+    "text_to_image",
+    "visual",
+    "graphics",
+    "generative_ai",
+    "art",
+    "diffusion",
+    "prompting",
+    "image_based",
+    "model_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 74,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

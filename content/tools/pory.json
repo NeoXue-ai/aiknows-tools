@@ -1,0 +1,30 @@
+{
+  "slug": "pory",
+  "name": "Pory",
+  "tagline": "Pory is a no-code platform for building web apps, client portals, and internal tools directly from Airtable, Google Sheets, or Xano databases. It offers a visual editor for creating custom interfaces with filters, search, user authentication, and member-only content.",
+  "description": "Pory is a no-code platform for building web apps, client portals, and internal tools directly from Airtable, Google Sheets, or Xano databases. It offers a visual editor for creating custom interfaces with filters, search, user authentication, and member-only content.",
+  "url": "https://pory.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=pory.io&sz=64",
+  "screenshot_url": "/screenshots/pory.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "no_code",
+    "automation",
+    "app_builder",
+    "lowcode",
+    "visual",
+    "drag_and_drop",
+    "workflow",
+    "builder",
+    "citizen_developer",
+    "customizable",
+    "image_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 69,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

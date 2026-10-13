@@ -1,0 +1,30 @@
+{
+  "slug": "transkribus",
+  "name": "Transkribus",
+  "tagline": "Transkribus trains handwriting recognition models on historical manuscripts, letters, and archival records that standard OCR can't read, turning scanned pages into searchable text.",
+  "description": "Transkribus trains handwriting recognition models on historical manuscripts, letters, and archival records that standard OCR can't read, turning scanned pages into searchable text.",
+  "url": "https://readcoop.eu/transkribus",
+  "logo_url": "https://www.google.com/s2/favicons?domain=readcoop.eu&sz=64",
+  "screenshot_url": "/screenshots/transkribus.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "document_ai",
+    "pdf",
+    "productivity",
+    "extraction",
+    "documents",
+    "ocr",
+    "summarization",
+    "document_processing",
+    "parsing",
+    "training",
+    "model_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 62,
+  "subcategory": "ai-pdf",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

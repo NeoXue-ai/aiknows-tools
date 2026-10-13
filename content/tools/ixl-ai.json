@@ -1,0 +1,28 @@
+{
+  "slug": "ixl-ai",
+  "name": "IXL",
+  "tagline": "IXL is an adaptive learning platform for K-12 students covering maths, language arts, science, and social studies. Its AI diagnoses each student's skill level and adapts questions in real time to work at the ideal challenge level. Teachers receive diagnostic reports showing exactly where each student needs support.",
+  "description": "IXL is an adaptive learning platform for K-12 students covering maths, language arts, science, and social studies. Its AI diagnoses each student's skill level and adapts questions in real time to work at the ideal challenge level. Teachers receive diagnostic reports showing exactly where each student needs support.",
+  "url": "https://ixl.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=ixl.com&sz=64",
+  "screenshot_url": "/screenshots/ixl-ai.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "education",
+    "learning",
+    "teaching",
+    "courses",
+    "training",
+    "tutoring",
+    "study",
+    "assessment",
+    "e_learning"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 80,
+  "subcategory": "ai-education",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

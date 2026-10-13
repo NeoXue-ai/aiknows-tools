@@ -1,0 +1,28 @@
+{
+  "slug": "zycus",
+  "name": "Zycus",
+  "tagline": "Zycus covers the procurement cycle from sourcing through invoicing, and its AI assistant reads supplier contracts, flags pricing outside normal ranges, and recommends which vendors to negotiate with next. Procurement managers use it to replace manual spend analysis spreadsheets with a system that already knows where the savings are.",
+  "description": "Zycus covers the procurement cycle from sourcing through invoicing, and its AI assistant reads supplier contracts, flags pricing outside normal ranges, and recommends which vendors to negotiate with next. Procurement managers use it to replace manual spend analysis spreadsheets with a system that already knows where the savings are.",
+  "url": "https://zycus.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=zycus.com&sz=64",
+  "screenshot_url": "/screenshots/zycus.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "supply_chain",
+    "logistics",
+    "business",
+    "inventory",
+    "management",
+    "procurement",
+    "distribution",
+    "forecasting",
+    "operations"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 67,
+  "subcategory": "ecommerce",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

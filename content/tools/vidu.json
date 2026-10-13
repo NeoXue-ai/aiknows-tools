@@ -1,0 +1,29 @@
+{
+  "slug": "vidu",
+  "name": "Vidu",
+  "tagline": "Vidu is an AI video generation platform developed by Chinese AI company Shengshu Technology that creates high-quality video clips from text prompts and images. It supports high-resolution output and cinematic camera movements, and is available to global users via its web platform.",
+  "description": "Vidu is an AI video generation platform developed by Chinese AI company Shengshu Technology that creates high-quality video clips from text prompts and images. It supports high-resolution output and cinematic camera movements, and is available to global users via its web platform.",
+  "url": "https://vidu.studio",
+  "logo_url": "https://www.google.com/s2/favicons?domain=vidu.studio&sz=64",
+  "screenshot_url": "/screenshots/vidu.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "video_generation",
+    "creative",
+    "text_to_video",
+    "animation",
+    "production",
+    "ai_video",
+    "generative",
+    "short_form",
+    "clips",
+    "image_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 60,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

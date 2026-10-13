@@ -1,0 +1,29 @@
+{
+  "slug": "streak",
+  "name": "Streak",
+  "tagline": "Streak is a CRM that operates entirely within Gmail, turning email threads into trackable pipeline stages without switching to a separate app. It is popular with sales teams, recruiters, and project managers who want lightweight deal and relationship tracking without leaving their inbox.",
+  "description": "Streak is a CRM that operates entirely within Gmail, turning email threads into trackable pipeline stages without switching to a separate app. It is popular with sales teams, recruiters, and project managers who want lightweight deal and relationship tracking without leaving their inbox.",
+  "url": "https://streak.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=streak.com&sz=64",
+  "screenshot_url": "/screenshots/streak.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "crm",
+    "sales",
+    "business",
+    "customers",
+    "relationships",
+    "pipeline",
+    "contacts",
+    "deals",
+    "customer_data",
+    "collaboration"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 76,
+  "subcategory": "sales",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

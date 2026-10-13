@@ -1,0 +1,31 @@
+{
+  "slug": "pinecone",
+  "name": "Pinecone",
+  "tagline": "Pinecone is the most widely used managed vector database, providing the long-term memory infrastructure for AI applications. When building a RAG (retrieval-augmented generation) system, embeddings are stored in Pinecone and retrieved by semantic similarity at query time, giving LLMs access to private knowledge without fine-tuning. Its serverless tier makes it free to start, while its managed service scales to billions of vectors for enterprise applications. Pinecone is a foundational component in the majority of production AI applications built in 2024-2025.",
+  "description": "Pinecone is the most widely used managed vector database, providing the long-term memory infrastructure for AI applications. When building a RAG (retrieval-augmented generation) system, embeddings are stored in Pinecone and retrieved by semantic similarity at query time, giving LLMs access to private knowledge without fine-tuning. Its serverless tier makes it free to start, while its managed service scales to billions of vectors for enterprise applications. Pinecone is a foundational component in the majority of production AI applications built in 2024-2025.",
+  "url": "https://pinecone.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=pinecone.io&sz=64",
+  "screenshot_url": "/screenshots/pinecone.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "enterprise",
+    "free_tier",
+    "model_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 81,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

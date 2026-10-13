@@ -1,0 +1,27 @@
+{
+  "slug": "smartrecruiters",
+  "name": "SmartRecruiters",
+  "tagline": "SmartRecruiters is an enterprise talent acquisition platform that uses AI to streamline the full recruiting process from job posting and candidate sourcing to offer management. Its SmartAssistant AI automates screening, scheduling, and communication to reduce time-to-hire.",
+  "description": "SmartRecruiters is an enterprise talent acquisition platform that uses AI to streamline the full recruiting process from job posting and candidate sourcing to offer management. Its SmartAssistant AI automates screening, scheduling, and communication to reduce time-to-hire.",
+  "url": "https://smartrecruiters.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=smartrecruiters.com&sz=64",
+  "screenshot_url": "/screenshots/smartrecruiters.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "enterprise",
+    "machine_learning",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool",
+    "service",
+    "solution"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 87,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

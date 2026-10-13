@@ -1,0 +1,30 @@
+{
+  "slug": "rive",
+  "name": "Rive",
+  "tagline": "Rive is a real-time interactive animation platform where designers create animations that respond to game state, user input, and data — not just play back a fixed sequence. Its runtime is lightweight enough to run in a browser, iOS app, or game engine without performance costs. UI engineers and game developers use Rive to add state-machine-driven animations that make interfaces feel genuinely alive.",
+  "description": "Rive is a real-time interactive animation platform where designers create animations that respond to game state, user input, and data — not just play back a fixed sequence. Its runtime is lightweight enough to run in a browser, iOS app, or game engine without performance costs. UI engineers and game developers use Rive to add state-machine-driven animations that make interfaces feel genuinely alive.",
+  "url": "https://rive.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=rive.app&sz=64",
+  "screenshot_url": "/screenshots/rive.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "animation",
+    "video",
+    "creative",
+    "motion",
+    "graphics",
+    "motion_design",
+    "2d_animation",
+    "3d_animation",
+    "visual_effects",
+    "mobile_app",
+    "real_time"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 74,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

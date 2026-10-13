@@ -1,0 +1,31 @@
+{
+  "slug": "datarobot",
+  "name": "DataRobot",
+  "tagline": "DataRobot is an automated machine learning platform that allows data teams to build, deploy, and monitor predictive models without deep ML expertise. It automates the most time-consuming steps — feature engineering, model selection, and hyperparameter tuning — while giving data scientists full control over every decision. Enterprises use DataRobot to operationalise AI across risk, marketing, operations, and supply chain.",
+  "description": "DataRobot is an automated machine learning platform that allows data teams to build, deploy, and monitor predictive models without deep ML expertise. It automates the most time-consuming steps — feature engineering, model selection, and hyperparameter tuning — while giving data scientists full control over every decision. Enterprises use DataRobot to operationalise AI across risk, marketing, operations, and supply chain.",
+  "url": "https://datarobot.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=datarobot.com&sz=64",
+  "screenshot_url": "/screenshots/datarobot.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "data_analysis",
+    "analytics",
+    "business",
+    "insights",
+    "visualization",
+    "data_science",
+    "reporting",
+    "dashboards",
+    "sql",
+    "collaboration",
+    "enterprise",
+    "machine_learning"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 78,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

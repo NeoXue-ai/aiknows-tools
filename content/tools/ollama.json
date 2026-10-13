@@ -1,0 +1,31 @@
+{
+  "slug": "ollama",
+  "name": "Ollama",
+  "tagline": "Ollama makes it trivially easy to download and run open-source LLMs — Llama 3, Mistral, Gemma, Phi, Qwen, and dozens more — entirely on your own hardware with a single command. It exposes a local REST API compatible with the OpenAI format, so any application built for GPT can be pointed at a local model instead. Privacy-conscious developers, researchers without cloud budgets, and anyone wanting offline AI capability have made Ollama one of the fastest-growing tools in the AI ecosystem.",
+  "description": "Ollama makes it trivially easy to download and run open-source LLMs — Llama 3, Mistral, Gemma, Phi, Qwen, and dozens more — entirely on your own hardware with a single command. It exposes a local REST API compatible with the OpenAI format, so any application built for GPT can be pointed at a local model instead. Privacy-conscious developers, researchers without cloud budgets, and anyone wanting offline AI capability have made Ollama one of the fastest-growing tools in the AI ecosystem.",
+  "url": "https://ollama.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=ollama.com&sz=64",
+  "screenshot_url": "/screenshots/ollama.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "open_source",
+    "api_available",
+    "cloud_based"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 88,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

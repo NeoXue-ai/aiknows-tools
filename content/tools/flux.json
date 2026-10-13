@@ -1,21 +1,31 @@
 {
   "slug": "flux",
   "name": "FLUX",
-  "tagline": "Open-weights image model",
-  "description": "Black Forest Labs' flagship open-weights image generation model.",
+  "tagline": "FLUX is an image generation model built by Black Forest Labs, a team founded by former Stable Diffusion researchers. It's become the default open-weight option for people who want Midjourney-level image quality without depending on a closed API, with strong prompt adherence and noticeably better hands and text rendering than earlier open models. Developers self-host it, fine-tune it on custom styles, or run it through hosted endpoints on platforms like Replicate and Hugging Face.",
+  "description": "FLUX is an image generation model built by Black Forest Labs, a team founded by former Stable Diffusion researchers. It's become the default open-weight option for people who want Midjourney-level image quality without depending on a closed API, with strong prompt adherence and noticeably better hands and text rendering than earlier open models. Developers self-host it, fine-tune it on custom styles, or run it through hosted endpoints on platforms like Replicate and Hugging Face.",
   "url": "https://blackforestlabs.ai",
   "logo_url": "https://www.google.com/s2/favicons?domain=blackforestlabs.ai&sz=64",
   "screenshot_url": "/screenshots/flux.webp",
   "primary_category": "image-video",
   "tags": [
-    "oss",
-    "image"
+    "image_generation",
+    "creative",
+    "text_to_image",
+    "visual",
+    "graphics",
+    "generative_ai",
+    "art",
+    "diffusion",
+    "prompting",
+    "api_available",
+    "collaboration",
+    "customizable"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 76,
   "subcategory": "ai-image-generator",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

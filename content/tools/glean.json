@@ -1,0 +1,44 @@
+{
+  "slug": "glean",
+  "name": "Glean",
+  "tagline": "Glean is an enterprise AI platform that connects to all the tools a company uses — Slack, Confluence, Jira, Google Drive, Salesforce, GitHub, and 100+ others — and provides a unified AI search and assistant that understands company-specific knowledge. Employees can ask questions like 'what did the design team decide about the checkout flow?' and Glean retrieves the relevant Slack threads, Figma files, and documents with full context. Its AI assistant can then synthesise answers from across all sources, making it one of the most widely deployed enterprise AI tools.",
+  "description": "Glean is an enterprise AI platform that connects to all the tools a company uses — Slack, Confluence, Jira, Google Drive, Salesforce, GitHub, and 100+ others — and provides a unified AI search and assistant that understands company-specific knowledge. Employees can ask questions like 'what did the design team decide about the checkout flow?' and Glean retrieves the relevant Slack threads, Figma files, and documents with full context. Its AI assistant can then synthesise answers from across all sources, making it one of the most widely deployed enterprise AI tools.",
+  "url": "https://glean.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=glean.com&sz=64",
+  "screenshot_url": "/screenshots/glean.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "knowledge_base",
+    "productivity",
+    "note_taking",
+    "organization",
+    "information",
+    "second_brain",
+    "wiki",
+    "search",
+    "retrieval",
+    "collaboration",
+    "enterprise",
+    "community_driven"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 80,
+  "subcategory": "ai-assistant",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null,
+  "editorial": {
+    "seo": {
+      "title": "Glean: Enterprise AI Search, Assistants & Agents",
+      "description": "Glean connects company knowledge to enterprise search, AI assistants and agents. Explore product features and official information for your team."
+    },
+    "externalLinks": [
+      {
+        "label": "Official product information",
+        "url": "https://www.glean.com/",
+        "context": "Explore current product information and supported workflows."
+      }
+    ]
+  }
+}

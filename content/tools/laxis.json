@@ -1,0 +1,29 @@
+{
+  "slug": "laxis",
+  "name": "Laxis",
+  "tagline": "Laxis is an AI meeting assistant that transcribes, summarizes, and extracts insights from sales calls, interviews, and client meetings. Sales and research teams use it to capture what was discussed without taking manual notes, and to pull out action items, objections, and key quotes automatically after each call. It connects to Zoom, Google Meet, and major CRMs so meeting outputs land directly in the tools teams already use.",
+  "description": "Laxis is an AI meeting assistant that transcribes, summarizes, and extracts insights from sales calls, interviews, and client meetings. Sales and research teams use it to capture what was discussed without taking manual notes, and to pull out action items, objections, and key quotes automatically after each call. It connects to Zoom, Google Meet, and major CRMs so meeting outputs land directly in the tools teams already use.",
+  "url": "https://laxis.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=laxis.com&sz=64",
+  "screenshot_url": "/screenshots/laxis.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "meeting",
+    "productivity",
+    "transcription",
+    "collaboration",
+    "notes",
+    "summaries",
+    "action_items",
+    "video_calls",
+    "recap",
+    "analytics"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 72,
+  "subcategory": "ai-note-taker",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

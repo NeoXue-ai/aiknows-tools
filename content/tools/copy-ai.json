@@ -1,22 +1,31 @@
 {
   "slug": "copy-ai",
   "name": "Copy.ai",
-  "tagline": "Go-to-market AI platform",
-  "description": "Workflows and agents for sales, marketing, and ops. Built for revenue teams.",
+  "tagline": "Copy.ai is an AI writing tool that generates marketing copy, email sequences, social captions, product descriptions, and sales scripts from short prompts. Its library of 90+ templates covers virtually every marketing content type, and a built-in workflow engine lets teams automate repetitive copy production. It's one of the fastest tools for going from brief to first draft.",
+  "description": "Copy.ai is an AI writing tool that generates marketing copy, email sequences, social captions, product descriptions, and sales scripts from short prompts. Its library of 90+ templates covers virtually every marketing content type, and a built-in workflow engine lets teams automate repetitive copy production. It's one of the fastest tools for going from brief to first draft.",
   "url": "https://copy.ai",
   "logo_url": "https://www.google.com/s2/favicons?domain=copy.ai&sz=64",
   "screenshot_url": "/screenshots/copy-ai.webp",
   "primary_category": "writing-content",
   "tags": [
-    "copywriting",
-    "workflows",
-    "gtm"
+    "writing",
+    "text_generation",
+    "productivity",
+    "content",
+    "editing",
+    "grammar",
+    "paraphrasing",
+    "ai_writing",
+    "drafting",
+    "collaboration",
+    "templates",
+    "fast"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
-  "subcategory": "ai-marketing",
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 86,
+  "subcategory": "ai-writer",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

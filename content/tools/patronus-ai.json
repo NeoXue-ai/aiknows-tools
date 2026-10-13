@@ -1,0 +1,31 @@
+{
+  "slug": "patronus-ai",
+  "name": "Patronus AI",
+  "tagline": "Patronus AI is an automated LLM evaluation platform that helps teams test, red-team, and monitor AI applications for accuracy, hallucination, toxicity, and compliance. It provides pre-built and custom evaluators and integrates into CI/CD pipelines for continuous AI quality assurance.",
+  "description": "Patronus AI is an automated LLM evaluation platform that helps teams test, red-team, and monitor AI applications for accuracy, hallucination, toxicity, and compliance. It provides pre-built and custom evaluators and integrates into CI/CD pipelines for continuous AI quality assurance.",
+  "url": "https://patronus.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=patronus.ai&sz=64",
+  "screenshot_url": "/screenshots/patronus-ai.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "collaboration",
+    "customizable",
+    "model_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 65,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

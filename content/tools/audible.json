@@ -1,0 +1,27 @@
+{
+  "slug": "audible",
+  "name": "Audible",
+  "tagline": "Audible is Amazon's audiobook and spoken audio platform with one of the largest libraries of titles across fiction, nonfiction, podcasts, and Audible Originals. Members get monthly credits to spend on titles they keep permanently, along with access to a rotating selection included in the subscription. AI recommendations surface new titles based on listening history, and Whispersync lets users switch between reading a Kindle book and listening to the audio version.",
+  "description": "Audible is Amazon's audiobook and spoken audio platform with one of the largest libraries of titles across fiction, nonfiction, podcasts, and Audible Originals. Members get monthly credits to spend on titles they keep permanently, along with access to a rotating selection included in the subscription. AI recommendations surface new titles based on listening history, and Whispersync lets users switch between reading a Kindle book and listening to the audio version.",
+  "url": "https://audible.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=audible.com&sz=64",
+  "screenshot_url": "/screenshots/audible.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "voice_enabled",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool",
+    "service",
+    "solution",
+    "saas"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 91,
+  "subcategory": "ai-summarizer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

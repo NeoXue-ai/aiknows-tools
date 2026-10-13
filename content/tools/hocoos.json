@@ -1,0 +1,30 @@
+{
+  "slug": "hocoos",
+  "name": "Hocoos",
+  "tagline": "Hocoos is an AI website builder that creates complete, publish-ready websites in minutes by asking a few questions about your business. Small business owners use it to get a professional website with generated copy, images, and structure without design or coding skills. The result includes hosting, a domain, and built-in tools for booking, e-commerce, and contact forms.",
+  "description": "Hocoos is an AI website builder that creates complete, publish-ready websites in minutes by asking a few questions about your business. Small business owners use it to get a professional website with generated copy, images, and structure without design or coding skills. The result includes hosting, a domain, and built-in tools for booking, e-commerce, and contact forms.",
+  "url": "https://hocoos.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=hocoos.com&sz=64",
+  "screenshot_url": "/screenshots/hocoos.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "website_builder",
+    "no_code",
+    "design",
+    "web",
+    "creation",
+    "cms",
+    "hosting",
+    "templates",
+    "publishing",
+    "image_based",
+    "powerful"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "ai-website-builder",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

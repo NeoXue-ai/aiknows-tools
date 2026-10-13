@@ -1,0 +1,29 @@
+{
+  "slug": "riverside",
+  "name": "Riverside",
+  "tagline": "Riverside.fm is a high-quality remote podcast and video recording studio that captures each participant's audio and video locally — not over a streamed connection — to ensure broadcast-quality recordings regardless of internet conditions. Its AI features include automatic transcription, clip generation, and background removal. Podcasters and video journalists use it when recording quality is non-negotiable.",
+  "description": "Riverside.fm is a high-quality remote podcast and video recording studio that captures each participant's audio and video locally — not over a streamed connection — to ensure broadcast-quality recordings regardless of internet conditions. Its AI features include automatic transcription, clip generation, and background removal. Podcasters and video journalists use it when recording quality is non-negotiable.",
+  "url": "https://riverside.fm",
+  "logo_url": "https://www.google.com/s2/favicons?domain=riverside.fm&sz=64",
+  "screenshot_url": "/screenshots/riverside.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "podcast",
+    "audio",
+    "content_creation",
+    "media",
+    "broadcasting",
+    "episodes",
+    "hosting",
+    "editing",
+    "distribution",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 81,
+  "subcategory": "ai-voice-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

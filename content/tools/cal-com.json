@@ -1,0 +1,31 @@
+{
+  "slug": "cal-com",
+  "name": "Cal.com",
+  "tagline": "Cal.com is an open-source scheduling platform with an AI assistant that handles meeting booking and calendar coordination. Teams and individuals use it to share booking links, set availability rules, and let the AI negotiate scheduling across time zones. It can be self-hosted for organizations that need full control over their scheduling data.",
+  "description": "Cal.com is an open-source scheduling platform with an AI assistant that handles meeting booking and calendar coordination. Teams and individuals use it to share booking links, set availability rules, and let the AI negotiate scheduling across time zones. It can be self-hosted for organizations that need full control over their scheduling data.",
+  "url": "https://cal.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=cal.com&sz=64",
+  "screenshot_url": "/screenshots/cal-com.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "scheduling",
+    "productivity",
+    "calendar",
+    "time_management",
+    "meetings",
+    "appointments",
+    "booking",
+    "availability",
+    "planning",
+    "open_source",
+    "collaboration",
+    "community_driven"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 92,
+  "subcategory": "productivity-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

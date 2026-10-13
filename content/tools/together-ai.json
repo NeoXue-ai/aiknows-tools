@@ -1,0 +1,31 @@
+{
+  "slug": "together-ai",
+  "name": "Together AI",
+  "tagline": "Together AI is a cloud inference platform specialising in open-source models, offering some of the fastest and cheapest API access to Llama, Mistral, Qwen, FLUX, and dozens of other models. It's designed to be an OpenAI-compatible drop-in for developers who want open models without the cost and complexity of self-hosting. Together also runs fine-tuning jobs and provides a playground for prompt experimentation. Startups building on open models frequently use Together AI to keep inference costs low while maintaining model flexibility.",
+  "description": "Together AI is a cloud inference platform specialising in open-source models, offering some of the fastest and cheapest API access to Llama, Mistral, Qwen, FLUX, and dozens of other models. It's designed to be an OpenAI-compatible drop-in for developers who want open models without the cost and complexity of self-hosting. Together also runs fine-tuning jobs and provides a playground for prompt experimentation. Startups building on open models frequently use Together AI to keep inference costs low while maintaining model flexibility.",
+  "url": "https://together.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=together.ai&sz=64",
+  "screenshot_url": "/screenshots/together-ai.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "open_source",
+    "api_available",
+    "cloud_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 81,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

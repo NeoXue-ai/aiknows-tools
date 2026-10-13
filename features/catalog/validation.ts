@@ -57,8 +57,62 @@ export function canonicalWebsite(value: string): string {
 function validateEditorial(input: unknown) {
   const entry = record(input);
   for (const key of Object.keys(entry))
-    if (!["comparison", "faqs", "externalLinks"].includes(key))
+    if (!["comparison", "faqs", "externalLinks", "guide", "seo"].includes(key))
       throw new Error(`Unknown editorial field: ${key}`);
+  if (entry.seo !== undefined) {
+    const seo = record(entry.seo);
+    for (const key of Object.keys(seo))
+      if (!["title", "description"].includes(key))
+        throw new Error(`Unknown SEO field: ${key}`);
+    for (const key of ["title", "description"]) {
+      const value = seo[key];
+      text(value, `SEO ${key}`);
+      if (
+        /<[^>]+>|&lt;.*?&gt;|\[[^\]]*\]\([^)]*\)|\*\*|__|`|(?:^|\s)[*_]\S[^*_]*[*_](?=\W|$)|^\s*(?:#{1,6}\s|>\s|[-*+]\s)|[\u0000-\u001f\u007f]/i.test(
+          value,
+        )
+      )
+        throw new Error(`SEO ${key} must be plain text`);
+      if (/…|\.{3}/.test(value))
+        throw new Error(`SEO ${key} must not contain truncated copy`);
+    }
+  }
+  if (entry.guide !== undefined) {
+    const guide = record(entry.guide);
+    const keys = [
+      "checkedAt",
+      "features",
+      "useCases",
+      "limitations",
+      "platforms",
+      "pricingNote",
+      "pricingUrl",
+      "alternatives",
+      "sources",
+    ];
+    for (const key of Object.keys(guide))
+      if (!keys.includes(key)) throw new Error(`Unknown guide field: ${key}`);
+    if (
+      typeof guide.checkedAt !== "string" ||
+      !/^\d{4}-\d{2}-\d{2}$/.test(guide.checkedAt) ||
+      !isPublicationDate(`${guide.checkedAt}T00:00:00Z`)
+    )
+      throw new Error("Invalid guide checked date");
+    for (const key of ["features", "useCases", "alternatives", "sources"])
+      if (!Array.isArray(guide[key]) || !guide[key].length)
+        throw new Error(`${key} must be a non-empty array`);
+    validateItems(guide.features, ["label", "text"]);
+    validateItems(guide.useCases, ["label", "text"]);
+    validateItems(guide.alternatives, ["slug", "reason"]);
+    validateItems(guide.sources, ["label", "url"], true);
+    for (const key of ["limitations", "platforms"]) {
+      if (!Array.isArray(guide[key]) || !guide[key].length)
+        throw new Error(`${key} must be a non-empty array`);
+      guide[key].forEach((value: unknown) => text(value, key));
+    }
+    text(guide.pricingNote, "pricing note");
+    validateUrl(guide.pricingUrl);
+  }
   if (entry.comparison !== undefined) {
     const c = record(entry.comparison);
     for (const key of Object.keys(c))
@@ -177,7 +231,7 @@ export function validateTool(input: unknown): ToolRecord {
 export function validateCatalog(input: unknown[]): ToolRecord[] {
   const slugs = new Set<string>();
   const urls = new Set<string>();
-  return input.map((row) => {
+  const tools = input.map((row) => {
     const tool = validateTool(row);
     if (slugs.has(tool.slug)) throw new Error(`Duplicate slug: ${tool.slug}`);
     const url = canonicalWebsite(tool.url);
@@ -186,4 +240,19 @@ export function validateCatalog(input: unknown[]): ToolRecord[] {
     urls.add(url);
     return tool;
   });
+  for (const tool of tools) {
+    const seen = new Set<string>();
+    for (const alternative of tool.editorial?.guide?.alternatives ?? []) {
+      if (
+        !slugs.has(alternative.slug) ||
+        alternative.slug === tool.slug ||
+        seen.has(alternative.slug)
+      )
+        throw new Error(
+          `Invalid alternative for ${tool.slug}: ${alternative.slug}`,
+        );
+      seen.add(alternative.slug);
+    }
+  }
+  return tools;
 }

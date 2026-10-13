@@ -1,0 +1,27 @@
+{
+  "slug": "postman",
+  "name": "Postman",
+  "tagline": "Postman is a widely used API platform for building, testing, documenting, and sharing APIs with collaborative team workspaces. Developers and QA engineers use it to send HTTP requests, write automated test scripts, mock API endpoints, and generate API documentation from collections. Its AI features help generate test cases and suggest fixes when tests fail, and teams use shared workspaces to keep API collections and documentation in sync as backends change.",
+  "description": "Postman is a widely used API platform for building, testing, documenting, and sharing APIs with collaborative team workspaces. Developers and QA engineers use it to send HTTP requests, write automated test scripts, mock API endpoints, and generate API documentation from collections. Its AI features help generate test cases and suggest fixes when tests fail, and teams use shared workspaces to keep API collections and documentation in sync as backends change.",
+  "url": "https://postman.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=postman.com&sz=64",
+  "screenshot_url": "/screenshots/postman.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "api_available",
+    "collaboration",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool",
+    "service",
+    "solution"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 91,
+  "subcategory": "developer-apis",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

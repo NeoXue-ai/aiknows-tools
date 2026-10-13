@@ -1,0 +1,31 @@
+{
+  "slug": "later",
+  "name": "Later",
+  "tagline": "Later is a social media scheduling and analytics platform focused on visual content for Instagram, TikTok, Pinterest, and other image-forward channels. Its AI caption writer and hashtag suggester streamline post creation, and a visual content calendar lets teams plan their feed aesthetics a month in advance. Creators and brand teams use Later to keep a consistent posting cadence without daily manual effort.",
+  "description": "Later is a social media scheduling and analytics platform focused on visual content for Instagram, TikTok, Pinterest, and other image-forward channels. Its AI caption writer and hashtag suggester streamline post creation, and a visual content calendar lets teams plan their feed aesthetics a month in advance. Creators and brand teams use Later to keep a consistent posting cadence without daily manual effort.",
+  "url": "https://later.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=later.com&sz=64",
+  "screenshot_url": "/screenshots/later.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "social_media",
+    "marketing",
+    "content_creation",
+    "engagement",
+    "posting",
+    "scheduling",
+    "analytics",
+    "audience",
+    "platform",
+    "collaboration",
+    "machine_learning",
+    "image_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 87,
+  "subcategory": "social-media",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

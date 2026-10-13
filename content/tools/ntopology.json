@@ -1,0 +1,28 @@
+{
+  "slug": "ntopology",
+  "name": "nTopology",
+  "tagline": "nTopology lets industrial designers and engineers build parametric, field-driven geometry such as lattices and optimized structures that standard CAD tools struggle with. It is widely used for lightweighting parts destined for 3D printing while keeping them simulation-ready.",
+  "description": "nTopology lets industrial designers and engineers build parametric, field-driven geometry such as lattices and optimized structures that standard CAD tools struggle with. It is widely used for lightweighting parts destined for 3D printing while keeping them simulation-ready.",
+  "url": "https://ntop.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=ntop.com&sz=64",
+  "screenshot_url": "/screenshots/ntopology.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "3d",
+    "design",
+    "creative",
+    "modeling",
+    "rendering",
+    "visualization",
+    "3d_art",
+    "digital_art",
+    "sculpting"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 67,
+  "subcategory": "ai-3d-model-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

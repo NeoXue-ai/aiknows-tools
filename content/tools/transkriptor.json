@@ -1,0 +1,29 @@
+{
+  "slug": "transkriptor",
+  "name": "Transkriptor",
+  "tagline": "Transkriptor is an AI transcription service that converts audio and video files, Zoom recordings, and live speech into accurate text in 100+ languages. It offers speaker labeling, subtitle export, and AI-generated meeting summaries for business, academic, and media use cases.",
+  "description": "Transkriptor is an AI transcription service that converts audio and video files, Zoom recordings, and live speech into accurate text in 100+ languages. It offers speaker labeling, subtitle export, and AI-generated meeting summaries for business, academic, and media use cases.",
+  "url": "https://transkriptor.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=transkriptor.com&sz=64",
+  "screenshot_url": "/screenshots/transkriptor.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "transcription",
+    "speech_to_text",
+    "audio",
+    "text",
+    "conversion",
+    "captions",
+    "subtitles",
+    "accuracy",
+    "real_time",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 71,
+  "subcategory": "speech-to-text-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

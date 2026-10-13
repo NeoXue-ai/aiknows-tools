@@ -1,0 +1,30 @@
+{
+  "slug": "totango",
+  "name": "Totango",
+  "tagline": "Totango is a customer success platform with a modular structure that lets teams build their workflows from reusable components rather than a rigid system. Customer success managers use it to track account health, automate touchpoints, and flag accounts at risk of churning before it is too late. AI surfaces expansion signals alongside churn risk, so the same platform covers both retention and growth motions.",
+  "description": "Totango is a customer success platform with a modular structure that lets teams build their workflows from reusable components rather than a rigid system. Customer success managers use it to track account health, automate touchpoints, and flag accounts at risk of churning before it is too late. AI surfaces expansion signals alongside churn risk, so the same platform covers both retention and growth motions.",
+  "url": "https://totango.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=totango.com&sz=64",
+  "screenshot_url": "/screenshots/totango.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "customer_support",
+    "chatbot",
+    "business",
+    "help_desk",
+    "support",
+    "ticketing",
+    "live_chat",
+    "service",
+    "resolution",
+    "collaboration",
+    "customizable"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "customer-support",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

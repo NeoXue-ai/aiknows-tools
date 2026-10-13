@@ -1,0 +1,29 @@
+{
+  "slug": "reverso",
+  "name": "Reverso",
+  "tagline": "Reverso is an AI translation tool that goes beyond word-for-word conversion by showing how words and phrases are used in real-world bilingual sentence pairs from translated books, subtitles, and websites. Its context engine helps learners and translators understand nuance, register, and natural phrasing that dictionary definitions miss. Language learners and professional translators use Reverso as a complement to dictionaries and grammar references.",
+  "description": "Reverso is an AI translation tool that goes beyond word-for-word conversion by showing how words and phrases are used in real-world bilingual sentence pairs from translated books, subtitles, and websites. Its context engine helps learners and translators understand nuance, register, and natural phrasing that dictionary definitions miss. Language learners and professional translators use Reverso as a complement to dictionaries and grammar references.",
+  "url": "https://reverso.net",
+  "logo_url": "https://www.google.com/s2/favicons?domain=reverso.net&sz=64",
+  "screenshot_url": "/screenshots/reverso.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "translation",
+    "language",
+    "multilingual",
+    "communication",
+    "localization",
+    "globalization",
+    "language_ai",
+    "interpretation",
+    "text",
+    "powerful"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 85,
+  "subcategory": "ai-translator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "freshsales",
+  "name": "Freshsales",
+  "tagline": "Freshsales is an AI-powered CRM by Freshworks that helps sales teams manage leads, automate follow-ups, and close deals faster. Its Freddy AI scores leads, predicts deal outcomes, and suggests next best actions to help reps focus on the highest-value opportunities.",
+  "description": "Freshsales is an AI-powered CRM by Freshworks that helps sales teams manage leads, automate follow-ups, and close deals faster. Its Freddy AI scores leads, predicts deal outcomes, and suggests next best actions to help reps focus on the highest-value opportunities.",
+  "url": "https://www.freshworks.com/crm/sales/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=freshworks.com&sz=64",
+  "screenshot_url": "/screenshots/freshsales.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "crm",
+    "sales",
+    "business",
+    "customers",
+    "relationships",
+    "pipeline",
+    "contacts",
+    "deals",
+    "customer_data",
+    "collaboration",
+    "fast"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 90,
+  "subcategory": "sales",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

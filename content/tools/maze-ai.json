@@ -1,0 +1,30 @@
+{
+  "slug": "maze-ai",
+  "name": "Maze",
+  "tagline": "Maze is a continuous product discovery platform that lets teams run moderated and unmoderated user studies, prototype tests, and surveys at speed. Its AI features include automatic insight extraction from open-text responses, task path analysis, and AI interview guides. UX and product teams use it to gather feedback in hours, not weeks.",
+  "description": "Maze is a continuous product discovery platform that lets teams run moderated and unmoderated user studies, prototype tests, and surveys at speed. Its AI features include automatic insight extraction from open-text responses, task path analysis, and AI interview guides. UX and product teams use it to gather feedback in hours, not weeks.",
+  "url": "https://maze.co",
+  "logo_url": "https://www.google.com/s2/favicons?domain=maze.co&sz=64",
+  "screenshot_url": "/screenshots/maze-ai.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "market_research",
+    "business",
+    "analytics",
+    "consumer",
+    "insights",
+    "surveys",
+    "competitive_analysis",
+    "trends",
+    "intelligence",
+    "collaboration",
+    "fast"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 79,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

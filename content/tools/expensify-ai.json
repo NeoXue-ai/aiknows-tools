@@ -1,0 +1,31 @@
+{
+  "slug": "expensify-ai",
+  "name": "Expensify",
+  "tagline": "Expensify automates expense reporting with its SmartScan AI that extracts data from receipts and submits expense reports automatically. It integrates with QuickBooks, Xero, NetSuite, and Sage. Its Expensify Card enables real-time reconciliation where every transaction is matched to a receipt automatically.",
+  "description": "Expensify automates expense reporting with its SmartScan AI that extracts data from receipts and submits expense reports automatically. It integrates with QuickBooks, Xero, NetSuite, and Sage. Its Expensify Card enables real-time reconciliation where every transaction is matched to a receipt automatically.",
+  "url": "https://expensify.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=expensify.com&sz=64",
+  "screenshot_url": "/screenshots/expensify-ai.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "finance",
+    "business",
+    "analytics",
+    "accounting",
+    "investment",
+    "financial_planning",
+    "budgeting",
+    "fintech",
+    "reporting",
+    "real_time",
+    "integrations",
+    "fast"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 79,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

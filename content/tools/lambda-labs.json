@@ -1,0 +1,31 @@
+{
+  "slug": "lambda-labs",
+  "name": "Lambda Labs",
+  "tagline": "Lambda Labs provides GPU cloud instances and deep learning workstations for AI researchers and teams. Its on-demand and reserved A100/H100 instances offer competitive pricing for training large models. Lambda also manufactures GPU workstations used by top research labs and AI startups for on-premise training.",
+  "description": "Lambda Labs provides GPU cloud instances and deep learning workstations for AI researchers and teams. Its on-demand and reserved A100/H100 instances offer competitive pricing for training large models. Lambda also manufactures GPU workstations used by top research labs and AI startups for on-premise training.",
+  "url": "https://lambdalabs.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=lambdalabs.com&sz=64",
+  "screenshot_url": "/screenshots/lambda-labs.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "llm",
+    "foundation_model",
+    "ai_model",
+    "machine_learning",
+    "neural",
+    "inference",
+    "fine_tuning",
+    "api",
+    "open_source",
+    "collaboration",
+    "cloud_based",
+    "training"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "ai-models",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

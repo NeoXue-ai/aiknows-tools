@@ -1,0 +1,29 @@
+{
+  "slug": "udemy",
+  "name": "Udemy",
+  "tagline": "Udemy is an open online learning marketplace with over 220,000 courses taught by independent instructors, covering everything from Python and UX design to guitar playing and yoga. Its AI personalises course recommendations and learning paths based on your career goals and past activity. Unlike subscription platforms, most courses are purchased individually — often at steep discounts — and owned permanently.",
+  "description": "Udemy is an open online learning marketplace with over 220,000 courses taught by independent instructors, covering everything from Python and UX design to guitar playing and yoga. Its AI personalises course recommendations and learning paths based on your career goals and past activity. Unlike subscription platforms, most courses are purchased individually — often at steep discounts — and owned permanently.",
+  "url": "https://udemy.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=udemy.com&sz=64",
+  "screenshot_url": "/screenshots/udemy.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "education",
+    "learning",
+    "teaching",
+    "courses",
+    "training",
+    "tutoring",
+    "study",
+    "assessment",
+    "e_learning",
+    "customizable"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 91,
+  "subcategory": "ai-education",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

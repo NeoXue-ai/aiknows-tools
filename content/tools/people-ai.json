@@ -1,0 +1,30 @@
+{
+  "slug": "people-ai",
+  "name": "People.ai",
+  "tagline": "People.ai automatically captures all sales activities — emails, meetings, calls — and maps them to CRM records, eliminating manual data entry. Its AI analyses activity patterns to identify which behaviours drive deal success and recommends next best actions for each rep. Enterprise teams use it for data-driven sales coaching.",
+  "description": "People.ai automatically captures all sales activities — emails, meetings, calls — and maps them to CRM records, eliminating manual data entry. Its AI analyses activity patterns to identify which behaviours drive deal success and recommends next best actions for each rep. Enterprise teams use it for data-driven sales coaching.",
+  "url": "https://people.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=people.ai&sz=64",
+  "screenshot_url": "/screenshots/people-ai.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "sales",
+    "business",
+    "crm",
+    "revenue",
+    "conversion",
+    "pipeline",
+    "prospecting",
+    "closing",
+    "forecasting",
+    "collaboration",
+    "enterprise"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 71,
+  "subcategory": "sales",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

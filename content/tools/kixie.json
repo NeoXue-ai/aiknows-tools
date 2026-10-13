@@ -1,0 +1,30 @@
+{
+  "slug": "kixie",
+  "name": "Kixie",
+  "tagline": "Kixie is a sales engagement platform with AI-powered power dialing, local presence calling, and automated SMS for outbound sales teams. Its AI features include voicemail drop, call coaching, and conversation intelligence to help reps make more calls and close more deals.",
+  "description": "Kixie is a sales engagement platform with AI-powered power dialing, local presence calling, and automated SMS for outbound sales teams. Its AI features include voicemail drop, call coaching, and conversation intelligence to help reps make more calls and close more deals.",
+  "url": "https://kixie.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=kixie.com&sz=64",
+  "screenshot_url": "/screenshots/kixie.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "sales",
+    "business",
+    "crm",
+    "revenue",
+    "conversion",
+    "pipeline",
+    "prospecting",
+    "closing",
+    "forecasting",
+    "collaboration",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 71,
+  "subcategory": "sales",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

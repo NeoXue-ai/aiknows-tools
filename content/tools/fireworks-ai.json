@@ -1,0 +1,31 @@
+{
+  "slug": "fireworks-ai",
+  "name": "Fireworks AI",
+  "tagline": "Fireworks AI is a cloud inference platform that delivers some of the fastest and most cost-effective API access to open-source models including Llama, Mixtral, Qwen, and Stable Diffusion. Its FireFunction models are fine-tuned specifically for reliable JSON output and tool-calling, making them popular for structured extraction and agentic tasks where output format matters. Fireworks uses custom CUDA kernels and batching optimisations to achieve throughput that significantly undercuts larger cloud providers on both speed and cost.",
+  "description": "Fireworks AI is a cloud inference platform that delivers some of the fastest and most cost-effective API access to open-source models including Llama, Mixtral, Qwen, and Stable Diffusion. Its FireFunction models are fine-tuned specifically for reliable JSON output and tool-calling, making them popular for structured extraction and agentic tasks where output format matters. Fireworks uses custom CUDA kernels and batching optimisations to achieve throughput that significantly undercuts larger cloud providers on both speed and cost.",
+  "url": "https://fireworks.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=fireworks.ai&sz=64",
+  "screenshot_url": "/screenshots/fireworks-ai.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "open_source",
+    "api_available",
+    "customizable"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 80,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

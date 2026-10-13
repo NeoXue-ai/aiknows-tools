@@ -1,0 +1,29 @@
+{
+  "slug": "project44",
+  "name": "project44",
+  "tagline": "project44 connects to carriers across every mode of transport and uses predictive models to generate accurate ETAs and detect exceptions before they cause downstream delays. It gives logistics managers a single view of in-transit freight instead of chasing updates across carrier portals.",
+  "description": "project44 connects to carriers across every mode of transport and uses predictive models to generate accurate ETAs and detect exceptions before they cause downstream delays. It gives logistics managers a single view of in-transit freight instead of chasing updates across carrier portals.",
+  "url": "https://project44.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=project44.com&sz=64",
+  "screenshot_url": "/screenshots/project44.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "supply_chain",
+    "logistics",
+    "business",
+    "inventory",
+    "management",
+    "procurement",
+    "distribution",
+    "forecasting",
+    "operations",
+    "model_based"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 74,
+  "subcategory": "ecommerce",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

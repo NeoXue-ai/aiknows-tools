@@ -1,13 +1,6 @@
 import type { Tool, ToolSummary } from "@/features/catalog/types";
+import { deriveMetaDescription } from "@/features/catalog/seo";
 export { CATEGORIES, categoryName } from "@/features/catalog/taxonomy";
-
-function parsePrice(detail: string | null): number | null {
-  if (!detail) return null;
-  const match = detail.match(/\$([\d,]+(?:\.\d+)?)/);
-  if (!match) return null;
-  const n = Number(match[1].replace(/,/g, ""));
-  return Number.isFinite(n) ? n : null;
-}
 
 export interface ToolJsonLdInput {
   tool: Tool;
@@ -15,28 +8,41 @@ export interface ToolJsonLdInput {
   siteUrl: string;
 }
 
-export function toolJsonLd({
-  tool,
-  categoryName,
-  siteUrl,
-}: ToolJsonLdInput) {
-  const price = parsePrice(tool.pricing_detail);
+export function toolJsonLd({ tool, categoryName, siteUrl }: ToolJsonLdInput) {
+  const categories: Record<string, string> = {
+    "code-development": "DeveloperApplication",
+    "image-video": "MultimediaApplication",
+    "writing-content": "BusinessApplication",
+    productivity: "BusinessApplication",
+    "research-data": "ReferenceApplication",
+    "ecommerce-sales": "BusinessApplication",
+    "seo-marketing": "BusinessApplication",
+    "business-analytics": "BusinessApplication",
+  };
+  const platforms = tool.editorial?.guide?.platforms ?? [];
+  const operatingSystems = [
+    "Windows",
+    "macOS",
+    "Linux",
+    "iOS",
+    "iPadOS",
+    "Android",
+  ].filter((os) =>
+    platforms.some((platform) => new RegExp(`\\b${os}\\b`).test(platform)),
+  );
   const jsonLd: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
+    "@id": `${siteUrl}/tools/${tool.slug}#software`,
     name: tool.name,
     url: tool.url,
-    applicationCategory: categoryName,
-    operatingSystem: "Web",
-    description: tool.tagline ?? tool.description ?? undefined,
+    applicationCategory:
+      categories[tool.primary_category] ?? "UtilitiesApplication",
+    ...(operatingSystems.length
+      ? { operatingSystem: operatingSystems.join(", ") }
+      : {}),
+    description: deriveMetaDescription(tool),
   };
-  if (price !== null) {
-    jsonLd.offers = {
-      "@type": "Offer",
-      price,
-      priceCurrency: "USD",
-    };
-  }
   return jsonLd;
 }
 
@@ -80,9 +86,7 @@ export function breadcrumbJsonLd(
       "@type": "ListItem",
       position: index + 1,
       name: segment.label,
-      ...(segment.href
-        ? { item: `${baseUrl}${segment.href}` }
-        : {}),
+      ...(segment.href ? { item: `${baseUrl}${segment.href}` } : {}),
     })),
   };
 }
@@ -90,4 +94,3 @@ export function breadcrumbJsonLd(
 // FAQPage schema removed — Google retired FAQPage rich snippets in 2026
 // (audit P5). On-page FAQ UIs (tool dossier + /faq) still render the Q&A
 // for human readers; we just no longer mark it up.
-

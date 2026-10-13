@@ -1,0 +1,28 @@
+{
+  "slug": "opus-clip",
+  "name": "Opus Clip",
+  "tagline": "Opus Clip uses AI to analyse long-form videos and automatically extract the most engaging segments, then reformats them into short-form clips for TikTok, Reels, and YouTube Shorts. It adds captions, highlights keywords, and scores each clip for virality potential.",
+  "description": "Opus Clip uses AI to analyse long-form videos and automatically extract the most engaging segments, then reformats them into short-form clips for TikTok, Reels, and YouTube Shorts. It adds captions, highlights keywords, and scores each clip for virality potential.",
+  "url": "https://opus.pro",
+  "logo_url": "https://www.google.com/s2/favicons?domain=opus.pro&sz=64",
+  "screenshot_url": "/screenshots/opus-clip.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "video_editing",
+    "creative",
+    "video",
+    "production",
+    "media",
+    "cutting",
+    "transitions",
+    "effects",
+    "export"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 80,
+  "subcategory": "ai-video-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "storybird",
+  "name": "Storybird",
+  "tagline": "Storybird is a creative writing platform that pairs AI-generated art with guided storytelling prompts to help children and adults create illustrated books, poems, and short stories. Teachers use it in classrooms to get students writing through a visual prompt that sparks imagination, with finished work published to a personal portfolio. The platform combines creative freedom with structure, making it particularly useful for reluctant writers who respond better to visual inspiration than a blank page.",
+  "description": "Storybird is a creative writing platform that pairs AI-generated art with guided storytelling prompts to help children and adults create illustrated books, poems, and short stories. Teachers use it in classrooms to get students writing through a visual prompt that sparks imagination, with finished work published to a personal portfolio. The platform combines creative freedom with structure, making it particularly useful for reluctant writers who respond better to visual inspiration than a blank page.",
+  "url": "https://storybird.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=storybird.com&sz=64",
+  "screenshot_url": "/screenshots/storybird.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "free_tier",
+    "image_based",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool",
+    "service",
+    "solution"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 71,
+  "subcategory": "ai-content-creator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

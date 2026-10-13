@@ -1,0 +1,29 @@
+{
+  "slug": "hypotenuse-ai",
+  "name": "Hypotenuse AI",
+  "tagline": "Hypotenuse AI specialises in large-scale content generation for e-commerce, producing product descriptions, blog posts, and ad copy in bulk. Users can import a CSV of product data and generate hundreds of descriptions simultaneously with brand voice consistency. It is widely used by Shopify stores and marketing agencies.",
+  "description": "Hypotenuse AI specialises in large-scale content generation for e-commerce, producing product descriptions, blog posts, and ad copy in bulk. Users can import a CSV of product data and generate hundreds of descriptions simultaneously with brand voice consistency. It is widely used by Shopify stores and marketing agencies.",
+  "url": "https://hypotenuse.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=hypotenuse.ai&sz=64",
+  "screenshot_url": "/screenshots/hypotenuse-ai.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "writing",
+    "marketing",
+    "text_generation",
+    "copy",
+    "content",
+    "ad_copy",
+    "seo_writing",
+    "brand_voice",
+    "persuasion",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "ai-writer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

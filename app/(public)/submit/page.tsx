@@ -1,4 +1,4 @@
-import { pageMetadata } from "@/lib/seo/metadata";
+import { pageMetadata, siteUrl } from "@/lib/seo/metadata";
 import Link from "next/link";
 import {
   ArrowRight,
@@ -8,12 +8,16 @@ import {
   Send,
   ShieldCheck,
 } from "lucide-react";
-import { submissionUrl, correctionsUrl, submissionAction } from "@/features/submissions/config";
+import {
+  submissionUrl,
+  correctionsUrl,
+  submissionAction,
+} from "@/features/submissions/config";
 
 export const metadata = pageMetadata({
-  title: "Submit your AI tool",
+  title: "Submit an AI Tool to Our Directory",
   description:
-    "Submit your AI tool to aiknows.tools for an evidence-led public directory record.",
+    "Suggest an AI tool for the AIKnows directory. Share your product's official website, category and description through our public submission channel.",
   path: "/submit",
 });
 
@@ -23,14 +27,16 @@ export default async function SubmitPage() {
     "@type": "WebPage",
     name: "Submit your AI tool",
     description:
-      "Submit your AI tool to aiknows.tools for an evidence-led public directory record.",
-    url: `${process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"}/submit`,
+      "Suggest an AI tool for the AIKnows directory. Share your product's official website, category and description through our public submission channel.",
+    url: `${siteUrl}/submit`,
   };
   return (
     <div className="mx-auto w-full max-w-[1200px] px-5 py-12 sm:px-8 md:py-16">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
+        }}
       />
       {/* HERO ======================================================== */}
       <section className="rounded-2xl border border-border bg-card px-6 py-10 md:px-10 md:py-12">
@@ -43,17 +49,18 @@ export default async function SubmitPage() {
             Submit your AI tool
           </h1>
           <p className="mx-auto mt-4 max-w-xl text-pretty text-base leading-7 text-muted-foreground">
-            We curate the best AI tools for SaaS builders, indie hackers, and
-            founders. Share your product through our submission channel. An editor
-            reviews each listing before it appears in the directory.
+            Help people discover your AI tool for writing, design, coding,
+            research or everyday work. Share its official website and a clear
+            description through our submission channel. The team reviews
+            suggestions before adding them to the directory.
           </p>
         </div>
 
         {/* Trust signals */}
         <div className="relative mx-auto mt-8 grid max-w-2xl gap-3 sm:grid-cols-3">
           <TrustItem icon={CalendarClock} label="Editorial review" />
-          <TrustItem icon={ShieldCheck} label="No payment, ever" />
-          <TrustItem icon={CheckCheck} label="Human-reviewed by editors" />
+          <TrustItem icon={ShieldCheck} label="Free submission" />
+          <TrustItem icon={CheckCheck} label="Track your suggestion" />
         </div>
       </section>
 
@@ -61,9 +68,22 @@ export default async function SubmitPage() {
         {/* Form */}
         <div className="min-w-0">
           <div className="rounded-2xl border border-border bg-card p-8">
-            <h2 className="text-2xl font-semibold tracking-tight">Tell us about your product</h2>
-            <p className="mt-4 text-sm leading-7 text-muted-foreground">Have your product name, official website, category, and a short description ready. You can track the review through the submission channel.</p>
-            <a href={submissionUrl} className="action-primary mt-6" target="_blank" rel="noopener noreferrer">{submissionAction} <ArrowRight aria-hidden className="h-4 w-4" /></a>
+            <h2 className="text-2xl font-semibold tracking-tight">
+              Tell us about your product
+            </h2>
+            <p className="mt-4 text-sm leading-7 text-muted-foreground">
+              Have your product name, official website, category, and a short
+              description ready. You can track the review through the submission
+              channel. Submission does not guarantee inclusion.
+            </p>
+            <a
+              href={submissionUrl}
+              className="action-primary mt-6"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {submissionAction} <ArrowRight aria-hidden className="h-4 w-4" />
+            </a>
           </div>
         </div>
 
@@ -143,13 +163,7 @@ function Criterion({ children }: { children: React.ReactNode }) {
   );
 }
 
-function Step({
-  n,
-  children,
-}: {
-  n: number;
-  children: React.ReactNode;
-}) {
+function Step({ n, children }: { n: number; children: React.ReactNode }) {
   return (
     <li className="flex gap-3">
       <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-accent/8 text-xs font-medium text-accent">

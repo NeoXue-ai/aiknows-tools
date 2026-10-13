@@ -6,7 +6,7 @@ import { VercelAnalytics } from "@/components/vercel-analytics";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { PageTransition } from "@/components/page-transition";
-import { siteUrl, siteName, siteDescription } from "@/lib/site";
+import { siteUrl, siteName, siteTitle, siteDescription } from "@/lib/site";
 import "./globals.css";
 
 const organizationJsonLd = {
@@ -46,15 +46,12 @@ const instrumentSerif = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"
-  ),
+  metadataBase: new URL(siteUrl),
   title: {
-    default: "aiknows.tools — recorded AI tool index",
-    template: "%s | aiknows.tools",
+    default: `${siteTitle} | ${siteName}`,
+    template: `%s | ${siteName}`,
   },
-  description:
-    "An evidence-led index of recorded AI tools and directory submission facts. Inspect what is recorded — no popularity ranking, no star ratings.",
+  description: siteDescription,
   icons: {
     // SVG first — modern browsers pick the scalable vector with embedded
     // prefers-color-scheme (dark mark on light tab, light mark on dark tab).
@@ -64,15 +61,16 @@ export const metadata: Metadata = {
   manifest: "/manifest.webmanifest",
   openGraph: {
     type: "website",
-    siteName: "aiknows.tools",
+    siteName,
     locale: "en_US",
     url: "/",
-    title: "aiknows.tools — recorded AI tool index",
-    description:
-      "An evidence-led index of recorded AI tools and directory submission facts. Inspect what is recorded — no popularity ranking, no star ratings.",
+    title: siteTitle,
+    description: siteDescription,
   },
   twitter: {
     card: "summary_large_image",
+    title: siteTitle,
+    description: siteDescription,
   },
   robots: {
     index: true,
@@ -116,7 +114,12 @@ export default function RootLayout({
           enableSystem={false}
           disableTransitionOnChange
         >
-          <a href="#main-content" className="sr-only z-50 rounded-full bg-primary px-5 py-3 text-primary-foreground focus:not-sr-only focus:fixed focus:left-5 focus:top-4">Skip to content</a>
+          <a
+            href="#main-content"
+            className="sr-only z-50 rounded-full bg-primary px-5 py-3 text-primary-foreground focus:not-sr-only focus:fixed focus:left-5 focus:top-4"
+          >
+            Skip to content
+          </a>
           <Header />
           <main id="main-content" className="flex-1" tabIndex={-1}>
             <PageTransition>{children}</PageTransition>

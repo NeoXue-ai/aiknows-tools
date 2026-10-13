@@ -1,0 +1,31 @@
+{
+  "slug": "animoto",
+  "name": "Animoto",
+  "tagline": "Animoto is a cloud-based video creation platform that turns photos, video clips, and music into polished marketing and social media videos. It provides templates, drag-and-drop editing, and AI-powered automation to help businesses and creators produce videos quickly.",
+  "description": "Animoto is a cloud-based video creation platform that turns photos, video clips, and music into polished marketing and social media videos. It provides templates, drag-and-drop editing, and AI-powered automation to help businesses and creators produce videos quickly.",
+  "url": "https://animoto.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=animoto.com&sz=64",
+  "screenshot_url": "/screenshots/animoto.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "video_generation",
+    "creative",
+    "text_to_video",
+    "animation",
+    "production",
+    "ai_video",
+    "generative",
+    "short_form",
+    "clips",
+    "cloud_based",
+    "templates",
+    "fast"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 84,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

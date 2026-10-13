@@ -1,0 +1,30 @@
+{
+  "slug": "meta-ai",
+  "name": "Meta AI",
+  "tagline": "Meta AI is the AI assistant embedded across Meta's family of apps — Facebook, Instagram, WhatsApp, and Messenger — giving billions of users access to AI-powered conversations without a separate app. Powered by Meta's Llama models, it can answer questions, generate images, draft messages, and help with everyday tasks directly inside the apps people already use every day. Meta AI is also available as a standalone web experience at meta.ai.",
+  "description": "Meta AI is the AI assistant embedded across Meta's family of apps — Facebook, Instagram, WhatsApp, and Messenger — giving billions of users access to AI-powered conversations without a separate app. Powered by Meta's Llama models, it can answer questions, generate images, draft messages, and help with everyday tasks directly inside the apps people already use every day. Meta AI is also available as a standalone web experience at meta.ai.",
+  "url": "https://ai.meta.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=ai.meta.com&sz=64",
+  "screenshot_url": "/screenshots/meta-ai.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "ai_assistant",
+    "productivity",
+    "chatbot",
+    "support",
+    "helpful",
+    "personal",
+    "tasks",
+    "reminders",
+    "smart",
+    "image_based",
+    "model_based"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 91,
+  "subcategory": "ai-assistant",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

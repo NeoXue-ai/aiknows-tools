@@ -1,0 +1,30 @@
+{
+  "slug": "memegenerator",
+  "name": "Meme Generator",
+  "tagline": "Meme Generator (memegenerator.net) is one of the original web-based meme creation tools, offering a database of thousands of popular meme templates with a simple caption editor. Its AI-powered features suggest relevant templates for a given topic and can auto-generate captions. With hundreds of millions of memes created on the platform, it's a cultural institution of internet humour.",
+  "description": "Meme Generator (memegenerator.net) is one of the original web-based meme creation tools, offering a database of thousands of popular meme templates with a simple caption editor. Its AI-powered features suggest relevant templates for a given topic and can auto-generate captions. With hundreds of millions of memes created on the platform, it's a cultural institution of internet humour.",
+  "url": "https://memegenerator.net",
+  "logo_url": "https://www.google.com/s2/favicons?domain=memegenerator.net&sz=64",
+  "screenshot_url": "/screenshots/memegenerator.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "meme",
+    "creative",
+    "social_media",
+    "humor",
+    "content",
+    "viral",
+    "fun",
+    "images",
+    "captions",
+    "templates",
+    "easy_to_use"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "ai-graphic-design",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

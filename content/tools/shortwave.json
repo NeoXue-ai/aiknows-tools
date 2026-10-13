@@ -1,0 +1,29 @@
+{
+  "slug": "shortwave",
+  "name": "Shortwave",
+  "tagline": "Shortwave is an AI-powered email app for Gmail that uses AI to triage your inbox, group related emails into threads, and surface the most important messages. Its AI assistant can draft replies, summarise long email threads, and answer questions about emails using natural language.",
+  "description": "Shortwave is an AI-powered email app for Gmail that uses AI to triage your inbox, group related emails into threads, and surface the most important messages. Its AI assistant can draft replies, summarise long email threads, and answer questions about emails using natural language.",
+  "url": "https://shortwave.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=shortwave.com&sz=64",
+  "screenshot_url": "/screenshots/shortwave.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "email",
+    "productivity",
+    "writing",
+    "communication",
+    "inbox",
+    "email_management",
+    "drafting",
+    "scheduling",
+    "follow_up",
+    "nlp"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 65,
+  "subcategory": "email",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

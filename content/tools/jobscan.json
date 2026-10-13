@@ -1,0 +1,28 @@
+{
+  "slug": "jobscan",
+  "name": "Jobscan",
+  "tagline": "Jobscan compares your resume against a specific job description and scores how well they match for applicant tracking systems. Job seekers use it to identify missing keywords and skills before applying, increasing the chance their resume gets past automated screening. It also scans LinkedIn profiles and cover letters for the same kind of keyword gap analysis.",
+  "description": "Jobscan compares your resume against a specific job description and scores how well they match for applicant tracking systems. Job seekers use it to identify missing keywords and skills before applying, increasing the chance their resume gets past automated screening. It also scans LinkedIn profiles and cover letters for the same kind of keyword gap analysis.",
+  "url": "https://jobscan.co",
+  "logo_url": "https://www.google.com/s2/favicons?domain=jobscan.co&sz=64",
+  "screenshot_url": "/screenshots/jobscan.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "resume",
+    "career",
+    "writing",
+    "job_search",
+    "cv",
+    "cover_letter",
+    "ats",
+    "interview",
+    "professional"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 79,
+  "subcategory": "ai-resume-builder",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

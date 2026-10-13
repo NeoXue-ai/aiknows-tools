@@ -1,21 +1,50 @@
 {
   "slug": "drift",
   "name": "Drift",
-  "tagline": "Conversational marketing",
-  "description": "AI chatbots and live chat that qualify pipeline on your site.",
+  "tagline": "Drift is a conversational marketing platform that deploys AI chatbots on B2B websites to engage visitors, qualify leads in real time, and book meetings with sales reps — replacing static contact forms with instant, personalised conversations. Its AI understands visitor intent from behaviour and firmographic data, routing high-value prospects to a human rep immediately and nurturing lower-intent leads automatically. It merged with Salesloft in 2023 and remains the dominant brand in the conversational marketing space.",
+  "description": "Drift is a conversational marketing platform that deploys AI chatbots on B2B websites to engage visitors, qualify leads in real time, and book meetings with sales reps — replacing static contact forms with instant, personalised conversations. Its AI understands visitor intent from behaviour and firmographic data, routing high-value prospects to a human rep immediately and nurturing lower-intent leads automatically. It merged with Salesloft in 2023 and remains the dominant brand in the conversational marketing space.",
   "url": "https://drift.com",
   "logo_url": "https://www.google.com/s2/favicons?domain=drift.com&sz=64",
   "screenshot_url": "/screenshots/drift.webp",
-  "primary_category": "seo-marketing",
+  "primary_category": "productivity",
   "tags": [
+    "customer_support",
     "chatbot",
-    "conversational"
+    "business",
+    "help_desk",
+    "support",
+    "ticketing",
+    "live_chat",
+    "service",
+    "resolution",
+    "customizable",
+    "fast"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 84,
   "subcategory": "customer-support",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null,
+  "editorial": {
+    "seo": {
+      "title": "Drift: Conversational Marketing & Product Updates",
+      "description": "Drift is an earlier Salesloft conversational marketing product. Explore its listing and official information on the transition to newer chat agents."
+    },
+    "externalLinks": [
+      {
+        "label": "Official product information",
+        "url": "https://www.salesloft.com/platform/chat-agents",
+        "context": "Explore current product information and supported workflows."
+      }
+    ],
+    "comparison": {
+      "eyebrow": "Product update",
+      "heading": "Current Salesloft chat-agent offering",
+      "paragraphs": [
+        "Salesloft's current product page says its chat-agent offering has transitioned from Drift to 1mind. Follow the official product information link below for the current offering and availability."
+      ]
+    }
+  }
 }

@@ -1,0 +1,29 @@
+{
+  "slug": "meltwater",
+  "name": "Meltwater",
+  "tagline": "Meltwater tracks news, social media, and broadcast mentions in real time and uses AI to surface sentiment shifts and emerging storylines around a brand. Crisis and communications teams use it to catch a story early and track how their response is landing as it spreads.",
+  "description": "Meltwater tracks news, social media, and broadcast mentions in real time and uses AI to surface sentiment shifts and emerging storylines around a brand. Crisis and communications teams use it to catch a story early and track how their response is landing as it spreads.",
+  "url": "https://meltwater.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=meltwater.com&sz=64",
+  "screenshot_url": "/screenshots/meltwater.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "market_research",
+    "business",
+    "analytics",
+    "consumer",
+    "insights",
+    "surveys",
+    "competitive_analysis",
+    "trends",
+    "intelligence",
+    "collaboration"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 87,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

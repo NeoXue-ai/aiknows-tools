@@ -1,0 +1,30 @@
+{
+  "slug": "close",
+  "name": "Close",
+  "tagline": "Close is a sales CRM designed for inside sales teams, featuring built-in calling, email sequencing, and SMS in a single platform. Its AI features include call transcription, summarization, and lead scoring to help reps prioritize and close deals faster.",
+  "description": "Close is a sales CRM designed for inside sales teams, featuring built-in calling, email sequencing, and SMS in a single platform. Its AI features include call transcription, summarization, and lead scoring to help reps prioritize and close deals faster.",
+  "url": "https://close.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=close.com&sz=64",
+  "screenshot_url": "/screenshots/close.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "crm",
+    "sales",
+    "business",
+    "customers",
+    "relationships",
+    "pipeline",
+    "contacts",
+    "deals",
+    "customer_data",
+    "collaboration",
+    "fast"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 81,
+  "subcategory": "sales",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "vectara",
+  "name": "Vectara",
+  "tagline": "Vectara is a managed retrieval-augmented generation platform that helps enterprises build AI applications that give accurate, grounded answers from their own documents and data. Engineering teams use it to add trusted question-answering and search to internal knowledge bases, customer support systems, and document-heavy workflows without building RAG infrastructure from scratch. Its built-in hallucination detection and grounded generation approach makes it suitable for regulated industries where AI responses need to cite their sources rather than produce confident-sounding text that may be inaccurate.",
+  "description": "Vectara is a managed retrieval-augmented generation platform that helps enterprises build AI applications that give accurate, grounded answers from their own documents and data. Engineering teams use it to add trusted question-answering and search to internal knowledge bases, customer support systems, and document-heavy workflows without building RAG infrastructure from scratch. Its built-in hallucination detection and grounded generation approach makes it suitable for regulated industries where AI responses need to cite their sources rather than produce confident-sounding text that may be inaccurate.",
+  "url": "https://vectara.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=vectara.com&sz=64",
+  "screenshot_url": "/screenshots/vectara.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "collaboration",
+    "enterprise",
+    "customizable"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 68,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

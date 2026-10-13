@@ -1,0 +1,27 @@
+{
+  "slug": "lever",
+  "name": "Lever",
+  "tagline": "Lever is a talent acquisition suite that combines an ATS and CRM in one platform to manage the full recruiting workflow. Its AI features include interview scheduling automation, sourcing recommendations, and candidate scoring to help hiring teams work more efficiently.",
+  "description": "Lever is a talent acquisition suite that combines an ATS and CRM in one platform to manage the full recruiting workflow. Its AI features include interview scheduling automation, sourcing recommendations, and candidate scoring to help hiring teams work more efficiently.",
+  "url": "https://lever.co",
+  "logo_url": "https://www.google.com/s2/favicons?domain=lever.co&sz=64",
+  "screenshot_url": "/screenshots/lever.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "collaboration",
+    "fast",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool",
+    "service",
+    "solution"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 91,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

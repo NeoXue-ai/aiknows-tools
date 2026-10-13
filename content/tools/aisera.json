@@ -1,0 +1,31 @@
+{
+  "slug": "aisera",
+  "name": "Aisera",
+  "tagline": "Aisera is an enterprise AI platform that automates IT service management, HR, and customer support through conversational AI and autonomous resolution. It uses generative AI to deflect tickets, resolve issues without human intervention, and improve employee and customer experience.",
+  "description": "Aisera is an enterprise AI platform that automates IT service management, HR, and customer support through conversational AI and autonomous resolution. It uses generative AI to deflect tickets, resolve issues without human intervention, and improve employee and customer experience.",
+  "url": "https://aisera.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=aisera.com&sz=64",
+  "screenshot_url": "/screenshots/aisera.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "customer_support",
+    "chatbot",
+    "business",
+    "help_desk",
+    "support",
+    "ticketing",
+    "live_chat",
+    "service",
+    "resolution",
+    "enterprise",
+    "customizable",
+    "autonomous"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 72,
+  "subcategory": "customer-support",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

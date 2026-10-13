@@ -1,0 +1,30 @@
+{
+  "slug": "flexclip",
+  "name": "FlexClip",
+  "tagline": "FlexClip is an online video editor with AI features including text-to-video, AI video script writer, auto-subtitle generator, and background remover for video. It provides thousands of templates for social media, marketing, and presentations, making it ideal for non-designers who need polished video quickly.",
+  "description": "FlexClip is an online video editor with AI features including text-to-video, AI video script writer, auto-subtitle generator, and background remover for video. It provides thousands of templates for social media, marketing, and presentations, making it ideal for non-designers who need polished video quickly.",
+  "url": "https://flexclip.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=flexclip.com&sz=64",
+  "screenshot_url": "/screenshots/flexclip.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "video_editing",
+    "creative",
+    "video",
+    "production",
+    "media",
+    "cutting",
+    "transitions",
+    "effects",
+    "export",
+    "templates",
+    "fast"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 79,
+  "subcategory": "ai-video-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

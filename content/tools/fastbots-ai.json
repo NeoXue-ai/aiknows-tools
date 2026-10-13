@@ -1,0 +1,27 @@
+{
+  "slug": "fastbots-ai",
+  "name": "FastBots",
+  "tagline": "FastBots is a no-code platform for building AI-powered chatbots trained on your own business data. Import documents, websites, and FAQs to create a custom chatbot you can embed on any website or integrate with any tool.",
+  "description": "FastBots is a no-code platform for building AI-powered chatbots trained on your own business data. Import documents, websites, and FAQs to create a custom chatbot you can embed on any website or integrate with any tool.",
+  "url": "https://fastbots.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=fastbots.ai&sz=64",
+  "screenshot_url": "/screenshots/fastbots-ai.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "customizable",
+    "training",
+    "fast",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool",
+    "service"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 61,
+  "subcategory": "chatbots",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,21 +1,29 @@
 {
   "slug": "ahrefs",
   "name": "Ahrefs",
-  "tagline": "SEO tools built on real data",
-  "description": "Backlink analysis, keyword research, content explorer, and rank tracking.",
+  "tagline": "Ahrefs is a comprehensive SEO toolset covering backlink analysis, keyword research, site auditing, rank tracking, and content gap analysis. Its crawler indexes the web continuously, giving SEOs near-real-time data on competitor link profiles and organic rankings. It's widely regarded as the most extensive backlink database in the industry.",
+  "description": "Ahrefs is a comprehensive SEO toolset covering backlink analysis, keyword research, site auditing, rank tracking, and content gap analysis. Its crawler indexes the web continuously, giving SEOs near-real-time data on competitor link profiles and organic rankings. It's widely regarded as the most extensive backlink database in the industry.",
   "url": "https://ahrefs.com",
   "logo_url": "https://www.google.com/s2/favicons?domain=ahrefs.com&sz=64",
   "screenshot_url": "/screenshots/ahrefs.webp",
   "primary_category": "seo-marketing",
   "tags": [
     "seo",
-    "backlinks"
+    "marketing",
+    "analytics",
+    "ranking",
+    "optimization",
+    "keywords",
+    "content_seo",
+    "backlinks",
+    "serp",
+    "real_time"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 91,
   "subcategory": "ai-seo-tools",
-  "is_featured": true,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
 }

@@ -1,0 +1,29 @@
+{
+  "slug": "logoai",
+  "name": "LogoAI",
+  "tagline": "LogoAI is an AI logo maker that generates unique, vector-based logos from your company name, industry, and style preferences. Unlike template-based tools, its generator tries to produce original marks rather than remixing existing icons. The output includes SVG files, brand colour palettes, and mockups on business cards and social profiles.",
+  "description": "LogoAI is an AI logo maker that generates unique, vector-based logos from your company name, industry, and style preferences. Unlike template-based tools, its generator tries to produce original marks rather than remixing existing icons. The output includes SVG files, brand colour palettes, and mockups on business cards and social profiles.",
+  "url": "https://logoai.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=logoai.com&sz=64",
+  "screenshot_url": "/screenshots/logoai.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "design",
+    "image_generation",
+    "branding",
+    "logo",
+    "identity",
+    "brand_assets",
+    "visual_identity",
+    "symbols",
+    "creative",
+    "templates"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 74,
+  "subcategory": "ai-logo-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

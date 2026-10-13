@@ -5,80 +5,77 @@ type Faq = { question: string; answer: string };
 
 const FAQS: Faq[] = [
   {
-    question: "What is aiknows.tools?",
+    question: "What is AIKnows?",
     answer:
-      "An independent public catalogue of recorded AI tools and directory submission facts. Each entry lists what is captured, what is missing, and what is not measured.",
+      "AIKnows is an AI tools directory for writing, design, coding, research and everyday work. Browse by task, compare product information and follow official website links to explore a tool.",
   },
   {
-    question: "Is this a ranking or a directory?",
+    question: "How do I find an AI tool for my task?",
     answer:
-      "A reference catalogue. The site does not rank tools by traffic, popularity, or paid placement. Listings on /tools default to record time, which is closer to a changelog than a leaderboard.",
+      "Start with a category or search for a product name, feature or task. Open a listing to read its description, pricing information and related tools. Selected listings include source-based guides with features, use cases and limitations.",
   },
   {
-    question: "Why are there no star ratings or upvotes?",
+    question: "Are the tool guides based on hands-on testing?",
     answer:
-      "Because star ratings and upvote counts measure sentiment, not the substance of a tool record. The index records what a tool publishes about itself and shows that publication as-is.",
+      "The current guides are based on cited product information and official documentation. They describe capabilities and limitations, but do not claim that we have personally tested every tool. Use the linked sources to check details for your needs.",
   },
   {
     question: "How do I submit a tool or directory?",
     answer:
-      "Visit /submit for the current submission channel. Include a name, official URL, category, and product description. Editors review the details before publishing.",
+      "Open the Submit page and follow its submission link. Include your product name, official website, category and a clear description. Suggestions enter a public review queue; submission does not guarantee inclusion.",
   },
   {
-    question: "Is aiknows.tools free to use?",
+    question: "Is AIKnows free to use?",
     answer:
-      "Reading the index is free. Submission is free. Verification is an editorial step that does not require payment — see /pricing for what verification adds.",
+      "Browsing the directory and submitting a tool are free. The tools listed here have their own plans and access rules, so check each product's official website for current pricing.",
   },
   {
     question: "How are tools curated?",
     answer:
-      "Each record passes a basic validity check (working URL, non-placeholder content, matching category). Submissions are not auto-published; editor imports go through the same review queue as public submissions.",
+      "We review submitted product details and category fit before adding a listing. A working official website and a clear explanation of what the tool does help us assess a suggestion. Directory order is not a product quality ranking.",
   },
   {
     question: "How often is the directory updated?",
     answer:
-      "Review cadence varies by tool. Suggest a correction through /submit if a record has changed. Publication dates and verification flags appear only when they are recorded; an empty field does not imply a recent review.",
+      "Updates are published after review. Guides show a check date where available, and the schedule varies by tool. For current prices, features and availability, follow the official website link.",
   },
   {
-    question: "Can I edit my tool's record after submission?",
+    question: "How do I correct an existing listing?",
     answer:
-      "Yes — file a correction through /contact and include the dossier URL. Corrections are credited on the record when filed. We do not hand out self-serve edit access.",
+      "Use Suggest a correction on the Submit page or contact the team. Include the AIKnows listing URL, the detail that needs changing and an official source supporting the update. The team reviews corrections before publishing them.",
   },
   {
-    question: "What is the \"Verified record\" plan?",
+    question: "What does a Verified label mean?",
     answer:
-      "An editorial review that adds a verification field to your dossier. Verification is recorded as a field on the same Evidence Ledger as every other entry — it does not promote, boost, or relabel the tool. Full plan details at /pricing.",
+      "It marks an editorial verification recorded for a listing. It is not a performance rating or a guarantee that every feature remains current. Check the guide's date and official sources when evaluating a product.",
   },
   {
     question: "Where does the data come from?",
     answer:
-      "Two paths: public submissions via /submit, and editor imports from public sources (Product Hunt launches, changelogs, public lists). Imports populate the same fields as a submission and carry a recorded source when one is available.",
+      "The directory uses public product information and community submissions. Guides link to supporting official pages and documentation. Coverage and available details vary by product.",
   },
   {
     question: "Why are some fields missing for some tools?",
     answer:
-      "Because sparse data is shown as sparse. The dossier labels missing fields rather than padding or inferring them. This is a feature, not a bug.",
+      "Some listings have less information than others. We leave unknown details empty rather than guess them. If you have an official source for a missing detail, suggest an update.",
   },
   {
     question: "How is the domain rating (DR) used?",
     answer:
-      "Shown as a field on the dossier and as a sort key in /tools. It is a third-party domain metric, not an editorial quality claim. It is never used to boost or hide a tool.",
+      "DR is a third-party metric about a website's domain. It is shown where available and can be used to sort search results. It does not measure a tool's output quality, suitability or reliability.",
   },
 ];
 
 export const metadata = pageMetadata({
-  title: "FAQ",
+  title: "AI Tools Directory FAQ: Browsing & Submissions",
   description:
-    "Common questions about the aiknows.tools index — what it is, how submissions work, and how the data is recorded.",
+    "Find answers about using AIKnows, comparing AI tools, reading source-based guides, submitting a product and correcting an existing listing.",
   path: "/faq",
 });
 
 export default function FaqPage() {
   return (
     <div className="mx-auto w-full max-w-[768px] px-5 py-12 sm:px-8 md:py-16">
-      {/* Audit P5: Google retired FAQPage rich snippets in 2026 — emitting
-          FAQPage JSON-LD is now wasted signal. The on-page Q&A list stays
-          for users; we just stop marking it up. */}
       <header className="mb-10">
         <p className="text-sm font-medium text-accent">
           Frequently asked questions
@@ -87,13 +84,16 @@ export default function FaqPage() {
           Frequently Asked Questions
         </h1>
         <p className="mt-3 text-pretty leading-7 text-muted-foreground">
-          Everything you want to know about aiknows.tools before you dive in.
+          How to find a tool, understand its listing and contribute to AIKnows.
         </p>
       </header>
 
       <ol className="overflow-hidden rounded-2xl border border-border bg-card px-5 sm:px-7">
         {FAQS.map((item, i) => (
-          <li key={item.question} className="border-b border-border last:border-b-0">
+          <li
+            key={item.question}
+            className="border-b border-border last:border-b-0"
+          >
             <details className="group/item [&_summary::-webkit-details-marker]:hidden">
               <summary className="flex cursor-pointer list-none items-center gap-4 py-5">
                 <span className="w-6 shrink-0 text-xs leading-none tabular-nums text-muted-foreground transition-colors group-hover/item:text-foreground group-open/item:text-foreground">
@@ -122,14 +122,18 @@ export default function FaqPage() {
           Still have a question?
         </p>
         <h2 className="mt-3 text-2xl font-semibold tracking-[-0.025em]">
-          Write to the maintainers.
+          Get in touch with the team.
         </h2>
         <p className="mt-3 text-pretty leading-7 text-muted-foreground">
-          The fastest path for corrections and submission status is{" "}
-          <Link href="/contact" className="underline underline-offset-4 hover:text-accent">
-            /contact
-          </Link>
-          . Most emails get a reply within a few days.
+          Visit our{" "}
+          <Link
+            href="/contact"
+            className="underline underline-offset-4 hover:text-accent"
+          >
+            contact page
+          </Link>{" "}
+          for questions, or use the submission channel to suggest a tool or
+          correction. Include the listing or submission link so we can find it.
         </p>
       </section>
     </div>

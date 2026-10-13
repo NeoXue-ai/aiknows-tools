@@ -1,0 +1,31 @@
+{
+  "slug": "sourcegraph-cody",
+  "name": "Sourcegraph Cody",
+  "tagline": "Cody is Sourcegraph's AI coding assistant, distinguished by its ability to understand your entire codebase rather than just the file you're editing. It integrates with VS Code, JetBrains, and the web, using Sourcegraph's code intelligence to answer questions like \\\"how does our auth system work?\\\" with real references to the actual code. Cody supports multiple underlying models — Claude, GPT-4, Gemini — and is widely used in large enterprise codebases where whole-repo context is essential.",
+  "description": "Cody is Sourcegraph's AI coding assistant, distinguished by its ability to understand your entire codebase rather than just the file you're editing. It integrates with VS Code, JetBrains, and the web, using Sourcegraph's code intelligence to answer questions like \\\"how does our auth system work?\\\" with real references to the actual code. Cody supports multiple underlying models — Claude, GPT-4, Gemini — and is widely used in large enterprise codebases where whole-repo context is essential.",
+  "url": "https://sourcegraph.com/cody",
+  "logo_url": "https://www.google.com/s2/favicons?domain=sourcegraph.com&sz=64",
+  "screenshot_url": "/screenshots/sourcegraph-cody.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "code_generation",
+    "developer_tools",
+    "productivity",
+    "coding",
+    "programming",
+    "autocomplete",
+    "debugging",
+    "refactoring",
+    "ide",
+    "enterprise",
+    "integrations",
+    "model_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 80,
+  "subcategory": "ai-code-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "waifu2x",
+  "name": "Waifu2x",
+  "tagline": "Waifu2x is an open-source neural network-based image and video upscaler originally designed for anime-style artwork. It uses convolutional neural network models to intelligently enlarge images 2× while reducing compression artefacts and preserving clean edges. Despite its specialised origin, it works well on photographic content and remains a popular free option for basic AI upscaling tasks.",
+  "description": "Waifu2x is an open-source neural network-based image and video upscaler originally designed for anime-style artwork. It uses convolutional neural network models to intelligently enlarge images 2× while reducing compression artefacts and preserving clean edges. Despite its specialised origin, it works well on photographic content and remains a popular free option for basic AI upscaling tasks.",
+  "url": "https://waifu2x.udp.jp",
+  "logo_url": "https://www.google.com/s2/favicons?domain=waifu2x.udp.jp&sz=64",
+  "screenshot_url": "/screenshots/waifu2x.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "video_editing",
+    "upscaling",
+    "creative",
+    "quality",
+    "enhancement",
+    "restoration",
+    "sharpening",
+    "resolution",
+    "denoising",
+    "open_source",
+    "free_tier",
+    "machine_learning"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 65,
+  "subcategory": "ai-video-editor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "brandmark",
+  "name": "Brandmark",
+  "tagline": "Brandmark is an AI logo maker that generates unique logo options from your brand name, industry, and style preferences. It produces vector-format files alongside a full brand kit — colour palette, typography, business card layouts, and social media assets. Startups and freelancers use it to get a professional identity without hiring a designer.",
+  "description": "Brandmark is an AI logo maker that generates unique logo options from your brand name, industry, and style preferences. It produces vector-format files alongside a full brand kit — colour palette, typography, business card layouts, and social media assets. Startups and freelancers use it to get a professional identity without hiring a designer.",
+  "url": "https://brandmark.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=brandmark.io&sz=64",
+  "screenshot_url": "/screenshots/brandmark.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "design",
+    "image_generation",
+    "branding",
+    "logo",
+    "identity",
+    "brand_assets",
+    "visual_identity",
+    "symbols",
+    "creative",
+    "free_tier",
+    "powerful"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 74,
+  "subcategory": "ai-logo-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

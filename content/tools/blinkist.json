@@ -1,0 +1,27 @@
+{
+  "slug": "blinkist",
+  "name": "Blinkist",
+  "tagline": "Blinkist is a book summary app that condenses key ideas from nonfiction books into 15-minute reads and audio guides for busy professionals. It covers business, self-help, psychology, science, and history titles, with a library of thousands of summaries that gets updated weekly. Teams and individuals use it to preview books before buying, cover more ground than reading full books allows, or revisit core ideas from titles they finished years ago.",
+  "description": "Blinkist is a book summary app that condenses key ideas from nonfiction books into 15-minute reads and audio guides for busy professionals. It covers business, self-help, psychology, science, and history titles, with a library of thousands of summaries that gets updated weekly. Teams and individuals use it to preview books before buying, cover more ground than reading full books allows, or revisit core ideas from titles they finished years ago.",
+  "url": "https://blinkist.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=blinkist.com&sz=64",
+  "screenshot_url": "/screenshots/blinkist.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "collaboration",
+    "voice_enabled",
+    "powerful",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool",
+    "service"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 77,
+  "subcategory": "ai-summarizer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

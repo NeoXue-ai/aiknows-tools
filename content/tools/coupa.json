@@ -1,0 +1,29 @@
+{
+  "slug": "coupa",
+  "name": "Coupa",
+  "tagline": "Coupa is an enterprise spend management platform that uses AI to manage procurement, invoicing, expense management, and contract compliance in a unified system. Its Community.ai leverages anonymized spend data from thousands of companies to benchmark prices and identify savings.",
+  "description": "Coupa is an enterprise spend management platform that uses AI to manage procurement, invoicing, expense management, and contract compliance in a unified system. Its Community.ai leverages anonymized spend data from thousands of companies to benchmark prices and identify savings.",
+  "url": "https://coupa.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=coupa.com&sz=64",
+  "screenshot_url": "/screenshots/coupa.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "supply_chain",
+    "logistics",
+    "business",
+    "inventory",
+    "management",
+    "procurement",
+    "distribution",
+    "forecasting",
+    "operations",
+    "enterprise"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 80,
+  "subcategory": "ecommerce",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

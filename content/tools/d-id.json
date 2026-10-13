@@ -1,0 +1,30 @@
+{
+  "slug": "d-id",
+  "name": "D-ID",
+  "tagline": "D-ID is an AI video platform that animates still photos into talking, expressive video presenters. You upload a portrait and provide a script or audio track, and D-ID generates a realistic talking-head video in minutes. It's used for e-learning content, corporate communications, social media, and multilingual training videos at a fraction of traditional video production costs.",
+  "description": "D-ID is an AI video platform that animates still photos into talking, expressive video presenters. You upload a portrait and provide a script or audio track, and D-ID generates a realistic talking-head video in minutes. It's used for e-learning content, corporate communications, social media, and multilingual training videos at a fraction of traditional video production costs.",
+  "url": "https://d-id.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=d-id.com&sz=64",
+  "screenshot_url": "/screenshots/d-id.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "avatar",
+    "video_generation",
+    "creative",
+    "video",
+    "animation",
+    "digital_human",
+    "lip_sync",
+    "presenter",
+    "synthetic_media",
+    "voice_enabled",
+    "training"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 77,
+  "subcategory": "ai-avatar-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

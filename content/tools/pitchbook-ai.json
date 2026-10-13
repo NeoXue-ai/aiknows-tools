@@ -1,0 +1,29 @@
+{
+  "slug": "pitchbook-ai",
+  "name": "PitchBook",
+  "tagline": "PitchBook is the leading data and research platform for the private equity, venture capital, and M&A markets. Its AI features include Morningstar quantitative equity ratings integrated with deal data, predictive fundraising signals, and natural language search across its database of 3 million+ companies.",
+  "description": "PitchBook is the leading data and research platform for the private equity, venture capital, and M&A markets. Its AI features include Morningstar quantitative equity ratings integrated with deal data, predictive fundraising signals, and natural language search across its database of 3 million+ companies.",
+  "url": "https://pitchbook.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=pitchbook.com&sz=64",
+  "screenshot_url": "/screenshots/pitchbook-ai.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "finance",
+    "business",
+    "analytics",
+    "accounting",
+    "investment",
+    "financial_planning",
+    "budgeting",
+    "fintech",
+    "reporting",
+    "nlp"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 84,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

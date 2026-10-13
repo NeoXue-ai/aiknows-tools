@@ -1,0 +1,30 @@
+{
+  "slug": "balto-ai",
+  "name": "Balto",
+  "tagline": "Balto provides real-time AI guidance to call centre agents during live calls, prompting them with the best next response, compliance alerts, and objection-handling scripts. Unlike post-call analytics tools, Balto intervenes in the moment to improve outcomes, reducing average handle time and increasing conversion rates.",
+  "description": "Balto provides real-time AI guidance to call centre agents during live calls, prompting them with the best next response, compliance alerts, and objection-handling scripts. Unlike post-call analytics tools, Balto intervenes in the moment to improve outcomes, reducing average handle time and increasing conversion rates.",
+  "url": "https://balto.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=balto.ai&sz=64",
+  "screenshot_url": "/screenshots/balto-ai.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "customer_support",
+    "chatbot",
+    "business",
+    "help_desk",
+    "support",
+    "ticketing",
+    "live_chat",
+    "service",
+    "resolution",
+    "real_time",
+    "analytics"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 61,
+  "subcategory": "customer-support",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

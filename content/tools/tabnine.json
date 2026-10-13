@@ -1,21 +1,31 @@
 {
   "slug": "tabnine",
   "name": "Tabnine",
-  "tagline": "AI code assistant",
-  "description": "Privacy-focused AI code completions and chat, deployable on-prem.",
+  "tagline": "Tabnine is an AI code completion assistant that learns from your team's codebase to suggest completions, functions, and documentation that match your project's patterns and style. Unlike GitHub Copilot, Tabnine is self-hostable, making it popular with enterprises and regulated industries that can't send code to a third-party cloud. It supports 80+ languages and integrates with all major IDEs.",
+  "description": "Tabnine is an AI code completion assistant that learns from your team's codebase to suggest completions, functions, and documentation that match your project's patterns and style. Unlike GitHub Copilot, Tabnine is self-hostable, making it popular with enterprises and regulated industries that can't send code to a third-party cloud. It supports 80+ languages and integrates with all major IDEs.",
   "url": "https://tabnine.com",
   "logo_url": "https://www.google.com/s2/favicons?domain=tabnine.com&sz=64",
   "screenshot_url": "/screenshots/tabnine.webp",
   "primary_category": "code-development",
   "tags": [
-    "completion",
-    "privacy"
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "collaboration",
+    "enterprise",
+    "integrations"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
-  "subcategory": "ai-code-generator",
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 78,
+  "subcategory": "developer-tools",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

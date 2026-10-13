@@ -1,0 +1,27 @@
+{
+  "slug": "flowgpt",
+  "name": "FlowGPT",
+  "tagline": "FlowGPT is a community platform for sharing, discovering, and running AI prompts and workflow templates across popular models like ChatGPT, Claude, and Gemini. Users browse a library of prompts organized by category, run them directly in the platform, and publish their own for others to use and remix. It serves as both a prompt repository and a lightweight way to try AI workflows without writing prompts from scratch.",
+  "description": "FlowGPT is a community platform for sharing, discovering, and running AI prompts and workflow templates across popular models like ChatGPT, Claude, and Gemini. Users browse a library of prompts organized by category, run them directly in the platform, and publish their own for others to use and remix. It serves as both a prompt repository and a lightweight way to try AI workflows without writing prompts from scratch.",
+  "url": "https://flowgpt.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=flowgpt.com&sz=64",
+  "screenshot_url": "/screenshots/flowgpt.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "templates",
+    "model_based",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool",
+    "service",
+    "solution"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 66,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

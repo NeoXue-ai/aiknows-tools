@@ -1,0 +1,30 @@
+{
+  "slug": "craft-docs",
+  "name": "Craft Docs",
+  "tagline": "Craft is a premium document editor for Mac, iPad, and iPhone with a polished design and powerful AI features. Its AI assistant can write, rewrite, summarise, and translate content directly within documents. Craft supports deep linking between notes, backlinks, and offline-first storage.",
+  "description": "Craft is a premium document editor for Mac, iPad, and iPhone with a polished design and powerful AI features. Its AI assistant can write, rewrite, summarise, and translate content directly within documents. Craft supports deep linking between notes, backlinks, and offline-first storage.",
+  "url": "https://craft.do",
+  "logo_url": "https://www.google.com/s2/favicons?domain=craft.do&sz=64",
+  "screenshot_url": "/screenshots/craft-docs.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "note_taking",
+    "productivity",
+    "knowledge_base",
+    "organization",
+    "documentation",
+    "markdown",
+    "journaling",
+    "tasks",
+    "sync",
+    "mobile_app",
+    "powerful"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 76,
+  "subcategory": "ai-note-taker",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

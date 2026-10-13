@@ -1,0 +1,29 @@
+{
+  "slug": "x-ai",
+  "name": "x.ai",
+  "tagline": "x.ai was an AI scheduling assistant that automated meeting coordination by analysing emails and finding mutually available times without any manual back-and-forth. Users CC'd Amy or Andrew (its AI personas) on an email thread and the assistant handled all the scheduling logistics autonomously. Though x.ai shut down in 2021, it pioneered the email-native AI assistant category.",
+  "description": "x.ai was an AI scheduling assistant that automated meeting coordination by analysing emails and finding mutually available times without any manual back-and-forth. Users CC'd Amy or Andrew (its AI personas) on an email thread and the assistant handled all the scheduling logistics autonomously. Though x.ai shut down in 2021, it pioneered the email-native AI assistant category.",
+  "url": "https://x.ai/company",
+  "logo_url": "https://www.google.com/s2/favicons?domain=x.ai&sz=64",
+  "screenshot_url": "/screenshots/x-ai.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "scheduling",
+    "productivity",
+    "calendar",
+    "time_management",
+    "meetings",
+    "appointments",
+    "booking",
+    "availability",
+    "planning",
+    "autonomous"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 88,
+  "subcategory": "productivity-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

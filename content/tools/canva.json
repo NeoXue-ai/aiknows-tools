@@ -1,0 +1,109 @@
+{
+  "slug": "canva",
+  "name": "Canva",
+  "tagline": "Create visual layouts, presentations, and marketing content with integrated AI tools.",
+  "description": "Canva combines a visual design editor, templates, and AI tools for creating presentations, social graphics, videos, and other content. Use prompts to develop designs or images, draft text with Magic Write, and refine the result in the editor. Free and paid plans include different assets, capabilities, and AI allowances, so check which tools your account supports.",
+  "url": "https://canva.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
+  "screenshot_url": "/screenshots/canva.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "design",
+    "image_editing",
+    "creative",
+    "visual",
+    "branding",
+    "typography",
+    "layouts",
+    "ui_design",
+    "illustration",
+    "image_based",
+    "powerful"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 93,
+  "subcategory": "ai-graphic-design",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null,
+  "editorial": {
+    "guide": {
+      "checkedAt": "2026-10-13",
+      "features": [
+        {
+          "label": "Visual design and templates",
+          "text": "Build layouts with a visual editor and template library, then export designs in supported formats."
+        },
+        {
+          "label": "AI image and design tools",
+          "text": "Generate design starting points or images with prompts and refine visual content using available AI editing tools."
+        },
+        {
+          "label": "Writing inside a design workflow",
+          "text": "Use Magic Write to draft or revise text alongside the visuals for a presentation, post, or document."
+        }
+      ],
+      "useCases": [
+        {
+          "label": "Prepare campaign materials",
+          "text": "Develop social graphics, presentation slides, and other content while editing copy and visuals in the same workspace."
+        },
+        {
+          "label": "Turn an idea into a draft layout",
+          "text": "Start from a template or AI suggestion, then adjust the wording, imagery, and arrangement before exporting."
+        }
+      ],
+      "limitations": [
+        "AI tools, premium assets, and export features vary by plan; AI allowances depend on the tool and task complexity.",
+        "AI-generated text and visuals can contain mistakes. Review factual content and the finished layout before use.",
+        "Team, Enterprise, and Education administrators can enable or disable AI features."
+      ],
+      "platforms": ["Web", "Windows", "macOS", "iOS and iPadOS", "Android"],
+      "pricingNote": "Canva offers Free and paid plans with different content libraries, design features, and AI allowances. Check the official comparison for tool access and available AI add-ons.",
+      "pricingUrl": "https://www.canva.com/pricing/",
+      "alternatives": [
+        {
+          "slug": "adobe-express",
+          "reason": "Compare another platform for producing visual content and marketing designs."
+        },
+        {
+          "slug": "visme-ai",
+          "reason": "Explore another tool for presentations and visual communication."
+        },
+        {
+          "slug": "ideogram",
+          "reason": "Compare for generating image concepts that include text."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Canva AI tools",
+          "url": "https://www.canva.com/canva-ai/"
+        },
+        {
+          "label": "Canva plans and feature comparison",
+          "url": "https://www.canva.com/pricing/"
+        },
+        {
+          "label": "Canva supported devices and apps",
+          "url": "https://www.canva.com/help/technical-requirements/"
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Are Canva's AI tools available for free?",
+        "answer": "The Free plan includes access to some AI tools with limits. Other tools and higher allowances require eligible paid access; check the current plan comparison."
+      },
+      {
+        "question": "Can I edit an AI-generated design in Canva?",
+        "answer": "Canva combines AI creation with editor workflows for refining content. The editing controls available depend on the design type and tool, so review the output and adjust it before sharing."
+      }
+    ],
+    "seo": {
+      "title": "Canva: AI Design Tools for Images & Presentations",
+      "description": "Canva combines a visual editor, templates, and AI tools for images, presentations, and social graphics. Explore design features, Magic Write, and plans."
+    }
+  }
+}

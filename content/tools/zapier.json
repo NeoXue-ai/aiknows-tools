@@ -1,21 +1,30 @@
 {
   "slug": "zapier",
   "name": "Zapier",
-  "tagline": "Workflow automation",
-  "description": "Connect 7,000+ apps to automate workflows, now with AI actions.",
+  "tagline": "Zapier is the most widely used no-code automation platform, connecting 6,000+ apps through simple 'if this, then that' workflows called Zaps. Its AI features include natural-language workflow creation (describe what you want to automate and Zapier builds the Zap) and AI actions that connect LLMs like ChatGPT directly into your automations. Over 2 million businesses use Zapier to eliminate manual handoffs between their software tools.",
+  "description": "Zapier is the most widely used no-code automation platform, connecting 6,000+ apps through simple 'if this, then that' workflows called Zaps. Its AI features include natural-language workflow creation (describe what you want to automate and Zapier builds the Zap) and AI actions that connect LLMs like ChatGPT directly into your automations. Over 2 million businesses use Zapier to eliminate manual handoffs between their software tools.",
   "url": "https://zapier.com",
   "logo_url": "https://www.google.com/s2/favicons?domain=zapier.com&sz=64",
   "screenshot_url": "/screenshots/zapier.webp",
   "primary_category": "productivity",
   "tags": [
     "automation",
-    "integration"
+    "workflow",
+    "productivity",
+    "repetitive_tasks",
+    "efficiency",
+    "process_automation",
+    "triggers",
+    "scheduling",
+    "bots",
+    "model_based",
+    "easy_to_use"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
-  "subcategory": "ai-workflow",
-  "is_featured": true,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 91,
+  "subcategory": "automation",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
 }

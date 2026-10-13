@@ -1,0 +1,31 @@
+{
+  "slug": "fal-ai",
+  "name": "Fal.ai",
+  "tagline": "fal.ai is a fast AI inference platform specializing in running image and video generation models at scale. It provides an API and serverless GPU infrastructure optimized for low-latency inference of models like Flux, Stable Diffusion, and open-source video generators.",
+  "description": "fal.ai is a fast AI inference platform specializing in running image and video generation models at scale. It provides an API and serverless GPU infrastructure optimized for low-latency inference of models like Flux, Stable Diffusion, and open-source video generators.",
+  "url": "https://fal.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=fal.ai&sz=64",
+  "screenshot_url": "/screenshots/fal-ai.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "open_source",
+    "api_available",
+    "image_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 82,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

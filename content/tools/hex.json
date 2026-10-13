@@ -1,0 +1,30 @@
+{
+  "slug": "hex",
+  "name": "Hex",
+  "tagline": "Hex is a collaborative data workspace where analysts and data scientists work on notebooks, dashboards, and data apps in a shared environment. Teams use it for exploratory analysis and building internal tools that non-technical stakeholders can interact with. Its AI features help write SQL, debug code, and generate chart configurations from natural language prompts.",
+  "description": "Hex is a collaborative data workspace where analysts and data scientists work on notebooks, dashboards, and data apps in a shared environment. Teams use it for exploratory analysis and building internal tools that non-technical stakeholders can interact with. Its AI features help write SQL, debug code, and generate chart configurations from natural language prompts.",
+  "url": "https://hex.tech",
+  "logo_url": "https://www.google.com/s2/favicons?domain=hex.tech&sz=64",
+  "screenshot_url": "/screenshots/hex.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "data_analysis",
+    "analytics",
+    "business",
+    "insights",
+    "visualization",
+    "data_science",
+    "reporting",
+    "dashboards",
+    "sql",
+    "collaboration",
+    "nlp"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 76,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

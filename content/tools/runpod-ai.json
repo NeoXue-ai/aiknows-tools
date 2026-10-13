@@ -1,0 +1,31 @@
+{
+  "slug": "runpod-ai",
+  "name": "RunPod",
+  "tagline": "RunPod is a GPU cloud marketplace that offers on-demand and spot GPU instances for AI training, fine-tuning, and inference at competitive prices. Developers and researchers use it to run Stable Diffusion, LLaMA, and other open-source models without the cost of hyperscaler GPU reservations.",
+  "description": "RunPod is a GPU cloud marketplace that offers on-demand and spot GPU instances for AI training, fine-tuning, and inference at competitive prices. Developers and researchers use it to run Stable Diffusion, LLaMA, and other open-source models without the cost of hyperscaler GPU reservations.",
+  "url": "https://runpod.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=runpod.io&sz=64",
+  "screenshot_url": "/screenshots/runpod-ai.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "llm",
+    "foundation_model",
+    "ai_model",
+    "machine_learning",
+    "neural",
+    "inference",
+    "fine_tuning",
+    "api",
+    "open_source",
+    "cloud_based",
+    "training",
+    "model_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 77,
+  "subcategory": "ai-models",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

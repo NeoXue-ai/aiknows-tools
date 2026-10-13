@@ -1,0 +1,29 @@
+{
+  "slug": "rosetta-stone",
+  "name": "Rosetta Stone",
+  "tagline": "Rosetta Stone is one of the oldest and most recognised language learning brands, now offering a fully digital, AI-driven immersive learning experience in 25 languages. Its TruAccent speech-recognition engine gives instant pronunciation feedback, and lessons are structured to build intuition through context — like how children learn — rather than grammar rules. It's popular with adults and institutions seeking a rigorous, structured approach.",
+  "description": "Rosetta Stone is one of the oldest and most recognised language learning brands, now offering a fully digital, AI-driven immersive learning experience in 25 languages. Its TruAccent speech-recognition engine gives instant pronunciation feedback, and lessons are structured to build intuition through context — like how children learn — rather than grammar rules. It's popular with adults and institutions seeking a rigorous, structured approach.",
+  "url": "https://rosettastone.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=rosettastone.com&sz=64",
+  "screenshot_url": "/screenshots/rosetta-stone.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "language_learning",
+    "education",
+    "languages",
+    "learning",
+    "multilingual",
+    "vocabulary",
+    "grammar",
+    "speaking",
+    "immersion",
+    "fast"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 78,
+  "subcategory": "ai-tutor",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

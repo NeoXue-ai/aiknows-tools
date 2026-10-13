@@ -1,0 +1,31 @@
+{
+  "slug": "netomi-ai",
+  "name": "Netomi",
+  "tagline": "Netomi is an enterprise AI customer service platform that resolves complex support queries across email, chat, SMS, and social with very high automation rates. Its neural network is trained on historical tickets, enabling it to handle nuanced multi-step requests that simpler rule-based bots cannot. Used by Air Canada, Vimeo, and major retailers.",
+  "description": "Netomi is an enterprise AI customer service platform that resolves complex support queries across email, chat, SMS, and social with very high automation rates. Its neural network is trained on historical tickets, enabling it to handle nuanced multi-step requests that simpler rule-based bots cannot. Used by Air Canada, Vimeo, and major retailers.",
+  "url": "https://netomi.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=netomi.com&sz=64",
+  "screenshot_url": "/screenshots/netomi-ai.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "customer_support",
+    "chatbot",
+    "business",
+    "help_desk",
+    "support",
+    "ticketing",
+    "live_chat",
+    "service",
+    "resolution",
+    "enterprise",
+    "customizable",
+    "machine_learning"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 71,
+  "subcategory": "customer-support",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

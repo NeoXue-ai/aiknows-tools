@@ -1,0 +1,27 @@
+{
+  "slug": "feedzai",
+  "name": "Feedzai",
+  "tagline": "Feedzai is a risk management platform that uses machine learning to spot fraud and financial crime in banking, card, and payment transactions as they happen. Its models score each transaction in milliseconds, flagging account takeovers, money laundering patterns, and scams before money actually moves. Banks and payment processors use Feedzai to cut false positives while still catching fraud that rule-based systems miss.",
+  "description": "Feedzai is a risk management platform that uses machine learning to spot fraud and financial crime in banking, card, and payment transactions as they happen. Its models score each transaction in milliseconds, flagging account takeovers, money laundering patterns, and scams before money actually moves. Banks and payment processors use Feedzai to cut false positives while still catching fraud that rule-based systems miss.",
+  "url": "https://feedzai.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=feedzai.com&sz=64",
+  "screenshot_url": "/screenshots/feedzai.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "machine_learning",
+    "model_based",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool",
+    "service",
+    "solution"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

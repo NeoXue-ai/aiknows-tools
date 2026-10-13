@@ -1,0 +1,31 @@
+{
+  "slug": "simpleshow-ai",
+  "name": "simpleshow",
+  "tagline": "simpleshow uses AI to transform complex topics into simple, engaging explainer videos. Its Explainer Engine analyses scripts and automatically creates illustrated videos with a distinctive whiteboard animation style. Enterprise companies use it for training, change management, and product explainers across global teams.",
+  "description": "simpleshow uses AI to transform complex topics into simple, engaging explainer videos. Its Explainer Engine analyses scripts and automatically creates illustrated videos with a distinctive whiteboard animation style. Enterprise companies use it for training, change management, and product explainers across global teams.",
+  "url": "https://simpleshow.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=simpleshow.com&sz=64",
+  "screenshot_url": "/screenshots/simpleshow-ai.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "video_generation",
+    "creative",
+    "text_to_video",
+    "animation",
+    "production",
+    "ai_video",
+    "generative",
+    "short_form",
+    "clips",
+    "collaboration",
+    "enterprise",
+    "training"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 74,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

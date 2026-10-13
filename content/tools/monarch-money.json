@@ -1,0 +1,28 @@
+{
+  "slug": "monarch-money",
+  "name": "Monarch Money",
+  "tagline": "Monarch Money is a personal finance platform that aggregates bank accounts, investments, and credit cards to give users a complete picture of their financial life. Its AI features include transaction categorization, spending analysis, and goal-based budgeting advice.",
+  "description": "Monarch Money is a personal finance platform that aggregates bank accounts, investments, and credit cards to give users a complete picture of their financial life. Its AI features include transaction categorization, spending analysis, and goal-based budgeting advice.",
+  "url": "https://monarchmoney.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=monarchmoney.com&sz=64",
+  "screenshot_url": "/screenshots/monarch-money.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "finance",
+    "business",
+    "analytics",
+    "accounting",
+    "investment",
+    "financial_planning",
+    "budgeting",
+    "fintech",
+    "reporting"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 70,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "openrouter",
+  "name": "OpenRouter",
+  "tagline": "OpenRouter provides a single OpenAI-compatible API endpoint that routes requests to over 300 models from OpenAI, Anthropic, Google, Meta, Mistral, and dozens of smaller labs. Developers can switch between models with a one-line change, implement automatic fallbacks when a provider has an outage, and compare cost per token across every provider in real time. It's become the standard way to build model-agnostic applications and to access models that aren't otherwise available via direct API.",
+  "description": "OpenRouter provides a single OpenAI-compatible API endpoint that routes requests to over 300 models from OpenAI, Anthropic, Google, Meta, Mistral, and dozens of smaller labs. Developers can switch between models with a one-line change, implement automatic fallbacks when a provider has an outage, and compare cost per token across every provider in real time. It's become the standard way to build model-agnostic applications and to access models that aren't otherwise available via direct API.",
+  "url": "https://openrouter.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=openrouter.ai&sz=64",
+  "screenshot_url": "/screenshots/openrouter.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "api_available",
+    "model_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 89,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

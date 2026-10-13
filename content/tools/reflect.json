@@ -1,0 +1,30 @@
+{
+  "slug": "reflect",
+  "name": "Reflect",
+  "tagline": "Reflect is a networked note-taking app that uses AI to help you think more clearly, connecting your notes with backlinks and an AI assistant that can summarise, expand, and surface related ideas as you write. It syncs across devices with end-to-end encryption and integrates with calendars so meeting notes are automatically linked to the right people and events. Writers and knowledge workers use Reflect to build a second brain that actively surfaces relevant past thinking.",
+  "description": "Reflect is a networked note-taking app that uses AI to help you think more clearly, connecting your notes with backlinks and an AI assistant that can summarise, expand, and surface related ideas as you write. It syncs across devices with end-to-end encryption and integrates with calendars so meeting notes are automatically linked to the right people and events. Writers and knowledge workers use Reflect to build a second brain that actively surfaces relevant past thinking.",
+  "url": "https://reflect.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=reflect.app&sz=64",
+  "screenshot_url": "/screenshots/reflect.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "knowledge_base",
+    "productivity",
+    "note_taking",
+    "organization",
+    "information",
+    "second_brain",
+    "wiki",
+    "search",
+    "retrieval",
+    "integrations",
+    "secure"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 67,
+  "subcategory": "ai-assistant",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "7shifts",
+  "name": "7shifts",
+  "tagline": "7shifts builds staff schedules for restaurants, cafes, and bars by forecasting sales and labor needs, then suggesting shift coverage that keeps wage costs in line with expected demand. It also handles shift swaps, tip pooling, and alerts for break law and overtime compliance. Thousands of food and beverage operators use it to cut the hours managers spend building schedules by hand.",
+  "description": "7shifts builds staff schedules for restaurants, cafes, and bars by forecasting sales and labor needs, then suggesting shift coverage that keeps wage costs in line with expected demand. It also handles shift swaps, tip pooling, and alerts for break law and overtime compliance. Thousands of food and beverage operators use it to cut the hours managers spend building schedules by hand.",
+  "url": "https://7shifts.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=7shifts.com&sz=64",
+  "screenshot_url": "/screenshots/7shifts.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "hr",
+    "business",
+    "recruitment",
+    "employees",
+    "human_resources",
+    "onboarding",
+    "performance",
+    "payroll",
+    "talent"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 77,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "clockwise-ai",
+  "name": "Clockwise",
+  "tagline": "Clockwise is an AI calendar assistant that automatically optimises meeting schedules to create blocks of uninterrupted Focus Time. It reschedules flexible meetings across teams to minimise context-switching, balances workloads, and can schedule meetings via natural language with its Prism AI assistant.",
+  "description": "Clockwise is an AI calendar assistant that automatically optimises meeting schedules to create blocks of uninterrupted Focus Time. It reschedules flexible meetings across teams to minimise context-switching, balances workloads, and can schedule meetings via natural language with its Prism AI assistant.",
+  "url": "https://getclockwise.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=getclockwise.com&sz=64",
+  "screenshot_url": "/screenshots/clockwise-ai.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "scheduling",
+    "productivity",
+    "calendar",
+    "time_management",
+    "meetings",
+    "appointments",
+    "booking",
+    "availability",
+    "planning",
+    "collaboration",
+    "nlp",
+    "versatile"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 76,
+  "subcategory": "productivity-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

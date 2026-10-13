@@ -1,0 +1,110 @@
+{
+  "slug": "perplexity-search",
+  "name": "Perplexity",
+  "tagline": "Search the web and your files with AI answers linked to supporting sources.",
+  "description": "Perplexity is an AI search service that combines web retrieval with conversational answers and source citations. Ask a question, follow the linked evidence, and refine the search with follow-up prompts. Supported file and project workflows add your own materials, while research features can produce a broader synthesis of a complex topic. Access and usage vary by plan.",
+  "url": "https://perplexity.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=perplexity.ai&sz=64",
+  "screenshot_url": "/screenshots/perplexity-search.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "search",
+    "ai_assistant",
+    "discovery",
+    "information",
+    "query",
+    "web_search",
+    "answers",
+    "knowledge",
+    "retrieval",
+    "real_time",
+    "nlp",
+    "model_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 91,
+  "subcategory": "ai-search-engine",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null,
+  "editorial": {
+    "guide": {
+      "checkedAt": "2026-10-13",
+      "features": [
+        {
+          "label": "Web answers with citations",
+          "text": "Get a synthesized answer alongside links to sources you can open and inspect."
+        },
+        {
+          "label": "Files and project context",
+          "text": "Use supported uploads and project features to bring your own information into a search workflow."
+        },
+        {
+          "label": "Deeper research",
+          "text": "Research features investigate complex questions across sources and organize the findings into a cited report."
+        }
+      ],
+      "useCases": [
+        {
+          "label": "Orient yourself on a topic",
+          "text": "Start with a question, read the cited material, and use follow-up prompts to explore details or competing explanations."
+        },
+        {
+          "label": "Combine external and internal context",
+          "text": "Search public information alongside supported uploaded files when preparing a comparison or research briefing."
+        }
+      ],
+      "limitations": [
+        "Review the cited evidence before relying on a conclusion; a synthesized answer is a starting point for checking sources.",
+        "Advanced searches, research, model access, and uploads have different allowances across plans.",
+        "Programmatic API access is a separate product with its own billing and does not inherit a web subscription's features."
+      ],
+      "platforms": ["Web", "iOS", "Android", "Comet browser"],
+      "pricingNote": "Core search is available on a Free plan. Paid individual and organization plans offer different capabilities and allowances; consult the official comparison for current limits.",
+      "pricingUrl": "https://www.perplexity.ai/help-center/en/articles/11187416-which-perplexity-subscription-plan-is-right-for-you",
+      "alternatives": [
+        {
+          "slug": "chatgpt",
+          "reason": "Compare for a general assistant with research and file workflows."
+        },
+        {
+          "slug": "you-search",
+          "reason": "Explore another AI-oriented search service."
+        },
+        {
+          "slug": "notebooklm",
+          "reason": "Compare for research organized around a selected source collection."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Perplexity product overview",
+          "url": "https://www.perplexity.ai/hub"
+        },
+        {
+          "label": "Perplexity Search features",
+          "url": "https://www.perplexity.ai/en-GB/hub/products/search"
+        },
+        {
+          "label": "Perplexity subscription comparison",
+          "url": "https://www.perplexity.ai/help-center/en/articles/11187416-which-perplexity-subscription-plan-is-right-for-you"
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Does Perplexity link to the sources behind an answer?",
+        "answer": "Perplexity's search answers include citations that link to supporting sources. Open those references to check the evidence and its context."
+      },
+      {
+        "question": "Can I upload files to Perplexity?",
+        "answer": "Yes. File uploads are supported, with limited access on the Free plan and different upload and analysis allowances on paid plans. Check the current plan comparison."
+      }
+    ],
+    "seo": {
+      "title": "Perplexity: AI Search Engine with Source Citations",
+      "description": "Perplexity searches the web and supported files to answer questions with source citations. Explore research features, project workflows, and plan limits."
+    }
+  }
+}

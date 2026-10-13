@@ -1,0 +1,31 @@
+{
+  "slug": "baseten",
+  "name": "Baseten",
+  "tagline": "Baseten is a model inference infrastructure platform for deploying AI models in production with fast cold start times. ML teams use it to serve custom models, fine-tuned checkpoints, and open-source models like Llama through a simple API without managing GPU clusters. It handles autoscaling and caching so models stay responsive under variable traffic without unnecessary compute costs.",
+  "description": "Baseten is a model inference infrastructure platform for deploying AI models in production with fast cold start times. ML teams use it to serve custom models, fine-tuned checkpoints, and open-source models like Llama through a simple API without managing GPU clusters. It handles autoscaling and caching so models stay responsive under variable traffic without unnecessary compute costs.",
+  "url": "https://baseten.co",
+  "logo_url": "https://www.google.com/s2/favicons?domain=baseten.co&sz=64",
+  "screenshot_url": "/screenshots/baseten.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "open_source",
+    "api_available",
+    "collaboration"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 77,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

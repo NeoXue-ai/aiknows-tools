@@ -1,0 +1,31 @@
+{
+  "slug": "cline",
+  "name": "Cline",
+  "tagline": "Cline is an open-source VS Code extension that gives Claude and other LLMs the ability to autonomously create and edit files, run terminal commands, and browse the web to complete multi-step coding tasks. Unlike copilots that suggest completions, Cline takes initiative — reading your project, writing code across files, installing dependencies, and verifying its work. It's one of the fastest-growing open-source AI coding tools, popular for tasks that require more than a single-file change.",
+  "description": "Cline is an open-source VS Code extension that gives Claude and other LLMs the ability to autonomously create and edit files, run terminal commands, and browse the web to complete multi-step coding tasks. Unlike copilots that suggest completions, Cline takes initiative — reading your project, writing code across files, installing dependencies, and verifying its work. It's one of the fastest-growing open-source AI coding tools, popular for tasks that require more than a single-file change.",
+  "url": "https://github.com/cline/cline",
+  "logo_url": "https://www.google.com/s2/favicons?domain=github.com&sz=64",
+  "screenshot_url": "/screenshots/cline.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "code_generation",
+    "developer_tools",
+    "productivity",
+    "coding",
+    "programming",
+    "autocomplete",
+    "debugging",
+    "refactoring",
+    "ide",
+    "open_source",
+    "autonomous",
+    "model_based"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 97,
+  "subcategory": "ai-code-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

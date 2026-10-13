@@ -1,0 +1,28 @@
+{
+  "slug": "higgsfield",
+  "name": "Higgsfield AI",
+  "tagline": "Higgsfield AI is a video generation platform that gives users more control over generated footage than most competitors. You specify camera movements, character behavior, and cinematic style rather than hoping a prompt lands right. Content creators who need consistent output across a series of clips tend to find it more predictable than prompt-only tools.",
+  "description": "Higgsfield AI is a video generation platform that gives users more control over generated footage than most competitors. You specify camera movements, character behavior, and cinematic style rather than hoping a prompt lands right. Content creators who need consistent output across a series of clips tend to find it more predictable than prompt-only tools.",
+  "url": "https://higgsfield.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=higgsfield.ai&sz=64",
+  "screenshot_url": "/screenshots/higgsfield.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "video_generation",
+    "creative",
+    "text_to_video",
+    "animation",
+    "production",
+    "ai_video",
+    "generative",
+    "short_form",
+    "clips"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 82,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

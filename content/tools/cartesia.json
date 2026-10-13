@@ -1,0 +1,31 @@
+{
+  "slug": "cartesia",
+  "name": "Cartesia",
+  "tagline": "Cartesia builds state-space-model-based voice AI optimised for real-time, ultra-low-latency speech synthesis — producing natural voices in under 90ms end-to-end. Its Sonic model is designed for voice agents, phone bots, and interactive applications where a 500ms delay would break the conversational feel. Cartesia's API supports voice cloning, emotion control, and multilingual synthesis, and it's become a preferred TTS provider for companies building real-time voice AI products where ElevenLabs' latency is too high.",
+  "description": "Cartesia builds state-space-model-based voice AI optimised for real-time, ultra-low-latency speech synthesis — producing natural voices in under 90ms end-to-end. Its Sonic model is designed for voice agents, phone bots, and interactive applications where a 500ms delay would break the conversational feel. Cartesia's API supports voice cloning, emotion control, and multilingual synthesis, and it's become a preferred TTS provider for companies building real-time voice AI products where ElevenLabs' latency is too high.",
+  "url": "https://cartesia.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=cartesia.ai&sz=64",
+  "screenshot_url": "/screenshots/cartesia.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "text_to_speech",
+    "audio",
+    "voice",
+    "narration",
+    "accessibility",
+    "tts",
+    "speech_synthesis",
+    "voiceover",
+    "reading",
+    "api_available",
+    "real_time",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 75,
+  "subcategory": "text-to-speech-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

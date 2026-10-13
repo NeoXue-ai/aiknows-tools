@@ -1,21 +1,31 @@
 {
   "slug": "instantly",
-  "name": "Instantly.ai",
-  "tagline": "Cold email at scale",
-  "description": "Unlimited email accounts, warmup, and AI sequences for outbound.",
+  "name": "Instantly",
+  "tagline": "Instantly is a cold email platform that manages unlimited sending accounts, warms them up automatically, and uses AI to personalise sequences and optimise send timing for maximum deliverability. Its unified inbox aggregates replies across all connected accounts, and built-in analytics show reply rates, bounce rates, and campaign performance. Growth teams and agencies sending high-volume outreach use Instantly to scale email campaigns without sacrificing deliverability.",
+  "description": "Instantly is a cold email platform that manages unlimited sending accounts, warms them up automatically, and uses AI to personalise sequences and optimise send timing for maximum deliverability. Its unified inbox aggregates replies across all connected accounts, and built-in analytics show reply rates, bounce rates, and campaign performance. Growth teams and agencies sending high-volume outreach use Instantly to scale email campaigns without sacrificing deliverability.",
   "url": "https://instantly.ai",
   "logo_url": "https://www.google.com/s2/favicons?domain=instantly.ai&sz=64",
   "screenshot_url": "/screenshots/instantly.webp",
   "primary_category": "ecommerce-sales",
   "tags": [
-    "email",
-    "outbound"
+    "sales",
+    "business",
+    "crm",
+    "revenue",
+    "conversion",
+    "pipeline",
+    "prospecting",
+    "closing",
+    "forecasting",
+    "collaboration",
+    "customizable",
+    "analytics"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
-  "subcategory": "email",
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 80,
+  "subcategory": "sales",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

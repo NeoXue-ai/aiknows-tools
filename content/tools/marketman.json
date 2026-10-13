@@ -1,0 +1,30 @@
+{
+  "slug": "marketman",
+  "name": "MarketMan",
+  "tagline": "MarketMan tracks inventory, supplier orders, and recipe costs for restaurants, cafes, and bars, predicting ingredient usage and flagging when costs drift from a recipe's target margin. It reconciles supplier invoices automatically and warns managers before a slow ingredient spoils or a fast one runs out mid-shift. Independent cafes and multi-location restaurant groups use it to keep food cost percentages in check without hiring a dedicated inventory manager.",
+  "description": "MarketMan tracks inventory, supplier orders, and recipe costs for restaurants, cafes, and bars, predicting ingredient usage and flagging when costs drift from a recipe's target margin. It reconciles supplier invoices automatically and warns managers before a slow ingredient spoils or a fast one runs out mid-shift. Independent cafes and multi-location restaurant groups use it to keep food cost percentages in check without hiring a dedicated inventory manager.",
+  "url": "https://marketman.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=marketman.com&sz=64",
+  "screenshot_url": "/screenshots/marketman.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "business",
+    "productivity",
+    "enterprise",
+    "operations",
+    "management",
+    "documents",
+    "contracts",
+    "proposals",
+    "workflow",
+    "voice_enabled",
+    "fast"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 70,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

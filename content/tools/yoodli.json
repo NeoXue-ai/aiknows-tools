@@ -1,0 +1,29 @@
+{
+  "slug": "yoodli",
+  "name": "Yoodli",
+  "tagline": "Yoodli records a practice interview or presentation, then scores filler words, pacing, eye contact, and clarity, and suggests specific fixes. Career coaches and job seekers use it to rehearse answers before a real interview, and sales and leadership teams use it to drill presentations without needing a live audience.",
+  "description": "Yoodli records a practice interview or presentation, then scores filler words, pacing, eye contact, and clarity, and suggests specific fixes. Career coaches and job seekers use it to rehearse answers before a real interview, and sales and leadership teams use it to drill presentations without needing a live audience.",
+  "url": "https://yoodli.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=yoodli.ai&sz=64",
+  "screenshot_url": "/screenshots/yoodli.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "career",
+    "hr",
+    "recruitment",
+    "jobs",
+    "employment",
+    "job_search",
+    "resume",
+    "interview",
+    "hiring",
+    "collaboration"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 69,
+  "subcategory": "productivity-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

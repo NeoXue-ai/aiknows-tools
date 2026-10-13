@@ -1,0 +1,29 @@
+{
+  "slug": "wolfram-alpha-ai",
+  "name": "Wolfram Alpha AI",
+  "tagline": "Wolfram Alpha is a computational knowledge engine that answers factual queries by computing answers from structured data rather than retrieving web pages. Its AI integration with ChatGPT and native chat interface extends it to complex problem solving in maths, science, engineering, and finance.",
+  "description": "Wolfram Alpha is a computational knowledge engine that answers factual queries by computing answers from structured data rather than retrieving web pages. Its AI integration with ChatGPT and native chat interface extends it to complex problem solving in maths, science, engineering, and finance.",
+  "url": "https://wolframalpha.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=wolframalpha.com&sz=64",
+  "screenshot_url": "/screenshots/wolfram-alpha-ai.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "research",
+    "analytics",
+    "academic",
+    "studies",
+    "investigation",
+    "literature_review",
+    "citations",
+    "discovery",
+    "synthesis",
+    "integrations"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 84,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

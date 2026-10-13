@@ -1,0 +1,31 @@
+{
+  "slug": "giskard",
+  "name": "Giskard",
+  "tagline": "Giskard is an open-source AI quality testing platform that automatically scans LLMs and ML models for vulnerabilities such as hallucinations, bias, prompt injection, and data leakage. Teams integrate it into CI/CD pipelines to ensure model safety before deployment.",
+  "description": "Giskard is an open-source AI quality testing platform that automatically scans LLMs and ML models for vulnerabilities such as hallucinations, bias, prompt injection, and data leakage. Teams integrate it into CI/CD pipelines to ensure model safety before deployment.",
+  "url": "https://giskard.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=giskard.ai&sz=64",
+  "screenshot_url": "/screenshots/giskard.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "open_source",
+    "collaboration",
+    "machine_learning"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 68,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

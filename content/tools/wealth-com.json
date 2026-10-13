@@ -1,0 +1,29 @@
+{
+  "slug": "wealth-com",
+  "name": "Wealth.com",
+  "tagline": "Wealth.com gives financial advisors a white-labeled way to offer estate planning, including wills, trusts, and healthcare directives, without referring clients out to a separate attorney. Its AI assistant, Ester, reads a client's existing estate documents and flags gaps or outdated provisions in plain language, which speeds up the review conversations advisors used to handle manually. Firms plug it into their existing CRM and portfolio tools, so estate planning shows up as part of a normal wealth review instead of a separate errand.",
+  "description": "Wealth.com gives financial advisors a white-labeled way to offer estate planning, including wills, trusts, and healthcare directives, without referring clients out to a separate attorney. Its AI assistant, Ester, reads a client's existing estate documents and flags gaps or outdated provisions in plain language, which speeds up the review conversations advisors used to handle manually. Firms plug it into their existing CRM and portfolio tools, so estate planning shows up as part of a normal wealth review instead of a separate errand.",
+  "url": "https://wealth.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=wealth.com&sz=64",
+  "screenshot_url": "/screenshots/wealth-com.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "finance",
+    "business",
+    "analytics",
+    "accounting",
+    "investment",
+    "financial_planning",
+    "budgeting",
+    "fintech",
+    "reporting",
+    "fast"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 70,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

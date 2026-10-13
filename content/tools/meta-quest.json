@@ -1,0 +1,27 @@
+{
+  "slug": "meta-quest",
+  "name": "Meta Quest",
+  "tagline": "Meta Quest is a line of standalone VR headsets that run without a PC or console, covering gaming, social experiences, fitness, and productivity applications. The Quest 3 and Quest 3S headsets support mixed reality through color passthrough, letting apps blend digital content with the physical room. It is the most popular standalone VR platform by active user count.",
+  "description": "Meta Quest is a line of standalone VR headsets that run without a PC or console, covering gaming, social experiences, fitness, and productivity applications. The Quest 3 and Quest 3S headsets support mixed reality through color passthrough, letting apps blend digital content with the physical room. It is the most popular standalone VR platform by active user count.",
+  "url": "https://meta.com/quest",
+  "logo_url": "https://www.google.com/s2/favicons?domain=meta.com&sz=64",
+  "screenshot_url": "/screenshots/meta-quest.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool",
+    "service",
+    "solution",
+    "saas",
+    "online"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 91,
+  "subcategory": "ai-3d-model-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "azure-openai",
+  "name": "Azure OpenAI Service",
+  "tagline": "Azure OpenAI Service provides enterprise access to GPT-4, DALL-E, Whisper, and other OpenAI models through Microsoft Azure's infrastructure, with the compliance, security, and SLA guarantees that regulated industries require. Data processed through Azure OpenAI is not used to train OpenAI models, making it the choice for healthcare, finance, and government organisations with strict data handling requirements. It integrates natively with other Azure services, Azure Active Directory for identity management, and supports private endpoints for fully isolated deployments.",
+  "description": "Azure OpenAI Service provides enterprise access to GPT-4, DALL-E, Whisper, and other OpenAI models through Microsoft Azure's infrastructure, with the compliance, security, and SLA guarantees that regulated industries require. Data processed through Azure OpenAI is not used to train OpenAI models, making it the choice for healthcare, finance, and government organisations with strict data handling requirements. It integrates natively with other Azure services, Azure Active Directory for identity management, and supports private endpoints for fully isolated deployments.",
+  "url": "https://azure.microsoft.com/products/ai-services/openai-service",
+  "logo_url": "https://www.google.com/s2/favicons?domain=azure.microsoft.com&sz=64",
+  "screenshot_url": "/screenshots/azure-openai.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "enterprise",
+    "secure",
+    "training"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 96,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

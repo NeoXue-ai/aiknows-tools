@@ -1,0 +1,28 @@
+{
+  "slug": "coda-ai",
+  "name": "Coda AI",
+  "tagline": "Coda is an all-in-one document platform that blends the power of documents, spreadsheets, and mini-apps. Its AI assistant can summarise docs, draft content, run table formulas in plain English, and automate workflows. Teams use Coda to build internal tools, OKR trackers, and product specs without code.",
+  "description": "Coda is an all-in-one document platform that blends the power of documents, spreadsheets, and mini-apps. Its AI assistant can summarise docs, draft content, run table formulas in plain English, and automate workflows. Teams use Coda to build internal tools, OKR trackers, and product specs without code.",
+  "url": "https://coda.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=coda.io&sz=64",
+  "screenshot_url": "/screenshots/coda-ai.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "productivity",
+    "ai_assistant",
+    "efficiency",
+    "workflow",
+    "organization",
+    "tasks",
+    "focus",
+    "time_management",
+    "collaboration"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 82,
+  "subcategory": "productivity-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

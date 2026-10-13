@@ -1,21 +1,31 @@
 {
   "slug": "krisp",
   "name": "Krisp",
-  "tagline": "AI noise, voice, and meeting assistant",
-  "description": "Remove background noise, transcribe, and summarize meetings.",
+  "tagline": "Krisp uses AI to remove background noise and echo in real time during calls and recordings, regardless of which conferencing app you use. It works as a virtual audio device that sits between your microphone and any calling software — Zoom, Teams, Google Meet, Discord — and strips out keyboard clicks, barking dogs, construction noise, and room echo. Used by remote workers, podcasters, and customer support teams, Krisp also offers AI meeting transcription and meeting notes.",
+  "description": "Krisp uses AI to remove background noise and echo in real time during calls and recordings, regardless of which conferencing app you use. It works as a virtual audio device that sits between your microphone and any calling software — Zoom, Teams, Google Meet, Discord — and strips out keyboard clicks, barking dogs, construction noise, and room echo. Used by remote workers, podcasters, and customer support teams, Krisp also offers AI meeting transcription and meeting notes.",
   "url": "https://krisp.ai",
   "logo_url": "https://www.google.com/s2/favicons?domain=krisp.ai&sz=64",
   "screenshot_url": "/screenshots/krisp.webp",
-  "primary_category": "productivity",
+  "primary_category": "image-video",
   "tags": [
-    "meetings",
-    "audio"
+    "audio",
+    "creative",
+    "sound",
+    "music",
+    "recording",
+    "audio_editing",
+    "sound_design",
+    "mixing",
+    "production",
+    "collaboration",
+    "customizable",
+    "voice_enabled"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
-  "subcategory": "ai-background-remover",
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 79,
+  "subcategory": "ai-voice-generator",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

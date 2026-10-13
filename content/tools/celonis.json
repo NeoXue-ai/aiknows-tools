@@ -1,0 +1,28 @@
+{
+  "slug": "celonis",
+  "name": "Celonis",
+  "tagline": "Celonis reconstructs how work actually moves through a company by mining event logs from ERP, CRM, and other systems, then uses AI to flag bottlenecks and recommend fixes. Operations managers use it to see where orders stall, where approvals pile up, and where automation would save the most time, instead of guessing from anecdotes.",
+  "description": "Celonis reconstructs how work actually moves through a company by mining event logs from ERP, CRM, and other systems, then uses AI to flag bottlenecks and recommend fixes. Operations managers use it to see where orders stall, where approvals pile up, and where automation would save the most time, instead of guessing from anecdotes.",
+  "url": "https://celonis.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=celonis.com&sz=64",
+  "screenshot_url": "/screenshots/celonis.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "automation",
+    "workflow",
+    "productivity",
+    "repetitive_tasks",
+    "efficiency",
+    "process_automation",
+    "triggers",
+    "scheduling",
+    "bots"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 77,
+  "subcategory": "automation",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

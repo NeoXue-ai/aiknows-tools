@@ -1,0 +1,29 @@
+{
+  "slug": "kits-ai",
+  "name": "Kits AI",
+  "tagline": "Kits AI is a platform for musicians that provides AI voice cloning, voice conversion, and stem separation tools. Artists can clone their own voice, license official artist voices, and transform vocals to create unique sounds for music production.",
+  "description": "Kits AI is a platform for musicians that provides AI voice cloning, voice conversion, and stem separation tools. Artists can clone their own voice, license official artist voices, and transform vocals to create unique sounds for music production.",
+  "url": "https://kits.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=kits.ai&sz=64",
+  "screenshot_url": "/screenshots/kits-ai.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "voice_cloning",
+    "audio",
+    "creative",
+    "voice",
+    "synthesis",
+    "tts",
+    "custom_voice",
+    "realistic",
+    "voice_ai",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 60,
+  "subcategory": "ai-voice-cloning",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

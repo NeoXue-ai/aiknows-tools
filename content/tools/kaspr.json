@@ -1,0 +1,31 @@
+{
+  "slug": "kaspr",
+  "name": "Kaspr",
+  "tagline": "Kaspr is a LinkedIn prospecting tool that instantly surfaces verified phone numbers and email addresses for contacts you find on the platform. Sales teams use its Chrome extension to pull contact details from LinkedIn profiles and Sales Navigator without leaving the browser. Credits refresh monthly, and data enrichment can be pushed directly to HubSpot, Salesforce, and other CRMs.",
+  "description": "Kaspr is a LinkedIn prospecting tool that instantly surfaces verified phone numbers and email addresses for contacts you find on the platform. Sales teams use its Chrome extension to pull contact details from LinkedIn profiles and Sales Navigator without leaving the browser. Credits refresh monthly, and data enrichment can be pushed directly to HubSpot, Salesforce, and other CRMs.",
+  "url": "https://kaspr.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=kaspr.io&sz=64",
+  "screenshot_url": "/screenshots/kaspr.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "sales",
+    "marketing",
+    "business",
+    "leads",
+    "prospecting",
+    "outreach",
+    "pipeline",
+    "b2b",
+    "conversion",
+    "browser_extension",
+    "collaboration",
+    "fast"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 68,
+  "subcategory": "ai-marketing",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

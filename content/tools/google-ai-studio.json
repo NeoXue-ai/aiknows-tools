@@ -1,0 +1,31 @@
+{
+  "slug": "google-ai-studio",
+  "name": "Google AI Studio",
+  "tagline": "Google AI Studio is the free, browser-based IDE for experimenting with and building on Gemini models. Developers can test prompts across Gemini Pro, Gemini Flash, and experimental models; build multi-turn chatbots; and generate API keys for use in applications — all without a credit card. It supports multimodal inputs including images, video, audio, and documents, and its million-token context window can be tested interactively. AI Studio is typically the first place developers try Gemini, and it provides a direct export to Vertex AI for production deployments.",
+  "description": "Google AI Studio is the free, browser-based IDE for experimenting with and building on Gemini models. Developers can test prompts across Gemini Pro, Gemini Flash, and experimental models; build multi-turn chatbots; and generate API keys for use in applications — all without a credit card. It supports multimodal inputs including images, video, audio, and documents, and its million-token context window can be tested interactively. AI Studio is typically the first place developers try Gemini, and it provides a direct export to Vertex AI for production deployments.",
+  "url": "https://aistudio.google.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=aistudio.google.com&sz=64",
+  "screenshot_url": "/screenshots/google-ai-studio.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "api_available",
+    "multimodal",
+    "free_tier"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 100,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

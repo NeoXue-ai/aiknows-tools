@@ -1,0 +1,29 @@
+{
+  "slug": "square",
+  "name": "Square",
+  "tagline": "Square gives small businesses, including coffee shops, bars, and retail counters, a point-of-sale system along with payments, payroll, and inventory tools in one dashboard. Its built-in AI assistant surfaces sales trends, flags slow-moving inventory, and answers plain-language questions about how the business is doing without needing a dedicated analyst. Millions of small merchants run their counter operations on Square.",
+  "description": "Square gives small businesses, including coffee shops, bars, and retail counters, a point-of-sale system along with payments, payroll, and inventory tools in one dashboard. Its built-in AI assistant surfaces sales trends, flags slow-moving inventory, and answers plain-language questions about how the business is doing without needing a dedicated analyst. Millions of small merchants run their counter operations on Square.",
+  "url": "https://squareup.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=squareup.com&sz=64",
+  "screenshot_url": "/screenshots/square.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "business",
+    "productivity",
+    "enterprise",
+    "operations",
+    "management",
+    "documents",
+    "contracts",
+    "proposals",
+    "workflow",
+    "analytics"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 93,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

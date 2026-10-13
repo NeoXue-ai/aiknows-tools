@@ -1,0 +1,29 @@
+{
+  "slug": "bill-com-ai",
+  "name": "BILL AI",
+  "tagline": "BILL (formerly Bill.com) is a financial operations platform for small and medium businesses that uses AI to automate accounts payable and receivable. Its AI extracts invoice data, matches purchase orders, and categorises expenses automatically. Over 450,000 SMBs use BILL to digitise their financial back-office.",
+  "description": "BILL (formerly Bill.com) is a financial operations platform for small and medium businesses that uses AI to automate accounts payable and receivable. Its AI extracts invoice data, matches purchase orders, and categorises expenses automatically. Over 450,000 SMBs use BILL to digitise their financial back-office.",
+  "url": "https://bill.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=bill.com&sz=64",
+  "screenshot_url": "/screenshots/bill-com-ai.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "finance",
+    "business",
+    "analytics",
+    "accounting",
+    "investment",
+    "financial_planning",
+    "budgeting",
+    "fintech",
+    "reporting",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 81,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

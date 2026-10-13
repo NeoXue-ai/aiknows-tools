@@ -1,0 +1,31 @@
+{
+  "slug": "amazon-q",
+  "name": "Amazon Q Developer",
+  "tagline": "Amazon Q Developer is AWS's AI coding assistant, built into the AWS Console, VS Code, and JetBrains IDEs. It generates code, explains AWS services, writes infrastructure-as-code, and helps debug issues — with specialised training on AWS documentation and best practices. Teams building on AWS use it to accelerate development and reduce the time spent navigating complex cloud APIs.",
+  "description": "Amazon Q Developer is AWS's AI coding assistant, built into the AWS Console, VS Code, and JetBrains IDEs. It generates code, explains AWS services, writes infrastructure-as-code, and helps debug issues — with specialised training on AWS documentation and best practices. Teams building on AWS use it to accelerate development and reduce the time spent navigating complex cloud APIs.",
+  "url": "https://aws.amazon.com/q/developer",
+  "logo_url": "https://www.google.com/s2/favicons?domain=aws.amazon.com&sz=64",
+  "screenshot_url": "/screenshots/amazon-q.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "code_generation",
+    "developer_tools",
+    "productivity",
+    "coding",
+    "programming",
+    "autocomplete",
+    "debugging",
+    "refactoring",
+    "ide",
+    "collaboration",
+    "cloud_based",
+    "training"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 96,
+  "subcategory": "ai-code-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

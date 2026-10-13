@@ -1,0 +1,31 @@
+{
+  "slug": "vertex-ai",
+  "name": "Vertex AI",
+  "tagline": "Vertex AI is Google Cloud's fully managed machine learning platform, providing access to Gemini, PaLM, Imagen, and other Google foundation models alongside tools for fine-tuning, evaluation, and deployment. Its Model Garden offers 130+ models from Google and third parties. Vertex AI Studio provides a no-code playground for prompt engineering, while the SDK enables programmatic integration into applications. Enterprises choose Vertex AI for its deep integration with BigQuery, Google's data infrastructure, and for compliance-grade AI deployment with audit logging and VPC controls.",
+  "description": "Vertex AI is Google Cloud's fully managed machine learning platform, providing access to Gemini, PaLM, Imagen, and other Google foundation models alongside tools for fine-tuning, evaluation, and deployment. Its Model Garden offers 130+ models from Google and third parties. Vertex AI Studio provides a no-code playground for prompt engineering, while the SDK enables programmatic integration into applications. Enterprises choose Vertex AI for its deep integration with BigQuery, Google's data infrastructure, and for compliance-grade AI deployment with audit logging and VPC controls.",
+  "url": "https://cloud.google.com/vertex-ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=cloud.google.com&sz=64",
+  "screenshot_url": "/screenshots/vertex-ai.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "enterprise",
+    "integrations",
+    "cloud_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 100,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

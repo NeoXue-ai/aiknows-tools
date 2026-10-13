@@ -1,0 +1,29 @@
+{
+  "slug": "auphonic",
+  "name": "Auphonic",
+  "tagline": "Auphonic is an AI-powered audio post-processing service that automatically normalises loudness, removes noise, balances multiple speakers, and adds chapter markers to audio files. Podcasters, radio producers, and video creators use it to deliver broadcast-quality audio without manual mixing.",
+  "description": "Auphonic is an AI-powered audio post-processing service that automatically normalises loudness, removes noise, balances multiple speakers, and adds chapter markers to audio files. Podcasters, radio producers, and video creators use it to deliver broadcast-quality audio without manual mixing.",
+  "url": "https://auphonic.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=auphonic.com&sz=64",
+  "screenshot_url": "/screenshots/auphonic.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "audio",
+    "creative",
+    "sound",
+    "music",
+    "recording",
+    "audio_editing",
+    "sound_design",
+    "mixing",
+    "production",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "ai-voice-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

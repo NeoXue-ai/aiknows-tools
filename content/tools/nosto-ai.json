@@ -1,0 +1,29 @@
+{
+  "slug": "nosto-ai",
+  "name": "Nosto",
+  "tagline": "Nosto is an AI-powered commerce experience platform that personalises every touchpoint of the online shopping journey — product recommendations, search results, content, and pop-ups — based on individual shopper behaviour. Over 2,500 retailers use it to increase conversion rates and average order values.",
+  "description": "Nosto is an AI-powered commerce experience platform that personalises every touchpoint of the online shopping journey — product recommendations, search results, content, and pop-ups — based on individual shopper behaviour. Over 2,500 retailers use it to increase conversion rates and average order values.",
+  "url": "https://nosto.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=nosto.com&sz=64",
+  "screenshot_url": "/screenshots/nosto-ai.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "ecommerce",
+    "business",
+    "marketing",
+    "retail",
+    "shopping",
+    "online_store",
+    "product_catalog",
+    "checkout",
+    "conversions",
+    "customizable"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 81,
+  "subcategory": "ecommerce",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

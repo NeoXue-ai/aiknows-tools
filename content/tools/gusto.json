@@ -1,0 +1,28 @@
+{
+  "slug": "gusto",
+  "name": "Gusto",
+  "tagline": "Gusto runs payroll, benefits, and onboarding for small and mid-size businesses, and uses AI to catch tax filing errors, flag missing compliance steps, and suggest benefits packages that fit a given headcount and budget. Payroll specialists use it to run multi-state payroll without tracking every jurisdiction's rules by hand.",
+  "description": "Gusto runs payroll, benefits, and onboarding for small and mid-size businesses, and uses AI to catch tax filing errors, flag missing compliance steps, and suggest benefits packages that fit a given headcount and budget. Payroll specialists use it to run multi-state payroll without tracking every jurisdiction's rules by hand.",
+  "url": "https://gusto.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=gusto.com&sz=64",
+  "screenshot_url": "/screenshots/gusto.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "hr",
+    "business",
+    "recruitment",
+    "employees",
+    "human_resources",
+    "onboarding",
+    "performance",
+    "payroll",
+    "talent"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 86,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

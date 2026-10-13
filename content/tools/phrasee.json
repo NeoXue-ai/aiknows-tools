@@ -1,0 +1,31 @@
+{
+  "slug": "phrasee",
+  "name": "Phrasee",
+  "tagline": "Phrasee is a brand language optimization platform that generates and tests email subject lines, push notifications, and ad copy using AI trained on brand-specific performance data. Marketing teams at large retailers and financial brands use it to run continuous copy experiments and let the model learn which language drives the best results for their specific audience. It integrates with email service providers and ad platforms for closed-loop testing.",
+  "description": "Phrasee is a brand language optimization platform that generates and tests email subject lines, push notifications, and ad copy using AI trained on brand-specific performance data. Marketing teams at large retailers and financial brands use it to run continuous copy experiments and let the model learn which language drives the best results for their specific audience. It integrates with email service providers and ad platforms for closed-loop testing.",
+  "url": "https://phrasee.co",
+  "logo_url": "https://www.google.com/s2/favicons?domain=phrasee.co&sz=64",
+  "screenshot_url": "/screenshots/phrasee.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "marketing",
+    "business",
+    "campaigns",
+    "growth",
+    "promotion",
+    "demand_generation",
+    "brand",
+    "digital_marketing",
+    "roi",
+    "collaboration",
+    "integrations",
+    "training"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 70,
+  "subcategory": "ai-marketing",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

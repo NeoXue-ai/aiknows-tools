@@ -1,0 +1,29 @@
+{
+  "slug": "quantified-ai",
+  "name": "Quantified AI",
+  "tagline": "Quantified AI is an AI-powered sales coaching platform that uses realistic AI avatars to simulate buyer conversations for sales rep practice and assessment. It provides detailed performance scores and coaching feedback to help sales teams improve pitch quality and objection handling.",
+  "description": "Quantified AI is an AI-powered sales coaching platform that uses realistic AI avatars to simulate buyer conversations for sales rep practice and assessment. It provides detailed performance scores and coaching feedback to help sales teams improve pitch quality and objection handling.",
+  "url": "https://quantified.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=quantified.ai&sz=64",
+  "screenshot_url": "/screenshots/quantified-ai.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "sales",
+    "business",
+    "crm",
+    "revenue",
+    "conversion",
+    "pipeline",
+    "prospecting",
+    "closing",
+    "forecasting",
+    "collaboration"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 63,
+  "subcategory": "sales",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

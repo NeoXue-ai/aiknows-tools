@@ -1,0 +1,31 @@
+{
+  "slug": "promptfoo",
+  "name": "Promptfoo",
+  "tagline": "Promptfoo is an open-source CLI tool for testing and red-teaming LLM prompts before they reach production. Developers run automated test suites across prompt variations, compare outputs, and catch regressions when prompts or models change. It supports custom scoring functions and fits into CI/CD pipelines.",
+  "description": "Promptfoo is an open-source CLI tool for testing and red-teaming LLM prompts before they reach production. Developers run automated test suites across prompt variations, compare outputs, and catch regressions when prompts or models change. It supports custom scoring functions and fits into CI/CD pipelines.",
+  "url": "https://promptfoo.dev",
+  "logo_url": "https://www.google.com/s2/favicons?domain=promptfoo.dev&sz=64",
+  "screenshot_url": "/screenshots/promptfoo.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "open_source",
+    "collaboration",
+    "customizable"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 75,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

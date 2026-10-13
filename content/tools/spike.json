@@ -1,0 +1,31 @@
+{
+  "slug": "spike",
+  "name": "Spike",
+  "tagline": "Spike is an email platform that transforms traditional email into a real-time chat-like experience with AI collaboration features. Its AI can summarize email threads, draft replies, and serve as an AI teammate within conversations to help individuals and teams work faster.",
+  "description": "Spike is an email platform that transforms traditional email into a real-time chat-like experience with AI collaboration features. Its AI can summarize email threads, draft replies, and serve as an AI teammate within conversations to help individuals and teams work faster.",
+  "url": "https://spikenow.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=spikenow.com&sz=64",
+  "screenshot_url": "/screenshots/spike.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "email",
+    "productivity",
+    "writing",
+    "communication",
+    "inbox",
+    "email_management",
+    "drafting",
+    "scheduling",
+    "follow_up",
+    "real_time",
+    "collaboration",
+    "fast"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 71,
+  "subcategory": "email",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

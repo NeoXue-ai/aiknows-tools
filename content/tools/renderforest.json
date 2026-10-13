@@ -1,0 +1,28 @@
+{
+  "slug": "renderforest",
+  "name": "Renderforest",
+  "tagline": "Renderforest is an all-in-one branding platform with AI-powered tools for creating animated videos, explainer videos, logos, and websites. Its AI video scene generator converts scripts into animated scenes automatically. Over 20 million users have created content with Renderforest for social media, presentations, and promotions.",
+  "description": "Renderforest is an all-in-one branding platform with AI-powered tools for creating animated videos, explainer videos, logos, and websites. Its AI video scene generator converts scripts into animated scenes automatically. Over 20 million users have created content with Renderforest for social media, presentations, and promotions.",
+  "url": "https://renderforest.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=renderforest.com&sz=64",
+  "screenshot_url": "/screenshots/renderforest.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "video_generation",
+    "creative",
+    "text_to_video",
+    "animation",
+    "production",
+    "ai_video",
+    "generative",
+    "short_form",
+    "clips"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 80,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

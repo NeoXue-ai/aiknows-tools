@@ -1,21 +1,112 @@
 {
   "slug": "github-copilot",
   "name": "GitHub Copilot",
-  "tagline": "AI pair programmer",
-  "description": "Inline code completions, chat, and agents inside your editor and GitHub.",
-  "url": "https://github.com/features/copilot",
+  "tagline": "AI code suggestions, chat, and agent assistance for supported development tools.",
+  "description": "GitHub Copilot helps developers write and understand code through inline suggestions, coding chat, and agent workflows. In supported IDEs, it can explain selected code, propose edits, generate tests, and carry out multi-step development tasks. Available features depend on the editor, subscription, and organization settings, so check compatibility with your workflow before choosing a plan.",
+  "url": "https://github.com/copilot",
   "logo_url": "https://www.google.com/s2/favicons?domain=github.com&sz=64",
   "screenshot_url": "/screenshots/github-copilot.webp",
   "primary_category": "code-development",
   "tags": [
-    "coding",
-    "github"
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "community_driven"
   ],
-  "pricing_detail": null,
-  "source": null,
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
   "dr": 97,
-  "subcategory": "ai-code-generator",
-  "is_featured": true,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null,
+  "editorial": {
+    "guide": {
+      "checkedAt": "2026-10-13",
+      "features": [
+        {
+          "label": "Inline code suggestions",
+          "text": "Get proposed completions or edits while writing code, then accept, dismiss, or adjust the suggestions."
+        },
+        {
+          "label": "Coding chat",
+          "text": "Ask for explanations, debugging ideas, refactoring suggestions, or test drafts using code context from your development environment."
+        },
+        {
+          "label": "Agent workflows",
+          "text": "Supported agent experiences can read files, make changes, and run commands to work through development tasks."
+        }
+      ],
+      "useCases": [
+        {
+          "label": "Draft routine code",
+          "text": "Use suggestions to begin functions, comments, or tests, then adapt them to your project's requirements."
+        },
+        {
+          "label": "Understand and revise code",
+          "text": "Discuss an unfamiliar function or error and request changes from within a supported IDE."
+        }
+      ],
+      "limitations": [
+        "Suggestions can be incorrect or incomplete. Review generated code and validate it before accepting it.",
+        "Feature support varies by IDE, plan, and organization policy; a feature in one editor may be unavailable in another."
+      ],
+      "platforms": [
+        "Supported IDEs and editors",
+        "GitHub.com",
+        "Command line",
+        "GitHub Mobile"
+      ],
+      "pricingNote": "Copilot offers a limited Free plan and paid individual and organization plans. Check the current plan comparison for AI usage allowances and feature access.",
+      "pricingUrl": "https://github.com/features/copilot/plans",
+      "alternatives": [
+        {
+          "slug": "cursor",
+          "reason": "Compare for a dedicated editor with an integrated coding agent."
+        },
+        {
+          "slug": "tabnine",
+          "reason": "Explore another coding assistant for editor-based development."
+        },
+        {
+          "slug": "sourcegraph-cody",
+          "reason": "Compare another assistant focused on working with code context."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Copilot in IDEs",
+          "url": "https://docs.github.com/en/copilot/concepts/copilot-surfaces/copilot-in-ides"
+        },
+        {
+          "label": "Copilot plans and features",
+          "url": "https://github.com/features/copilot/plans"
+        },
+        {
+          "label": "Copilot suggestion capabilities and limitations",
+          "url": "https://docs.github.com/en/copilot/responsible-use/inline-suggestions"
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Does GitHub Copilot work in my IDE?",
+        "answer": "Copilot supports several editors and IDEs, but their feature sets differ. Consult GitHub's feature matrix and use a supported extension version before relying on a particular chat or agent feature."
+      },
+      {
+        "question": "Is GitHub Copilot free?",
+        "answer": "A Free plan is available with limited usage. Paid plans provide different allowances and capabilities; GitHub's plan comparison lists the current inclusions."
+      }
+    ],
+    "seo": {
+      "title": "GitHub Copilot: AI Coding Assistant, Plans & Features",
+      "description": "GitHub Copilot offers code suggestions, coding chat, and agent workflows in supported editors. Compare its features, plan access, and usage limits."
+    }
+  }
 }

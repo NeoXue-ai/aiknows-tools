@@ -1,0 +1,30 @@
+{
+  "slug": "rodin",
+  "name": "Rodin",
+  "tagline": "Rodin is an AI platform for generating high-quality 3D models from text descriptions and images using generative AI. It targets game developers, designers, and XR creators who need rapid 3D content production and supports export to standard formats for game engines.",
+  "description": "Rodin is an AI platform for generating high-quality 3D models from text descriptions and images using generative AI. It targets game developers, designers, and XR creators who need rapid 3D content production and supports export to standard formats for game engines.",
+  "url": "https://hyper3d.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=hyper3d.ai&sz=64",
+  "screenshot_url": "/screenshots/rodin.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "3d",
+    "design",
+    "creative",
+    "modeling",
+    "rendering",
+    "visualization",
+    "3d_art",
+    "digital_art",
+    "sculpting",
+    "image_based",
+    "model_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 66,
+  "subcategory": "ai-3d-model-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "duve",
+  "name": "Duve",
+  "tagline": "Duve automates guest communication for hotels and vacation rentals, using AI to handle check-in instructions, answer common questions, and recommend upsells like room upgrades or late checkout. Hospitality teams use it to personalize the guest journey without more staff on the phones.",
+  "description": "Duve automates guest communication for hotels and vacation rentals, using AI to handle check-in instructions, answer common questions, and recommend upsells like room upgrades or late checkout. Hospitality teams use it to personalize the guest journey without more staff on the phones.",
+  "url": "https://duve.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=duve.com&sz=64",
+  "screenshot_url": "/screenshots/duve.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "customer_support",
+    "chatbot",
+    "business",
+    "help_desk",
+    "support",
+    "ticketing",
+    "live_chat",
+    "service",
+    "resolution",
+    "collaboration",
+    "customizable"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 61,
+  "subcategory": "customer-support",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

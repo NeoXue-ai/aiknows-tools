@@ -1,0 +1,28 @@
+{
+  "slug": "topai-tools",
+  "name": "TopAI.tools",
+  "tagline": "TopAI.tools organises its listings around community upvotes rather than paid placement, giving smaller tools a way to surface alongside established names. Each entry includes pricing, a short pitch, and tags, and users can filter by category or sort by newest, trending, or most upvoted. It also runs a 'launch' feature letting makers submit new tools for community feedback.",
+  "description": "TopAI.tools organises its listings around community upvotes rather than paid placement, giving smaller tools a way to surface alongside established names. Each entry includes pricing, a short pitch, and tags, and users can filter by category or sort by newest, trending, or most upvoted. It also runs a 'launch' feature letting makers submit new tools for community feedback.",
+  "url": "https://topai.tools",
+  "logo_url": "https://www.google.com/s2/favicons?domain=topai.tools&sz=64",
+  "screenshot_url": "/screenshots/topai-tools.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "directory",
+    "reference",
+    "tools",
+    "discovery",
+    "listing",
+    "ai_tools",
+    "catalog",
+    "collection",
+    "curation"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 64,
+  "subcategory": "directories",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "qdrant",
+  "name": "Qdrant",
+  "tagline": "Qdrant is an open-source vector similarity search engine and database written in Rust for high performance and reliability. It stores dense and sparse vectors with payload filtering, supports hybrid search, and offers both cloud and self-hosted deployment for RAG and recommendation systems.",
+  "description": "Qdrant is an open-source vector similarity search engine and database written in Rust for high performance and reliability. It stores dense and sparse vectors with payload filtering, supports hybrid search, and offers both cloud and self-hosted deployment for RAG and recommendation systems.",
+  "url": "https://qdrant.tech",
+  "logo_url": "https://www.google.com/s2/favicons?domain=qdrant.tech&sz=64",
+  "screenshot_url": "/screenshots/qdrant.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "open_source",
+    "cloud_based",
+    "community_driven"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 79,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

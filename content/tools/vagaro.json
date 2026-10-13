@@ -1,0 +1,30 @@
+{
+  "slug": "vagaro",
+  "name": "Vagaro",
+  "tagline": "Vagaro is a scheduling and point-of-sale platform built for salons, spas, and wellness studios. Its AI assistant handles appointment booking, sends automated reminders, and suggests optimal time slots to cut down on no-shows and calendar gaps. The platform also runs payroll, inventory, and marketing campaigns from the same dashboard.",
+  "description": "Vagaro is a scheduling and point-of-sale platform built for salons, spas, and wellness studios. Its AI assistant handles appointment booking, sends automated reminders, and suggests optimal time slots to cut down on no-shows and calendar gaps. The platform also runs payroll, inventory, and marketing campaigns from the same dashboard.",
+  "url": "https://vagaro.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=vagaro.com&sz=64",
+  "screenshot_url": "/screenshots/vagaro.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "business",
+    "productivity",
+    "enterprise",
+    "operations",
+    "management",
+    "documents",
+    "contracts",
+    "proposals",
+    "workflow",
+    "mobile_app",
+    "analytics"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 91,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

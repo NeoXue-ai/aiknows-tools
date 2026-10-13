@@ -1,0 +1,31 @@
+{
+  "slug": "piktochart",
+  "name": "Piktochart",
+  "tagline": "Piktochart is a visual communication tool for creating infographics, presentations, reports, and social graphics with a drag-and-drop editor. Its AI Report generator transforms raw data or a topic into a complete, visually structured document in seconds. Communications professionals and educators use it to make complex information accessible and shareable without graphic design training.",
+  "description": "Piktochart is a visual communication tool for creating infographics, presentations, reports, and social graphics with a drag-and-drop editor. Its AI Report generator transforms raw data or a topic into a complete, visually structured document in seconds. Communications professionals and educators use it to make complex information accessible and shareable without graphic design training.",
+  "url": "https://piktochart.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=piktochart.com&sz=64",
+  "screenshot_url": "/screenshots/piktochart.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "design",
+    "data_visualization",
+    "marketing",
+    "visual",
+    "creative",
+    "charts",
+    "diagrams",
+    "storytelling",
+    "communication",
+    "image_based",
+    "training",
+    "powerful"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 83,
+  "subcategory": "ai-graphic-design",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

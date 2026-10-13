@@ -1,0 +1,31 @@
+{
+  "slug": "stable-diffusion",
+  "name": "Stable Diffusion",
+  "tagline": "Stable Diffusion is Stability AI's open-source image generation model, and the one most responsible for kicking off the whole generative-image ecosystem back in 2022. Because the weights are freely available, it spawned an entire industry around it: fine-tuned checkpoints on Civitai, ControlNet for pose and composition control, and local tools like Automatic1111 and ComfyUI for running it on consumer GPUs. Newer models like FLUX now beat it on raw quality, but it's still the model most people learn image generation on, and the one with by far the largest library of community fine-tunes.",
+  "description": "Stable Diffusion is Stability AI's open-source image generation model, and the one most responsible for kicking off the whole generative-image ecosystem back in 2022. Because the weights are freely available, it spawned an entire industry around it: fine-tuned checkpoints on Civitai, ControlNet for pose and composition control, and local tools like Automatic1111 and ComfyUI for running it on consumer GPUs. Newer models like FLUX now beat it on raw quality, but it's still the model most people learn image generation on, and the one with by far the largest library of community fine-tunes.",
+  "url": "https://stability.ai/stable-diffusion",
+  "logo_url": "https://www.google.com/s2/favicons?domain=stability.ai&sz=64",
+  "screenshot_url": "/screenshots/stable-diffusion.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "image_generation",
+    "creative",
+    "text_to_image",
+    "visual",
+    "graphics",
+    "generative_ai",
+    "art",
+    "diffusion",
+    "prompting",
+    "open_source",
+    "free_tier",
+    "image_based"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 84,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

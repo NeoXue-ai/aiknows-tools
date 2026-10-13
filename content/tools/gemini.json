@@ -1,21 +1,31 @@
 {
   "slug": "gemini",
   "name": "Gemini",
-  "tagline": "Google AI assistant",
-  "description": "Google's multimodal AI with deep integrations across Google apps.",
+  "tagline": "Gemini is Google's AI assistant, integrated into Search, Gmail, Docs, and Android devices. It answers questions with real-time web grounding, helps draft and refine writing, analyses uploaded images and documents, and assists with coding. Gemini Advanced (powered by Gemini 1.5 Pro) is available as part of Google One and competes directly with ChatGPT Plus for everyday AI tasks.",
+  "description": "Gemini is Google's AI assistant, integrated into Search, Gmail, Docs, and Android devices. It answers questions with real-time web grounding, helps draft and refine writing, analyses uploaded images and documents, and assists with coding. Gemini Advanced (powered by Gemini 1.5 Pro) is available as part of Google One and competes directly with ChatGPT Plus for everyday AI tasks.",
   "url": "https://gemini.google.com",
   "logo_url": "https://www.google.com/s2/favicons?domain=gemini.google.com&sz=64",
   "screenshot_url": "/screenshots/gemini.webp",
   "primary_category": "productivity",
   "tags": [
-    "assistant",
-    "google"
+    "chatbot",
+    "text_generation",
+    "ai_assistant",
+    "conversational",
+    "nlp",
+    "dialogue",
+    "llm",
+    "general_ai",
+    "question_answering",
+    "mobile_app",
+    "real_time",
+    "image_based"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
-  "subcategory": "ai-assistant",
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 100,
+  "subcategory": "ai-chatbot",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

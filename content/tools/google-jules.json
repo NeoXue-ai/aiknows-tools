@@ -1,0 +1,29 @@
+{
+  "slug": "google-jules",
+  "name": "Google Jules",
+  "tagline": "Jules is Google's AI coding agent that works asynchronously on your GitHub repository. You assign Jules a task — fix this bug, implement this feature, add tests — and it independently reads the codebase, writes a plan, makes changes across multiple files, and opens a pull request. Unlike interactive coding assistants, Jules operates in the background while you continue other work, returning with a completed PR to review. Powered by Gemini 2.0, it is Google's direct answer to GitHub Copilot Workspace and Devin.",
+  "description": "Jules is Google's AI coding agent that works asynchronously on your GitHub repository. You assign Jules a task — fix this bug, implement this feature, add tests — and it independently reads the codebase, writes a plan, makes changes across multiple files, and opens a pull request. Unlike interactive coding assistants, Jules operates in the background while you continue other work, returning with a completed PR to review. Powered by Gemini 2.0, it is Google's direct answer to GitHub Copilot Workspace and Devin.",
+  "url": "https://jules.google",
+  "logo_url": "https://www.google.com/s2/favicons?domain=jules.google&sz=64",
+  "screenshot_url": "/screenshots/google-jules.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "code_generation",
+    "developer_tools",
+    "productivity",
+    "coding",
+    "programming",
+    "autocomplete",
+    "debugging",
+    "refactoring",
+    "ide",
+    "community_driven"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 70,
+  "subcategory": "ai-code-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

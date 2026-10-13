@@ -1,0 +1,29 @@
+{
+  "slug": "remesh",
+  "name": "Remesh",
+  "tagline": "Remesh is a qualitative research platform that uses AI to facilitate and analyze conversations with large groups of participants in real time. Organizations use it to gather nuanced opinions from hundreds of people simultaneously, replacing traditional focus groups with faster, scalable research.",
+  "description": "Remesh is a qualitative research platform that uses AI to facilitate and analyze conversations with large groups of participants in real time. Organizations use it to gather nuanced opinions from hundreds of people simultaneously, replacing traditional focus groups with faster, scalable research.",
+  "url": "https://remesh.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=remesh.ai&sz=64",
+  "screenshot_url": "/screenshots/remesh.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "market_research",
+    "business",
+    "analytics",
+    "consumer",
+    "insights",
+    "surveys",
+    "competitive_analysis",
+    "trends",
+    "intelligence",
+    "fast"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 72,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

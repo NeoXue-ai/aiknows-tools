@@ -1,0 +1,31 @@
+{
+  "slug": "comfyui",
+  "name": "ComfyUI",
+  "tagline": "ComfyUI is an open-source, node-based graphical interface for building advanced Stable Diffusion pipelines. Users wire together nodes — for models, samplers, LoRAs, ControlNets, upscalers, and more — to create reusable workflows that go far beyond what any prompt box can do. The community has built thousands of shared workflows and custom nodes covering video generation, face swapping, 3D, and more. It has become the power-user standard for anyone doing serious local image generation.",
+  "description": "ComfyUI is an open-source, node-based graphical interface for building advanced Stable Diffusion pipelines. Users wire together nodes — for models, samplers, LoRAs, ControlNets, upscalers, and more — to create reusable workflows that go far beyond what any prompt box can do. The community has built thousands of shared workflows and custom nodes covering video generation, face swapping, 3D, and more. It has become the power-user standard for anyone doing serious local image generation.",
+  "url": "https://github.com/comfyanonymous/ComfyUI",
+  "logo_url": "https://www.google.com/s2/favicons?domain=github.com&sz=64",
+  "screenshot_url": "/screenshots/comfyui.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "image_generation",
+    "creative",
+    "text_to_image",
+    "visual",
+    "graphics",
+    "generative_ai",
+    "art",
+    "diffusion",
+    "prompting",
+    "open_source",
+    "customizable",
+    "image_based"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 97,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

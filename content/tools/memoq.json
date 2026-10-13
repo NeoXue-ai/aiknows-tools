@@ -1,0 +1,31 @@
+{
+  "slug": "memoq",
+  "name": "memoQ",
+  "tagline": "memoQ is a computer-assisted translation tool and translation management system used by professional translators, language service providers, and in-house localization teams. It combines translation memory, terminology management, and AI-assisted suggestions to speed up repetitive work without losing consistency. It handles XLIFF, DOCX, HTML, software strings, and other complex formats natively.",
+  "description": "memoQ is a computer-assisted translation tool and translation management system used by professional translators, language service providers, and in-house localization teams. It combines translation memory, terminology management, and AI-assisted suggestions to speed up repetitive work without losing consistency. It handles XLIFF, DOCX, HTML, software strings, and other complex formats natively.",
+  "url": "https://memoq.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=memoq.com&sz=64",
+  "screenshot_url": "/screenshots/memoq.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "translation",
+    "language",
+    "multilingual",
+    "communication",
+    "localization",
+    "globalization",
+    "language_ai",
+    "interpretation",
+    "text",
+    "collaboration",
+    "machine_learning",
+    "fast"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 72,
+  "subcategory": "ai-translator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

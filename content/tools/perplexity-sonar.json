@@ -1,0 +1,31 @@
+{
+  "slug": "perplexity-sonar",
+  "name": "Perplexity Sonar",
+  "tagline": "Perplexity Sonar is the API that gives developers access to Perplexity's real-time, search-augmented AI. Unlike standard LLM APIs that are limited to training data, Sonar retrieves up-to-date information from the web and returns answers with citations. It's used to add live search grounding to AI applications without building a web search pipeline from scratch. The Sonar Pro model handles complex, multi-step research queries, while Sonar and Sonar Turbo target high-volume use cases where speed and cost efficiency matter.",
+  "description": "Perplexity Sonar is the API that gives developers access to Perplexity's real-time, search-augmented AI. Unlike standard LLM APIs that are limited to training data, Sonar retrieves up-to-date information from the web and returns answers with citations. It's used to add live search grounding to AI applications without building a web search pipeline from scratch. The Sonar Pro model handles complex, multi-step research queries, while Sonar and Sonar Turbo target high-volume use cases where speed and cost efficiency matter.",
+  "url": "https://docs.perplexity.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=docs.perplexity.ai&sz=64",
+  "screenshot_url": "/screenshots/perplexity-sonar.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "api_available",
+    "real_time",
+    "training"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 91,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

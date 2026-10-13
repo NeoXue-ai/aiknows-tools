@@ -1,0 +1,30 @@
+{
+  "slug": "yotpo-ai",
+  "name": "Yotpo",
+  "tagline": "Yotpo is an e-commerce marketing platform that uses AI to collect and leverage reviews, ratings, and user-generated content. Its AI analyses review sentiment, auto-responds to reviews, and surfaces insights for product improvement. Its loyalty and SMS marketing modules help brands build direct relationships with customers.",
+  "description": "Yotpo is an e-commerce marketing platform that uses AI to collect and leverage reviews, ratings, and user-generated content. Its AI analyses review sentiment, auto-responds to reviews, and surfaces insights for product improvement. Its loyalty and SMS marketing modules help brands build direct relationships with customers.",
+  "url": "https://yotpo.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=yotpo.com&sz=64",
+  "screenshot_url": "/screenshots/yotpo-ai.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "ecommerce",
+    "business",
+    "marketing",
+    "retail",
+    "shopping",
+    "online_store",
+    "product_catalog",
+    "checkout",
+    "conversions",
+    "customizable",
+    "analytics"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 88,
+  "subcategory": "ecommerce",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

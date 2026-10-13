@@ -1,0 +1,30 @@
+{
+  "slug": "supademo",
+  "name": "Supademo",
+  "tagline": "Supademo generates interactive product walkthroughs from screen recordings and adds automatic AI voiceovers. Marketing and sales teams use it to share guided product experiences that prospects can click through on their own. It supports embedding demos in websites, help centers, and sales outreach without any manual narration recording.",
+  "description": "Supademo generates interactive product walkthroughs from screen recordings and adds automatic AI voiceovers. Marketing and sales teams use it to share guided product experiences that prospects can click through on their own. It supports embedding demos in websites, help centers, and sales outreach without any manual narration recording.",
+  "url": "https://supademo.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=supademo.com&sz=64",
+  "screenshot_url": "/screenshots/supademo.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "marketing",
+    "business",
+    "campaigns",
+    "growth",
+    "promotion",
+    "demand_generation",
+    "brand",
+    "digital_marketing",
+    "roi",
+    "collaboration",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 78,
+  "subcategory": "ai-marketing",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

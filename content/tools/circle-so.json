@@ -1,0 +1,28 @@
+{
+  "slug": "circle-so",
+  "name": "Circle",
+  "tagline": "Circle is a community platform that lets creators and brands run discussions, events, courses, and direct messaging under one roof instead of a branded website. Built-in AI helps draft welcome posts, summarize long threads, and flag content that needs a moderator, so community managers spend less time on upkeep and more time on members.",
+  "description": "Circle is a community platform that lets creators and brands run discussions, events, courses, and direct messaging under one roof instead of a branded website. Built-in AI helps draft welcome posts, summarize long threads, and flag content that needs a moderator, so community managers spend less time on upkeep and more time on members.",
+  "url": "https://circle.so",
+  "logo_url": "https://www.google.com/s2/favicons?domain=circle.so&sz=64",
+  "screenshot_url": "/screenshots/circle-so.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "social_media",
+    "marketing",
+    "content_creation",
+    "engagement",
+    "posting",
+    "scheduling",
+    "analytics",
+    "audience",
+    "platform"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 88,
+  "subcategory": "social-media",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "linkedin",
+  "name": "LinkedIn",
+  "tagline": "LinkedIn is the world's largest professional network, used by over 1 billion members for job searching, hiring, business development, and professional content. Its AI features write InMail drafts, optimise profiles for recruiter search, and personalise the job feed to your career trajectory. Virtually every business professional maintains a LinkedIn presence, making it the default B2B social platform.",
+  "description": "LinkedIn is the world's largest professional network, used by over 1 billion members for job searching, hiring, business development, and professional content. Its AI features write InMail drafts, optimise profiles for recruiter search, and personalise the job feed to your career trajectory. Virtually every business professional maintains a LinkedIn presence, making it the default B2B social platform.",
+  "url": "https://linkedin.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=linkedin.com&sz=64",
+  "screenshot_url": "/screenshots/linkedin.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "career",
+    "hr",
+    "recruitment",
+    "jobs",
+    "employment",
+    "job_search",
+    "resume",
+    "interview",
+    "hiring",
+    "customizable",
+    "powerful"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 99,
+  "subcategory": "productivity-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

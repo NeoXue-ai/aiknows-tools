@@ -1,5 +1,19 @@
 /** Only published content belongs here. No database, account or moderation fields. */
+export interface ToolGuide {
+  checkedAt: string;
+  features: { label: string; text: string }[];
+  useCases: { label: string; text: string }[];
+  limitations: string[];
+  platforms: string[];
+  pricingNote: string;
+  pricingUrl: string;
+  alternatives: { slug: string; reason: string }[];
+  sources: { label: string; url: string }[];
+}
 export interface EditorialEntry {
+  /** Complete, unbranded search and social copy reviewed against product sources. */
+  seo?: { title: string; description: string };
+  guide?: ToolGuide;
   comparison?: {
     eyebrow: string;
     heading: string;

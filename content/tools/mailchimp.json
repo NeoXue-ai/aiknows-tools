@@ -1,0 +1,28 @@
+{
+  "slug": "mailchimp",
+  "name": "Mailchimp",
+  "tagline": "Mailchimp is an email marketing platform for building campaigns, automating email sequences, and tracking audience performance. It uses AI to suggest send times, generate subject lines, and draft email copy. Small businesses and creators use it as an all-in-one tool for email marketing, landing pages, and basic audience management.",
+  "description": "Mailchimp is an email marketing platform for building campaigns, automating email sequences, and tracking audience performance. It uses AI to suggest send times, generate subject lines, and draft email copy. Small businesses and creators use it as an all-in-one tool for email marketing, landing pages, and basic audience management.",
+  "url": "https://mailchimp.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=mailchimp.com&sz=64",
+  "screenshot_url": "/screenshots/mailchimp.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "email",
+    "productivity",
+    "writing",
+    "communication",
+    "inbox",
+    "email_management",
+    "drafting",
+    "scheduling",
+    "follow_up"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 93,
+  "subcategory": "email",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

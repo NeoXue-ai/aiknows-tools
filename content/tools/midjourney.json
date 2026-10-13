@@ -1,21 +1,108 @@
 {
   "slug": "midjourney",
   "name": "Midjourney",
-  "tagline": "AI image generation",
-  "description": "Best-in-class image generation, especially for stylized and editorial work.",
+  "tagline": "Generate and refine AI images with prompts, references, and a web editor.",
+  "description": "Midjourney is an AI image creation service available through its website and Discord. Use text prompts and reference images to develop visual directions, then refine selected results with the web Editor. The Editor supports changes to image regions, framing, and composition, including work with images you upload.",
   "url": "https://midjourney.com",
   "logo_url": "https://www.google.com/s2/favicons?domain=midjourney.com&sz=64",
   "screenshot_url": "/screenshots/midjourney.webp",
   "primary_category": "image-video",
   "tags": [
-    "image",
-    "art"
+    "design",
+    "image_editing",
+    "creative",
+    "visual",
+    "branding",
+    "typography",
+    "layouts",
+    "ui_design",
+    "illustration",
+    "image_based"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
-  "subcategory": "ai-image-generator",
-  "is_featured": true,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 90,
+  "subcategory": "ai-art-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null,
+  "editorial": {
+    "guide": {
+      "checkedAt": "2026-10-13",
+      "features": [
+        {
+          "label": "Prompt and reference workflows",
+          "text": "Combine prompt text with image or style references to guide new image generations."
+        },
+        {
+          "label": "Region and framing edits",
+          "text": "Use the web Editor to regenerate selected regions, change aspect ratio, pan, or extend an image."
+        },
+        {
+          "label": "Uploaded image editing",
+          "text": "Bring your own images into the Editor and use layers or other editing controls to develop a composition."
+        }
+      ],
+      "useCases": [
+        {
+          "label": "Explore visual concepts",
+          "text": "Develop several interpretations of a creative brief using different prompts and references."
+        },
+        {
+          "label": "Refine a chosen image",
+          "text": "Adjust framing or selected regions after choosing a result, instead of restarting the entire visual concept."
+        }
+      ],
+      "limitations": [
+        "Web and Discord feature access differs; the combined Editor interface is available on the website.",
+        "Creations are generally publicly discoverable unless appropriate privacy settings apply. Stealth Mode requires an eligible plan.",
+        "GPU allowances, generation modes, and queue limits depend on the subscription."
+      ],
+      "platforms": ["Web", "Discord"],
+      "pricingNote": "Midjourney offers paid subscriptions with different GPU allowances and generation modes. Check the plan comparison for current limits and Stealth Mode eligibility.",
+      "pricingUrl": "https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans",
+      "alternatives": [
+        {
+          "slug": "ideogram",
+          "reason": "Compare for designs that include text and editable typography."
+        },
+        {
+          "slug": "adobe-firefly",
+          "reason": "Explore another image generation and creative editing service."
+        },
+        {
+          "slug": "leonardo-ai",
+          "reason": "Compare another platform for image creation workflows."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Midjourney web and Discord features",
+          "url": "https://docs.midjourney.com/hc/en-us/articles/33329300781837-Web-vs-Discord"
+        },
+        {
+          "label": "Midjourney Editor",
+          "url": "https://docs.midjourney.com/hc/en-us/articles/32764383466893-Editor"
+        },
+        {
+          "label": "Midjourney plan comparison",
+          "url": "https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans"
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Do I need Discord to use Midjourney?",
+        "answer": "No. A Midjourney subscription also supports image creation on the website. You can use the web interface, Discord, or both."
+      },
+      {
+        "question": "Are Midjourney images private?",
+        "answer": "Do not assume a generation is private. Stealth Mode can hide creations on the website for eligible subscribers, while work posted in a public Discord channel remains visible there."
+      }
+    ],
+    "seo": {
+      "title": "Midjourney: AI Image Generator, Features & Pricing",
+      "description": "Midjourney generates AI images from prompts and references, with a web Editor for region and framing changes. Explore features and subscription plans."
+    }
+  }
 }

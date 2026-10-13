@@ -1,0 +1,31 @@
+{
+  "slug": "bito-ai",
+  "name": "Bito AI",
+  "tagline": "Bito is an AI coding assistant that integrates GPT-4 directly into VS Code, JetBrains, and the CLI. Beyond code completion, Bito excels at explaining complex code, writing tests, checking for security vulnerabilities, and generating docstrings. It lets teams create AI personas trained on their own codebases and coding standards.",
+  "description": "Bito is an AI coding assistant that integrates GPT-4 directly into VS Code, JetBrains, and the CLI. Beyond code completion, Bito excels at explaining complex code, writing tests, checking for security vulnerabilities, and generating docstrings. It lets teams create AI personas trained on their own codebases and coding standards.",
+  "url": "https://bito.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=bito.ai&sz=64",
+  "screenshot_url": "/screenshots/bito-ai.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "code_generation",
+    "developer_tools",
+    "productivity",
+    "coding",
+    "programming",
+    "autocomplete",
+    "debugging",
+    "refactoring",
+    "ide",
+    "collaboration",
+    "secure",
+    "training"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 62,
+  "subcategory": "ai-code-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,21 +1,42 @@
 {
   "slug": "julius-ai",
   "name": "Julius AI",
-  "tagline": "AI data analyst",
-  "description": "Chat with your data, generate charts, and analyze CSVs in chat.",
+  "tagline": "Julius AI is a conversational data analysis tool that connects to spreadsheets, databases, and CSV files and lets you ask questions in plain English — producing charts, statistical summaries, and Python-generated insights without writing code. It can run regression analyses, detect trends, and generate publication-ready visualisations from natural-language instructions. Analysts, marketers, and researchers who work with data but aren't fluent in Python or SQL use Julius to move from raw data to insight in minutes.",
+  "description": "Julius AI is a conversational data analysis tool that connects to spreadsheets, databases, and CSV files and lets you ask questions in plain English — producing charts, statistical summaries, and Python-generated insights without writing code. It can run regression analyses, detect trends, and generate publication-ready visualisations from natural-language instructions. Analysts, marketers, and researchers who work with data but aren't fluent in Python or SQL use Julius to move from raw data to insight in minutes.",
   "url": "https://julius.ai",
   "logo_url": "https://www.google.com/s2/favicons?domain=julius.ai&sz=64",
   "screenshot_url": "/screenshots/julius-ai.webp",
-  "primary_category": "business-analytics",
+  "primary_category": "research-data",
   "tags": [
-    "data",
-    "chat"
+    "data_analysis",
+    "analytics",
+    "business",
+    "insights",
+    "visualization",
+    "data_science",
+    "reporting",
+    "dashboards",
+    "sql",
+    "image_based"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
-  "subcategory": "ai-spreadsheet",
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "ai-research",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null,
+  "editorial": {
+    "seo": {
+      "title": "Julius AI: AI Data Analysis & Spreadsheets",
+      "description": "Julius AI helps you analyze data and work with spreadsheets using plain-language requests. Explore its data tools, reports and official product information."
+    },
+    "externalLinks": [
+      {
+        "label": "Official product information",
+        "url": "https://julius.ai/",
+        "context": "Explore current product information and supported workflows."
+      }
+    ]
+  }
 }

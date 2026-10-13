@@ -1,0 +1,27 @@
+{
+  "slug": "mermaid-chart",
+  "name": "Mermaid Chart",
+  "tagline": "Mermaid Chart is a diagramming platform built around Mermaid syntax, a text-based language for generating flowcharts, sequence diagrams, ERDs, and Gantt charts in the browser. Developers and technical teams use it because diagrams defined in text can live in version control alongside code, making documentation easier to maintain than drag-and-drop tools. AI assistance lets users generate diagram code from plain-English descriptions or modify existing diagrams conversationally.",
+  "description": "Mermaid Chart is a diagramming platform built around Mermaid syntax, a text-based language for generating flowcharts, sequence diagrams, ERDs, and Gantt charts in the browser. Developers and technical teams use it because diagrams defined in text can live in version control alongside code, making documentation easier to maintain than drag-and-drop tools. AI assistance lets users generate diagram code from plain-English descriptions or modify existing diagrams conversationally.",
+  "url": "https://mermaidchart.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=mermaidchart.com&sz=64",
+  "screenshot_url": "/screenshots/mermaid-chart.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "collaboration",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool",
+    "service",
+    "solution",
+    "saas"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 66,
+  "subcategory": "productivity-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

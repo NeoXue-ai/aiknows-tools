@@ -1,21 +1,30 @@
 {
   "slug": "elevenlabs",
   "name": "ElevenLabs",
-  "tagline": "AI voice and dubbing",
-  "description": "Lifelike voice synthesis, voice cloning, and dubbing in 30+ languages.",
+  "tagline": "ElevenLabs is the leading AI voice synthesis platform, capable of generating ultra-realistic speech in 29 languages with precise control over tone, pacing, and emotion. Its voice cloning feature can replicate a person's voice from a few minutes of audio. Audiobook publishers, game studios, content creators, and accessibility app developers use ElevenLabs as the gold standard for AI-generated voice.",
+  "description": "ElevenLabs is the leading AI voice synthesis platform, capable of generating ultra-realistic speech in 29 languages with precise control over tone, pacing, and emotion. Its voice cloning feature can replicate a person's voice from a few minutes of audio. Audiobook publishers, game studios, content creators, and accessibility app developers use ElevenLabs as the gold standard for AI-generated voice.",
   "url": "https://elevenlabs.io",
   "logo_url": "https://www.google.com/s2/favicons?domain=elevenlabs.io&sz=64",
   "screenshot_url": "/screenshots/elevenlabs.webp",
   "primary_category": "image-video",
   "tags": [
-    "voice",
-    "audio"
+    "audio",
+    "creative",
+    "sound",
+    "music",
+    "recording",
+    "audio_editing",
+    "sound_design",
+    "mixing",
+    "production",
+    "mobile_app",
+    "voice_enabled"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
-  "subcategory": "ai-voice-cloning",
-  "is_featured": true,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 90,
+  "subcategory": "ai-voice-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
 }

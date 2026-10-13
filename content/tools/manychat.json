@@ -1,0 +1,27 @@
+{
+  "slug": "manychat",
+  "name": "ManyChat",
+  "tagline": "ManyChat automates customer interactions on Instagram, Facebook Messenger, WhatsApp, and SMS. Brands and creators use it to capture leads, run promotions, answer common questions, and walk users through purchase flows with chat sequences triggered by keywords or actions. No coding required; it connects to Shopify, Klaviyo, and other e-commerce tools.",
+  "description": "ManyChat automates customer interactions on Instagram, Facebook Messenger, WhatsApp, and SMS. Brands and creators use it to capture leads, run promotions, answer common questions, and walk users through purchase flows with chat sequences triggered by keywords or actions. No coding required; it connects to Shopify, Klaviyo, and other e-commerce tools.",
+  "url": "https://manychat.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=manychat.com&sz=64",
+  "screenshot_url": "/screenshots/manychat.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "customizable",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool",
+    "service",
+    "solution",
+    "saas"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 83,
+  "subcategory": "chatbots",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "hume-ai",
+  "name": "Hume AI",
+  "tagline": "Hume AI builds AI that can understand and express emotion. Its Empathic Voice Interface (EVI) is a voice AI that reads vocal cues — tone, pace, inflection — to gauge how the user is feeling and adapt its responses accordingly, producing the most naturalistic AI voice conversations available. EVI 2 adds expressive emotional output, laughing, sighing, and varying its energy to match the conversation. Hume's APIs are used in mental health applications, educational tools, and consumer apps where emotional intelligence matters.",
+  "description": "Hume AI builds AI that can understand and express emotion. Its Empathic Voice Interface (EVI) is a voice AI that reads vocal cues — tone, pace, inflection — to gauge how the user is feeling and adapt its responses accordingly, producing the most naturalistic AI voice conversations available. EVI 2 adds expressive emotional output, laughing, sighing, and varying its energy to match the conversation. Hume's APIs are used in mental health applications, educational tools, and consumer apps where emotional intelligence matters.",
+  "url": "https://hume.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=hume.ai&sz=64",
+  "screenshot_url": "/screenshots/hume-ai.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "text_to_speech",
+    "audio",
+    "voice",
+    "narration",
+    "accessibility",
+    "tts",
+    "speech_synthesis",
+    "voiceover",
+    "reading",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 72,
+  "subcategory": "text-to-speech-ai",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

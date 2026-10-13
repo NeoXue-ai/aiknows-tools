@@ -1,0 +1,28 @@
+{
+  "slug": "socialbee-ai",
+  "name": "SocialBee",
+  "tagline": "SocialBee is a social media management tool with an AI post generator, content calendar, and category-based scheduling that ensures a balanced content mix. Its Copilot feature creates a tailored social media strategy from a questionnaire, then generates and schedules posts automatically.",
+  "description": "SocialBee is a social media management tool with an AI post generator, content calendar, and category-based scheduling that ensures a balanced content mix. Its Copilot feature creates a tailored social media strategy from a questionnaire, then generates and schedules posts automatically.",
+  "url": "https://socialbee.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=socialbee.com&sz=64",
+  "screenshot_url": "/screenshots/socialbee-ai.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "social_media",
+    "marketing",
+    "content_creation",
+    "engagement",
+    "posting",
+    "scheduling",
+    "analytics",
+    "audience",
+    "platform"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 80,
+  "subcategory": "social-media",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

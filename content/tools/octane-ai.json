@@ -1,0 +1,29 @@
+{
+  "slug": "octane-ai",
+  "name": "Octane AI",
+  "tagline": "Octane AI is a Shopify-focused platform that uses AI-powered quizzes to collect zero-party data and provide personalized product recommendations. E-commerce brands use it to match customers with the right products, grow email and SMS lists, and increase average order value.",
+  "description": "Octane AI is a Shopify-focused platform that uses AI-powered quizzes to collect zero-party data and provide personalized product recommendations. E-commerce brands use it to match customers with the right products, grow email and SMS lists, and increase average order value.",
+  "url": "https://octaneai.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=octaneai.com&sz=64",
+  "screenshot_url": "/screenshots/octane-ai.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "ecommerce",
+    "business",
+    "marketing",
+    "retail",
+    "shopping",
+    "online_store",
+    "product_catalog",
+    "checkout",
+    "conversions",
+    "customizable"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 71,
+  "subcategory": "ecommerce",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

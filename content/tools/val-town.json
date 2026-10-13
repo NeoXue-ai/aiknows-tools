@@ -1,0 +1,29 @@
+{
+  "slug": "val-town",
+  "name": "Val Town",
+  "tagline": "Val Town is a social coding environment where developers write, run, and share small JavaScript and TypeScript functions called vals directly in the browser. It handles hosting, scheduling, and HTTP endpoints, making it easy to build scripts, APIs, and automations without infrastructure setup.",
+  "description": "Val Town is a social coding environment where developers write, run, and share small JavaScript and TypeScript functions called vals directly in the browser. It handles hosting, scheduling, and HTTP endpoints, making it easy to build scripts, APIs, and automations without infrastructure setup.",
+  "url": "https://val.town",
+  "logo_url": "https://www.google.com/s2/favicons?domain=val.town&sz=64",
+  "screenshot_url": "/screenshots/val-town.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "easy_to_use"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

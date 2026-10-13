@@ -1,0 +1,31 @@
+{
+  "slug": "sap-ariba",
+  "name": "SAP Ariba",
+  "tagline": "SAP Ariba is the world's largest business commerce network, connecting buyers and suppliers for procurement, invoicing, and supply chain collaboration. Its AI features include smart contract compliance checking, supplier risk scoring, and spend analytics that identify savings opportunities across a company's entire purchasing history. Global enterprises use SAP Ariba to manage billions of dollars of spend more strategically.",
+  "description": "SAP Ariba is the world's largest business commerce network, connecting buyers and suppliers for procurement, invoicing, and supply chain collaboration. Its AI features include smart contract compliance checking, supplier risk scoring, and spend analytics that identify savings opportunities across a company's entire purchasing history. Global enterprises use SAP Ariba to manage billions of dollars of spend more strategically.",
+  "url": "https://ariba.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=ariba.com&sz=64",
+  "screenshot_url": "/screenshots/sap-ariba.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "supply_chain",
+    "logistics",
+    "business",
+    "inventory",
+    "management",
+    "procurement",
+    "distribution",
+    "forecasting",
+    "operations",
+    "collaboration",
+    "enterprise",
+    "analytics"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 85,
+  "subcategory": "ecommerce",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

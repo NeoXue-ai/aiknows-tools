@@ -1,0 +1,31 @@
+{
+  "slug": "ragas",
+  "name": "Ragas",
+  "tagline": "Ragas is an open-source evaluation framework for RAG pipelines. It gives teams metrics for faithfulness, answer relevancy, and context precision that work without labeled ground truth data. Useful for catching quality regressions when prompts or retrieval configs change.",
+  "description": "Ragas is an open-source evaluation framework for RAG pipelines. It gives teams metrics for faithfulness, answer relevancy, and context precision that work without labeled ground truth data. Useful for catching quality regressions when prompts or retrieval configs change.",
+  "url": "https://ragas.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=ragas.io&sz=64",
+  "screenshot_url": "/screenshots/ragas.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "open_source",
+    "collaboration",
+    "community_driven"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 75,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

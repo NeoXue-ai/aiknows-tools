@@ -1,0 +1,31 @@
+{
+  "slug": "averi-ai",
+  "name": "Averi AI",
+  "tagline": "Averi is an AI content engine built for startups that want to run a content marketing program without a full content team. Founders and marketing leads use it to produce blog posts, landing page copy, and social content that ranks in search and converts visitors, with output trained to match the brand voice rather than producing generic AI text. It handles the full content workflow from keyword research and brief creation through to draft and publish, reducing the manual effort of running a content operation at an early-stage company.",
+  "description": "Averi is an AI content engine built for startups that want to run a content marketing program without a full content team. Founders and marketing leads use it to produce blog posts, landing page copy, and social content that ranks in search and converts visitors, with output trained to match the brand voice rather than producing generic AI text. It handles the full content workflow from keyword research and brief creation through to draft and publish, reducing the manual effort of running a content operation at an early-stage company.",
+  "url": "https://averi.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=averi.ai&sz=64",
+  "screenshot_url": "/screenshots/averi-ai.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "marketing",
+    "business",
+    "campaigns",
+    "growth",
+    "promotion",
+    "demand_generation",
+    "brand",
+    "digital_marketing",
+    "roi",
+    "collaboration",
+    "voice_enabled",
+    "training"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 70,
+  "subcategory": "ai-marketing",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

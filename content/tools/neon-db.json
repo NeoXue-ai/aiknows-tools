@@ -1,0 +1,27 @@
+{
+  "slug": "neon-db",
+  "name": "Neon",
+  "tagline": "Neon is a serverless Postgres database with database branching and autoscaling built in. Development teams use it to spin up instant database copies for testing and preview environments, then scale compute to zero when not in use to cut costs. Its branching model fits well with modern deployment workflows and has become a common choice for AI application backends.",
+  "description": "Neon is a serverless Postgres database with database branching and autoscaling built in. Development teams use it to spin up instant database copies for testing and preview environments, then scale compute to zero when not in use to cut costs. Its branching model fits well with modern deployment workflows and has become a common choice for AI application backends.",
+  "url": "https://neon.tech",
+  "logo_url": "https://www.google.com/s2/favicons?domain=neon.tech&sz=64",
+  "screenshot_url": "/screenshots/neon-db.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "collaboration",
+    "model_based",
+    "fast",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool",
+    "service"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 83,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

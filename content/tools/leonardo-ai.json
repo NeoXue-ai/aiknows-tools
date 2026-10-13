@@ -1,21 +1,31 @@
 {
   "slug": "leonardo-ai",
-  "name": "Leonardo.AI",
-  "tagline": "Production-ready AI art",
-  "description": "Game assets, concept art, and design-ready images with fine-grained control.",
+  "name": "Leonardo AI",
+  "tagline": "Leonardo AI is a generative AI platform focused on creative and game-development use cases, offering fine-tuned models for characters, environments, concept art, and product visuals. Its Canvas editor lets users make targeted edits, and the Model Training feature lets studios train on proprietary art styles. Game developers and concept artists use it to produce consistent, high-volume visual assets.",
+  "description": "Leonardo AI is a generative AI platform focused on creative and game-development use cases, offering fine-tuned models for characters, environments, concept art, and product visuals. Its Canvas editor lets users make targeted edits, and the Model Training feature lets studios train on proprietary art styles. Game developers and concept artists use it to produce consistent, high-volume visual assets.",
   "url": "https://leonardo.ai",
   "logo_url": "https://www.google.com/s2/favicons?domain=leonardo.ai&sz=64",
   "screenshot_url": "/screenshots/leonardo-ai.webp",
   "primary_category": "image-video",
   "tags": [
-    "image",
-    "games"
+    "image_generation",
+    "creative",
+    "text_to_image",
+    "visual",
+    "graphics",
+    "generative_ai",
+    "art",
+    "diffusion",
+    "prompting",
+    "mobile_app",
+    "image_based",
+    "training"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
-  "subcategory": "ai-art-generator",
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 82,
+  "subcategory": "ai-image-generator",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

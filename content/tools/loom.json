@@ -1,0 +1,30 @@
+{
+  "slug": "loom",
+  "name": "Loom",
+  "tagline": "Loom is an async video messaging tool that lets you record your screen, camera, and microphone simultaneously and share a link instantly. Its AI automatically generates a transcript, title, and summary for every recording, and a chaptering feature lets viewers jump to the section they need. Teams use Loom to replace meetings, explain complex code changes, and give feedback on designs without scheduling a call.",
+  "description": "Loom is an async video messaging tool that lets you record your screen, camera, and microphone simultaneously and share a link instantly. Its AI automatically generates a transcript, title, and summary for every recording, and a chaptering feature lets viewers jump to the section they need. Teams use Loom to replace meetings, explain complex code changes, and give feedback on designs without scheduling a call.",
+  "url": "https://loom.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=loom.com&sz=64",
+  "screenshot_url": "/screenshots/loom.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "video",
+    "creative",
+    "media",
+    "content",
+    "production",
+    "recording",
+    "streaming",
+    "publishing",
+    "video_creation",
+    "collaboration",
+    "fast"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 91,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

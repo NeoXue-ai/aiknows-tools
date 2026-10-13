@@ -1,0 +1,29 @@
+{
+  "slug": "lokalise-ai",
+  "name": "Lokalise AI",
+  "tagline": "Lokalise is a translation management platform with integrated AI translation, glossary management, and quality assurance tools. Development teams use it to localise apps, websites, and digital products into 100+ languages. Its AI translation engine combines machine translation with brand-specific terminology for consistent localisation.",
+  "description": "Lokalise is a translation management platform with integrated AI translation, glossary management, and quality assurance tools. Development teams use it to localise apps, websites, and digital products into 100+ languages. Its AI translation engine combines machine translation with brand-specific terminology for consistent localisation.",
+  "url": "https://lokalise.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=lokalise.com&sz=64",
+  "screenshot_url": "/screenshots/lokalise-ai.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "translation",
+    "language",
+    "multilingual",
+    "communication",
+    "localization",
+    "globalization",
+    "language_ai",
+    "interpretation",
+    "text",
+    "collaboration"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 76,
+  "subcategory": "ai-translator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

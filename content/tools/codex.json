@@ -1,0 +1,30 @@
+{
+  "slug": "codex",
+  "name": "Codex",
+  "tagline": "Codex is OpenAI's coding agent: it reads a repository, plans a change, edits files, and runs tests or linters to check its own work. It ships as a terminal CLI, a desktop app for Mac and Windows, IDE extensions, and a version inside ChatGPT itself, all running on the GPT-5 coding models. It competes directly with Claude Code and Cursor for the same job, delegating a task and letting the agent work through it end to end, and it regularly tops terminal-based coding benchmarks like Terminal-Bench.",
+  "description": "Codex is OpenAI's coding agent: it reads a repository, plans a change, edits files, and runs tests or linters to check its own work. It ships as a terminal CLI, a desktop app for Mac and Windows, IDE extensions, and a version inside ChatGPT itself, all running on the GPT-5 coding models. It competes directly with Claude Code and Cursor for the same job, delegating a task and letting the agent work through it end to end, and it regularly tops terminal-based coding benchmarks like Terminal-Bench.",
+  "url": "https://chatgpt.com/codex",
+  "logo_url": "https://www.google.com/s2/favicons?domain=chatgpt.com&sz=64",
+  "screenshot_url": "/screenshots/codex.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "code_generation",
+    "developer_tools",
+    "productivity",
+    "coding",
+    "programming",
+    "autocomplete",
+    "debugging",
+    "refactoring",
+    "ide",
+    "model_based",
+    "extensible"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 93,
+  "subcategory": "ai-code-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

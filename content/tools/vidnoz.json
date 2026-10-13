@@ -1,0 +1,31 @@
+{
+  "slug": "vidnoz",
+  "name": "Vidnoz",
+  "tagline": "Vidnoz is an AI video creation platform that produces professional videos from text using realistic AI avatars and voice synthesis. Users select an avatar, input a script, and generate a polished spokesperson video for marketing, training, or corporate communications.",
+  "description": "Vidnoz is an AI video creation platform that produces professional videos from text using realistic AI avatars and voice synthesis. Users select an avatar, input a script, and generate a polished spokesperson video for marketing, training, or corporate communications.",
+  "url": "https://vidnoz.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=vidnoz.com&sz=64",
+  "screenshot_url": "/screenshots/vidnoz.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "avatar",
+    "video_generation",
+    "creative",
+    "video",
+    "animation",
+    "digital_human",
+    "lip_sync",
+    "presenter",
+    "synthetic_media",
+    "voice_enabled",
+    "training",
+    "powerful"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 75,
+  "subcategory": "ai-avatar-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

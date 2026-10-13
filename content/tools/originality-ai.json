@@ -1,0 +1,29 @@
+{
+  "slug": "originality-ai",
+  "name": "Originality.ai",
+  "tagline": "Originality.ai detects AI-generated content from GPT-4, Claude, Gemini, and other models with high accuracy. It is designed for publishers, content agencies, and educators who need to verify that submitted work is human-written. It also includes a plagiarism checker and readability score.",
+  "description": "Originality.ai detects AI-generated content from GPT-4, Claude, Gemini, and other models with high accuracy. It is designed for publishers, content agencies, and educators who need to verify that submitted work is human-written. It also includes a plagiarism checker and readability score.",
+  "url": "https://originality.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=originality.ai&sz=64",
+  "screenshot_url": "/screenshots/originality-ai.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "writing",
+    "text_generation",
+    "productivity",
+    "content",
+    "editing",
+    "grammar",
+    "paraphrasing",
+    "ai_writing",
+    "drafting",
+    "model_based"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 79,
+  "subcategory": "ai-writer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

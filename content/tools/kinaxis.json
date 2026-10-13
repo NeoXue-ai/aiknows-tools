@@ -1,0 +1,29 @@
+{
+  "slug": "kinaxis",
+  "name": "Kinaxis",
+  "tagline": "Kinaxis is an enterprise supply chain management platform that uses AI and concurrent planning to give companies end-to-end visibility and rapid response capability across demand, supply, and operations. Its RapidResponse platform helps manufacturers and retailers reduce risk and improve agility.",
+  "description": "Kinaxis is an enterprise supply chain management platform that uses AI and concurrent planning to give companies end-to-end visibility and rapid response capability across demand, supply, and operations. Its RapidResponse platform helps manufacturers and retailers reduce risk and improve agility.",
+  "url": "https://kinaxis.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=kinaxis.com&sz=64",
+  "screenshot_url": "/screenshots/kinaxis.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "supply_chain",
+    "logistics",
+    "business",
+    "inventory",
+    "management",
+    "procurement",
+    "distribution",
+    "forecasting",
+    "operations",
+    "enterprise"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 70,
+  "subcategory": "ecommerce",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

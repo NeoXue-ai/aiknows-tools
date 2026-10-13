@@ -1,0 +1,31 @@
+{
+  "slug": "getimg-ai",
+  "name": "GetIMG.ai",
+  "tagline": "GetIMG.ai is an all-in-one AI image platform offering text-to-image generation, inpainting, outpainting, and an AI canvas. It supports Stable Diffusion, SDXL, and fine-tuned custom models so users can create consistent characters and brand imagery. The platform also includes a face enhancer and background removal tool.",
+  "description": "GetIMG.ai is an all-in-one AI image platform offering text-to-image generation, inpainting, outpainting, and an AI canvas. It supports Stable Diffusion, SDXL, and fine-tuned custom models so users can create consistent characters and brand imagery. The platform also includes a face enhancer and background removal tool.",
+  "url": "https://getimg.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=getimg.ai&sz=64",
+  "screenshot_url": "/screenshots/getimg-ai.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "image_generation",
+    "creative",
+    "text_to_image",
+    "visual",
+    "graphics",
+    "generative_ai",
+    "art",
+    "diffusion",
+    "prompting",
+    "customizable",
+    "image_based",
+    "training"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "ai-image-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

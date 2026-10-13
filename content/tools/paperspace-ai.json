@@ -1,0 +1,31 @@
+{
+  "slug": "paperspace-ai",
+  "name": "Paperspace",
+  "tagline": "Paperspace (by DigitalOcean) is a cloud computing platform with GPU-backed instances designed for AI, machine learning, and graphics workloads. Its Gradient product provides managed Jupyter notebooks, model training pipelines, and model deployment. Data scientists and ML engineers use it as a fully managed MLOps platform.",
+  "description": "Paperspace (by DigitalOcean) is a cloud computing platform with GPU-backed instances designed for AI, machine learning, and graphics workloads. Its Gradient product provides managed Jupyter notebooks, model training pipelines, and model deployment. Data scientists and ML engineers use it as a fully managed MLOps platform.",
+  "url": "https://paperspace.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=paperspace.com&sz=64",
+  "screenshot_url": "/screenshots/paperspace-ai.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "llm",
+    "foundation_model",
+    "ai_model",
+    "machine_learning",
+    "neural",
+    "inference",
+    "fine_tuning",
+    "api",
+    "open_source",
+    "cloud_based",
+    "image_based",
+    "training"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 73,
+  "subcategory": "ai-models",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

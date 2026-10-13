@@ -1,0 +1,30 @@
+{
+  "slug": "dbt-cloud",
+  "name": "dbt Cloud",
+  "tagline": "dbt Cloud is the managed platform for dbt (data build tool), which enables analytics engineers to transform raw data in their warehouse using SQL and Python. Its AI Copilot generates dbt models, writes documentation, and helps debug pipelines, making data transformation more accessible.",
+  "description": "dbt Cloud is the managed platform for dbt (data build tool), which enables analytics engineers to transform raw data in their warehouse using SQL and Python. Its AI Copilot generates dbt models, writes documentation, and helps debug pipelines, making data transformation more accessible.",
+  "url": "https://getdbt.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=getdbt.com&sz=64",
+  "screenshot_url": "/screenshots/dbt-cloud.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "data_analysis",
+    "analytics",
+    "business",
+    "insights",
+    "visualization",
+    "data_science",
+    "reporting",
+    "dashboards",
+    "sql",
+    "cloud_based",
+    "model_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 82,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

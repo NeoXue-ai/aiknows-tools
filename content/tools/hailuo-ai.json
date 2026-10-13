@@ -1,0 +1,30 @@
+{
+  "slug": "hailuo-ai",
+  "name": "Hailuo AI",
+  "tagline": "Hailuo AI is MiniMax's video generation platform, known for exceptionally smooth motion, realistic physics, and strong character consistency across frames. Its MiniMax Video-01 model became widely used after demonstrating quality competitive with Sora and Kling at accessible pricing. Content creators and motion graphics artists use Hailuo for polished, cinematic AI video with natural-feeling movement.",
+  "description": "Hailuo AI is MiniMax's video generation platform, known for exceptionally smooth motion, realistic physics, and strong character consistency across frames. Its MiniMax Video-01 model became widely used after demonstrating quality competitive with Sora and Kling at accessible pricing. Content creators and motion graphics artists use Hailuo for polished, cinematic AI video with natural-feeling movement.",
+  "url": "https://hailuoai.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=hailuoai.com&sz=64",
+  "screenshot_url": "/screenshots/hailuo-ai.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "video_generation",
+    "creative",
+    "text_to_video",
+    "animation",
+    "production",
+    "ai_video",
+    "generative",
+    "short_form",
+    "clips",
+    "image_based",
+    "model_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 65,
+  "subcategory": "ai-video-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

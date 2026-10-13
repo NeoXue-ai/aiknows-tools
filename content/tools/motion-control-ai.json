@@ -5,7 +5,7 @@
   "description": "AI motion transfer & animation generator. Use motion control AI and Kling motion control to animate any image — reference-based motion transfer from a single prompt. Free to start.",
   "url": "https://motioncontrol-ai.com",
   "logo_url": "https://www.google.com/s2/favicons?domain=motioncontrol-ai.com&sz=64",
-  "screenshot_url": "/screenshots/motion-control-ai-2.webp",
+  "screenshot_url": "/screenshots/motion-control-ai.webp",
   "primary_category": "image-video",
   "tags": [],
   "pricing_detail": null,

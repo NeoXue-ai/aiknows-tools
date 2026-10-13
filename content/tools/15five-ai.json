@@ -1,0 +1,29 @@
+{
+  "slug": "15five-ai",
+  "name": "15Five",
+  "tagline": "15Five is a performance management platform with AI-powered manager effectiveness tools, OKR tracking, and employee engagement surveys. Its Best-Self Review uses AI to help employees write self-reviews and gives managers real-time coaching suggestions. Over 3,000 companies use it to build high-performance cultures.",
+  "description": "15Five is a performance management platform with AI-powered manager effectiveness tools, OKR tracking, and employee engagement surveys. Its Best-Self Review uses AI to help employees write self-reviews and gives managers real-time coaching suggestions. Over 3,000 companies use it to build high-performance cultures.",
+  "url": "https://15five.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=15five.com&sz=64",
+  "screenshot_url": "/screenshots/15five-ai.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "hr",
+    "business",
+    "recruitment",
+    "employees",
+    "human_resources",
+    "onboarding",
+    "performance",
+    "payroll",
+    "talent",
+    "real_time"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 77,
+  "subcategory": "ai-research",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

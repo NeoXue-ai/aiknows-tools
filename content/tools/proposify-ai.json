@@ -1,0 +1,31 @@
+{
+  "slug": "proposify-ai",
+  "name": "Proposify",
+  "tagline": "Proposify is proposal software with AI-assisted content suggestions, interactive pricing tables, and e-signatures. Its AI analyses which proposal sections correlate with wins and surfaces recommendations for improvement. Sales and agency teams use it to create professional proposals faster and track client engagement in real time.",
+  "description": "Proposify is proposal software with AI-assisted content suggestions, interactive pricing tables, and e-signatures. Its AI analyses which proposal sections correlate with wins and surfaces recommendations for improvement. Sales and agency teams use it to create professional proposals faster and track client engagement in real time.",
+  "url": "https://proposify.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=proposify.com&sz=64",
+  "screenshot_url": "/screenshots/proposify-ai.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "business",
+    "productivity",
+    "enterprise",
+    "operations",
+    "management",
+    "documents",
+    "contracts",
+    "proposals",
+    "workflow",
+    "collaboration",
+    "fast",
+    "powerful"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 76,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

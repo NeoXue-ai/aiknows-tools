@@ -1,0 +1,30 @@
+{
+  "slug": "turbopuffer",
+  "name": "Turbopuffer",
+  "tagline": "Turbopuffer is a high-performance vector database designed for sub-millisecond similarity search over billions of vectors at low cost. It uses object storage for persistence and an in-memory index for fast queries, making it suited for large-scale RAG and search applications.",
+  "description": "Turbopuffer is a high-performance vector database designed for sub-millisecond similarity search over billions of vectors at low cost. It uses object storage for persistence and an in-memory index for fast queries, making it suited for large-scale RAG and search applications.",
+  "url": "https://turbopuffer.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=turbopuffer.com&sz=64",
+  "screenshot_url": "/screenshots/turbopuffer.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "fast",
+    "affordable"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 72,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

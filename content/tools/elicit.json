@@ -1,21 +1,28 @@
 {
   "slug": "elicit",
   "name": "Elicit",
-  "tagline": "AI research assistant",
-  "description": "Find, summarize, and extract data from academic papers.",
-  "url": "https://elicit.com",
-  "logo_url": "https://www.google.com/s2/favicons?domain=elicit.com&sz=64",
+  "tagline": "Elicit is an AI research assistant that automates the most tedious parts of literature review — finding relevant papers, extracting key data points, and summarising findings across hundreds of studies. Researchers upload their research question and Elicit returns a structured table of evidence from the scientific literature. It's particularly valued in medicine, policy research, and systematic review workflows.",
+  "description": "Elicit is an AI research assistant that automates the most tedious parts of literature review — finding relevant papers, extracting key data points, and summarising findings across hundreds of studies. Researchers upload their research question and Elicit returns a structured table of evidence from the scientific literature. It's particularly valued in medicine, policy research, and systematic review workflows.",
+  "url": "https://elicit.org",
+  "logo_url": "https://www.google.com/s2/favicons?domain=elicit.org&sz=64",
   "screenshot_url": "/screenshots/elicit.webp",
   "primary_category": "research-data",
   "tags": [
     "research",
-    "papers"
+    "education",
+    "academic",
+    "papers",
+    "scholars",
+    "literature",
+    "citations",
+    "peer_review",
+    "university"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
-  "subcategory": "ai-research",
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 68,
+  "subcategory": "ai-education",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

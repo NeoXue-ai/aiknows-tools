@@ -1,0 +1,27 @@
+{
+  "slug": "avalara",
+  "name": "Avalara",
+  "tagline": "Avalara is a cloud-based tax compliance platform that automates sales tax, VAT, GST, and customs duty calculations across hundreds of countries and thousands of tax jurisdictions. Finance and e-commerce teams use it to ensure accurate tax rates are applied at checkout and to automate multi-jurisdiction tax filing, replacing manual spreadsheet processes that break as businesses expand into new markets. It integrates with ERP systems, e-commerce platforms, and billing tools through a broad partner ecosystem.",
+  "description": "Avalara is a cloud-based tax compliance platform that automates sales tax, VAT, GST, and customs duty calculations across hundreds of countries and thousands of tax jurisdictions. Finance and e-commerce teams use it to ensure accurate tax rates are applied at checkout and to automate multi-jurisdiction tax filing, replacing manual spreadsheet processes that break as businesses expand into new markets. It integrates with ERP systems, e-commerce platforms, and billing tools through a broad partner ecosystem.",
+  "url": "https://avalara.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=avalara.com&sz=64",
+  "screenshot_url": "/screenshots/avalara.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "collaboration",
+    "customizable",
+    "integrations",
+    "cloud_based",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 84,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

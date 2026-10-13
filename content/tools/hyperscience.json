@@ -1,0 +1,30 @@
+{
+  "slug": "hyperscience",
+  "name": "HyperScience",
+  "tagline": "HyperScience is an enterprise intelligent document processing platform that automates the extraction and processing of data from structured and semi-structured documents. It combines machine learning with human-in-the-loop validation to achieve high accuracy for insurance, financial services, and government workflows.",
+  "description": "HyperScience is an enterprise intelligent document processing platform that automates the extraction and processing of data from structured and semi-structured documents. It combines machine learning with human-in-the-loop validation to achieve high accuracy for insurance, financial services, and government workflows.",
+  "url": "https://hyperscience.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=hyperscience.com&sz=64",
+  "screenshot_url": "/screenshots/hyperscience.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "document_ai",
+    "pdf",
+    "productivity",
+    "extraction",
+    "documents",
+    "ocr",
+    "summarization",
+    "document_processing",
+    "parsing",
+    "enterprise",
+    "machine_learning"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 65,
+  "subcategory": "ai-pdf",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

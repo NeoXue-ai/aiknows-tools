@@ -1,0 +1,28 @@
+{
+  "slug": "khanmigo",
+  "name": "Khanmigo",
+  "tagline": "Khanmigo is Khan Academy's AI-powered tutor built on GPT-4. Rather than giving answers directly, it uses the Socratic method to guide students through problems with questions and hints. It also serves as a teacher assistant, helping educators generate lesson plans, assignment rubrics, and progress reports.",
+  "description": "Khanmigo is Khan Academy's AI-powered tutor built on GPT-4. Rather than giving answers directly, it uses the Socratic method to guide students through problems with questions and hints. It also serves as a teacher assistant, helping educators generate lesson plans, assignment rubrics, and progress reports.",
+  "url": "https://khanacademy.org/khan-labs",
+  "logo_url": "https://www.google.com/s2/favicons?domain=khanacademy.org&sz=64",
+  "screenshot_url": "/screenshots/khanmigo.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "education",
+    "learning",
+    "teaching",
+    "courses",
+    "training",
+    "tutoring",
+    "study",
+    "assessment",
+    "e_learning"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 90,
+  "subcategory": "ai-education",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

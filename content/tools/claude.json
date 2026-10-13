@@ -1,21 +1,110 @@
 {
   "slug": "claude",
   "name": "Claude",
-  "tagline": "AI assistant from Anthropic",
-  "description": "Helpful, harmless, honest assistant for writing, code, and analysis.",
+  "tagline": "Anthropic's AI assistant for working with documents, ideas, and reusable artifacts.",
+  "description": "Claude is Anthropic's AI assistant for conversational work with documents, code, and other materials. You can upload supported files, search the web, and develop reusable outputs through Artifacts. It is available on web, desktop, and mobile, with feature access and usage limits that vary by plan and account settings.",
   "url": "https://claude.ai",
   "logo_url": "https://www.google.com/s2/favicons?domain=claude.ai&sz=64",
   "screenshot_url": "/screenshots/claude.webp",
   "primary_category": "productivity",
   "tags": [
-    "assistant",
-    "anthropic"
+    "chatbot",
+    "text_generation",
+    "ai_assistant",
+    "conversational",
+    "nlp",
+    "dialogue",
+    "llm",
+    "general_ai",
+    "question_answering",
+    "api_available",
+    "collaboration",
+    "enterprise"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
-  "subcategory": "ai-assistant",
-  "is_featured": true,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 92,
+  "subcategory": "ai-chatbot",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null,
+  "editorial": {
+    "guide": {
+      "checkedAt": "2026-10-13",
+      "features": [
+        {
+          "label": "Document and image input",
+          "text": "Attach supported documents or images to a chat, or add files to a project for reference across conversations."
+        },
+        {
+          "label": "Web-connected conversations",
+          "text": "Search the web and connect supported apps or tools to add information to your work."
+        },
+        {
+          "label": "Artifacts for reusable work",
+          "text": "Build and revise documents, presentations, designs, or small interactive tools in a workspace beside the conversation."
+        }
+      ],
+      "useCases": [
+        {
+          "label": "Discuss a document collection",
+          "text": "Upload relevant material, ask for an explanation or comparison, and supply follow-up context where needed."
+        },
+        {
+          "label": "Develop an artifact",
+          "text": "Turn notes into a document or presentation, then iterate through conversation and supported direct editing controls."
+        }
+      ],
+      "limitations": [
+        "Usage limits apply across plans; available models and features vary with your subscription and account settings.",
+        "File processing varies by format and PDF length. Embedded images in non-PDF documents are not interpreted through text extraction.",
+        "Artifacts require cloud code execution and file creation to be enabled; organization administrators can control access."
+      ],
+      "platforms": ["Web", "Desktop app", "iOS", "Android"],
+      "pricingNote": "Claude offers a limited Free plan, paid individual subscriptions, and organization plans. Consult official pricing for current usage allowances and included features.",
+      "pricingUrl": "https://claude.com/pricing",
+      "alternatives": [
+        {
+          "slug": "chatgpt",
+          "reason": "Compare another general assistant for writing, research, and file work."
+        },
+        {
+          "slug": "gemini",
+          "reason": "Explore another conversational assistant for everyday and document tasks."
+        },
+        {
+          "slug": "notebooklm",
+          "reason": "Compare a notebook-centered workflow for research grounded in a source collection."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Claude plans and features",
+          "url": "https://claude.com/pricing"
+        },
+        {
+          "label": "Uploading files to Claude",
+          "url": "https://support.claude.com/en/articles/8241126-upload-files-to-claude"
+        },
+        {
+          "label": "Claude Artifacts",
+          "url": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them"
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Can Claude read uploaded PDFs?",
+        "answer": "Yes. PDFs are a supported input format. Whether Claude processes visual elements as well as text depends on the PDF's length; consult the upload guide for current limits."
+      },
+      {
+        "question": "What are Claude Artifacts?",
+        "answer": "Artifacts are reusable outputs, such as a document, presentation, design, or interactive tool, that open beside your conversation for editing and sharing. Available templates and connected features vary by plan."
+      }
+    ],
+    "seo": {
+      "title": "Claude: AI Assistant for Writing, Coding & Research",
+      "description": "Claude is Anthropic's AI assistant for documents, code, and research, with file uploads, web search, and Artifacts for developing reusable outputs."
+    }
+  }
 }

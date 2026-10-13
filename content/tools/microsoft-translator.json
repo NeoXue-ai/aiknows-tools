@@ -1,0 +1,31 @@
+{
+  "slug": "microsoft-translator",
+  "name": "Microsoft Translator",
+  "tagline": "Microsoft Translator is a cloud-based translation service supporting 100+ languages, available as a mobile app, browser extension, Office integration, and API. Its real-time conversation mode enables multilingual meetings where participants see translations in their own language simultaneously. Azure Cognitive Services customers use the API to add translation to customer service apps, content management systems, and communication tools.",
+  "description": "Microsoft Translator is a cloud-based translation service supporting 100+ languages, available as a mobile app, browser extension, Office integration, and API. Its real-time conversation mode enables multilingual meetings where participants see translations in their own language simultaneously. Azure Cognitive Services customers use the API to add translation to customer service apps, content management systems, and communication tools.",
+  "url": "https://translator.microsoft.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=translator.microsoft.com&sz=64",
+  "screenshot_url": "/screenshots/microsoft-translator.webp",
+  "primary_category": "writing-content",
+  "tags": [
+    "translation",
+    "language",
+    "multilingual",
+    "communication",
+    "localization",
+    "globalization",
+    "language_ai",
+    "interpretation",
+    "text",
+    "api_available",
+    "browser_extension",
+    "mobile_app"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 96,
+  "subcategory": "ai-translator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

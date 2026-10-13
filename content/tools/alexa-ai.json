@@ -1,0 +1,29 @@
+{
+  "slug": "alexa-ai",
+  "name": "Alexa AI",
+  "tagline": "Alexa AI is Amazon's voice-based personal assistant, available on Echo devices, smartphones, and third-party hardware. It handles voice commands for smart home control, music playback, shopping, reminders, and general knowledge queries, with a growing set of generative AI capabilities.",
+  "description": "Alexa AI is Amazon's voice-based personal assistant, available on Echo devices, smartphones, and third-party hardware. It handles voice commands for smart home control, music playback, shopping, reminders, and general knowledge queries, with a growing set of generative AI capabilities.",
+  "url": "https://amazon.com/alexa",
+  "logo_url": "https://www.google.com/s2/favicons?domain=amazon.com&sz=64",
+  "screenshot_url": "/screenshots/alexa-ai.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "ai_assistant",
+    "productivity",
+    "chatbot",
+    "support",
+    "helpful",
+    "personal",
+    "tasks",
+    "reminders",
+    "smart",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 96,
+  "subcategory": "ai-assistant",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

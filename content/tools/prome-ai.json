@@ -1,0 +1,31 @@
+{
+  "slug": "prome-ai",
+  "name": "Prome AI",
+  "tagline": "Prome AI is a design tool for architects, interior designers, and product designers that transforms rough sketches and reference images into photorealistic renders. Teams use it to quickly visualize design concepts for client presentations without waiting for a full 3D render. Multiple rendering styles let designers explore different aesthetics from the same base sketch.",
+  "description": "Prome AI is a design tool for architects, interior designers, and product designers that transforms rough sketches and reference images into photorealistic renders. Teams use it to quickly visualize design concepts for client presentations without waiting for a full 3D render. Multiple rendering styles let designers explore different aesthetics from the same base sketch.",
+  "url": "https://promeai.pro",
+  "logo_url": "https://www.google.com/s2/favicons?domain=promeai.pro&sz=64",
+  "screenshot_url": "/screenshots/prome-ai.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "design",
+    "image_editing",
+    "creative",
+    "visual",
+    "branding",
+    "typography",
+    "layouts",
+    "ui_design",
+    "illustration",
+    "collaboration",
+    "image_based",
+    "fast"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 62,
+  "subcategory": "ai-graphic-design",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

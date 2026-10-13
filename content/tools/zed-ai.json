@@ -1,0 +1,31 @@
+{
+  "slug": "zed-ai",
+  "name": "Zed AI",
+  "tagline": "Zed is a high-performance code editor built in Rust that includes native AI features: inline code generation, an assistant panel for chatting with LLMs, and real-time collaboration. Its tight integration between editing speed and AI makes it a favourite among developers who want both performance and intelligence.",
+  "description": "Zed is a high-performance code editor built in Rust that includes native AI features: inline code generation, an assistant panel for chatting with LLMs, and real-time collaboration. Its tight integration between editing speed and AI makes it a favourite among developers who want both performance and intelligence.",
+  "url": "https://zed.dev",
+  "logo_url": "https://www.google.com/s2/favicons?domain=zed.dev&sz=64",
+  "screenshot_url": "/screenshots/zed-ai.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "code_generation",
+    "developer_tools",
+    "productivity",
+    "coding",
+    "programming",
+    "autocomplete",
+    "debugging",
+    "refactoring",
+    "ide",
+    "real_time",
+    "collaboration",
+    "integrations"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 82,
+  "subcategory": "ai-code-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "lakera",
+  "name": "Lakera",
+  "tagline": "Lakera is an AI security company that protects LLM-powered applications from prompt injection, jailbreaks, and harmful content at runtime. Its Lakera Guard API integrates into AI application pipelines to detect and block adversarial inputs and sensitive data leakage in real time.",
+  "description": "Lakera is an AI security company that protects LLM-powered applications from prompt injection, jailbreaks, and harmful content at runtime. Its Lakera Guard API integrates into AI application pipelines to detect and block adversarial inputs and sensitive data leakage in real time.",
+  "url": "https://lakera.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=lakera.ai&sz=64",
+  "screenshot_url": "/screenshots/lakera.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "api_available",
+    "secure",
+    "model_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 75,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,21 +1,31 @@
 {
   "slug": "heygen",
   "name": "HeyGen",
-  "tagline": "AI avatar videos",
-  "description": "Generate studio-quality videos with AI avatars and voice cloning.",
+  "tagline": "HeyGen is an AI video creation platform that lets you produce professional presenter videos with AI avatars that speak any script in 40+ languages. You can clone your own voice and likeness or choose from over 100 pre-built avatars, making HeyGen popular for corporate training, product demos, and multilingual content at scale. Its lip-sync quality is considered among the best in the industry.",
+  "description": "HeyGen is an AI video creation platform that lets you produce professional presenter videos with AI avatars that speak any script in 40+ languages. You can clone your own voice and likeness or choose from over 100 pre-built avatars, making HeyGen popular for corporate training, product demos, and multilingual content at scale. Its lip-sync quality is considered among the best in the industry.",
   "url": "https://heygen.com",
   "logo_url": "https://www.google.com/s2/favicons?domain=heygen.com&sz=64",
   "screenshot_url": "/screenshots/heygen.webp",
   "primary_category": "image-video",
   "tags": [
+    "avatar",
+    "video_generation",
+    "creative",
     "video",
-    "avatar"
+    "animation",
+    "digital_human",
+    "lip_sync",
+    "presenter",
+    "synthetic_media",
+    "voice_enabled",
+    "training",
+    "powerful"
   ],
-  "pricing_detail": null,
-  "source": null,
-  "dr": null,
-  "subcategory": "ai-voice-cloning",
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 84,
+  "subcategory": "ai-avatar-generator",
   "is_featured": false,
-  "is_verified": true,
-  "published_at": "2026-06-14T16:13:16.801+00:00"
+  "is_verified": false,
+  "published_at": null
 }

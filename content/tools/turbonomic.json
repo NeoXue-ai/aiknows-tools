@@ -1,0 +1,27 @@
+{
+  "slug": "turbonomic",
+  "name": "Turbonomic",
+  "tagline": "Turbonomic, now part of IBM, is an application resource management platform that continuously optimizes cloud and on-premise workload performance using AI. Infrastructure teams use it to automatically right-size virtual machines, containers, and cloud instances based on actual application demand rather than static provisioning. It reduces cloud waste by moving and resizing resources in real time without manual intervention.",
+  "description": "Turbonomic, now part of IBM, is an application resource management platform that continuously optimizes cloud and on-premise workload performance using AI. Infrastructure teams use it to automatically right-size virtual machines, containers, and cloud instances based on actual application demand rather than static provisioning. It reduces cloud waste by moving and resizing resources in real time without manual intervention.",
+  "url": "https://ibm.com/products/turbonomic",
+  "logo_url": "https://www.google.com/s2/favicons?domain=ibm.com&sz=64",
+  "screenshot_url": "/screenshots/turbonomic.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "collaboration",
+    "cloud_based",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool",
+    "service",
+    "solution"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 93,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

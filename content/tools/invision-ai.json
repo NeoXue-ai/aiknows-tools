@@ -1,0 +1,30 @@
+{
+  "slug": "invision-ai",
+  "name": "InVision",
+  "tagline": "InVision is a digital product design platform for creating interactive prototypes, design systems, and user testing flows. Its Freehand collaborative whiteboard includes AI tools for brainstorming and design critique. Used by design teams at Airbnb, Amazon, and HBO, InVision facilitates the entire design review process.",
+  "description": "InVision is a digital product design platform for creating interactive prototypes, design systems, and user testing flows. Its Freehand collaborative whiteboard includes AI tools for brainstorming and design critique. Used by design teams at Airbnb, Amazon, and HBO, InVision facilitates the entire design review process.",
+  "url": "https://invisionapp.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=invisionapp.com&sz=64",
+  "screenshot_url": "/screenshots/invision-ai.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "design",
+    "image_editing",
+    "creative",
+    "visual",
+    "branding",
+    "typography",
+    "layouts",
+    "ui_design",
+    "illustration",
+    "collaboration",
+    "free_tier"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 86,
+  "subcategory": "ai-graphic-design",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

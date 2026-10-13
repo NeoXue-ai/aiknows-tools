@@ -1,0 +1,29 @@
+{
+  "slug": "plasmic",
+  "name": "Plasmic",
+  "tagline": "Plasmic is a visual development platform that lets designers and developers build React web apps without writing layout code. Designers work visually while developers integrate the output into their existing codebase. Its AI features include component generation from text descriptions and design-to-code export.",
+  "description": "Plasmic is a visual development platform that lets designers and developers build React web apps without writing layout code. Designers work visually while developers integrate the output into their existing codebase. Its AI features include component generation from text descriptions and design-to-code export.",
+  "url": "https://plasmic.app",
+  "logo_url": "https://www.google.com/s2/favicons?domain=plasmic.app&sz=64",
+  "screenshot_url": "/screenshots/plasmic.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "no_code",
+    "automation",
+    "app_builder",
+    "lowcode",
+    "visual",
+    "drag_and_drop",
+    "workflow",
+    "builder",
+    "citizen_developer",
+    "image_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 72,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

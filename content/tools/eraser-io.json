@@ -1,0 +1,29 @@
+{
+  "slug": "eraser-io",
+  "name": "Eraser",
+  "tagline": "Eraser is a diagramming and documentation tool purpose-built for software engineers. It generates architecture diagrams, sequence diagrams, entity-relationship diagrams, and flowcharts from code or text descriptions using AI. Engineering teams use it to create and maintain technical documentation alongside code.",
+  "description": "Eraser is a diagramming and documentation tool purpose-built for software engineers. It generates architecture diagrams, sequence diagrams, entity-relationship diagrams, and flowcharts from code or text descriptions using AI. Engineering teams use it to create and maintain technical documentation alongside code.",
+  "url": "https://eraser.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=eraser.io&sz=64",
+  "screenshot_url": "/screenshots/eraser-io.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "collaboration"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 61,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,7 +1,7 @@
 "use client";
 
 import * as React from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter, useSearchParams, usePathname } from "next/navigation";
 import { ToolToolbar, type ViewMode } from "@/components/tool-toolbar";
 import { ToolListView } from "@/components/tool-list-view";
 import { ToolEmptyState } from "@/components/tool-empty-state";
@@ -12,9 +12,15 @@ import {
   loadSearch,
   StaleCatalogError,
 } from "@/features/catalog/browser";
+import { subBySlug } from "@/features/catalog/taxonomy";
 import { parseCatalogQuery, queryTools } from "@/features/catalog/query";
 import type { CatalogPage, ToolSummary } from "@/features/catalog/types";
 import type { SortKey } from "@/features/catalog/types";
+import {
+  browsePath,
+  searchPath,
+  updateSearchParams,
+} from "@/features/catalog/urls";
 const VIEW_KEY = "aiknows:tool-view";
 
 export function ToolDiscovery({
@@ -22,22 +28,27 @@ export function ToolDiscovery({
   indexBase,
   scope,
   variant = "full",
+  basePath = "/tools",
 }: {
   initialPage: CatalogPage;
   indexBase: string;
   scope?: { category?: string; subcategory?: string };
   variant?: "full" | "scoped";
+  basePath?: string;
 }) {
   const router = useRouter();
   const params = useSearchParams();
+  const pathname = usePathname();
+  const isSearchPage = pathname === "/search";
   const query = React.useMemo(
     () => ({
       ...parseCatalogQuery(new URLSearchParams(params.toString())),
+      ...(!isSearchPage ? { page: initialPage.page } : {}),
       ...(scope
         ? { category: scope.category, subcategory: scope.subcategory }
         : {}),
     }),
-    [params, scope],
+    [params, scope, isSearchPage, initialPage.page],
   );
   const [q, setQ] = React.useState(query.q);
   const [view, setView] = React.useState<ViewMode>("cards");
@@ -69,12 +80,18 @@ export function ToolDiscovery({
   }, [urlView]);
 
   function update(changes: Record<string, string | null>, resetPage = true) {
-    const next = new URLSearchParams(params.toString());
-    if (resetPage) next.delete("page");
-    for (const [key, value] of Object.entries(changes))
-      if (value) next.set(key, value);
-      else next.delete(key);
-    router.replace(`?${next}`, { scroll: false });
+    const next = updateSearchParams(
+      new URLSearchParams(params.toString()),
+      changes,
+      resetPage,
+    );
+    const viewOnly = Object.keys(changes).every((key) => key === "view");
+    const viewQuery = next.get("view");
+    const destination =
+      !isSearchPage && viewOnly
+        ? `${browsePath(basePath, initialPage.page)}${viewQuery ? `?view=${viewQuery}` : ""}`
+        : searchPath(next, scope);
+    router.replace(destination, { scroll: false });
   }
   React.useEffect(() => {
     if (q.trim() === query.q) return;
@@ -83,17 +100,18 @@ export function ToolDiscovery({
       next.delete("page");
       if (q.trim()) next.set("q", q.trim());
       else next.delete("q");
-      router.replace(`?${next}`, { scroll: false });
+      router.replace(searchPath(next, scope), { scroll: false });
     }, 250);
     return () => window.clearTimeout(timer);
-  }, [q, query.q, params, router]);
+  }, [q, query.q, params, router, scope]);
 
   const defaultScope = scope?.category;
   const isInitial =
     !query.q &&
     query.sort === "time" &&
     query.dir === "desc" &&
-    query.page === 1 &&
+    query.page === initialPage.page &&
+    query.subcategory === scope?.subcategory &&
     query.category === defaultScope;
   const needsCards = !isInitial && !cards;
   const needsSearch = !!query.q && !search;
@@ -174,6 +192,20 @@ export function ToolDiscovery({
         showExamples={variant !== "scoped"}
         showCategory={variant !== "scoped"}
       />
+      {isSearchPage && query.subcategory && (
+        <div className="flex flex-wrap items-center gap-3 text-sm">
+          <span className="rounded-full border border-border bg-secondary px-3 py-1.5">
+            Task: {subBySlug(query.subcategory)?.name ?? "Selected task"}
+          </span>
+          <button
+            type="button"
+            className="text-accent hover:underline"
+            onClick={() => update({ subcategory: null })}
+          >
+            Clear task filter
+          </button>
+        </div>
+      )}
       {error ? (
         <div
           role="alert"
@@ -206,6 +238,7 @@ export function ToolDiscovery({
       )}
       {!loading && !error && result.total > 0 && (
         <ToolPagination
+          basePath={basePath}
           currentPage={result.page}
           totalPages={result.totalPages}
         />

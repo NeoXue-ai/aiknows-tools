@@ -1,0 +1,31 @@
+{
+  "slug": "bubble",
+  "name": "Bubble",
+  "tagline": "Bubble is a no-code visual programming platform that lets non-developers build fully functional web applications with custom logic, databases, and user authentication. Its AI assistant can generate page layouts and data structures from a natural-language description. Bubble hosts tens of thousands of production apps, from SaaS MVPs to marketplace platforms.",
+  "description": "Bubble is a no-code visual programming platform that lets non-developers build fully functional web applications with custom logic, databases, and user authentication. Its AI assistant can generate page layouts and data structures from a natural-language description. Bubble hosts tens of thousands of production apps, from SaaS MVPs to marketplace platforms.",
+  "url": "https://bubble.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=bubble.io&sz=64",
+  "screenshot_url": "/screenshots/bubble.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "no_code",
+    "app_builder",
+    "developer_tools",
+    "app_development",
+    "lowcode",
+    "rapid_prototyping",
+    "mobile_apps",
+    "web_apps",
+    "deployment",
+    "customizable",
+    "cloud_based",
+    "image_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 86,
+  "subcategory": "ai-app-builder",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

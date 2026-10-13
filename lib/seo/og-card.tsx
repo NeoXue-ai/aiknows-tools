@@ -114,11 +114,11 @@ export function OgCard({
           color: "#667085",
         }}
       >
-        <span>Tools</span>
+        <span>Discover</span>
         <span style={{ opacity: 0.3 }}>·</span>
-        <span>Directories</span>
+        <span>Compare</span>
         <span style={{ opacity: 0.3 }}>·</span>
-        <span>Categories</span>
+        <span>Create</span>
       </div>
     </div>
   );

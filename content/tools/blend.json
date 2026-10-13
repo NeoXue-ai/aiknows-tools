@@ -1,0 +1,28 @@
+{
+  "slug": "blend",
+  "name": "Blend",
+  "tagline": "Blend provides the digital application and processing layer banks and lenders use to originate mortgages and consumer loans, with AI features that verify income and assets automatically and flag documentation gaps. Loan officers use it to move applications through underwriting with less manual paperwork chasing.",
+  "description": "Blend provides the digital application and processing layer banks and lenders use to originate mortgages and consumer loans, with AI features that verify income and assets automatically and flag documentation gaps. Loan officers use it to move applications through underwriting with less manual paperwork chasing.",
+  "url": "https://blend.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=blend.com&sz=64",
+  "screenshot_url": "/screenshots/blend.webp",
+  "primary_category": "business-analytics",
+  "tags": [
+    "finance",
+    "business",
+    "analytics",
+    "accounting",
+    "investment",
+    "financial_planning",
+    "budgeting",
+    "fintech",
+    "reporting"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 77,
+  "subcategory": "ai-analytics",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

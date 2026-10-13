@@ -1,0 +1,29 @@
+{
+  "slug": "missinglettr",
+  "name": "Missinglettr",
+  "tagline": "Missinglettr automatically converts blog posts into year-long social media drip campaigns. It extracts quotes, images, and key points from articles, then generates and schedules social posts that keep evergreen content circulating for months. Bloggers and content marketers use it to maximise content ROI.",
+  "description": "Missinglettr automatically converts blog posts into year-long social media drip campaigns. It extracts quotes, images, and key points from articles, then generates and schedules social posts that keep evergreen content circulating for months. Bloggers and content marketers use it to maximise content ROI.",
+  "url": "https://missinglettr.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=missinglettr.com&sz=64",
+  "screenshot_url": "/screenshots/missinglettr.webp",
+  "primary_category": "seo-marketing",
+  "tags": [
+    "social_media",
+    "marketing",
+    "content_creation",
+    "engagement",
+    "posting",
+    "scheduling",
+    "analytics",
+    "audience",
+    "platform",
+    "image_based"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 61,
+  "subcategory": "social-media",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

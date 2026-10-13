@@ -1,0 +1,28 @@
+{
+  "slug": "mathway-ai",
+  "name": "Mathway",
+  "tagline": "Mathway is an AI-powered maths calculator and solver that handles problems from basic arithmetic through calculus, statistics, and linear algebra. Students photograph or type a maths problem, and the app solves it with step-by-step explanations. With over 100 million problems solved, it is one of the most used maths tools globally.",
+  "description": "Mathway is an AI-powered maths calculator and solver that handles problems from basic arithmetic through calculus, statistics, and linear algebra. Students photograph or type a maths problem, and the app solves it with step-by-step explanations. With over 100 million problems solved, it is one of the most used maths tools globally.",
+  "url": "https://mathway.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=mathway.com&sz=64",
+  "screenshot_url": "/screenshots/mathway-ai.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "education",
+    "learning",
+    "teaching",
+    "courses",
+    "training",
+    "tutoring",
+    "study",
+    "assessment",
+    "e_learning"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 66,
+  "subcategory": "ai-education",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

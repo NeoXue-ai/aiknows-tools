@@ -1,0 +1,28 @@
+{
+  "slug": "dreambox-learning",
+  "name": "DreamBox Learning",
+  "tagline": "DreamBox Learning is an intelligent adaptive learning platform for elementary and middle school maths that uses game mechanics to keep students engaged. Its AI makes over 48,000 micro-adjustments per hour per student, adapting the learning path in real time. Research shows students using DreamBox outperform peers on standardised tests.",
+  "description": "DreamBox Learning is an intelligent adaptive learning platform for elementary and middle school maths that uses game mechanics to keep students engaged. Its AI makes over 48,000 micro-adjustments per hour per student, adapting the learning path in real time. Research shows students using DreamBox outperform peers on standardised tests.",
+  "url": "https://dreambox.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=dreambox.com&sz=64",
+  "screenshot_url": "/screenshots/dreambox-learning.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "education",
+    "learning",
+    "teaching",
+    "courses",
+    "training",
+    "tutoring",
+    "study",
+    "assessment",
+    "e_learning"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 72,
+  "subcategory": "ai-education",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

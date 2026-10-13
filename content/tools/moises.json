@@ -1,0 +1,29 @@
+{
+  "slug": "moises",
+  "name": "Moises",
+  "tagline": "Moises is an AI music app that separates audio tracks into individual stems (vocals, drums, bass, instruments) and allows musicians to adjust pitch and tempo in real time. It is used by musicians for practice, remixing, and karaoke-style backing track creation.",
+  "description": "Moises is an AI music app that separates audio tracks into individual stems (vocals, drums, bass, instruments) and allows musicians to adjust pitch and tempo in real time. It is used by musicians for practice, remixing, and karaoke-style backing track creation.",
+  "url": "https://moises.ai",
+  "logo_url": "https://www.google.com/s2/favicons?domain=moises.ai&sz=64",
+  "screenshot_url": "/screenshots/moises.webp",
+  "primary_category": "image-video",
+  "tags": [
+    "audio",
+    "creative",
+    "sound",
+    "music",
+    "recording",
+    "audio_editing",
+    "sound_design",
+    "mixing",
+    "production",
+    "voice_enabled"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 70,
+  "subcategory": "ai-voice-generator",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

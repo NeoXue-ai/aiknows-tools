@@ -1,0 +1,31 @@
+{
+  "slug": "deepseek-harness",
+  "name": "DeepSeek Harness",
+  "tagline": "DeepSeek Harness is an open-source agent runtime that turns DeepSeek's V4 models into autonomous coding agents, with models, tools, sandboxes, and orchestration all built as swappable plugins.",
+  "description": "DeepSeek Harness is an open-source agent runtime that turns DeepSeek's V4 models into autonomous coding agents, with models, tools, sandboxes, and orchestration all built as swappable plugins.",
+  "url": "https://deepseek.com/harness/en",
+  "logo_url": "https://www.google.com/s2/favicons?domain=deepseek.com&sz=64",
+  "screenshot_url": "/screenshots/deepseek-harness.webp",
+  "primary_category": "code-development",
+  "tags": [
+    "developer_tools",
+    "code_generation",
+    "infrastructure",
+    "deployment",
+    "development",
+    "devops",
+    "ci_cd",
+    "cloud",
+    "api",
+    "open_source",
+    "autonomous",
+    "model_based"
+  ],
+  "pricing_detail": "Free",
+  "source": "https://bestofai.io",
+  "dr": 90,
+  "subcategory": "developer-tools",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

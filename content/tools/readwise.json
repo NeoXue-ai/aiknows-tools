@@ -1,0 +1,27 @@
+{
+  "slug": "readwise",
+  "name": "Readwise",
+  "tagline": "Readwise is a reading retention tool that resurfaces highlights from books, articles, Kindle notes, and web clippings using spaced repetition, so you actually remember what you read. It syncs highlights from Kindle, Instapaper, Pocket, and other sources into a single library and sends daily email or app reviews of a personalized selection. Readwise Reader, its companion app, is a full read-it-later and RSS reader that captures content directly and integrates with the highlight system.",
+  "description": "Readwise is a reading retention tool that resurfaces highlights from books, articles, Kindle notes, and web clippings using spaced repetition, so you actually remember what you read. It syncs highlights from Kindle, Instapaper, Pocket, and other sources into a single library and sends daily email or app reviews of a personalized selection. Readwise Reader, its companion app, is a full read-it-later and RSS reader that captures content directly and integrates with the highlight system.",
+  "url": "https://readwise.io",
+  "logo_url": "https://www.google.com/s2/favicons?domain=readwise.io&sz=64",
+  "screenshot_url": "/screenshots/readwise.webp",
+  "primary_category": "research-data",
+  "tags": [
+    "customizable",
+    "integrations",
+    "ai_powered",
+    "intelligent",
+    "platform",
+    "tool",
+    "service",
+    "solution"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 75,
+  "subcategory": "ai-summarizer",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

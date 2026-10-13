@@ -1,0 +1,28 @@
+{
+  "slug": "remnote",
+  "name": "RemNote",
+  "tagline": "RemNote is an AI note-taking and study system built around spaced repetition — as you write notes, it automatically generates flashcards and schedules reviews to maximise long-term retention. Its AI assistant can summarise content, generate quiz questions, and explain concepts within your note vault. Students and lifelong learners use RemNote to turn passive notes into an active memory-building system.",
+  "description": "RemNote is an AI note-taking and study system built around spaced repetition — as you write notes, it automatically generates flashcards and schedules reviews to maximise long-term retention. Its AI assistant can summarise content, generate quiz questions, and explain concepts within your note vault. Students and lifelong learners use RemNote to turn passive notes into an active memory-building system.",
+  "url": "https://remnote.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=remnote.com&sz=64",
+  "screenshot_url": "/screenshots/remnote.webp",
+  "primary_category": "productivity",
+  "tags": [
+    "note_taking",
+    "productivity",
+    "knowledge_base",
+    "organization",
+    "documentation",
+    "markdown",
+    "journaling",
+    "tasks",
+    "sync"
+  ],
+  "pricing_detail": "Freemium",
+  "source": "https://bestofai.io",
+  "dr": 71,
+  "subcategory": "ai-note-taker",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "bloomreach",
+  "name": "Bloomreach",
+  "tagline": "Bloomreach is a composable digital experience platform that uses AI to deliver personalized product discovery, site search, and marketing automation for e-commerce brands. Its AI engine learns shopper behavior to improve search relevance, recommendations, and merchandising rules.",
+  "description": "Bloomreach is a composable digital experience platform that uses AI to deliver personalized product discovery, site search, and marketing automation for e-commerce brands. Its AI engine learns shopper behavior to improve search relevance, recommendations, and merchandising rules.",
+  "url": "https://bloomreach.com",
+  "logo_url": "https://www.google.com/s2/favicons?domain=bloomreach.com&sz=64",
+  "screenshot_url": "/screenshots/bloomreach.webp",
+  "primary_category": "ecommerce-sales",
+  "tags": [
+    "ecommerce",
+    "business",
+    "marketing",
+    "retail",
+    "shopping",
+    "online_store",
+    "product_catalog",
+    "checkout",
+    "conversions",
+    "customizable"
+  ],
+  "pricing_detail": "Paid",
+  "source": "https://bestofai.io",
+  "dr": 81,
+  "subcategory": "ecommerce",
+  "is_featured": false,
+  "is_verified": false,
+  "published_at": null
+}
