@@ -14,7 +14,9 @@ export function toolDirectoryMetadata(page = 1) {
     title:
       page > 1 ? `AI Tools Directory — Page ${page}` : "AI Tools Directory",
     description:
-      "Explore AI tools for writing, design, coding and research. Browse by task and compare product features, access models and official websites.",
+      page > 1
+        ? `Browse page ${page} of the AIKnows directory. Explore more AI tools for writing, design, coding and research, with product details and official website links.`
+        : "Explore AI tools for writing, design, coding and research. Browse by task and compare product features, pricing options and official websites.",
     path: browsePath("/tools", page),
   });
 }

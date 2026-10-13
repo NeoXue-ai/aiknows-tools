@@ -27,5 +27,18 @@
   "subcategory": "developer-tools",
   "is_featured": false,
   "is_verified": false,
-  "published_at": null
+  "published_at": null,
+  "editorial": {
+    "seo": {
+      "title": "LlamaIndex: Document AI & Agent Workflows",
+      "description": "LlamaIndex provides document AI tools for extracting data and building agent workflows. Explore its document processing products and developer resources."
+    },
+    "externalLinks": [
+      {
+        "label": "Official product information",
+        "url": "https://www.llamaindex.ai/",
+        "context": "Explore current product information and supported workflows."
+      }
+    ]
+  }
 }

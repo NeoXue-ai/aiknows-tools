@@ -60,12 +60,7 @@
         "File processing varies by format and PDF length. Embedded images in non-PDF documents are not interpreted through text extraction.",
         "Artifacts require cloud code execution and file creation to be enabled; organization administrators can control access."
       ],
-      "platforms": [
-        "Web",
-        "Desktop app",
-        "iOS",
-        "Android"
-      ],
+      "platforms": ["Web", "Desktop app", "iOS", "Android"],
       "pricingNote": "Claude offers a limited Free plan, paid individual subscriptions, and organization plans. Consult official pricing for current usage allowances and included features.",
       "pricingUrl": "https://claude.com/pricing",
       "alternatives": [
@@ -106,6 +101,10 @@
         "question": "What are Claude Artifacts?",
         "answer": "Artifacts are reusable outputs, such as a document, presentation, design, or interactive tool, that open beside your conversation for editing and sharing. Available templates and connected features vary by plan."
       }
-    ]
+    ],
+    "seo": {
+      "title": "Claude: AI Assistant for Writing, Coding & Research",
+      "description": "Claude is Anthropic's AI assistant for documents, code, and research, with file uploads, web search, and Artifacts for developing reusable outputs."
+    }
   }
 }

@@ -11,6 +11,8 @@ export interface ToolGuide {
   sources: { label: string; url: string }[];
 }
 export interface EditorialEntry {
+  /** Complete, unbranded search and social copy reviewed against product sources. */
+  seo?: { title: string; description: string };
   guide?: ToolGuide;
   comparison?: {
     eyebrow: string;

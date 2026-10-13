@@ -25,5 +25,18 @@
   "subcategory": "ai-research",
   "is_featured": false,
   "is_verified": false,
-  "published_at": null
+  "published_at": null,
+  "editorial": {
+    "seo": {
+      "title": "Julius AI: AI Data Analysis & Spreadsheets",
+      "description": "Julius AI helps you analyze data and work with spreadsheets using plain-language requests. Explore its data tools, reports and official product information."
+    },
+    "externalLinks": [
+      {
+        "label": "Official product information",
+        "url": "https://julius.ai/",
+        "context": "Explore current product information and supported workflows."
+      }
+    ]
+  }
 }

@@ -26,5 +26,18 @@
   "subcategory": "ai-marketing",
   "is_featured": false,
   "is_verified": false,
-  "published_at": null
+  "published_at": null,
+  "editorial": {
+    "seo": {
+      "title": "Unbounce AI: Landing Pages & Traffic Optimization",
+      "description": "Unbounce combines landing page creation, A/B testing and AI traffic optimization. Explore its builder and Smart Traffic features for marketing campaigns."
+    },
+    "externalLinks": [
+      {
+        "label": "Official product information",
+        "url": "https://unbounce.com/",
+        "context": "Explore current product information and supported workflows."
+      }
+    ]
+  }
 }

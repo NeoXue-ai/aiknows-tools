@@ -24,5 +24,18 @@
   "subcategory": "ai-writer",
   "is_featured": false,
   "is_verified": false,
-  "published_at": null
+  "published_at": null,
+  "editorial": {
+    "seo": {
+      "title": "ProWritingAid: Grammar, Style & Story Editing",
+      "description": "ProWritingAid helps writers edit grammar, style and story structure. Explore writing reports, rephrasing tools and manuscript feedback for your next draft."
+    },
+    "externalLinks": [
+      {
+        "label": "Official product information",
+        "url": "https://prowritingaid.com/",
+        "context": "Explore current product information and supported workflows."
+      }
+    ]
+  }
 }

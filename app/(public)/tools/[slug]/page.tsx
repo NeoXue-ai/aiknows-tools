@@ -39,7 +39,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: buildTitle(tool),
     description: deriveMetaDescription(tool),
     path: `/tools/${slug}`,
-    absoluteTitle: true,
   });
 }
 
@@ -310,33 +309,33 @@ export default async function ToolDetailPage({ params }: Props) {
                     ))}
                   </ul>
                 )}
-              {editorial.externalLinks &&
-                editorial.externalLinks.length > 0 && (
-                  <div className="mt-6">
-                    <p className="text-xs text-muted-foreground">
-                      Related resources
-                    </p>
-                    <ul className="mt-2.5 space-y-1.5">
-                      {editorial.externalLinks.map((link: EditorialLink) => (
-                        <li key={link.url} className="text-sm leading-6">
-                          <a
-                            href={link.url}
-                            target="_blank"
-                            rel="noopener"
-                            className="font-medium text-foreground underline decoration-border underline-offset-4 transition-colors hover:text-accent hover:decoration-accent/50"
-                          >
-                            {link.label}
-                            <ArrowUpRight className="ml-1 inline h-3 w-3 align-[-1px]" />
-                          </a>
-                          <span className="text-muted-foreground">
-                            {" "}
-                            — {link.context}
-                          </span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                )}
+            </section>
+          )}
+
+          {!!editorial?.externalLinks?.length && (
+            <section id="sec-resources" className="scroll-mt-24">
+              <h2 className="text-xl font-semibold tracking-[-0.02em]">
+                Official sources & resources
+              </h2>
+              <ul className="mt-4 space-y-3">
+                {editorial.externalLinks.map((link: EditorialLink) => (
+                  <li key={link.url} className="text-sm leading-6">
+                    <a
+                      href={link.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-medium text-foreground underline decoration-border underline-offset-4 transition-colors hover:text-accent hover:decoration-accent/50"
+                    >
+                      {link.label}
+                      <ArrowUpRight className="ml-1 inline h-3 w-3 align-[-1px]" />
+                    </a>
+                    <span className="text-muted-foreground">
+                      {" "}
+                      — {link.context}
+                    </span>
+                  </li>
+                ))}
+              </ul>
             </section>
           )}
 
@@ -533,15 +532,6 @@ export default async function ToolDetailPage({ params }: Props) {
             </section>
           )}
         </aside>
-      </div>
-
-      {/* Hidden crawlable brand line */}
-      <div className="sr-only">
-        <p>
-          {tool.name} is an entry in the aiknows.tools AI tools index, an
-          evidence-led directory of {category.toLowerCase()} tools and other AI
-          software.
-        </p>
       </div>
     </div>
   );

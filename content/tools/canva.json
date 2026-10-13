@@ -59,13 +59,7 @@
         "AI-generated text and visuals can contain mistakes. Review factual content and the finished layout before use.",
         "Team, Enterprise, and Education administrators can enable or disable AI features."
       ],
-      "platforms": [
-        "Web",
-        "Windows",
-        "macOS",
-        "iOS and iPadOS",
-        "Android"
-      ],
+      "platforms": ["Web", "Windows", "macOS", "iOS and iPadOS", "Android"],
       "pricingNote": "Canva offers Free and paid plans with different content libraries, design features, and AI allowances. Check the official comparison for tool access and available AI add-ons.",
       "pricingUrl": "https://www.canva.com/pricing/",
       "alternatives": [
@@ -106,6 +100,10 @@
         "question": "Can I edit an AI-generated design in Canva?",
         "answer": "Canva combines AI creation with editor workflows for refining content. The editing controls available depend on the design type and tool, so review the output and adjust it before sharing."
       }
-    ]
+    ],
+    "seo": {
+      "title": "Canva: AI Design Tools for Images & Presentations",
+      "description": "Canva combines a visual editor, templates, and AI tools for images, presentations, and social graphics. Explore design features, Magic Write, and plans."
+    }
   }
 }

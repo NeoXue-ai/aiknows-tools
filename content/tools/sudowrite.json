@@ -25,5 +25,18 @@
   "subcategory": "ai-writer",
   "is_featured": false,
   "is_verified": false,
-  "published_at": null
+  "published_at": null,
+  "editorial": {
+    "seo": {
+      "title": "Sudowrite: AI Writing Assistant for Fiction",
+      "description": "Sudowrite is an AI writing assistant for fiction. Explore tools for developing ideas, describing scenes and building characters as you work on a story."
+    },
+    "externalLinks": [
+      {
+        "label": "Official product information",
+        "url": "https://sudowrite.com/",
+        "context": "Explore current product information and supported workflows."
+      }
+    ]
+  }
 }

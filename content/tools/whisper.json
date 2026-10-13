@@ -27,5 +27,18 @@
   "subcategory": "speech-to-text-ai",
   "is_featured": false,
   "is_verified": false,
-  "published_at": null
+  "published_at": null,
+  "editorial": {
+    "seo": {
+      "title": "Whisper: Open-Source Speech Recognition",
+      "description": "Whisper is OpenAI's open-source speech recognition model for transcription and translation. Explore the project, supported tasks and developer resources."
+    },
+    "externalLinks": [
+      {
+        "label": "Official product information",
+        "url": "https://openai.com/index/whisper/",
+        "context": "Explore current product information and supported workflows."
+      }
+    ]
+  }
 }

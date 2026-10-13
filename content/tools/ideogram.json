@@ -58,11 +58,7 @@
         "Some AI editing and reference features require priority credits and are unavailable in the slow queue.",
         "Text rendering support varies by script; the official guide emphasizes English and other Latin-script languages."
       ],
-      "platforms": [
-        "Web",
-        "iPhone app",
-        "API"
-      ],
+      "platforms": ["Web", "iPhone app", "API"],
       "pricingNote": "Ideogram has a Free plan for eligible accounts and paid subscriptions. Credits, queues, privacy, and editing access vary; check the official plan details.",
       "pricingUrl": "https://ideogram.ai/pricing/",
       "alternatives": [
@@ -103,6 +99,10 @@
         "question": "Can I change the text after an Ideogram image is generated?",
         "answer": "Layerize Text creates editable text components so you can change wording, fonts, or size without regenerating the entire design."
       }
-    ]
+    ],
+    "seo": {
+      "title": "Ideogram: AI Image Generator for Text & Design",
+      "description": "Ideogram creates AI images with text for posters, covers, and social graphics. Refine wording, fonts, and size with its editable text layers."
+    }
   }
 }

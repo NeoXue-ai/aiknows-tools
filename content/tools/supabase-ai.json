@@ -27,5 +27,18 @@
   "subcategory": "developer-tools",
   "is_featured": false,
   "is_verified": false,
-  "published_at": null
+  "published_at": null,
+  "editorial": {
+    "seo": {
+      "title": "Supabase AI: Postgres Vectors & AI Integrations",
+      "description": "Supabase offers Postgres vector storage and AI integrations for application developers. Explore features for working with embeddings and building AI apps."
+    },
+    "externalLinks": [
+      {
+        "label": "Official product information",
+        "url": "https://supabase.com/features",
+        "context": "Explore current product information and supported workflows."
+      }
+    ]
+  }
 }

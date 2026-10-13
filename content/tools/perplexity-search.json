@@ -60,12 +60,7 @@
         "Advanced searches, research, model access, and uploads have different allowances across plans.",
         "Programmatic API access is a separate product with its own billing and does not inherit a web subscription's features."
       ],
-      "platforms": [
-        "Web",
-        "iOS",
-        "Android",
-        "Comet browser"
-      ],
+      "platforms": ["Web", "iOS", "Android", "Comet browser"],
       "pricingNote": "Core search is available on a Free plan. Paid individual and organization plans offer different capabilities and allowances; consult the official comparison for current limits.",
       "pricingUrl": "https://www.perplexity.ai/help-center/en/articles/11187416-which-perplexity-subscription-plan-is-right-for-you",
       "alternatives": [
@@ -106,6 +101,10 @@
         "question": "Can I upload files to Perplexity?",
         "answer": "Yes. File uploads are supported, with limited access on the Free plan and different upload and analysis allowances on paid plans. Check the current plan comparison."
       }
-    ]
+    ],
+    "seo": {
+      "title": "Perplexity: AI Search Engine with Source Citations",
+      "description": "Perplexity searches the web and supported files to answer questions with source citations. Explore research features, project workflows, and plan limits."
+    }
   }
 }

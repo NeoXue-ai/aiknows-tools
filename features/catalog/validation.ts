@@ -57,8 +57,26 @@ export function canonicalWebsite(value: string): string {
 function validateEditorial(input: unknown) {
   const entry = record(input);
   for (const key of Object.keys(entry))
-    if (!["comparison", "faqs", "externalLinks", "guide"].includes(key))
+    if (!["comparison", "faqs", "externalLinks", "guide", "seo"].includes(key))
       throw new Error(`Unknown editorial field: ${key}`);
+  if (entry.seo !== undefined) {
+    const seo = record(entry.seo);
+    for (const key of Object.keys(seo))
+      if (!["title", "description"].includes(key))
+        throw new Error(`Unknown SEO field: ${key}`);
+    for (const key of ["title", "description"]) {
+      const value = seo[key];
+      text(value, `SEO ${key}`);
+      if (
+        /<[^>]+>|&lt;.*?&gt;|\[[^\]]*\]\([^)]*\)|\*\*|__|`|(?:^|\s)[*_]\S[^*_]*[*_](?=\W|$)|^\s*(?:#{1,6}\s|>\s|[-*+]\s)|[\u0000-\u001f\u007f]/i.test(
+          value,
+        )
+      )
+        throw new Error(`SEO ${key} must be plain text`);
+      if (/…|\.{3}/.test(value))
+        throw new Error(`SEO ${key} must not contain truncated copy`);
+    }
+  }
   if (entry.guide !== undefined) {
     const guide = record(entry.guide);
     const keys = [

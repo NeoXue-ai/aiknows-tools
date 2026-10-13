@@ -25,5 +25,18 @@
   "subcategory": "ai-research",
   "is_featured": false,
   "is_verified": false,
-  "published_at": null
+  "published_at": null,
+  "editorial": {
+    "seo": {
+      "title": "Scite: AI Research & Citation Context",
+      "description": "Scite helps researchers search scholarly content and examine citation context. Explore research assistance and supporting or contrasting citation evidence."
+    },
+    "externalLinks": [
+      {
+        "label": "Official product information",
+        "url": "https://scite.ai/",
+        "context": "Explore current product information and supported workflows."
+      }
+    ]
+  }
 }

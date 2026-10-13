@@ -25,5 +25,18 @@
   "subcategory": "ai-chatbot",
   "is_featured": false,
   "is_verified": false,
-  "published_at": null
+  "published_at": null,
+  "editorial": {
+    "seo": {
+      "title": "Kimi: AI Assistant for Coding & Knowledge Work",
+      "description": "Kimi is an AI assistant for coding and knowledge work. Explore its product information and follow the official website for current features and access."
+    },
+    "externalLinks": [
+      {
+        "label": "Official product information",
+        "url": "https://www.kimi.ai/",
+        "context": "Explore current product information and supported workflows."
+      }
+    ]
+  }
 }

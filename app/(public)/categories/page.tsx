@@ -11,9 +11,9 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export const metadata = pageMetadata({
-  title: "AI tool categories",
+  title: "AI Tool Categories for Work & Creativity",
   description:
-    "Browse the AIknows index by top-level category and inspect the recorded sub-categories and tool counts.",
+    "Browse AI tools by category and task, from writing and image generation to coding, video and research. Explore the AIKnows directory to find your next tool.",
   path: "/categories",
 });
 
@@ -26,9 +26,15 @@ export default async function CategoriesIndexPage() {
   const subCounts = countSubs(tools);
 
   const groups: CategoryGroup[] = categories.map((category) => {
-    const inCategory = tools.filter((tool) => tool.primary_category === category.slug);
+    const inCategory = tools.filter(
+      (tool) => tool.primary_category === category.slug,
+    );
     const subs = subsForLegacy(category.slug)
-      .map((s) => ({ slug: s.slug, name: s.name, count: subCounts.get(s.name) ?? 0 }))
+      .map((s) => ({
+        slug: s.slug,
+        name: s.name,
+        count: subCounts.get(s.name) ?? 0,
+      }))
       .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
     return {
       category,
@@ -48,9 +54,9 @@ export default async function CategoriesIndexPage() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    name: "AIknows — Categories",
+    name: "AIKnows — AI Tool Categories",
     description:
-      "Top-level categories of recorded AI tools, with coverage facts derived from the public catalog.",
+      "Explore AI tools by category and task, including writing, design, coding, video and research.",
     url: `${siteUrl}/categories`,
     hasPart: ordered.flatMap((s) => [
       {
@@ -70,18 +76,20 @@ export default async function CategoriesIndexPage() {
     <div className="mx-auto w-full max-w-[1200px] px-5 py-12 sm:px-8 md:py-16">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
+        }}
       />
 
       <header className="mb-12">
-        <p className="text-sm font-medium text-accent">
-          Explore by category
-        </p>
+        <p className="text-sm font-medium text-accent">Explore by category</p>
         <h1 className="mt-4 text-balance text-4xl font-semibold tracking-[-0.045em] sm:text-5xl">
-          Find your next useful tool.
+          Explore AI tools by category.
         </h1>
         <p className="mt-4 max-w-2xl text-pretty text-base leading-7 text-muted-foreground">
-          Explore {totalRecords.toLocaleString()} tools across {ordered.length} categories. Start with a category, then find the right tool for the task at hand.
+          Explore {totalRecords.toLocaleString()} tools across {ordered.length}{" "}
+          categories. Start with a category, then find the right tool for the
+          task at hand.
         </p>
       </header>
 

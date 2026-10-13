@@ -1,10 +1,8 @@
-import { CATEGORY_GUIDES } from "@/features/catalog/category-guides";
 import { CategoryGuideSection } from "./category-guide";
-import { browsePath } from "@/features/catalog/urls";
+import { categoryPageMetadata } from "@/features/catalog/category-metadata";
 import { CatalogFallback } from "@/features/catalog/components/catalog-fallback";
 import { getCatalogPage, getCatalogVersion } from "@/features/catalog/server";
 import { DEFAULT_QUERY } from "@/features/catalog/query";
-import { pageMetadata } from "@/lib/seo/metadata";
 import type { Metadata } from "next";
 import { Suspense } from "react";
 import Link from "next/link";
@@ -66,18 +64,12 @@ export async function generateCategoryMetadata({
   ).length;
   const name =
     resolved.kind === "category" ? resolved.category.name : resolved.sub.name;
-  const guide = CATEGORY_GUIDES[slug];
-  const title =
-    guide?.title ??
-    (resolved.kind === "category" ? `AI Tools for ${name}` : `${name} Tools`);
-  const description =
-    guide?.description ??
-    `Explore ${count.toLocaleString()} ${name} tools. Compare product descriptions, access models and official websites in the AIKnows directory.`;
-  return pageMetadata({
-    title: page > 1 ? `${title} — Page ${page}` : title,
-    description,
-    path: browsePath(`/categories/${slug}`, page),
-    noIndex: count === 0,
+  return categoryPageMetadata({
+    slug,
+    name,
+    count,
+    isCategory: resolved.kind === "category",
+    page,
   });
 }
 
@@ -182,8 +174,8 @@ async function CategoryHub({
   const hubListJsonLd = directoryItemListJsonLd({
     tools: initialPage.items,
     siteUrl,
-    name: `${category.name} — aiknows.tools`,
-    description: description ?? `Recorded AI tool entries in ${category.name}.`,
+    name: `${category.name} — AIKnows`,
+    description: description ?? `Explore AI tools in ${category.name}.`,
   });
   const hubBreadcrumbJsonLd = breadcrumbJsonLd(
     [{ label: "Categories", href: "/categories" }, { label: category.name }],
@@ -305,7 +297,7 @@ async function SubCategoryPage({
   const subListJsonLd = directoryItemListJsonLd({
     tools: initialPage.items,
     siteUrl,
-    name: `${sub.name} — aiknows.tools`,
+    name: `${sub.name} — AIKnows`,
     description: sub.description,
   });
   const subBreadcrumbJsonLd = breadcrumbJsonLd(

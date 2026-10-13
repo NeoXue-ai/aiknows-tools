@@ -9,7 +9,8 @@ import {
 } from "../features/catalog/server.ts";
 import { DEFAULT_QUERY } from "../features/catalog/query.ts";
 import { browsePath } from "../features/catalog/urls.ts";
-import { siteUrl } from "../lib/site.ts";
+import { siteUrl, siteName } from "../lib/site.ts";
+import { buildTitle, deriveMetaDescription } from "../features/catalog/seo.ts";
 const dist = process.env.NEXT_DIST_DIR || ".next";
 const snapshot = JSON.parse(readFileSync(".catalog/catalog.json", "utf8"));
 const tools = await getPublicTools();
@@ -17,7 +18,7 @@ const categories = await getPublicCategories();
 const subcategories = await getPublicSubcategories();
 function html(path) {
   return readFileSync(
-    join(dist, "server/app", `${path.slice(1)}.html`),
+    join(dist, "server/app", `${path === "/" ? "index" : path.slice(1)}.html`),
     "utf8",
   );
 }
@@ -25,7 +26,31 @@ function unescape(value) {
   return value
     .replace(/&amp;/g, "&")
     .replace(/&#x27;/g, "'")
-    .replace(/&quot;/g, '"');
+    .replace(/&quot;/g, '"')
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&#(x[0-9a-f]+|[0-9]+);/gi, (_, code) =>
+      String.fromCodePoint(
+        code[0].toLowerCase() === "x"
+          ? parseInt(code.slice(1), 16)
+          : Number(code),
+      ),
+    );
+}
+function title(source) {
+  const matches = [...source.matchAll(/<title>([^<]*)<\/title>/g)];
+  assert.equal(matches.length, 1, "Expected exactly one title");
+  return unescape(matches[0][1]);
+}
+function meta(source, key) {
+  const tags = [...source.matchAll(/<meta\b[^>]*>/g)].map((match) => match[0]);
+  const matches = tags.filter(
+    (tag) => tag.includes(`name="${key}"`) || tag.includes(`property="${key}"`),
+  );
+  assert.equal(matches.length, 1, `Expected exactly one ${key}`);
+  const content = matches[0].match(/content="([^"]*)"/);
+  assert.ok(content, `Missing ${key} content`);
+  return unescape(content[1]);
 }
 function cardSlugs(source) {
   return [
@@ -36,14 +61,82 @@ function cardSlugs(source) {
     return unescape(href[1]).replace("/tools/", "");
   });
 }
+const toolTitles = new Set();
+const toolDescriptions = new Set();
 for (const tool of tools) {
   const path = `/tools/${tool.slug}`;
   assert.ok(
     existsSync(join(dist, "server/app", `${path.slice(1)}.html`)),
     `Missing static tool ${tool.slug}`,
   );
+  const source = html(path);
+  const expectedTitle = buildTitle(tool);
+  const expectedDescription = deriveMetaDescription(tool);
+  assert.equal(
+    title(source),
+    `${expectedTitle} | ${siteName}`,
+    `Wrong title in ${path}`,
+  );
+  assert.ok(expectedTitle.trim(), `Empty title in ${path}`);
+  assert.ok(expectedDescription.trim(), `Empty description in ${path}`);
+  assert.ok(!/[.…]{3}|…/.test(expectedTitle), `Truncated title in ${path}`);
+  assert.ok(!toolTitles.has(expectedTitle), `Duplicate title in ${path}`);
+  assert.ok(
+    !toolDescriptions.has(expectedDescription),
+    `Duplicate description in ${path}`,
+  );
+  toolTitles.add(expectedTitle);
+  toolDescriptions.add(expectedDescription);
+  for (const key of ["description", "og:description", "twitter:description"])
+    assert.equal(
+      meta(source, key),
+      expectedDescription,
+      `Wrong ${key} in ${path}`,
+    );
+  for (const key of ["og:title", "twitter:title"])
+    assert.equal(meta(source, key), expectedTitle, `Wrong ${key} in ${path}`);
+  const structuredBlocks = [
+    ...source.matchAll(
+      /<script\b[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g,
+    ),
+  ].map((match) => JSON.parse(match[1]));
+  const software = structuredBlocks.find(
+    (block) => block["@type"] === "SoftwareApplication",
+  );
+  assert.ok(software, `Missing software metadata in ${path}`);
+  assert.equal(
+    software.description,
+    expectedDescription,
+    `Inconsistent software description in ${path}`,
+  );
+  assert.ok(
+    source.includes(`<link rel="canonical" href="${siteUrl}${path}"`),
+    `Wrong canonical in ${path}`,
+  );
+  if (tool.editorial?.seo) {
+    assert.equal(
+      expectedTitle,
+      tool.editorial.seo.title,
+      `Ignored editorial title in ${path}`,
+    );
+    assert.equal(
+      expectedDescription,
+      tool.editorial.seo.description,
+      `Ignored editorial description in ${path}`,
+    );
+  }
+  if (tool.editorial?.externalLinks?.length) {
+    const resources = source.match(
+      /<section\b[^>]*id="sec-resources"[^>]*>([\s\S]*?)<\/section>/,
+    );
+    assert.ok(resources, `Missing source section in ${path}`);
+    for (const link of tool.editorial.externalLinks)
+      assert.ok(
+        unescape(resources[1]).includes(`href="${link.url}"`),
+        `Missing source link ${link.url} in ${path}`,
+      );
+  }
   if (tool.editorial?.guide) {
-    const source = html(path);
     for (const id of [
       "sec-features",
       "sec-use-cases",
@@ -62,6 +155,38 @@ for (const tool of tools) {
         `Missing alternative ${alt.slug} on ${path}`,
       );
   }
+}
+for (const path of [
+  "/",
+  "/tools",
+  "/categories",
+  "/collections",
+  "/about",
+  "/faq",
+  "/submit",
+  "/contact",
+  "/pricing",
+  "/search",
+  "/blog",
+  "/latest",
+]) {
+  const source = html(path);
+  assert.ok(
+    title(source).endsWith(` | ${siteName}`),
+    `Inconsistent branding in ${path}`,
+  );
+  const description = meta(source, "description");
+  assert.ok(description.trim(), `Empty public-page description in ${path}`);
+  for (const key of ["og:description", "twitter:description"])
+    assert.equal(
+      meta(source, key),
+      description,
+      `Inconsistent ${key} in ${path}`,
+    );
+  assert.ok(
+    !description.includes("evidence-led"),
+    `Obsolete public description in ${path}`,
+  );
 }
 const lists = [
   { base: "/tools", scope: {} },
@@ -139,5 +264,5 @@ assert.deepEqual(
 const submit = html("/submit");
 assert.ok(!submit.includes('href="/login'), "Submission requires a site login");
 console.log(
-  `Verified ${tools.length} static tool pages, ${pages} distinct catalog pages, guide sections, pagination, canonical URLs, noindex and sitemap.`,
+  `Verified ${tools.length} unique tool titles and descriptions, matching social metadata, public-page metadata, ${pages} distinct catalog pages, guide sections, pagination, canonical URLs, noindex and sitemap.`,
 );

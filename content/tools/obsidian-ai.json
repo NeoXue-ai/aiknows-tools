@@ -27,5 +27,18 @@
   "subcategory": "ai-assistant",
   "is_featured": false,
   "is_verified": false,
-  "published_at": null
+  "published_at": null,
+  "editorial": {
+    "seo": {
+      "title": "Obsidian AI: Notes & Community Plugin Workflows",
+      "description": "Obsidian organizes linked notes in local files and supports community plugins. Explore note-taking features and plugin options for your knowledge workflow."
+    },
+    "externalLinks": [
+      {
+        "label": "Official product information",
+        "url": "https://obsidian.md/",
+        "context": "Explore current product information and supported workflows."
+      }
+    ]
+  }
 }

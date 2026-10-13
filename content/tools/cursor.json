@@ -56,11 +56,7 @@
         "Checkpoints are local to Agent sessions and do not replace Git history or other permanent version control.",
         "Agent access and model usage depend on the plan; additional model usage can carry separate charges."
       ],
-      "platforms": [
-        "macOS",
-        "Windows",
-        "Linux"
-      ],
+      "platforms": ["macOS", "Windows", "Linux"],
       "pricingNote": "A free plan offers limited AI usage. Paid individual and organization plans expand access; check official allowances and any separate model usage charges.",
       "pricingUrl": "https://cursor.com/pricing",
       "alternatives": [
@@ -101,6 +97,10 @@
         "question": "Can I undo changes made by Cursor Agent?",
         "answer": "Checkpoints let you restore captured file states. Use Git for permanent version control."
       }
-    ]
+    ],
+    "seo": {
+      "title": "Cursor: AI Code Editor, Features & Pricing",
+      "description": "Cursor is an AI code editor with an agent that searches projects, edits files, and runs commands. Explore its features, usage limits, and plans."
+    }
   }
 }

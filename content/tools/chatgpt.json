@@ -57,11 +57,7 @@
         "Models, tools, and usage allowances differ by plan and account access; some capabilities depend on rollout.",
         "Generated files need review. Preview and annotation options differ across web, desktop, and developer surfaces."
       ],
-      "platforms": [
-        "Web",
-        "Desktop app",
-        "Mobile app"
-      ],
+      "platforms": ["Web", "Desktop app", "Mobile app"],
       "pricingNote": "ChatGPT has free and paid individual plans, plus organization plans. Check official pricing for current tool availability, shared usage limits, and credit options.",
       "pricingUrl": "https://learn.chatgpt.com/docs/pricing",
       "alternatives": [
@@ -102,6 +98,10 @@
         "question": "Can ChatGPT create downloadable documents or spreadsheets?",
         "answer": "ChatGPT Work can create documents, spreadsheets, presentations, and PDFs. Review the result, ask for revisions, and download the completed file; preview options vary by surface."
       }
-    ]
+    ],
+    "seo": {
+      "title": "ChatGPT: AI Assistant, Features & Pricing",
+      "description": "ChatGPT is OpenAI's AI assistant for writing, research, and file analysis. Explore its tools, supported workflows, and free and paid plans."
+    }
   }
 }

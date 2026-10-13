@@ -58,10 +58,7 @@
         "Creations are generally publicly discoverable unless appropriate privacy settings apply. Stealth Mode requires an eligible plan.",
         "GPU allowances, generation modes, and queue limits depend on the subscription."
       ],
-      "platforms": [
-        "Web",
-        "Discord"
-      ],
+      "platforms": ["Web", "Discord"],
       "pricingNote": "Midjourney offers paid subscriptions with different GPU allowances and generation modes. Check the plan comparison for current limits and Stealth Mode eligibility.",
       "pricingUrl": "https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans",
       "alternatives": [
@@ -102,6 +99,10 @@
         "question": "Are Midjourney images private?",
         "answer": "Do not assume a generation is private. Stealth Mode can hide creations on the website for eligible subscribers, while work posted in a public Discord channel remains visible there."
       }
-    ]
+    ],
+    "seo": {
+      "title": "Midjourney: AI Image Generator, Features & Pricing",
+      "description": "Midjourney generates AI images from prompts and references, with a web Editor for region and framing changes. Explore features and subscription plans."
+    }
   }
 }

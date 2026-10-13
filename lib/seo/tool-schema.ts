@@ -1,4 +1,5 @@
 import type { Tool, ToolSummary } from "@/features/catalog/types";
+import { deriveMetaDescription } from "@/features/catalog/seo";
 export { CATEGORIES, categoryName } from "@/features/catalog/taxonomy";
 
 export interface ToolJsonLdInput {
@@ -40,7 +41,7 @@ export function toolJsonLd({ tool, categoryName, siteUrl }: ToolJsonLdInput) {
     ...(operatingSystems.length
       ? { operatingSystem: operatingSystems.join(", ") }
       : {}),
-    description: tool.tagline ?? tool.description ?? undefined,
+    description: deriveMetaDescription(tool),
   };
   return jsonLd;
 }

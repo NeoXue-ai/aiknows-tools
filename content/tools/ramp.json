@@ -27,5 +27,18 @@
   "subcategory": "ai-analytics",
   "is_featured": false,
   "is_verified": false,
-  "published_at": null
+  "published_at": null,
+  "editorial": {
+    "seo": {
+      "title": "Ramp: Spend Management & Accounting Automation",
+      "description": "Ramp combines corporate cards, expense management and accounts payable in one platform. Explore spend controls, reporting and accounting automation."
+    },
+    "externalLinks": [
+      {
+        "label": "Official product information",
+        "url": "https://ramp.com/",
+        "context": "Explore current product information and supported workflows."
+      }
+    ]
+  }
 }

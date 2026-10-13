@@ -60,11 +60,7 @@
         "Generations consume credits at rates that depend on the model and output settings.",
         "The Free plan has a limited selection of tools and one-time credits; some models and export options require paid access."
       ],
-      "platforms": [
-        "Web",
-        "iOS app",
-        "Android app"
-      ],
+      "platforms": ["Web", "iOS app", "Android app"],
       "pricingNote": "A Free plan provides one-time credits for selected tools. Paid plans add monthly credits and features; check current rates and the credit cost of your chosen model.",
       "pricingUrl": "https://runway.com/pricing",
       "alternatives": [
@@ -105,6 +101,10 @@
         "question": "How does Runway charge for generations?",
         "answer": "Runway uses credits for image, video, and audio generation. Costs depend on the tool and settings, so check the current credit table before starting a series of generations."
       }
-    ]
+    ],
+    "seo": {
+      "title": "Runway: AI Video Generator, Features & Pricing",
+      "description": "Runway creates AI video and images from text prompts or reference frames. Explore generation controls, model access, credits, and plan limits."
+    }
   }
 }

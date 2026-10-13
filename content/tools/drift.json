@@ -26,5 +26,25 @@
   "subcategory": "customer-support",
   "is_featured": false,
   "is_verified": false,
-  "published_at": null
+  "published_at": null,
+  "editorial": {
+    "seo": {
+      "title": "Drift: Conversational Marketing & Product Updates",
+      "description": "Drift is an earlier Salesloft conversational marketing product. Explore its listing and official information on the transition to newer chat agents."
+    },
+    "externalLinks": [
+      {
+        "label": "Official product information",
+        "url": "https://www.salesloft.com/platform/chat-agents",
+        "context": "Explore current product information and supported workflows."
+      }
+    ],
+    "comparison": {
+      "eyebrow": "Product update",
+      "heading": "Current Salesloft chat-agent offering",
+      "paragraphs": [
+        "Salesloft's current product page says its chat-agent offering has transitioned from Drift to 1mind. Follow the official product information link below for the current offering and availability."
+      ]
+    }
+  }
 }

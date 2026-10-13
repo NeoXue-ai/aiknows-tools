@@ -27,5 +27,18 @@
   "subcategory": "ai-assistant",
   "is_featured": false,
   "is_verified": false,
-  "published_at": null
+  "published_at": null,
+  "editorial": {
+    "seo": {
+      "title": "Glean: Enterprise AI Search, Assistants & Agents",
+      "description": "Glean connects company knowledge to enterprise search, AI assistants and agents. Explore product features and official information for your team."
+    },
+    "externalLinks": [
+      {
+        "label": "Official product information",
+        "url": "https://www.glean.com/",
+        "context": "Explore current product information and supported workflows."
+      }
+    ]
+  }
 }

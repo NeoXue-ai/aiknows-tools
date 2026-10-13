@@ -3,12 +3,12 @@ import { pageMetadata } from "@/lib/seo/metadata";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { ExploreByGoal } from "@/components/explore-by-goal";
-import { ROUTES, ROUTE_VERSION } from "@/lib/routes";
+import { ROUTES } from "@/lib/routes";
 
 export const metadata = pageMetadata({
-  title: "Numbered taxonomy routes",
+  title: "AI Tool Collections by Task & Workflow",
   description:
-    "Numbered taxonomy routes through the recorded AI tool catalog. Each step links to a reproducible tools query.",
+    "Explore AI tool collections for creative work, coding, research and everyday tasks. Follow a workflow to find related tools in the AIKnows directory.",
   path: "/collections",
 });
 
@@ -16,9 +16,9 @@ export default function CollectionsPage() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    name: "Numbered taxonomy routes",
+    name: "AI Tool Collections by Task & Workflow",
     description:
-      "Numbered taxonomy routes through the recorded AI tool catalog. Each step links to a reproducible tools query.",
+      "Explore AI tool collections for creative work, coding, research and everyday tasks. Follow a workflow to find related tools in the AIKnows directory.",
     url: `${siteUrl}/collections`,
   };
   return (
@@ -31,17 +31,15 @@ export default function CollectionsPage() {
       />
       <header className="mb-10 max-w-3xl">
         <p className="text-sm font-medium text-accent">
-          Routes / {String(ROUTES.length).padStart(2, "0")} entries · config v
-          {ROUTE_VERSION}
+          Explore by task / {ROUTES.length} workflows
         </p>
         <h1 className="mt-3 text-balance text-4xl font-semibold tracking-[-0.045em] sm:text-5xl">
-          Numbered taxonomy routes
+          Find tools for the next step in your workflow.
         </h1>
         <p className="mt-3 max-w-2xl text-pretty leading-7 text-muted-foreground">
-          Routes organize recorded taxonomy into entry points. They do not make
-          recommendations and do not pretend to know which tool fits your work;
-          each step declares its filters and links to a reproducible query so
-          the same record set comes back after a refresh.
+          Start with what you want to create or improve. Each collection takes
+          you through related tasks and links to tools you can explore, from a
+          first idea to the next stage of your work.
         </p>
       </header>
 
@@ -52,7 +50,7 @@ export default function CollectionsPage() {
           href="/tools"
           className="inline-flex items-center gap-1.5 text-muted-foreground transition-colors hover:text-accent"
         >
-          Open the full tool index
+          Browse all AI tools
           <ArrowRight className="h-3.5 w-3.5" />
         </Link>
         <Link

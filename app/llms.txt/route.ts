@@ -1,18 +1,18 @@
 import { CATEGORIES } from "@/features/catalog/taxonomy";
 import { getPublicTools } from "@/features/catalog/server";
-import { siteUrl, siteDescription } from "@/lib/site";
+import { siteUrl, siteName, siteDescription } from "@/lib/site";
 export const dynamic = "force-static";
 export async function GET(): Promise<Response> {
   const tools = await getPublicTools();
   const editorial = tools.filter((tool) => tool.editorial);
   const lines = [
-    "# aiknows.tools",
+    `# ${siteName}`,
     "",
     `> ${siteDescription}`,
     "",
     "## Main pages",
-    `- [Home](${siteUrl}/): browse the recorded AI tool index`,
-    `- [Tools](${siteUrl}/tools): ${tools.length.toLocaleString("en")} recorded entries`,
+    `- [Home](${siteUrl}/): discover AI tools for work and creativity`,
+    `- [Tools](${siteUrl}/tools): browse ${tools.length.toLocaleString("en")} AI tools`,
     `- [Categories](${siteUrl}/categories): ${CATEGORIES.length} top-level categories`,
     `- [About](${siteUrl}/about): editorial methodology`,
     `- [Submit](${siteUrl}/submit): suggest a tool or correction`,

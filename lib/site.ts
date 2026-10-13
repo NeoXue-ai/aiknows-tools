@@ -6,7 +6,9 @@ const rawSiteUrl =
   process.env.NEXT_PUBLIC_SITE_URL ?? "https://aiknows-tools.vercel.app";
 export const siteUrl = rawSiteUrl.replace(/\s+/g, "").replace(/\/+$/, "");
 
-export const siteName = "aiknows.tools";
+export const siteName = "AIKnows";
+
+export const siteTitle = "AI Tools Directory for Work & Creativity";
 
 export const siteDescription =
-  "Explore AI tools for writing, design, coding and research. Compare product features, access models and source-backed guides.";
+  "Discover AI tools for writing, design, coding and research. Compare features, pricing options and practical uses, with links to official websites.";

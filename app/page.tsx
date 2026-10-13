@@ -47,7 +47,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const { toolCount } = await getPublicCatalogSummary();
   return pageMetadata({
     title: "AI Tools Directory for Work & Creativity | AIKnows",
-    description: `Find your next favorite AI tool. Explore ${toolCount.toLocaleString()} tools for writing, design, coding, research, and everyday work in the AIknows directory.`,
+    description: `Explore ${toolCount.toLocaleString()} AI tools for writing, design, coding and research. Browse by task and compare features, pricing options and official websites.`,
     path: "/",
     absoluteTitle: true,
   });

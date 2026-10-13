@@ -58,11 +58,7 @@
         "Notebook, source, and generation limits vary by plan; availability also depends on account type and region.",
         "Work or school accounts may require an administrator to enable access."
       ],
-      "platforms": [
-        "Web",
-        "Android",
-        "iPhone and iPad"
-      ],
+      "platforms": ["Web", "Android", "iPhone and iPad"],
       "pricingNote": "Standard access is free for eligible Google accounts. Google AI, qualifying Workspace, and Cloud plans can provide higher limits or added features; check the official comparison.",
       "pricingUrl": "https://support.google.com/gemininotebook/answer/16213268?hl=en",
       "alternatives": [
@@ -103,6 +99,10 @@
         "question": "Does NotebookLM provide citations for its answers?",
         "answer": "Its source-based notebook chat provides inline citations so you can review supporting material. Citations help with verification, but generated answers can still contain mistakes."
       }
-    ]
+    ],
+    "seo": {
+      "title": "NotebookLM (Gemini Notebook): AI Research Assistant",
+      "description": "NotebookLM, now Gemini Notebook, organizes your sources for cited answers, study guides, and Audio Overviews. Explore Google's research assistant."
+    }
   }
 }

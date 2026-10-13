@@ -103,6 +103,10 @@
         "question": "Is GitHub Copilot free?",
         "answer": "A Free plan is available with limited usage. Paid plans provide different allowances and capabilities; GitHub's plan comparison lists the current inclusions."
       }
-    ]
+    ],
+    "seo": {
+      "title": "GitHub Copilot: AI Coding Assistant, Plans & Features",
+      "description": "GitHub Copilot offers code suggestions, coding chat, and agent workflows in supported editors. Compare its features, plan access, and usage limits."
+    }
   }
 }

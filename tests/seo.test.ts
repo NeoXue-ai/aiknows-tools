@@ -2,8 +2,228 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { parseCatalogQuery } from "../features/catalog/query";
 import { pageMetadata } from "../lib/seo/metadata";
-import { validateCatalog } from "../features/catalog/validation";
+import { validateCatalog, validateTool } from "../features/catalog/validation";
 import { readContent } from "../scripts/catalog/source";
+import { buildTitle, deriveMetaDescription } from "../features/catalog/seo";
+import type { Tool } from "../features/catalog/types";
+
+const metadataTool: Tool = {
+  ...readContent()[0],
+  slug: "atlas",
+  name: "Atlas",
+  tagline: "An AI writing assistant for teams.",
+  description: "Atlas helps teams draft and revise documents.",
+  primary_category: "writing-content",
+  subcategory: "ai-writer",
+  sub: "AI Writer",
+  editorial: undefined,
+};
+
+test("editorial SEO titles take precedence over scraped product copy", () => {
+  const title = "Atlas: AI Writing Assistant, Features & Plans";
+  assert.equal(
+    buildTitle({
+      ...metadataTool,
+      editorial: { seo: { title, description: "Draft and revise documents." } },
+    }),
+    title,
+  );
+});
+
+test("editorial SEO descriptions take precedence over scraped product copy", () => {
+  const description =
+    "Atlas helps teams draft and revise documents in one workspace.";
+  assert.equal(
+    deriveMetaDescription({
+      ...metadataTool,
+      editorial: { seo: { title: "Atlas: AI Writing Assistant", description } },
+    }),
+    description,
+  );
+});
+
+test("unreviewed metadata uses the recorded task rather than scraped prose", () => {
+  assert.equal(buildTitle(metadataTool), "Atlas — AI Writer");
+  assert.equal(
+    deriveMetaDescription(metadataTool),
+    "Explore Atlas in the AI Writer category on AIKnows, with product information, related tools and a link to the official website.",
+  );
+});
+
+test("existing complete neutral titles in a product name remain intact", () => {
+  const name = "Atlas — AI Writing Assistant for Teams";
+  assert.equal(buildTitle({ ...metadataTool, name }), name);
+});
+
+test("long genuine product names remain intact instead of being split or cut", () => {
+  const name =
+    "The International Research Institute — Advanced Document Analysis Edition";
+  assert.equal(buildTitle({ ...metadataTool, name }), name);
+});
+
+test("unknown source and presentation labels do not replace the recorded category", () => {
+  assert.equal(
+    buildTitle({
+      ...metadataTool,
+      tagline: null,
+      description: null,
+      subcategory: null,
+      sub: "Unknown label",
+    }),
+    "Atlas — Writing & Content",
+  );
+});
+
+test("legacy product names are cleaned of encoded markup before metadata", () => {
+  assert.equal(
+    buildTitle({ ...metadataTool, name: "Atl&#x61;s <b>2</b>" }),
+    "Atlas 2 — AI Writer",
+  );
+});
+
+test("optional editorial SEO validates without changing existing catalog fields", () => {
+  const tool = {
+    ...metadataTool,
+    editorial: {
+      seo: {
+        title: "Atlas: AI Writing Assistant",
+        description: "Draft and revise documents with Atlas.",
+      },
+      faqs: [{ question: "What is Atlas?", answer: "A writing assistant." }],
+    },
+  };
+  const { sub: _sub, ...record } = tool;
+  assert.deepEqual(validateTool(record), record);
+});
+
+test("editorial length preferences do not reject complete long text", () => {
+  const { sub: _sub, ...record } = metadataTool;
+  assert.doesNotThrow(() =>
+    validateTool({
+      ...record,
+      editorial: {
+        seo: {
+          title:
+            "The International Research Institute Advanced Document Analysis Edition: Research Assistant",
+          description:
+            "The International Research Institute Advanced Document Analysis Edition helps researchers organize extensive document collections, discuss their source material, and review supporting references.",
+        },
+      },
+    }),
+  );
+});
+
+test("editorial SEO requires both nonempty text fields", () => {
+  const { sub: _sub, ...record } = metadataTool;
+  for (const seo of [
+    {},
+    { title: "Atlas" },
+    { description: "Draft documents." },
+    { title: " ", description: "Draft documents." },
+    { title: "Atlas", description: "" },
+    { title: 42, description: "Draft documents." },
+    { title: "Atlas", description: null },
+  ]) {
+    assert.throws(
+      () => validateTool({ ...record, editorial: { seo } }),
+      /non-empty text/,
+    );
+  }
+});
+
+test("editorial SEO rejects markup and truncated copy in either field", () => {
+  const { sub: _sub, ...record } = metadataTool;
+  for (const value of [
+    "<b>Atlas</b>",
+    "[Atlas](https://example.com)",
+    "**Atlas**",
+    "*Atlas*",
+    "_Atlas_",
+    "# Atlas",
+    "> Atlas",
+    "&lt;b&gt;Atlas&lt;/b&gt;",
+    "Atlas\nAI Writer",
+    "`Atlas`",
+    "Atlas…",
+    "Atlas...",
+  ]) {
+    for (const field of ["title", "description"]) {
+      const seo = {
+        title: "Atlas",
+        description: "Draft documents.",
+        [field]: value,
+      };
+      assert.throws(
+        () => validateTool({ ...record, editorial: { seo } }),
+        /plain|truncated/i,
+      );
+    }
+  }
+});
+
+test("editorial SEO rejects unknown fields at both object levels", () => {
+  const { sub: _sub, ...record } = metadataTool;
+  const seo = { title: "Atlas", description: "Draft documents." };
+  assert.throws(
+    () =>
+      validateTool({ ...record, editorial: { seo, keywords: ["writing"] } }),
+    /Unknown editorial field/,
+  );
+  for (const extra of [
+    { keywords: "writing" },
+    { titleTemplate: "%s" },
+    { keywords: "writing", other: true },
+  ]) {
+    assert.throws(
+      () =>
+        validateTool({ ...record, editorial: { seo: { ...seo, ...extra } } }),
+      /Unknown SEO field/,
+    );
+  }
+});
+
+test("editorial SEO does not bypass duplicate catalog identity checks", () => {
+  const { sub: _sub, ...record } = metadataTool;
+  const tool = {
+    ...record,
+    editorial: { seo: { title: "Atlas", description: "Draft documents." } },
+  };
+  assert.throws(() => validateCatalog([tool, { ...tool }]), /Duplicate slug/);
+  assert.throws(
+    () => validateCatalog([tool, { ...tool, slug: "atlas-copy" }]),
+    /Duplicate URL/,
+  );
+});
+
+test("all ten sourced guides have reviewed, complete editorial metadata", () => {
+  const titles = {
+    cursor: "Cursor: AI Code Editor, Features & Pricing",
+    "github-copilot": "GitHub Copilot: AI Coding Assistant, Plans & Features",
+    chatgpt: "ChatGPT: AI Assistant, Features & Pricing",
+    claude: "Claude: AI Assistant for Writing, Coding & Research",
+    midjourney: "Midjourney: AI Image Generator, Features & Pricing",
+    ideogram: "Ideogram: AI Image Generator for Text & Design",
+    runway: "Runway: AI Video Generator, Features & Pricing",
+    notebooklm: "NotebookLM (Gemini Notebook): AI Research Assistant",
+    "perplexity-search": "Perplexity: AI Search Engine with Source Citations",
+    canva: "Canva: AI Design Tools for Images & Presentations",
+  };
+  const tools = readContent();
+  for (const [slug, title] of Object.entries(titles)) {
+    const tool = tools.find((tool) => tool.slug === slug);
+    assert.ok(tool?.editorial?.guide, `Missing sourced guide for ${slug}`);
+    assert.equal(tool.editorial.seo?.title, title);
+    const description = tool.editorial.seo?.description;
+    assert.ok(
+      description?.startsWith(tool.name),
+      `Missing product identity for ${slug}`,
+    );
+    assert.match(description, /\.$/);
+    assert.doesNotMatch(description, /…|\.{3}|<[^>]+>/);
+    assert.equal(buildTitle({ ...tool, sub: null }), title);
+    assert.equal(deriveMetaDescription({ ...tool, sub: null }), description);
+  }
+});
 
 test("shared search links preserve a subcategory scope", () => {
   assert.equal(
@@ -97,13 +317,18 @@ test("software markup never guesses the platform or a dollar offer", async () =>
   assert.equal(data.operatingSystem, undefined);
   assert.equal(data.offers, undefined);
 });
-test("tool descriptions use product facts rather than a site-wide evidence footer", async () => {
+test("reviewed descriptions use product facts rather than a site-wide evidence footer", async () => {
   const { deriveMetaDescription } = await import("../features/catalog/seo");
   const description = deriveMetaDescription({
     ...readContent()[0],
     sub: null,
-    tagline:
-      "Edit images in the browser with background removal and generative fill.",
+    editorial: {
+      seo: {
+        title: "Image Editor",
+        description:
+          "Edit images in the browser with background removal and generative fill.",
+      },
+    },
   });
   assert.equal(
     description,

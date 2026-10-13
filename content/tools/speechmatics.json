@@ -27,5 +27,18 @@
   "subcategory": "speech-to-text-ai",
   "is_featured": false,
   "is_verified": false,
-  "published_at": null
+  "published_at": null,
+  "editorial": {
+    "seo": {
+      "title": "Speechmatics: Speech-to-Text APIs & Transcription",
+      "description": "Speechmatics provides speech-to-text APIs for live audio and recorded files. Explore batch and real-time transcription options and official developer docs."
+    },
+    "externalLinks": [
+      {
+        "label": "Official product information",
+        "url": "https://docs.speechmatics.com/speech-to-text",
+        "context": "Explore current product information and supported workflows."
+      }
+    ]
+  }
 }
