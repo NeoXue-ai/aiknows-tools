@@ -52,6 +52,8 @@ export function pageMetadata({
       description,
       ...(image ? { images: [image] } : {}),
     },
-    robots: noIndex ? { index: false, follow: false } : { index: true, follow: true },
+    robots: noIndex
+      ? { index: false, follow: true }
+      : { index: true, follow: true },
   };
 }

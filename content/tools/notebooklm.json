@@ -1,8 +1,8 @@
 {
   "slug": "notebooklm",
   "name": "NotebookLM",
-  "tagline": "NotebookLM is Google's AI-powered research tool that lets you upload documents, PDFs, and notes and then ask questions, get summaries, and generate study guides entirely grounded in your source material. Its Audio Overview feature transforms a document collection into a conversational podcast-style discussion. Researchers, students, and analysts use it to synthesise knowledge from large document sets without risking hallucinated facts.",
-  "description": "NotebookLM is Google's AI-powered research tool that lets you upload documents, PDFs, and notes and then ask questions, get summaries, and generate study guides entirely grounded in your source material. Its Audio Overview feature transforms a document collection into a conversational podcast-style discussion. Researchers, students, and analysts use it to synthesise knowledge from large document sets without risking hallucinated facts.",
+  "tagline": "Google's source-based research notebook, now called Gemini Notebook.",
+  "description": "NotebookLM, now called Gemini Notebook, is Google's research assistant for a selected source collection. Add documents, web pages, videos, or audio, then ask questions with citations and create study guides or Audio Overviews. Keep the supporting material available while organizing your research.",
   "url": "https://notebooklm.google.com",
   "logo_url": "https://www.google.com/s2/favicons?domain=notebooklm.google.com&sz=64",
   "screenshot_url": "/screenshots/notebooklm.webp",
@@ -19,11 +19,90 @@
     "parsing",
     "voice_enabled"
   ],
-  "pricing_detail": "Free",
+  "pricing_detail": "Freemium",
   "source": "https://bestofai.io",
   "dr": 100,
   "subcategory": "ai-research",
   "is_featured": false,
   "is_verified": false,
-  "published_at": null
+  "published_at": null,
+  "editorial": {
+    "guide": {
+      "checkedAt": "2026-10-13",
+      "features": [
+        {
+          "label": "A notebook for your sources",
+          "text": "Collect PDFs, websites, YouTube videos, audio, Google Docs, and Google Slides."
+        },
+        {
+          "label": "Source-grounded questions",
+          "text": "Ask about your material and inspect the supporting information through inline citations."
+        },
+        {
+          "label": "Study and listening formats",
+          "text": "Create study guides, briefings, mind maps, or Audio Overviews from a source collection."
+        }
+      ],
+      "useCases": [
+        {
+          "label": "Study a document collection",
+          "text": "Gather course material, ask targeted questions, and create a guide to review key ideas."
+        },
+        {
+          "label": "Prepare a research briefing",
+          "text": "Summarize a notebook's sources and check the briefing against the originals."
+        }
+      ],
+      "limitations": [
+        "Source grounding does not guarantee correct answers. Check generated conclusions against the supporting material.",
+        "Notebook, source, and generation limits vary by plan; availability also depends on account type and region.",
+        "Work or school accounts may require an administrator to enable access."
+      ],
+      "platforms": [
+        "Web",
+        "Android",
+        "iPhone and iPad"
+      ],
+      "pricingNote": "Standard access is free for eligible Google accounts. Google AI, qualifying Workspace, and Cloud plans can provide higher limits or added features; check the official comparison.",
+      "pricingUrl": "https://support.google.com/gemininotebook/answer/16213268?hl=en",
+      "alternatives": [
+        {
+          "slug": "chatpdf",
+          "reason": "Compare for a document-centered question and answer workflow."
+        },
+        {
+          "slug": "perplexity-search",
+          "reason": "Compare for research that starts with searching the open web."
+        },
+        {
+          "slug": "elicit",
+          "reason": "Explore a tool focused on research literature workflows."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Google's NotebookLM rename announcement",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/"
+        },
+        {
+          "label": "Gemini Notebook features and availability",
+          "url": "https://support.google.com/gemininotebook/answer/16164461?hl=en"
+        },
+        {
+          "label": "Gemini Notebook plan comparison",
+          "url": "https://support.google.com/gemininotebook/answer/16213268?hl=en"
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Is NotebookLM now called Gemini Notebook?",
+        "answer": "Yes. Google renamed NotebookLM to Gemini Notebook. It remains a standalone research product, with notebooks also available through supported Google integrations."
+      },
+      {
+        "question": "Does NotebookLM provide citations for its answers?",
+        "answer": "Its source-based notebook chat provides inline citations so you can review supporting material. Citations help with verification, but generated answers can still contain mistakes."
+      }
+    ]
+  }
 }

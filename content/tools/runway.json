@@ -1,8 +1,8 @@
 {
   "slug": "runway",
   "name": "Runway",
-  "tagline": "Runway is a leading AI creative studio that offers an end-to-end suite of tools for video and image generation, editing, and transformation. Its Gen-2 model generates video from text or image prompts, while tools like Inpainting, Green Screen, and Motion Tracking automate complex editing tasks. Professional filmmakers, VFX artists, and creative agencies use Runway as their AI-native post-production environment.",
-  "description": "Runway is a leading AI creative studio that offers an end-to-end suite of tools for video and image generation, editing, and transformation. Its Gen-2 model generates video from text or image prompts, while tools like Inpainting, Green Screen, and Motion Tracking automate complex editing tasks. Professional filmmakers, VFX artists, and creative agencies use Runway as their AI-native post-production environment.",
+  "tagline": "AI video and image creation with text prompts, reference frames, and generation controls.",
+  "description": "Runway is an AI creative platform for generating video and images. Supported video models can create a shot from text or animate an image, with prompts describing subjects, motion, and camera behavior. You can adjust supported settings, iterate on the result, and download it for use in a wider production workflow. Models and export options vary by plan.",
   "url": "https://runwayml.com",
   "logo_url": "https://www.google.com/s2/favicons?domain=runwayml.com&sz=64",
   "screenshot_url": "/screenshots/runway.webp",
@@ -27,5 +27,84 @@
   "subcategory": "ai-video-generator",
   "is_featured": false,
   "is_verified": false,
-  "published_at": null
+  "published_at": null,
+  "editorial": {
+    "guide": {
+      "checkedAt": "2026-10-13",
+      "features": [
+        {
+          "label": "Text-to-video generation",
+          "text": "Describe a scene and its motion to generate a video shot with a supported model."
+        },
+        {
+          "label": "Image-to-video generation",
+          "text": "Upload an image as a starting frame and use a prompt to guide how the scene moves."
+        },
+        {
+          "label": "Shot controls and export",
+          "text": "Choose supported duration and framing settings, refine prompts, and download or upscale selected outputs."
+        }
+      ],
+      "useCases": [
+        {
+          "label": "Prototype a shot",
+          "text": "Explore a scene, camera direction, or movement before deciding which concept to develop further."
+        },
+        {
+          "label": "Animate a visual concept",
+          "text": "Use a still image to establish the composition, then generate motion for a short video sequence."
+        }
+      ],
+      "limitations": [
+        "Input formats, clip length, resolution, and platform availability differ by model; check the selected model's guide.",
+        "Generations consume credits at rates that depend on the model and output settings.",
+        "The Free plan has a limited selection of tools and one-time credits; some models and export options require paid access."
+      ],
+      "platforms": [
+        "Web",
+        "iOS app",
+        "Android app"
+      ],
+      "pricingNote": "A Free plan provides one-time credits for selected tools. Paid plans add monthly credits and features; check current rates and the credit cost of your chosen model.",
+      "pricingUrl": "https://runway.com/pricing",
+      "alternatives": [
+        {
+          "slug": "luma-dream-machine",
+          "reason": "Compare another service for generative video workflows."
+        },
+        {
+          "slug": "pika-video",
+          "reason": "Explore another tool for creating AI video clips."
+        },
+        {
+          "slug": "kling-ai",
+          "reason": "Compare another platform for text and image-driven video generation."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Runway video generation guide",
+          "url": "https://help.runwayml.com/hc/en-us/articles/46974685288467-Creating-with-Gen-4-5"
+        },
+        {
+          "label": "How Runway credits work",
+          "url": "https://help.runwayml.com/hc/en-us/articles/15124877443219-How-do-credits-work"
+        },
+        {
+          "label": "Runway plans and access",
+          "url": "https://runway.com/pricing"
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Can Runway turn a still image into a video?",
+        "answer": "Yes. Supported image-to-video models accept an image and a motion prompt. Available durations, aspect ratios, and other controls depend on the model."
+      },
+      {
+        "question": "How does Runway charge for generations?",
+        "answer": "Runway uses credits for image, video, and audio generation. Costs depend on the tool and settings, so check the current credit table before starting a series of generations."
+      }
+    ]
+  }
 }

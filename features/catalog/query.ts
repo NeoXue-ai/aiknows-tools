@@ -42,6 +42,7 @@ export function parseCatalogQuery(params: URLSearchParams): CatalogQuery {
   return {
     q: (params.get("q") ?? "").trim(),
     category: params.get("category") || undefined,
+    subcategory: params.get("subcategory") || undefined,
     sort: sortKey,
     dir:
       dir === "asc" || dir === "desc"

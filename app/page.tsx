@@ -9,13 +9,13 @@ import { HeroSearch } from "@/components/hero-search";
 import { HomeToolShelf, type HomeToolSection } from "@/components/home-tool-shelf";
 import type { Tool } from "@/features/catalog/types";
 
-const STARTER_SLUGS = ["claude", "cursor", "midjourney", "chatgpt", "perplexity", "runway"];
+const STARTER_SLUGS = ["claude", "cursor", "midjourney", "chatgpt", "perplexity-search", "runway"];
 const CATEGORY_PICKS: Record<string, string[]> = {
   "writing-content": ["notion-ai", "jasper", "grammarly", "copy-ai", "writesonic"],
   "image-video": ["midjourney", "runway", "suno", "elevenlabs", "ideogram", "pika"],
   "code-development": ["cursor", "github-copilot", "lovable", "v0", "bolt-new", "replit"],
   productivity: ["claude", "chatgpt", "n8n", "zapier", "make", "1clickclaw"],
-  "research-data": ["perplexity", "notebooklm", "elicit", "consensus"],
+  "research-data": ["perplexity-search", "notebooklm", "elicit", "consensus"],
 };
 const TAB_CATEGORIES = [
   { slug: "writing-content", label: "Writing" },
@@ -46,7 +46,7 @@ function selectTools(tools: Tool[], slugs: string[], count = 6) {
 export async function generateMetadata(): Promise<Metadata> {
   const { toolCount } = await getPublicCatalogSummary();
   return pageMetadata({
-    title: `Best AI Tools Directory — Find & Compare ${toolCount.toLocaleString()}+ AI Tools by Category`,
+    title: "AI Tools Directory for Work & Creativity | AIKnows",
     description: `Find your next favorite AI tool. Explore ${toolCount.toLocaleString()} tools for writing, design, coding, research, and everyday work in the AIknows directory.`,
     path: "/",
     absoluteTitle: true,

@@ -1,4 +1,6 @@
-import {buildTitle, deriveMetaDescription} from "@/features/catalog/seo";
+import { ToolGuideSections } from "@/features/catalog/components/tool-guide";
+import { relatedTools } from "@/features/catalog/related";
+import { buildTitle, deriveMetaDescription } from "@/features/catalog/seo";
 import Link from "next/link";
 import Image from "next/image";
 import { pageMetadata } from "@/lib/seo/metadata";
@@ -14,9 +16,7 @@ import {
 } from "@/lib/seo/tool-schema";
 import { getPublicToolBySlug, getPublicTools } from "@/features/catalog/server";
 import { slugifySub } from "@/lib/subcategories";
-import {
-  type EditorialLink,
-} from "@/lib/editorial-content";
+import { type EditorialLink } from "@/lib/editorial-content";
 import { siteUrl } from "@/lib/site";
 import { cn } from "@/lib/utils";
 import type { Tool } from "@/features/catalog/types";
@@ -43,12 +43,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   });
 }
 
-function relatedTools(tools: Tool[], tool: Tool, limit = 6) {
-  return tools
-    .filter((candidate) => candidate.primary_category === tool.primary_category && candidate.slug !== tool.slug)
-    .slice(0, limit);
-}
-
 function extractDomain(url: string): string | null {
   try {
     return new URL(url).hostname.replace(/^www\./, "");
@@ -59,7 +53,11 @@ function extractDomain(url: string): string | null {
 
 type Faq = { question: string; answer: string };
 
-function deriveFAQs(tool: Tool, categoryLabel: string, domain: string | null): Faq[] {
+function deriveFAQs(
+  tool: Tool,
+  categoryLabel: string,
+  domain: string | null,
+): Faq[] {
   const name = tool.name;
   const tagline = tool.tagline?.trim();
   const description = tool.description?.trim();
@@ -68,56 +66,19 @@ function deriveFAQs(tool: Tool, categoryLabel: string, domain: string | null): F
   const faqs: Faq[] = [
     {
       question: `What is ${name}?`,
-      answer: tagline
-        ? `${name} — ${tagline}`
-        : `${name} is listed in the AIknows index under ${categoryLabel}.${description ? ` The recorded description reads: ${description}` : ""}`,
-    },
-    {
-      question: `Which category is ${name} recorded under?`,
-      answer: `${name} is recorded in the ${categoryLabel} category. Browse other entries in this category on the AIknows ${categoryLabel} index page.`,
+      answer:
+        tagline || description || `${name} is listed under ${categoryLabel}.`,
     },
   ];
-
-  if (pricingDetail) {
+  if (pricingDetail)
     faqs.push({
-      question: `Is ${name} free to use?`,
-      answer: `Editor's note on ${name}: ${pricingDetail}. For current plans and pricing, visit the official website.`,
+      question: `What does ${name} cost?`,
+      answer: `The recorded pricing model is ${pricingDetail}. Check the official website for current plans, free limits and billing terms.`,
     });
-  }
-
-  if (tool.is_verified) {
-    faqs.push({
-      question: `Is ${name} verified by AIknows?`,
-      answer: `Yes — the AIknows record for ${name} carries an editorial verification flag, meaning the listing has been reviewed by the AIknows editors.`,
-    });
-  }
-
   faqs.push({
-    question: `Where can I access ${name}?`,
-    answer: domain
-      ? `The official website for ${name} is ${domain}. Click "Visit website" on this page to open it in a new tab.`
-      : `The recorded URL is ${tool.url}. Click "Visit website" on this page to open it in a new tab.`,
+    question: `Where can I use ${name}?`,
+    answer: `Visit ${domain || tool.url} using the official website link on this page. Check its supported platforms and access requirements before signing up.`,
   });
-
-  if (tool.tags.length > 0) {
-    faqs.push({
-      question: `What tags are recorded for ${name}?`,
-      answer: `${tool.tags.length} tag${tool.tags.length === 1 ? " is" : "s are"} recorded for ${name}: ${tool.tags.join(", ")}. Tags are factual descriptors applied by AIknows editors; they are not popularity rankings.`,
-    });
-  }
-
-  if (typeof tool.dr === "number") {
-    faqs.push({
-      question: `What is ${name}'s recorded domain rating?`,
-      answer: `The recorded DR (Domain Rating) for ${name} is ${tool.dr}. Domain rating is a third-party authority metric — AIknows records the value but does not use it as a quality score.`,
-    });
-  }
-
-  faqs.push({
-    question: `Can the ${name} record be updated?`,
-    answer: `Yes. The AIknows record for ${name} is evidence-led — anyone can suggest a correction via the /submit page. Submissions are reviewed by editors before changes appear in the public index.`,
-  });
-
   return faqs;
 }
 
@@ -139,7 +100,9 @@ export default async function ToolDetailPage({ params }: Props) {
     ],
     siteUrl,
   );
-  const faqs = [...deriveFAQs(tool, category, domain), ...(tool.editorial?.faqs ?? [])];
+  const faqs = tool.editorial?.guide
+    ? (tool.editorial.faqs ?? [])
+    : [...deriveFAQs(tool, category, domain), ...(tool.editorial?.faqs ?? [])];
   const editorial = tool.editorial ?? null;
 
   return (
@@ -153,7 +116,10 @@ export default async function ToolDetailPage({ params }: Props) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(breadcrumbJsonLdBlock).replace(/</g, "\\u003c"),
+          __html: JSON.stringify(breadcrumbJsonLdBlock).replace(
+            /</g,
+            "\\u003c",
+          ),
         }}
       />
       {/* Audit P5: Google retired FAQPage rich snippets in 2026 — emitting
@@ -275,8 +241,12 @@ export default async function ToolDetailPage({ params }: Props) {
               )
             ) : (
               <div className="flex h-full w-full flex-col items-center justify-center gap-3 text-accent">
-                <span className="flex h-16 w-16 items-center justify-center rounded-2xl border border-accent/10 bg-card text-2xl font-semibold">{tool.name.slice(0, 1).toUpperCase()}</span>
-                <span className="text-xs text-muted-foreground">Preview unavailable</span>
+                <span className="flex h-16 w-16 items-center justify-center rounded-2xl border border-accent/10 bg-card text-2xl font-semibold">
+                  {tool.name.slice(0, 1).toUpperCase()}
+                </span>
+                <span className="text-xs text-muted-foreground">
+                  Preview unavailable
+                </span>
               </div>
             )}
           </div>
@@ -299,11 +269,14 @@ export default async function ToolDetailPage({ params }: Props) {
                 <p className="whitespace-pre-line">{tool.description}</p>
               ) : (
                 <p className="text-muted-foreground">
-                  A detailed description hasn&apos;t been added yet. Visit the official website to learn more about {tool.name}.
+                  A detailed description hasn&apos;t been added yet. Visit the
+                  official website to learn more about {tool.name}.
                 </p>
               )}
             </div>
           </section>
+
+          <ToolGuideSections tool={tool} tools={allTools} />
 
           {/* Editorial comparison — rendered only when data exists */}
           {editorial?.comparison && (
@@ -312,9 +285,7 @@ export default async function ToolDetailPage({ params }: Props) {
                 <h2 className="text-xl font-semibold tracking-[-0.02em]">
                   {editorial.comparison.heading}
                 </h2>
-                <span className="text-xs text-muted-foreground">
-                  Editorial
-                </span>
+                <span className="text-xs text-muted-foreground">Editorial</span>
               </div>
               <div className="mt-4 space-y-4 text-pretty leading-7 text-foreground/90">
                 {editorial.comparison.paragraphs.map((p, i) => (
@@ -376,18 +347,21 @@ export default async function ToolDetailPage({ params }: Props) {
                 Listing information
               </h2>
               <span className="text-xs text-muted-foreground">
-                {[
-                  tool.is_featured && "feature",
-                  tool.is_verified && "verify",
-                  tool.tagline && "tagline",
-                  tool.description && "description",
-                  tool.tags.length > 0 && "tags",
-                  tool.source && "source",
-                  tool.pricing_detail && "pricing detail",
-                  typeof tool.dr === "number" && "DR",
-                  tool.screenshot_url && "screenshot",
-                  tool.logo_url && "logo",
-                ].filter(Boolean).length} of 10 details available
+                {
+                  [
+                    tool.is_featured && "feature",
+                    tool.is_verified && "verify",
+                    tool.tagline && "tagline",
+                    tool.description && "description",
+                    tool.tags.length > 0 && "tags",
+                    tool.source && "source",
+                    tool.pricing_detail && "pricing detail",
+                    typeof tool.dr === "number" && "DR",
+                    tool.screenshot_url && "screenshot",
+                    tool.logo_url && "logo",
+                  ].filter(Boolean).length
+                }{" "}
+                of 10 details available
               </span>
             </div>
             <dl className="mt-4 grid grid-cols-1 gap-x-8 border-y border-border sm:grid-cols-2">
@@ -439,7 +413,10 @@ export default async function ToolDetailPage({ params }: Props) {
             </h2>
             <div className="mt-4 border-y border-border">
               {faqs.map((faq) => (
-                <details key={faq.question} className="group border-b border-border last:border-b-0">
+                <details
+                  key={faq.question}
+                  className="group border-b border-border last:border-b-0"
+                >
                   <summary className="flex cursor-pointer items-baseline justify-between gap-3 py-3.5 text-[15px] font-medium text-foreground transition-colors hover:text-accent">
                     <span>{faq.question}</span>
                     <span
@@ -461,11 +438,13 @@ export default async function ToolDetailPage({ params }: Props) {
         {/* Sticky sidebar — snapshot + related */}
         <aside className="lg:sticky lg:top-24 lg:self-start space-y-6">
           <section className="rounded-2xl border border-border bg-card p-6">
-            <p className="text-sm font-semibold text-foreground">
-              At a glance
-            </p>
+            <p className="text-sm font-semibold text-foreground">At a glance</p>
             <dl className="mt-4 space-y-2.5 text-sm">
-              <SidebarField label="Domain" value={domain ?? "Not recorded"} mono />
+              <SidebarField
+                label="Domain"
+                value={domain ?? "Not recorded"}
+                mono
+              />
               {typeof tool.dr === "number" && (
                 <SidebarField label="DR" value={String(tool.dr)} mono />
               )}
@@ -479,9 +458,7 @@ export default async function ToolDetailPage({ params }: Props) {
               )}
               {tool.source && (
                 <div className="flex items-baseline justify-between gap-3">
-                  <dt className="text-xs text-muted-foreground">
-                    Source
-                  </dt>
+                  <dt className="text-xs text-muted-foreground">Source</dt>
                   <dd className="truncate text-right text-sm text-foreground">
                     {tool.source.startsWith("http") ? (
                       <a
@@ -506,9 +483,7 @@ export default async function ToolDetailPage({ params }: Props) {
               })()}
               {tool.tags.length > 0 && (
                 <div className="border-t border-border pt-2.5">
-                  <dt className="text-xs text-muted-foreground">
-                    Tags
-                  </dt>
+                  <dt className="text-xs text-muted-foreground">Tags</dt>
                   <dd className="mt-1.5 flex flex-wrap gap-1.5">
                     {tool.tags.map((tag) => (
                       <span
@@ -527,7 +502,7 @@ export default async function ToolDetailPage({ params }: Props) {
           {related.length > 0 && (
             <section className="rounded-2xl border border-border bg-card p-6">
               <p className="text-sm font-semibold text-foreground">
-                More in {category}
+                Related tools
               </p>
               <ul className="mt-3 divide-y divide-border">
                 {related.slice(0, 5).map((r) => (
@@ -583,14 +558,14 @@ function FieldRow({
 }) {
   return (
     <div className="flex items-baseline justify-between gap-3 border-b border-border py-2.5 last:border-b-0">
-      <dt className="text-xs text-muted-foreground">
-        {label}
-      </dt>
+      <dt className="text-xs text-muted-foreground">{label}</dt>
       <dd className="flex min-w-0 items-baseline gap-1.5 text-right text-sm">
         {recorded ? (
           <>
             <Check className="h-3 w-3 shrink-0 text-accent" />
-            <span className="truncate text-foreground">{value ?? "Recorded"}</span>
+            <span className="truncate text-foreground">
+              {value ?? "Recorded"}
+            </span>
           </>
         ) : (
           <>
@@ -614,9 +589,7 @@ function SidebarField({
 }) {
   return (
     <div className="flex items-baseline justify-between gap-3">
-      <dt className="text-xs text-muted-foreground">
-        {label}
-      </dt>
+      <dt className="text-xs text-muted-foreground">{label}</dt>
       <dd
         className={cn(
           "truncate text-right text-sm text-foreground",

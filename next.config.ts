@@ -1,3 +1,4 @@
+import { CATEGORIES, SUBCATEGORIES } from "./features/catalog/taxonomy";
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
@@ -5,6 +6,27 @@ const nextConfig: NextConfig = {
   outputFileTracingIncludes: { "/*": ["./.catalog/catalog.json"] },
   async redirects() {
     return [
+      ...["/tools", "/tools/page/:page"].flatMap((source) =>
+        ["q", "category", "subcategory", "sort", "dir"].map((key) => ({
+          source,
+          has: [{ type: "query" as const, key }],
+          destination: "/search",
+          permanent: true,
+        })),
+      ),
+      ...[
+        { param: "category", slugs: CATEGORIES.map((c) => c.slug) },
+        { param: "subcategory", slugs: SUBCATEGORIES.map((c) => c.slug) },
+      ].flatMap((group) =>
+        ["", "/page/:page"].flatMap((suffix) =>
+          ["q", "category", "subcategory", "sort", "dir"].map((key) => ({
+            source: `/categories/:${group.param}(${group.slugs.join("|")})${suffix}`,
+            has: [{ type: "query" as const, key }],
+            destination: `/search?${group.param}=:${group.param}`,
+            permanent: true,
+          })),
+        ),
+      ),
       { source: "/login", destination: "/submit", permanent: true },
       { source: "/admin/:path*", destination: "/submit", permanent: true },
     ];

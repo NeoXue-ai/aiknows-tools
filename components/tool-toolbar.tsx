@@ -15,9 +15,14 @@ import {
 import { CATEGORIES } from "@/lib/seo/tool-schema";
 import { categoryIcon } from "@/lib/category-icons";
 import type { SortKey, SortDir } from "@/features/catalog/types";
+import { searchPath, updateSearchParams } from "@/features/catalog/urls";
 import { cn } from "@/lib/utils";
 
-const SEARCH_EXAMPLES = ["meeting transcription", "API testing", "image generation"];
+const SEARCH_EXAMPLES = [
+  "meeting transcription",
+  "API testing",
+  "image generation",
+];
 
 const VIEW_OPTIONS = [
   { value: "cards" as const, label: "Cards", icon: LayoutGrid },
@@ -123,9 +128,7 @@ export function ToolToolbar({
 
       {showExamples && (
         <ul className="hidden flex-wrap items-center gap-2 text-xs md:flex">
-          <li className="mr-1 text-muted-foreground">
-            Try searching
-          </li>
+          <li className="mr-1 text-muted-foreground">Try searching</li>
           {SEARCH_EXAMPLES.map((ex) => (
             <li key={ex}>
               <button
@@ -147,7 +150,9 @@ export function ToolToolbar({
 }
 
 function VDivider() {
-  return <div aria-hidden className="hidden h-5 w-px shrink-0 bg-border lg:block" />;
+  return (
+    <div aria-hidden className="hidden h-5 w-px shrink-0 bg-border lg:block" />
+  );
 }
 
 function SearchControl({
@@ -165,7 +170,9 @@ function SearchControl({
       htmlFor="tool-search"
       className={cn(
         "group flex h-12 min-w-0 basis-full items-center gap-3 rounded-xl border bg-background px-4 transition-colors duration-200 lg:basis-auto lg:flex-1",
-        focused ? "border-accent/60 ring-2 ring-accent/10" : "border-transparent hover:border-border",
+        focused
+          ? "border-accent/60 ring-2 ring-accent/10"
+          : "border-transparent hover:border-border",
       )}
     >
       <Search
@@ -239,12 +246,11 @@ function CategoryMenu() {
   const hasFilter = !!active;
 
   function pick(slug: string | null) {
-    const params = new URLSearchParams(searchParams.toString());
-    if (slug) params.set("category", slug);
-    else params.delete("category");
-    params.delete("page");
-    const qs = params.toString();
-    router.replace(qs ? `/tools?${qs}` : "/tools", { scroll: false });
+    const params = updateSearchParams(
+      new URLSearchParams(searchParams.toString()),
+      { category: slug },
+    );
+    router.replace(searchPath(params), { scroll: false });
     setOpen(false);
   }
 
@@ -397,13 +403,19 @@ function SortMenu({
               }}
               className={cn(
                 "block w-full rounded-lg px-3 py-2.5 text-left text-sm transition-colors hover:bg-secondary",
-                sortKey === opt.key ? "text-foreground" : "text-muted-foreground",
+                sortKey === opt.key
+                  ? "text-foreground"
+                  : "text-muted-foreground",
               )}
             >
               <span className="flex items-center justify-between gap-2">
                 <span>{opt.label}</span>
                 <span className="text-xs text-muted-foreground">
-                  {sortKey === opt.key ? (sortDir === "asc" ? "↑ asc" : "↓ desc") : ""}
+                  {sortKey === opt.key
+                    ? sortDir === "asc"
+                      ? "↑ asc"
+                      : "↓ desc"
+                    : ""}
                 </span>
               </span>
             </button>

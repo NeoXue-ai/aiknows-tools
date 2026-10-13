@@ -1,8 +1,8 @@
 {
   "slug": "chatgpt",
   "name": "ChatGPT",
-  "tagline": "ChatGPT is OpenAI's flagship conversational AI, capable of answering questions, drafting documents, writing and explaining code, analysing data, and generating images. Powered by GPT-4o, it remembers context across a conversation and can read files, browse the web, and run code inside a sandbox. With over 200 million weekly active users, it's the most widely used AI assistant in the world.",
-  "description": "ChatGPT is OpenAI's flagship conversational AI, capable of answering questions, drafting documents, writing and explaining code, analysing data, and generating images. Powered by GPT-4o, it remembers context across a conversation and can read files, browse the web, and run code inside a sandbox. With over 200 million weekly active users, it's the most widely used AI assistant in the world.",
+  "tagline": "An AI assistant for writing, research, file analysis, and everyday questions.",
+  "description": "ChatGPT is OpenAI's conversational AI assistant for explaining information, developing ideas, drafting content, and analyzing materials. You can give it files and use available tools such as web search to add context. For larger tasks, ChatGPT Work can turn research and source material into reviewable documents, spreadsheets, presentations, and other outputs.",
   "url": "https://chat.openai.com",
   "logo_url": "https://www.google.com/s2/favicons?domain=chat.openai.com&sz=64",
   "screenshot_url": "/screenshots/chatgpt.webp",
@@ -25,5 +25,83 @@
   "subcategory": "ai-chatbot",
   "is_featured": false,
   "is_verified": false,
-  "published_at": null
+  "published_at": null,
+  "editorial": {
+    "guide": {
+      "checkedAt": "2026-10-13",
+      "features": [
+        {
+          "label": "Conversational writing and explanation",
+          "text": "Develop a draft or explore a topic through follow-up messages, adding instructions and context as you refine the result."
+        },
+        {
+          "label": "Research with web and file context",
+          "text": "Use available search tools and uploaded materials to gather information, compare sources, and summarize findings."
+        },
+        {
+          "label": "Finished file workflows",
+          "text": "ChatGPT Work can create and refine documents, spreadsheets, presentations, and PDFs from your instructions and source files."
+        }
+      ],
+      "useCases": [
+        {
+          "label": "Develop a useful first draft",
+          "text": "Turn notes into an email, outline, or document, then request focused changes to structure or wording."
+        },
+        {
+          "label": "Research and explain a topic",
+          "text": "Provide a question and supporting materials, ask for a synthesis, and review the information and resulting file."
+        }
+      ],
+      "limitations": [
+        "Models, tools, and usage allowances differ by plan and account access; some capabilities depend on rollout.",
+        "Generated files need review. Preview and annotation options differ across web, desktop, and developer surfaces."
+      ],
+      "platforms": [
+        "Web",
+        "Desktop app",
+        "Mobile app"
+      ],
+      "pricingNote": "ChatGPT has free and paid individual plans, plus organization plans. Check official pricing for current tool availability, shared usage limits, and credit options.",
+      "pricingUrl": "https://learn.chatgpt.com/docs/pricing",
+      "alternatives": [
+        {
+          "slug": "claude",
+          "reason": "Compare another general assistant for writing and working with files."
+        },
+        {
+          "slug": "gemini",
+          "reason": "Explore Google's general AI assistant."
+        },
+        {
+          "slug": "perplexity-search",
+          "reason": "Compare a search-focused assistant when web sources are central to the task."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Using ChatGPT",
+          "url": "https://learn.chatgpt.com/docs/use-chatgpt"
+        },
+        {
+          "label": "Working with files in ChatGPT",
+          "url": "https://learn.chatgpt.com/docs/artifacts-viewer"
+        },
+        {
+          "label": "ChatGPT plans and availability",
+          "url": "https://learn.chatgpt.com/docs/pricing"
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Can ChatGPT research information on the web?",
+        "answer": "Yes. Web search and browsing are available capabilities for research workflows. Their availability depends on the tools and account access provided to the conversation."
+      },
+      {
+        "question": "Can ChatGPT create downloadable documents or spreadsheets?",
+        "answer": "ChatGPT Work can create documents, spreadsheets, presentations, and PDFs. Review the result, ask for revisions, and download the completed file; preview options vary by surface."
+      }
+    ]
+  }
 }

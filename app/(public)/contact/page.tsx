@@ -1,4 +1,4 @@
-import { pageMetadata } from "@/lib/seo/metadata";
+import { pageMetadata, siteUrl } from "@/lib/seo/metadata";
 import { ArrowUpRight, Mail } from "lucide-react";
 
 const CONTACT_EMAIL = "hello@aiknows.tools";
@@ -16,7 +16,7 @@ export default function ContactPage() {
     name: "Contact aiknows.tools",
     description:
       "Email-based contact for corrections, submission status, and general questions about the aiknows.tools index.",
-    url: `${process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"}/contact`,
+    url: `${siteUrl}/contact`,
     email: CONTACT_EMAIL,
   };
 

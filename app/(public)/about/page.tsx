@@ -1,4 +1,4 @@
-import { pageMetadata } from "@/lib/seo/metadata";
+import { pageMetadata, siteUrl } from "@/lib/seo/metadata";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
@@ -16,7 +16,7 @@ export default function AboutPage() {
     name: "About aiknows.tools",
     description:
       "What aiknows.tools records, where the data comes from, and what this index does not claim.",
-    url: `${process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"}/about`,
+    url: `${siteUrl}/about`,
   };
 
   return (

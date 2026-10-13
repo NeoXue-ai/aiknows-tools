@@ -1,4 +1,4 @@
-import { pageMetadata } from "@/lib/seo/metadata";
+import { pageMetadata, siteUrl } from "@/lib/seo/metadata";
 import Link from "next/link";
 import {
   ArrowRight,
@@ -24,7 +24,7 @@ export default async function SubmitPage() {
     name: "Submit your AI tool",
     description:
       "Submit your AI tool to aiknows.tools for an evidence-led public directory record.",
-    url: `${process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"}/submit`,
+    url: `${siteUrl}/submit`,
   };
   return (
     <div className="mx-auto w-full max-w-[1200px] px-5 py-12 sm:px-8 md:py-16">

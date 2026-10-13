@@ -218,22 +218,12 @@ export function buildTitle(tool: Tool): string {
 }
 
 export function deriveMetaDescription(tool: Tool): string {
-  const trailing =
-    " Listed on aiknows.tools — see source, recorded evidence, and editorial notes.";
-  const budget = 158 - trailing.length;
   const source =
     cleanText(tool.tagline) ||
     cleanText(tool.description) ||
-    cleanText(tool.sub);
-  if (!source) {
-    return `${tool.name} is recorded in the AIknows.tools index.`;
-  }
-  const head =
-    source.length <= budget
-      ? source
-      : source
-          .slice(0, budget - 1)
-          .replace(DANGLING_RE, "")
-          .trimEnd() + "…";
-  return head + trailing;
+    `${tool.name}: features, access and related tools on AIKnows.`;
+  if (source.length <= 160) return source;
+  const cut = source.slice(0, 157);
+  const end = cut.lastIndexOf(" ");
+  return (end > 100 ? cut.slice(0, end) : cut).replace(/[.,;:]+$/, "") + "…";
 }

@@ -9,4 +9,4 @@ export const siteUrl = rawSiteUrl.replace(/\s+/g, "").replace(/\/+$/, "");
 export const siteName = "aiknows.tools";
 
 export const siteDescription =
-  "An evidence-led index of recorded AI tools with source records and editorial notes. Inspect what is recorded — no popularity ranking, no star ratings.";
+  "Explore AI tools for writing, design, coding and research. Compare product features, access models and source-backed guides.";

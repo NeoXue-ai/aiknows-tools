@@ -1,3 +1,4 @@
+import {legacyPaginationPath} from "@/features/catalog/urls";
 import { NextResponse, type NextRequest } from "next/server";
 import slugs from "@/.catalog/slugs.json";
 const SLUGS = new Set(slugs);
@@ -16,7 +17,7 @@ const TLD_SUFFIXES = [
 // MUST NOT be treated as tool slugs. Anything else single-segment under /
 // is either a known tool (→ /tools/<slug>) or a real 404.
 const ROOT_DENY = new Set([
-  "tools", "categories", "blog", "latest", "trending", "pricing",
+  "search", "tools", "categories", "blog", "latest", "trending", "pricing",
   "submit", "about", "faq", "contact", "collections", "admin",
   "login", "auth", "api", "sitemap", "robots", "manifest",
   "_next", "favicon.ico", "opengraph-image", "twitter-image", "apple-icon",
@@ -64,6 +65,9 @@ export function proxy(request: NextRequest) {
   if (isBotUa(ua)) {
     return new NextResponse("Forbidden", { status: 403 });
   }
+
+  const paginated = legacyPaginationPath(pathname, request.nextUrl.searchParams);
+  if (paginated) return NextResponse.redirect(new URL(paginated, request.url), 308);
 
   // SEO redirect: external links + GSC crawl both surface bare /<slug>
   // URLs (e.g. /lexi4-com, /100leadcom) that don't have a route — they

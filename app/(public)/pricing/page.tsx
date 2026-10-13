@@ -1,3 +1,4 @@
+import { siteUrl } from "@/lib/site";
 import { pageMetadata } from "@/lib/seo/metadata";
 import Link from "next/link";
 import { ArrowRight, Check } from "lucide-react";
@@ -16,7 +17,8 @@ const PLANS = [
     name: "Free listing",
     price: "$0",
     cadence: "forever",
-    description: "A standard index record with the same fields and ledger as every other entry.",
+    description:
+      "A standard index record with the same fields and ledger as every other entry.",
     features: [
       "Standard record page",
       "Category and pricing state captured",
@@ -31,7 +33,8 @@ const PLANS = [
     name: "Verified record",
     price: "—",
     cadence: "by review",
-    description: "Editorial verification step. Verification is recorded as a field, not a quality claim.",
+    description:
+      "Editorial verification step. Verification is recorded as a field, not a quality claim.",
     features: [
       "All Free listing fields",
       "Recorded verification on the dossier",
@@ -50,24 +53,25 @@ export default function PricingPage() {
     name: "Pricing",
     description:
       "Submission and visibility plans for tools indexed in the aiknows catalog. Free listings remain supported.",
-    url: `${process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"}/pricing`,
+    url: `${siteUrl}/pricing`,
   };
   return (
     <div className="mx-auto w-full max-w-[1200px] px-5 py-12 sm:px-8 md:py-16">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
+        }}
       />
       <header className="mb-10 max-w-3xl">
-        <p className="text-sm font-medium text-accent">
-          Pricing / 02 plans
-        </p>
+        <p className="text-sm font-medium text-accent">Pricing / 02 plans</p>
         <h1 className="mt-3 text-balance text-4xl font-semibold tracking-[-0.045em] sm:text-5xl">
           Submission plans
         </h1>
         <p className="mt-3 max-w-2xl text-pretty leading-7 text-muted-foreground">
-          The aiknows index is free to read. The plans below describe how a tool record is
-          submitted, what gets captured, and what an editorial verification step adds.
+          The aiknows index is free to read. The plans below describe how a tool
+          record is submitted, what gets captured, and what an editorial
+          verification step adds.
         </p>
       </header>
 
@@ -112,7 +116,10 @@ export default function PricingPage() {
             <div className="mt-auto pt-7">
               <Link
                 href={plan.cta.href}
-                className={cn(plan.accent ? "action-primary" : "action-secondary", "w-full")}
+                className={cn(
+                  plan.accent ? "action-primary" : "action-secondary",
+                  "w-full",
+                )}
               >
                 {plan.cta.label}
                 <ArrowRight className="h-4 w-4" />
@@ -148,7 +155,9 @@ export default function PricingPage() {
               <dt className="text-sm font-medium text-muted-foreground">
                 {row.label}
               </dt>
-              <dd className="text-sm leading-6 text-foreground/85">{row.detail}</dd>
+              <dd className="text-sm leading-6 text-foreground/85">
+                {row.detail}
+              </dd>
             </div>
           ))}
         </dl>
