@@ -1,0 +1,76 @@
+{
+  "title": "Speech to Text AI Tools for Accurate, Usable Transcripts",
+  "description": "Compare speech-to-text tools for recordings and live audio, with guidance on language support, speaker labels, timestamps, corrections, and exports.",
+  "introduction": "Speech-to-text tools convert spoken audio into a written transcript. They can support interviews, recorded presentations, meetings, or live workflows, depending on the product. This category centers on capturing what was said, whereas note-taking products may also summarize decisions and assign follow-ups. Choose around the actual audio conditions, language, speakers, and downstream format, because a readable transcript and an automatically generated meeting summary are different deliverables.",
+  "capabilities": [
+    "Transcribe supported audio or video into text for review and reuse.",
+    "Add available timestamps and speaker labels to help navigate a recording.",
+    "Correct terminology and misheard passages using the source audio as reference.",
+    "Export transcripts or caption formats for the next stage of work."
+  ],
+  "audiences": [
+    {
+      "label": "Researchers and interviewers",
+      "text": "Create a reviewable transcript, check important quotations, and retain links or timestamps back to the recording."
+    },
+    {
+      "label": "Content teams",
+      "text": "Prepare transcripts or captions from recorded material, then correct names, terminology, and timing before publication."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Audio and language fit",
+      "text": "Test the actual language variety, recording quality, speaker overlap, and specialist vocabulary you expect to encounter."
+    },
+    {
+      "label": "Review controls",
+      "text": "Check playback navigation, timestamp alignment, speaker corrections, and terminology support so errors can be fixed efficiently."
+    },
+    {
+      "label": "Delivery and handling",
+      "text": "Inspect live versus recorded support, export formats, retention settings, and who can access recordings and transcripts."
+    }
+  ],
+  "workflow": [
+    "Collect a representative recording and identify the language, speakers, terminology, and required transcript or caption format.",
+    "Run transcription and inspect difficult sections, correcting names, speaker labels, missing words, and important quotations.",
+    "Export the reviewed result, check timing where relevant, and store or delete the recording according to the agreed workflow."
+  ],
+  "faqs": [
+    {
+      "question": "How is transcription different from meeting notes?",
+      "answer": "Transcription aims to capture spoken words. Meeting notes select and summarize information, often adding decisions or actions. A strong summary cannot replace an accurate transcript when exact wording or quotation matters."
+    },
+    {
+      "question": "What recording should I use to evaluate a tool?",
+      "answer": "Use ordinary material from your real workflow, including difficult names, background noise, or overlapping speakers where relevant. A clean demonstration recording may hide the errors that create the most review work."
+    },
+    {
+      "question": "Are speaker labels always reliable?",
+      "answer": "Treat them as suggestions to review. Check speaker changes against the audio, particularly when voices overlap or sound similar, before attributing a quotation or decision to a named person."
+    },
+    {
+      "question": "Does support for a language include every accent and mixed-language recording?",
+      "answer": "Not necessarily. Test the required variety and whether speakers switch languages. Published language support does not establish equal accuracy in every recording condition or support for multiple languages in one file."
+    },
+    {
+      "question": "When should I choose a captioning workflow instead?",
+      "answer": "Choose captioning features when viewers need synchronized on-screen text. Beyond transcription, inspect timing, line breaks, readability, and the export format required by the video or publishing platform."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-note-taker",
+      "label": "AI Note Taker"
+    },
+    {
+      "slug": "ai-video-editor",
+      "label": "AI Video Editor"
+    },
+    {
+      "slug": "ai-summarizer",
+      "label": "AI Summarizer"
+    }
+  ]
+}

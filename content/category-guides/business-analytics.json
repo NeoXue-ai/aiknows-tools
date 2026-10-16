@@ -1,0 +1,76 @@
+{
+  "title": "AI Business Analytics Tools for Operational Decisions",
+  "description": "Compare business analytics tools for exploring metrics, building reports, and supporting operational decisions. Assess data access, definitions, and review controls.",
+  "introduction": "Business analytics tools help teams turn operational records into reports, explanations, and decisions. Products in this hub may connect to business systems, explore tables, summarize performance, or present dashboards. Their usefulness depends on the underlying data and the questions being asked. This category focuses on interpreting business activity; general research discovery belongs in Research and Data, while campaign-specific measurement has a closer home in AI Analytics within SEO and Marketing.",
+  "capabilities": [
+    "Connect business records from supported systems for recurring analysis and reporting.",
+    "Explore performance questions through queries, visual summaries, or conversational analysis interfaces.",
+    "Present selected metrics in dashboards that support regular operational reviews.",
+    "Help investigate changes by comparing periods, segments, and relevant business dimensions."
+  ],
+  "audiences": [
+    {
+      "label": "Operations leaders",
+      "text": "Review service volume, delivery performance, and resource demand using agreed definitions and relevant breakdowns."
+    },
+    {
+      "label": "Analysts and finance teams",
+      "text": "Build repeatable reporting, investigate exceptions, and explain results with traceable calculations and source records."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Data connections",
+      "text": "Confirm access to required systems, refresh frequency, and permissions before evaluating generated insights."
+    },
+    {
+      "label": "Metric definitions",
+      "text": "Check whether calculations, filters, and business definitions remain visible and reusable across reports."
+    },
+    {
+      "label": "Decision review",
+      "text": "Prefer workflows that let reviewers inspect evidence, correct assumptions, and separate observations from recommendations."
+    }
+  ],
+  "workflow": [
+    "Specify a business decision and document the metrics, owners, and source records involved.",
+    "Validate a sample report against known calculations before expanding connections or automation.",
+    "Review exceptions with responsible teams and maintain definitions as business processes change."
+  ],
+  "faqs": [
+    {
+      "question": "How does AI analytics differ from a dashboard?",
+      "answer": "A dashboard presents selected measures in a repeatable view. AI features may help formulate queries or explain patterns, but those explanations still need validation against the data and metric definitions."
+    },
+    {
+      "question": "Can I analyze data without a warehouse?",
+      "answer": "Some products work with spreadsheets or direct application connections, while others expect a warehouse. Match the product to your current sources and the reporting consistency your team needs."
+    },
+    {
+      "question": "Why do two reports show different numbers?",
+      "answer": "Different date ranges, filters, refresh times, or metric definitions can produce conflicting totals. Resolve these differences before treating an automated narrative as an explanation of business performance."
+    },
+    {
+      "question": "What should a pilot project include?",
+      "answer": "Choose a bounded decision, a representative dataset, and an established calculation to compare against. Include an analyst and a business owner so technical correctness and practical usefulness are both assessed."
+    },
+    {
+      "question": "Should generated recommendations trigger business actions automatically?",
+      "answer": "Use review appropriate to the consequence. Routine reporting may need little intervention, while changes to budgets, customer treatment, or staffing should have clear authorization, evidence, and a responsible decision maker."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-analytics",
+      "label": "AI Analytics"
+    },
+    {
+      "slug": "research-data",
+      "label": "Research & Data"
+    },
+    {
+      "slug": "ai-spreadsheet",
+      "label": "AI Spreadsheet"
+    }
+  ]
+}

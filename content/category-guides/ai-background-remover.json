@@ -1,0 +1,80 @@
+{
+  "title": "AI Background Removers for Clean Product Cutouts",
+  "description": "Find AI background removers for product images, portraits, and reusable cutouts. Compare edge quality, transparency, batch handling, and replacement controls.",
+  "introduction": "AI background removers separate a subject from its surroundings so the subject can be reused on a transparent, plain, or replacement background. This is a focused editing task rather than complete photo retouching. The difficult part is often the boundary: hair, fabric, glass, shadows, and similar colors can require closer review. Choose based on the images you actually work with and the destination of the cutout, from product listings to presentations or composite designs.",
+  "capabilities": [
+    "Separate a foreground subject from the original image background automatically.",
+    "Export transparent cutouts in supported file formats for reuse elsewhere.",
+    "Replace removed backgrounds with supported colors, images, or generated scenes.",
+    "Process multiple images with available batch controls and manual correction options."
+  ],
+  "audiences": [
+    {
+      "label": "Online sellers",
+      "text": "Create consistent product cutouts for listings while checking that edges, packaging text, and necessary product details remain intact."
+    },
+    {
+      "label": "Design teams",
+      "text": "Prepare portraits or objects for layouts, then refine boundaries and match the replacement background to the intended composition."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Edge behavior",
+      "text": "Evaluate hair, thin straps, holes, translucent surfaces, and subjects whose colors resemble the original background using representative images."
+    },
+    {
+      "label": "Correction controls",
+      "text": "Check whether you can restore mistakenly removed areas, remove leftover background, and adjust edges without restarting the entire edit."
+    },
+    {
+      "label": "Export and volume",
+      "text": "Confirm transparent output, resolution limits, batch allowance, and the cost structure for your expected number of usable cutouts."
+    }
+  ],
+  "workflow": [
+    "Select representative images, including difficult boundaries, and decide whether natural shadows should remain in the result.",
+    "Remove the background, inspect the subject against contrasting colors, and correct missing or leftover areas.",
+    "Export the required format and check the cutout within its actual listing, design, or replacement scene."
+  ],
+  "faqs": [
+    {
+      "question": "What file type should I use for a transparent cutout?",
+      "answer": "Choose an export format that supports transparency and works in your destination application, commonly PNG. Confirm the downloaded result actually contains transparent areas rather than a visible checkerboard or white background."
+    },
+    {
+      "question": "Why do hair and glass need extra inspection?",
+      "answer": "Fine boundaries and partially transparent areas are harder to separate cleanly from their surroundings. Review these regions against contrasting backgrounds and use correction controls when the automatic selection loses important detail."
+    },
+    {
+      "question": "Should I keep the original shadow?",
+      "answer": "That depends on the final scene. A natural shadow may help ground a product on a plain background, but can clash with a replacement scene’s lighting or create an unwanted outline."
+    },
+    {
+      "question": "Is background removal the same as product photography generation?",
+      "answer": "Background removal isolates an existing subject. Product photography tools may create a new setting or composition around it. Check separately whether the product itself remains faithful after additional scene generation."
+    },
+    {
+      "question": "How do I evaluate a batch workflow?",
+      "answer": "Use a varied sample rather than only easy studio photographs. Review failure cases, correction time, output naming, and resolution so the workflow saves time across your real catalog rather than one demonstration."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-photo-editor",
+      "label": "AI Photo Editor"
+    },
+    {
+      "slug": "ai-product-photography",
+      "label": "AI Product Photography"
+    },
+    {
+      "slug": "ai-graphic-design",
+      "label": "AI Graphic Design"
+    },
+    {
+      "slug": "image-video",
+      "label": "Image & Video"
+    }
+  ]
+}

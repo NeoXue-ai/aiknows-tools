@@ -1,0 +1,76 @@
+{
+  "title": "AI Art Generators for Illustration and Visual Concepts",
+  "description": "Compare AI art generators for illustration, stylized images, and visual exploration, with criteria for reference control, revisions, and output use.",
+  "introduction": "AI art generators create visual concepts and stylized images from prompts, references, or other creative inputs. This category emphasizes illustration, character ideas, mood, and artistic direction rather than correcting an existing photograph. Outputs can support exploration or become material for a wider design process. Choose according to the visual control and revision workflow you need, and separate a compelling isolated image from a consistent set of artwork for an ongoing project.",
+  "capabilities": [
+    "Explore illustration styles and compositions from written or visual creative briefs.",
+    "Use available reference controls to guide subjects, atmosphere, or visual treatment.",
+    "Generate variations and selectively revise promising directions where tools allow.",
+    "Prepare chosen artwork for further editing and its intended publication format."
+  ],
+  "audiences": [
+    {
+      "label": "Illustrators and art directors",
+      "text": "Explore visual directions, compare references, and develop a coherent brief before committing to detailed production."
+    },
+    {
+      "label": "Independent creators",
+      "text": "Create artwork concepts for a story or campaign, then refine selected images for consistency and practical output needs."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Creative control",
+      "text": "Test how reliably the tool follows composition, reference, and revision instructions using examples relevant to your intended style."
+    },
+    {
+      "label": "Series consistency",
+      "text": "Assess recurring subjects, palette, and visual treatment across several images rather than judging one successful generation."
+    },
+    {
+      "label": "Production fit",
+      "text": "Check output dimensions, editing options, usage terms, and how easily the result moves into your normal design tools."
+    }
+  ],
+  "workflow": [
+    "Define the subject, audience, atmosphere, composition, and intended use, gathering references you have permission to use.",
+    "Explore distinct visual directions before refining one, keeping notes on the instructions that produced useful results.",
+    "Review chosen artwork for coherence and unwanted details, then edit and export it for the actual publication context."
+  ],
+  "faqs": [
+    {
+      "question": "How is AI art generation different from photo editing?",
+      "answer": "Art generation creates new visual material or broad transformations. Photo editing usually starts with an existing image and aims to preserve or deliberately alter it. Some products support both, but their controls and review needs differ."
+    },
+    {
+      "question": "Can I create a consistent character across several images?",
+      "answer": "Some tools provide reference or consistency controls, but test a sequence with different poses and scenes. A single convincing portrait does not establish that the same subject will remain recognizable throughout a project."
+    },
+    {
+      "question": "What makes an art prompt useful?",
+      "answer": "Describe the subject, composition, atmosphere, and purpose rather than relying only on style adjectives. Add a relevant reference when supported, then change one important instruction at a time to understand its effect."
+    },
+    {
+      "question": "Should I compare generators using their showcase galleries?",
+      "answer": "Galleries can reveal possible directions, but they do not show how often those results occur. Compare tools with your own representative brief, revision requests, and output requirements before choosing a production workflow."
+    },
+    {
+      "question": "Can generated artwork be used commercially?",
+      "answer": "Check the terms that apply to the specific product, plan, inputs, and output. Keep records of references and approvals, and review the image for recognizable protected material or other issues relevant to its intended use."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-image-generator",
+      "label": "AI Image Generator"
+    },
+    {
+      "slug": "ai-photo-editor",
+      "label": "AI Photo Editor"
+    },
+    {
+      "slug": "ai-graphic-design",
+      "label": "AI Graphic Design"
+    }
+  ]
+}

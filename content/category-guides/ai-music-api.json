@@ -1,0 +1,76 @@
+{
+  "title": "AI Music APIs for Audio Generation in Applications",
+  "description": "Compare AI music APIs for building audio generation workflows. Review supported inputs, job handling, output formats, usage permissions, and application costs.",
+  "introduction": "AI music APIs let developers request music or related audio generation from an application or automated workflow. Unlike a music creation interface designed mainly for manual use, an API must fit a repeatable integration with authentication, request handling, and output delivery. Products differ in the musical tasks and controls they expose. This category focuses on programmable access; AI Music Generator is a better starting point for people who mainly want to compose through a finished application.",
+  "capabilities": [
+    "Request supported music or audio outputs through a documented application programming interface.",
+    "Supply prompts and available controls for duration, style, structure, or reference material.",
+    "Track generation jobs and retrieve resulting audio through supported delivery mechanisms.",
+    "Integrate audio generation with application storage, playback, review, and user-facing workflow steps."
+  ],
+  "audiences": [
+    {
+      "label": "Application developers",
+      "text": "Build a soundtrack creation flow that submits requests, shows progress, and delivers playable audio to users."
+    },
+    {
+      "label": "Creative operations teams",
+      "text": "Automate approved audio requests while preserving briefs, output versions, permissions, and a human review stage."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Musical task fit",
+      "text": "Test the exact requirement, such as instrumental backgrounds or vocals, using the endpoint’s available controls."
+    },
+    {
+      "label": "Integration behavior",
+      "text": "Evaluate authentication, asynchronous handling, failure responses, limits, and retention of generated files."
+    },
+    {
+      "label": "Commercial operation",
+      "text": "Compare billing units, distribution terms, output access, and the costs of retries and unusable candidates."
+    }
+  ],
+  "workflow": [
+    "Define the desired audio, user journey, permitted inputs, and required output format.",
+    "Prototype request submission and result retrieval, including unsuccessful and delayed generation cases.",
+    "Review representative audio, measure integration costs, and establish delivery and retention practices before scaling."
+  ],
+  "faqs": [
+    {
+      "question": "How is a music API different from a music app?",
+      "answer": "An app provides a ready-made creation interface. An API exposes operations that your software can call, leaving you responsible for the surrounding experience, request handling, output storage, and user-facing controls."
+    },
+    {
+      "question": "Should I assume generation happens in one request?",
+      "answer": "No. Some endpoints return completed audio directly, while others use queued jobs and later retrieval. Read the integration documentation and test delays, timeouts, and failures before designing the application flow."
+    },
+    {
+      "question": "Can every music API generate vocals or separate tracks?",
+      "answer": "No. Instrumental generation, vocals, continuation, editing, and separate track outputs are distinct capabilities. Verify the endpoint and response format for your task rather than inferring support from a general music-generation description."
+    },
+    {
+      "question": "What should I check about generated music rights?",
+      "answer": "Review the provider’s terms for your intended distribution and business model, along with rights to any reference inputs. Confirm whether your customers can use delivered audio as your application promises."
+    },
+    {
+      "question": "How should I estimate production costs?",
+      "answer": "Model actual generation volume, requested duration, failed attempts, retries, and candidate selection. Include storage and delivery costs in your application budget, and check whether the provider bills requests, credits, or generated duration."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-music-generator",
+      "label": "AI Music Generator"
+    },
+    {
+      "slug": "developer-apis",
+      "label": "Developer APIs"
+    },
+    {
+      "slug": "ai-video-api",
+      "label": "AI Video API"
+    }
+  ]
+}

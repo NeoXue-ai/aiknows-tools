@@ -1,0 +1,76 @@
+{
+  "title": "Image to 3D Model Tools for Photo-Based Asset Creation",
+  "description": "Explore image-to-3D tools for turning reference pictures into editable assets. Compare shape fidelity, unseen surfaces, textures, file formats, and cleanup.",
+  "introduction": "Image-to-3D tools use one or more reference images to produce a three-dimensional asset. They are useful for exploring a shape or creating a starting point for a larger asset workflow, but a photograph does not show every surface of an object. Decide whether the result is for a concept, a rendered scene, an interactive experience, or fabrication. This category focuses on image-led creation; broader 3D generators may also begin with text or other inputs.",
+  "capabilities": [
+    "Create a three-dimensional asset from supported reference images or photographs.",
+    "Generate surface appearance or textures using the available image interpretation controls.",
+    "Preview the asset from multiple angles before choosing a downloadable result.",
+    "Export supported model formats for further editing in downstream applications."
+  ],
+  "audiences": [
+    {
+      "label": "Game and scene artists",
+      "text": "Develop an initial prop from a reference image, then inspect geometry, materials, and performance requirements in the intended scene."
+    },
+    {
+      "label": "Product concept teams",
+      "text": "Explore how a visual concept reads from different viewpoints, keeping design measurements and manufacturing requirements separate from the generated approximation."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Shape and hidden surfaces",
+      "text": "Inspect the back, underside, thin parts, and ambiguous regions that the reference image cannot establish on its own."
+    },
+    {
+      "label": "Editable asset quality",
+      "text": "Check geometry, texture organization, material handling, and how much cleanup your destination application and use case will require."
+    },
+    {
+      "label": "Delivery compatibility",
+      "text": "Verify file formats, size limits, and commercial usage terms with a downloaded sample rather than judging only the web preview."
+    }
+  ],
+  "workflow": [
+    "Prepare a clear reference and define the intended use, required viewpoints, and acceptable degree of approximation.",
+    "Generate an asset and rotate it fully, looking for inconsistent surfaces, missing parts, and distorted proportions.",
+    "Import the result into the destination application, perform necessary cleanup, and validate it against the actual delivery requirements."
+  ],
+  "faqs": [
+    {
+      "question": "Can one photograph establish an object’s exact shape?",
+      "answer": "A single image leaves hidden surfaces and dimensions uncertain. Treat the output as an interpretation and use additional references or manual modeling when accurate structure or measurements are essential."
+    },
+    {
+      "question": "How is image-to-3D different from a 3D viewer?",
+      "answer": "A viewer displays an existing model. An image-to-3D tool creates a model from visual references. A service may include a viewer for inspection, but that preview does not establish asset quality."
+    },
+    {
+      "question": "Are generated models ready for a game?",
+      "answer": "Readiness depends on your game’s requirements for geometry, textures, materials, scale, and performance. Import a sample into the target engine and budget for cleanup rather than assuming the export is production-ready."
+    },
+    {
+      "question": "Can I send any generated model directly to a 3D printer?",
+      "answer": "Printing has specific geometry, scale, and material constraints. Check the exported model with an appropriate fabrication workflow and correct structural problems before treating an attractive preview as a printable object."
+    },
+    {
+      "question": "What reference image makes evaluation easier?",
+      "answer": "Use an image with a clear subject, readable silhouette, and limited obstruction. Evaluate the same representative reference across candidates so differences in input do not obscure differences in the resulting assets."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-3d-model-generator",
+      "label": "AI 3D Model Generator"
+    },
+    {
+      "slug": "ai-image-generator",
+      "label": "AI Image Generator"
+    },
+    {
+      "slug": "ai-product-photography",
+      "label": "AI Product Photography"
+    }
+  ]
+}

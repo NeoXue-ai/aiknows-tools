@@ -1,0 +1,76 @@
+{
+  "title": "AI Food and Nutrition Tools for Recipes and Meal Plans",
+  "description": "Compare AI food and nutrition tools for recipes, meal planning, and food tracking. Review ingredient control, serving details, data sources, and practical fit.",
+  "introduction": "AI food and nutrition tools help organize meal ideas, recipes, shopping, or food records. The category covers everyday planning and information workflows, with different levels of recipe creation and nutrition detail across products. Begin with the task you want to simplify rather than assuming a generated plan is appropriate for every individual need. Recipe suggestions, ingredient tracking, and personalized health guidance have different requirements, so evaluate the scope and limitations of each product carefully.",
+  "capabilities": [
+    "Suggest meal ideas from supported ingredient lists and stated cooking preferences.",
+    "Organize recipes into a schedule and produce available shopping list outputs.",
+    "Adapt supported recipe details such as servings or ingredient substitutions.",
+    "Record meals or display nutrition information using the product’s available sources."
+  ],
+  "audiences": [
+    {
+      "label": "Home cooks",
+      "text": "Plan a manageable week of meals around available ingredients, cooking time, household preferences, and shopping."
+    },
+    {
+      "label": "Food log users",
+      "text": "Keep a consistent record of meals and inspect serving sizes or source entries before using the resulting nutrition summaries."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Ingredient and recipe control",
+      "text": "Check how the tool handles substitutions, quantities, serving changes, and explicit exclusions rather than judging only how appealing a recipe sounds."
+    },
+    {
+      "label": "Information provenance",
+      "text": "Look for identifiable nutrition sources, clear serving assumptions, and editable entries when a summary depends on recorded foods or estimated portions."
+    },
+    {
+      "label": "Everyday usability",
+      "text": "Assess shopping list handling, cooking steps, local ingredient availability, record export, and whether the workflow adds effort or reduces it."
+    }
+  ],
+  "workflow": [
+    "State the planning task, household preferences, available ingredients, and any exclusions that require close review.",
+    "Inspect suggested recipes for complete quantities, workable steps, serving assumptions, and ingredients that do not fit the brief.",
+    "Build the shopping or tracking workflow around reviewed entries and adjust it after seeing what works in daily use."
+  ],
+  "faqs": [
+    {
+      "question": "Can a generated meal plan meet every personal nutrition need?",
+      "answer": "Do not assume a general planning tool accounts for every individual requirement. Check the product’s stated scope and information sources, and keep personalized health decisions separate from convenient meal suggestions."
+    },
+    {
+      "question": "What should I check in an AI-generated recipe?",
+      "answer": "Review quantities, cooking steps, ingredient compatibility, serving size, and any requested exclusions. An appealing description is not enough to establish that the instructions are complete or suitable for your household."
+    },
+    {
+      "question": "Are nutrition numbers exact for a homemade meal?",
+      "answer": "Treat the figures in relation to their source entries and portion assumptions. Ingredient substitutions, serving size, and incomplete food records can change the result, so inspect those inputs before relying on a summary."
+    },
+    {
+      "question": "Can I rely on a preference filter for allergies?",
+      "answer": "Do not treat a generated exclusion or preference filter as a guarantee. Review every ingredient and relevant product information yourself, and check how the tool handles substitutions or incomplete recipe data."
+    },
+    {
+      "question": "How do meal planners differ from food trackers?",
+      "answer": "A meal planner organizes future meals and shopping. A tracker records what was eaten and may summarize associated information. Some products combine both, but each workflow needs clear serving and ingredient inputs."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-assistant",
+      "label": "AI Assistant"
+    },
+    {
+      "slug": "ai-spreadsheet",
+      "label": "AI Spreadsheet"
+    },
+    {
+      "slug": "productivity-tools",
+      "label": "Productivity Tools"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "title": "No-Code Tools for Apps, Websites and Business Workflows",
+  "description": "Explore no-code tools for building apps, websites, and internal workflows. Compare visual control, integrations, permissions, portability, and ongoing costs.",
+  "introduction": "No-code tools let people configure digital products or processes through visual interfaces instead of writing every part directly in source code. The category spans applications, websites, databases, and internal workflows, with different boundaries in each platform. Start with the result and the behavior it requires. A visual interface can simplify construction while leaving integration, data design, permissions, and maintenance decisions to the builder. Dedicated website builders and automation tools address narrower parts of this broader category.",
+  "capabilities": [
+    "Compose interfaces and workflows using the platform’s available visual building controls.",
+    "Store and connect structured information through supported data sources and integrations.",
+    "Configure user access and business rules within the system’s available permission model.",
+    "Publish or share working experiences through the platform’s supported deployment options."
+  ],
+  "audiences": [
+    {
+      "label": "Business operators",
+      "text": "Create an internal tool around a documented process, checking the data structure, access rules, and ownership before colleagues depend on it."
+    },
+    {
+      "label": "Product founders",
+      "text": "Prototype a user journey, test it with representative users, and evaluate whether platform constraints fit the next stage of the product."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Behavioral fit",
+      "text": "Test the hardest required workflow early, including conditional rules, external connections, and exceptions, rather than starting only with the easiest screen."
+    },
+    {
+      "label": "Data and access control",
+      "text": "Assess record ownership, permission granularity, backups, and how the platform handles sensitive information across interfaces, integrations, and exports."
+    },
+    {
+      "label": "Portability and growth",
+      "text": "Review export options, platform dependencies, usage limits, and billing units so the application remains practical as users, records, and workflows increase."
+    }
+  ],
+  "workflow": [
+    "Map one workflow, define its data and user roles, and identify the requirements that could exceed platform limits.",
+    "Build a small end-to-end version and test it with different roles, realistic records, and failed inputs.",
+    "Document the configuration and maintenance owner, then confirm backups, usage costs, and a practical exit path before expanding."
+  ],
+  "faqs": [
+    {
+      "question": "Does no-code mean no technical decisions?",
+      "answer": "No. You still decide how data is organized, who can access it, and what happens when a workflow fails. The interface changes how you build, but does not remove these responsibilities."
+    },
+    {
+      "question": "How is no-code different from an AI app builder?",
+      "answer": "No-code usually emphasizes visual configuration, while an AI app builder emphasizes creating or revising an application from instructions. Products can combine both approaches, so inspect control and ownership in the actual workflow."
+    },
+    {
+      "question": "Can I move a no-code application to another platform?",
+      "answer": "Portability varies. Check whether you can export data, interfaces, logic, and integrations, and what must be rebuilt. A data export alone does not establish that the complete application can move."
+    },
+    {
+      "question": "What should I test before using a no-code internal tool?",
+      "answer": "Test permissions across user roles, required validations, duplicate or missing records, and failed integrations. Confirm that someone can diagnose issues and restore important information without depending on the original builder alone."
+    },
+    {
+      "question": "How should I compare no-code pricing?",
+      "answer": "Model the expected users, records, workflow runs, storage, and required features against the platform’s billing units. Check limits and growth steps rather than comparing only the lowest advertised plan for each product."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-app-builder",
+      "label": "AI App Builder"
+    },
+    {
+      "slug": "website-builders",
+      "label": "Website Builders"
+    },
+    {
+      "slug": "automation",
+      "label": "Automation"
+    }
+  ]
+}

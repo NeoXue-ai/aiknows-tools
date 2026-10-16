@@ -1,0 +1,76 @@
+{
+  "title": "Coding Proxies for Model Routing and Developer Access",
+  "description": "Explore coding proxies for routing AI model requests, managing access, and tracking usage, with guidance on compatibility, credentials, and provider changes.",
+  "introduction": "Coding proxies sit between a coding client or application and one or more model services. Products in this category may route requests, centralize credentials, expose compatible interfaces, or report usage. Their role is access and coordination rather than generating an entire development environment. Before comparing them, identify which client, provider features, and account arrangement must work together, because a familiar API shape does not establish complete compatibility with every model behavior.",
+  "capabilities": [
+    "Route supported coding or model requests through a shared access layer.",
+    "Manage permitted credentials and accounts according to the proxy’s access model.",
+    "Inspect usage and request outcomes where logging and reporting are available.",
+    "Configure provider or model choices without obscuring application-level review responsibilities."
+  ],
+  "audiences": [
+    {
+      "label": "Developers using coding clients",
+      "text": "Connect an existing assistant to supported models while checking the features and account permissions that remain available."
+    },
+    {
+      "label": "Platform teams",
+      "text": "Coordinate model access and usage reporting for multiple developers, with an explicit owner for credentials and configuration changes."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Client compatibility",
+      "text": "Test streaming, tool interactions, context handling, and error responses required by your actual coding client rather than relying on a compatibility label."
+    },
+    {
+      "label": "Credential handling",
+      "text": "Understand where keys are stored, which service receives requests, and how access can be limited or revoked."
+    },
+    {
+      "label": "Routing transparency",
+      "text": "Inspect model selection, fallback behavior, logs, and billing relationships so changes in provider behavior are visible to users."
+    }
+  ],
+  "workflow": [
+    "List the coding client, required model features, account owners, and data boundaries the connection must preserve.",
+    "Test a representative task through the proxy and compare request behavior, errors, output, and billed usage with expectations.",
+    "Document the configuration, access removal process, and provider-change checks before making the connection part of a team workflow."
+  ],
+  "faqs": [
+    {
+      "question": "Is a coding proxy the same as a coding assistant?",
+      "answer": "No. A proxy manages the path between a client and model services. The assistant provides the coding interface and task behavior. Changing the connection does not automatically add features to the client."
+    },
+    {
+      "question": "Does an OpenAI-compatible interface guarantee every feature works?",
+      "answer": "No. Compatibility can cover a subset of request and response behavior. Test the features your client actually uses, including tool interactions and error handling, rather than assuming matching endpoint shapes establish identical behavior."
+    },
+    {
+      "question": "Who bills usage when a proxy is involved?",
+      "answer": "The arrangement varies. Confirm whether you pay the proxy, the underlying provider, or both, and inspect any separate subscription or usage charges before estimating the cost of a development workflow."
+    },
+    {
+      "question": "What should a team check about credentials?",
+      "answer": "Identify who owns the keys, where they are stored, which requests they authorize, and how access is revoked. Make those responsibilities explicit before connecting shared accounts or enabling automatic routing."
+    },
+    {
+      "question": "Can a fallback model change the coding result?",
+      "answer": "Yes, different models can respond differently to the same task. Check whether fallback is visible and configurable, and verify generated changes through your normal review process regardless of the selected provider."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-code-generator",
+      "label": "AI Code Generator"
+    },
+    {
+      "slug": "ai-text-api",
+      "label": "AI Text API"
+    },
+    {
+      "slug": "developer-apis",
+      "label": "Developer APIs"
+    }
+  ]
+}

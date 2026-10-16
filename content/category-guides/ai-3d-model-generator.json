@@ -1,0 +1,80 @@
+{
+  "title": "AI 3D Model Generators for Editable Asset Workflows",
+  "description": "Compare AI 3D model generators for creating assets from prompts or references. Evaluate geometry, textures, export compatibility, and downstream cleanup needs.",
+  "introduction": "AI 3D model generators turn prompts or visual references into three-dimensional assets for further production. A useful result depends on its destination: a concept preview, an interactive scene, an animation project, or a physical fabrication workflow may require different properties. This category covers the broader generation process. Image to 3D Model narrows the starting point to photographs or illustrations, while image generation produces a flat visual rather than an editable 3D asset.",
+  "capabilities": [
+    "Generate three-dimensional asset candidates from supported text descriptions or visual references.",
+    "Produce surface appearance through available materials, textures, or color generation options.",
+    "Preview generated objects from multiple viewpoints before committing them to production.",
+    "Export supported model files for inspection and refinement in downstream creation software."
+  ],
+  "audiences": [
+    {
+      "label": "Game and interactive teams",
+      "text": "Create prototype props, inspect performance and appearance, and refine suitable candidates for the target scene."
+    },
+    {
+      "label": "Product concept designers",
+      "text": "Explore rough object forms from a brief, then rebuild or clean selected models for detailed design work."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Target application",
+      "text": "Confirm that exported files import correctly into the exact software and runtime you use."
+    },
+    {
+      "label": "Asset structure",
+      "text": "Inspect geometry, texture organization, scale, and the editing operations needed for the destination."
+    },
+    {
+      "label": "Finishing effort",
+      "text": "Include cleanup and conversion time when comparing candidates rather than judging only the rendered preview."
+    }
+  ],
+  "workflow": [
+    "Define the asset purpose, reference views, scale expectations, and required delivery format.",
+    "Generate candidates and inspect the complete object, including hidden surfaces and texture transitions.",
+    "Import a selected model into the destination software and complete the necessary production checks."
+  ],
+  "faqs": [
+    {
+      "question": "Does an attractive preview mean a model is production ready?",
+      "answer": "No. A preview can hide problems in geometry, materials, or unseen surfaces. Import the exported model and inspect the properties your project requires before treating it as a finished asset."
+    },
+    {
+      "question": "Can I animate every generated model?",
+      "answer": "Animation suitability depends on structure and the type of motion required. Check whether the asset needs additional cleanup, rigging, or preparation; a static object preview does not demonstrate animation readiness."
+    },
+    {
+      "question": "Is a generated model automatically suitable for 3D printing?",
+      "answer": "Do not assume that it is. Confirm the fabrication service or printer requirements and inspect the actual exported geometry. A model intended for a rendered scene may need substantial preparation for manufacturing."
+    },
+    {
+      "question": "When should I choose image to 3D specifically?",
+      "answer": "Choose that narrower category when a photograph or illustration is the main source of the desired shape. Compare how each product handles reference views, unseen areas, and fidelity to the supplied image."
+    },
+    {
+      "question": "What belongs in a practical evaluation?",
+      "answer": "Use an asset brief representative of your project and test the full export journey. Record editing effort, material quality, file compatibility, and appearance in the destination rather than comparing generation speed alone."
+    }
+  ],
+  "related": [
+    {
+      "slug": "image-to-3d-model",
+      "label": "Image to 3D Model"
+    },
+    {
+      "slug": "ai-image-generator",
+      "label": "AI Image Generator"
+    },
+    {
+      "slug": "developer-tools",
+      "label": "Developer Tools"
+    },
+    {
+      "slug": "image-video",
+      "label": "Image & Video"
+    }
+  ]
+}

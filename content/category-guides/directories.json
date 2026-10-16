@@ -1,0 +1,80 @@
+{
+  "title": "Tool Directories for Discovery and Focused Shortlists",
+  "description": "Explore directories of tools, prompts, and resources, with guidance on category fit, listing freshness, evidence, and building a useful evaluation shortlist.",
+  "introduction": "Directories organize tools, prompts, services, or other resources so people can discover options without beginning every search from scratch. This category focuses on navigation and comparison starting points, rather than the software that completes the underlying task. A useful directory helps narrow the field and points toward original sources. Treat a listing as an introduction, then verify current features, availability, and terms before deciding that a product fits your workflow.",
+  "capabilities": [
+    "Browse resources through categories, filters, or other supported discovery paths.",
+    "Identify candidate tools for a specific task and operating environment.",
+    "Follow product references to investigate capabilities and current access terms.",
+    "Build a manageable shortlist for direct evaluation against real requirements."
+  ],
+  "audiences": [
+    {
+      "label": "People exploring a new task",
+      "text": "Learn the available product types and shortlist a few options before spending time on account setup or trials."
+    },
+    {
+      "label": "Teams evaluating software",
+      "text": "Use discovery categories to widen the initial search, then verify candidates against requirements and primary product information."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Organization and scope",
+      "text": "Check whether the categories and filters reflect the task you need, including whether the directory covers software, services, or resources."
+    },
+    {
+      "label": "Listing evidence",
+      "text": "Inspect source links, update information, and the distinction between factual product details, editorial opinion, and submitted descriptions."
+    },
+    {
+      "label": "Discovery incentives",
+      "text": "Look for clear treatment of sponsorship or featured placement so prominence is not mistaken for independent evidence of suitability."
+    }
+  ],
+  "workflow": [
+    "Write the task, required platform, and essential constraints, then use directory categories to identify relevant kinds of solutions.",
+    "Choose a small shortlist and visit the original product pages to verify current capabilities, availability, and applicable terms.",
+    "Test candidates with the same representative workflow and record the differences that matter before selecting a product."
+  ],
+  "faqs": [
+    {
+      "question": "Does a directory listing prove that a tool has been tested?",
+      "answer": "No. A listing may be submitted, collected, or editorially described without hands-on evaluation. Look for an explicit explanation of the evidence and verify the relevant product details at the original source."
+    },
+    {
+      "question": "How should I use a directory without comparing too many tools?",
+      "answer": "Define essential requirements before browsing, then create a small shortlist. Eliminate options that miss a required platform or workflow, and spend evaluation time only on differences that could change your decision."
+    },
+    {
+      "question": "Are featured tools necessarily the most suitable options?",
+      "answer": "Featured placement may reflect sponsorship or other selection rules. Read the directory’s explanation and assess the product against your needs rather than treating visibility or order as proof of quality."
+    },
+    {
+      "question": "What product information should I verify after discovery?",
+      "answer": "Check current identity, availability, supported workflow, pricing terms, platform requirements, and limitations. Listings can become outdated, especially when a product changes plans, branding, or the audience it serves."
+    },
+    {
+      "question": "How is a directory different from an AI search engine?",
+      "answer": "A directory organizes a collection of entries for browsing and filtering. An AI search engine typically retrieves or synthesizes answers to a query. Both can help discovery, but their coverage and evidence need separate evaluation."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-search-engine",
+      "label": "AI Search Engine"
+    },
+    {
+      "slug": "developer-tools",
+      "label": "Developer Tools"
+    },
+    {
+      "slug": "productized-services",
+      "label": "Productized Services"
+    },
+    {
+      "slug": "research-data",
+      "label": "Research & Data"
+    }
+  ]
+}

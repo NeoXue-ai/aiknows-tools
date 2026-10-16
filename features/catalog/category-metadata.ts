@@ -32,3 +32,34 @@ export function categoryPageMetadata({
     noIndex: count === 0,
   });
 }
+
+export function categoryCollectionJsonLd({
+  slug,
+  name,
+  description,
+  page = 1,
+  siteUrl,
+  itemList,
+}: {
+  slug: string;
+  name: string;
+  description: string;
+  page?: number;
+  siteUrl: string;
+  itemList: object;
+}) {
+  const url = new URL(
+    browsePath(`/categories/${slug}`, page),
+    siteUrl,
+  ).toString();
+  return {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": `${url}#collection`,
+    url,
+    name: page > 1 ? `${name} — Page ${page}` : name,
+    description,
+    inLanguage: "en",
+    mainEntity: itemList,
+  };
+}

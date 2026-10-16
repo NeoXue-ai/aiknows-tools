@@ -1,0 +1,80 @@
+{
+  "title": "AI Models for Application Development and Evaluation",
+  "description": "Explore AI models for text, images, and other supported inputs and outputs. Compare task fit, model documentation, deployment requirements, and license terms.",
+  "introduction": "AI models are the underlying systems used to interpret inputs or produce outputs in applications. This category includes model resources rather than only finished chat interfaces or task-specific editors. Entries may differ in supported modalities, deployment options, and access to model files. Start with a well-defined task and representative evaluation material. Developer APIs is more relevant when choosing a hosted integration, while AI Chatbot focuses on an end-user conversational experience built around one or more models.",
+  "capabilities": [
+    "Process the input and output types documented for the specific model and release.",
+    "Support application tasks through available hosted access or compatible model deployment workflows.",
+    "Provide a basis for task-specific evaluation using representative prompts and reference outcomes.",
+    "Allow supported adaptation or configuration where the release and its terms permit those changes."
+  ],
+  "audiences": [
+    {
+      "label": "Application teams",
+      "text": "Evaluate a model against a defined product task, then test it within the intended user workflow."
+    },
+    {
+      "label": "Researchers and platform engineers",
+      "text": "Inspect model documentation, reproduce relevant evaluations, and assess deployment and maintenance requirements before adoption."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Task evidence",
+      "text": "Read intended uses, limitations, language coverage, and evaluation conditions before testing your own representative examples."
+    },
+    {
+      "label": "Deployment requirements",
+      "text": "Check compatible software, hardware needs, latency, and operational effort for the access method you intend to use."
+    },
+    {
+      "label": "Release terms",
+      "text": "Review the actual model license, version, and restrictions rather than inferring permissions from download availability."
+    }
+  ],
+  "workflow": [
+    "Define the task, acceptable outputs, difficult cases, and constraints for the intended application.",
+    "Review documentation and evaluate the exact model release using a representative, repeatable set of examples.",
+    "Test the chosen deployment path and record version, configuration, limitations, and operating requirements."
+  ],
+  "faqs": [
+    {
+      "question": "How is a model different from a chatbot?",
+      "answer": "A model provides underlying processing or generation capability. A chatbot adds a conversational interface and surrounding product features, which may include files, search, tools, or several models used for different purposes."
+    },
+    {
+      "question": "Does a downloadable model permit every commercial use?",
+      "answer": "Do not infer permissions from download access. Read the specific release license and associated conditions, including any restrictions on use, modification, or distribution, before choosing it for a commercial application."
+    },
+    {
+      "question": "What should I look for in a model card?",
+      "answer": "Look for intended tasks, limitations, supported languages, evaluation results, and information about training and use. Treat the documentation as a starting point and verify the properties that matter in your application."
+    },
+    {
+      "question": "Can benchmark results replace testing on our own tasks?",
+      "answer": "Benchmarks help describe performance under particular conditions, but your inputs and success criteria may differ. Evaluate representative examples, including difficult cases, before assuming a reported score predicts the product experience."
+    },
+    {
+      "question": "Why should I record the exact model version?",
+      "answer": "A release change can alter behavior, compatibility, or operational requirements. Recording the version and configuration makes evaluation results easier to interpret and helps the team compare changes when updating a deployment."
+    }
+  ],
+  "related": [
+    {
+      "slug": "developer-apis",
+      "label": "Developer APIs"
+    },
+    {
+      "slug": "ai-text-api",
+      "label": "AI Text API"
+    },
+    {
+      "slug": "ai-chatbot",
+      "label": "AI Chatbot"
+    },
+    {
+      "slug": "productivity",
+      "label": "Productivity & Automation"
+    }
+  ]
+}

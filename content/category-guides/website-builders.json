@@ -1,0 +1,76 @@
+{
+  "title": "Website Builders for Business Sites and Landing Pages",
+  "description": "Compare website builders for creating and maintaining business sites and landing pages. Review editing flexibility, content management, publishing, and portability.",
+  "introduction": "Website builders help people create and maintain web pages through visual editors, templates, or other guided construction methods. They can support business sites, portfolios, landing pages, and content-led publications, depending on the product. This category emphasizes the ongoing building and publishing environment. AI Website Builder focuses on generating a starting site from a brief, while Ecommerce is the more focused destination when catalog management, checkout, and order handling drive the project.",
+  "capabilities": [
+    "Construct web pages using supported templates, reusable sections, and visual editing controls.",
+    "Maintain site content and navigation through the platform’s available content management features.",
+    "Prepare layouts for review on desktop and mobile screens before publication.",
+    "Publish sites through supported hosting, domain, form, and integration arrangements."
+  ],
+  "audiences": [
+    {
+      "label": "Business owners",
+      "text": "Create a clear service website and maintain practical details such as offerings, contact information, and inquiry forms."
+    },
+    {
+      "label": "Marketing and design teams",
+      "text": "Build campaign landing pages, coordinate revisions, and publish approved content within a consistent site structure."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Site structure",
+      "text": "Test the page types, navigation, content collections, and forms required for the actual project."
+    },
+    {
+      "label": "Editing and collaboration",
+      "text": "Check layout flexibility, reusable styles, revision workflows, and who can change or publish site content."
+    },
+    {
+      "label": "Long-term operation",
+      "text": "Compare hosting, domains, exports, integrations, ongoing costs, and how the site will be maintained as it grows."
+    }
+  ],
+  "workflow": [
+    "Map audiences, pages, real content, and the actions visitors should be able to complete.",
+    "Build a representative page set and review navigation, responsive layouts, forms, and editing workflows.",
+    "Test the published configuration, assign maintenance responsibilities, and keep essential content and account records organized."
+  ],
+  "faqs": [
+    {
+      "question": "When should I choose a visual builder instead of custom development?",
+      "answer": "A builder can fit when its editing model and supported features meet the site’s requirements. Compare the complete maintenance workflow with custom development, especially where unusual functionality or integration constraints are central."
+    },
+    {
+      "question": "How is this category different from AI website builders?",
+      "answer": "This category covers the broader environment for constructing and maintaining sites. AI website builders emphasize generating an initial site from a brief, though some conventional builders also offer assisted generation within their editors."
+    },
+    {
+      "question": "Does a template guarantee a good mobile experience?",
+      "answer": "No. Review your actual text, images, navigation, and forms on representative screen sizes. Template behavior can change as content grows, and an automatically resized layout still needs practical usability checks."
+    },
+    {
+      "question": "Can a website builder support an online store?",
+      "answer": "Some include commerce features or integrations, but capabilities vary. Compare Ecommerce when transactions are central, and test the required catalog, checkout, payment, and order workflows before choosing a platform for selling."
+    },
+    {
+      "question": "What should I know before moving to another platform?",
+      "answer": "Check what can be exported and what depends on the existing platform, including layouts, content collections, forms, and integrations. Test a small migration and account for rebuilding features that do not transfer directly."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-website-builder",
+      "label": "AI Website Builder"
+    },
+    {
+      "slug": "ecommerce",
+      "label": "Ecommerce"
+    },
+    {
+      "slug": "blogging",
+      "label": "Blogging"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "title": "Productized Services for Defined Creative and Tech Work",
+  "description": "Explore productized services and service marketplaces for defined deliverables. Compare scope, revisions, turnaround terms, ownership, and working arrangements.",
+  "introduction": "Productized services package professional work into a defined offering. An offering may specify a deliverable, a recurring service arrangement, or a process for submitting and reviewing requests. This category also includes marketplaces that help customers find providers. The central question is who will perform the work and what they are responsible for delivering. Freelancer Tools instead supports independent workers managing their own operations, while Directories focuses on discovering resources.",
+  "capabilities": [
+    "Present defined service offerings with an intended deliverable and a described working process.",
+    "Collect briefs, requirements, and supporting materials needed for a provider to begin work.",
+    "Coordinate submissions, revisions, and approvals through the service’s available communication and delivery arrangements.",
+    "Support repeat service requests or provider discovery where the offering includes those options."
+  ],
+  "audiences": [
+    {
+      "label": "Small business owners",
+      "text": "Commission a bounded design, content, or technical task with clear acceptance criteria and named responsibilities."
+    },
+    {
+      "label": "Teams with recurring requests",
+      "text": "Evaluate a continuing service arrangement against expected workload, review capacity, and the kinds of work included."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Scope and exclusions",
+      "text": "Confirm deliverables, request limits, required inputs, revision rules, and tasks that fall outside the offering."
+    },
+    {
+      "label": "Working arrangement",
+      "text": "Review turnaround commitments, communication channels, provider continuity, and what happens when a request needs clarification."
+    },
+    {
+      "label": "Handoff and ownership",
+      "text": "Check delivery formats, access to source files, usage rights, cancellation terms, and responsibility for ongoing maintenance."
+    }
+  ],
+  "workflow": [
+    "Write a concrete brief with deliverables, constraints, existing materials, and criteria for accepting the work.",
+    "Confirm the provider’s scope and working terms, then begin with a representative request where practical.",
+    "Review the delivered work, resolve agreed revisions, and retain the files and documentation needed for future use."
+  ],
+  "faqs": [
+    {
+      "question": "How is a productized service different from a software subscription?",
+      "answer": "A service involves a provider carrying out work under an agreed process. Software gives users tools to perform tasks themselves. Some offerings combine both, so clarify who produces, reviews, and maintains the deliverable."
+    },
+    {
+      "question": "Does a recurring fee mean unlimited work can happen at once?",
+      "answer": "Do not assume that it does. Check active request limits, queue rules, task size restrictions, and turnaround terms to understand how much work the arrangement can practically support during a billing period."
+    },
+    {
+      "question": "What should a service brief contain?",
+      "answer": "Describe the outcome, audience, required files, references, constraints, and acceptance criteria. Identify who can approve work and provide timely feedback so the provider has enough information to deliver an appropriate result."
+    },
+    {
+      "question": "Why do revision and scope terms matter?",
+      "answer": "They establish how changes are handled and distinguish corrections from additional work. Confirm the included review process before starting, especially when stakeholders may change the brief or request new deliverables after seeing a draft."
+    },
+    {
+      "question": "What should I retain after a project ends?",
+      "answer": "Keep agreed final files, source files where included, relevant access information, and documentation needed for future changes. Confirm usage rights and maintenance responsibility so the deliverable remains usable after the service relationship ends."
+    }
+  ],
+  "related": [
+    {
+      "slug": "freelancer-tools",
+      "label": "Freelancer Tools"
+    },
+    {
+      "slug": "directories",
+      "label": "Directories"
+    },
+    {
+      "slug": "building-products",
+      "label": "Building Products"
+    }
+  ]
+}

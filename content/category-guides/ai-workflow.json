@@ -1,0 +1,80 @@
+{
+  "title": "AI Workflow Tools for Connected, Reviewable Processes",
+  "description": "Compare AI workflow tools for connected tasks and document pipelines, with guidance on inputs, branching, human review, failure handling, and maintenance.",
+  "introduction": "AI workflow tools connect several steps into a repeatable process, adding model-based interpretation or generation where it is useful. A workflow might collect a document, extract information, prepare a draft, request approval, and update another system. This category focuses on the sequence and its handoffs rather than a single assistant conversation. Distinguish fixed rules from AI decisions, and make clear which steps suggest work and which actually execute it.",
+  "capabilities": [
+    "Connect inputs, model tasks, and application actions into an explicit process.",
+    "Route work according to defined rules and supported decision steps.",
+    "Insert human review before uncertain results trigger consequential downstream changes.",
+    "Inspect execution history and exceptions to maintain recurring workflows over time."
+  ],
+  "audiences": [
+    {
+      "label": "Content operations",
+      "text": "Move source material through drafting, review, and publication handoffs without confusing generated text with approved content."
+    },
+    {
+      "label": "Business operations",
+      "text": "Process repeated requests across systems, keeping exceptions visible and assigning a person to resolve incomplete or ambiguous inputs."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Process visibility",
+      "text": "Check whether inputs, decisions, transformations, and outputs can be inspected separately when a result needs explanation."
+    },
+    {
+      "label": "Connection behavior",
+      "text": "Review supported accounts, permissions, update actions, and how the workflow handles unavailable or changed external systems."
+    },
+    {
+      "label": "Maintenance and recovery",
+      "text": "Assess logs, retries, duplicate prevention, review queues, and the work required to repair unsuccessful executions."
+    }
+  ],
+  "workflow": [
+    "Map the current process, including inputs, owners, decisions, exceptions, and the exact point where work is considered complete.",
+    "Build a narrow version and test ordinary inputs alongside missing information, ambiguous results, and unavailable connections.",
+    "Monitor executed actions and review effort, then expand only after ownership, recovery, and ongoing maintenance are understood."
+  ],
+  "faqs": [
+    {
+      "question": "How is an AI workflow different from a general automation?",
+      "answer": "General automation can follow fixed rules. An AI workflow includes interpretation or generation within the process. Identify those uncertain steps separately so a model output is not treated like a deterministic rule."
+    },
+    {
+      "question": "Where should a human approval step go?",
+      "answer": "Place it before a result creates a change that needs judgment, such as publishing content or assigning an ambiguous request. The reviewer should see the source context and the proposed action."
+    },
+    {
+      "question": "What is the best first workflow to build?",
+      "answer": "Choose a repeated process with clear inputs, a small number of systems, and an observable result. Include an exception path before expanding the workflow to less predictable or more consequential tasks."
+    },
+    {
+      "question": "Why do duplicate actions matter in a workflow?",
+      "answer": "A repeated run can accidentally create another record, message, or task. Check how the product recognizes prior work and how a person can inspect or correct repeated actions."
+    },
+    {
+      "question": "How do I know whether the workflow is worth maintaining?",
+      "answer": "Measure completion time, review effort, errors, and upkeep together. A process that saves manual steps but creates difficult exceptions may need narrower scope or a different division between rules, AI, and people."
+    }
+  ],
+  "related": [
+    {
+      "slug": "automation",
+      "label": "Automation"
+    },
+    {
+      "slug": "ai-agent",
+      "label": "AI Agent"
+    },
+    {
+      "slug": "ai-document-generator",
+      "label": "AI Document Generator"
+    },
+    {
+      "slug": "productivity",
+      "label": "Productivity & Automation"
+    }
+  ]
+}

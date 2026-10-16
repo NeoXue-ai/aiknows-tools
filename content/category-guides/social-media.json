@@ -1,0 +1,80 @@
+{
+  "title": "Social Media Tools for Planning, Publishing, and Replies",
+  "description": "Find social media tools for calendars, post creation, scheduling, inboxes, and reporting, with guidance on network support and collaborative review.",
+  "introduction": "Social media tools organize the ongoing work of maintaining a presence on social networks. Depending on the product, they may help with planning, creating posts, scheduling publication, handling replies, or reviewing performance. This category focuses on the publishing and engagement cycle rather than paid advertising alone. Compare the networks and account types you use, because support for one channel does not establish equivalent publishing, inbox, or reporting access on another.",
+  "capabilities": [
+    "Organize recurring posts in a calendar with visible owners and deadlines.",
+    "Adapt approved content to the formats supported by each social network.",
+    "Schedule supported publications and monitor items that need manual completion.",
+    "Collect replies and performance signals for ongoing editorial and engagement decisions."
+  ],
+  "audiences": [
+    {
+      "label": "Social media managers",
+      "text": "Coordinate a calendar, review channel-specific variants, and handle replies without losing track of scheduled commitments."
+    },
+    {
+      "label": "Agencies",
+      "text": "Separate client accounts, assign approval responsibilities, and prepare reports that explain the period and metrics being compared."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Network coverage",
+      "text": "Check your exact networks, account types, post formats, and whether publication is direct or requires a reminder."
+    },
+    {
+      "label": "Approval and access",
+      "text": "Inspect account permissions, client separation, and revision history so the right person approves content before it goes live."
+    },
+    {
+      "label": "Reporting meaning",
+      "text": "Compare metric definitions and data windows, especially when combining results from networks with different engagement conventions."
+    }
+  ],
+  "workflow": [
+    "List the networks, account owners, post types, and response responsibilities the team needs to manage.",
+    "Prepare and approve a small publishing cycle, checking previews, links, timing, and any required manual steps.",
+    "Review publication failures, audience replies, and performance together, then adjust the next cycle’s content and workload."
+  ],
+  "faqs": [
+    {
+      "question": "Can one tool publish every format to every social network?",
+      "answer": "Not necessarily. Capabilities vary by network, account type, and format. Check your actual posting requirements, including whether the tool publishes directly or sends a reminder for someone to finish the post."
+    },
+    {
+      "question": "How is social media management different from an ad tool?",
+      "answer": "Management tools usually address organic planning, publishing, engagement, and reporting. Advertising tools focus on paid campaigns and creative. Some products overlap, but scheduling an organic post does not establish paid campaign management."
+    },
+    {
+      "question": "What should agencies check before connecting client accounts?",
+      "answer": "Review permissions, account separation, approval roles, and access removal. Confirm who owns the connection and how changes are recorded so a staff transition does not interrupt publishing or expose another client’s information."
+    },
+    {
+      "question": "Do social reports from different networks measure the same thing?",
+      "answer": "Often they use different definitions and reporting windows. Compare the documented metrics and the intended business question before combining figures, and avoid treating all engagement events as equally valuable."
+    },
+    {
+      "question": "How can AI help without making posts sound repetitive?",
+      "answer": "Provide audience context, examples, and a specific purpose for each post. Use generated variants as drafts, then edit for channel fit, factual accuracy, and a recognizable voice before approving publication."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-content-creator",
+      "label": "AI Content Creator"
+    },
+    {
+      "slug": "ai-ad-creative",
+      "label": "AI Ad Creative"
+    },
+    {
+      "slug": "community",
+      "label": "Community"
+    },
+    {
+      "slug": "seo-marketing",
+      "label": "SEO & Marketing"
+    }
+  ]
+}

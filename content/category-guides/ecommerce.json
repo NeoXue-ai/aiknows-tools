@@ -1,0 +1,84 @@
+{
+  "title": "Ecommerce Tools for Storefronts and Store Operations",
+  "description": "Compare ecommerce tools for building stores, managing product information, and supporting orders. Assess checkout fit, integrations, catalog workflows, and costs.",
+  "introduction": "Ecommerce tools support the work of presenting products, accepting orders, and operating an online store. This category includes storefront platforms and specialized tools that support parts of the selling process. A store requires more than an attractive page: product information, checkout, fulfillment coordination, and ongoing updates must work together. This category centers on online transactions and store operations. Website Builders covers broader site construction, while Sales emphasizes relationship-led selling and customer pipeline workflows.",
+  "capabilities": [
+    "Present product information through supported storefront pages, catalogs, and merchandising controls.",
+    "Support checkout and order handling through the platform’s available commerce features and connections.",
+    "Maintain product records, variants, availability, and related operational information where those controls exist.",
+    "Connect store activity with supported payment, fulfillment, marketing, or customer service workflows."
+  ],
+  "audiences": [
+    {
+      "label": "New store owners",
+      "text": "Build a small catalog, test checkout and order handling, and establish a repeatable process for customer inquiries."
+    },
+    {
+      "label": "Existing retail teams",
+      "text": "Improve a specific operational bottleneck while keeping product, inventory, and order information consistent across connected systems."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Business model fit",
+      "text": "Check support for your products, variants, regions, payment needs, and intended fulfillment process."
+    },
+    {
+      "label": "Operational integration",
+      "text": "Test how catalog changes, orders, inventory updates, and customer issues move between the systems involved."
+    },
+    {
+      "label": "Total operating cost",
+      "text": "Include platform charges, transaction-related fees, required extensions, migration, and recurring maintenance when comparing options."
+    }
+  ],
+  "workflow": [
+    "Map the purchase journey and document products, payment needs, fulfillment responsibilities, and required customer communications.",
+    "Configure a representative catalog and complete test orders through the relevant operational steps.",
+    "Review customer-facing information and connected records, then monitor and maintain the store after launch."
+  ],
+  "faqs": [
+    {
+      "question": "How is an ecommerce platform different from a website builder?",
+      "answer": "An ecommerce platform emphasizes transactions and store operations, while a website builder may focus on pages and presentation. Some products combine both, so verify checkout, order, and catalog requirements individually."
+    },
+    {
+      "question": "What should I test before opening a store?",
+      "answer": "Test product selection, variants, checkout, confirmations, fulfillment handoff, and the customer support path. Use representative orders and check connected records so the process works beyond the appearance of the storefront."
+    },
+    {
+      "question": "Can I use specialist tools with an existing store?",
+      "answer": "Many workflows can be improved with focused tools, but compatibility varies. Check the exact integration, data ownership, update direction, and failure handling before adding another system to product or order operations."
+    },
+    {
+      "question": "What makes catalog management a selection priority?",
+      "answer": "A store with many variants or frequent product changes needs reliable information handling. Test how descriptions, images, availability, and identifiers are maintained, and identify which system should be authoritative for each record."
+    },
+    {
+      "question": "How should I compare advertised store pricing?",
+      "answer": "Compare the configuration required for your actual selling model, including necessary extensions and transaction-related charges. Consider operating effort and migration needs as well as the subscription amount shown for a basic plan."
+    }
+  ],
+  "related": [
+    {
+      "slug": "website-builders",
+      "label": "Website Builders"
+    },
+    {
+      "slug": "sales",
+      "label": "Sales"
+    },
+    {
+      "slug": "ai-product-photography",
+      "label": "AI Product Photography"
+    },
+    {
+      "slug": "ecommerce-sales",
+      "label": "E-commerce & Sales"
+    },
+    {
+      "slug": "ai-website-builder",
+      "label": "AI Website Builder"
+    }
+  ]
+}

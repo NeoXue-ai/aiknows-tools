@@ -1,0 +1,88 @@
+{
+  "title": "AI Summarizer Tools for Articles, Documents and Notes",
+  "description": "Compare AI summarizers for articles, reports, and notes. Assess source coverage, traceability, summary length, and how well important qualifications survive.",
+  "introduction": "AI summarizers shorten existing material into a form that is easier to review, share, or use in another task. The input might be an article, a report, meeting notes, or a collection of documents. The central decision is what must survive compression: conclusions, evidence, action items, or contrasting viewpoints. This category focuses on condensing supplied content; search engines find information, while writing assistants can create new text beyond the source.",
+  "capabilities": [
+    "Condense long passages into brief narrative summaries or structured bullet points.",
+    "Extract decisions and action items from supported meeting or document inputs.",
+    "Produce summaries tailored to a question, audience, or requested length.",
+    "Retain references or source links when the product supports traceable output."
+  ],
+  "audiences": [
+    {
+      "label": "Research readers",
+      "text": "Screen a group of reports for relevance, then return to the original passages before citing findings or making decisions."
+    },
+    {
+      "label": "Team coordinators",
+      "text": "Turn detailed notes into a concise handoff that separates decisions, unresolved questions, and actions with named owners."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Coverage and omissions",
+      "text": "Test whether the summary preserves exceptions, uncertainty, disagreements, and negative findings rather than only the most prominent conclusion."
+    },
+    {
+      "label": "Input handling",
+      "text": "Check supported formats, document length limits, scanned page support, and whether tables or appendices are included in processing."
+    },
+    {
+      "label": "Traceability",
+      "text": "Prefer accessible source passages when the summary will inform decisions, especially where an omitted qualifier could change its meaning."
+    }
+  ],
+  "workflow": [
+    "Choose the source and specify the summary’s audience, purpose, format, and maximum useful length.",
+    "Compare the result with key source sections, checking omissions, numbers, qualifications, and attributed statements.",
+    "Edit the summary for its destination and attach source references so readers can inspect the full context."
+  ],
+  "faqs": [
+    {
+      "question": "How short should a useful summary be?",
+      "answer": "Length should follow the task. A screening summary can be brief, while a decision memo needs evidence and qualifications. Specify what readers must understand before deciding how much to compress."
+    },
+    {
+      "question": "Can a summarizer add information absent from the source?",
+      "answer": "Some systems may introduce unsupported statements while generating fluent text. Treat the supplied source as the boundary and check added explanations, inferred causes, names, and numbers against the original material."
+    },
+    {
+      "question": "Are meeting summaries the same as transcription?",
+      "answer": "Transcription records spoken words, while a summary selects and organizes what matters. If precise wording or attribution is important, keep access to the transcript or recording alongside the condensed notes."
+    },
+    {
+      "question": "What should I test with a long report?",
+      "answer": "Include a document with tables, appendices, and conclusions that depend on earlier qualifications. Check whether the output covers the whole report and makes its source coverage limits understandable."
+    },
+    {
+      "question": "When should I use document chat instead?",
+      "answer": "Choose document chat when you need repeated, specific questions about the same material. A summarizer is often more direct when your goal is a compact overview or a standard handoff."
+    },
+    {
+      "question": "Are there free AI summarizer tools?",
+      "answer": "Some products offer a free allowance, while others provide a time-limited trial. Compare document limits, summary length, export access, and renewal terms before treating free registration as ongoing free use."
+    },
+    {
+      "question": "Can an AI summarizer read a PDF or scanned document?",
+      "answer": "Check PDF support separately from scanned-page recognition. A text PDF and an image-only scan require different processing; inspect the extracted text, page coverage, and tables before relying on the resulting summary."
+    },
+    {
+      "question": "Can I summarize a video or podcast instead of an article?",
+      "answer": "Look for explicit support for media uploads or the link you want to use. Check transcript availability, language support, and whether the result captures speakers and timestamps rather than summarizing only a title or description."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-pdf",
+      "label": "AI PDF"
+    },
+    {
+      "slug": "ai-note-taker",
+      "label": "AI Note Taker"
+    },
+    {
+      "slug": "ai-search-engine",
+      "label": "AI Search Engine"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "title": "AI Assistants for Everyday Work and Personal Tasks",
+  "description": "Explore AI assistants for drafting, explaining information, and organizing everyday work. Compare context handling, connected actions, privacy, and review controls.",
+  "introduction": "AI assistants offer a conversational way to request help across several everyday tasks. They may explain supplied information, draft text, organize plans, or interact with supported files and services. Their scope varies substantially, so start with the work you want done rather than assuming a general assistant can access every application. This category emphasizes flexible personal assistance; AI Agent focuses on multi-step execution, while AI Chatbot includes conversational interfaces with more focused or configured purposes.",
+  "capabilities": [
+    "Discuss questions and revise responses through an ongoing conversational exchange with context.",
+    "Draft or transform supplied material into outlines, explanations, messages, or other supported outputs.",
+    "Work with supported files and connections to bring relevant information into a task.",
+    "Help organize plans and next actions while allowing users to inspect and revise suggestions."
+  ],
+  "audiences": [
+    {
+      "label": "Individual professionals",
+      "text": "Prepare drafts and explanations from real work material, then check details before using the result."
+    },
+    {
+      "label": "People organizing personal tasks",
+      "text": "Compare options, structure a plan, and keep practical constraints visible while making their own decisions."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Context access",
+      "text": "Check what the assistant can actually read, retain, and retrieve across files, conversations, and connections."
+    },
+    {
+      "label": "Action permissions",
+      "text": "Distinguish drafting advice from actions in external services, and review confirmation and undo options."
+    },
+    {
+      "label": "Answer evaluation",
+      "text": "Test representative questions for useful reasoning, source visibility, uncertainty handling, and ease of correcting mistakes."
+    }
+  ],
+  "workflow": [
+    "Describe the desired outcome and supply relevant context, constraints, and examples of a useful result.",
+    "Review the response, clarify missing information, and ask for revisions where assumptions are incorrect.",
+    "Verify important details and authorize any supported external action only within the intended task scope."
+  ],
+  "faqs": [
+    {
+      "question": "How is an assistant different from an agent?",
+      "answer": "An assistant often responds interactively to individual requests. An agent may plan and execute several steps using tools. Products can combine both behaviors, so inspect what happens after you submit a task."
+    },
+    {
+      "question": "Can an assistant see all my files automatically?",
+      "answer": "Access depends on uploads, enabled connections, permissions, and product settings. Confirm which material is available for the current task instead of assuming the assistant can see a file or application you mention."
+    },
+    {
+      "question": "Should I use one assistant for every task?",
+      "answer": "A general assistant can reduce switching, but specialized tools may provide better controls for specific work. Compare the complete workflow, including data access, output review, and delivery requirements, for your recurring tasks."
+    },
+    {
+      "question": "How do I get a more useful response?",
+      "answer": "Explain the outcome, audience, constraints, and source material. Give an example when format matters, then correct unsupported assumptions early rather than repeatedly requesting a better response without identifying the problem."
+    },
+    {
+      "question": "What needs checking before I use an answer?",
+      "answer": "Review facts, calculations, quotations, and any claims about current events or external services. For consequential decisions, confirm relevant information with appropriate sources and keep responsibility for the final choice clear."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-agent",
+      "label": "AI Agent"
+    },
+    {
+      "slug": "ai-chatbot",
+      "label": "AI Chatbot"
+    },
+    {
+      "slug": "productivity-tools",
+      "label": "Productivity Tools"
+    },
+    {
+      "slug": "productivity",
+      "label": "Productivity & Automation"
+    }
+  ]
+}

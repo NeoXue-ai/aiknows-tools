@@ -1,0 +1,76 @@
+{
+  "title": "Developer Tools for Coding and Software Delivery",
+  "description": "Explore developer tools for coding, debugging, reviewing changes, and maintaining software. Compare workflow fit, environment support, integrations, and control.",
+  "introduction": "Developer tools support the practical work of building and maintaining software. This category includes utilities that assist with coding, debugging, testing, review, and project operations, rather than a single programming task. Some tools work inside an editor; others run in a terminal, browser, or hosted environment. Start with the development bottleneck you want to address. Dedicated model endpoints belong in Developer APIs, while AI Code Generator focuses more specifically on producing or completing code.",
+  "capabilities": [
+    "Assist development work within supported editors, terminals, repositories, or hosted project environments.",
+    "Inspect code and execution information to help investigate defects and unexpected behavior.",
+    "Support change review through explanations, comparisons, checks, or other available project feedback.",
+    "Automate repeatable development tasks while exposing the resulting changes for inspection."
+  ],
+  "audiences": [
+    {
+      "label": "Software engineers",
+      "text": "Evaluate a utility against a real debugging or maintenance task in the project’s existing environment."
+    },
+    {
+      "label": "Engineering teams",
+      "text": "Standardize selected checks and development handoffs without losing visibility into changes or local constraints."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Environment fit",
+      "text": "Verify supported operating systems, project languages, editor versions, and dependencies required for everyday use."
+    },
+    {
+      "label": "Change visibility",
+      "text": "Check whether commands, proposed edits, and execution results remain inspectable and reversible where appropriate."
+    },
+    {
+      "label": "Team adoption",
+      "text": "Compare configuration, access controls, integrations, and maintenance effort alongside individual developer convenience."
+    }
+  ],
+  "workflow": [
+    "Identify a recurring development problem and choose a representative project task for evaluation.",
+    "Run the tool in an appropriate environment and inspect proposed changes and execution results.",
+    "Validate the outcome with project checks, document useful configuration, and expand adoption where it helps."
+  ],
+  "faqs": [
+    {
+      "question": "How do I choose among very different developer tools?",
+      "answer": "Begin with the task: editing, debugging, testing, review, or delivery. Compare products within that task using your actual project constraints, rather than ranking unrelated utilities by the breadth of their feature lists."
+    },
+    {
+      "question": "Does language support guarantee project compatibility?",
+      "answer": "No. Framework versions, build systems, dependencies, repository structure, and runtime constraints also matter. Test the tool in a representative project and check what it can inspect, change, or execute there."
+    },
+    {
+      "question": "Should an assistant be allowed to run commands automatically?",
+      "answer": "Match permissions to the task and environment. Make execution and results visible, use appropriate project isolation, and require review for consequential changes so convenience does not obscure responsibility for the outcome."
+    },
+    {
+      "question": "What makes a useful developer tool pilot?",
+      "answer": "Select a bounded task with an observable outcome, such as fixing a known defect or reviewing a change. Include setup time, correction effort, and successful project validation in the evaluation."
+    },
+    {
+      "question": "When is a developer API the better category?",
+      "answer": "Use Developer APIs when you need an interface your application can call to provide functionality. Developer Tools is a better starting point when the primary user is a person building or maintaining software."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-code-generator",
+      "label": "AI Code Generator"
+    },
+    {
+      "slug": "developer-apis",
+      "label": "Developer APIs"
+    },
+    {
+      "slug": "code-development",
+      "label": "Code & Development"
+    }
+  ]
+}

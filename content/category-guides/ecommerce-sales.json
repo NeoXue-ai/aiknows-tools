@@ -1,0 +1,80 @@
+{
+  "title": "E-commerce and Sales Tools for Revenue Workflows",
+  "description": "Explore e-commerce and sales tools for storefronts, product content, customer records, and follow-up. Compare integrations, handoffs, and operational fit.",
+  "introduction": "E-commerce and sales tools support different parts of turning customer interest into an order or an ongoing commercial relationship. This hub brings together store operations, product presentation, sales pipelines, and conversion workflows. A shop managing inventory and checkout needs different software from a sales team coordinating account conversations. Use the category to identify the bottleneck, then follow the relevant specialist area rather than expecting one product to cover the entire revenue process.",
+  "capabilities": [
+    "Organize product information and storefront tasks across a growing catalog.",
+    "Track prospects, customer conversations, and next actions through a sales process.",
+    "Create product content and campaign assets for specific buying contexts.",
+    "Connect order events and customer records to operational follow-up workflows."
+  ],
+  "audiences": [
+    {
+      "label": "Online merchants",
+      "text": "Coordinate product listings, customer questions, and order follow-up while keeping stock and payment records in their authoritative systems."
+    },
+    {
+      "label": "Sales operations teams",
+      "text": "Connect lead intake, account ownership, and next actions so representatives can follow a consistent process without duplicating customer records."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Commercial motion",
+      "text": "Decide whether the primary need is self-service checkout, assisted selling, repeat purchases, or a combination with explicit handoffs."
+    },
+    {
+      "label": "System connections",
+      "text": "Check compatibility with your store, CRM, payment system, and support desk, including which application owns each customer field."
+    },
+    {
+      "label": "Operational control",
+      "text": "Assess approval rules, permission levels, and recovery options before allowing software to change listings or contact customers automatically."
+    }
+  ],
+  "workflow": [
+    "Map the path from first interest to purchase, identifying delays and repeated manual updates.",
+    "Trial one workflow with representative products or accounts and confirm that records synchronize correctly.",
+    "Review customer-facing messages and exceptions, then expand the workflow with clear ownership and monitoring."
+  ],
+  "faqs": [
+    {
+      "question": "How is e-commerce software different from sales software?",
+      "answer": "E-commerce software centers on browsing, checkout, and order operations. Sales software centers on prospects, conversations, and pipeline progression. Businesses using both need clear connections between transactions and relationship records."
+    },
+    {
+      "question": "Where should a small store start?",
+      "answer": "Begin with a specific operational problem, such as incomplete listings or slow customer follow-up. Check whether your existing platform already addresses it before adding another system to maintain."
+    },
+    {
+      "question": "Can AI-generated product descriptions be used directly?",
+      "answer": "Review them against actual specifications, variants, and permitted claims before publishing. A polished description can still introduce unsupported features or omit details customers need to choose the correct item."
+    },
+    {
+      "question": "What makes an integration useful beyond importing contacts?",
+      "answer": "A useful integration preserves identifiers, records relevant events, and handles updates or failures predictably. Check ownership rules and duplicate handling, especially when several systems can edit the same customer."
+    },
+    {
+      "question": "Should customer outreach run without approval?",
+      "answer": "Start with reviewable drafts and narrow rules for sending. Define exclusions, consent requirements, frequency limits, and a person responsible for exceptions before introducing automatic customer contact into a workflow."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ecommerce",
+      "label": "Ecommerce"
+    },
+    {
+      "slug": "sales",
+      "label": "Sales"
+    },
+    {
+      "slug": "ai-product-photography",
+      "label": "AI Product Photography"
+    },
+    {
+      "slug": "customer-support",
+      "label": "Customer Support"
+    }
+  ]
+}

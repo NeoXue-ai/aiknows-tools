@@ -1,0 +1,76 @@
+{
+  "title": "Monitoring Tools for Uptime, Performance, and Incidents",
+  "description": "Compare monitoring tools for uptime, application performance, and operational signals, with guidance on coverage, useful alerts, investigation, and ownership.",
+  "introduction": "Monitoring tools help teams notice changes in systems and understand whether those changes require action. The category includes uptime checks, application performance, infrastructure signals, and other operational observation. It differs from project tracking, which organizes planned work, and from analytics aimed mainly at business trends. Begin with the service or process you need to protect, then decide which signals, alerts, and investigation tools can help the responsible team respond.",
+  "capabilities": [
+    "Observe selected services and components through the signals a product supports.",
+    "Detect changes or failures using configured checks, thresholds, or analysis.",
+    "Notify responsible people with enough context to investigate a problem.",
+    "Review incident history and signal trends to improve operational decisions."
+  ],
+  "audiences": [
+    {
+      "label": "Service operators",
+      "text": "Watch customer-facing availability and performance, assign alert ownership, and investigate problems using relevant historical context."
+    },
+    {
+      "label": "Small development teams",
+      "text": "Start with a few critical checks and an actionable notification path before adding more complex observability requirements."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Coverage and context",
+      "text": "Identify the systems, environments, and signals you need, including what the product cannot observe directly."
+    },
+    {
+      "label": "Alert usefulness",
+      "text": "Inspect grouping, thresholds, routing, and notification controls so alerts indicate work someone can actually perform."
+    },
+    {
+      "label": "Investigation and cost",
+      "text": "Check searchable history, data retention, integrations, and usage-based charges against the scale and depth of your operational needs."
+    }
+  ],
+  "workflow": [
+    "Define critical services, expected behavior, responsible owners, and the conditions that warrant an interruption or investigation.",
+    "Configure a small set of checks and test both detection and notification using an agreed operational scenario.",
+    "Review incidents and noisy alerts, adjusting coverage and response guidance as the service and team responsibilities change."
+  ],
+  "faqs": [
+    {
+      "question": "What should a small team monitor first?",
+      "answer": "Begin with the critical services users depend on and a clear person responsible for responding. Add a few actionable checks before collecting more signals than the team can interpret or maintain."
+    },
+    {
+      "question": "How is monitoring different from business analytics?",
+      "answer": "Monitoring emphasizes operational behavior and timely response to changes. Business analytics often examines broader patterns for planning or strategy. The same data may inform both, but their timing and decision requirements differ."
+    },
+    {
+      "question": "Why can too many alerts make monitoring less useful?",
+      "answer": "Frequent low-value notifications compete with genuine incidents and make ownership unclear. Review whether each alert has a meaningful threshold, enough context, and an action the receiving person is expected to take."
+    },
+    {
+      "question": "Does an uptime check explain why a service failed?",
+      "answer": "Not necessarily. It can show a symptom from a particular vantage point. Diagnosing the cause may require additional application, infrastructure, or dependency information and someone who understands the system."
+    },
+    {
+      "question": "What should I include in a monitoring evaluation?",
+      "answer": "Test relevant detection, notification routing, investigation context, and ongoing cost. Confirm that the team can understand an alert and follow the response path, not merely that a dashboard displays data."
+    }
+  ],
+  "related": [
+    {
+      "slug": "developer-tools",
+      "label": "Developer Tools"
+    },
+    {
+      "slug": "automation",
+      "label": "Automation"
+    },
+    {
+      "slug": "ai-analytics",
+      "label": "AI Analytics"
+    }
+  ]
+}

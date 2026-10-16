@@ -1,0 +1,80 @@
+{
+  "title": "Project Management Tools for Team Plans and Delivery",
+  "description": "Compare project management tools for assigning work, tracking dependencies, and coordinating delivery. Assess planning views, ownership, reporting, and team fit.",
+  "introduction": "Project management tools help teams coordinate work toward a shared outcome. They provide a place to define tasks, assign owners, track progress, and manage changes to a plan. The right choice depends on how work is organized and how much coordination the project requires. This category emphasizes delivery across people and timelines; Productivity Tools includes personal organization, while Remote Work covers the broader communication and collaboration needs of distributed teams.",
+  "capabilities": [
+    "Assign work items to responsible people with relevant context and expected completion dates.",
+    "Organize project activity through supported boards, lists, timelines, and other planning views.",
+    "Track relationships between tasks and identify changes that may affect the delivery plan.",
+    "Share progress and decisions through updates, reporting, and available collaboration features."
+  ],
+  "audiences": [
+    {
+      "label": "Project leads",
+      "text": "Translate a defined outcome into owned work, review dependencies, and communicate delivery risks with the team."
+    },
+    {
+      "label": "Cross-functional teams",
+      "text": "Coordinate handoffs between functions and keep decisions attached to the work they affect."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Planning model",
+      "text": "Check whether the tool reflects how your team actually scopes work, estimates effort, and changes priorities."
+    },
+    {
+      "label": "Ownership and visibility",
+      "text": "Evaluate assignment, dependency, status, and reporting controls with people responsible for real project decisions."
+    },
+    {
+      "label": "Coordination overhead",
+      "text": "Compare update effort, notification noise, permissions, and integrations with existing communication and delivery systems."
+    }
+  ],
+  "workflow": [
+    "Define the project outcome, contributors, milestones, and the decisions the shared plan must support.",
+    "Create a representative work breakdown with owners, dependencies, and clear completion criteria.",
+    "Review progress regularly, resolve blocked handoffs, and update the plan when assumptions change."
+  ],
+  "faqs": [
+    {
+      "question": "How is project management different from a task list?",
+      "answer": "A task list records things to do. Project management also needs shared outcomes, ownership, dependencies, and coordination over time. The distinction matters when one person’s delay changes what other contributors can complete."
+    },
+    {
+      "question": "Should I choose boards or timelines?",
+      "answer": "Choose views around decisions the team needs to make. Boards can help review work states, while timelines can make dates and overlaps easier to discuss; some projects benefit from both views."
+    },
+    {
+      "question": "Does AI planning remove the need for project estimates?",
+      "answer": "Generated plans can suggest a starting breakdown, but they do not know every local constraint. Review effort, resource availability, dependencies, and completion criteria with the people who will perform the work."
+    },
+    {
+      "question": "What should a team test during a pilot?",
+      "answer": "Run a real project segment with assignments, changes, and at least one handoff. Check whether contributors update work naturally and whether the resulting information helps leads identify issues without duplicating reporting."
+    },
+    {
+      "question": "How can teams avoid an outdated project dashboard?",
+      "answer": "Keep statuses and completion criteria simple, assign responsibility for updates, and connect reporting to actual work reviews. A detailed dashboard is useful only when its information stays current enough to support decisions."
+    }
+  ],
+  "related": [
+    {
+      "slug": "productivity-tools",
+      "label": "Productivity Tools"
+    },
+    {
+      "slug": "remote-work",
+      "label": "Remote Work"
+    },
+    {
+      "slug": "ai-workflow",
+      "label": "AI Workflow"
+    },
+    {
+      "slug": "productivity",
+      "label": "Productivity & Automation"
+    }
+  ]
+}

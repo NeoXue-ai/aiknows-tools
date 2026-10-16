@@ -1,0 +1,76 @@
+{
+  "title": "Community Tools for Member Spaces and Participation",
+  "description": "Explore community tools for member spaces, discussions, events, and moderation. Compare audience fit, participation design, access rules, and member portability.",
+  "introduction": "Community tools help people gather around a shared interest, professional identity, product, or learning goal. Their work includes conversations, member discovery, events, and ongoing participation, depending on the platform. The central choice is how members will interact and what gives them a reason to return. This category focuses on member relationships rather than simply publishing social posts or handling support tickets, although a community may connect to both workflows.",
+  "capabilities": [
+    "Host organized member conversations through supported discussion spaces and channels.",
+    "Manage invitations, profiles, and membership access using available account controls.",
+    "Coordinate events, resources, or recurring activities that support member participation.",
+    "Moderate contributions and surface relevant activity through the platform’s available tools."
+  ],
+  "audiences": [
+    {
+      "label": "Membership organizers",
+      "text": "Create a clear welcome path, introduce useful conversations, and establish expectations for how members can ask questions or contribute."
+    },
+    {
+      "label": "Product communities",
+      "text": "Give users a place to exchange practical knowledge while distinguishing peer discussion, official announcements, and issues that need direct support."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Participation model",
+      "text": "Choose discussion formats and notifications that match the community’s pace, rather than assuming constant chat is suitable for every group."
+    },
+    {
+      "label": "Membership and moderation",
+      "text": "Check access levels, onboarding, reporting, moderation controls, and the staffing needed to maintain a welcoming space as membership grows."
+    },
+    {
+      "label": "Continuity and portability",
+      "text": "Assess member data exports, content access, integrations, and what happens to the community if you change plans or platforms."
+    }
+  ],
+  "workflow": [
+    "Define who the community serves, what members gain from participating, and the boundaries of acceptable contributions.",
+    "Set up a small set of useful spaces and a welcome path, then invite an initial group to test participation.",
+    "Review unanswered questions and member feedback, adjust activities, and maintain clear moderation and ownership responsibilities."
+  ],
+  "faqs": [
+    {
+      "question": "How is a community different from a social media account?",
+      "answer": "A social account usually centers on publishing and responding around a public profile. A community emphasizes relationships and interaction among members, with participation structures and access choices shaped around a shared purpose."
+    },
+    {
+      "question": "Should I choose chat or discussion threads?",
+      "answer": "Choose according to conversation pace and how information will be reused. Chat supports quick exchanges, while organized threads can make slower participation and later retrieval easier for members with different schedules."
+    },
+    {
+      "question": "What should a new community include first?",
+      "answer": "Start with a clear purpose, welcome guidance, and a few valuable conversations or activities. Too many empty channels can make participation harder, so expand the structure in response to actual member needs."
+    },
+    {
+      "question": "Can a community replace customer support?",
+      "answer": "Peer advice can complement support, but members still need a clear route for account-specific or urgent issues. Distinguish community discussion from official support responsibilities and avoid leaving sensitive cases in public threads."
+    },
+    {
+      "question": "What should I check before moving an existing group?",
+      "answer": "Review member access, content exports, redirects or communication options, and the practical steps people must take to join. Plan how important resources and established relationships will remain accessible during the move."
+    }
+  ],
+  "related": [
+    {
+      "slug": "social-media",
+      "label": "Social Media"
+    },
+    {
+      "slug": "customer-support",
+      "label": "Customer Support"
+    },
+    {
+      "slug": "education",
+      "label": "Education"
+    }
+  ]
+}

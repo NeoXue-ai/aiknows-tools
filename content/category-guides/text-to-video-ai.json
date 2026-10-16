@@ -1,0 +1,76 @@
+{
+  "title": "Text to Video AI Tools for Prompt-Based Scene Creation",
+  "description": "Compare text-to-video AI tools for turning scene descriptions into clips, with guidance on prompts, motion control, shot consistency, and revision.",
+  "introduction": "Text-to-video tools generate visual sequences from written descriptions. A prompt may describe a subject, setting, action, camera direction, or atmosphere, depending on the tool. This category focuses on originating footage from language rather than animating a supplied image or cutting existing recordings. The most useful comparison is how a product handles a repeatable scene brief and its revisions, not whether one showcase clip happens to match your taste.",
+  "capabilities": [
+    "Translate a scene description into a generated moving visual sequence.",
+    "Specify subject actions and camera intentions through supported prompt controls.",
+    "Explore alternative compositions before selecting a direction for further refinement.",
+    "Export generated clips for sequencing, sound design, and final video editing."
+  ],
+  "audiences": [
+    {
+      "label": "Filmmakers and storytellers",
+      "text": "Visualize a scene or transition from a written brief before choosing footage for an edited sequence."
+    },
+    {
+      "label": "Campaign creatives",
+      "text": "Explore several treatments of one message, then select shots that accurately support the intended story."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Prompt adherence",
+      "text": "Compare the requested subject, action, and setting with the full clip, including changes that occur after the opening frame."
+    },
+    {
+      "label": "Shot control",
+      "text": "Check duration, aspect ratio, camera options, and any supported references rather than assuming natural-language instructions map to precise controls."
+    },
+    {
+      "label": "Iteration process",
+      "text": "Assess saved versions, reusable settings, and credit consumption so the team can refine a scene without losing useful work."
+    }
+  ],
+  "workflow": [
+    "Write a short shot brief with a clear subject, one principal action, setting, and intended visual outcome.",
+    "Generate a few distinct interpretations, then refine the most useful direction by changing one important instruction at a time.",
+    "Review the full clip and its place in the sequence, adding editing and audio work needed to complete the story."
+  ],
+  "faqs": [
+    {
+      "question": "What belongs in a text-to-video prompt?",
+      "answer": "Describe the subject, action, setting, and intended composition clearly. Add camera or atmosphere guidance when supported, but avoid piling several unrelated scenes into one request if you need a controllable result."
+    },
+    {
+      "question": "Does a longer prompt produce a better video?",
+      "answer": "Not necessarily. More detail can introduce conflicting instructions. Start with the essential shot, inspect what the tool follows, and add the details that materially affect the scene rather than expanding the prompt indiscriminately."
+    },
+    {
+      "question": "Can I generate an entire story in one request?",
+      "answer": "Some products assemble longer sequences, but check how scenes, characters, and transitions are controlled. For deliberate storytelling, separately reviewable shots can make continuity and revisions easier to manage."
+    },
+    {
+      "question": "How is text-to-video different from image-to-video?",
+      "answer": "Text-to-video originates the visual direction mainly from language. Image-to-video starts from a supplied still. A tool may combine both, but the starting reference and the control available over later frames differ."
+    },
+    {
+      "question": "How can I compare tools fairly for a scene?",
+      "answer": "Use the same representative brief and output needs, inspect complete clips, and record the retries required. Compare both the first result and the ability to make a targeted revision."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-video-generator",
+      "label": "AI Video Generator"
+    },
+    {
+      "slug": "image-to-video-ai",
+      "label": "Image to Video AI"
+    },
+    {
+      "slug": "ai-video-editor",
+      "label": "AI Video Editor"
+    }
+  ]
+}

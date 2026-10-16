@@ -1,0 +1,76 @@
+{
+  "title": "Education Tools for Courses, Learning and Teaching",
+  "description": "Explore education tools for courses, learning resources, teaching, and practice. Compare learning goals, feedback, learner access, and progress information.",
+  "introduction": "Education tools support the organization, delivery, or experience of learning. This broad category includes course platforms, resource creation, practice activities, and tools used by teachers or independent learners. Start with the learning goal and the people responsible for instruction rather than assuming an AI feature makes a product educationally useful. AI tutors emphasize guided individual practice, while AI education tools focus more specifically on assisted teaching and classroom content workflows.",
+  "capabilities": [
+    "Organize lessons and resources into a learning path suited to an audience.",
+    "Create or adapt supported teaching materials, exercises, and classroom activities.",
+    "Provide practice opportunities and feedback within the product’s available subject scope.",
+    "Track participation or progress using the information the platform makes available."
+  ],
+  "audiences": [
+    {
+      "label": "Teachers and course creators",
+      "text": "Build a lesson around an explicit objective, review generated materials, and choose activities that reveal what learners actually understand."
+    },
+    {
+      "label": "Independent learners",
+      "text": "Select resources and practice matched to your starting level, then use feedback and application tasks to identify gaps in understanding."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Learning purpose",
+      "text": "Distinguish explanation, practice, assessment, and course delivery. Choose the capability that addresses the specific learning task rather than feature breadth alone."
+    },
+    {
+      "label": "Feedback quality",
+      "text": "Check whether feedback explains mistakes and supports the next learning step instead of only displaying a score or a completed activity."
+    },
+    {
+      "label": "Learner access and governance",
+      "text": "Review accessibility, device requirements, age suitability, account permissions, and information handling for the actual learners who will use the tool."
+    }
+  ],
+  "workflow": [
+    "Define the learning objective, starting knowledge, and evidence that would demonstrate progress on the topic.",
+    "Trial a small lesson or practice sequence, checking accuracy, clarity, accessibility, and the usefulness of its feedback.",
+    "Observe learner difficulties and revise the materials or approach before expanding to a larger course or group."
+  ],
+  "faqs": [
+    {
+      "question": "How do I choose between a course platform and a tutor?",
+      "answer": "A course platform organizes and delivers a learning experience. A tutor emphasizes responsive explanation and practice. Choose based on whether your main need is course structure, individualized support, or a combination."
+    },
+    {
+      "question": "What makes feedback useful for learning?",
+      "answer": "Useful feedback connects an error to the underlying idea and gives the learner a next step. Test whether the tool helps explain misunderstandings rather than only revealing the correct answer."
+    },
+    {
+      "question": "Can generated lessons be used without teacher review?",
+      "answer": "Review accuracy, difficulty, examples, and alignment with the learning objective before use. Also check whether activities are appropriate for the learners and whether the materials represent the subject fairly."
+    },
+    {
+      "question": "Does completed activity prove that someone learned the topic?",
+      "answer": "Completion indicates participation, but understanding requires other evidence. Ask learners to explain reasoning or apply the idea in a different situation rather than relying only on time spent or finished screens."
+    },
+    {
+      "question": "What should schools check beyond teaching features?",
+      "answer": "Review learner access, accessibility, age requirements, permissions, and data handling. Confirm that the workflow fits institutional expectations and that teachers can inspect and correct material before it reaches students."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-education",
+      "label": "AI Education"
+    },
+    {
+      "slug": "ai-tutor",
+      "label": "AI Tutor"
+    },
+    {
+      "slug": "ai-answer",
+      "label": "AI Answer"
+    }
+  ]
+}

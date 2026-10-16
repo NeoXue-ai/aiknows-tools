@@ -1,0 +1,76 @@
+{
+  "title": "Chrome Extensions for Focused Browser Workflows",
+  "description": "Find Chrome extensions for browser-based writing, research, and productivity, with guidance on permissions, site compatibility, account access, and maintenance.",
+  "introduction": "Chrome extensions add capabilities to the browser or the pages you visit. They can support writing, research, capture, task management, or connections to another application. This category describes where the tool operates rather than one particular job. Begin with the browser task you want to improve, then check the extension’s permissions, supported sites, account requirements, and maintenance, because convenience inside a page can involve access beyond the text you selected.",
+  "capabilities": [
+    "Bring writing or research actions into the browser’s existing workflow.",
+    "Capture selected page information for an application or personal knowledge collection.",
+    "Access connected service features without switching to a separate workspace.",
+    "Adjust extension access and settings according to the task and supported sites."
+  ],
+  "audiences": [
+    {
+      "label": "Researchers and writers",
+      "text": "Capture references or use editing assistance while reviewing pages, checking what content is shared with connected services."
+    },
+    {
+      "label": "Browser-heavy teams",
+      "text": "Add a focused task shortcut to an existing application workflow without losing clarity about accounts, permissions, and support ownership."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Permission scope",
+      "text": "Read the requested permissions and site access, and check whether access can be limited to the pages the task requires."
+    },
+    {
+      "label": "Workflow compatibility",
+      "text": "Test the exact browser environment, websites, and account setup, including whether features depend on another subscription."
+    },
+    {
+      "label": "Maintenance and removal",
+      "text": "Inspect update history, support, export options, and how to revoke connected access when the extension is no longer needed."
+    }
+  ],
+  "workflow": [
+    "Identify one repeated browser task and the websites involved, then review the extension’s description, publisher, permissions, and account requirements.",
+    "Test the feature on ordinary material and inspect what is captured, changed, or sent to a connected service.",
+    "Keep only useful extensions, review their access periodically, and remove both browser permissions and unused account connections when retiring one."
+  ],
+  "faqs": [
+    {
+      "question": "Is a Chrome extension the same as a web application?",
+      "answer": "No. An extension operates through the browser and may interact with pages, while a web application is a destination you visit. An extension can also be a companion to a separately subscribed service."
+    },
+    {
+      "question": "What should I check about extension permissions?",
+      "answer": "Read which sites and browser information the extension can access, then compare that scope with its purpose. Where supported, limit access and inspect account connections instead of assuming a small toolbar button has narrow permissions."
+    },
+    {
+      "question": "Does installing an extension include access to its connected service?",
+      "answer": "Not always. Some features require an account or paid plan elsewhere. Check the complete setup and billing relationship before treating the extension’s installation price as the cost of the workflow."
+    },
+    {
+      "question": "Will an extension work on every website?",
+      "answer": "Do not assume so. Test the sites and page types you actually use, including editing fields or restricted environments. A feature that works on one page may need different support on another."
+    },
+    {
+      "question": "What should I do when I stop using an extension?",
+      "answer": "Remove it and review connected accounts or retained data. Uninstalling the browser component may not end a separate subscription or revoke every service connection created during setup."
+    }
+  ],
+  "related": [
+    {
+      "slug": "productivity-tools",
+      "label": "Productivity Tools"
+    },
+    {
+      "slug": "ai-grammar-checker",
+      "label": "AI Grammar Checker"
+    },
+    {
+      "slug": "ai-search-engine",
+      "label": "AI Search Engine"
+    }
+  ]
+}

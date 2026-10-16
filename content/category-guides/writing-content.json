@@ -1,0 +1,80 @@
+{
+  "title": "AI Writing and Content Tools for Drafting and Editing",
+  "description": "Explore AI writing and content tools for drafting, revising, translating, and publishing. Compare editorial control, source handling, and team workflows.",
+  "introduction": "Writing and content tools support the work between an initial idea and a finished piece of text. This hub covers drafting, rewriting, translation, summaries, and editorial assistance across articles, marketing copy, and everyday documents. Start with the stage that consumes your time: generating a first draft requires different controls from correcting an approved document. Tools focused on search visibility belong alongside this workflow, while dedicated SEO audits have their own category.",
+  "capabilities": [
+    "Turn briefs and outlines into editable drafts for specific channels.",
+    "Revise structure, tone, and wording while preserving the intended message.",
+    "Condense source material into summaries that support subsequent editorial work.",
+    "Manage recurring content tasks through reusable instructions and collaborative review."
+  ],
+  "audiences": [
+    {
+      "label": "Content teams",
+      "text": "Develop an article from a brief, assign revisions, and keep a human editor responsible for the final publication."
+    },
+    {
+      "label": "Independent writers",
+      "text": "Use assistance for outlines or difficult passages while retaining your own argument, examples, and recognizable style."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Editorial control",
+      "text": "Look for targeted rewrites, version history, and the ability to accept individual suggestions without replacing the entire draft."
+    },
+    {
+      "label": "Source fidelity",
+      "text": "For factual writing, assess whether references remain accessible and whether quotations and claims can be traced to supplied material."
+    },
+    {
+      "label": "Publishing fit",
+      "text": "Choose exports and collaboration features that fit your document system, approval process, and intended publishing channels."
+    }
+  ],
+  "workflow": [
+    "Define the audience, purpose, source material, and required format before requesting an outline or draft.",
+    "Review the argument and evidence first, then use focused revisions to improve clarity and voice.",
+    "Check facts, permissions, formatting, and links before moving the approved text into your publishing workflow."
+  ],
+  "faqs": [
+    {
+      "question": "Which writing task should I automate first?",
+      "answer": "Choose a repeatable stage with clear review criteria, such as outlining from an approved brief or shortening an existing draft. Keep research judgments and publication approval with a responsible editor."
+    },
+    {
+      "question": "How do writing tools differ from grammar checkers?",
+      "answer": "Writing assistants may develop or restructure text from instructions. Grammar checkers focus on correcting and polishing existing sentences. Some products combine both, so inspect the specific editing controls offered."
+    },
+    {
+      "question": "Can these tools write reliable factual articles?",
+      "answer": "They can help organize and express supplied information, but fluent wording does not establish accuracy. Verify claims against reliable sources and inspect references before treating a draft as publishable."
+    },
+    {
+      "question": "What matters when maintaining a brand voice?",
+      "answer": "Provide approved examples, terminology, audience context, and words to avoid. Then assess consistency across several realistic pieces rather than judging voice from a single short demonstration alone."
+    },
+    {
+      "question": "Should SEO requirements come before the draft?",
+      "answer": "Include search intent and relevant topics in the brief when useful. Develop a coherent answer for readers, then review discoverability and structure without forcing unrelated keywords into the text."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-writer",
+      "label": "AI Writer"
+    },
+    {
+      "slug": "ai-grammar-checker",
+      "label": "AI Grammar Checker"
+    },
+    {
+      "slug": "ai-seo-tools",
+      "label": "AI SEO Tools"
+    },
+    {
+      "slug": "ai-summarizer",
+      "label": "AI Summarizer"
+    }
+  ]
+}

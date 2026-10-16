@@ -1,0 +1,76 @@
+{
+  "title": "AI Content Detectors for Careful Editorial Review",
+  "description": "Compare AI content detectors for reviewing text and other supported material. Assess input scope, evidence, error handling, and the limits of detection scores.",
+  "introduction": "AI detectors estimate whether supported content may have been generated or altered using AI. Many focus on text, while some address other media. A detection result is a signal for investigation, not proof of authorship or a complete record of how something was created. This category centers on reviewing possible origin; AI Humanizer concerns rewriting, and AI Grammar Checker focuses on language quality. Match any detector to the content type and review process you actually need.",
+  "capabilities": [
+    "Assess supported content for patterns associated with AI generation or other targeted alterations.",
+    "Present available scores, highlighted passages, or explanations to support a broader review process.",
+    "Process eligible text or media within the product’s documented format and length requirements.",
+    "Record assessment outputs for comparison with source material and other available contextual evidence."
+  ],
+  "audiences": [
+    {
+      "label": "Editorial reviewers",
+      "text": "Use detector output to identify questions about submitted material, then examine sources, drafts, and author explanations."
+    },
+    {
+      "label": "Evaluation teams",
+      "text": "Test candidate detectors with known-origin samples before deciding whether their outputs support a defined review task."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Applicable scope",
+      "text": "Check supported media, languages, length requirements, and the conditions under which evaluation claims were measured."
+    },
+    {
+      "label": "Error behavior",
+      "text": "Test both human-created and generated samples, paying attention to incorrect flags and missed generated content."
+    },
+    {
+      "label": "Review process",
+      "text": "Require clear interpretation, contextual evidence, and a way to challenge results before consequential decisions are made."
+    }
+  ],
+  "workflow": [
+    "Define the review question and gather representative samples whose creation process is known.",
+    "Evaluate scores alongside actual errors, input constraints, and the evidence reviewers need to interpret them.",
+    "Use results within a documented review process and revisit performance when content or generation methods change."
+  ],
+  "faqs": [
+    {
+      "question": "Does a detector score prove that someone used AI?",
+      "answer": "No. A score reflects the tool’s assessment under its own method and limitations. Use relevant drafts, sources, and discussion to investigate concerns rather than treating a numerical result as a conclusive authorship judgment."
+    },
+    {
+      "question": "Can human-written material be flagged incorrectly?",
+      "answer": "Yes. Incorrect flags are possible, which is why evaluation should include known human-written samples similar to the material being reviewed. Consider the consequences of those errors before using results in decisions."
+    },
+    {
+      "question": "Why can different detectors disagree about the same text?",
+      "answer": "They may use different methods, training data, thresholds, and input requirements. Compare what each output means and test representative material; agreement or disagreement alone does not establish the true creation history."
+    },
+    {
+      "question": "Is AI detection the same as plagiarism checking?",
+      "answer": "No. Plagiarism checking typically looks for overlap with other material, while AI detection estimates possible generation origin. A text can raise one concern without the other, so choose the review method accordingly."
+    },
+    {
+      "question": "What makes an evaluation more useful than a single accuracy claim?",
+      "answer": "Use samples that reflect the intended language, genre, and editing conditions, including known human and generated material. Examine missed detections and incorrect flags separately, then assess whether the results actually help reviewers."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-humanizer",
+      "label": "AI Humanizer"
+    },
+    {
+      "slug": "ai-grammar-checker",
+      "label": "AI Grammar Checker"
+    },
+    {
+      "slug": "ai-writer",
+      "label": "AI Writer"
+    }
+  ]
+}

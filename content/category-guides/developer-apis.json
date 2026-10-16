@@ -1,0 +1,80 @@
+{
+  "title": "Developer APIs for AI Features and App Integrations",
+  "description": "Explore developer APIs for adding AI and external services to applications. Compare endpoint behavior, documentation, access controls, reliability, and costs.",
+  "introduction": "Developer APIs provide programmable access to functionality or data that another application can use. This category covers integration choices across model access, media generation, external services, and supporting platforms. The important unit is the documented operation your software must call, not the breadth of a vendor’s interface. Choose a specialized category such as AI Text API or AI Image API when the required modality is already clear, and Developer Tools for utilities used primarily by engineers.",
+  "capabilities": [
+    "Call documented operations from an application using supported authentication and request formats.",
+    "Send supported inputs and receive structured data, generated content, or operation results.",
+    "Connect external capabilities with existing application logic and user-facing product workflows.",
+    "Observe integration behavior through available usage reporting, errors, limits, and operational controls."
+  ],
+  "audiences": [
+    {
+      "label": "Product engineers",
+      "text": "Add a defined external capability while handling credentials, failures, and the resulting user experience."
+    },
+    {
+      "label": "Platform teams",
+      "text": "Evaluate a shared integration layer with consistent access policies, usage visibility, and clear ownership of dependencies."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Contract and documentation",
+      "text": "Check schemas, examples, versioning practices, and whether responses support the exact operation you require."
+    },
+    {
+      "label": "Operational fit",
+      "text": "Test latency, request limits, retries, error handling, and behavior during partial or complete failure."
+    },
+    {
+      "label": "Data and economics",
+      "text": "Review input retention, regional requirements, permissions, billing units, and costs at representative usage volumes."
+    }
+  ],
+  "workflow": [
+    "Define the operation, data exchanged, expected usage, and the behavior users should see when it fails.",
+    "Build a small integration using documented requests and test both successful and unsuccessful responses.",
+    "Validate access controls and costs, then establish monitoring and a process for provider changes."
+  ],
+  "faqs": [
+    {
+      "question": "How do I compare APIs that advertise similar capabilities?",
+      "answer": "Use the same representative inputs and application requirements. Compare the actual response contract, quality, latency, limits, and failure behavior, rather than treating similar marketing descriptions as evidence of interchangeable integrations."
+    },
+    {
+      "question": "Is an SDK the same as an API?",
+      "answer": "An SDK is a language-specific package that helps software use an API. Check both the underlying operations and the package’s maintenance, since a convenient client library does not remove integration responsibilities."
+    },
+    {
+      "question": "Why does API versioning matter?",
+      "answer": "Applications depend on request and response behavior remaining predictable. Review how changes, deprecations, and migrations are communicated so your team can update integrations before an endpoint or response contract changes."
+    },
+    {
+      "question": "What happens when an external API is unavailable?",
+      "answer": "Your application needs a deliberate response, such as a clear error, a queued retry, or a supported fallback. Test that behavior and avoid silently presenting incomplete or stale results as successful output."
+    },
+    {
+      "question": "What should a cost estimate include?",
+      "answer": "Include normal usage, retries, development traffic, storage, and any separate charges for outputs or related services. Use the provider’s actual billing units and assess how costs change as product usage grows."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-text-api",
+      "label": "AI Text API"
+    },
+    {
+      "slug": "ai-image-api",
+      "label": "AI Image API"
+    },
+    {
+      "slug": "developer-tools",
+      "label": "Developer Tools"
+    },
+    {
+      "slug": "code-development",
+      "label": "Code & Development"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "title": "AI Analytics Tools for Marketing Data and Decisions",
+  "description": "Explore AI analytics tools for marketing reports, data questions, and insight workflows. Compare metric definitions, source connections, and traceability.",
+  "introduction": "AI analytics tools help people explore business or marketing data and communicate what it shows. Some emphasize conversational questions, while others assist with dashboards, explanations, or recurring reports. The category is useful when interpreting existing measurements is the main task; it is different from generating campaign content or collecting every possible data source. Evaluate whether a tool makes calculations understandable and preserves context, especially when data comes from several systems with different definitions.",
+  "capabilities": [
+    "Ask questions about connected datasets using supported natural language interfaces.",
+    "Summarize changes in metrics and highlight segments worth investigating further.",
+    "Build reports or visualizations from supported tables and connected data sources.",
+    "Share recurring findings with links to underlying data and metric definitions."
+  ],
+  "audiences": [
+    {
+      "label": "Marketing analysts",
+      "text": "Investigate campaign performance across channels, confirm metric definitions, and prepare a report that explains the evidence behind a proposed action."
+    },
+    {
+      "label": "Business operators",
+      "text": "Use accessible data questions to monitor operational trends, then involve an analyst when an unexpected result needs deeper investigation."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Metric consistency",
+      "text": "Check how the tool handles date ranges, attribution, currencies, duplicates, and calculated fields across the systems you intend to combine."
+    },
+    {
+      "label": "Calculation visibility",
+      "text": "Prefer inspectable queries or calculation steps when the result affects budgets, targets, or other consequential decisions."
+    },
+    {
+      "label": "Access and freshness",
+      "text": "Review permission boundaries, refresh schedules, and which connected data is available to each user before sharing reports broadly."
+    }
+  ],
+  "workflow": [
+    "Select a business question and define the relevant metrics, time window, and source of truth.",
+    "Connect a limited dataset and compare the tool’s result with a known calculation or existing report.",
+    "Investigate surprising findings, document assumptions, and share a decision-oriented explanation with supporting evidence."
+  ],
+  "faqs": [
+    {
+      "question": "Can an analytics assistant explain why a metric changed?",
+      "answer": "It can suggest patterns and possible explanations from available data. A pattern does not establish a cause, so verify explanations against campaign changes, operational context, and any missing information."
+    },
+    {
+      "question": "How is AI analytics different from a spreadsheet helper?",
+      "answer": "A spreadsheet helper works primarily within tables and formulas. An analytics product may connect multiple sources, manage metric definitions, and distribute reports, though the actual scope varies by product."
+    },
+    {
+      "question": "Do I need clean data before using these tools?",
+      "answer": "You need enough understanding to recognize missing values, inconsistent definitions, and duplicate records. Assistance can make analysis easier, but it cannot make an unreliable underlying dataset dependable by itself."
+    },
+    {
+      "question": "What makes a generated chart trustworthy?",
+      "answer": "Check the source, aggregation, filters, date range, and axis choices. Make sure the visualization answers the stated question and that readers can inspect definitions rather than relying only on a generated explanation."
+    },
+    {
+      "question": "Should everyone receive the same analytics access?",
+      "answer": "Access should reflect responsibilities and data sensitivity. Check whether row, field, and workspace permissions carry through to conversational answers and exports, rather than assuming dashboard restrictions cover every output."
+    }
+  ],
+  "related": [
+    {
+      "slug": "business-analytics",
+      "label": "Business & Analytics"
+    },
+    {
+      "slug": "ai-spreadsheet",
+      "label": "AI Spreadsheet"
+    },
+    {
+      "slug": "ai-marketing",
+      "label": "AI Marketing"
+    }
+  ]
+}

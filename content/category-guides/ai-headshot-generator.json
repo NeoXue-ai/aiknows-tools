@@ -1,0 +1,76 @@
+{
+  "title": "AI Headshot Generators for Professional Profile Photos",
+  "description": "Explore AI headshot generators for profile portraits and team photos. Compare likeness, input requirements, style control, privacy terms, and usable exports.",
+  "introduction": "AI headshot generators create styled portraits intended for profiles, biographies, and professional introductions, often using uploaded photographs as references. The goal is a useful representation of the person, so likeness and appropriate presentation matter more than visual novelty. This category differs from general avatars, which may deliberately change identity or use fictional characters. Evaluate the full process, including suitable source photos, review of generated variations, and handling of personal images after processing.",
+  "capabilities": [
+    "Create portrait variations from supported reference photographs of a real person.",
+    "Explore professional clothing, lighting, and background styles offered by the service.",
+    "Produce coordinated profile images for individuals or supported team workflows.",
+    "Select and download portrait outputs at the available sizes and formats."
+  ],
+  "audiences": [
+    {
+      "label": "Individual professionals",
+      "text": "Prepare a profile portrait that resembles you, fits the platform’s framing, and presents clothing and settings appropriate to your work."
+    },
+    {
+      "label": "Team coordinators",
+      "text": "Organize an optional portrait workflow with consistent style guidance, clear consent, and individual approval before publishing staff images."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Likeness and detail",
+      "text": "Inspect facial features, skin texture, hair, glasses, jewelry, and clothing details rather than choosing solely by overall polish."
+    },
+    {
+      "label": "Input and review process",
+      "text": "Check reference photo requirements, turnaround expectations, selection limits, and whether revisions or regeneration fit your schedule."
+    },
+    {
+      "label": "Personal image handling",
+      "text": "Read upload retention, deletion, training, and team access terms before submitting identifiable photographs, especially on behalf of other people."
+    }
+  ],
+  "workflow": [
+    "Choose recent, representative source photos and confirm you have permission to upload and use them.",
+    "Generate suitable styles, then review each candidate for likeness, anatomical details, clothing, and background inconsistencies.",
+    "Crop and export the approved portrait for its destination, and follow the service’s available image deletion controls."
+  ],
+  "faqs": [
+    {
+      "question": "How many source photographs do I need?",
+      "answer": "Requirements vary by service. Follow the specific instructions for quantity, angles, lighting, and image quality rather than assuming one selfie or a large mixed collection will produce better results."
+    },
+    {
+      "question": "How can I judge whether a headshot looks like me?",
+      "answer": "Compare several recognizable features with recent photographs and ask someone familiar with you to review it. A polished portrait is less useful if its face or overall appearance misrepresents you."
+    },
+    {
+      "question": "Can a generated portrait replace every professional photograph?",
+      "answer": "Suitability depends on context and the organization using it. A profile image may allow more flexibility than identification, regulated submissions, or documentary uses, where specific photograph requirements should govern the choice."
+    },
+    {
+      "question": "What should a team check before uploading staff photos?",
+      "answer": "Confirm each person’s agreement, the intended publication locations, retention and deletion options, and who can access outputs. Give individuals a chance to approve their own portrait before it is used."
+    },
+    {
+      "question": "How are headshots different from AI avatars?",
+      "answer": "Headshots usually aim for a recognizable professional portrait of a real person. Avatars can be stylized, fictional, or animated representations, so their editing controls and acceptable identity changes may differ."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-avatar-generator",
+      "label": "AI Avatar Generator"
+    },
+    {
+      "slug": "ai-photo-editor",
+      "label": "AI Photo Editor"
+    },
+    {
+      "slug": "ai-background-remover",
+      "label": "AI Background Remover"
+    }
+  ]
+}

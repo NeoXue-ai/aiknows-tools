@@ -1,0 +1,80 @@
+{
+  "title": "AI Music Generators for Songs, Scores, and Audio Ideas",
+  "description": "Explore AI music generators for songs, instrumentals, and soundtrack ideas, with guidance on creative control, editing, exports, and usage rights.",
+  "introduction": "AI music generators create musical material from prompts, lyrics, references, or supported composition controls. Outputs may range from short instrumentals to songs with vocals, depending on the product. This category concerns musical creation rather than speech narration or voice replication. Begin with the role the music must serve: a song idea, a background cue, and an editable production asset have different requirements for structure, timing, and creative control.",
+  "capabilities": [
+    "Explore musical directions using descriptions of mood, instrumentation, and intended use.",
+    "Develop song or instrumental drafts with the supported structure and input controls.",
+    "Revise selected passages or versions where the product provides editing features.",
+    "Export available audio assets for arrangement, mixing, and the intended release."
+  ],
+  "audiences": [
+    {
+      "label": "Songwriters",
+      "text": "Explore melodies, arrangements, or lyric treatments, then develop selected ideas through a deliberate writing and production process."
+    },
+    {
+      "label": "Video and podcast creators",
+      "text": "Prepare music cues that fit the pacing and duration of a project, checking the applicable usage terms."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Musical control",
+      "text": "Check how the tool handles structure, instrumentation, lyrics, and targeted changes rather than judging only the general sound."
+    },
+    {
+      "label": "Editing and delivery",
+      "text": "Confirm export formats, separate tracks where required, and the workflow for bringing a result into your audio editor."
+    },
+    {
+      "label": "Rights and account terms",
+      "text": "Read the rules for commercial use, uploaded references, and outputs made under each plan before choosing material for release."
+    }
+  ],
+  "workflow": [
+    "Describe the music’s purpose, approximate structure, mood, and constraints, including whether vocals or lyrics are needed.",
+    "Compare several drafts and revise the strongest direction, keeping notes on arrangement and performance changes.",
+    "Edit and mix the selected audio for the project, then verify exports, credits, and the terms applicable to that output."
+  ],
+  "faqs": [
+    {
+      "question": "Can an AI music generator create both songs and instrumentals?",
+      "answer": "Some tools support both, while others specialize in particular outputs. Check the actual controls for vocals, lyrics, and structure, then compare a sample that matches the musical task you intend to complete."
+    },
+    {
+      "question": "What should I check before using generated music commercially?",
+      "answer": "Read the terms for the specific product, plan, inputs, and creation date. Confirm permitted uses and retain relevant records; a downloadable audio file alone does not establish unrestricted rights."
+    },
+    {
+      "question": "Why do separate audio tracks matter?",
+      "answer": "Separate tracks can make it easier to rebalance or replace parts during production. If that flexibility matters, check which elements are exported separately rather than assuming a finished stereo download supports detailed mixing."
+    },
+    {
+      "question": "Can I change only one section of a generated song?",
+      "answer": "Revision features vary. Test the specific change you need, such as a lyric or arrangement adjustment, and listen for unintended changes elsewhere before relying on a tool for an ongoing production."
+    },
+    {
+      "question": "How is music generation different from voice generation?",
+      "answer": "Music generation focuses on musical structure and performance, possibly including sung vocals. Voice generation primarily produces spoken delivery. A song with vocals does not establish the same narration or voice-control features as a speech tool."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-voice-generator",
+      "label": "AI Voice Generator"
+    },
+    {
+      "slug": "ai-music-api",
+      "label": "AI Music API"
+    },
+    {
+      "slug": "ai-video-editor",
+      "label": "AI Video Editor"
+    },
+    {
+      "slug": "image-video",
+      "label": "Image & Video"
+    }
+  ]
+}

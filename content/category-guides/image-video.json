@@ -1,0 +1,80 @@
+{
+  "title": "AI Image and Video Tools for Creative Production",
+  "description": "Explore image and video tools for generating visuals, editing footage, and preparing creative assets. Compare input methods, output controls, and workflows.",
+  "introduction": "Image and video tools help turn creative ideas, existing photographs, and recorded footage into visual assets. This hub covers generation, editing, restoration, animation, and related production tasks rather than a single medium or output format. Start with the material you already have and the deliverable you need. A still image generator, a timeline editor, and a product photography tool solve different problems, even when their interfaces share a prompt box.",
+  "capabilities": [
+    "Generate visual concepts from written descriptions or supplied reference images.",
+    "Revise existing photographs through selective edits, cleanup, and background changes.",
+    "Assemble recorded footage into sequences with captions and other supporting elements.",
+    "Prepare visual assets for delivery through resizing, enhancement, and format conversion."
+  ],
+  "audiences": [
+    {
+      "label": "Creative teams",
+      "text": "Develop several visual directions, choose a consistent treatment, and refine approved assets for a campaign."
+    },
+    {
+      "label": "Video producers",
+      "text": "Separate shot generation from assembly, then combine usable clips with recorded material and reviewed sound."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Starting material",
+      "text": "Choose between text prompts, existing images, and footage before comparing production features."
+    },
+    {
+      "label": "Editorial control",
+      "text": "Check whether you can revise a region, individual shot, or timeline without rebuilding everything."
+    },
+    {
+      "label": "Delivery requirements",
+      "text": "Inspect export dimensions, file formats, usage terms, and compatibility with your final publishing channel."
+    }
+  ],
+  "workflow": [
+    "Define the audience, visual brief, source assets, and required delivery formats.",
+    "Create a small set of candidates and inspect continuity, details, and editing flexibility.",
+    "Refine selected assets, review permissions and accuracy, then export for the intended channel."
+  ],
+  "faqs": [
+    {
+      "question": "Should I start with an image or video generator?",
+      "answer": "Start with the final deliverable. Static illustrations and campaign concepts fit image generation; motion sequences need video generation or editing. An image can also serve as a reference for later animation."
+    },
+    {
+      "question": "Can one tool handle the whole production process?",
+      "answer": "Some products combine several stages, but coverage varies. Check the actual editing, audio, caption, and export controls you need before assuming a generation interface can replace your production workflow."
+    },
+    {
+      "question": "How do photo editing and image generation differ?",
+      "answer": "Photo editing begins with an existing image and aims to change selected aspects. Generation creates new visual content, though reference images and selective generation can blur that boundary."
+    },
+    {
+      "question": "What should I inspect before publishing a visual?",
+      "answer": "Review subjects, lettering, product details, continuity, and any misleading changes. Confirm that your inputs and the selected service terms permit the intended use, especially for client and commercial work."
+    },
+    {
+      "question": "How should I compare results fairly?",
+      "answer": "Use the same brief and representative source material, then assess usable outputs after revision. Include the time spent fixing details and preparing exports, rather than judging attractive previews alone."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-image-generator",
+      "label": "AI Image Generator"
+    },
+    {
+      "slug": "ai-video-editor",
+      "label": "AI Video Editor"
+    },
+    {
+      "slug": "ai-product-photography",
+      "label": "AI Product Photography"
+    },
+    {
+      "slug": "ai-photo-editor",
+      "label": "AI Photo Editor"
+    }
+  ]
+}

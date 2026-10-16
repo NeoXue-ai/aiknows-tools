@@ -1,0 +1,76 @@
+{
+  "title": "Fintech Tools for Payments and Financial Operations",
+  "description": "Explore fintech tools for payments, spending, banking connections, and financial administration, with guidance on fees, records, access, and reconciliation.",
+  "introduction": "Fintech tools apply software to financial services and the administration around money. This category can include payments, banking connections, spending tools, and finance workflows, with different products serving individuals or businesses. It is broader than financial analysis or spreadsheet assistance. Identify whether you need to move money, organize records, or investigate financial information before comparing products, because those activities involve different responsibilities, account requirements, and practical evaluation criteria.",
+  "capabilities": [
+    "Coordinate supported payments or spending activities with their associated business records.",
+    "Bring transaction information into a workflow for review and reconciliation.",
+    "Apply available access and approval controls to financial administration tasks.",
+    "Connect financial tools with accounting or reporting systems where integrations support it."
+  ],
+  "audiences": [
+    {
+      "label": "Finance operations",
+      "text": "Track a transaction from request through approval and reconciliation, keeping the responsible owner and supporting records visible."
+    },
+    {
+      "label": "Independent businesses",
+      "text": "Compare payment or spending workflows around actual customers, suppliers, currencies, and administrative requirements."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Service and eligibility",
+      "text": "Confirm the exact financial service, supported locations, account requirements, and any restrictions relevant to the intended user."
+    },
+    {
+      "label": "Full cost structure",
+      "text": "Read transaction, subscription, currency-conversion, withdrawal, and other applicable charges rather than comparing one prominent headline rate."
+    },
+    {
+      "label": "Records and control",
+      "text": "Inspect approvals, access removal, transaction exports, reconciliation, and the process for investigating an unexpected or disputed result."
+    }
+  ],
+  "workflow": [
+    "Define the financial task, participants, locations, and records needed, separating money movement from information and reporting requirements.",
+    "Review the applicable service terms and fees, then evaluate the workflow with a suitably limited, inspectable scenario.",
+    "Confirm reconciliation, access controls, and exception ownership before making the tool part of a recurring financial process."
+  ],
+  "faqs": [
+    {
+      "question": "How do I distinguish a payment tool from a finance dashboard?",
+      "answer": "A payment tool can initiate or process supported money movement. A dashboard may only display information. Check the actual service and permissions so viewing balances is not confused with handling a transaction."
+    },
+    {
+      "question": "Which fees should I compare when evaluating a fintech product?",
+      "answer": "List the actions your workflow requires, then inspect the applicable subscription and transaction charges, conversion costs, and other service fees. Compare the complete scenario rather than a single advertised rate."
+    },
+    {
+      "question": "Does an accounting integration remove reconciliation work?",
+      "answer": "Not automatically. Check which records sync, when they appear, how changes are handled, and who resolves mismatches. A connected account can transfer information without establishing that every entry is complete or correct."
+    },
+    {
+      "question": "What should a small business check about team access?",
+      "answer": "Review who can view records, approve requests, move money, and change account settings. Confirm how permissions are removed when responsibilities change and how the team can investigate an unexpected action."
+    },
+    {
+      "question": "Can AI-generated financial summaries replace checking transaction records?",
+      "answer": "Use summaries to locate issues or questions, then inspect the underlying records. Confirm dates, currencies, and definitions before acting, especially when a summary combines information from several accounts or systems."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-spreadsheet",
+      "label": "AI Spreadsheet"
+    },
+    {
+      "slug": "business-analytics",
+      "label": "Business & Analytics"
+    },
+    {
+      "slug": "automation",
+      "label": "Automation"
+    }
+  ]
+}

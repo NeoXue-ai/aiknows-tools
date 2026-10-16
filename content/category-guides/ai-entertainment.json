@@ -1,0 +1,76 @@
+{
+  "title": "AI Entertainment Tools for Characters and Creative Play",
+  "description": "Explore AI entertainment tools for fictional characters, interactive stories, and playful media. Compare interaction style, content controls, privacy, and access.",
+  "introduction": "AI entertainment tools offer playful experiences such as fictional conversations, interactive stories, personality-driven responses, or creative media. Their purpose is the experience itself rather than completing a business task or providing authoritative information. Choose according to the kind of interaction you enjoy and the controls you need over content, history, and sharing. General chatbots may overlap with this category, while dedicated creative tools focus more on producing an asset you can edit or publish.",
+  "capabilities": [
+    "Interact with fictional characters or personas through supported conversational experiences.",
+    "Explore branching stories or playful scenarios with generated responses and variations.",
+    "Create entertaining text, images, or audio within the product’s available modes.",
+    "Customize available character details and interaction settings for a preferred experience."
+  ],
+  "audiences": [
+    {
+      "label": "Interactive story fans",
+      "text": "Explore a fictional scenario, guide the direction of the conversation, and use reset or history controls when the story no longer fits."
+    },
+    {
+      "label": "Creative hobbyists",
+      "text": "Develop playful character ideas or short scenes, then select and revise material before sharing it with an audience."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Interaction style",
+      "text": "Decide whether you want character conversation, a guided game, story creation, or media generation, since these experiences require different controls."
+    },
+    {
+      "label": "Content and access controls",
+      "text": "Check age requirements, content settings, reporting options, and whether public characters or shared spaces can expose users to unexpected material."
+    },
+    {
+      "label": "History and privacy",
+      "text": "Review what conversations are stored, who can view shared creations, and which deletion or export options apply to your account."
+    }
+  ],
+  "workflow": [
+    "Choose the kind of entertainment you want and review the product’s access, content, and privacy settings.",
+    "Try a short interaction to assess responsiveness, character consistency, and the controls available for changing direction.",
+    "Keep personal details limited, review anything you intend to share, and manage saved history according to your preferences."
+  ],
+  "faqs": [
+    {
+      "question": "Are character responses factual information about a real person?",
+      "answer": "Treat character responses as generated performance or fiction unless independently verified. A persona may sound confident or familiar while producing invented details, so entertainment dialogue should not establish facts about real people."
+    },
+    {
+      "question": "How is AI entertainment different from a general assistant?",
+      "answer": "Entertainment tools emphasize character, play, and an engaging interaction. General assistants emphasize helping with tasks. The same conversational technology may appear in both, but their intended use and controls can differ."
+    },
+    {
+      "question": "Can I control where an interactive story goes?",
+      "answer": "Some products provide character settings, scenario prompts, editing, or reset controls. Test how these work in practice, because a suggested direction does not necessarily guarantee consistent behavior throughout a long interaction."
+    },
+    {
+      "question": "What should I check before letting a child use a tool?",
+      "answer": "Review the stated age requirements, content settings, public sharing features, and supervision options. Evaluate the actual experience rather than assuming a friendly character or playful design establishes suitability for every age."
+    },
+    {
+      "question": "Can I publish generated stories or character media?",
+      "answer": "Check the product’s usage terms and any rights attached to source material or depicted characters. Review the output before sharing, including personal information, unintended references, and whether the result fits your audience."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-chatbot",
+      "label": "AI Chatbot"
+    },
+    {
+      "slug": "ai-avatar-generator",
+      "label": "AI Avatar Generator"
+    },
+    {
+      "slug": "ai-art-generator",
+      "label": "AI Art Generator"
+    }
+  ]
+}

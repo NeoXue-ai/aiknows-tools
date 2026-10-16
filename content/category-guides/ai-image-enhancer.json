@@ -1,0 +1,80 @@
+{
+  "title": "AI Image Enhancement Tools for Upscaling and Repair",
+  "description": "Explore AI image enhancers for enlarging photos, reducing noise, and restoring clarity. Compare detail preservation, batch handling, and export controls.",
+  "introduction": "AI image enhancers improve an existing image for a particular viewing or delivery requirement. Common tasks include enlarging a small photograph, reducing visible noise, and making damaged or soft images easier to use. Enhancement can also introduce inferred detail, so a sharper result is not proof of greater factual accuracy. This category focuses on image quality and restoration; broader composition changes belong in AI Photo Editor, while new visual creation belongs in AI Image Generator.",
+  "capabilities": [
+    "Increase image dimensions to prepare smaller source files for larger displays.",
+    "Reduce visible noise while balancing texture retention and the strength of smoothing.",
+    "Improve perceived sharpness in supported photographs and other existing image types.",
+    "Process multiple images with consistent settings when batch enhancement is available."
+  ],
+  "audiences": [
+    {
+      "label": "Photo archive teams",
+      "text": "Prepare older images for publication while retaining originals and documenting significant restoration choices."
+    },
+    {
+      "label": "Online store operators",
+      "text": "Normalize supplied product image sizes and inspect material textures before uploading enhanced catalog assets."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Source suitability",
+      "text": "Test representative faces, text, textures, and compression artifacts rather than relying on demonstration images."
+    },
+    {
+      "label": "Detail preservation",
+      "text": "Compare the result with the original at intended viewing size and inspect invented or altered features."
+    },
+    {
+      "label": "Processing workflow",
+      "text": "Check upload limits, batch controls, supported formats, and whether local processing is available when needed."
+    }
+  ],
+  "workflow": [
+    "Keep the original file and define the target dimensions or quality problem to address.",
+    "Apply a restrained enhancement setting, then compare important details against the source.",
+    "Export a reviewed copy for delivery and retain a clear connection to the unmodified original."
+  ],
+  "faqs": [
+    {
+      "question": "Does upscaling recover the original missing detail?",
+      "answer": "Upscaling produces a larger image, and some methods infer plausible details. It cannot establish what the original scene contained, so compare important features and avoid treating reconstructed details as verified evidence."
+    },
+    {
+      "question": "Should every photo use the strongest enhancement setting?",
+      "answer": "No. Strong settings can smooth textures, change faces, or exaggerate edges. Choose the least aggressive setting that meets the delivery requirement, and inspect the result at its intended display size."
+    },
+    {
+      "question": "Can enhancement fix text inside an image?",
+      "answer": "Some tools improve the appearance of lettering, but small or damaged characters can change. Check every important word against a reliable source, especially when the image contains labels, documents, or product information."
+    },
+    {
+      "question": "How is restoration different from ordinary photo editing?",
+      "answer": "Restoration aims to make an existing image more usable while respecting its source. General editing may intentionally change colors, objects, or composition; a product can offer both, so review the specific operation."
+    },
+    {
+      "question": "What makes a useful batch enhancement test?",
+      "answer": "Include varied subjects, source sizes, and image defects from your actual collection. Review difficult cases individually and assess processing time, export handling, and consistency before applying the same settings to every file."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-photo-editor",
+      "label": "AI Photo Editor"
+    },
+    {
+      "slug": "ai-image-generator",
+      "label": "AI Image Generator"
+    },
+    {
+      "slug": "ai-product-photography",
+      "label": "AI Product Photography"
+    },
+    {
+      "slug": "image-video",
+      "label": "Image & Video"
+    }
+  ]
+}

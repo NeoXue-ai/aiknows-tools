@@ -500,7 +500,7 @@ export const SUBCATEGORIES: Subcategory[] = [
   },
   {
     slug: "ios",
-    name: "Ios",
+    name: "iOS",
     legacySlug: "productivity",
     description: "iOS and Apple-platform tools.",
   },

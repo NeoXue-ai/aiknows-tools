@@ -1,0 +1,80 @@
+{
+  "title": "Freelancer Tools for Client Work and Business Administration",
+  "description": "Find freelancer tools for proposals, projects, scheduling, invoices, and delivery, with guidance on client access, repeatable administration, and handoffs.",
+  "introduction": "Freelancer tools support the practical business of working independently: winning work, agreeing a scope, delivering it, and keeping administration organized. This category spans proposals, scheduling, project tracking, communication, and payment-related workflows. It is broader than a single creative or technical tool used to produce the deliverable. Begin with the client lifecycle and identify the handoff or repeated task that most often creates delays, confusion, or unpaid administrative effort.",
+  "capabilities": [
+    "Prepare proposals and project records that make the agreed scope visible.",
+    "Coordinate deadlines, appointments, and client feedback across active engagements.",
+    "Track invoices and related administration using the supported business workflow.",
+    "Package deliverables and preserve records for repeat work or later questions."
+  ],
+  "audiences": [
+    {
+      "label": "Independent professionals",
+      "text": "Connect inquiries, proposals, delivery milestones, and invoicing so commitments remain visible across several clients."
+    },
+    {
+      "label": "Small service teams",
+      "text": "Standardize recurring client administration while keeping ownership and client access clear as collaborators join a project."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Client lifecycle fit",
+      "text": "Choose around the weak handoff, such as proposal acceptance or feedback collection, rather than replacing every existing tool at once."
+    },
+    {
+      "label": "Client experience",
+      "text": "Check external access, document presentation, mobile usability, and whether clients need another account to review or approve work."
+    },
+    {
+      "label": "Business continuity",
+      "text": "Inspect exports, record ownership, integrations, and recurring costs so essential client history remains usable as your practice changes."
+    }
+  ],
+  "workflow": [
+    "Map an engagement from first inquiry through agreement, delivery, and payment, identifying the point where information is repeatedly lost.",
+    "Trial one tool on a bounded engagement, checking both your administration and the experience a client receives.",
+    "Keep the useful records and templates, refine the handoffs, and remove duplicate steps before expanding the setup to more clients."
+  ],
+  "faqs": [
+    {
+      "question": "Do freelancers need an all-in-one business platform?",
+      "answer": "Not necessarily. An integrated platform can reduce repeated data entry, while focused tools may suit established work habits. Compare your actual client lifecycle and the effort of connecting or migrating records."
+    },
+    {
+      "question": "Which administrative task should I improve first?",
+      "answer": "Choose a recurring problem you can describe, such as missed feedback, unclear scope, or delayed invoicing. Evaluate whether the tool changes that workflow rather than merely adding another dashboard to maintain."
+    },
+    {
+      "question": "How should I evaluate tools clients will use?",
+      "answer": "Test the client’s steps directly: opening a proposal, booking time, reviewing work, or approving a deliverable. Check account requirements, presentation, and access boundaries before introducing the tool during a live engagement."
+    },
+    {
+      "question": "Can AI write a proposal from a short prompt?",
+      "answer": "It can help draft one, but the professional must verify scope, assumptions, deliverables, and commercial terms. A persuasive proposal is not useful if it commits you to work you did not intend to provide."
+    },
+    {
+      "question": "Why do exports and record ownership matter for freelancers?",
+      "answer": "Your client history, agreements, and delivery records may outlast a subscription. Check how to retrieve useful files and data so changing tools does not make past work difficult to explain or maintain."
+    }
+  ],
+  "related": [
+    {
+      "slug": "project-management",
+      "label": "Project Management"
+    },
+    {
+      "slug": "productized-services",
+      "label": "Productized Services"
+    },
+    {
+      "slug": "ai-document-generator",
+      "label": "AI Document Generator"
+    },
+    {
+      "slug": "productivity",
+      "label": "Productivity & Automation"
+    }
+  ]
+}

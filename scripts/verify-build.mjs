@@ -11,6 +11,8 @@ import { DEFAULT_QUERY } from "../features/catalog/query.ts";
 import { browsePath } from "../features/catalog/urls.ts";
 import { siteUrl, siteName } from "../lib/site.ts";
 import { buildTitle, deriveMetaDescription } from "../features/catalog/seo.ts";
+import { CATEGORY_GUIDES } from "../features/catalog/category-guides.ts";
+import { categoryPageMetadata } from "../features/catalog/category-metadata.ts";
 const dist = process.env.NEXT_DIST_DIR || ".next";
 const snapshot = JSON.parse(readFileSync(".catalog/catalog.json", "utf8"));
 const tools = await getPublicTools();
@@ -188,6 +190,115 @@ for (const path of [
     `Obsolete public description in ${path}`,
   );
 }
+const emptyCategorySlugs = subcategories
+  .filter((category) => category.count === 0)
+  .map((category) => category.slug);
+const categoryTitles = new Set();
+const categoryDescriptions = new Set();
+for (const category of [...categories, ...subcategories]) {
+  const path = `/categories/${category.slug}`;
+  const guide = CATEGORY_GUIDES[category.slug];
+  assert.ok(guide, `Missing category guide ${category.slug}`);
+  const count = tools.filter(
+    (tool) =>
+      tool.primary_category === category.slug ||
+      tool.subcategory === category.slug,
+  ).length;
+  const source = html(path);
+  const expected = categoryPageMetadata({
+    slug: category.slug,
+    name: category.name,
+    count,
+    isCategory: categories.some((item) => item.slug === category.slug),
+  });
+  assert.equal(
+    title(source),
+    `${expected.title} | ${siteName}`,
+    `Wrong category title on ${path}`,
+  );
+  assert.equal(
+    meta(source, "description"),
+    expected.description,
+    `Wrong category description on ${path}`,
+  );
+  for (const key of ["og:description", "twitter:description"])
+    assert.equal(
+      meta(source, key),
+      expected.description,
+      `Wrong social description on ${path}`,
+    );
+  assert.ok(
+    !categoryTitles.has(title(source)),
+    `Repeated category title on ${path}`,
+  );
+  assert.ok(
+    !categoryDescriptions.has(expected.description),
+    `Repeated category description on ${path}`,
+  );
+  categoryTitles.add(title(source));
+  categoryDescriptions.add(expected.description);
+  assert.ok(
+    source.includes(`data-category-guide="${category.slug}"`),
+    `Missing authored landing page on ${path}`,
+  );
+  const article = unescape(
+    source.match(
+      /<section\b[^>]*id="category-guide"[^>]*>([\s\S]*?)<\/section>/,
+    )?.[1] ?? "",
+  );
+  for (const text of [
+    guide.introduction,
+    ...guide.capabilities,
+    ...guide.workflow,
+    ...guide.audiences.map((item) => item.text),
+    ...guide.criteria.map((item) => item.text),
+    ...guide.faqs.flatMap((item) => [item.question, item.answer]),
+  ])
+    assert.ok(
+      article.includes(text),
+      `Missing visible category content on ${path}`,
+    );
+  assert.ok(
+    source.includes(`<link rel="canonical" href="${siteUrl}${path}"`),
+    `Wrong category canonical on ${path}`,
+  );
+  const visibleRelated = guide.related.filter(
+    (link) => !emptyCategorySlugs.includes(link.slug),
+  );
+  if (count > 0)
+    assert.ok(
+      visibleRelated.length >= 3,
+      `Sparse related category navigation on ${path}`,
+    );
+  for (const link of visibleRelated)
+    assert.ok(
+      article.includes(`href="/categories/${link.slug}"`),
+      `Missing authored related link ${link.slug} on ${path}`,
+    );
+
+  for (const emptySlug of emptyCategorySlugs)
+    assert.ok(
+      !source.includes(`href="/categories/${emptySlug}"`),
+      `Empty category link ${emptySlug} on ${path}`,
+    );
+  assert.equal(
+    meta(source, "robots"),
+    count > 0 ? "index, follow" : "noindex, follow",
+    `Wrong category index policy on ${path}`,
+  );
+  const blocks = [
+    ...source.matchAll(
+      /<script\b[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g,
+    ),
+  ].map((match) => JSON.parse(match[1]));
+  const collection = blocks.find(
+    (block) => block["@type"] === "CollectionPage",
+  );
+  assert.ok(collection, `Missing collection schema on ${path}`);
+  assert.equal(collection.url, `${siteUrl}${path}`);
+  assert.equal(collection.description, expected.description);
+  assert.equal(collection.mainEntity["@type"], "ItemList");
+}
 const lists = [
   { base: "/tools", scope: {} },
   ...categories.map((c) => ({
@@ -212,6 +323,11 @@ for (const list of lists) {
     });
     const path = browsePath(list.base, page);
     const source = html(path);
+    if (list.base.startsWith("/categories/") && page > 1)
+      assert.ok(
+        !source.includes('id="category-guide"'),
+        `Repeated category article on ${path}`,
+      );
     assert.deepEqual(
       cardSlugs(source),
       expected.items.map((t) => t.slug),
@@ -252,6 +368,18 @@ for (const path of ["/search", "/blog"])
 const sitemap = readFileSync(join(dist, "server/app/sitemap.xml.body"), "utf8");
 assert.ok(!sitemap.includes(`${siteUrl}/blog<`), "Empty blog in sitemap");
 assert.ok(!sitemap.includes(`${siteUrl}/search<`), "Search in sitemap");
+for (const category of [...categories, ...subcategories]) {
+  const count = tools.filter(
+    (tool) =>
+      tool.primary_category === category.slug ||
+      tool.subcategory === category.slug,
+  ).length;
+  assert.equal(
+    sitemap.includes(`<loc>${siteUrl}/categories/${category.slug}</loc>`),
+    count > 0,
+    `Wrong category sitemap membership ${category.slug}`,
+  );
+}
 const toolUrls = [...sitemap.matchAll(/<loc>[^<]+\/tools\/([^<]+)<\/loc>/g)]
   .map((m) => m[1])
   .filter((slug) => !slug.startsWith("page/"));

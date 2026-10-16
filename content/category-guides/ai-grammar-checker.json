@@ -1,0 +1,76 @@
+{
+  "title": "AI Grammar Checkers for Clear, Consistent Writing",
+  "description": "Compare AI grammar checkers for corrections, clarity, tone, and style, with guidance on language varieties, meaning preservation, privacy, and editing.",
+  "introduction": "AI grammar checkers examine existing text and suggest changes to grammar, spelling, punctuation, clarity, or style. Some also provide broader rewrites and tone guidance. This category starts from words you have already written, unlike tools primarily used to generate a first draft. Choose according to the language variety, writing context, and degree of intervention you need, keeping the author responsible for accepting changes that preserve the intended meaning.",
+  "capabilities": [
+    "Identify possible grammar, spelling, and punctuation issues in existing writing.",
+    "Suggest clearer phrasing while allowing the author to inspect individual changes.",
+    "Apply available style and terminology guidance to recurring writing tasks.",
+    "Provide feedback within the editors or document workflows a product supports."
+  ],
+  "audiences": [
+    {
+      "label": "Professional writers",
+      "text": "Check a near-final draft for language issues while preserving deliberate voice, nuance, and specialist terminology."
+    },
+    {
+      "label": "Multilingual teams",
+      "text": "Review writing in the required language variety and maintain shared preferences for terminology and recurring style decisions."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Language and context",
+      "text": "Test the actual language variety and document type, including specialist terms that should not be automatically replaced."
+    },
+    {
+      "label": "Intervention control",
+      "text": "Compare targeted corrections with broad rewrites, and check whether suggestions explain or reveal the change in meaning."
+    },
+    {
+      "label": "Workflow and handling",
+      "text": "Inspect supported editors, access to document content, team settings, and the ability to review changes before acceptance."
+    }
+  ],
+  "workflow": [
+    "Choose a representative passage with ordinary sentences, specialist terms, and deliberate style choices, then set the relevant language preferences.",
+    "Review suggestions individually, accepting corrections while rejecting changes that alter facts, voice, or necessary terminology.",
+    "Read the complete revised passage aloud or in context, checking coherence rather than assuming all accepted suggestions work together."
+  ],
+  "faqs": [
+    {
+      "question": "How is a grammar checker different from an AI writer?",
+      "answer": "A grammar checker primarily reviews existing text, while an AI writer can generate or substantially restructure it. Products may overlap, so compare how much they change and how clearly the author can review each suggestion."
+    },
+    {
+      "question": "Should I accept every correction a checker proposes?",
+      "answer": "No. A suggestion can conflict with intended meaning, specialist usage, or a deliberate stylistic choice. Inspect the sentence in context and keep the author’s purpose as the standard for accepting changes."
+    },
+    {
+      "question": "Does language support include every regional variety?",
+      "answer": "Check the specific varieties and settings available, then test your own writing. Support for a language does not establish that every regional spelling, professional convention, or style preference is handled equally."
+    },
+    {
+      "question": "Can grammar checking verify factual accuracy?",
+      "answer": "Grammar feedback concerns language, not proof that a claim is true. Verify names, numbers, citations, and subject-specific statements separately, even when the corrected sentence reads smoothly."
+    },
+    {
+      "question": "What should teams standardize before enabling shared writing feedback?",
+      "answer": "Agree on the language variety, terminology, and style choices that matter. Keep exceptions visible, and review recurring suggestions so shared settings support the team’s writing rather than repeatedly overriding necessary context."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-writer",
+      "label": "AI Writer"
+    },
+    {
+      "slug": "ai-humanizer",
+      "label": "AI Humanizer"
+    },
+    {
+      "slug": "ai-translator",
+      "label": "AI Translator"
+    }
+  ]
+}

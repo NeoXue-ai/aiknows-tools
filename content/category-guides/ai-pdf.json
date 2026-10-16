@@ -1,0 +1,80 @@
+{
+  "title": "AI PDF Tools for Reading, Extraction and Document Chat",
+  "description": "Explore AI PDF tools for document questions, summaries, and extraction. Compare page coverage, source references, scanned inputs, tables, and document handling.",
+  "introduction": "AI PDF tools help people work with the contents of PDF documents through questions, summaries, extraction, or navigation. The category centers on understanding and using an existing document rather than creating a new one. A PDF may contain selectable text, scanned images, tables, and complex page layouts, so support for the file format alone says little about coverage. Choose according to the document task and the evidence you need to verify the result.",
+  "capabilities": [
+    "Ask questions about supported uploaded documents through a conversational interface.",
+    "Summarize sections or extract passages relevant to a defined reading task.",
+    "Locate supporting pages or references when the product provides traceable answers.",
+    "Process supported tables, scanned pages, or multiple files within documented limits."
+  ],
+  "audiences": [
+    {
+      "label": "Knowledge workers",
+      "text": "Find relevant clauses or sections in a long document, then read the original passage before preparing a decision or response."
+    },
+    {
+      "label": "Students and researchers",
+      "text": "Use focused document questions to navigate reports, keeping page references and checking tables or quotations directly against the original file."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Content coverage",
+      "text": "Test representative scanned pages, columns, tables, and appendices, checking which elements the tool reads and which may be omitted."
+    },
+    {
+      "label": "Answer grounding",
+      "text": "Prefer usable page references and accessible passages when an answer must be verified or quoted in another document."
+    },
+    {
+      "label": "Document handling",
+      "text": "Review file and page limits, retention terms, sharing permissions, and whether the workflow supports your expected number of documents."
+    }
+  ],
+  "workflow": [
+    "Choose a representative document and identify specific questions whose answers you can verify in the source.",
+    "Upload the file and compare responses with the relevant pages, noting omissions or incorrect interpretations.",
+    "Use reviewed extracts in your work, retaining the original file and enough reference detail for later verification."
+  ],
+  "faqs": [
+    {
+      "question": "Can every PDF tool read a scanned document?",
+      "answer": "No. A scanned PDF contains page images and may need text recognition. Confirm scanned-page support explicitly and test actual documents rather than assuming an upload accepted by the service was fully read."
+    },
+    {
+      "question": "Is document chat a replacement for reading the source?",
+      "answer": "It can help locate relevant material and reduce navigation time. Read the underlying passage when wording, context, exceptions, or a consequential interpretation matters, particularly for quotations and important decisions."
+    },
+    {
+      "question": "How should I test answers about tables?",
+      "answer": "Ask questions with known answers that require the correct rows, columns, units, and footnotes. Compare the response with the original table, because readable prose can conceal an incorrect interpretation of structure."
+    },
+    {
+      "question": "What changes when I upload several PDFs together?",
+      "answer": "Check whether answers distinguish documents and preserve their individual references. Similar titles, conflicting versions, or repeated passages can create confusion, so use a small known collection during evaluation."
+    },
+    {
+      "question": "Can these tools edit the PDF itself?",
+      "answer": "Some include editing or export features, but reading and document chat do not imply page editing. Choose a dedicated editor when the main task is changing layout, annotations, forms, or the underlying file."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-ocr",
+      "label": "AI OCR"
+    },
+    {
+      "slug": "ai-summarizer",
+      "label": "AI Summarizer"
+    },
+    {
+      "slug": "ai-document-generator",
+      "label": "AI Document Generator"
+    },
+    {
+      "slug": "productivity",
+      "label": "Productivity & Automation"
+    }
+  ]
+}

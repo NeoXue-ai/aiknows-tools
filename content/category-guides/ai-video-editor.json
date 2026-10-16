@@ -1,0 +1,76 @@
+{
+  "title": "AI Video Editing Tools for Cuts, Captions and Delivery",
+  "description": "Explore AI video editors for assembling footage, refining cuts, and preparing captions. Compare timeline control, source handling, collaboration, and exports.",
+  "introduction": "AI video editors help shape existing footage into a finished sequence. Depending on the product, assistance may include finding moments, editing through a transcript, generating captions, or adapting a sequence for another format. This category centers on editorial decisions and assembly rather than creating every shot from a prompt. Use AI Video Generator for new generated clips, and Image to Video AI when animating a still image is the main starting task.",
+  "capabilities": [
+    "Arrange source clips into sequences with adjustable cuts, timing, and transitions.",
+    "Find or revise spoken sections through supported transcript-based editing and search.",
+    "Prepare captions and inspect their wording, timing, placement, and visual presentation.",
+    "Adapt reviewed sequences to supported aspect ratios and delivery formats."
+  ],
+  "audiences": [
+    {
+      "label": "Interview and podcast producers",
+      "text": "Find useful passages, assemble a clear narrative, and review captions against the original recording."
+    },
+    {
+      "label": "Marketing video teams",
+      "text": "Create shorter versions from approved footage while keeping required messages, framing, and brand elements intact."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Editing precision",
+      "text": "Check control over cuts, audio timing, captions, and changes that automatic suggestions get wrong."
+    },
+    {
+      "label": "Source compatibility",
+      "text": "Test your actual footage formats, project size, upload workflow, and handling of separate audio tracks."
+    },
+    {
+      "label": "Delivery workflow",
+      "text": "Evaluate export quality, caption files, project handoffs, and collaboration features needed for final approval."
+    }
+  ],
+  "workflow": [
+    "Organize footage, define the audience and story, and identify required scenes or statements.",
+    "Build and refine a sequence, reviewing suggested cuts and captions in the context of playback.",
+    "Check audio, framing, wording, and final exports before sharing the approved version."
+  ],
+  "faqs": [
+    {
+      "question": "How is an AI video editor different from a generator?",
+      "answer": "An editor primarily selects, arranges, and changes footage you provide. A generator creates new clips from prompts or references. Some products combine both, so compare the specific stage you need to improve."
+    },
+    {
+      "question": "Can transcript editing replace watching the video?",
+      "answer": "A transcript helps navigate speech, but it does not show facial expressions, visual continuity, or all audio details. Watch the resulting sequence to catch awkward cuts and changes in meaning."
+    },
+    {
+      "question": "Are automatic captions ready to publish?",
+      "answer": "Review names, technical terms, punctuation, speaker changes, and timing against the recording. Also check readability in the intended format, since correct words can still be difficult to follow when poorly placed."
+    },
+    {
+      "question": "What should I test for short social clips?",
+      "answer": "Use real source footage and check whether the crop keeps important subjects visible. Review the opening context, caption placement, audio, and ending so the short version makes sense without the full recording."
+    },
+    {
+      "question": "Can I move an edited project into another application?",
+      "answer": "That depends on project export support and the destination application. Distinguish an editable project handoff from a rendered video file, and test the transfer with captions, cuts, and audio included."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-video-generator",
+      "label": "AI Video Generator"
+    },
+    {
+      "slug": "image-to-video-ai",
+      "label": "Image to Video AI"
+    },
+    {
+      "slug": "speech-to-text-ai",
+      "label": "Speech to Text AI"
+    }
+  ]
+}

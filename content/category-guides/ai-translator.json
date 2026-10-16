@@ -1,0 +1,76 @@
+{
+  "title": "AI Translation Tools for Multilingual Text Workflows",
+  "description": "Explore AI translation tools for documents, websites, and everyday text. Compare language pairs, terminology controls, layout handling, and review options.",
+  "introduction": "AI translation tools convert meaning from one language into another for reading, communication, and publication. Depending on the product, inputs may include pasted text, documents, or connected content systems. Translation is different from rewriting in the same language and from transcribing speech into text. Choose around the source and target language pair, subject matter, and review process, rather than a broad language count that may hide uneven support across formats.",
+  "capabilities": [
+    "Translate supplied text between supported source and target language pairs.",
+    "Apply terminology preferences to keep recurring product and domain terms consistent.",
+    "Process supported documents while retaining useful structure for subsequent human review.",
+    "Compare original passages with translated versions to identify omissions and ambiguity."
+  ],
+  "audiences": [
+    {
+      "label": "Localization teams",
+      "text": "Translate product content with approved terminology, then route regional versions to qualified reviewers."
+    },
+    {
+      "label": "International operations",
+      "text": "Understand incoming correspondence and prepare clear replies while checking names, dates, and contractual meaning."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Language pair",
+      "text": "Test the exact direction and regional variant you need with representative source passages."
+    },
+    {
+      "label": "Context and terminology",
+      "text": "Check glossaries, surrounding context, and treatment of terms that should remain untranslated."
+    },
+    {
+      "label": "Document handling",
+      "text": "Evaluate tables, formatting, file limits, and review exports using a real document sample."
+    }
+  ],
+  "workflow": [
+    "Prepare clear source text and identify protected names, terminology, and target regional variants.",
+    "Translate a representative sample and compare meaning, formatting, and missing content with the original.",
+    "Have an appropriate reviewer resolve uncertain passages before delivering or publishing the translation."
+  ],
+  "faqs": [
+    {
+      "question": "Is a long supported language list enough to choose?",
+      "answer": "No. Test your specific source and target pair, writing style, and subject matter. A product may support many languages while offering different quality or document features for each pair."
+    },
+    {
+      "question": "Can translation tools preserve document formatting?",
+      "answer": "Some support formatted files, but results depend on the format and layout. Test tables, footnotes, text direction, and embedded elements before committing a document-heavy workflow to one service."
+    },
+    {
+      "question": "How is translation different from transcription?",
+      "answer": "Transcription converts spoken audio into written text, usually in the same language. Translation changes the language of the content; some products combine these steps, but they remain separate capabilities."
+    },
+    {
+      "question": "When is human review especially useful?",
+      "answer": "Use qualified review when wording affects rights, safety, reputation, or a published brand voice. Reviewers should examine meaning in context, rather than only smoothing the translated text for fluency."
+    },
+    {
+      "question": "How can teams keep terminology consistent?",
+      "answer": "Maintain a shared glossary with approved translations, context, and exceptions. Check whether the tool applies it to your input format, and review recurring terms when source content or product names change."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-writer",
+      "label": "AI Writer"
+    },
+    {
+      "slug": "speech-to-text-ai",
+      "label": "Speech to Text AI"
+    },
+    {
+      "slug": "ai-content-creator",
+      "label": "AI Content Creator"
+    }
+  ]
+}

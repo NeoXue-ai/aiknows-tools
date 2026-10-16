@@ -1,0 +1,84 @@
+{
+  "title": "AI Website Builders for Prompted Pages and Sites",
+  "description": "Compare AI website builders for turning briefs into editable sites. Evaluate page controls, responsive layouts, content management, forms, and publishing options.",
+  "introduction": "AI website builders turn a written brief, reference, or guided setup into a starting website that can be edited and published. They are useful for exploring layouts and reducing initial page setup, but the generated result still needs content, functional checks, and maintenance. This category emphasizes assisted site generation. Website Builders includes conventional visual construction, while AI App Builder is more relevant when users need application behavior, stored data, and complex interactive workflows.",
+  "capabilities": [
+    "Generate an initial site structure and page layout from a supplied brief.",
+    "Revise supported page sections, styling, and content through visual or conversational controls.",
+    "Prepare responsive page versions for review across different screen sizes.",
+    "Publish supported sites with available domain, hosting, form, and content management options."
+  ],
+  "audiences": [
+    {
+      "label": "Small business owners",
+      "text": "Create a service site, replace draft claims with verified information, and test inquiry forms before launch."
+    },
+    {
+      "label": "Design and marketing teams",
+      "text": "Prototype a campaign page, refine hierarchy and copy, and hand off an approved version for publishing."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Editing flexibility",
+      "text": "Check whether you can make precise layout and content changes after the initial generation."
+    },
+    {
+      "label": "Site requirements",
+      "text": "Test navigation, forms, content updates, integrations, and any capabilities essential to the actual business."
+    },
+    {
+      "label": "Ownership and maintenance",
+      "text": "Compare hosting arrangements, export options, domain handling, recurring costs, and responsibilities for ongoing updates."
+    }
+  ],
+  "workflow": [
+    "Write a brief listing audiences, pages, real content, required actions, and brand references.",
+    "Generate and refine the site, replacing draft information and checking layouts at representative screen sizes.",
+    "Test links, forms, accessibility, and publishing settings before connecting the final domain."
+  ],
+  "faqs": [
+    {
+      "question": "Can a generated website be launched without editing?",
+      "answer": "Treat the first version as a draft. Confirm business details, claims, links, imagery, and forms, then review the site on different screen sizes before making it the public destination for customers."
+    },
+    {
+      "question": "When should I choose an app builder instead?",
+      "answer": "Choose an app-oriented tool when the main need is user accounts, stored records, or interactive business logic. A website builder may support integrations, but that does not establish support for your application workflow."
+    },
+    {
+      "question": "Can I move the website to another host later?",
+      "answer": "Portability depends on export support and the services the site relies on. Test what you can take with you, including content, styling, forms, and dynamic features, before committing to the platform."
+    },
+    {
+      "question": "What should I check on mobile screens?",
+      "answer": "Review navigation, text size, spacing, image crops, forms, and important calls to action. A layout can resize automatically yet still be difficult to read or use at the intended device size."
+    },
+    {
+      "question": "What costs should a comparison include?",
+      "answer": "Include the builder subscription, hosting, domain, required integrations, form or commerce features, and ongoing editing needs. Compare the configuration you will actually publish rather than a free preview alone."
+    }
+  ],
+  "related": [
+    {
+      "slug": "website-builders",
+      "label": "Website Builders"
+    },
+    {
+      "slug": "ai-app-builder",
+      "label": "AI App Builder"
+    },
+    {
+      "slug": "no-code",
+      "label": "No Code"
+    },
+    {
+      "slug": "code-development",
+      "label": "Code & Development"
+    },
+    {
+      "slug": "ai-code-generator",
+      "label": "AI Code Generator"
+    }
+  ]
+}

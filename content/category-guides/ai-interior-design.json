@@ -1,0 +1,76 @@
+{
+  "title": "AI Interior Design Tools for Room Ideas and Planning",
+  "description": "Explore AI interior design tools for room concepts, furniture arrangements, and visual briefs, with guidance on measurements and practical design review.",
+  "introduction": "AI interior design tools help visualize possible changes to a room using photos, prompts, plans, or style preferences. They can support discussions about atmosphere, furniture, color, and layout before a project moves into detailed design. Treat the category as a space for concepts and planning aids. A convincing room image does not establish that the dimensions, materials, available products, or construction details are suitable for the real space.",
+  "capabilities": [
+    "Explore room styles using photos, descriptions, or supported floor-plan inputs.",
+    "Compare proposed furniture arrangements and color directions before making purchases.",
+    "Create visual references that communicate preferences to clients or design collaborators.",
+    "Review concepts against the room’s actual measurements, constraints, and intended activities."
+  ],
+  "audiences": [
+    {
+      "label": "Homeowners",
+      "text": "Clarify preferred styles and furniture ideas before discussing a brief or purchasing items for a room."
+    },
+    {
+      "label": "Design professionals",
+      "text": "Use quick concept variations to uncover client preferences, then develop the selected direction with measured project information."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Spatial control",
+      "text": "Check whether existing doors, windows, dimensions, and fixed elements can be retained rather than freely changed by generation."
+    },
+    {
+      "label": "Decision usefulness",
+      "text": "Distinguish mood imagery from tools that support editable plans, product references, or other information needed for the next project step."
+    },
+    {
+      "label": "Revision workflow",
+      "text": "Test targeted changes and compare versions so one requested adjustment does not unexpectedly replace the rest of the room."
+    }
+  ],
+  "workflow": [
+    "Record room measurements, fixed elements, budget boundaries, and the activities the space must support before generating ideas.",
+    "Compare a few distinct directions and note which elements are preferences versus details that require verification.",
+    "Translate the chosen concept into a practical brief, checking dimensions, products, and professional requirements before acting on it."
+  ],
+  "faqs": [
+    {
+      "question": "Can an AI room image serve as a construction plan?",
+      "answer": "A concept image alone should not be treated as measured design documentation. Confirm dimensions and project requirements through the appropriate design process before using the image to direct purchases, installation, or construction work."
+    },
+    {
+      "question": "How should I prepare a room photo?",
+      "answer": "Use a clear image that shows the space and fixed features, then record measurements separately. Explain what must remain, what may change, and the purpose of the room in your instructions."
+    },
+    {
+      "question": "What is the difference between style visualization and layout planning?",
+      "answer": "Style visualization communicates an atmosphere or appearance. Layout planning concerns how the space and furnishings function together. Check which task the product supports instead of inferring planning accuracy from a realistic render."
+    },
+    {
+      "question": "Can I buy the furniture shown in a generated room?",
+      "answer": "Only rely on a product match when the tool supplies a verifiable item reference. Generated furniture may be conceptual, and even a real listing still needs dimensions, availability, and suitability checked."
+    },
+    {
+      "question": "How can designers use these tools with clients?",
+      "answer": "Use variations to discuss preferences and clarify the brief, labeling them as concepts. Keep approved constraints and measured information separately so attractive details do not accidentally become unverified project instructions."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-image-generator",
+      "label": "AI Image Generator"
+    },
+    {
+      "slug": "ai-3d-model-generator",
+      "label": "AI 3D Model Generator"
+    },
+    {
+      "slug": "ai-graphic-design",
+      "label": "AI Graphic Design"
+    }
+  ]
+}

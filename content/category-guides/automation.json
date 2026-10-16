@@ -1,0 +1,80 @@
+{
+  "title": "Automation Tools for App Connections and Routine Work",
+  "description": "Explore automation tools for connecting applications and recurring processes. Compare triggers, integration depth, error handling, permissions, and maintenance.",
+  "introduction": "Automation tools connect events and actions so routine work can proceed without someone repeating each step manually. A workflow might move a record, create a task, or notify an owner when a defined condition is met. This category emphasizes configured processes and integrations rather than open-ended delegation to an agent. The most useful choice depends on the systems involved, the exceptions that occur, and who will maintain the workflow after its initial setup.",
+  "capabilities": [
+    "Start workflows from supported events, schedules, or manually initiated triggers.",
+    "Move and transform selected information between connected applications and services.",
+    "Route records through defined conditions, approvals, or available branching controls.",
+    "Monitor workflow runs and recover from failures using supported operational tools."
+  ],
+  "audiences": [
+    {
+      "label": "Operations teams",
+      "text": "Replace repetitive updates between established systems, retaining clear field ownership and a way to resolve records that fail to synchronize."
+    },
+    {
+      "label": "Small business owners",
+      "text": "Connect a narrow administrative process such as intake and task creation, with notifications that make exceptions visible to the responsible person."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Integration depth",
+      "text": "Verify the exact triggers, actions, fields, and authentication options you need rather than counting an application logo as complete support."
+    },
+    {
+      "label": "Failure behavior",
+      "text": "Assess retries, duplicate prevention, error visibility, and recovery options, especially when a workflow sends messages or changes important records."
+    },
+    {
+      "label": "Maintainability and cost",
+      "text": "Check how usage is counted, who can edit workflows, and whether another team member can understand and repair the configuration."
+    }
+  ],
+  "workflow": [
+    "Map the manual process, identify its source of truth, and list expected exceptions before building connections.",
+    "Test a small workflow with representative records, checking field mapping, duplicate handling, and permissions.",
+    "Enable monitoring and assign an owner, then review failures and usage as the process grows or connected applications change."
+  ],
+  "faqs": [
+    {
+      "question": "How does automation differ from an AI agent?",
+      "answer": "Automation typically follows configured triggers and rules. An agent can choose actions based on context. A platform may include both, so examine which steps are predictable and where judgment is delegated."
+    },
+    {
+      "question": "What should I automate first?",
+      "answer": "Choose a repeatable task with a clear input, result, and exception path. Starting with a bounded internal update makes it easier to verify behavior before adding customer-facing or irreversible actions."
+    },
+    {
+      "question": "Does an integration listing mean every feature is supported?",
+      "answer": "No. Check the exact actions, triggers, fields, and account requirements. A connector that creates a basic record may not support attachments, custom fields, deletion events, or the updates your process needs."
+    },
+    {
+      "question": "How can I avoid duplicate records or messages?",
+      "answer": "Use stable identifiers and check the platform’s available duplicate handling and retry behavior. Test interrupted runs and repeated events so recovery does not accidentally repeat actions already completed successfully."
+    },
+    {
+      "question": "Why does a workflow need ongoing ownership?",
+      "answer": "Application permissions, fields, account plans, and business processes change. A named owner should monitor failures, update connections, and review whether the automation still produces the intended result over time."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-workflow",
+      "label": "AI Workflow"
+    },
+    {
+      "slug": "ai-agent",
+      "label": "AI Agent"
+    },
+    {
+      "slug": "productivity-tools",
+      "label": "Productivity Tools"
+    },
+    {
+      "slug": "productivity",
+      "label": "Productivity & Automation"
+    }
+  ]
+}

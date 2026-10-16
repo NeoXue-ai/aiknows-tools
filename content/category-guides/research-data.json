@@ -1,0 +1,76 @@
+{
+  "title": "Research and Data Tools for Evidence-Based Work",
+  "description": "Explore research and data tools for finding sources, organizing knowledge, analyzing information, and checking evidence before making decisions.",
+  "introduction": "Research and data tools help people move from a question to material they can examine and use. This hub includes source discovery, research assistants, document analysis, knowledge organization, and data workflows. It covers collecting and interpreting evidence rather than simply producing a polished answer. The right starting point depends on whether you lack sources, need to structure existing material, or want to test a claim against data you already hold.",
+  "capabilities": [
+    "Discover relevant documents, datasets, or company information for a defined question.",
+    "Organize sources and notes so findings retain their original context.",
+    "Extract or analyze information with traceable references and explicit assumptions.",
+    "Compare evidence across sources before turning findings into a decision."
+  ],
+  "audiences": [
+    {
+      "label": "Researchers and analysts",
+      "text": "Build a source collection, record competing explanations, and verify the material supporting a written conclusion."
+    },
+    {
+      "label": "Business teams",
+      "text": "Investigate a market or operating question using internal records and external evidence, documenting gaps before committing resources."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Evidence access",
+      "text": "Check whether the tool reaches the sources you need, including licensed material, internal documents, or the relevant publication period."
+    },
+    {
+      "label": "Traceability",
+      "text": "Inspect citations, source locations, extraction context, and exports so another person can reconstruct the reasoning."
+    },
+    {
+      "label": "Analytical fit",
+      "text": "Choose document reading, structured data analysis, or knowledge management according to the actual shape of your research material."
+    }
+  ],
+  "workflow": [
+    "Write the question and define what would count as useful evidence, including exclusions and important time boundaries.",
+    "Collect a varied set of sources, retain their context, and inspect extraction or analysis on representative examples.",
+    "Draft a conclusion that separates observations, interpretations, and unresolved questions, then verify the evidence supporting each important claim."
+  ],
+  "faqs": [
+    {
+      "question": "How is an AI research tool different from a search engine?",
+      "answer": "Search helps locate material; research tools may also organize, extract, compare, or synthesize it. Those extra steps can save effort, but the resulting interpretation still needs to be checked against the underlying evidence."
+    },
+    {
+      "question": "Are citations enough to trust an AI answer?",
+      "answer": "No. Open the source and confirm that it supports the specific claim, covers the relevant period, and has not been quoted out of context. A link can be real while the interpretation is mistaken."
+    },
+    {
+      "question": "Should I upload all my documents at once?",
+      "answer": "Begin with a representative subset and inspect access controls, retrieval quality, and source references. Expanding a collection before checking these details can make missing or misinterpreted evidence harder to notice."
+    },
+    {
+      "question": "When do I need a data-analysis tool instead of document chat?",
+      "answer": "Use data-analysis tools when the task requires calculations, consistent fields, or repeatable transformations. Document chat can help locate explanations, but conversational fluency alone does not establish that a numerical analysis is correct."
+    },
+    {
+      "question": "Can research tools replace subject expertise?",
+      "answer": "They can assist discovery and synthesis, but expertise remains useful for recognizing missing evidence, incompatible definitions, and weak assumptions. Preserve review time for the claims that materially affect the final decision."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-research",
+      "label": "AI Research"
+    },
+    {
+      "slug": "ai-search-engine",
+      "label": "AI Search Engine"
+    },
+    {
+      "slug": "ai-spreadsheet",
+      "label": "AI Spreadsheet"
+    }
+  ]
+}

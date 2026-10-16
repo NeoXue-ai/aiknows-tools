@@ -1,0 +1,76 @@
+{
+  "title": "AI Lip Sync Tools for Dialogue and Character Video",
+  "description": "Compare AI lip sync tools for matching mouth movements to speech. Assess source requirements, timing, face preservation, revision options, and video outputs.",
+  "introduction": "AI lip sync tools modify or generate visible mouth movement to align a face or character with spoken audio. They can support localized video, animated characters, and presenter content when appropriate permissions are in place. Lip sync is one stage of production: it does not itself establish the quality of a translation, the suitability of a voice, or the accuracy of a script. Compare voice generation and video editing separately when those stages also matter.",
+  "capabilities": [
+    "Match visible mouth movement to supplied or otherwise supported spoken audio.",
+    "Apply dialogue to eligible face or character inputs within product-specific constraints.",
+    "Prepare alternate spoken versions while reviewing facial appearance and scene continuity.",
+    "Export synchronized video for further assembly, captioning, and audio finishing."
+  ],
+  "audiences": [
+    {
+      "label": "Localization producers",
+      "text": "Combine reviewed translated dialogue with a permitted source video and inspect timing and facial changes."
+    },
+    {
+      "label": "Animation creators",
+      "text": "Apply approved character dialogue, then integrate usable shots with the wider scene and soundtrack."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Input compatibility",
+      "text": "Test the actual face style, camera angle, shot length, and audio quality your project uses."
+    },
+    {
+      "label": "Visual preservation",
+      "text": "Check teeth, expressions, face boundaries, and surrounding frames during movement and difficult words."
+    },
+    {
+      "label": "Revision and consent",
+      "text": "Confirm how to replace audio or rerun sections, and establish permission for the depicted identity and voice."
+    }
+  ],
+  "workflow": [
+    "Prepare an approved script, clear dialogue audio, and a suitable source with appropriate permissions.",
+    "Generate a short test containing difficult sounds and inspect synchronization during normal-speed playback.",
+    "Refine problem sections and complete the final sequence in a video editing workflow."
+  ],
+  "faqs": [
+    {
+      "question": "Does lip sync translate the dialogue automatically?",
+      "answer": "Some products combine translation, dubbing, and lip sync, but these are separate capabilities. Verify which stages are included and review the translated script before judging how well the mouth movement matches it."
+    },
+    {
+      "question": "What makes a good source video?",
+      "answer": "Use the product’s input guidance and test footage similar to your project. Face visibility, camera movement, obstructions, and shot changes can affect results, so a simple demonstration may not represent your material."
+    },
+    {
+      "question": "Can I synchronize an illustrated character?",
+      "answer": "Support depends on the tool and character style. Test the exact design, especially unusual mouth shapes or facial proportions, and check whether the generated movement stays consistent with the intended expression."
+    },
+    {
+      "question": "How should I judge synchronization quality?",
+      "answer": "Play the clip at its intended speed with sound, then inspect noticeable problem areas. Evaluate timing, mouth shape, expression, and overall plausibility rather than checking only a few paused frames."
+    },
+    {
+      "question": "What permissions matter for a real presenter?",
+      "answer": "Obtain authorization for the person’s likeness, the source recording, and any replicated voice used in the project. Make the intended transformation and distribution clear, and follow the applicable service terms."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-voice-generator",
+      "label": "AI Voice Generator"
+    },
+    {
+      "slug": "ai-voice-cloning",
+      "label": "AI Voice Cloning"
+    },
+    {
+      "slug": "ai-video-editor",
+      "label": "AI Video Editor"
+    }
+  ]
+}

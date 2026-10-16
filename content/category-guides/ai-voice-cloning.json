@@ -1,0 +1,80 @@
+{
+  "title": "AI Voice Cloning Tools for Consistent Speaker Audio",
+  "description": "Compare AI voice cloning tools for authorized narration and localized audio. Review consent, reference recordings, pronunciation, access controls, and usage terms.",
+  "introduction": "AI voice cloning tools create a reusable voice representation from recordings of a particular speaker, then use it for new spoken audio. The defining requirement is permission to reproduce that speaker’s voice, alongside a clear intended use. This differs from selecting a generic synthetic voice from a library. Evaluate likeness, delivery, language behavior, and access controls separately: a recognizable sound does not necessarily preserve the original speaker’s pronunciation, timing, or performance.",
+  "capabilities": [
+    "Build a voice representation from supported recordings of an authorized speaker.",
+    "Generate new spoken passages using the available cloned voice workflow.",
+    "Adjust supported delivery settings and pronunciation for the intended script.",
+    "Manage access to voice assets through the service’s available account controls."
+  ],
+  "audiences": [
+    {
+      "label": "Narration teams",
+      "text": "Work with an authorized speaker to produce approved revisions or additional passages, retaining review of the final spoken performance."
+    },
+    {
+      "label": "Localization producers",
+      "text": "Evaluate a consenting speaker’s voice for supported language versions, using fluent reviewers to assess pronunciation and whether the delivery suits the localized script."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Consent and permitted use",
+      "text": "Check speaker verification, ownership terms, allowed publication contexts, and the process for withdrawing access or deleting a voice asset."
+    },
+    {
+      "label": "Reference requirements",
+      "text": "Assess recording quality, required duration, accepted formats, and how consistently the samples represent the voice you want to reproduce."
+    },
+    {
+      "label": "Performance and governance",
+      "text": "Test realistic scripts for likeness and intelligibility while checking who can generate audio, share assets, or access downloadable outputs."
+    }
+  ],
+  "workflow": [
+    "Document the speaker’s permission, intended uses, and the people allowed to generate audio with the voice.",
+    "Prepare suitable recordings and test the resulting voice on representative passages with the speaker’s review.",
+    "Approve final outputs, manage access to the voice asset, and retain a clear process for revisions or removal."
+  ],
+  "faqs": [
+    {
+      "question": "How is voice cloning different from a voice library?",
+      "answer": "A voice library supplies voices already offered by a service. Cloning builds a representation of a particular speaker from recordings, which adds consent, asset management, and likeness evaluation to the workflow."
+    },
+    {
+      "question": "Can I clone a voice from a publicly available recording?",
+      "answer": "Public availability does not establish permission to reproduce a speaker’s voice. Use recordings you are authorized to submit and confirm the service’s verification process and terms for the intended use."
+    },
+    {
+      "question": "Will a cloned voice reproduce an original performance exactly?",
+      "answer": "A generated passage is a new performance. Review emphasis, pacing, pronunciation, and emotional delivery rather than assuming a similar vocal identity will reproduce every aspect of the speaker’s original recording."
+    },
+    {
+      "question": "Does a cloned voice automatically work in every language?",
+      "answer": "Language capabilities vary by model and voice workflow. Test the specific language with a fluent reviewer, keeping voice resemblance separate from accurate pronunciation and natural delivery in the localized script."
+    },
+    {
+      "question": "What should a team check before sharing a cloned voice?",
+      "answer": "Confirm who can access it, which uses the speaker approved, and whether sharing expands generation permissions. Establish an owner who can revoke access or remove the asset when requirements change."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-voice-generator",
+      "label": "AI Voice Generator"
+    },
+    {
+      "slug": "text-to-speech-ai",
+      "label": "Text to Speech AI"
+    },
+    {
+      "slug": "ai-lip-sync",
+      "label": "AI Lip Sync"
+    },
+    {
+      "slug": "image-video",
+      "label": "Image & Video"
+    }
+  ]
+}

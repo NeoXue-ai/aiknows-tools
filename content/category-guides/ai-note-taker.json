@@ -1,0 +1,76 @@
+{
+  "title": "AI Note Takers for Meetings, Decisions, and Follow-Ups",
+  "description": "Explore AI note takers for meetings and recordings, with guidance on capture methods, summaries, action items, review, sharing, and team permissions.",
+  "introduction": "AI note takers turn meeting material into notes people can review and use afterward. Depending on the product, they may capture audio, import recordings, transcribe speech, summarize discussion, or suggest action items. This category emphasizes the meeting record and follow-up workflow rather than transcription alone. Decide how information is captured and who approves the result, because a useful summary can still omit a qualification or misattribute a commitment.",
+  "capabilities": [
+    "Capture supported meetings or recordings using the product’s available input methods.",
+    "Prepare summaries that distinguish key discussion points from the complete transcript.",
+    "Suggest decisions and action items for participants to verify and assign.",
+    "Share reviewed notes with the appropriate people and connected work systems."
+  ],
+  "audiences": [
+    {
+      "label": "Team coordinators",
+      "text": "Prepare a meeting record, confirm decisions and ownership with participants, and track agreed follow-ups in the team’s work system."
+    },
+    {
+      "label": "Interviewers and consultants",
+      "text": "Review a conversation afterward, checking quotations and context before using the notes in client or research work."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Capture fit",
+      "text": "Check the actual meeting platform, recording or upload method, language, and participant notice requirements for your workflow."
+    },
+    {
+      "label": "Review quality",
+      "text": "Inspect source timestamps, speaker attribution, editable summaries, and how suggested tasks differ from confirmed commitments."
+    },
+    {
+      "label": "Sharing boundaries",
+      "text": "Evaluate participant access, external sharing, retention, and integrations before centralizing sensitive meeting material."
+    }
+  ],
+  "workflow": [
+    "Agree how the meeting will be captured and shared, then define the decisions or information the notes need to preserve.",
+    "Review the generated record against the conversation, correcting names, qualifications, decisions, and proposed action ownership.",
+    "Distribute the approved notes and move confirmed commitments into the relevant task system, keeping a reference to the meeting context."
+  ],
+  "faqs": [
+    {
+      "question": "How is an AI note taker different from transcription software?",
+      "answer": "Transcription focuses on capturing spoken words. A note taker may select key points, decisions, or actions from that material. Those summaries require separate review because selection can change what a reader understands."
+    },
+    {
+      "question": "Are automatically detected action items confirmed assignments?",
+      "answer": "No. Treat them as proposed interpretations until participants verify the task, owner, and timing. A discussion about a possible next step is not always a commitment to perform it."
+    },
+    {
+      "question": "Must a note taker join the meeting as a bot?",
+      "answer": "Not always. Capture methods vary and may include meeting attendance, device recording, or file upload. Check the specific product and platform, including how participants are informed about recording and sharing."
+    },
+    {
+      "question": "What should I review before sharing meeting notes?",
+      "answer": "Verify names, decisions, qualifications, sensitive information, and action ownership. Check important statements against the recording or transcript, and share the record only with people who should receive that meeting context."
+    },
+    {
+      "question": "Can notes automatically become tasks in another application?",
+      "answer": "Some products provide integrations, but inspect what is created and when. Keep an approval step if suggested actions could be mistaken for confirmed assignments or sent to the wrong project."
+    }
+  ],
+  "related": [
+    {
+      "slug": "speech-to-text-ai",
+      "label": "Speech to Text AI"
+    },
+    {
+      "slug": "project-management",
+      "label": "Project Management"
+    },
+    {
+      "slug": "ai-summarizer",
+      "label": "AI Summarizer"
+    }
+  ]
+}

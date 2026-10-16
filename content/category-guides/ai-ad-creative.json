@@ -1,0 +1,76 @@
+{
+  "title": "AI Ad Creative Tools for Campaign Asset Production",
+  "description": "Explore AI ad creative tools for developing copy and visual variations. Compare placement formats, brand controls, revision options, and campaign handoffs.",
+  "introduction": "AI ad creative tools help produce campaign assets such as headlines, descriptions, promotional images, and creative variations. Their role is to support the message and production work around an advertising brief. They do not automatically replace audience strategy, media buying, or measurement. Begin with the placement, offer, and approved evidence for your claims; then compare how well a product turns that brief into editable assets your team can review.",
+  "capabilities": [
+    "Develop headline and description variations around an approved offer and audience.",
+    "Create or adapt promotional visuals for supported advertising placements and dimensions.",
+    "Apply supplied brand elements and message constraints across creative candidate sets.",
+    "Prepare reviewed assets for handoff into campaign setup and testing workflows."
+  ],
+  "audiences": [
+    {
+      "label": "Performance marketers",
+      "text": "Prepare distinct message angles for a defined placement and compare them in an organized campaign test."
+    },
+    {
+      "label": "Creative agencies",
+      "text": "Generate initial campaign directions, refine client-approved concepts, and deliver clearly labeled variations for media teams."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Placement fit",
+      "text": "Check character limits, aspect ratios, export formats, and editing options for the actual destination."
+    },
+    {
+      "label": "Message control",
+      "text": "Evaluate how reliably the product follows approved claims, required wording, and brand restrictions."
+    },
+    {
+      "label": "Variation quality",
+      "text": "Look for meaningful changes in concept and emphasis rather than cosmetic rewrites of one advertisement."
+    }
+  ],
+  "workflow": [
+    "Document the audience, offer, placement requirements, evidence, and prohibited or mandatory wording.",
+    "Produce a manageable set of creative angles and revise the strongest candidates for accuracy.",
+    "Label approved variations, launch through your advertising workflow, and review results in context."
+  ],
+  "faqs": [
+    {
+      "question": "Does generating more variations improve campaign results?",
+      "answer": "More variations create more candidates, not a guaranteed improvement. Useful testing requires distinct hypotheses, appropriate campaign setup, and enough context to interpret results without confusing creative effects with other changes."
+    },
+    {
+      "question": "Can these tools manage advertising budgets?",
+      "answer": "Some products connect creative production with campaign management, but that is not universal. Confirm media buying and budget controls separately, and compare AI Marketing when campaign orchestration is the main requirement."
+    },
+    {
+      "question": "How should I brief an ad creative tool?",
+      "answer": "Specify the target audience, offer, placement, intended action, and substantiated benefits. Include brand examples and restrictions so reviewers can judge each candidate against a concrete brief instead of personal preference."
+    },
+    {
+      "question": "What needs checking in generated product visuals?",
+      "answer": "Inspect packaging, logos, colors, proportions, and depicted functionality against the actual product. A polished image can misrepresent the offer, so visual approval should include someone who knows what customers will receive."
+    },
+    {
+      "question": "How do I keep a creative test interpretable?",
+      "answer": "Name each variant and record its message hypothesis, placement, audience, and launch conditions. Avoid changing several unrelated campaign settings at once when you want to understand the contribution of creative differences."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-marketing",
+      "label": "AI Marketing"
+    },
+    {
+      "slug": "ai-analytics",
+      "label": "AI Analytics"
+    },
+    {
+      "slug": "ai-graphic-design",
+      "label": "AI Graphic Design"
+    }
+  ]
+}

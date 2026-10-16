@@ -1,0 +1,76 @@
+{
+  "title": "AI Document Generators for Structured Business Files",
+  "description": "Compare AI document generators for reports, proposals, and reusable business files. Review source handling, template control, collaboration, and export fidelity.",
+  "introduction": "AI document generators help assemble structured files from prompts, source material, forms, or templates. The result may be a report, proposal, internal guide, or another document that needs consistent organization and formatting. This category focuses on creating a deliverable file, rather than only drafting paragraphs in a chat. Choose AI PDF for reading or extracting existing PDFs, and AI Presentation Maker when the information should be delivered as a sequence of slides.",
+  "capabilities": [
+    "Create document drafts from supplied briefs, structured inputs, and supported reference files.",
+    "Organize information into sections using available templates, headings, and reusable content blocks.",
+    "Apply supported formatting and revision controls to prepare a coherent deliverable file.",
+    "Export documents for review, collaboration, or delivery through the formats the product supports."
+  ],
+  "audiences": [
+    {
+      "label": "Consultants and account teams",
+      "text": "Build proposals from approved service details and client requirements, then review scope and commercial terms."
+    },
+    {
+      "label": "Operations teams",
+      "text": "Prepare recurring reports or procedures using a stable structure and verified information from responsible contributors."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Input traceability",
+      "text": "Check how source material maps into the document and whether missing facts remain visible for review."
+    },
+    {
+      "label": "Template flexibility",
+      "text": "Evaluate control over sections, tables, page layout, branding, and reusable text needed for the file."
+    },
+    {
+      "label": "Delivery fidelity",
+      "text": "Open exported documents in the intended reader or editor and inspect formatting and editability."
+    }
+  ],
+  "workflow": [
+    "Gather approved inputs and define the document’s audience, structure, required sections, and delivery format.",
+    "Generate a draft, resolve missing information, and review factual content before finalizing the layout.",
+    "Inspect the exported file, collect necessary approvals, and keep a version for future updates."
+  ],
+  "faqs": [
+    {
+      "question": "How does document generation differ from an AI writer?",
+      "answer": "A writer focuses on composing and revising text. A document generator emphasizes assembling that text with structure, formatting, and file output, although some products support both parts of the workflow."
+    },
+    {
+      "question": "Can I generate a contract from a prompt?",
+      "answer": "Some products offer contract templates or drafting features, but generated wording needs appropriate review. Confirm the parties, obligations, jurisdiction, and commercial intent with a qualified reviewer before treating it as an approved agreement."
+    },
+    {
+      "question": "What makes a template useful for recurring documents?",
+      "answer": "A useful template separates stable structure from information that changes each time. It should make required inputs visible, maintain formatting, and help reviewers identify incomplete sections rather than hiding them in polished prose."
+    },
+    {
+      "question": "Will a PDF export remain easy to edit?",
+      "answer": "A PDF is often intended for consistent viewing rather than document revision. If recipients need to edit content, test an appropriate editable export separately and inspect how tables, headings, and layout transfer."
+    },
+    {
+      "question": "How should I check a generated report?",
+      "answer": "Compare claims and figures with the source material, verify section completeness, and inspect tables and references. Review the final exported file too, since correct content can still become difficult to use through formatting problems."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-writer",
+      "label": "AI Writer"
+    },
+    {
+      "slug": "ai-pdf",
+      "label": "AI PDF"
+    },
+    {
+      "slug": "ai-presentation-maker",
+      "label": "AI Presentation Maker"
+    }
+  ]
+}

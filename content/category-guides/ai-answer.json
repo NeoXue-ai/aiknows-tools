@@ -1,0 +1,76 @@
+{
+  "title": "AI Answer Tools for Questions, Homework and Explanations",
+  "description": "Explore AI answer tools for focused questions, homework explanations, and problem walkthroughs. Compare reasoning, source support, subject scope, and limits.",
+  "introduction": "AI answer tools respond to focused questions, often including homework, problem explanations, or quick requests for information. Inputs may include typed text or supported images of a question, depending on the service. The important distinction is between receiving a plausible answer and understanding why it is appropriate. This category emphasizes question-led assistance; tutors focus on an ongoing learning process, while search engines emphasize discovering sources beyond the material supplied with the question.",
+  "capabilities": [
+    "Respond to focused questions submitted through supported text or image inputs.",
+    "Explain intermediate steps for problems within the product’s available subject scope.",
+    "Provide alternative explanations or follow-up responses when an answer remains unclear.",
+    "Present supporting references or source context where the service offers them."
+  ],
+  "audiences": [
+    {
+      "label": "Students practicing independently",
+      "text": "Use an explanation to identify a missing concept, then attempt a similar problem without assistance to check your understanding."
+    },
+    {
+      "label": "Everyday question askers",
+      "text": "Get an initial orientation to a bounded question, then verify important claims using the original material or an appropriate source."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Explanation quality",
+      "text": "Test whether steps connect logically and address the actual question, including assumptions and units, rather than only matching a final answer."
+    },
+    {
+      "label": "Input and subject coverage",
+      "text": "Check the particular subjects, notation, image quality, and question formats you use instead of relying on broad claims of universal support."
+    },
+    {
+      "label": "Evidence and learning fit",
+      "text": "Assess source references, handling of uncertainty, follow-up controls, and whether the experience supports the rules and purpose of your learning setting."
+    }
+  ],
+  "workflow": [
+    "Submit the complete question with relevant context and ask for the kind of explanation you need.",
+    "Inspect the reasoning, assumptions, and any cited material, checking unclear steps against your course or source information.",
+    "Apply the explanation to a new example or verify the answer independently before using it in further work."
+  ],
+  "faqs": [
+    {
+      "question": "How is an answer tool different from an AI tutor?",
+      "answer": "An answer tool emphasizes responding to the question at hand. A tutor may organize continuing practice and adapt explanations over time. Choose according to whether you need one explanation or a learning process."
+    },
+    {
+      "question": "Does a detailed explanation prove the answer is correct?",
+      "answer": "No. Steps can look coherent while using a wrong assumption or calculation. Check the reasoning against the original question, relevant definitions, and a known method before accepting the result."
+    },
+    {
+      "question": "Can these tools read a photographed homework question?",
+      "answer": "Some support image inputs, but coverage varies. Check that symbols, diagrams, and all parts of the question were interpreted correctly before assessing the solution or using the explanation for practice."
+    },
+    {
+      "question": "How can I use an answer without skipping the learning?",
+      "answer": "Ask for a hint or explanation of one step, then continue independently. Afterward, solve a similar problem without the tool to see whether you understand the concept rather than the displayed answer."
+    },
+    {
+      "question": "When should I use search instead of direct answers?",
+      "answer": "Use search when you need current information, primary sources, or competing accounts of a topic. A direct answer can orient the question, but important claims still need evidence appropriate to their context."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-tutor",
+      "label": "AI Tutor"
+    },
+    {
+      "slug": "education",
+      "label": "Education"
+    },
+    {
+      "slug": "ai-search-engine",
+      "label": "AI Search Engine"
+    }
+  ]
+}

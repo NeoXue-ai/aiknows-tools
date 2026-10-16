@@ -1,0 +1,76 @@
+{
+  "title": "AI Spreadsheet Tools for Formulas and Table Workflows",
+  "description": "Compare AI spreadsheet tools for formulas, cleanup, table questions, and reports. Review calculation visibility, workbook compatibility, and data handling.",
+  "introduction": "AI spreadsheet tools assist with work organized in rows, columns, formulas, and sheets. They can help translate an intention into a formula, explain a table, or prepare data for further analysis, depending on the product. The key boundary is between an answer about a table and a reliable change to the workbook itself. This category suits hands-on spreadsheet work; broader analytics tools may emphasize connected dashboards and shared metric definitions instead.",
+  "capabilities": [
+    "Draft formulas from a description of the calculation you need.",
+    "Explain existing formulas and help investigate unexpected results in a workbook.",
+    "Clean or reorganize supported tabular inputs for a subsequent analysis task.",
+    "Create summaries or charts from available sheet data and selected ranges."
+  ],
+  "audiences": [
+    {
+      "label": "Operations coordinators",
+      "text": "Reduce repetitive spreadsheet work while preserving important formulas, checking changed cells, and keeping a recoverable original workbook."
+    },
+    {
+      "label": "Analysts and planners",
+      "text": "Use assistance to explore a table or draft calculations, then validate assumptions and results before sharing a business recommendation."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Workbook compatibility",
+      "text": "Check support for your spreadsheet application, file formats, formulas, multiple sheets, and any macros or connections you rely on."
+    },
+    {
+      "label": "Calculation transparency",
+      "text": "Prefer visible formulas and inspectable changes when the result must be maintained, explained, or checked by another person."
+    },
+    {
+      "label": "Range and data access",
+      "text": "Assess which cells are read or changed, how permissions work, and whether sensitive workbook contents leave your existing environment."
+    }
+  ],
+  "workflow": [
+    "Keep a copy of the workbook and specify the relevant range, expected calculation, and cells that must remain unchanged.",
+    "Request a bounded change, inspect formulas and references, and compare the result with a known example.",
+    "Check edge cases and dependent sheets before saving or distributing the updated workbook to other users."
+  ],
+  "faqs": [
+    {
+      "question": "Can a spreadsheet assistant replace formula knowledge?",
+      "answer": "It can help draft and explain formulas, but you still need enough understanding to verify references, assumptions, and results. Review is especially important when other calculations depend on the changed cells."
+    },
+    {
+      "question": "How is spreadsheet assistance different from analytics software?",
+      "answer": "Spreadsheet assistance focuses on tables and workbook operations. Analytics software may manage shared datasets, dashboards, and metrics across systems. Choose according to where the data lives and how people will use the result."
+    },
+    {
+      "question": "What should I check after a generated formula?",
+      "answer": "Check the referenced cells, fixed and relative references, blank values, error behavior, and expected result on a small known example. Confirm copied formulas behave correctly across the full intended range."
+    },
+    {
+      "question": "Can I upload a workbook containing confidential information?",
+      "answer": "Review the service’s access and data terms before uploading. Use a limited or anonymized sample for evaluation when possible, and confirm which sheets or ranges the tool can read."
+    },
+    {
+      "question": "What makes a table-cleaning result trustworthy?",
+      "answer": "Compare row counts, identifiers, missing values, and changed fields with the original. Keep a record of transformations so a useful-looking table does not conceal dropped records or altered meanings."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-analytics",
+      "label": "AI Analytics"
+    },
+    {
+      "slug": "business-analytics",
+      "label": "Business & Analytics"
+    },
+    {
+      "slug": "automation",
+      "label": "Automation"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "title": "Blogging Tools for Publishing and Maintaining Articles",
+  "description": "Compare blogging tools for drafting, organizing, and publishing articles. Review editorial workflows, content ownership, site controls, and long-term maintenance.",
+  "introduction": "Blogging tools support publishing a continuing collection of articles on a website or dedicated platform. They may combine an editor, content organization, media handling, and publication controls. The central requirement is maintaining a readable, navigable body of work over time. This category focuses on that publishing home and process. AI Writer is more specific to composing text, while AI Content Creator covers planning and producing material that may be distributed across several channels.",
+  "capabilities": [
+    "Create and revise articles using supported editors, formatting controls, and media attachments.",
+    "Organize published material through available categories, tags, archives, and navigation features.",
+    "Manage draft review, scheduling, and publication through the platform’s supported editorial workflow.",
+    "Maintain existing articles and prepare content exports or migrations when those options are available."
+  ],
+  "audiences": [
+    {
+      "label": "Independent publishers",
+      "text": "Build a consistent publication, organize related articles, and update older material as the subject changes."
+    },
+    {
+      "label": "Company editorial teams",
+      "text": "Coordinate contributors, review factual claims, and publish articles that support a defined audience and business purpose."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Reading experience",
+      "text": "Evaluate article layouts, navigation, mobile presentation, accessibility, and how readers find related material."
+    },
+    {
+      "label": "Editorial operation",
+      "text": "Test contributor roles, revisions, scheduling, media handling, and the review process your publication needs."
+    },
+    {
+      "label": "Ownership and portability",
+      "text": "Check domain options, content exports, recurring costs, and what moving to another platform would involve."
+    }
+  ],
+  "workflow": [
+    "Define the audience, publication focus, article structure, and a realistic editorial schedule.",
+    "Publish a small group of reviewed articles and test navigation and reading on common screen sizes.",
+    "Maintain an update process for older posts and keep a usable copy of important content."
+  ],
+  "faqs": [
+    {
+      "question": "Do I need a blogging platform if I already have a website?",
+      "answer": "Check whether the existing site supports your article structure, editorial process, and archive navigation. A separate platform may help, but it can also introduce another system and a less coherent reader experience."
+    },
+    {
+      "question": "How is a blogging tool different from an AI writer?",
+      "answer": "A writer helps produce or revise text. A blogging tool provides the publishing environment and ongoing content management, though it may include writing assistance as one part of that broader workflow."
+    },
+    {
+      "question": "What should I test before migrating an existing blog?",
+      "answer": "Move a sample containing images, internal links, categories, and different formatting. Check URLs, media handling, article metadata, and reader navigation, then establish a migration plan appropriate to the current site."
+    },
+    {
+      "question": "Should I publish on my own domain?",
+      "answer": "Compare control over branding, navigation, ownership, and future migration with the convenience of a hosted platform. The better choice depends on the publication’s purpose, resources, and relationship with its existing audience."
+    },
+    {
+      "question": "How should teams maintain older posts?",
+      "answer": "Assign responsibility for reviewing important articles and update them when facts, recommendations, or product details change. Preserve useful context and make meaningful revisions clear rather than treating publication as the end of the workflow."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-writer",
+      "label": "AI Writer"
+    },
+    {
+      "slug": "ai-content-creator",
+      "label": "AI Content Creator"
+    },
+    {
+      "slug": "website-builders",
+      "label": "Website Builders"
+    }
+  ]
+}

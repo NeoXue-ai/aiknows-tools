@@ -35,6 +35,7 @@ export default async function CategoriesIndexPage() {
         name: s.name,
         count: subCounts.get(s.name) ?? 0,
       }))
+      .filter((sub) => sub.count > 0)
       .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
     return {
       category,

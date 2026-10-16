@@ -1,0 +1,76 @@
+{
+  "title": "AI Dating Tools for Profiles and Thoughtful Messages",
+  "description": "Explore AI dating tools for profile drafts, message ideas, and conversation practice, with guidance on truthful presentation, privacy, and personal judgment.",
+  "introduction": "AI dating tools assist with parts of online dating, such as drafting a profile, exploring message ideas, reviewing presentation, or practicing a conversation. This category is about support for a person’s communication and choices, rather than a guarantee of compatibility or a substitute for another person’s consent. Compare the specific task and required inputs, keeping your real identity, preferences, and judgment central to anything the tool suggests.",
+  "capabilities": [
+    "Draft profile wording that reflects the details you choose to share.",
+    "Explore opening messages grounded in a real conversation or profile context.",
+    "Revise wording for clarity and a tone that feels like you.",
+    "Practice possible conversations without treating generated responses as another person’s intentions."
+  ],
+  "audiences": [
+    {
+      "label": "People updating a profile",
+      "text": "Clarify interests and preferences in their own words, using generated drafts as options rather than an invented persona."
+    },
+    {
+      "label": "People seeking communication practice",
+      "text": "Explore ways to ask a question or express a boundary, then choose wording that fits the real situation."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Authentic representation",
+      "text": "Check whether suggested profiles, photos, and messages remain faithful to who you are rather than optimizing an inaccurate presentation."
+    },
+    {
+      "label": "Personal-data handling",
+      "text": "Inspect what profile, photo, and conversation information is required, how it is retained, and whether it can be deleted."
+    },
+    {
+      "label": "Scope and agency",
+      "text": "Distinguish drafting or practice from automated outreach and relationship advice, retaining control over messages and decisions."
+    }
+  ],
+  "workflow": [
+    "Choose one task, such as revising a profile section, and provide only the personal context needed for that task.",
+    "Review suggestions for accuracy, tone, and respect for the other person, changing anything that does not sound like you.",
+    "Use the selected wording thoughtfully in the real interaction, responding to the person’s actual communication rather than predicted reactions."
+  ],
+  "faqs": [
+    {
+      "question": "Can an AI dating tool predict whether someone is interested?",
+      "answer": "Do not treat generated interpretations as knowledge of another person’s intentions. Use the person’s actual words and behavior, ask appropriate questions, and retain your own judgment about the interaction."
+    },
+    {
+      "question": "Should I send a suggested message without editing it?",
+      "answer": "Read it first and change anything that feels inaccurate, overly familiar, or unlike your normal voice. A useful suggestion should help you communicate rather than create a conversation you cannot honestly continue."
+    },
+    {
+      "question": "What personal information should I provide to a dating tool?",
+      "answer": "Use only the context necessary for the task and inspect retention and deletion options. Be particularly thoughtful about uploading private messages or another person’s profile details to an external service."
+    },
+    {
+      "question": "How is conversation practice different from dating advice?",
+      "answer": "Practice explores possible wording in a simulated exchange. It cannot establish what a real person thinks or what a relationship needs, so use it to clarify your expression rather than predict outcomes."
+    },
+    {
+      "question": "Can generated profile photos change how I am represented?",
+      "answer": "Yes. Review whether editing changes recognizable appearance or creates misleading expectations. Choose images and wording that support an accurate introduction rather than treating visual polish as the only goal."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-avatar-generator",
+      "label": "AI Avatar Generator"
+    },
+    {
+      "slug": "ai-writer",
+      "label": "AI Writer"
+    },
+    {
+      "slug": "ai-entertainment",
+      "label": "AI Entertainment"
+    }
+  ]
+}
