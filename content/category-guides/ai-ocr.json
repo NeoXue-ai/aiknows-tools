@@ -1,0 +1,76 @@
+{
+  "title": "AI OCR Tools for Scans, Images and Text Extraction",
+  "description": "Compare AI OCR tools for extracting text from scans, photographs, and documents. Assess language coverage, layout handling, correction, and export formats.",
+  "introduction": "AI OCR tools turn text visible in an image or scanned page into text that software can search, edit, or process. The category includes focused image extraction and broader document workflows, with different levels of layout and field recognition. Start by identifying whether you need readable paragraphs, a faithful page structure, or specific values such as invoice fields. Document summarization is a later task; it does not replace checking whether the underlying text was extracted correctly.",
+  "capabilities": [
+    "Extract machine-readable text from supported image files and scanned documents.",
+    "Recognize supported languages and scripts within the service’s documented scope.",
+    "Preserve available layout elements such as headings, columns, or tables.",
+    "Export recognized text or structured fields for review and downstream processing."
+  ],
+  "audiences": [
+    {
+      "label": "Document operations teams",
+      "text": "Convert recurring scanned forms into reviewable records, checking important identifiers and amounts before importing them into another system."
+    },
+    {
+      "label": "Researchers and archivists",
+      "text": "Make image-based documents easier to search while preserving original scans and correcting passages that will be quoted or analyzed."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Document difficulty",
+      "text": "Test actual scans with skew, low contrast, mixed columns, handwriting, or stamps rather than relying on clean printed samples alone."
+    },
+    {
+      "label": "Output structure",
+      "text": "Choose plain text, searchable documents, tables, or field-level output according to what the next application needs to consume."
+    },
+    {
+      "label": "Review and handling",
+      "text": "Check correction tools, confidence indicators where offered, batch limits, and retention terms for any sensitive documents you will upload."
+    }
+  ],
+  "workflow": [
+    "Collect representative pages and mark the text, fields, or layout that must survive extraction.",
+    "Run extraction and compare results with the original images, paying particular attention to names, numbers, and tables.",
+    "Correct important errors and export the reviewed result alongside a reference to its original document."
+  ],
+  "faqs": [
+    {
+      "question": "Is OCR the same as reading an ordinary PDF?",
+      "answer": "An ordinary PDF may already contain selectable text. OCR is needed when the content exists as page images, although mixed documents can contain both and may need different handling by page."
+    },
+    {
+      "question": "Can OCR recognize handwriting reliably?",
+      "answer": "Handwriting support and quality vary by product and writing style. Test representative examples and review important values rather than assuming a tool that reads printed text will handle handwriting equally well."
+    },
+    {
+      "question": "Why does extracted text appear in the wrong order?",
+      "answer": "Columns, sidebars, tables, and unusual page layouts can complicate reading order. Evaluate layout handling separately from character recognition, especially when the extracted text will feed summaries or other automated processes."
+    },
+    {
+      "question": "What matters when extracting invoice information?",
+      "answer": "Check field names, line items, currencies, totals, and identifiers against the source. A workflow for structured invoices also needs review and exception handling beyond simply producing readable text from a page."
+    },
+    {
+      "question": "Should I discard the original scan after extraction?",
+      "answer": "Keep the original according to your document policy. Recognized text can contain errors or lose visual context, so retaining the source lets reviewers resolve ambiguities and verify important passages later."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-pdf",
+      "label": "AI PDF"
+    },
+    {
+      "slug": "ai-summarizer",
+      "label": "AI Summarizer"
+    },
+    {
+      "slug": "automation",
+      "label": "Automation"
+    }
+  ]
+}

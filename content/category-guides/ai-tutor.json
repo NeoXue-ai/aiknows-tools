@@ -1,0 +1,84 @@
+{
+  "title": "AI Tutors for Guided Practice and Learning Feedback",
+  "description": "Explore AI tutors for explanations, guided practice, and learning feedback, with criteria for subject fit, learner level, reasoning, and progress review.",
+  "introduction": "AI tutors support learning through explanations, questions, practice, or feedback adapted to a conversation or activity. This category focuses on helping a learner understand and improve, rather than only returning an answer or generating classroom material. Products differ in subject scope, learner level, and teaching controls. Begin with a learning goal and check whether the tool encourages the learner to reason, explain mistakes, and apply the idea independently.",
+  "capabilities": [
+    "Explain a concept at a level appropriate to the learner’s goal.",
+    "Offer guided questions and practice instead of only a final answer.",
+    "Respond to attempted work with feedback the learner can examine.",
+    "Support repeated practice while making uncertainty and correction possible."
+  ],
+  "audiences": [
+    {
+      "label": "Independent learners",
+      "text": "Work through a concept, attempt related questions, and check whether they can explain the reasoning without assistance."
+    },
+    {
+      "label": "Teachers and families",
+      "text": "Use supplementary practice and feedback alongside an agreed learning plan, reviewing suitability and recurring misunderstandings."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Subject and level",
+      "text": "Test the actual curriculum, language, and depth required rather than assuming a broad subject label establishes appropriate instruction."
+    },
+    {
+      "label": "Teaching behavior",
+      "text": "Check whether the tutor asks useful questions, responds to mistakes, and distinguishes explanation from simply completing the work."
+    },
+    {
+      "label": "Review and progress",
+      "text": "Inspect how learning history, corrections, and personal data are handled, and how an educator or learner can assess improvement."
+    }
+  ],
+  "workflow": [
+    "Choose a narrow learning goal and an example that reveals the learner’s current understanding rather than only the expected answer.",
+    "Attempt the task, request a hint or explanation, and compare the feedback with a reliable learning reference.",
+    "Solve a related problem independently and review remaining misunderstandings before moving to a more difficult topic."
+  ],
+  "faqs": [
+    {
+      "question": "How is an AI tutor different from an answer tool?",
+      "answer": "A tutor should support understanding through explanation, practice, and feedback. An answer tool may primarily produce a result. Compare whether the learner can explain and reuse the reasoning after the interaction."
+    },
+    {
+      "question": "Can an AI tutor give an incorrect explanation?",
+      "answer": "Yes. Check confusing points against a reliable learning source, and look for a way to challenge or correct the explanation. Fluency does not establish that the teaching is accurate."
+    },
+    {
+      "question": "What should I test before choosing a tutor for a subject?",
+      "answer": "Use material at the required level, including a common misunderstanding. Inspect how the tool explains, responds to an attempted solution, and adapts the next question rather than judging one correct answer."
+    },
+    {
+      "question": "How can learners avoid relying on the tutor for every step?",
+      "answer": "Attempt the work first, ask for a hint before a full solution, and finish with a related task independently. Use the conversation to strengthen reasoning rather than replace the effort needed to learn."
+    },
+    {
+      "question": "Can an AI tutor replace a teacher or course?",
+      "answer": "It can supplement practice, but a complete learning plan may require structured material, assessment, human judgment, and support beyond a conversation. Evaluate the tool’s role within that plan rather than assuming equivalent coverage."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-answer",
+      "label": "AI Answer"
+    },
+    {
+      "slug": "ai-education",
+      "label": "AI Education"
+    },
+    {
+      "slug": "education",
+      "label": "Education"
+    },
+    {
+      "slug": "research-data",
+      "label": "Research & Data"
+    },
+    {
+      "slug": "ai-chatbot",
+      "label": "AI Chatbot"
+    }
+  ]
+}

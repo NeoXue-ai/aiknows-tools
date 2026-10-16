@@ -1,0 +1,80 @@
+{
+  "title": "Image to Video AI Tools for Animating Still Images",
+  "description": "Compare image-to-video AI tools for animating photos, artwork, and product visuals. Review motion control, subject consistency, clip limits, and exports.",
+  "introduction": "Image-to-video AI tools turn a still image into a moving clip, using the image as a visual starting point. The requested motion may involve a subject, a camera movement, or changes in the scene, depending on the tool. This category is useful when you already have the composition or character you want to animate. Text-to-video begins primarily from a written description, while video editors arrange and refine footage that already exists.",
+  "capabilities": [
+    "Animate a supplied image using supported motion instructions or presets.",
+    "Guide available camera movements while retaining the initial scene as reference.",
+    "Generate short clip variations for visual exploration or subsequent editing.",
+    "Export supported video files for assembly, sound work, and final presentation."
+  ],
+  "audiences": [
+    {
+      "label": "Social content creators",
+      "text": "Animate approved artwork into a short visual, then add captions, timing, and audio in an editing workflow."
+    },
+    {
+      "label": "Product marketers",
+      "text": "Explore subtle motion around an existing product image while checking that the item’s shape, label, and visible features remain faithful."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Reference consistency",
+      "text": "Check whether the subject, composition, text, and important small details remain recognizable throughout the generated clip."
+    },
+    {
+      "label": "Motion control",
+      "text": "Assess how clearly you can specify subject movement versus camera movement and how easily unwanted changes can be corrected."
+    },
+    {
+      "label": "Clip delivery",
+      "text": "Compare duration, aspect ratio, resolution, watermark conditions, and usable export formats against the destination channel’s actual needs."
+    }
+  ],
+  "workflow": [
+    "Choose a clear image and describe a limited motion that suits its subject and intended use.",
+    "Generate variations and inspect the entire clip for distortions, abrupt changes, and unintended movement.",
+    "Select an acceptable clip, edit its timing and sound, and check the final export in the destination layout."
+  ],
+  "faqs": [
+    {
+      "question": "How does image-to-video differ from text-to-video?",
+      "answer": "Image-to-video begins with a supplied visual reference, which helps establish composition and appearance. Text-to-video begins mainly with a written description, though some products combine both inputs within the same workflow."
+    },
+    {
+      "question": "Will the original image stay unchanged throughout the clip?",
+      "answer": "Do not assume complete preservation. Review every part of the motion for changes to faces, product details, text, and geometry, especially when the clip represents a real person or item."
+    },
+    {
+      "question": "What makes a good first animation request?",
+      "answer": "Start with one clear movement and an image suited to it, such as a gentle camera shift or subtle subject motion. Complex simultaneous changes can make it harder to evaluate consistency."
+    },
+    {
+      "question": "Can I create a finished advertisement in one generation?",
+      "answer": "A generated clip can provide material for an advertisement, but final work may still need pacing, branding, captions, sound, and review. Check the assembled result against the actual campaign brief."
+    },
+    {
+      "question": "Why should I test different aspect ratios?",
+      "answer": "A change in frame shape can crop important subjects or alter composition. Test the intended placement early and verify that the generated movement stays readable within the available space."
+    }
+  ],
+  "related": [
+    {
+      "slug": "text-to-video-ai",
+      "label": "Text to Video AI"
+    },
+    {
+      "slug": "ai-video-generator",
+      "label": "AI Video Generator"
+    },
+    {
+      "slug": "ai-video-editor",
+      "label": "AI Video Editor"
+    },
+    {
+      "slug": "image-video",
+      "label": "Image & Video"
+    }
+  ]
+}

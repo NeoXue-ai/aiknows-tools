@@ -1,0 +1,80 @@
+{
+  "title": "AI Video Generators for Clips and Creative Workflows",
+  "description": "Explore AI video generators for scenes, explainers, and visual drafts, with guidance on input types, creative controls, revisions, and production fit.",
+  "introduction": "AI video generators create moving visual material from text, images, scripts, or other supported inputs. This category spans scene generation and products that assemble a more complete video workflow. It differs from editing recorded footage, although a single product may do both. Start by deciding whether you need a new shot, an animated still, or a narrated sequence, because those outputs require different controls and levels of post-production work.",
+  "capabilities": [
+    "Create moving visual drafts from the input types a product supports.",
+    "Explore shot composition, atmosphere, and motion through available generation controls.",
+    "Compare variations and continue selected clips where revision tools permit.",
+    "Move chosen footage into an editing workflow for a finished video."
+  ],
+  "audiences": [
+    {
+      "label": "Creative producers",
+      "text": "Explore new shots or visual concepts before selecting material for a wider sequence and editorial review."
+    },
+    {
+      "label": "Business content teams",
+      "text": "Prepare explainer or promotional drafts, checking the accuracy of the message and the work remaining before publication."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Output type",
+      "text": "Distinguish generated scenes, avatar presentations, animated images, and assembled videos rather than comparing their previews as identical tasks."
+    },
+    {
+      "label": "Revision control",
+      "text": "Test whether you can change one element, preserve a subject, or continue a shot without losing the chosen direction."
+    },
+    {
+      "label": "Production cost",
+      "text": "Estimate usable footage after retries and editing, including resolution, duration, audio, and the applicable usage allowance."
+    }
+  ],
+  "workflow": [
+    "Define the intended video, audience, and required shots, then identify which material must be generated and which already exists.",
+    "Generate short representative samples and inspect motion, subject consistency, text, and audio where relevant.",
+    "Select usable material, complete the edit, and review continuity, claims, and output requirements before sharing the finished video."
+  ],
+  "faqs": [
+    {
+      "question": "How is video generation different from video editing?",
+      "answer": "Generation creates new moving material or assembles it from inputs. Editing reshapes existing footage. Many workflows need both, so compare the new material a tool produces and the editing steps still required."
+    },
+    {
+      "question": "Should I start from text or an image?",
+      "answer": "Use text when exploring an unconstrained scene; an image can help establish the initial appearance of a subject or setting. Test the supported controls because a reference does not guarantee consistent motion or later frames."
+    },
+    {
+      "question": "How should I compare generation costs?",
+      "answer": "Compare the cost of usable footage, including unsuccessful attempts, variations, and required output settings. A low per-generation price can be less informative than the budget needed to finish a representative scene."
+    },
+    {
+      "question": "Can a generated clip be considered a finished video?",
+      "answer": "Sometimes a short clip is the intended deliverable, but longer work often needs sequencing, audio, titles, and continuity review. Inspect the complete viewer experience instead of assuming generation replaces every production step."
+    },
+    {
+      "question": "What should I inspect in a sample clip?",
+      "answer": "Watch the entire clip for unstable subjects, inconsistent objects, awkward motion, and unintended text or audio. Check the required resolution and format, then repeat the test with another representative shot."
+    }
+  ],
+  "related": [
+    {
+      "slug": "text-to-video-ai",
+      "label": "Text to Video AI"
+    },
+    {
+      "slug": "image-to-video-ai",
+      "label": "Image to Video AI"
+    },
+    {
+      "slug": "ai-video-editor",
+      "label": "AI Video Editor"
+    },
+    {
+      "slug": "image-video",
+      "label": "Image & Video"
+    }
+  ]
+}

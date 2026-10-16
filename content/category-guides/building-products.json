@@ -1,0 +1,80 @@
+{
+  "title": "Product Building Tools from Discovery to Release",
+  "description": "Explore product-building tools for discovery, prototyping, implementation, and release, with guidance on user needs, maintainability, feedback, and ownership.",
+  "introduction": "Product-building tools support the path from an idea to something people can use and a team can maintain. This category spans discovery, prototypes, implementation aids, collaboration, and release workflows. It is broader than generating an app or website in one session. Start with the uncertainty you need to resolve, then choose a tool that helps answer it without hiding the work still needed for usability, operation, feedback, and future changes.",
+  "capabilities": [
+    "Capture a user problem and turn assumptions into reviewable product requirements.",
+    "Build prototypes or working slices that test a specific product decision.",
+    "Coordinate implementation, feedback, and release responsibilities across the people involved.",
+    "Preserve product knowledge and ownership as the project moves beyond launch."
+  ],
+  "audiences": [
+    {
+      "label": "Founders and small teams",
+      "text": "Test a narrow user problem with a working slice before expanding features or committing to a larger platform."
+    },
+    {
+      "label": "Product teams",
+      "text": "Connect discovery evidence, implementation decisions, and release feedback so the next iteration follows an explicit learning goal."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Stage fit",
+      "text": "Choose discovery, prototyping, implementation, or release support according to the current uncertainty rather than the most impressive demonstration."
+    },
+    {
+      "label": "Maintainable ownership",
+      "text": "Check code or data access, exports, integrations, and who can make changes after the initial prototype is complete."
+    },
+    {
+      "label": "Feedback loop",
+      "text": "Assess how the workflow records user evidence, identifies unfinished work, and assigns the next product decision."
+    }
+  ],
+  "workflow": [
+    "Define the user problem, intended outcome, and riskiest assumption before deciding what to build or which tool to use.",
+    "Create a small working slice and observe relevant users, separating what they actually do from what the team expected.",
+    "Address the findings, verify release readiness, and assign responsibility for operation, support, and the next iteration."
+  ],
+  "faqs": [
+    {
+      "question": "Is generating an application the same as building a product?",
+      "answer": "No. Application generation can create implementation material, but a product also needs a defined user problem, usable behavior, feedback, and ongoing operation. Evaluate the responsibilities that remain after the first demonstration."
+    },
+    {
+      "question": "What is a useful first prototype?",
+      "answer": "Build enough to test an important assumption about the user’s task or the proposed experience. Avoid adding features that do not help answer the question the prototype is meant to resolve."
+    },
+    {
+      "question": "How should a small team compare product-building tools?",
+      "answer": "Use a representative workflow from your current stage and inspect the resulting artifact, handoffs, and ownership. A quick prototype may be valuable even when a different tool is needed for production."
+    },
+    {
+      "question": "What should I check before relying on a generated prototype?",
+      "answer": "Inspect the intended behavior, data handling, integrations, and ability to make future changes. Confirm which parts are working and which are placeholders before showing the result as a finished product."
+    },
+    {
+      "question": "Why does post-launch ownership belong in tool selection?",
+      "answer": "Someone must respond to feedback, maintain integrations, and make changes after release. Choose a workflow that preserves access and responsibilities rather than treating launch as the end of the product’s lifecycle."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-app-builder",
+      "label": "AI App Builder"
+    },
+    {
+      "slug": "no-code",
+      "label": "No Code"
+    },
+    {
+      "slug": "project-management",
+      "label": "Project Management"
+    },
+    {
+      "slug": "productivity",
+      "label": "Productivity & Automation"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "title": "AI Image APIs for Generation and Editing Workflows",
+  "description": "Compare AI image APIs for generation, editing, and application integration. Review output controls, request costs, latency, data terms, and model changes.",
+  "introduction": "AI image APIs let developers add image generation or editing to their own applications through programmatic requests. The category covers services where images become part of a repeatable product workflow, rather than a person working only in a creative editor. A useful evaluation includes the whole integration: input handling, output quality, job completion, cost accounting, and model changes. Supported operations vary, so confirm generation, editing, reference images, or transparency separately for each service.",
+  "capabilities": [
+    "Generate images from application prompts using documented request and response formats.",
+    "Apply supported editing operations to uploaded images within a controlled workflow.",
+    "Configure available dimensions, formats, and quality settings for downstream use.",
+    "Track asynchronous jobs, failures, and usage through the provider’s available interfaces."
+  ],
+  "audiences": [
+    {
+      "label": "Product developers",
+      "text": "Build a feature that accepts a user brief, submits a request, and returns a usable image with clear progress and error states."
+    },
+    {
+      "label": "Content operations teams",
+      "text": "Connect reviewed product or campaign briefs to a repeatable image pipeline, keeping approval and asset storage in your own systems."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Operation and output fit",
+      "text": "Test the exact operation you need, including input restrictions, output dimensions, editable regions, and format requirements for your application."
+    },
+    {
+      "label": "Cost and reliability",
+      "text": "Model realistic request volumes, retries, and quality settings. Check rate limits and completion behavior before promising turnaround times to users."
+    },
+    {
+      "label": "Integration ownership",
+      "text": "Review data handling, usage rights, model versioning, and migration options so a provider change does not silently alter your product."
+    }
+  ],
+  "workflow": [
+    "Define a representative image task, acceptable output characteristics, and the application’s response and failure behavior.",
+    "Run a small evaluation across realistic prompts and inputs, recording quality, completion times, and billed usage.",
+    "Integrate validation, job tracking, asset storage, and human review where needed before expanding access."
+  ],
+  "faqs": [
+    {
+      "question": "How does an image API differ from an image generator?",
+      "answer": "An API exposes image operations to software through requests. A generator usually provides an interface for people. A product may offer both, but access, supported features, and billing can differ."
+    },
+    {
+      "question": "Can every image API edit an existing picture?",
+      "answer": "No. Generation, reference conditioning, masking, and other editing operations depend on the service and model. Check the documented endpoint and test your actual input type before choosing an integration."
+    },
+    {
+      "question": "What should I measure besides visual quality?",
+      "answer": "Measure completion time, failure handling, rate limits, output sizes, and actual billed usage under realistic settings. A visually strong result can still be unsuitable for an interactive or high-volume application."
+    },
+    {
+      "question": "How do I compare API pricing fairly?",
+      "answer": "Use a representative workload with the same output requirements. Include resolution, quality, number of images, retries, and any separate editing charges rather than comparing headline prices with different billing units."
+    },
+    {
+      "question": "What happens when a provider changes its model?",
+      "answer": "Output behavior or available settings may change. Check versioning and retirement policies, keep representative evaluation prompts, and plan a controlled upgrade path for features that depend on consistent image characteristics."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-image-generator",
+      "label": "AI Image Generator"
+    },
+    {
+      "slug": "ai-photo-editor",
+      "label": "AI Photo Editor"
+    },
+    {
+      "slug": "developer-apis",
+      "label": "Developer APIs"
+    }
+  ]
+}

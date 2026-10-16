@@ -1,0 +1,76 @@
+{
+  "title": "AI Text APIs for Language Features in Applications",
+  "description": "Compare AI text APIs for application features such as drafting, extraction, and question answering. Review output control, latency, usage costs, and model fit.",
+  "introduction": "AI text APIs expose language model capabilities to software through programmatic requests. Developers can use them for tasks such as drafting, extracting information, classifying text, and answering questions within an application. The task determines the evaluation: fluent prose, valid structured output, and accurate source-grounded answers require different checks. This category concerns building with a model service; chat applications provide a ready-made user experience, while coding assistants help develop the surrounding software.",
+  "capabilities": [
+    "Generate or transform text from application instructions and supplied context.",
+    "Extract supported structured information for subsequent validation and application processing.",
+    "Classify or summarize content using task-specific requests and evaluation examples.",
+    "Connect language responses to application interfaces and controlled workflow steps."
+  ],
+  "audiences": [
+    {
+      "label": "Application developers",
+      "text": "Add a bounded language feature with clear input requirements, output validation, and understandable behavior when the model cannot complete the task."
+    },
+    {
+      "label": "Data workflow teams",
+      "text": "Process recurring text records into reviewable categories or fields, measuring errors on representative examples before increasing volume."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Task performance",
+      "text": "Compare providers using examples from the actual workflow, including ambiguous inputs, unsupported requests, and cases where the correct response is uncertainty."
+    },
+    {
+      "label": "Operational requirements",
+      "text": "Assess context limits, latency, rate limits, availability, and streaming options against the user experience or batch schedule you intend to support."
+    },
+    {
+      "label": "Cost and control",
+      "text": "Review billing units, data handling, model versions, and response constraints, including how retries and long context affect total usage."
+    }
+  ],
+  "workflow": [
+    "Specify the language task, acceptable outputs, and examples of both successful and unacceptable behavior.",
+    "Evaluate candidate models on a representative set, recording quality, response time, and usage under realistic settings.",
+    "Integrate validation, bounded retries, monitoring, and fallback behavior before allowing model output to drive important actions."
+  ],
+  "faqs": [
+    {
+      "question": "Is a text API the same as a chatbot?",
+      "answer": "A text API supplies capabilities that developers incorporate into software. A chatbot is an application built around conversation. The same underlying model can support either, but the integration and controls differ."
+    },
+    {
+      "question": "How should I compare model costs?",
+      "answer": "Use your actual input lengths, output lengths, request volume, and expected retries. Check the provider’s billing definitions and any separate charges rather than comparing model names or headline rates alone."
+    },
+    {
+      "question": "Does structured output make a result correct?",
+      "answer": "A response can follow a required format and still contain wrong values. Validate field meaning, allowed values, and source evidence in addition to parsing the response successfully inside your application."
+    },
+    {
+      "question": "When should I add retrieval from my own documents?",
+      "answer": "Consider retrieval when answers depend on a specific, changing source collection. Evaluate document access, relevant passage selection, and answer grounding separately; providing context does not remove the need to check accuracy."
+    },
+    {
+      "question": "What should happen when a model version changes?",
+      "answer": "Run your representative evaluation set before upgrading. Review output behavior, supported settings, and cost changes, then use a controlled rollout rather than assuming a newer version preserves every application expectation."
+    }
+  ],
+  "related": [
+    {
+      "slug": "developer-apis",
+      "label": "Developer APIs"
+    },
+    {
+      "slug": "ai-chatbot",
+      "label": "AI Chatbot"
+    },
+    {
+      "slug": "ai-models",
+      "label": "AI Models"
+    }
+  ]
+}

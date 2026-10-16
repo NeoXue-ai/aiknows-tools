@@ -1,0 +1,76 @@
+{
+  "title": "Email Tools for Inbox Management and Outreach Workflows",
+  "description": "Compare email tools for inbox organization, drafting, shared handling, and outreach. Review account access, sending controls, integrations, and team ownership.",
+  "introduction": "Email tools help manage incoming messages, prepare replies, coordinate shared conversations, or organize outbound outreach. These are different workflows, even when a product combines them. Start by deciding whether the main problem is personal inbox overload, team responsibility, or a structured sending process. This category concerns email operations; broader sales tools manage relationships beyond messages, while customer support platforms often add tickets, service queues, and multiple communication channels.",
+  "capabilities": [
+    "Organize incoming messages through supported labels, priorities, or inbox views.",
+    "Draft replies or outbound messages using supplied context and writing guidance.",
+    "Coordinate shared conversations with available assignment and collaboration controls.",
+    "Connect email activity to supported contact records and follow-up workflows."
+  ],
+  "audiences": [
+    {
+      "label": "Busy professionals",
+      "text": "Triage incoming messages and prepare replies while retaining review of recipients, attachments, and commitments before anything is sent."
+    },
+    {
+      "label": "Sales and service teams",
+      "text": "Assign ownership of conversations, record relevant context, and coordinate follow-up without multiple people sending conflicting responses to the same contact."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Workflow and account fit",
+      "text": "Check support for your email provider, shared mailboxes, aliases, and the distinction between inbox assistance and campaign sending."
+    },
+    {
+      "label": "Sending control",
+      "text": "Review approval steps, scheduling, recipient handling, exclusions, and how the tool prevents unintended or repeated messages during a workflow."
+    },
+    {
+      "label": "Access and recordkeeping",
+      "text": "Assess mailbox permissions, retention, search access, and synchronization with your CRM or support system, including who owns the conversation record."
+    }
+  ],
+  "workflow": [
+    "Identify one email workflow and define who reads, drafts, approves, and sends each kind of message.",
+    "Connect a limited account or sample workflow and test threading, assignments, attachments, and follow-up behavior.",
+    "Review messages and permissions, then monitor exceptions and adjust rules as the volume or team responsibilities change."
+  ],
+  "faqs": [
+    {
+      "question": "Is an email assistant the same as an outreach platform?",
+      "answer": "An assistant may focus on reading and drafting within an inbox. An outreach platform emphasizes organized outbound sequences and contact workflows. Verify the actual sending and account management capabilities before choosing."
+    },
+    {
+      "question": "Should generated replies send automatically?",
+      "answer": "Begin with drafts and human review, especially where messages create commitments or address unusual requests. If sending is automated later, define narrow rules, exclusions, and an owner for unexpected situations."
+    },
+    {
+      "question": "What matters for a shared team inbox?",
+      "answer": "Check assignment, internal notes, collision handling, and conversation history. The workflow should make responsibility clear so a customer does not receive duplicate replies or wait while everyone assumes someone else is responding."
+    },
+    {
+      "question": "Can a tool guarantee that outreach reaches an inbox?",
+      "answer": "Do not treat any delivery claim as a guarantee. Evaluate sending practices, recipient relevance, account setup, and applicable messaging requirements, while keeping clear controls over who is contacted and how often."
+    },
+    {
+      "question": "What should I inspect before granting mailbox access?",
+      "answer": "Review the requested permissions, which messages or attachments can be processed, retention terms, and how access is revoked. Match that scope to the task rather than connecting every available mailbox."
+    }
+  ],
+  "related": [
+    {
+      "slug": "sales",
+      "label": "Sales"
+    },
+    {
+      "slug": "customer-support",
+      "label": "Customer Support"
+    },
+    {
+      "slug": "automation",
+      "label": "Automation"
+    }
+  ]
+}

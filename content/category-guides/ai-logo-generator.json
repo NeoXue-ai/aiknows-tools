@@ -1,0 +1,76 @@
+{
+  "title": "AI Logo Generators for Brand Concepts and Design Files",
+  "description": "Explore AI logo generators for brand concepts, editable marks, and export files, with guidance on typography, practical use, and ownership terms.",
+  "introduction": "AI logo generators help explore visual marks from a business name, description, style choices, or a written prompt. Some produce concept images, while others provide editable layouts and related brand assets. The category focuses on a recognizable identity mark rather than complete marketing graphics. Judge a result in the places the logo will actually appear, and distinguish an attractive preview from a usable set of files your team can maintain.",
+  "capabilities": [
+    "Explore logo directions using a business brief and visual preferences.",
+    "Revise symbols, typography, spacing, and color where editing controls permit.",
+    "Preview a mark in practical contexts before committing to one direction.",
+    "Export available design files and document the applicable usage terms."
+  ],
+  "audiences": [
+    {
+      "label": "New businesses",
+      "text": "Explore several identity directions, compare small-size readability, and prepare a shortlist for further refinement."
+    },
+    {
+      "label": "Design collaborators",
+      "text": "Use generated concepts to discuss symbolism and typography, then build a consistent set of approved brand files."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Editing depth",
+      "text": "Check whether individual shapes and text remain editable or whether the product mainly returns a finished image."
+    },
+    {
+      "label": "File readiness",
+      "text": "Inspect available formats, background options, sizes, and the files required by printers, websites, and design collaborators."
+    },
+    {
+      "label": "Usage terms",
+      "text": "Read ownership, licensing, and restrictions for the actual output; a paid download is not evidence that a mark is distinctive."
+    }
+  ],
+  "workflow": [
+    "Write a brief covering the name, audience, brand qualities, and visual associations to include or avoid.",
+    "Generate different directions and compare legibility, balance, and suitability in a single-color and small-size preview.",
+    "Refine the chosen mark, inspect exports and usage terms, and assemble approved versions with consistent naming."
+  ],
+  "faqs": [
+    {
+      "question": "Will a generated logo be unique to my business?",
+      "answer": "Do not assume that it is exclusive or distinctive simply because it was generated for your prompt. Review the design and applicable terms, and obtain appropriate professional checks when the identity is important."
+    },
+    {
+      "question": "What files should I look for before buying a logo?",
+      "answer": "Identify where the mark will be used, then check the required editable and image formats, transparent backgrounds, and variations. Confirm those files are included in the actual package rather than only shown in previews."
+    },
+    {
+      "question": "How is a logo generator different from an image generator?",
+      "answer": "A logo generator may provide name-based layouts, typography controls, and brand exports. A general image generator emphasizes visual concepts; it may not supply editable lettering or the production files your identity workflow requires."
+    },
+    {
+      "question": "Why should I test a logo at small sizes?",
+      "answer": "A mark that looks clear in a large preview can become hard to recognize in a profile image, mobile header, or label. Inspect the symbol and lettering at their intended use sizes."
+    },
+    {
+      "question": "Can I use a generator as part of a designer’s workflow?",
+      "answer": "Yes, it can support exploration and discussion. Keep the brief, selected references, and editable source files so the designer can refine the identity rather than repeatedly reconstructing an uneditable concept image."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-graphic-design",
+      "label": "AI Graphic Design"
+    },
+    {
+      "slug": "ai-image-generator",
+      "label": "AI Image Generator"
+    },
+    {
+      "slug": "ai-art-generator",
+      "label": "AI Art Generator"
+    }
+  ]
+}

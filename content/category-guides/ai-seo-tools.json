@@ -1,0 +1,76 @@
+{
+  "title": "AI SEO Tools for Audits, Content Planning and Research",
+  "description": "Explore AI SEO tools for site audits, topic research, content briefs, and search analysis. Compare data coverage, evidence, and actionable recommendations.",
+  "introduction": "AI SEO tools help investigate how a website addresses search demand and where its content or technical setup may need attention. Depending on the product, work may include topic research, page analysis, content briefs, or site audits. Separate recommendations based on observed website data from generated suggestions that need verification. This category focuses on search visibility work; general marketing tools cover broader campaigns, and writing tools concentrate on producing and revising content.",
+  "capabilities": [
+    "Identify content gaps and organize related topics into usable editorial briefs.",
+    "Review page structure and surface technical issues for further investigation.",
+    "Analyze available search data to prioritize pages and monitor changes.",
+    "Suggest revisions that better address the intent behind relevant searches."
+  ],
+  "audiences": [
+    {
+      "label": "Website owners",
+      "text": "Prioritize a manageable set of page improvements using actual site evidence rather than attempting every recommendation at once."
+    },
+    {
+      "label": "Content strategists",
+      "text": "Translate audience questions and topic research into briefs with clear scope, supporting evidence, and an editorial review process."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Evidence behind suggestions",
+      "text": "Distinguish measured issues, third-party estimates, and generated advice so each recommendation receives an appropriate level of scrutiny."
+    },
+    {
+      "label": "Site coverage",
+      "text": "Check crawl limits, supported site types, regional data, and integrations with the search and analytics accounts you use."
+    },
+    {
+      "label": "Actionable prioritization",
+      "text": "Look for explanations of affected pages and likely causes, with exportable tasks that a writer or developer can actually address."
+    }
+  ],
+  "workflow": [
+    "Define the site section, target audience, and search questions you want to investigate.",
+    "Review tool findings against page content and available first-party data, then prioritize specific changes.",
+    "Publish reviewed improvements and monitor relevant outcomes over time, accounting for other changes to the site."
+  ],
+  "faqs": [
+    {
+      "question": "Do AI SEO tools guarantee better rankings?",
+      "answer": "No tool can establish a guaranteed ranking outcome from a recommendation alone. Use the software to investigate opportunities, then assess the quality of changes and observe results in context."
+    },
+    {
+      "question": "How do these tools differ from AI writers?",
+      "answer": "SEO tools help decide what to investigate or improve using search and website information. AI writers help produce text. Some combine these functions, but data coverage and editorial quality remain separate decisions."
+    },
+    {
+      "question": "Should I follow every automated audit finding?",
+      "answer": "Review severity and relevance before acting. A warning may reflect a configuration choice or a low-priority page. Confirm the underlying issue and the expected benefit with the appropriate site owner."
+    },
+    {
+      "question": "What matters for multilingual SEO research?",
+      "answer": "Check country and language coverage for the actual research features, not merely the interface language. Review local search intent and terminology with someone familiar with the intended audience."
+    },
+    {
+      "question": "How can a small team avoid endless recommendations?",
+      "answer": "Choose a bounded site section and a concrete outcome, then group related fixes. Maintain an owner and a review date for each action instead of treating a large audit score as the objective."
+    }
+  ],
+  "related": [
+    {
+      "slug": "seo-marketing",
+      "label": "SEO & Marketing"
+    },
+    {
+      "slug": "ai-writer",
+      "label": "AI Writer"
+    },
+    {
+      "slug": "ai-analytics",
+      "label": "AI Analytics"
+    }
+  ]
+}

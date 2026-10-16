@@ -1,0 +1,80 @@
+{
+  "title": "AI App Builders for Prototypes and Working Applications",
+  "description": "Explore AI app builders for prototypes and working applications. Compare source ownership, data handling, deployment choices, and support for ongoing changes.",
+  "introduction": "AI app builders turn descriptions, examples, or guided inputs into application interfaces and functionality. The scope varies from a visual prototype to a connected application with data and user accounts. Define the result you need before choosing: demonstrating an idea is different from operating software for real customers. This category centers on application creation, while website builders focus on pages and coding assistants support more direct work within an existing codebase.",
+  "capabilities": [
+    "Turn a product brief into an initial application structure and interface.",
+    "Add supported data connections and user flows through guided building tools.",
+    "Revise generated behavior using prompts, visual controls, or accessible source code.",
+    "Preview and deploy applications through the hosting options the platform provides."
+  ],
+  "audiences": [
+    {
+      "label": "Product founders",
+      "text": "Validate a narrow user journey with a prototype, then assess the engineering and operational work needed before onboarding real customers."
+    },
+    {
+      "label": "Internal operations teams",
+      "text": "Create a small tool around an established process, checking permissions, data accuracy, and the maintenance responsibilities after the initial build."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Application depth",
+      "text": "Confirm that required behavior works beyond the demonstration, including validation, empty states, permissions, and failures in external services."
+    },
+    {
+      "label": "Ownership and portability",
+      "text": "Inspect source export, database access, dependencies, and hosting choices before relying on the builder for an important application."
+    },
+    {
+      "label": "Change and maintenance",
+      "text": "Evaluate how revisions affect existing behavior and how you can inspect changes, restore earlier versions, and obtain technical help."
+    }
+  ],
+  "workflow": [
+    "Describe one user journey, its required data, and clear acceptance criteria before generating the initial application.",
+    "Test the journey with representative inputs and user roles, correcting errors and reviewing connected services.",
+    "Confirm deployment, backups, monitoring, and ownership arrangements before expanding the application’s audience or scope."
+  ],
+  "faqs": [
+    {
+      "question": "Can an app builder create more than a visual mockup?",
+      "answer": "Some support databases, authentication, and server-side behavior, while others emphasize interfaces. Verify the exact workflow in a working preview and deployment rather than inferring functionality from an attractive screen."
+    },
+    {
+      "question": "How does an AI app builder differ from no-code?",
+      "answer": "The categories overlap. AI app builders emphasize generating or revising an app through instructions, while no-code emphasizes visual construction. Either may still require technical knowledge for integrations and production operations."
+    },
+    {
+      "question": "When should I involve a developer?",
+      "answer": "Bring in technical review when the application handles sensitive data, payments, complex permissions, or important business processes. Review architecture and ownership early enough to avoid rebuilding around an unsuitable foundation."
+    },
+    {
+      "question": "What should I test before sharing an app?",
+      "answer": "Test complete user journeys, invalid inputs, separate user accounts, and failed connections. Confirm that users can access only the appropriate data and that the application communicates errors clearly."
+    },
+    {
+      "question": "Can I leave the platform later?",
+      "answer": "Check more than whether code downloads. A practical move also depends on databases, authentication, hosting services, dependencies, and deployment instructions. Try exporting and running a small example before committing."
+    }
+  ],
+  "related": [
+    {
+      "slug": "no-code",
+      "label": "No Code"
+    },
+    {
+      "slug": "ai-website-builder",
+      "label": "AI Website Builder"
+    },
+    {
+      "slug": "ai-code-generator",
+      "label": "AI Code Generator"
+    },
+    {
+      "slug": "code-development",
+      "label": "Code & Development"
+    }
+  ]
+}

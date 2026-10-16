@@ -1,0 +1,76 @@
+{
+  "title": "Code Boilerplates and Starter Templates for New Apps",
+  "description": "Compare code boilerplates and starter templates for new applications. Review stack fit, included integrations, maintainability, licensing, and setup requirements.",
+  "introduction": "Boilerplates provide an existing code foundation for a new project, often bundling common application structure and selected integrations. They can reduce repeated setup, but the included choices become part of the system you maintain. Start with the architecture and features you actually need rather than the largest feature list. This category concerns reusable starter code; app builders emphasize generating an application, while no-code platforms usually center on configuration through a visual interface.",
+  "capabilities": [
+    "Start a project from an existing application structure and documented setup.",
+    "Reuse included authentication, billing, or data integrations where the starter provides them.",
+    "Adapt existing components and patterns to the requirements of a new product.",
+    "Maintain the resulting source code within your own development and release workflow."
+  ],
+  "audiences": [
+    {
+      "label": "Independent developers",
+      "text": "Choose a starter aligned with a familiar stack, remove unnecessary parts, and validate the first user journey before extending the application."
+    },
+    {
+      "label": "Product teams",
+      "text": "Evaluate a shared foundation for a new service, reviewing architecture, dependency choices, and how updates will fit the team’s maintenance process."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Stack and integration fit",
+      "text": "Inspect framework versions, database assumptions, deployment targets, and included services so the starter matches the product rather than forcing unrelated dependencies."
+    },
+    {
+      "label": "Code and documentation quality",
+      "text": "Review representative implementation files, setup instructions, and error handling. A polished demonstration does not establish that the code is easy to maintain."
+    },
+    {
+      "label": "License and update path",
+      "text": "Check permitted projects, redistribution restrictions, support scope, and whether upstream improvements can be incorporated after you customize the source."
+    }
+  ],
+  "workflow": [
+    "List required application features and select a starter whose architecture and dependencies fit those requirements.",
+    "Run the project in a development environment and verify included flows using representative accounts and data.",
+    "Remove unused integrations, review configuration, and document ownership before building product-specific behavior on top of the foundation."
+  ],
+  "faqs": [
+    {
+      "question": "How is a boilerplate different from a component library?",
+      "answer": "A component library provides reusable interface pieces. A boilerplate supplies a broader project foundation, which may include routing, configuration, services, and example flows. Check exactly what the starter includes before adopting it."
+    },
+    {
+      "question": "Does a starter remove the need to understand its code?",
+      "answer": "No. You inherit responsibility for the resulting application. Read the architecture and critical flows, including authentication and data access, so you can diagnose failures and maintain the system after customization."
+    },
+    {
+      "question": "What should I inspect before buying a boilerplate?",
+      "answer": "Review the stack, dependency versions, documentation, license, and included integrations. Where possible, inspect representative code and setup requirements rather than judging only screenshots, a feature checklist, or a hosted demonstration."
+    },
+    {
+      "question": "Will updates apply automatically after I customize the starter?",
+      "answer": "That depends on how the project is distributed and maintained. Ask how upstream changes are delivered and merged, since modifications to your own application can make later updates require manual integration work."
+    },
+    {
+      "question": "Is a boilerplate appropriate for a prototype?",
+      "answer": "It can be when the stack is familiar and the included structure fits the idea. If learning the foundation or removing unnecessary services dominates the work, a smaller starting point may be more suitable."
+    }
+  ],
+  "related": [
+    {
+      "slug": "code-development",
+      "label": "Code & Development"
+    },
+    {
+      "slug": "ai-app-builder",
+      "label": "AI App Builder"
+    },
+    {
+      "slug": "developer-tools",
+      "label": "Developer Tools"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "title": "AI Avatar Generators for Profiles and Characters",
+  "description": "Explore AI avatar generators for profile images, personas, and characters. Compare likeness controls, style consistency, input requirements, and export options.",
+  "introduction": "AI avatar generators create visual identities for profiles, characters, and digital personas. Outputs may range from stylized portraits to more realistic representations, depending on the product. This category is about the avatar itself rather than every kind of portrait or talking video. Choose AI Headshot Generator for professional portrait presentation, and AI Lip Sync when matching a character’s mouth movements to supplied dialogue is the central production task you need.",
+  "capabilities": [
+    "Create profile image candidates from supported prompts, photographs, or appearance settings.",
+    "Explore visual identities through different illustration treatments, clothing, and background choices.",
+    "Develop character variations while checking recognizable features across the resulting images.",
+    "Export avatar assets in supported dimensions and formats for their intended destinations."
+  ],
+  "audiences": [
+    {
+      "label": "Community managers",
+      "text": "Develop recognizable profile art for a project and adapt approved versions to different channel dimensions."
+    },
+    {
+      "label": "Character creators",
+      "text": "Explore an original persona, choose stable identifying features, and build a reference set for later artwork."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Identity requirements",
+      "text": "Decide whether the result should resemble a real person or represent an invented character."
+    },
+    {
+      "label": "Consistency controls",
+      "text": "Test several expressions and settings to see which identifying details remain stable through revisions."
+    },
+    {
+      "label": "Input and usage terms",
+      "text": "Check handling of uploaded portraits, deletion options, permitted uses, and rights relevant to your project."
+    }
+  ],
+  "workflow": [
+    "Define the avatar’s purpose, identifying features, style, and destination size before providing inputs.",
+    "Create a small set of variations and inspect likeness, unwanted changes, and visual consistency.",
+    "Approve one identity, prepare channel-specific exports, and retain reference material for future revisions."
+  ],
+  "faqs": [
+    {
+      "question": "How does an avatar differ from a professional headshot?",
+      "answer": "An avatar can be stylized, fictional, or designed to represent an online persona. A professional headshot usually aims for a credible portrait of a particular person in a work-related context."
+    },
+    {
+      "question": "Can I use someone else’s photograph as an input?",
+      "answer": "Use a photograph only when you have appropriate permission for that purpose. Consider both the person depicted and the image rights, and check how the service stores or reuses uploaded material."
+    },
+    {
+      "question": "Will the same character remain consistent across generations?",
+      "answer": "Consistency depends on the product’s reference and revision controls. Test a range of poses and expressions, paying attention to features that define the character rather than relying on similar overall styling."
+    },
+    {
+      "question": "Do avatar tools also create talking videos?",
+      "answer": "Some include animation or presenter features, while others produce still images only. If dialogue and mouth movement are essential, compare the video and lip sync capabilities separately before selecting a tool."
+    },
+    {
+      "question": "What should I check for a small profile image?",
+      "answer": "Preview the avatar at the actual display size, including circular crops where relevant. Check silhouette, contrast, facial detail, and background clutter so the identity remains recognizable when the image is reduced."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-headshot-generator",
+      "label": "AI Headshot Generator"
+    },
+    {
+      "slug": "ai-art-generator",
+      "label": "AI Art Generator"
+    },
+    {
+      "slug": "ai-lip-sync",
+      "label": "AI Lip Sync"
+    },
+    {
+      "slug": "image-video",
+      "label": "Image & Video"
+    },
+    {
+      "slug": "ai-image-generator",
+      "label": "AI Image Generator"
+    }
+  ]
+}

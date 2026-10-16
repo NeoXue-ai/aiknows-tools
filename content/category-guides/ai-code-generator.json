@@ -1,0 +1,80 @@
+{
+  "title": "AI Code Generators for Implementation and Review",
+  "description": "Explore AI code generators for completion, implementation, and refactoring, with guidance on repository context, review controls, testing, and integration.",
+  "introduction": "AI code generators propose code from instructions, nearby files, or repository context. Some provide short completions, while others work through larger implementation or refactoring tasks. This category focuses on producing and changing code rather than supplying a complete application platform. Evaluate a tool in the language, framework, and development environment you actually maintain, with the same review and verification expectations used for other changes to the project.",
+  "capabilities": [
+    "Propose code from a task description and the available project context.",
+    "Complete repetitive implementation patterns while preserving relevant surrounding conventions.",
+    "Suggest refactors or fixes that developers can inspect before accepting.",
+    "Support implementation explanations and tests within a reviewable development workflow."
+  ],
+  "audiences": [
+    {
+      "label": "Software developers",
+      "text": "Implement a bounded change, inspect the proposed diff, and verify behavior within the existing project."
+    },
+    {
+      "label": "Engineering teams",
+      "text": "Evaluate shared coding assistance against repository conventions, review practices, and access requirements before wider adoption."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Project understanding",
+      "text": "Check how the tool selects files, respects existing interfaces, and handles context that spans several parts of the repository."
+    },
+    {
+      "label": "Change control",
+      "text": "Inspect approval modes, diff visibility, command permissions, and whether a proposed modification can be reviewed before execution."
+    },
+    {
+      "label": "Verification fit",
+      "text": "Test generated changes with the project’s meaningful checks and assess errors, maintenance burden, and integration effort."
+    }
+  ],
+  "workflow": [
+    "Define the required behavior and constraints, then supply the relevant project context without unrelated sensitive material.",
+    "Ask for a bounded implementation and inspect the diff for correctness, unnecessary changes, and compatibility with existing code.",
+    "Run appropriate checks, review unresolved assumptions, and accept the change only after understanding the resulting behavior."
+  ],
+  "faqs": [
+    {
+      "question": "How is a code generator different from an app builder?",
+      "answer": "A code generator produces or changes implementation material inside a development workflow. An app builder may also provide hosting, databases, or visual editing. Compare the development responsibilities you retain after generation."
+    },
+    {
+      "question": "Can I accept generated code without reading it?",
+      "answer": "Review it with the same care as other code changes. Check behavior, dependencies, and integration assumptions, and use meaningful tests or checks rather than treating a successful generation as evidence of correctness."
+    },
+    {
+      "question": "What is a useful evaluation task for a coding assistant?",
+      "answer": "Choose a small real change that touches existing project conventions and has observable behavior. Compare the resulting diff, review effort, and verification results instead of judging only how quickly code appears."
+    },
+    {
+      "question": "Does a large context window mean the tool understands the repository?",
+      "answer": "No. Context capacity describes available input space, not reliable understanding. Inspect which files were used, whether important interfaces were missed, and how the proposed change behaves within the project."
+    },
+    {
+      "question": "Should a coding assistant be allowed to run commands automatically?",
+      "answer": "Choose permissions according to the project and task. Inspect command visibility, approval controls, and recovery options, and begin with a scope where proposed changes and their consequences can be understood."
+    }
+  ],
+  "related": [
+    {
+      "slug": "developer-tools",
+      "label": "Developer Tools"
+    },
+    {
+      "slug": "ai-app-builder",
+      "label": "AI App Builder"
+    },
+    {
+      "slug": "coding-proxy",
+      "label": "Coding Proxy"
+    },
+    {
+      "slug": "code-development",
+      "label": "Code & Development"
+    }
+  ]
+}

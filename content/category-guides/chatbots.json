@@ -1,0 +1,80 @@
+{
+  "title": "Chatbot Builders for Support and Guided Conversations",
+  "description": "Explore chatbot builders for configuring conversations, knowledge sources, and handoffs. Compare channels, testing controls, integrations, and maintenance needs.",
+  "introduction": "Chatbot platforms help teams build and operate conversational experiences for a defined audience. They may combine scripted paths, supplied knowledge, model-generated replies, and connections to business systems. This category emphasizes configuring the conversation and managing its operation. AI Chatbot is a broader destination for conversational assistants themselves, while Customer Support includes the wider ticketing, routing, and service workflow around customer questions. Start with the questions and actions the bot should reliably handle.",
+  "capabilities": [
+    "Configure conversation behavior using supported instructions, flows, knowledge sources, or response rules.",
+    "Publish a conversational interface through available website, messaging, or other supported channels.",
+    "Connect selected conversation steps to permitted business records or application actions.",
+    "Review conversations and provide escalation paths for questions outside the bot’s intended scope."
+  ],
+  "audiences": [
+    {
+      "label": "Support operations teams",
+      "text": "Configure answers from approved help material and route unresolved or sensitive cases to the appropriate people."
+    },
+    {
+      "label": "Service and product teams",
+      "text": "Build a guided conversation that gathers required information before a defined, authorized next step."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Conversation scope",
+      "text": "List supported questions, unavailable actions, and circumstances that require clarification or human help."
+    },
+    {
+      "label": "Knowledge maintenance",
+      "text": "Check how sources are updated, permissions are applied, and outdated answers can be identified and corrected."
+    },
+    {
+      "label": "Operational controls",
+      "text": "Test channels, integrations, conversation review, escalation, and access controls with representative difficult cases."
+    }
+  ],
+  "workflow": [
+    "Define the audience, approved knowledge, allowed actions, and a clear path to human assistance.",
+    "Build a limited conversation and test ordinary, ambiguous, unsupported, and adversarial requests.",
+    "Launch with appropriate oversight, review unresolved conversations, and update knowledge and behavior as needs change."
+  ],
+  "faqs": [
+    {
+      "question": "How does a chatbot builder differ from a ready-made assistant?",
+      "answer": "A builder lets you configure a conversation for your own audience and workflow. A ready-made assistant is primarily a finished experience for its users, although some products support both forms of use."
+    },
+    {
+      "question": "Should I use scripted flows or generated responses?",
+      "answer": "Use the approach that fits the task. Structured flows can help gather required information consistently, while generated replies may handle varied phrasing; test any combination against the questions and actions you allow."
+    },
+    {
+      "question": "Can a chatbot answer from our internal documents?",
+      "answer": "Some platforms support document or system connections, but access and retrieval behavior vary. Test source updates, permissions, and unsupported questions before assuming that an uploaded knowledge collection produces reliable answers."
+    },
+    {
+      "question": "What should happen when the bot cannot help?",
+      "answer": "Provide a clear fallback, such as asking a focused clarification or handing the conversation to a person. Preserve relevant context so the user does not have to repeat the entire request during escalation."
+    },
+    {
+      "question": "How should a chatbot be evaluated after launch?",
+      "answer": "Review representative conversations for answer accuracy, successful handoffs, and unresolved needs. Look beyond conversation volume, and use feedback to improve source material and boundaries rather than simply encouraging the bot to answer more."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-chatbot",
+      "label": "AI Chatbot"
+    },
+    {
+      "slug": "customer-support",
+      "label": "Customer Support"
+    },
+    {
+      "slug": "ai-agent",
+      "label": "AI Agent"
+    },
+    {
+      "slug": "productivity",
+      "label": "Productivity & Automation"
+    }
+  ]
+}

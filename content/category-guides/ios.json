@@ -1,0 +1,76 @@
+{
+  "title": "iOS Apps and Tools for Everyday iPhone Workflows",
+  "description": "Explore iOS apps and Apple-platform tools for everyday work. Compare device compatibility, mobile usability, offline access, data controls, and handoffs.",
+  "introduction": "This category gathers apps and tools intended for use on iOS and related Apple workflows. Their tasks vary, so platform availability is the starting point. Choose around what you need to accomplish on the device, such as capturing information, creating content, or reviewing work away from a desk. Compare specialized categories for task depth, then confirm that the individual product offers the mobile experience and device support you require.",
+  "capabilities": [
+    "Support relevant tasks through a mobile interface designed for compatible Apple devices.",
+    "Capture or work with supported content using available device inputs and sharing options.",
+    "Continue selected work across devices when account synchronization or file handoffs are supported.",
+    "Provide task-specific access away from a desk, subject to connectivity and product limitations."
+  ],
+  "audiences": [
+    {
+      "label": "Mobile professionals",
+      "text": "Capture information during the day and transfer reviewed material into the systems used for ongoing work."
+    },
+    {
+      "label": "Apple device users",
+      "text": "Evaluate a focused app for a recurring personal or creative task on their actual device."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Device compatibility",
+      "text": "Confirm current operating system requirements, supported device types, and which features are available on each."
+    },
+    {
+      "label": "Mobile task fit",
+      "text": "Test capture, editing, navigation, and output sharing on a small screen using real work material."
+    },
+    {
+      "label": "Data and connectivity",
+      "text": "Check synchronization, offline behavior, export options, account requirements, and controls for any requested device access."
+    }
+  ],
+  "workflow": [
+    "Identify the task you need to complete on the device and the information it will involve.",
+    "Test the app on your actual device, including interruptions, weak connectivity, and output sharing.",
+    "Review permissions and recurring costs, then establish how important information will be retained or transferred."
+  ],
+  "faqs": [
+    {
+      "question": "Does an iOS listing mean the same experience on iPad?",
+      "answer": "Do not assume that every device receives the same interface or features. Check the product’s current compatibility information and try the specific iPad workflow if that is central to your intended use."
+    },
+    {
+      "question": "Will a mobile app work without an internet connection?",
+      "answer": "Offline support varies by task and product. Test the exact operation you need, including opening existing material, creating new content, and synchronizing changes after connectivity returns, rather than relying on a general offline claim."
+    },
+    {
+      "question": "How should I compare a mobile app with a browser tool?",
+      "answer": "Complete the same task in both environments on your device. Compare input handling, screen layout, sharing, interruptions, and access to required features instead of assuming an installed app always provides a better experience."
+    },
+    {
+      "question": "What should I check before granting device permissions?",
+      "answer": "Consider whether the requested access is needed for the task and review the available controls. Check how the app handles supplied files or captured material, especially when the workflow involves work or personal information."
+    },
+    {
+      "question": "Can I continue work on another device?",
+      "answer": "Some tools synchronize through an account, while others rely on file exports or platform-specific storage. Test the actual handoff, including formatting and editability, before depending on it for a recurring workflow."
+    }
+  ],
+  "related": [
+    {
+      "slug": "productivity-tools",
+      "label": "Productivity Tools"
+    },
+    {
+      "slug": "ai-note-taker",
+      "label": "AI Note Taker"
+    },
+    {
+      "slug": "remote-work",
+      "label": "Remote Work"
+    }
+  ]
+}

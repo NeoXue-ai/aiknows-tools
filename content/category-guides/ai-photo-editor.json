@@ -1,0 +1,76 @@
+{
+  "title": "AI Photo Editors for Retouching and Image Changes",
+  "description": "Compare AI photo editors for retouching, object changes, and image adjustments. Review detail preservation, editing control, batch work, and export quality.",
+  "introduction": "AI photo editors modify an existing photograph rather than starting entirely from a text prompt. Tasks can range from small corrections to replacing objects or changing a scene, depending on the product. Choose according to how closely the result must preserve the original subject, lighting, and detail. Dedicated background removal and image enhancement tools address narrower jobs; a broader photo editor is useful when several types of changes must fit into one editing workflow.",
+  "capabilities": [
+    "Remove or replace selected objects while reviewing the surrounding image details.",
+    "Adjust lighting, color, or appearance using supported automatic editing controls.",
+    "Extend or rework parts of an image for a different composition.",
+    "Combine assisted edits with manual adjustments and export options where available."
+  ],
+  "audiences": [
+    {
+      "label": "Photographers",
+      "text": "Prepare a set of images with consistent adjustments while checking faces, textures, and important details at the final delivery size."
+    },
+    {
+      "label": "Content designers",
+      "text": "Adapt an existing photograph for a layout, making targeted changes while retaining a recognizable subject and an appropriate visual context."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Preservation versus invention",
+      "text": "Decide whether the task needs faithful correction or creative reconstruction. Assess how easily unwanted generated details can be identified and reversed."
+    },
+    {
+      "label": "Local control",
+      "text": "Look for usable selections, masks, adjustment strength, and undo history when a change should affect only one region."
+    },
+    {
+      "label": "Delivery requirements",
+      "text": "Check input size limits, export resolution, transparency, file formats, and batch handling against the intended publication or client handoff."
+    }
+  ],
+  "workflow": [
+    "Keep the original image and define which details may change and which must remain faithful.",
+    "Apply one targeted adjustment at a time, inspecting boundaries, textures, reflections, and the surrounding scene.",
+    "Compare the edited image with the original and review the exported file at its intended display size."
+  ],
+  "faqs": [
+    {
+      "question": "How does a photo editor differ from an image generator?",
+      "answer": "A photo editor begins with an existing image and supports changes to it. An image generator typically creates a new image from instructions, although some products offer overlapping reference and editing features."
+    },
+    {
+      "question": "Can AI edits preserve every detail of the original?",
+      "answer": "Do not assume perfect preservation. Check identity, small objects, text, texture, and geometry after each substantial edit, particularly where the image is documenting an actual product, place, or event."
+    },
+    {
+      "question": "When is a dedicated background remover enough?",
+      "answer": "Use one when separating a subject from its surroundings is the main job. A broader editor becomes useful when you also need retouching, scene changes, color work, or composition adjustments."
+    },
+    {
+      "question": "What should I check before batch editing?",
+      "answer": "Test representative images with different lighting and subjects first. Verify that the same settings produce acceptable results across the set, and keep a way to review exceptions before exporting everything."
+    },
+    {
+      "question": "Does a good preview guarantee a good export?",
+      "answer": "No. Check the downloaded file’s dimensions, compression, format, and any watermark restrictions. Small previews can hide edge artifacts or texture changes that become obvious in a larger published image."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-background-remover",
+      "label": "AI Background Remover"
+    },
+    {
+      "slug": "ai-image-enhancer",
+      "label": "AI Image Enhancer"
+    },
+    {
+      "slug": "ai-image-generator",
+      "label": "AI Image Generator"
+    }
+  ]
+}

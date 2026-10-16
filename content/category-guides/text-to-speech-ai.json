@@ -1,0 +1,76 @@
+{
+  "title": "Text to Speech AI Tools for Narration and Listening",
+  "description": "Explore text to speech AI for turning scripts and documents into audio. Compare pronunciation controls, voice options, language support, and delivery formats.",
+  "introduction": "Text to speech AI converts written material into spoken audio. It can support narration, reading assistance, product interfaces, and other listening experiences. The central input is text, which distinguishes this category from speech transcription and voice conversion. AI Voice Generator overlaps strongly but can include broader voice production workflows. AI Voice Cloning is a narrower choice when reproducing an authorized existing voice, rather than selecting an available synthetic voice, is the key requirement.",
+  "capabilities": [
+    "Convert supplied text into spoken audio using supported voices and language settings.",
+    "Adjust delivery through available pacing, pronunciation, pauses, or other speech controls.",
+    "Preview passages and regenerate sections that need clearer phrasing or articulation.",
+    "Export supported audio files or deliver speech through an available application interface."
+  ],
+  "audiences": [
+    {
+      "label": "Learning content teams",
+      "text": "Produce reviewed spoken versions of lesson scripts and check pronunciation of subject-specific terminology."
+    },
+    {
+      "label": "Product developers",
+      "text": "Evaluate voice responses for an application, including response length, audio handling, and user playback controls."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Language and pronunciation",
+      "text": "Test the exact language variant, names, numbers, and terminology in your real scripts."
+    },
+    {
+      "label": "Delivery control",
+      "text": "Compare how easily you can revise a sentence while keeping the surrounding narration consistent."
+    },
+    {
+      "label": "Integration and rights",
+      "text": "Check audio formats, application access, usage permissions, and the pricing unit for your production volume."
+    }
+  ],
+  "workflow": [
+    "Prepare a listening-friendly script and identify words, abbreviations, and numbers needing special pronunciation.",
+    "Generate a sample in the intended voice and revise wording or controls where delivery sounds unclear.",
+    "Review the complete audio, export the required format, and test playback in its destination."
+  ],
+  "faqs": [
+    {
+      "question": "How is text to speech different from voice cloning?",
+      "answer": "Text to speech reads written content using a selected voice. Voice cloning attempts to reproduce a particular existing voice and may then use that voice for speech synthesis, subject to appropriate authorization."
+    },
+    {
+      "question": "Does language support mean every voice speaks every language?",
+      "answer": "No. Voice availability, pronunciation, and controls may vary by language or model. Test the specific voice and language combination you intend to use, including regional vocabulary and code-switching where relevant."
+    },
+    {
+      "question": "Why do numbers and abbreviations need checking?",
+      "answer": "Written forms can have several spoken interpretations. A date, currency amount, acronym, or product code may be read differently from your intention, so review those passages and use pronunciation controls or clearer wording."
+    },
+    {
+      "question": "Can generated narration be edited sentence by sentence?",
+      "answer": "Some tools support section-level regeneration or pronunciation revisions, while others require a broader rerender. Test a realistic correction to see whether tone, timing, and file handling remain manageable across edits."
+    },
+    {
+      "question": "What should I compare besides voice quality?",
+      "answer": "Consider script limits, export formats, latency for interactive use, revision effort, and permitted distribution. Compare the actual pricing unit as well, since character, credit, and audio-duration allowances are not interchangeable."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-voice-generator",
+      "label": "AI Voice Generator"
+    },
+    {
+      "slug": "ai-voice-cloning",
+      "label": "AI Voice Cloning"
+    },
+    {
+      "slug": "speech-to-text-ai",
+      "label": "Speech to Text AI"
+    }
+  ]
+}

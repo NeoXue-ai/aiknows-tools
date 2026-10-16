@@ -1,0 +1,76 @@
+{
+  "title": "Productivity Tools for Focused and Organized Work",
+  "description": "Explore productivity tools for organizing tasks, capturing information, and reducing repeated work. Compare daily workflow fit, collaboration, and portability.",
+  "introduction": "Productivity tools help people organize work, manage information, and complete recurring tasks with less friction. This category includes broad utilities that do not fit only one specialized workflow. A useful choice depends on a specific source of difficulty, such as scattered notes, missed follow-ups, or repeated manual steps. Choose Project Management when coordination across people and deadlines is central, and Automation when the main requirement is connecting systems to carry out defined operations.",
+  "capabilities": [
+    "Capture tasks and useful information in a place that supports later retrieval.",
+    "Organize priorities through available lists, views, reminders, or other planning controls.",
+    "Reduce repeated manual work using supported shortcuts, templates, and application connections.",
+    "Share selected work items or information with collaborators when team features are available."
+  ],
+  "audiences": [
+    {
+      "label": "Individual contributors",
+      "text": "Keep commitments visible, collect supporting information, and review the next actions needed for daily work."
+    },
+    {
+      "label": "Small teams",
+      "text": "Create a shared home for routine handoffs and lightweight coordination without adding unnecessary administrative steps."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Daily friction",
+      "text": "Identify the repeated problem and test whether the tool removes steps rather than adding another inbox."
+    },
+    {
+      "label": "Information portability",
+      "text": "Check search, exports, supported imports, and how easily important records can be reused elsewhere."
+    },
+    {
+      "label": "Sustainable habits",
+      "text": "Evaluate notification controls, capture speed, device access, and maintenance effort during a normal working week."
+    }
+  ],
+  "workflow": [
+    "Record where work is currently delayed, forgotten, duplicated, or difficult to find.",
+    "Test one focused workflow with real tasks and a small set of relevant information.",
+    "Review whether the habit is sustainable, then keep, adjust, or remove the tool accordingly."
+  ],
+  "faqs": [
+    {
+      "question": "How do I choose a productivity tool without adding clutter?",
+      "answer": "Start with one recurring problem and define what improvement would look like. Test the tool in that workflow before moving all your information or adopting features that do not address the original difficulty."
+    },
+    {
+      "question": "Should one app manage all my work?",
+      "answer": "A single workspace can simplify access, while specialized tools may better support particular tasks. Compare the cost of switching applications with the limitations and maintenance effort of consolidating everything in one place."
+    },
+    {
+      "question": "When do I need project management instead?",
+      "answer": "Choose Project Management when ownership, dependencies, deadlines, and shared progress need structured coordination. A personal task list may still help individuals, but it may not provide enough visibility for a team project."
+    },
+    {
+      "question": "What should I check before moving my notes or tasks?",
+      "answer": "Test imports, exports, search, attachments, and links using a small sample. Confirm that essential information remains usable and that you can retrieve or move it if your workflow changes later."
+    },
+    {
+      "question": "How can I tell whether the tool is helping?",
+      "answer": "Review concrete outcomes such as fewer missed follow-ups, faster retrieval, or reduced duplicate entry. Include setup and upkeep time in the assessment, rather than equating more recorded activity with more useful work."
+    }
+  ],
+  "related": [
+    {
+      "slug": "project-management",
+      "label": "Project Management"
+    },
+    {
+      "slug": "automation",
+      "label": "Automation"
+    },
+    {
+      "slug": "ai-note-taker",
+      "label": "AI Note Taker"
+    }
+  ]
+}

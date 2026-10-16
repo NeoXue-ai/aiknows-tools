@@ -1,0 +1,76 @@
+{
+  "title": "AI Code and Development Tools for Software Teams",
+  "description": "Find AI coding and development tools for implementation, review, APIs, and application building. Compare repository fit, control, testing, and delivery needs.",
+  "introduction": "Code and development tools help teams turn software requirements into working, maintainable systems. This hub includes coding assistants, review tools, application builders, developer utilities, and model APIs. The right starting point depends on whether you need help inside an existing repository, a foundation for a new app, or an AI capability embedded in your own product. Generating code is one stage of delivery; integration, testing, deployment, and ownership still shape the choice.",
+  "capabilities": [
+    "Draft functions and changes using instructions and existing repository context.",
+    "Explain unfamiliar code and suggest improvements for human review.",
+    "Connect applications to text, image, or other model services through APIs.",
+    "Scaffold applications and development environments for further implementation and testing."
+  ],
+  "audiences": [
+    {
+      "label": "Software teams",
+      "text": "Use assistance on a bounded repository change, inspect the proposed diff, and run the project’s established validation before merging."
+    },
+    {
+      "label": "Product builders",
+      "text": "Choose between an app scaffold, reusable starter, and developer API based on the system you actually need to maintain."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Repository understanding",
+      "text": "Assess how the tool discovers relevant files, follows project conventions, and limits changes outside the requested task."
+    },
+    {
+      "label": "Delivery ownership",
+      "text": "Check source access, export options, deployment requirements, and what happens when you stop paying for the service."
+    },
+    {
+      "label": "Validation and access",
+      "text": "Prefer workflows that expose changes clearly and let you control credentials, execution permissions, dependency changes, and testing."
+    }
+  ],
+  "workflow": [
+    "Describe a small acceptance criterion and provide the relevant repository or application context.",
+    "Inspect generated changes for correctness, dependencies, data handling, and compatibility with the surrounding system.",
+    "Run appropriate checks, review the result, and document any operational assumptions before releasing the change."
+  ],
+  "faqs": [
+    {
+      "question": "Should I choose a coding assistant or an app builder?",
+      "answer": "A coding assistant fits ongoing work in a repository you maintain. An app builder emphasizes creating an application from a higher level brief, with varying source export and hosting choices."
+    },
+    {
+      "question": "Does generated code still need tests?",
+      "answer": "Yes. Evaluate behavior against requirements and existing interfaces, including failure cases. A plausible implementation can still mishandle data, introduce incompatible dependencies, or overlook conditions outside the demonstration."
+    },
+    {
+      "question": "When is a developer API the better choice?",
+      "answer": "Use an API when your own application needs model capabilities at runtime. It requires integration work and operational controls, whereas a coding assistant primarily helps people develop software."
+    },
+    {
+      "question": "What should I check before giving repository access?",
+      "answer": "Review permission scope, retention terms, excluded files, and whether code is sent to external services. Start with the minimum access needed for a representative task and inspect the results."
+    },
+    {
+      "question": "Can I move an app away from its builder?",
+      "answer": "That depends on source export, dependencies, database access, and hosting requirements. Confirm the migration path with a small exported project before building important workflows around a particular platform."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-code-generator",
+      "label": "AI Code Generator"
+    },
+    {
+      "slug": "ai-app-builder",
+      "label": "AI App Builder"
+    },
+    {
+      "slug": "developer-apis",
+      "label": "Developer APIs"
+    }
+  ]
+}

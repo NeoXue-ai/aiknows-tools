@@ -1,0 +1,76 @@
+{
+  "title": "SEO and Marketing Tools for Search and Campaigns",
+  "description": "Explore SEO and marketing tools for search visibility, campaigns, audience research, and measurement, with guidance on choosing a focused workflow.",
+  "introduction": "SEO and marketing tools help teams understand demand, reach an audience, and assess what happens after a campaign or website change. This hub spans search research, content optimization, advertising, social publishing, and analytics. Start with the business question rather than a promise of automatic growth. Writing tools produce material; marketing tools help decide where that material belongs, how to distribute it, and what evidence will show whether the work helped.",
+  "capabilities": [
+    "Research search intent and audience questions before planning content or campaigns.",
+    "Inspect website and content issues that may obstruct useful discovery.",
+    "Prepare and distribute campaign assets across the channels you actually manage.",
+    "Connect channel activity with outcomes using explicit measurement and attribution assumptions."
+  ],
+  "audiences": [
+    {
+      "label": "Marketing leads",
+      "text": "Map a campaign from audience research through distribution and reporting, assigning a tool and owner to each stage."
+    },
+    {
+      "label": "Small business owners",
+      "text": "Identify whether the immediate bottleneck is discoverability, content production, lead capture, or interpreting existing results."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Channel fit",
+      "text": "Choose tools built for your actual search, advertising, email, or social workflow rather than the largest advertised feature list."
+    },
+    {
+      "label": "Measurement quality",
+      "text": "Inspect data sources, attribution rules, and export options so reported performance can be understood alongside other business evidence."
+    },
+    {
+      "label": "Team execution",
+      "text": "Check approvals, account permissions, integrations, and reporting responsibilities before adding another campaign workspace."
+    }
+  ],
+  "workflow": [
+    "Define one measurable objective and record the current situation before selecting a channel or buying additional software.",
+    "Run a bounded research, content, or campaign task, reviewing recommendations against your audience and existing assets.",
+    "Compare results with the starting point, note outside influences, and decide whether to revise, repeat, or stop."
+  ],
+  "faqs": [
+    {
+      "question": "Which SEO and marketing tool should I choose first?",
+      "answer": "Choose around the constraint you can identify. A team lacking audience insight needs research; one with stalled publishing needs production support. Buying a reporting tool will not by itself resolve either problem."
+    },
+    {
+      "question": "Do AI marketing tools guarantee more traffic or sales?",
+      "answer": "No. Outcomes depend on the offer, audience, competition, execution, and measurement. Use recommendations as hypotheses, make controlled changes where practical, and assess results without assuming the tool caused every improvement."
+    },
+    {
+      "question": "How is this hub different from AI writing?",
+      "answer": "AI writing focuses on drafting and revision. This hub also covers demand research, channel planning, distribution, and performance measurement. A writing tool may support a campaign without managing its wider marketing workflow."
+    },
+    {
+      "question": "Should a small team use an all-in-one platform?",
+      "answer": "An integrated platform can simplify shared data and approvals, while focused tools may fit specialist work better. Compare the steps your team repeats, integration effort, and ownership before choosing either arrangement."
+    },
+    {
+      "question": "What should I check in marketing analytics reports?",
+      "answer": "Look at source coverage, date ranges, conversion definitions, and attribution assumptions. Separate observed activity from inferred impact, and verify that the reported outcome corresponds to the business decision you need to make."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-seo-tools",
+      "label": "AI SEO Tools"
+    },
+    {
+      "slug": "ai-ad-creative",
+      "label": "AI Ad Creative"
+    },
+    {
+      "slug": "ai-analytics",
+      "label": "AI Analytics"
+    }
+  ]
+}

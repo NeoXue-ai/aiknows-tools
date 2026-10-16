@@ -1,0 +1,11 @@
+# Category corrections for the English category SEO work
+
+Five narrow classification corrections, checked October16,2026. These intentionally change taxonomy fields only; all other raw fields and authored detail drafts remain unchanged. They are explicit exceptions to the original tool-expansion field-preservation baseline.
+
+- Audible: `research-data/ai-summarizer` → `research-data/null`. The official homepage describes audiobook/podcast listening, not a source-upload summarizer. Keep the record in the broad hub without assigning an unsupported AI task. Source: https://www.audible.com/ .
+- Scholarcy: `research-data/ai-education` → `research-data/ai-summarizer`. The official homepage explains summarizing papers, articles, textbooks and documents into summary flashcards. Source: https://www.scholarcy.com/ .
+- Fal.ai: `code-development/developer-tools` → `code-development/ai-image-api`. This is a more specific existing task for its documented hosted generative media model API; the service also covers video/audio and infrastructure. Sources: https://fal.ai/ and https://fal.ai/docs/documentation/model-apis/inference .
+- Replicate: `code-development/developer-tools` → `code-development/ai-image-api`. Its official homepage demonstrates running image models using the API and SDK. The category is a useful task entry, without claiming the platform is limited to images. Source: https://replicate.com/ .
+- Reelme AI: `code-development/ai-image-api` → `image-video/ai-video-generator`. The recorded reelmeai.com domain describes image/video creation; the reviewed official product article supports that workflow. Do not conflate this domain with reelme.ai or reelme.art MCP services. Source: https://reelmeai.com/de/blogs/seedance-2-5-unrestricted-video-generator.html . No claim that the product has no API is made.
+
+Additional positive checks: Blinkist AI supports link/file summarization (https://support.blinkist.com/en/articles/10033442-what-is-blinkist-ai-and-how-can-i-use-it); Readwise Reader's Ghostreader supports document summarization (https://docs.readwise.io/reader/guides/ghostreader/overview). Their summarizer assignments remain valid. A wider taxonomy audit is still separate from these five evidence-based fixes.

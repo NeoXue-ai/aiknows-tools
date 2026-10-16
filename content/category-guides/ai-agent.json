@@ -1,0 +1,76 @@
+{
+  "title": "AI Agents for Multi-Step Tasks and Controlled Workflows",
+  "description": "Explore AI agents for multi-step research, software, and operational tasks. Compare permissions, human review, tool access, recovery, and observable results.",
+  "introduction": "AI agents use a model to choose and carry out steps toward a task, often by calling tools or working across applications. The defining selection question is how much decision-making and action you want to delegate. A fixed automation follows a defined path; an agent may decide what to do next from the available context. Scope, permissions, and review points therefore matter alongside capability, especially when actions change records, execute code, or communicate externally.",
+  "capabilities": [
+    "Break a task into steps and choose supported tools to proceed.",
+    "Use available context and intermediate results to adjust subsequent task actions.",
+    "Produce work artifacts or application changes that can be inspected afterward.",
+    "Pause for review or recover from failures where the platform supports it."
+  ],
+  "audiences": [
+    {
+      "label": "Operations teams",
+      "text": "Delegate a bounded task such as preparing a research handoff, with explicit source access and approval before any external communication."
+    },
+    {
+      "label": "Development teams",
+      "text": "Use an agent on a scoped repository task, inspecting proposed changes and execution results before accepting the completed work."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Action boundaries",
+      "text": "List allowed systems and actions, then check whether permissions can prevent changes outside the task rather than relying only on instructions."
+    },
+    {
+      "label": "Observability and review",
+      "text": "Look for understandable action history, inspectable outputs, and approval points before changes that are difficult to reverse."
+    },
+    {
+      "label": "Recovery and completion",
+      "text": "Evaluate how the agent handles missing information, tool errors, repeated failures, and an explicit definition of when to stop."
+    }
+  ],
+  "workflow": [
+    "Define the desired outcome, available information, action limits, and required human review points.",
+    "Run a small task and inspect the agent’s tool use, intermediate artifacts, and handling of uncertainty.",
+    "Expand scope gradually with access controls, failure recovery, and a clear owner for accepting the final result."
+  ],
+  "faqs": [
+    {
+      "question": "How is an agent different from ordinary automation?",
+      "answer": "Automation usually follows configured triggers and steps. An agent can choose steps based on context and intermediate results. Many products combine both, so inspect where decisions are fixed and where they are delegated."
+    },
+    {
+      "question": "Does an agent need access to every application?",
+      "answer": "No. Give it only the systems and permissions required for the task. Narrow access makes behavior easier to assess and limits the consequences of an incorrect decision or misunderstood instruction."
+    },
+    {
+      "question": "What is a useful first agent task?",
+      "answer": "Choose a bounded, reviewable task with a recognizable result, such as preparing a draft from approved sources. Establish success criteria and keep external actions behind review while learning its behavior."
+    },
+    {
+      "question": "How do I know whether an agent finished successfully?",
+      "answer": "Compare the final artifact or application state with the original acceptance criteria. A confident completion message is insufficient; inspect relevant outputs, unresolved errors, and any actions that require separate confirmation."
+    },
+    {
+      "question": "Can an agent work without human supervision?",
+      "answer": "The appropriate level depends on the actions and consequences involved. Start with observable tasks and explicit review gates, then grant more autonomy only where outcomes and failure recovery are well understood."
+    }
+  ],
+  "related": [
+    {
+      "slug": "automation",
+      "label": "Automation"
+    },
+    {
+      "slug": "ai-workflow",
+      "label": "AI Workflow"
+    },
+    {
+      "slug": "ai-assistant",
+      "label": "AI Assistant"
+    }
+  ]
+}

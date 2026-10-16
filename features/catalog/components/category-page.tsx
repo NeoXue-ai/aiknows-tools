@@ -1,5 +1,9 @@
 import { CategoryGuideSection } from "./category-guide";
-import { categoryPageMetadata } from "@/features/catalog/category-metadata";
+import {
+  categoryPageMetadata,
+  categoryCollectionJsonLd,
+} from "@/features/catalog/category-metadata";
+import { CATEGORY_GUIDES } from "../category-guides";
 import { CatalogFallback } from "@/features/catalog/components/catalog-fallback";
 import { getCatalogPage, getCatalogVersion } from "@/features/catalog/server";
 import { DEFAULT_QUERY } from "@/features/catalog/query";
@@ -22,7 +26,6 @@ import {
   getPublicTools,
 } from "@/features/catalog/server";
 import {
-  SUBCATEGORIES,
   subBySlug,
   subsForLegacy,
   type Subcategory,
@@ -160,7 +163,7 @@ async function CategoryHub({
     category: category.slug,
   });
   if (initialPage.page !== page) notFound();
-  const subCounts = countSubs(tools);
+  const subCounts = countSubs(allTools);
   const Icon = categoryIcon(category.slug);
   const subs = subsForLegacy(category.slug)
     .map((s) => ({
@@ -168,8 +171,16 @@ async function CategoryHub({
       name: s.name,
       count: subCounts.get(s.name) ?? 0,
     }))
+    .filter((sub) => sub.count > 0)
     .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
-  const description = category.description ?? null;
+  const guide = CATEGORY_GUIDES[category.slug];
+  const description = guide?.description ?? category.description;
+  const availableSlugs = new Set(
+    allTools.flatMap((tool) => [
+      tool.primary_category,
+      ...(tool.subcategory ? [tool.subcategory] : []),
+    ]),
+  );
 
   const hubListJsonLd = directoryItemListJsonLd({
     tools: initialPage.items,
@@ -187,7 +198,22 @@ async function CategoryHub({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(hubListJsonLd).replace(/</g, "\\u003c"),
+          __html: JSON.stringify(
+            categoryCollectionJsonLd({
+              slug: category.slug,
+              name: category.name,
+              description: categoryPageMetadata({
+                slug: category.slug,
+                name: category.name,
+                count: tools.length,
+                isCategory: true,
+                page,
+              }).description as string,
+              page,
+              siteUrl,
+              itemList: hubListJsonLd,
+            }),
+          ).replace(/</g, "\\u003c"),
         }}
       />
       <script
@@ -220,6 +246,14 @@ async function CategoryHub({
           </p>
         ) : null}
 
+        {page === 1 && guide && (
+          <Link
+            href="#category-guide"
+            className="mt-4 inline-flex text-sm text-accent hover:underline"
+          >
+            Read the {category.name} guide ↓
+          </Link>
+        )}
         <SubChips subs={subs} />
       </header>
 
@@ -244,7 +278,14 @@ async function CategoryHub({
           </Suspense>
         </div>
 
-        {page === 1 && <CategoryGuideSection slug={category.slug} />}
+        {page === 1 && guide && (
+          <CategoryGuideSection
+            slug={category.slug}
+            name={category.name}
+            guide={guide}
+            availableSlugs={availableSlugs}
+          />
+        )}
 
         <nav className="flex flex-wrap items-center justify-between gap-3 border-t border-border pt-6 text-sm">
           <Link
@@ -278,7 +319,15 @@ async function SubCategoryPage({
   allTools: Tool[];
   page?: number;
 }) {
-  const tools = allTools.filter((tool) => tool.sub === sub.name);
+  const tools = allTools.filter((tool) => tool.subcategory === sub.slug);
+  const guide = CATEGORY_GUIDES[sub.slug];
+  const description = guide?.description ?? sub.description;
+  const availableSlugs = new Set(
+    allTools.flatMap((tool) => [
+      tool.primary_category,
+      ...(tool.subcategory ? [tool.subcategory] : []),
+    ]),
+  );
   const initialPage = await getCatalogPage({
     ...DEFAULT_QUERY,
     page,
@@ -292,13 +341,14 @@ async function SubCategoryPage({
       name: s.name,
       count: subCounts.get(s.name) ?? 0,
     }))
+    .filter((sub) => sub.count > 0)
     .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
 
   const subListJsonLd = directoryItemListJsonLd({
     tools: initialPage.items,
     siteUrl,
     name: `${sub.name} — AIKnows`,
-    description: sub.description,
+    description,
   });
   const subBreadcrumbJsonLd = breadcrumbJsonLd(
     [
@@ -316,7 +366,22 @@ async function SubCategoryPage({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(subListJsonLd).replace(/</g, "\\u003c"),
+          __html: JSON.stringify(
+            categoryCollectionJsonLd({
+              slug: sub.slug,
+              name: sub.name,
+              description: categoryPageMetadata({
+                slug: sub.slug,
+                name: sub.name,
+                count: tools.length,
+                isCategory: false,
+                page,
+              }).description as string,
+              page,
+              siteUrl,
+              itemList: subListJsonLd,
+            }),
+          ).replace(/</g, "\\u003c"),
         }}
       />
       <script
@@ -342,9 +407,17 @@ async function SubCategoryPage({
           {sub.name}
         </h1>
         <p className="mt-5 max-w-3xl text-pretty text-base leading-7 text-muted-foreground">
-          {sub.description}
+          {description}
         </p>
 
+        {page === 1 && guide && (
+          <Link
+            href="#category-guide"
+            className="mt-4 inline-flex text-sm text-accent hover:underline"
+          >
+            Read the {sub.name} guide ↓
+          </Link>
+        )}
         <SubChips subs={siblings} activeSlug={sub.slug} />
       </header>
 
@@ -369,7 +442,14 @@ async function SubCategoryPage({
           </Suspense>
         </div>
 
-        {page === 1 && <CategoryGuideSection slug={sub.slug} />}
+        {page === 1 && guide && (
+          <CategoryGuideSection
+            slug={sub.slug}
+            name={sub.name}
+            guide={guide}
+            availableSlugs={availableSlugs}
+          />
+        )}
 
         <nav className="flex flex-wrap items-center justify-between gap-3 border-t border-border pt-6 text-sm">
           <Link

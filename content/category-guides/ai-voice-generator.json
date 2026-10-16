@@ -1,0 +1,76 @@
+{
+  "title": "AI Voice Generators for Narration and Voice-Over",
+  "description": "Find AI voice generators for narration, explainers, and voice-over drafts. Compare pronunciation control, voice choices, language scope, and audio exports.",
+  "introduction": "AI voice generators create spoken audio from text for tasks such as narration, tutorials, and voice-over production. This category emphasizes choosing and directing a synthetic speaking voice, including pacing and pronunciation where supported. Text-to-speech also covers accessibility and application playback needs, while voice cloning focuses on reproducing a particular existing speaker. Start with the listening context and script requirements, because a convincing short sample may not reveal problems in a complete narration.",
+  "capabilities": [
+    "Convert supplied scripts into downloadable narration using available synthetic voices.",
+    "Select supported voices, styles, or delivery settings for the intended audience.",
+    "Adjust pacing and pronunciation through the controls offered by the service.",
+    "Produce audio segments for assembly with video, slides, or other media."
+  ],
+  "audiences": [
+    {
+      "label": "Video producers",
+      "text": "Create narration for an approved script, correct difficult terms, and align the final audio with visuals and captions."
+    },
+    {
+      "label": "Training teams",
+      "text": "Prepare consistent spoken explanations across lessons, reviewing terminology, pacing, and any supported language versions with appropriate listeners."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Long-form listening quality",
+      "text": "Evaluate full paragraphs and transitions, including emphasis, pauses, repeated terminology, and changes in tone across a complete script."
+    },
+    {
+      "label": "Language and pronunciation",
+      "text": "Check the specific voice’s supported languages and accent options, with realistic names, abbreviations, and specialized vocabulary in your sample."
+    },
+    {
+      "label": "Production terms",
+      "text": "Confirm usage permissions, export formats, revision costs, and how the billing unit applies to edited or regenerated narration."
+    }
+  ],
+  "workflow": [
+    "Finalize a short representative script with names, numbers, and terms that need careful pronunciation.",
+    "Compare voice samples, refine delivery, and listen to the narration in the context of the planned media.",
+    "Generate the approved script in manageable segments, check continuity, and export the required audio format."
+  ],
+  "faqs": [
+    {
+      "question": "Is a voice generator different from text-to-speech?",
+      "answer": "The categories overlap. Voice generation often emphasizes media production and voice selection, while text-to-speech can also mean reading text aloud inside an application or an accessibility workflow for listeners."
+    },
+    {
+      "question": "Can I control how a name is pronounced?",
+      "answer": "Some services provide pronunciation dictionaries, phonetic inputs, or other controls. Test the exact voice and language you plan to use, because a control available elsewhere may not apply to every option."
+    },
+    {
+      "question": "How should I compare synthetic voices?",
+      "answer": "Use the same realistic passage for each voice and listen beyond the opening sentence. Include dialogue transitions, numbers, uncommon terms, and the emotional tone your audience will actually hear."
+    },
+    {
+      "question": "Can generated narration be used commercially?",
+      "answer": "Usage depends on the service, plan, voice, and applicable terms. Confirm the permissions for your intended publication, including any restrictions attached to cloned, licensed, or specially provided voices."
+    },
+    {
+      "question": "Should I generate a long script in one request?",
+      "answer": "That depends on limits and editing needs. Working in sections can make corrections and timing easier, but check voice continuity, loudness, and pauses when assembling the full narration afterward."
+    }
+  ],
+  "related": [
+    {
+      "slug": "text-to-speech-ai",
+      "label": "Text to Speech AI"
+    },
+    {
+      "slug": "ai-voice-cloning",
+      "label": "AI Voice Cloning"
+    },
+    {
+      "slug": "ai-video-editor",
+      "label": "AI Video Editor"
+    }
+  ]
+}

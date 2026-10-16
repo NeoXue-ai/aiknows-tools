@@ -1,0 +1,76 @@
+{
+  "title": "AI Image Generators for Concepts and Visual Assets",
+  "description": "Compare AI image generators for creating visuals from prompts and references. Explore composition controls, revision workflows, export formats, and usage terms.",
+  "introduction": "AI image generators create new still images from written descriptions and, in some products, reference images. They can support concept exploration, illustration, campaign imagery, and visual prototyping. This category centers on making a new image rather than improving the technical quality of an existing photograph. For targeted changes to a supplied photo, compare AI Photo Editor; for enlarging or restoring an image while keeping its identity, explore AI Image Enhancer.",
+  "capabilities": [
+    "Create image candidates from descriptions of subjects, settings, composition, and style.",
+    "Use supported reference inputs to guide visual direction or subject appearance.",
+    "Explore variations while adjusting framing, aspect ratio, and other available controls.",
+    "Revise selected visual regions when the product offers masking or selective generation."
+  ],
+  "audiences": [
+    {
+      "label": "Designers and illustrators",
+      "text": "Explore several compositions, select a direction, and develop the chosen image in an editing workflow."
+    },
+    {
+      "label": "Marketing teams",
+      "text": "Produce draft campaign visuals from approved briefs, then check product accuracy and brand fit before use."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Composition control",
+      "text": "Test how well the generator follows subject placement, framing, and required visual relationships."
+    },
+    {
+      "label": "Revision options",
+      "text": "Check whether references, masks, or variation controls help preserve approved details during changes."
+    },
+    {
+      "label": "Usable delivery",
+      "text": "Inspect export resolution, file formats, image artifacts, and terms relevant to your intended use."
+    }
+  ],
+  "workflow": [
+    "Write a visual brief with subject, purpose, composition, references, and delivery dimensions.",
+    "Generate a small candidate set and compare adherence to the brief before refining details.",
+    "Review the selected image for errors, complete necessary edits, and export the final asset."
+  ],
+  "faqs": [
+    {
+      "question": "How detailed should an image prompt be?",
+      "answer": "Include details that affect the result: subject, setting, composition, mood, and intended format. Add constraints gradually so you can identify which instructions improve the image and which introduce conflicting directions."
+    },
+    {
+      "question": "Can reference images keep a character consistent?",
+      "answer": "Reference support can help guide appearance, but consistency varies by product and scene. Test several poses and settings, then inspect identifying features rather than assuming one successful image establishes reliable continuity."
+    },
+    {
+      "question": "Is image generation suitable for exact product depictions?",
+      "answer": "It can help develop concepts, but exact packaging, dimensions, logos, and small details require careful checking. Use verified product references and an editing workflow when fidelity matters more than visual novelty."
+    },
+    {
+      "question": "What separates image generation from image enhancement?",
+      "answer": "Generation creates new visual content or replaces parts of an image. Enhancement focuses on improving an existing image, such as its size or clarity, although some enhancement methods also synthesize details."
+    },
+    {
+      "question": "Can I use generated images commercially?",
+      "answer": "That depends on the service terms, your inputs, and the intended use. Review the relevant license and restrictions, including reference material and recognizable people or brands, before delivering commercial assets."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-photo-editor",
+      "label": "AI Photo Editor"
+    },
+    {
+      "slug": "ai-image-enhancer",
+      "label": "AI Image Enhancer"
+    },
+    {
+      "slug": "ai-art-generator",
+      "label": "AI Art Generator"
+    }
+  ]
+}

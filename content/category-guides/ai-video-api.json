@@ -1,0 +1,76 @@
+{
+  "title": "AI Video APIs for Generation and Application Workflows",
+  "description": "Compare AI video APIs for application integration, generation requests, output handling, and cost control, with criteria for a dependable user experience.",
+  "introduction": "AI video APIs let developers request generated video from their own applications rather than work only inside a vendor’s editor. This category concerns integration and delivery: submitting inputs, tracking a request, receiving the result, and presenting it to a user. It differs from choosing a creative web application, where many of those steps are handled for you. Compare the complete request lifecycle and supported outputs alongside the visual quality of sample clips.",
+  "capabilities": [
+    "Submit supported prompts and media inputs from your own application workflow.",
+    "Track generation progress and handle completed results through documented integration methods.",
+    "Apply available output settings to match the application’s video requirements.",
+    "Connect generation usage with application limits, monitoring, and user-facing controls."
+  ],
+  "audiences": [
+    {
+      "label": "Application developers",
+      "text": "Add a video-generation feature with clear progress states, result review, and understandable handling of unsuccessful requests."
+    },
+    {
+      "label": "Creative technology teams",
+      "text": "Build repeatable production workflows that connect approved inputs, selected generation settings, and downstream editing or asset storage."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Request lifecycle",
+      "text": "Inspect submission, progress reporting, completion, cancellation, and failure behavior before designing the application’s user experience."
+    },
+    {
+      "label": "Input and output fit",
+      "text": "Verify supported media inputs, formats, duration, resolution, and delivery arrangements for the actual feature you intend to ship."
+    },
+    {
+      "label": "Operational budget",
+      "text": "Compare quotas, concurrency, billing units, failed-request policies, and storage responsibilities using a representative workload."
+    }
+  ],
+  "workflow": [
+    "Specify the user journey and video requirements, including progress feedback, review, and the condition that marks a request complete.",
+    "Build a small integration that exercises ordinary requests, invalid inputs, and unsuccessful generation using the documented interfaces.",
+    "Measure usable output and total cost, then add monitoring, access limits, and recovery behavior before wider availability."
+  ],
+  "faqs": [
+    {
+      "question": "How is a video API different from a video generator website?",
+      "answer": "An API lets an application request and handle generation programmatically. A website provides an end-user workspace. The same underlying model can require very different integration, storage, billing, and review work in those two settings."
+    },
+    {
+      "question": "What should an application display while a video is being generated?",
+      "answer": "Design progress and completion states around the provider’s documented request behavior. Explain what the user can do next, and distinguish a pending request from an unsuccessful one instead of leaving the interface ambiguous."
+    },
+    {
+      "question": "How should I estimate API costs for video generation?",
+      "answer": "Use representative settings and include retries, variations, storage, and any related processing. Confirm the billing unit and failure policy, then compare the cost of usable outputs rather than only the advertised request price."
+    },
+    {
+      "question": "Can I switch providers without changing my application?",
+      "answer": "Do not assume identical inputs, status handling, outputs, or model controls. Keep the provider-specific logic identifiable and test the complete workflow when changing a service or model version."
+    },
+    {
+      "question": "What makes a useful integration test?",
+      "answer": "Exercise ordinary prompts, unsupported inputs, quota limits, and unsuccessful requests, then inspect the returned video and application state. A successful sample request alone does not establish that users can recover from problems."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-video-generator",
+      "label": "AI Video Generator"
+    },
+    {
+      "slug": "developer-apis",
+      "label": "Developer APIs"
+    },
+    {
+      "slug": "ai-image-api",
+      "label": "AI Image API"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "title": "AI Product Photography Tools for Storefront Images",
+  "description": "Compare AI product photography tools for backgrounds, scenes, and catalog imagery. Assess product fidelity, image consistency, editing controls, and exports.",
+  "introduction": "AI product photography tools help prepare merchandise images for stores, catalogs, and promotional content. They may isolate an existing product photo, replace its setting, or create a styled scene around a supplied item. The key requirement is a faithful depiction of what is being sold. This category emphasizes that commercial image workflow; AI Background Remover is a narrower cutout task, while general image generation prioritizes creating new visuals from a broader brief.",
+  "capabilities": [
+    "Place supplied product images into alternative backgrounds, settings, or promotional compositions.",
+    "Remove distracting surroundings to prepare isolated merchandise images for catalog layouts.",
+    "Explore lighting and scene treatments while inspecting the accuracy of product details.",
+    "Prepare consistent image variants for supported store placements and campaign formats."
+  ],
+  "audiences": [
+    {
+      "label": "Store owners",
+      "text": "Turn a small set of source photographs into reviewed listing images and supplementary lifestyle scenes."
+    },
+    {
+      "label": "Catalog production teams",
+      "text": "Apply a consistent visual treatment across products while checking labels, colors, dimensions, and material appearance."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Product fidelity",
+      "text": "Test difficult features such as transparent packaging, fine lettering, reflective surfaces, and small accessories."
+    },
+    {
+      "label": "Revision control",
+      "text": "Check whether the product can remain protected while only the scene, crop, or background changes."
+    },
+    {
+      "label": "Catalog requirements",
+      "text": "Evaluate final dimensions, batch organization, and compatibility with your storefront’s actual image requirements."
+    }
+  ],
+  "workflow": [
+    "Capture clear source images and identify product features that must remain unchanged.",
+    "Create candidate scenes or cutouts and compare every sale-relevant detail against the real item.",
+    "Approve accurate images, prepare the required sizes, and organize final files by product and placement."
+  ],
+  "faqs": [
+    {
+      "question": "Can generated scenes replace all original product photographs?",
+      "answer": "They may supplement a listing, but you still need a reliable basis for depicting the item. Keep source photographs and review generated scenes for changes that could misrepresent what a customer receives."
+    },
+    {
+      "question": "What details are most important to inspect?",
+      "answer": "Check the product’s shape, color, label text, materials, included parts, and relative scale. Review context too: props and accessories should not imply that items are included when they are not."
+    },
+    {
+      "question": "How is this different from removing a background?",
+      "answer": "Background removal isolates the subject from its surroundings. Product photography tools may also compose scenes, adjust presentation, or create several commercial image formats; confirm which steps the individual product actually supports."
+    },
+    {
+      "question": "Should every product use the same generated setting?",
+      "answer": "A consistent treatment can help a catalog feel coherent, but the scene should suit the item and placement. Test whether it clarifies the product rather than obscuring details or suggesting an inaccurate use."
+    },
+    {
+      "question": "How should I evaluate a tool with a large catalog?",
+      "answer": "Select representative products, including challenging packaging and materials, then test the complete review and export process. Compare correction time and consistency across the set before scaling beyond a small production batch."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-background-remover",
+      "label": "AI Background Remover"
+    },
+    {
+      "slug": "ai-photo-editor",
+      "label": "AI Photo Editor"
+    },
+    {
+      "slug": "ecommerce",
+      "label": "Ecommerce"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "title": "Productivity and Automation Tools for Daily Work",
+  "description": "Find productivity and automation tools for tasks, meetings, documents, and connected workflows, with practical criteria for reducing repeated work.",
+  "introduction": "Productivity and automation tools support the work around a task: collecting information, deciding what happens next, coordinating people, and keeping records current. This hub includes personal assistants, task systems, meeting tools, and connected workflows. Some products organize work for a person to complete; others execute configured actions. Distinguish those roles before comparing them, because a helpful suggestion and an unattended change require different levels of review, access, and recovery.",
+  "capabilities": [
+    "Capture tasks and supporting context where work actually enters your day.",
+    "Coordinate ownership, reminders, and handoffs across people or connected applications.",
+    "Transform meeting or document material into reviewable notes and next actions.",
+    "Automate repeated steps with visible permissions, exceptions, and completion records."
+  ],
+  "audiences": [
+    {
+      "label": "Individual professionals",
+      "text": "Reduce repeated administration around notes, schedules, and follow-ups while retaining a clear view of unfinished commitments."
+    },
+    {
+      "label": "Operations teams",
+      "text": "Connect recurring handoffs between systems and route ambiguous cases to a responsible person rather than silently skipping them."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Task or action",
+      "text": "Decide whether you need better organization, assisted drafting, or software that actually changes records and sends work onward."
+    },
+    {
+      "label": "Access boundaries",
+      "text": "Check which accounts and data the tool can reach, and whether risky actions can require human approval."
+    },
+    {
+      "label": "Failure recovery",
+      "text": "Prefer workflows with understandable logs, exception handling, and a practical way to correct or reverse an unwanted result."
+    }
+  ],
+  "workflow": [
+    "List a repeated task, its inputs, its owner, and the condition that makes it complete.",
+    "Try the workflow on a small set of ordinary and exceptional cases, inspecting each proposed or executed action.",
+    "Review saved effort alongside errors and maintenance, then expand only the steps that remain understandable and dependable."
+  ],
+  "faqs": [
+    {
+      "question": "What is the difference between productivity software and automation?",
+      "answer": "Productivity software can help someone organize or complete work. Automation executes configured steps across a process. A product may offer both, but its task interface does not establish that it can safely operate connected systems."
+    },
+    {
+      "question": "Which task should I automate first?",
+      "answer": "Start with a repeated, well-defined task whose inputs and completion rules are easy to inspect. Include an exception path, and avoid expanding access before you understand what happens when information is missing."
+    },
+    {
+      "question": "Do I need an AI agent for a simple workflow?",
+      "answer": "Not necessarily. Fixed rules can suit predictable transfers and reminders. An agent may help with interpretation, but it adds decisions to review and does not remove the need for clear process boundaries."
+    },
+    {
+      "question": "How should I measure whether a tool helps?",
+      "answer": "Track time spent completing and checking the task, missed commitments, errors, and maintenance. A workflow that appears faster can still add work if users repeatedly correct its outputs or repair broken connections."
+    },
+    {
+      "question": "Can a personal productivity tool work for a team?",
+      "answer": "Sometimes, but teams also need ownership, permissions, shared history, and handoff rules. Evaluate those requirements directly rather than assuming that inviting more users creates an accountable collaborative process."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-workflow",
+      "label": "AI Workflow"
+    },
+    {
+      "slug": "project-management",
+      "label": "Project Management"
+    },
+    {
+      "slug": "ai-assistant",
+      "label": "AI Assistant"
+    }
+  ]
+}

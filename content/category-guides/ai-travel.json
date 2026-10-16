@@ -1,0 +1,76 @@
+{
+  "title": "AI Travel Planning Tools for Practical Trip Itineraries",
+  "description": "Explore AI travel tools for planning destinations, itineraries, and trip logistics. Compare constraint handling, source freshness, collaboration, and booking links.",
+  "introduction": "AI travel tools help organize trip ideas into a plan based on preferences, dates, budget, and practical constraints. They may suggest destinations, arrange daily activities, or help compare transport and accommodation options. Planning guidance is different from a confirmed reservation, and details can change after an itinerary is created. This category focuses on the trip planning workflow; a general AI Assistant offers broader help but may provide fewer dedicated itinerary and travel organization controls.",
+  "capabilities": [
+    "Suggest destinations and activities from supplied interests, dates, budget, and travel preferences.",
+    "Organize candidate activities into a draft itinerary with available trip planning controls.",
+    "Compare supported travel options while keeping stated practical constraints visible during revisions.",
+    "Share or retain trip details through available collaboration, export, or mobile access features."
+  ],
+  "audiences": [
+    {
+      "label": "Independent travelers",
+      "text": "Turn a broad destination idea into a manageable itinerary with time for transfers, meals, and rest."
+    },
+    {
+      "label": "Groups and families",
+      "text": "Collect different preferences and accessibility needs, then agree on a plan with clear priorities and alternatives."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Constraint handling",
+      "text": "Test fixed dates, starting locations, mobility needs, budget assumptions, and the pace your travelers can manage."
+    },
+    {
+      "label": "Current information",
+      "text": "Check whether important details link to usable sources and can be verified before a booking decision."
+    },
+    {
+      "label": "Trip organization",
+      "text": "Evaluate map views, collaboration, saved confirmations, exports, and access to the plan during the journey."
+    }
+  ],
+  "workflow": [
+    "Gather dates, traveler needs, budget assumptions, confirmed reservations, and the experiences that matter most.",
+    "Draft a realistic daily plan, allowing for transfers and checking important details with current sources.",
+    "Confirm bookings separately, save essential information, and keep alternatives for changes during the trip."
+  ],
+  "faqs": [
+    {
+      "question": "Does an AI itinerary include confirmed bookings?",
+      "answer": "Not unless the service explicitly completes a booking and provides the relevant confirmation. Treat suggested accommodation, activities, and transport as planning options until availability, terms, and the reservation itself are verified."
+    },
+    {
+      "question": "How should I check whether a daily plan is realistic?",
+      "answer": "Review travel between stops, opening hours, required reservations, meals, and rest time. Consider the group’s pace and leave room for delays instead of assuming every attractive suggestion belongs in one day."
+    },
+    {
+      "question": "Can I rely on suggested prices or opening times?",
+      "answer": "Verify important details with current official or booking sources before acting. A planning output may not reflect the latest availability, charges, seasonal hours, or restrictions for the exact dates of your trip."
+    },
+    {
+      "question": "What information should I provide for a family trip?",
+      "answer": "Include traveler ages where relevant, mobility needs, preferred pace, dietary constraints, accommodation location, and fixed commitments. Explain which activities are essential and which are optional so the plan reflects the group’s priorities."
+    },
+    {
+      "question": "Should I choose a dedicated travel tool or a general assistant?",
+      "answer": "Compare how each handles itinerary revisions, maps, shared plans, and saved trip information. A general assistant may help explore ideas, while a dedicated product may better organize the practical details you need during travel."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-assistant",
+      "label": "AI Assistant"
+    },
+    {
+      "slug": "ai-search-engine",
+      "label": "AI Search Engine"
+    },
+    {
+      "slug": "productivity-tools",
+      "label": "Productivity Tools"
+    }
+  ]
+}

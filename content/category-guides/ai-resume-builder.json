@@ -1,0 +1,80 @@
+{
+  "title": "AI Resume Builders for Clear, Job-Relevant Applications",
+  "description": "Explore AI resume builders for structured CVs, tailored wording, and application documents, with guidance on factual accuracy, editing, and export quality.",
+  "introduction": "AI resume builders help organize experience and turn it into a readable application document. They may offer templates, wording suggestions, job-description comparisons, or related cover-letter drafting. This category focuses on presenting real qualifications clearly, rather than inventing experience or guaranteeing an interview. Choose a tool that keeps factual details editable and produces a document suited to the application instructions, with enough control to retain your own voice.",
+  "capabilities": [
+    "Organize employment, education, and skills into a clear resume structure.",
+    "Suggest concise wording for responsibilities and achievements based on supplied facts.",
+    "Compare a draft with role requirements to identify relevant experience.",
+    "Export an application document that can be checked before submission."
+  ],
+  "audiences": [
+    {
+      "label": "Job seekers",
+      "text": "Create a factual master resume and adapt the emphasis for roles with different responsibilities or requirements."
+    },
+    {
+      "label": "Career advisers",
+      "text": "Help applicants clarify their experience, review suggested claims, and produce a readable document with consistent dates and terminology."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Truthful tailoring",
+      "text": "Check whether suggestions preserve actual experience and distinguish a missing qualification from an opportunity to improve wording."
+    },
+    {
+      "label": "Document control",
+      "text": "Inspect section order, length, formatting, and editability so the resume can match the application’s instructions."
+    },
+    {
+      "label": "Export review",
+      "text": "Open the downloaded file and check text, page breaks, links, and formatting rather than relying only on an editor preview."
+    }
+  ],
+  "workflow": [
+    "Collect accurate dates, responsibilities, qualifications, and supported achievements, then create a complete master record of your experience.",
+    "Select the role’s relevant requirements and revise the emphasis without adding claims that the source material cannot support.",
+    "Check the final file against the application instructions, proofread every detail, and keep a copy of the version submitted."
+  ],
+  "faqs": [
+    {
+      "question": "Can an AI resume builder guarantee an interview?",
+      "answer": "No. Hiring depends on qualifications, the role, competition, and the employer’s process. Use the tool to improve clarity and relevance rather than treating its score or template as a promise of an outcome."
+    },
+    {
+      "question": "How should I tailor a resume to a job description?",
+      "answer": "Identify the requirements your real experience supports, then emphasize those examples clearly. Do not add skills, responsibilities, or results simply because the job description or tool suggests they would improve a match."
+    },
+    {
+      "question": "Should I accept automatically generated achievement numbers?",
+      "answer": "Only use numbers you can substantiate. If you do not have a reliable measure, describe the contribution accurately in words instead of allowing a generated statistic to become part of your employment history."
+    },
+    {
+      "question": "What should I check in the downloaded resume?",
+      "answer": "Review the actual file for readable text, page breaks, dates, contact details, links, and consistent formatting. Follow the employer’s requested file type and submission instructions rather than assuming every export is equally suitable."
+    },
+    {
+      "question": "Is a resume builder the same as a general AI writer?",
+      "answer": "A resume builder may add document structure, templates, and application-oriented guidance. A general writer can help with wording, but may not provide the same layout controls or a complete resume-editing workflow."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-writer",
+      "label": "AI Writer"
+    },
+    {
+      "slug": "ai-document-generator",
+      "label": "AI Document Generator"
+    },
+    {
+      "slug": "ai-grammar-checker",
+      "label": "AI Grammar Checker"
+    },
+    {
+      "slug": "productivity",
+      "label": "Productivity & Automation"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "title": "Customer Support Tools for Tickets, Answers, and Handoffs",
+  "description": "Explore customer support tools for ticket handling, shared knowledge, conversations, and automation, with guidance on escalation, access, and service review.",
+  "introduction": "Customer support tools organize requests and help a team deliver consistent assistance. Products may provide ticket queues, shared inboxes, knowledge bases, chat, automation, or AI-drafted replies. This category focuses on resolving a customer’s issue and preserving its history rather than generating answers in isolation. Compare how requests enter, who owns them, how they move between people, and how a customer can reach appropriate help when the initial response is insufficient.",
+  "capabilities": [
+    "Collect customer requests from supported channels into an organized service workflow.",
+    "Assign ownership and preserve conversation history across handoffs between support staff.",
+    "Use maintained knowledge and suggested replies to support consistent answers.",
+    "Track resolution and review recurring issues to improve the service process."
+  ],
+  "audiences": [
+    {
+      "label": "Support teams",
+      "text": "Triage incoming requests, assign responsibility, and keep the customer informed while an issue moves toward resolution."
+    },
+    {
+      "label": "Service operations leads",
+      "text": "Maintain knowledge, configure escalation, and inspect recurring problems without confusing fast replies with completed support."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Channel continuity",
+      "text": "Check supported email, chat, and other channels, including whether history follows a customer when the conversation moves."
+    },
+    {
+      "label": "Escalation and accountability",
+      "text": "Inspect assignment rules, internal notes, handoff context, and the path to specialist or human assistance."
+    },
+    {
+      "label": "Knowledge and access",
+      "text": "Review source maintenance, customer-data permissions, suggested-response approval, and the measures used to assess service quality."
+    }
+  ],
+  "workflow": [
+    "Map the common request types, entry channels, owners, and situations that require specialist or human escalation.",
+    "Run representative cases through intake, replies, handoffs, and closure, checking both staff visibility and the customer’s experience.",
+    "Review reopened cases and recurring gaps, updating knowledge and routing rules before extending automation to more requests."
+  ],
+  "faqs": [
+    {
+      "question": "How is a helpdesk different from a chatbot?",
+      "answer": "A helpdesk organizes requests, ownership, history, and resolution work. A chatbot provides a conversational interface. A bot may be one entry point, but it does not automatically supply the complete support process."
+    },
+    {
+      "question": "What should happen when an automated answer is wrong?",
+      "answer": "The customer needs an understandable route to further help. Preserve relevant context for the person taking over, and use the correction to improve the knowledge or workflow behind similar future responses."
+    },
+    {
+      "question": "Is a fast response the same as successful support?",
+      "answer": "No. A quick reply can leave the problem unresolved. Inspect resolution, reopenings, customer effort, and the substance of the answer alongside response-time metrics when assessing the service."
+    },
+    {
+      "question": "What should I test when moving between support channels?",
+      "answer": "Check whether customer identity, conversation history, attachments, and ownership remain clear. The customer should not have to restart the issue because the team changed from chat to email or another channel."
+    },
+    {
+      "question": "How should teams introduce AI reply suggestions?",
+      "answer": "Start with well-documented request types and staff review. Check factual accuracy, permissions, and tone, then expand only when the team understands recurring mistakes and has a dependable escalation path."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-chatbot",
+      "label": "AI Chatbot"
+    },
+    {
+      "slug": "chatbots",
+      "label": "Chatbots"
+    },
+    {
+      "slug": "email",
+      "label": "Email"
+    }
+  ]
+}

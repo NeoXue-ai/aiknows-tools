@@ -1,0 +1,76 @@
+{
+  "title": "AI Presentation Makers for Editable Slides and Decks",
+  "description": "Compare AI presentation makers for turning briefs and source material into slides. Assess narrative structure, editability, brand controls, and export quality.",
+  "introduction": "AI presentation makers help turn a brief, outline, or source document into a slide deck. Some prioritize fast narrative drafts, while others emphasize visual layouts, reusable brand styles, or collaboration. A presentation is an argument or explanation delivered through a sequence, so polished individual slides are only part of the task. This category centers on decks; choose AI Document Generator for prose-led files and AI Graphic Design for individual visual assets that may later support a presentation.",
+  "capabilities": [
+    "Develop a draft slide sequence from a brief, outline, or supported source document.",
+    "Suggest slide layouts that organize text, visuals, and other supported content elements.",
+    "Apply available theme and brand controls across a deck during revision.",
+    "Export or share presentations through supported editable formats and presentation delivery options."
+  ],
+  "audiences": [
+    {
+      "label": "Sales and account teams",
+      "text": "Build a customer-specific narrative from approved materials and revise claims and examples before presenting."
+    },
+    {
+      "label": "Educators and team leads",
+      "text": "Turn a lesson or update into a clear sequence, then adjust slide density and speaker guidance."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Narrative control",
+      "text": "Check whether you can reorder ideas, change emphasis, and revise individual slides without losing coherence."
+    },
+    {
+      "label": "Source and chart fidelity",
+      "text": "Inspect numerical claims, quotations, charts, and any imported content against the supplied evidence."
+    },
+    {
+      "label": "Editable delivery",
+      "text": "Test the final file in the software your audience or collaborators use, including fonts and layouts."
+    }
+  ],
+  "workflow": [
+    "Define the audience, central message, evidence, and the action or understanding the deck should support.",
+    "Generate an outline and slide draft, then revise the sequence before polishing visual details.",
+    "Verify content, inspect exported slides, and rehearse the deck in its actual presentation setting."
+  ],
+  "faqs": [
+    {
+      "question": "Should I generate slides before writing the outline?",
+      "answer": "A short outline helps establish the central message and logical sequence. You can use generation to explore alternatives, but review the story before spending time polishing slides that may later be removed."
+    },
+    {
+      "question": "Can I import an existing report into a deck?",
+      "answer": "Some tools accept documents or other source material, but interpretation and formatting vary. Check that the generated slides preserve the report’s meaning, include necessary context, and distinguish findings from recommendations."
+    },
+    {
+      "question": "Does an editable export preserve every design detail?",
+      "answer": "Not necessarily. Fonts, spacing, charts, animations, and other elements may change between formats. Open the exported file in the destination software and inspect each slide before handing it to collaborators."
+    },
+    {
+      "question": "How much text should generated slides contain?",
+      "answer": "Match density to the setting. A live talk usually needs a different level of explanation from a deck read independently, so revise generated text around how the audience will encounter the material."
+    },
+    {
+      "question": "What should I check in generated charts?",
+      "answer": "Verify values, units, labels, source references, and the visual comparison the chart implies. Ensure that the chart remains readable and accurate after export, especially when data or editable elements are transferred."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-document-generator",
+      "label": "AI Document Generator"
+    },
+    {
+      "slug": "ai-graphic-design",
+      "label": "AI Graphic Design"
+    },
+    {
+      "slug": "ai-content-creator",
+      "label": "AI Content Creator"
+    }
+  ]
+}

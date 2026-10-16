@@ -1,0 +1,76 @@
+{
+  "title": "AI Marketing Tools for Campaigns and Team Workflows",
+  "description": "Explore AI marketing tools for audience research, campaign planning, personalized content, and execution, with criteria for control and useful measurement.",
+  "introduction": "AI marketing tools assist the decisions and repeated work involved in reaching an audience. They may support research, campaign planning, content adaptation, segmentation, or connected execution. This category is broader than generating an advertisement or writing a post: it concerns how those assets fit an offer, audience, channel, and objective. Evaluate the specific supported workflow rather than assuming that a marketing platform includes every research, publishing, and measurement capability.",
+  "capabilities": [
+    "Turn audience and offer context into a reviewable campaign brief.",
+    "Adapt approved messages for different channels, segments, or content formats.",
+    "Coordinate repeated marketing tasks with shared guidance and approval steps.",
+    "Bring campaign activity into reports that support a defined business question."
+  ],
+  "audiences": [
+    {
+      "label": "Campaign managers",
+      "text": "Develop a brief, prepare channel variants, and coordinate approvals before distributing material to the intended audience."
+    },
+    {
+      "label": "Growth operations",
+      "text": "Connect recurring enrichment, segmentation, and content tasks while keeping data ownership and exceptions visible."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Workflow coverage",
+      "text": "Identify which stages are actually supported, from research through execution, and where another tool or human handoff remains necessary."
+    },
+    {
+      "label": "Personalization inputs",
+      "text": "Check which customer data informs variations, whether permissions are appropriate, and how incorrect or sensitive targeting can be prevented."
+    },
+    {
+      "label": "Outcome visibility",
+      "text": "Inspect conversion definitions and channel connections so the team can distinguish activity from useful business results."
+    }
+  ],
+  "workflow": [
+    "Define the audience, offer, channel, and decision the campaign should influence, using a maintained source of customer context.",
+    "Prepare a small set of variants and review their factual claims, targeting logic, and consistency before launch.",
+    "Assess results with the measurement limits stated, then revise the brief or workflow rather than scaling weak assumptions."
+  ],
+  "faqs": [
+    {
+      "question": "What does an AI marketing platform actually automate?",
+      "answer": "The answer varies by product. Some draft assets, others connect research, enrichment, segmentation, or execution steps. Map the supported actions against your process instead of treating the category name as a complete feature list."
+    },
+    {
+      "question": "Is AI marketing the same as advertising generation?",
+      "answer": "No. Advertising generation focuses on creative assets. AI marketing can also support audience research, planning, personalization, and operations, although an individual tool may cover only a small part of that broader process."
+    },
+    {
+      "question": "What customer data should inform personalization?",
+      "answer": "Use data appropriate to the campaign purpose and the permissions you hold. Check source quality, freshness, and access controls, and avoid making sensitive inferences simply because a tool can generate personalized wording."
+    },
+    {
+      "question": "How should a team test campaign automation?",
+      "answer": "Start with a small, reviewable segment and explicit success criteria. Inspect content and routing before launch, monitor exceptions, and compare results while accounting for channel changes or other influences."
+    },
+    {
+      "question": "Can these tools replace a marketing strategy?",
+      "answer": "They can organize inputs and execute parts of a plan, but the team still needs to choose the audience, offer, tradeoffs, and objective. Automating an unclear strategy can produce more activity without a useful result."
+    }
+  ],
+  "related": [
+    {
+      "slug": "seo-marketing",
+      "label": "SEO & Marketing"
+    },
+    {
+      "slug": "ai-ad-creative",
+      "label": "AI Ad Creative"
+    },
+    {
+      "slug": "email",
+      "label": "Email"
+    }
+  ]
+}

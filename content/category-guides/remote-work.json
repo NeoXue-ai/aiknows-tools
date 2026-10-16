@@ -1,0 +1,76 @@
+{
+  "title": "Remote Work Tools for Distributed Team Collaboration",
+  "description": "Find remote work tools for asynchronous updates, meetings, shared work, and team coordination. Compare time-zone fit, accessibility, records, and ownership.",
+  "introduction": "Remote work tools help people coordinate when they do not share the same physical workplace or schedule. They may support meetings, asynchronous updates, shared documents, task visibility, or informal interaction. Choose around the team’s coordination problem rather than recreating every office activity online. This category brings these workflows together; project management focuses more narrowly on delivery and dependencies, while meeting note tools concentrate on capturing and distributing what was discussed.",
+  "capabilities": [
+    "Share asynchronous updates that colleagues can review across different working hours.",
+    "Coordinate live conversations with supported meeting and scheduling features.",
+    "Maintain shared context through documents, recordings, or accessible team workspaces.",
+    "Make responsibilities and work progress visible without requiring constant live attendance."
+  ],
+  "audiences": [
+    {
+      "label": "Distributed teams",
+      "text": "Replace repeated status meetings with clear written updates, while reserving live time for discussions that benefit from immediate interaction."
+    },
+    {
+      "label": "Team leads",
+      "text": "Make decisions, owners, and next steps accessible to colleagues who could not attend a meeting or work in another time zone."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Time-zone and attention fit",
+      "text": "Assess whether the workflow supports delayed responses, sensible notifications, and access to the same information without continuous meeting attendance."
+    },
+    {
+      "label": "Shared record quality",
+      "text": "Check search, permissions, version history, and links between discussions and decisions so knowledge does not disappear into disconnected conversations."
+    },
+    {
+      "label": "Inclusive access",
+      "text": "Review device support, captions or transcripts where needed, connection requirements, and how external collaborators participate without excessive account friction."
+    }
+  ],
+  "workflow": [
+    "Identify a coordination problem and decide which parts require live conversation and which can happen asynchronously.",
+    "Trial the workflow with colleagues in different schedules, checking access, notifications, and whether decisions remain easy to find.",
+    "Agree on response expectations and ownership, then review whether the tool reduces coordination gaps or simply adds another channel."
+  ],
+  "faqs": [
+    {
+      "question": "Do remote teams need more meetings?",
+      "answer": "The useful question is what needs live discussion. Use shared updates and accessible decisions for routine coordination, then reserve meetings for ambiguity, collaboration, or relationships that benefit from immediate exchange."
+    },
+    {
+      "question": "How is a remote work tool different from project management?",
+      "answer": "Remote work tools cover communication and shared context across locations. Project management focuses on tasks, dependencies, and delivery. A team may need both, but should define where each type of information belongs."
+    },
+    {
+      "question": "What makes asynchronous communication effective?",
+      "answer": "Provide enough context, a clear request or decision, and the expected response time. Store the update somewhere accessible so colleagues can contribute without having to reconstruct a conversation from scattered messages."
+    },
+    {
+      "question": "How should I evaluate a tool across time zones?",
+      "answer": "Include people who cannot attend the same live session. Check whether they can find decisions, respond meaningfully, and complete their part of the work without depending on an awake colleague."
+    },
+    {
+      "question": "How can a team avoid too many collaboration tools?",
+      "answer": "Map each tool to a distinct purpose and define the authoritative place for tasks, documents, and decisions. Review overlapping channels and retire workflows that require people to duplicate the same update."
+    }
+  ],
+  "related": [
+    {
+      "slug": "project-management",
+      "label": "Project Management"
+    },
+    {
+      "slug": "ai-note-taker",
+      "label": "AI Note Taker"
+    },
+    {
+      "slug": "productivity-tools",
+      "label": "Productivity Tools"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "title": "AI Chatbots for Questions, Assistance, and Support",
+  "description": "Compare AI chatbots for everyday questions and support, with guidance on knowledge sources, conversation quality, connected actions, and human handoff.",
+  "introduction": "AI chatbots provide a conversational interface for questions, drafting, guidance, or support. Some are general assistants; others answer from a defined knowledge collection or operate inside a business service. This category focuses on the conversational experience and what supports it. Chatbot-building platforms belong nearby, while agents emphasize multi-step action. Ask what the bot can know and do, and where a person takes over when the conversation reaches its limits.",
+  "capabilities": [
+    "Answer questions using the knowledge sources and context a product supports.",
+    "Maintain relevant conversation context while clarifying incomplete or ambiguous requests.",
+    "Draft text or guide users through a defined information task.",
+    "Route unresolved questions or proposed actions to an appropriate human reviewer."
+  ],
+  "audiences": [
+    {
+      "label": "Individual users",
+      "text": "Explore ideas, ask follow-up questions, and verify important answers against reliable material outside the conversation."
+    },
+    {
+      "label": "Service teams",
+      "text": "Offer first-line guidance from approved knowledge while preserving a clear route to a person for unresolved cases."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Knowledge grounding",
+      "text": "Check whether answers use general model knowledge, supplied documents, live sources, or a maintained business knowledge base."
+    },
+    {
+      "label": "Conversation boundaries",
+      "text": "Test clarification, uncertainty, and escalation on realistic questions rather than judging only a fluent first answer."
+    },
+    {
+      "label": "Action permissions",
+      "text": "Inspect connected tools and approval requirements separately from conversational abilities, especially when the bot can change records."
+    }
+  ],
+  "workflow": [
+    "Define the audience, allowed questions, knowledge sources, and situations that require human assistance before selecting a chatbot.",
+    "Test ordinary and difficult conversations, checking answers, clarification, source use, and how unresolved questions are handled.",
+    "Maintain the underlying knowledge and review recurring failures, adjusting the scope rather than expecting conversation quality to improve automatically."
+  ],
+  "faqs": [
+    {
+      "question": "How is an AI chatbot different from an AI agent?",
+      "answer": "A chatbot centers on conversation. An agent emphasizes planning or executing tasks across steps and tools. Products may combine both, so inspect actual permissions and actions rather than using the labels as a capability guarantee."
+    },
+    {
+      "question": "Can a chatbot answer accurately from my documents?",
+      "answer": "Some support document-based answers, but test retrieval and interpretation with representative questions. Verify references and access controls, and check what happens when the answer is missing or sources disagree."
+    },
+    {
+      "question": "What makes a good support chatbot handoff?",
+      "answer": "The user should understand when human help is needed and how to reach it. Where supported, preserve the question and relevant conversation context so the person does not have to repeat everything."
+    },
+    {
+      "question": "Should a chatbot always provide a confident answer?",
+      "answer": "No. A useful chatbot should clarify missing context or acknowledge limits. Evaluate how it handles uncertainty, because a plausible but unsupported answer can create more work than a transparent request for help."
+    },
+    {
+      "question": "Do I need a chatbot builder or a finished assistant?",
+      "answer": "Choose a finished assistant for an established personal or business workflow. Choose a builder when you need to configure knowledge, behavior, channels, or integrations, and can maintain those choices over time."
+    }
+  ],
+  "related": [
+    {
+      "slug": "chatbots",
+      "label": "Chatbots"
+    },
+    {
+      "slug": "ai-agent",
+      "label": "AI Agent"
+    },
+    {
+      "slug": "customer-support",
+      "label": "Customer Support"
+    },
+    {
+      "slug": "productivity",
+      "label": "Productivity & Automation"
+    }
+  ]
+}

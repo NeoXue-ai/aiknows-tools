@@ -1,0 +1,80 @@
+{
+  "title": "AI Content Creation Tools for Publishing Workflows",
+  "description": "Compare AI content creation tools for planning, drafting, adapting, and reviewing recurring content. Evaluate editorial controls, channel fit, and collaboration.",
+  "introduction": "AI content creation tools support the recurring work between an idea and a published asset. They may help plan topics, draft material, adapt an approved piece for another channel, or coordinate review. This category emphasizes the production process across a content calendar. Choose AI Writer for focused drafting and revision, Social Media for account scheduling and engagement, or Blogging when the primary requirement is hosting and publishing a blog.",
+  "capabilities": [
+    "Turn approved briefs into draft articles, posts, and other supported content.",
+    "Adapt existing material for different audiences, channels, and intended content lengths.",
+    "Apply supplied style guidance and source material during drafting and revision.",
+    "Organize content preparation with review stages, reusable briefs, and collaboration features."
+  ],
+  "audiences": [
+    {
+      "label": "Editorial teams",
+      "text": "Develop a recurring publication schedule, draft from source material, and route pieces through named reviewers."
+    },
+    {
+      "label": "Small marketing teams",
+      "text": "Repurpose an approved article into channel-specific drafts while keeping the central message and evidence consistent."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Content formats",
+      "text": "Check the actual formats and revision controls needed for your publishing schedule."
+    },
+    {
+      "label": "Source discipline",
+      "text": "Look for ways to supply evidence, preserve references, and identify unsupported generated claims."
+    },
+    {
+      "label": "Production handoffs",
+      "text": "Evaluate approval stages, collaboration, exports, and connections to the systems where content is published."
+    }
+  ],
+  "workflow": [
+    "Create a brief covering audience, purpose, factual sources, channel, and publication requirements.",
+    "Generate and revise drafts, checking claims, voice, and overlap with existing material.",
+    "Approve the final assets, publish through the appropriate channel, and record what needs updating."
+  ],
+  "faqs": [
+    {
+      "question": "How is a content creator different from a writer?",
+      "answer": "A writing tool concentrates on composing and revising text. Content creation products may extend into planning, repurposing, asset organization, or production handoffs, although each product combines these functions differently."
+    },
+    {
+      "question": "Can generated content be published immediately?",
+      "answer": "Review factual claims, references, audience fit, and originality before publication. A fluent draft can still contain invented details or repeat source wording too closely, so editorial responsibility remains with the publishing team."
+    },
+    {
+      "question": "What makes repurposing useful rather than repetitive?",
+      "answer": "Keep the underlying idea consistent while changing structure, examples, and length for the destination. A newsletter introduction and a short social post should serve different reading situations and reader expectations."
+    },
+    {
+      "question": "Do these tools also schedule social posts?",
+      "answer": "Some include scheduling or connect to publishing platforms, while others produce exportable drafts only. If account calendars, moderation, or engagement management drive the purchase, also compare the Social Media category."
+    },
+    {
+      "question": "How should a team evaluate brand voice?",
+      "answer": "Provide approved examples and explicit style rules, then test several formats and revisions. Ask editors to assess consistency, clarity, and factual restraint across the set, rather than choosing one appealing sample."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-writer",
+      "label": "AI Writer"
+    },
+    {
+      "slug": "social-media",
+      "label": "Social Media"
+    },
+    {
+      "slug": "blogging",
+      "label": "Blogging"
+    },
+    {
+      "slug": "writing-content",
+      "label": "Writing & Content"
+    }
+  ]
+}

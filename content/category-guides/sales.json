@@ -1,0 +1,76 @@
+{
+  "title": "Sales Tools for CRM, Prospecting and Team Follow-Up",
+  "description": "Explore sales tools for customer records, prospecting, pipeline management, and follow-up. Compare data quality, integrations, seller workflows, and controls.",
+  "introduction": "Sales tools help teams organize prospective customers, manage relationships, and coordinate the work that moves a commercial conversation forward. This category includes CRM workflows, prospecting support, follow-up, and sales enablement, with different emphasis across products. Start with the team’s selling process and the information each stage requires. E-commerce software focuses more directly on storefront transactions, while marketing tools often address audience acquisition before a prospect enters an active sales conversation.",
+  "capabilities": [
+    "Organize account and contact records with supported ownership and activity tracking.",
+    "Manage opportunities and next actions through a defined commercial pipeline.",
+    "Prepare outreach or meeting material using available customer and product context.",
+    "Connect sales activity to supported email, calendar, and operational systems."
+  ],
+  "audiences": [
+    {
+      "label": "Sales representatives",
+      "text": "Maintain a clear next action for each active opportunity, with reliable context from earlier conversations and an accurate record of commitments."
+    },
+    {
+      "label": "Sales operations teams",
+      "text": "Define common stages and record ownership, then reduce duplicated updates and investigate gaps in pipeline information before changing the process."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Process fit",
+      "text": "Check whether stages, records, and daily actions reflect how your team actually sells, including handoffs between prospecting, sales, and account management."
+    },
+    {
+      "label": "Data quality and lineage",
+      "text": "Evaluate contact sources, update behavior, duplicates, and field ownership so new information improves records without obscuring where it came from."
+    },
+    {
+      "label": "Seller adoption",
+      "text": "Test the everyday workflow, integrations, permissions, and reporting requirements with representatives rather than selecting solely for management dashboard features."
+    }
+  ],
+  "workflow": [
+    "Map the selling process and define the records, owners, and evidence needed at each stage.",
+    "Trial a small set of accounts, checking how activities, follow-up, and handoffs appear in the chosen system.",
+    "Review record quality and team usage, then refine automation and reports around the process that is actually working."
+  ],
+  "faqs": [
+    {
+      "question": "Should a small sales team start with a CRM?",
+      "answer": "Start by identifying whether customer history, ownership, and next actions are becoming difficult to track. A simple CRM can help when those needs are clear, but configuration should match the team’s process."
+    },
+    {
+      "question": "How is sales software different from email outreach software?",
+      "answer": "Outreach software centers on sending and organizing messages. Sales software covers the broader relationship and opportunity lifecycle, including ownership, stages, and records that continue beyond a particular sequence of emails."
+    },
+    {
+      "question": "Can a prospecting tool guarantee contact data is current?",
+      "answer": "Treat contact information as data to verify, not a guarantee. Check source transparency, update practices, correction options, and how the tool handles uncertain or conflicting information before relying on a record."
+    },
+    {
+      "question": "What makes a useful sales automation?",
+      "answer": "It removes a repetitive step while preserving context and responsibility, such as creating a follow-up task from a defined event. Review customer-facing messages and exceptions before permitting automatic actions at scale."
+    },
+    {
+      "question": "Which reports should I evaluate during a trial?",
+      "answer": "Choose reports tied to actual decisions, such as stalled opportunities or missing next actions. Check the underlying stage definitions and record quality so a polished dashboard does not conceal inconsistent team inputs."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ecommerce-sales",
+      "label": "E-commerce & Sales"
+    },
+    {
+      "slug": "email",
+      "label": "Email"
+    },
+    {
+      "slug": "ai-marketing",
+      "label": "AI Marketing"
+    }
+  ]
+}

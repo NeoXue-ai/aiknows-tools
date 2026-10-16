@@ -1,0 +1,76 @@
+{
+  "title": "AI Graphic Design Tools for Layouts and Brand Assets",
+  "description": "Find AI graphic design tools for posters, presentations, banners, and branded assets, with guidance on editing, reusable styles, and export needs.",
+  "introduction": "AI graphic design tools combine text, imagery, and layout to produce communication assets such as posters, banners, reports, and social graphics. They may generate a starting design, adapt a template, or assist with selected edits. This category is about arranging a message for a format and audience, rather than generating an image alone. Evaluate how much control remains after generation and whether the result can be maintained as requirements change.",
+  "capabilities": [
+    "Turn a communication brief into an initial layout with editable elements.",
+    "Combine headlines, supporting text, imagery, and visual hierarchy for specific formats.",
+    "Apply reusable brand colors, typography, and assets across recurring designs.",
+    "Adapt approved layouts and export files for intended publishing or printing channels."
+  ],
+  "audiences": [
+    {
+      "label": "Marketing designers",
+      "text": "Prepare campaign assets in multiple sizes while maintaining a clear message and consistent brand treatment."
+    },
+    {
+      "label": "Small teams",
+      "text": "Create recurring reports, posters, or social graphics from shared templates, with a designated person checking final content."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Editability",
+      "text": "Inspect whether generated text, images, and layout components remain independently editable rather than flattened into one picture."
+    },
+    {
+      "label": "Brand reuse",
+      "text": "Check shared styles, templates, and asset permissions so future work can follow the approved identity."
+    },
+    {
+      "label": "Output requirements",
+      "text": "Confirm dimensions, file formats, text readability, and any printing specifications before treating a design as ready to deliver."
+    }
+  ],
+  "workflow": [
+    "Write the message, audience, format, and required brand elements, identifying the information that must be easiest to notice.",
+    "Generate or adapt a layout, then revise hierarchy, spacing, imagery, and copy for the actual content.",
+    "Check readability and output files at their intended size, obtain approval, and preserve an editable master for future changes."
+  ],
+  "faqs": [
+    {
+      "question": "How is graphic design software different from an image generator?",
+      "answer": "Graphic design tools arrange messages, text, and visuals into a usable layout. Image generators create visual material. A generated picture may support a design, but it does not automatically provide editable typography or a finished communication asset."
+    },
+    {
+      "question": "What should I check after a design is generated?",
+      "answer": "Read every word, inspect visual hierarchy and spacing, and compare the layout with the intended format. Verify that images and text communicate the correct message rather than merely looking polished."
+    },
+    {
+      "question": "Can a generated layout follow a brand consistently?",
+      "answer": "Some tools support brand styles or templates, but check several formats and revisions. Shared guidance and an approval owner remain useful because automatic styling may not capture every brand or communication decision."
+    },
+    {
+      "question": "Why does an editable master matter?",
+      "answer": "A future date change, translation, or new image can be difficult if the design exists only as a flattened export. Keep a version where the relevant text, imagery, and layout elements can still be changed."
+    },
+    {
+      "question": "Can I use the same export for web and print?",
+      "answer": "Check the requirements of each destination. Screen graphics and printed materials may need different dimensions, formats, or production settings, so confirm the intended output rather than assuming one download suits every use."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-image-generator",
+      "label": "AI Image Generator"
+    },
+    {
+      "slug": "ai-logo-generator",
+      "label": "AI Logo Generator"
+    },
+    {
+      "slug": "ai-presentation-maker",
+      "label": "AI Presentation Maker"
+    }
+  ]
+}

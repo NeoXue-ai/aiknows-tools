@@ -1,0 +1,76 @@
+{
+  "title": "AI Research Tools for Business and Market Questions",
+  "description": "Compare AI research tools for market questions, company analysis, and evidence synthesis, with guidance on sources, scope, citations, and decision review.",
+  "introduction": "AI research tools help investigate business, market, or organizational questions by finding, reading, extracting, and comparing information. Some focus on public sources, while others work with licensed collections or internal documents. This category emphasizes the research task and evidence behind a conclusion, within the wider research and data hub. Define the question, source boundaries, and relevant period before evaluating a tool’s ability to produce a convincing-looking report.",
+  "capabilities": [
+    "Explore a business question using the sources a research product covers.",
+    "Extract relevant facts and retain references to their original context.",
+    "Compare companies, themes, or explanations across a defined evidence collection.",
+    "Prepare a synthesis that distinguishes findings from assumptions and missing information."
+  ],
+  "audiences": [
+    {
+      "label": "Market and strategy teams",
+      "text": "Investigate a defined market question, compare source quality, and document what remains uncertain before recommending a course of action."
+    },
+    {
+      "label": "Business researchers",
+      "text": "Organize company or sector evidence and verify important claims before turning a draft analysis into a shared report."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Source universe",
+      "text": "Check coverage, licensing, publication dates, and access to the specific documents or data needed for the question."
+    },
+    {
+      "label": "Claim verification",
+      "text": "Inspect citations and quoted context so reviewers can trace material statements instead of relying on an uncheckable synthesis."
+    },
+    {
+      "label": "Research control",
+      "text": "Evaluate question refinement, exclusions, reusable collections, and exports that preserve the reasoning behind the final recommendation."
+    }
+  ],
+  "workflow": [
+    "Frame the decision and research question, naming the relevant market, period, definitions, and evidence that would change your interpretation.",
+    "Collect and compare sources, checking important claims and recording disagreements or gaps instead of merging them into false certainty.",
+    "Prepare the report with source references and explicit limitations, then review whether the evidence supports the recommendation being proposed."
+  ],
+  "faqs": [
+    {
+      "question": "How is AI research different from ordinary web search?",
+      "answer": "Search locates material; a research workflow may also extract, organize, and compare evidence. Those additional steps help with synthesis, but each important conclusion still needs to be supported by the underlying sources."
+    },
+    {
+      "question": "What makes a research citation useful?",
+      "answer": "It should lead to material that supports the specific claim in its context and relevant period. Review the passage rather than treating the presence of a source link as proof of the statement."
+    },
+    {
+      "question": "Can an AI research report replace market expertise?",
+      "answer": "It can accelerate discovery and organization, but expertise helps recognize inconsistent definitions, missing competitors, and weak assumptions. Preserve subject review for the findings that materially affect the recommendation."
+    },
+    {
+      "question": "How should I compare two research tools?",
+      "answer": "Use the same bounded question and inspect coverage, source quality, missed evidence, and review effort. Compare how easily another person can verify the output, not just how polished the final report appears."
+    },
+    {
+      "question": "What should I do when sources disagree?",
+      "answer": "Keep the disagreement visible, check definitions and dates, and identify what additional evidence would resolve it. A useful synthesis can explain uncertainty rather than forcing incompatible observations into one confident answer."
+    }
+  ],
+  "related": [
+    {
+      "slug": "research-data",
+      "label": "Research & Data"
+    },
+    {
+      "slug": "ai-search-engine",
+      "label": "AI Search Engine"
+    },
+    {
+      "slug": "ai-analytics",
+      "label": "AI Analytics"
+    }
+  ]
+}

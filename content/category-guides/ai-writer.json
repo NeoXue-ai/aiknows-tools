@@ -1,0 +1,80 @@
+{
+  "title": "AI Writing Tools for Drafting and Better Revision",
+  "description": "Compare AI writing tools for drafts, rewriting, tone, and long-form work, with guidance on context, editing control, factual review, and team use.",
+  "introduction": "AI writers help turn instructions and source material into drafts or revised text. Their scope can include articles, emails, product copy, outlines, and changes to tone or structure. This category centers on composing and editing words. It differs from grammar checking, which targets corrections, and from content-production platforms, which may also coordinate calendars, assets, approvals, and publication. Begin with a writing task and an editorial standard you can explain.",
+  "capabilities": [
+    "Develop outlines and first drafts from a brief and supporting material.",
+    "Rewrite selected passages for clarity, structure, length, or intended audience.",
+    "Apply tone and terminology guidance across recurring types of writing.",
+    "Compare revisions while preserving the author’s intended claims and meaning."
+  ],
+  "audiences": [
+    {
+      "label": "Writers and editors",
+      "text": "Explore alternative structures and revise a draft while checking every factual claim against the supplied source material."
+    },
+    {
+      "label": "Marketing teams",
+      "text": "Prepare recurring emails or page copy from a shared brief, then route the result through normal editorial approval."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Context control",
+      "text": "Check how source material, examples, brand guidance, and document length influence the generated text."
+    },
+    {
+      "label": "Revision workflow",
+      "text": "Prefer editing controls that let you change a passage without unexpectedly rewriting approved sections elsewhere."
+    },
+    {
+      "label": "Editorial review",
+      "text": "Assess fact checking, version history, collaboration, and export needs separately from the apparent fluency of a sample draft."
+    }
+  ],
+  "workflow": [
+    "Prepare a brief naming the reader, purpose, required evidence, tone, and claims the draft must avoid.",
+    "Generate an outline or short section first, then refine the instructions before expanding the document.",
+    "Edit for accuracy and coherence, verify source-dependent claims, and approve the final text in its publishing context."
+  ],
+  "faqs": [
+    {
+      "question": "What should I include in an AI writing brief?",
+      "answer": "Specify the reader, purpose, format, source material, and desired tone. Include examples and prohibited claims when useful. Clear constraints make the output easier to judge than a request to simply write something good."
+    },
+    {
+      "question": "Can an AI writer research facts while drafting?",
+      "answer": "Some tools include research features, but drafting and evidence gathering are different tasks. Verify the actual source for each important factual statement, even when the writer supplies a plausible citation."
+    },
+    {
+      "question": "How is an AI writer different from a grammar checker?",
+      "answer": "An AI writer can generate or restructure text, while a grammar checker primarily flags language issues and suggests corrections. Broad rewriting may change meaning, so the larger intervention requires closer editorial review."
+    },
+    {
+      "question": "Can I use one writer for every content format?",
+      "answer": "Possibly, but test the formats you actually produce. Long articles, concise emails, and product listings need different context and editing controls; a strong sample in one format does not establish equal performance elsewhere."
+    },
+    {
+      "question": "How can a team keep generated writing consistent?",
+      "answer": "Maintain a shared brief, terminology, examples, and approval process. Review outputs against those standards and update the guidance when problems recur, rather than expecting a brand setting to replace editorial ownership."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-grammar-checker",
+      "label": "AI Grammar Checker"
+    },
+    {
+      "slug": "ai-content-creator",
+      "label": "AI Content Creator"
+    },
+    {
+      "slug": "ai-summarizer",
+      "label": "AI Summarizer"
+    },
+    {
+      "slug": "writing-content",
+      "label": "Writing & Content"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "title": "AI Education Tools for Teaching and Learning Materials",
+  "description": "Explore AI education tools for lesson preparation, classroom materials, and learning activities. Compare curriculum fit, teacher controls, accessibility, and review.",
+  "introduction": "AI education tools support teaching and the preparation of learning experiences. They may help create lesson materials, adapt explanations, draft practice activities, or organize classroom work. This category emphasizes educational content and educator workflows rather than treating every answer generator as a teaching system. AI Tutor is more specific to guided individual learning, while AI Answer focuses on question responses. Choose around learning objectives, learner needs, and how an educator will review the resulting material.",
+  "capabilities": [
+    "Draft lesson outlines and teaching materials from supplied learning objectives and source content.",
+    "Adapt explanations or practice activities for stated learner needs and levels of understanding.",
+    "Prepare candidate questions and supporting material for educator review and classroom use.",
+    "Organize supported teaching workflows with available sharing, revision, or classroom management controls."
+  ],
+  "audiences": [
+    {
+      "label": "Teachers and instructors",
+      "text": "Prepare lesson drafts and practice material, then check subject accuracy, difficulty, and alignment with learning goals."
+    },
+    {
+      "label": "Learning content teams",
+      "text": "Adapt approved material for different groups while maintaining a clear connection to the intended educational outcomes."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Learning alignment",
+      "text": "Test whether activities address the actual objective and require the kind of understanding you want learners to develop."
+    },
+    {
+      "label": "Educator oversight",
+      "text": "Check revision controls, visibility into generated explanations, and how teachers can correct unsuitable material."
+    },
+    {
+      "label": "Learner context",
+      "text": "Review accessibility, age suitability, language needs, account requirements, and handling of any learner information."
+    }
+  ],
+  "workflow": [
+    "Define learning goals, prerequisite knowledge, learner needs, and the role the tool should play.",
+    "Generate a small set of materials and review accuracy, difficulty, clarity, and accessibility.",
+    "Use approved activities in context and revise them based on observed learning and educator feedback."
+  ],
+  "faqs": [
+    {
+      "question": "How is an education tool different from an AI tutor?",
+      "answer": "An education tool may support teachers, materials, or classroom processes. A tutor focuses more directly on guiding an individual learner through understanding and practice, although some products combine both types of workflow."
+    },
+    {
+      "question": "Can generated lesson material be used without review?",
+      "answer": "Review subject accuracy, examples, difficulty, and suitability for the learners before use. Confirm that the activity supports the intended objective rather than merely presenting fluent information or producing a plausible answer."
+    },
+    {
+      "question": "What should I check in generated quiz questions?",
+      "answer": "Inspect the correct answer, distractors, wording, and any explanation. Check whether the question measures the intended knowledge or skill and whether ambiguity or missing context could confuse a learner who understands the topic."
+    },
+    {
+      "question": "Can one tool support every age and subject?",
+      "answer": "Do not assume broad coverage means equal suitability. Test the actual subject, age group, language, and accessibility needs, then assess the controls educators have to adapt or reject unsuitable outputs."
+    },
+    {
+      "question": "How should a school evaluate a pilot?",
+      "answer": "Choose a defined teaching task and involve the educators who will use the output. Review preparation effort, material quality, learner experience, and information handling without treating engagement alone as evidence of improved learning."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-tutor",
+      "label": "AI Tutor"
+    },
+    {
+      "slug": "ai-answer",
+      "label": "AI Answer"
+    },
+    {
+      "slug": "education",
+      "label": "Education"
+    },
+    {
+      "slug": "research-data",
+      "label": "Research & Data"
+    },
+    {
+      "slug": "ai-summarizer",
+      "label": "AI Summarizer"
+    }
+  ]
+}

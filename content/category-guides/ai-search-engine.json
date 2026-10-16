@@ -1,0 +1,76 @@
+{
+  "title": "AI Search Engines for Source Discovery and Answers",
+  "description": "Compare AI search engines for finding sources and synthesizing answers. Review citation quality, freshness, search scope, and how uncertainty is communicated.",
+  "introduction": "AI search engines combine information discovery with generated answers or summaries. They can help orient a question, find useful sources, and compare material without opening every result first. The important boundary is between what a source actually supports and what the system synthesizes or infers. This category focuses on finding information beyond a supplied document; document chat works with an uploaded collection, and general assistants may offer search as only one feature.",
+  "capabilities": [
+    "Find relevant pages or documents in the search scope the service supports.",
+    "Synthesize a response from retrieved material with available source references.",
+    "Refine a question through follow-up searches and conversational exploration.",
+    "Organize discovered sources for comparison, reading, or a subsequent research task."
+  ],
+  "audiences": [
+    {
+      "label": "Research readers",
+      "text": "Build an initial source map for an unfamiliar question, then open important references and check the evidence before writing conclusions."
+    },
+    {
+      "label": "Business teams",
+      "text": "Investigate a current market or product question, separating dated source facts from generated interpretations that need additional confirmation."
+    }
+  ],
+  "criteria": [
+    {
+      "label": "Citation usefulness",
+      "text": "Check whether references support the associated claims and lead to accessible source passages rather than merely related pages."
+    },
+    {
+      "label": "Coverage and freshness",
+      "text": "Assess search scope, date controls, regional coverage, and access limitations for the kinds of information your questions require."
+    },
+    {
+      "label": "Uncertainty and comparison",
+      "text": "Look for clear treatment of conflicting sources, missing evidence, and qualified conclusions rather than an overly definite single answer."
+    }
+  ],
+  "workflow": [
+    "Frame a specific question with its time period, location, and any preferred source types.",
+    "Inspect the generated answer and open the key references, checking dates, context, and support for individual claims.",
+    "Refine gaps or disagreements with further searches and keep a source list for the final research output."
+  ],
+  "faqs": [
+    {
+      "question": "Are citations enough to trust an AI search answer?",
+      "answer": "No. Open the cited material and check whether it supports the exact statement, including dates and qualifications. A relevant-looking link can still fail to establish the claim placed beside it."
+    },
+    {
+      "question": "How is AI search different from document chat?",
+      "answer": "AI search discovers information across its available search sources. Document chat primarily answers from material you provide or connect. Choose based on whether you need discovery or analysis of a known collection."
+    },
+    {
+      "question": "Can I rely on an answer about a recent event?",
+      "answer": "Check source publication dates and the dates of the underlying events. Look for current primary evidence and conflicting updates rather than assuming a generated answer reflects the latest available information."
+    },
+    {
+      "question": "What should I do when sources disagree?",
+      "answer": "Identify whether they discuss the same period, definitions, and circumstances. Read the primary evidence where available, preserve unresolved differences, and avoid combining incompatible claims into a falsely certain conclusion."
+    },
+    {
+      "question": "When should I use a specialist research database?",
+      "answer": "Use one when your task requires coverage, filters, or source types a general search service cannot establish. AI search can help orient the question, but it should not imply exhaustive discovery."
+    }
+  ],
+  "related": [
+    {
+      "slug": "ai-research",
+      "label": "AI Research"
+    },
+    {
+      "slug": "ai-pdf",
+      "label": "AI PDF"
+    },
+    {
+      "slug": "directories",
+      "label": "Directories"
+    }
+  ]
+}
